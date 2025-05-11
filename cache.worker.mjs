@@ -46,11 +46,19 @@ function time({ hours = 0, minutes = 0, seconds = 0 } = {}) {
  * @returns {boolean}
  */
 function shouldCache(url) {
-	const { pathname } = new URL(url);
+	const { origin, pathname } = new URL(url);
+
+	if (origin.startsWith('chrome-extension:')) return;
 
 	return cacheTargets.some((target) => {
 		// Nếu target là một URL cụ thể, kiểm tra khớp tuyệt đối
 		if (target.startsWith('http')) return url === target;
+
+		// Nếu target là một đường dẫn kết thúc bằng /*, cache toàn bộ con/cháu
+		if (target.endsWith('/*')) {
+			const basePath = target.slice(0, -2); // Bỏ /* đi
+			return pathname.startsWith(basePath);
+		}
 
 		// Nếu target là một đường dẫn, chỉ cache các file con trực tiếp
 		if (pathname.startsWith(target)) {

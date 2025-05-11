@@ -5,7 +5,7 @@ import data from './exported-data.js';
 import { convertQuotes } from './utils.js';
 
 const DIST_PATH = (function getDist() {
-	const DIST_PATH = 'dist/s1/';
+	const DIST_PATH = '@database/s1/';
 	if (!existsSync(DIST_PATH)) mkdirSync(DIST_PATH, { recursive: true });
 	return DIST_PATH;
 })();
@@ -50,7 +50,7 @@ function optimizeCSV() {
 
 	writeFileSync(
 		join(DIST_PATH, 'tracks.csv'),
-		'#code,#rj-code,#cvs,#tags,#series,#eng-name,#jap-name,#thumbnail,#images,#audios,#additional\n'.toUpperCase() +
+		'#track_code,#rj-code,#cv_ids,#tag_ids,#series_ids,#eng-name,#jap-name,#thumbnail,#images,#audios,#additional_urls\n'.toUpperCase() +
 			optimizedTracks.join('\n')
 	);
 	console.log('File CSV đã được tối ưu và lưu tại:', DIST_PATH);
@@ -76,7 +76,10 @@ function processCategories(data, columnIndex, fileName) {
 
 	const categoryEntries = Array.from(categoryMap.entries());
 	const optimizedData = categoryEntries.map(([category, { index, count }]) => `${index},${category},${count}`);
-	writeFileSync(join(DIST_PATH, fileName), '#id,#category-name,#quantity\n'.toUpperCase() + optimizedData.join('\n'));
+	writeFileSync(
+		join(DIST_PATH, fileName),
+		'#category_id,#category_name,#quantity\n'.toUpperCase() + optimizedData.join('\n')
+	);
 
 	const categoryIndexMap = new Map(categoryEntries.map(([category, { index }]) => [category, index]));
 	return categoryIndexMap;
@@ -110,7 +113,7 @@ function processURLs(data, columnIndexList, fileName) {
 
 	const prefixEntries = Array.from(prefixMap.entries());
 	const optimizedData = prefixEntries.map(([prefix, index]) => `${index},${prefix}`);
-	writeFileSync(join(DIST_PATH, fileName), '#id,#prefix\n'.toUpperCase() + optimizedData.join('\n'));
+	writeFileSync(join(DIST_PATH, fileName), '#prefix_id,#prefix\n'.toUpperCase() + optimizedData.join('\n'));
 
 	return prefixMap;
 }
