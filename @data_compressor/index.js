@@ -1,12 +1,12 @@
-import { existsSync, mkdirSync, writeFileSync } from 'fs';
+import { existsSync, writeFileSync } from 'fs';
 import { join } from 'path';
 
 import data from './exported-data.js';
 import { convertQuotes } from './utils.js';
 
 const DIST_PATH = (function getDist() {
-	const DIST_PATH = '@database/s1/';
-	if (!existsSync(DIST_PATH)) mkdirSync(DIST_PATH, { recursive: true });
+	const DIST_PATH = '@resources/databases/s1/';
+	if (!existsSync(DIST_PATH)) throw new Error('Directory not found! Create before run');
 	return DIST_PATH;
 })();
 
@@ -17,7 +17,9 @@ optimizeCSV();
  */
 function optimizeCSV() {
 	const formatedData = data.map((row) =>
-		row.map((col, _) => (typeof col === 'string' && col.length ? convertQuotes(col.trim()) : col))
+		row.map((col, _) =>
+			typeof col === 'string' && col.length ? convertQuotes(col.trim()) : col
+		)
 	);
 
 	// Tối ưu category
@@ -75,13 +77,18 @@ function processCategories(data, columnIndex, fileName) {
 	});
 
 	const categoryEntries = Array.from(categoryMap.entries());
-	const optimizedData = categoryEntries.map(([category, { index, count }]) => `${index},${category},${count}`);
+	const optimizedData = categoryEntries.map(
+		([category, { index, count }]) => `${index},${category},${count}`
+	);
 	writeFileSync(
 		join(DIST_PATH, fileName),
-		'#category_id,#category_name,#quantity\n'.toUpperCase() + optimizedData.join('\n')
+		'#category_id,#category_name,#quantity\n'.toUpperCase() +
+			optimizedData.join('\n')
 	);
 
-	const categoryIndexMap = new Map(categoryEntries.map(([category, { index }]) => [category, index]));
+	const categoryIndexMap = new Map(
+		categoryEntries.map(([category, { index }]) => [category, index])
+	);
 	return categoryIndexMap;
 }
 
@@ -105,15 +112,23 @@ function processURLs(data, columnIndexList, fileName) {
 				if (!prefixMap.has(prefix)) {
 					prefixMap.set(prefix, prefixMap.size + 1);
 				}
-				line[columnIndex] = line[columnIndex].replace(url, `${prefixMap.get(prefix)}->${fileName}`);
+				line[columnIndex] = line[columnIndex].replace(
+					url,
+					`${prefixMap.get(prefix)}->${fileName}`
+				);
 			});
 			line[columnIndex] = `"${line[columnIndex]}"`;
 		});
 	});
 
 	const prefixEntries = Array.from(prefixMap.entries());
-	const optimizedData = prefixEntries.map(([prefix, index]) => `${index},${prefix}`);
-	writeFileSync(join(DIST_PATH, fileName), '#prefix_id,#prefix\n'.toUpperCase() + optimizedData.join('\n'));
+	const optimizedData = prefixEntries.map(
+		([prefix, index]) => `${index},${prefix}`
+	);
+	writeFileSync(
+		join(DIST_PATH, fileName),
+		'#prefix_id,#prefix\n'.toUpperCase() + optimizedData.join('\n')
+	);
 
 	return prefixMap;
 }

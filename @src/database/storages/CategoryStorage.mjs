@@ -1,4 +1,4 @@
-import { Category } from '../../src/app.models.mjs';
+import { Category } from '../../app.models.mjs';
 
 /**
  * @template {'cv' | 'tag' | 'series'} T

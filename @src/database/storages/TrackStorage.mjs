@@ -5,7 +5,7 @@ import {
 	TrackCategories,
 	TrackInfo,
 	TrackResources,
-} from '../../src/app.models.mjs';
+} from '../../app.models.mjs';
 
 export default class TrackStorage {
 	/**

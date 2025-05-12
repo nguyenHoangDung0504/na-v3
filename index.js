@@ -1,4 +1,5 @@
-import { database } from './@database/index.mjs';
+import cacheManager from './@src/cache.mgr.mjs';
+import { database } from './@src/database/index.mjs';
 
-console.log(database);
-window.database = database;
+cacheManager.export();
+database.export();

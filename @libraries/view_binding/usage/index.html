@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Binding Example</title>
+    <style>
+        .button {
+            margin: 5px;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        .button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="app">
+        <h1 id="title">Tiêu đề chính</h1>
+        <input type="text" id="inputField" placeholder="Nhập nội dung...">
+        <button class="button" id="submitButton">Gửi</button>
+        <ul class="items">
+            <li>Item 1</li>
+            <li>Item 2</li>
+        </ul>
+    </div>
+
+    <script type="module" src="index.mjs"></script>
+</body>
+
+</html>

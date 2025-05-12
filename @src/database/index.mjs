@@ -1,5 +1,6 @@
-import { SearchSuggestion } from '../src/app.models.mjs';
-import { sort } from '../src/app.utils.mjs';
+import decoratorManager from '../../@libraries/decorators/index.mjs';
+import { SearchSuggestion } from '../app.models.mjs';
+import * as utils from '../app.utils.mjs';
 import CategoryStorage from './storages/CategoryStorage.mjs';
 import PrefixStorage from './storages/PrefixStorage.mjs';
 import TrackStorage from './storages/TrackStorage.mjs';
@@ -8,7 +9,7 @@ class Database {
 	/**
 	 * @param {string} resourcePath
 	 */
-	constructor(resourcePath = '/@database/s1/') {
+	constructor(resourcePath = '/@resources/databases/s1/') {
 		resourcePath = resourcePath.endsWith('/')
 			? resourcePath
 			: resourcePath + '/';
@@ -137,7 +138,7 @@ class Database {
 
 		// Sắp xếp lại theo index gốc trước khi sort theo relevance
 		suggestions.sort((a, b) => a.index - b.index);
-		suggestions.sort(sort.bySuggestionRelevance);
+		suggestions.sort(utils.sort.bySuggestionRelevance);
 
 		return suggestions;
 
@@ -188,6 +189,14 @@ class Database {
 			await Promise.all(categoryPromises);
 		}
 	}
+
+	export() {
+		window.database = this;
+	}
 }
+
+decoratorManager
+	.applyFor(TrackStorage, ['get'], ['memoize'])
+	.applyFor(Database, ['searchTracks', 'getSearchSuggestions'], ['memoize']);
 
 export const database = new Database();
