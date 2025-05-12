@@ -1,4 +1,4 @@
-import { css, defineLightDOMComponent } from '../../src/index.mjs';
+import { css, defineLightDOMComponent } from '../../index.mjs';
 
 export default class AppRoot {}
 

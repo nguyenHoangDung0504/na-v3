@@ -1,4 +1,9 @@
-import { css, defineLightDOMComponent, html, RenderableComponent } from '../../src/index.mjs';
+import {
+	css,
+	defineLightDOMComponent,
+	html,
+	RenderableComponent,
+} from '../../index.mjs';
 
 export default class AppHeader extends RenderableComponent {
 	static DEBUG_MOD = true;
@@ -23,8 +28,8 @@ AppHeader = defineLightDOMComponent('app-header', {
 
 function body() {
 	return html`
-		<h2>Hello, @render:user-name!</h2>
-		<input type="text" placeholder="@render:place-holder" />
+		<h2>Hello, @render:userName!</h2>
+		<input type="text" placeholder="@render:view.placeHolder" />
 	`;
 }
 

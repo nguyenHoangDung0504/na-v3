@@ -4,8 +4,7 @@ import BaseComponent from './BaseComponent.mjs';
  * @extends {BaseComponent}
  * @classdesc
  * `RenderableComponent` is a base class for components that can re-render their inner HTML content
- * based on attribute values. When extending this class, you **must call** `super.connectedCallback()`
- * and `super.attributeChangedCallback()` if you override these methods.
+ * based on attribute values. When extending this class, you **must call** `super.connectedCallback()` if you override these methods.
  * Failing to do so will prevent the rendering logic from functioning correctly.
  *
  * **How it works:**
@@ -15,16 +14,9 @@ import BaseComponent from './BaseComponent.mjs';
  *
  * **Example of Attribute Placeholder:**
  * HTML: `<div>@render:title</div>`
- * JavaScript: `element.setAttribute('title', 'Hello World')`
  * Rendered Output: `<div>Hello World</div>`
  */
 export default class RenderableComponent extends BaseComponent {
-	/**
-	 * Prefix for all attributes to avoid conflicts.
-	 * You can change this value as needed.
-	 */
-	static PREFIX_ATTRIBUTE = 'render_key:';
-
 	/**
 	 * Prefix for attribute placeholders used in the template.
 	 * You can change this value as needed.
@@ -59,8 +51,12 @@ export default class RenderableComponent extends BaseComponent {
 			this._templateHTML = this.innerHTML;
 
 			if (this.constructor.DEBUG_MOD) {
-				console.log(`** Debug for component "${this.constructor.COMPONENT_NAME}":`);
-				console.log(`** On: ${this.constructor.COMPONENT_NAME}.connectedCallback`);
+				console.log(
+					`** Debug for component "${this.constructor.COMPONENT_NAME}":`
+				);
+				console.log(
+					`** On: ${this.constructor.COMPONENT_NAME}.connectedCallback`
+				);
 				console.log('Saved Template HTML:', this._templateHTML);
 				console.log('\n');
 			}
@@ -68,7 +64,6 @@ export default class RenderableComponent extends BaseComponent {
 	}
 
 	/**
-	 * @protected
 	 * Renders the component's HTML content based on attribute placeholders.
 	 */
 	render() {
@@ -77,17 +72,32 @@ export default class RenderableComponent extends BaseComponent {
 		// Clone the original template to prevent overwriting it
 		let renderedHTML = this._templateHTML;
 
-		const prefix = this.constructor.PREFIX_ATTRIBUTE;
 		const placeholderPrefix = this.constructor.ATTRIBUTE_PLACEHOLDER_PREFIX;
 
 		// Tạo regex thông qua RegExp constructor để chấp nhận giá trị biến
-		const regex = new RegExp(`${placeholderPrefix}:([a-zA-Z0-9-_]+)`, 'g');
+		const regex = new RegExp(
+			`${placeholderPrefix}:([a-zA-Z0-9_\\-]+(?:\\.[a-zA-Z0-9_\\-]+)*)`,
+			'g'
+		);
+
+		if (
+			!this._templateHTML ||
+			typeof this.model !== 'object' ||
+			this.model === null
+		) {
+			console.error('Invalid model:', this.model);
+			return;
+		}
 
 		// Replace all placeholders
-		renderedHTML = renderedHTML.replace(regex, (_, key) => {
-			const prefixedKey = `${prefix}${key}`;
+		renderedHTML = this._templateHTML.replace(regex, (_, key) => {
+			const value = key.split('.').reduce((acc, k) => acc?.[k], this.model);
+			console.log(key);
 			return (
-				this.getAttribute(prefixedKey) || (this.constructor.DEBUG_MOD ? `@require-debug:${prefixedKey} not found` : '')
+				value ??
+				(this.constructor.DEBUG_MOD
+					? `Require-debug: key::\`${key}\` not found in model`
+					: '')
 			);
 		});
 
@@ -95,8 +105,10 @@ export default class RenderableComponent extends BaseComponent {
 		this.innerHTML = renderedHTML;
 
 		if (this.constructor.DEBUG_MOD) {
-			console.log(`** Debug for component "${this.constructor.COMPONENT_NAME}":`);
-			console.log(`** On: ${this.constructor.COMPONENT_NAME}._render`);
+			console.log(
+				`** Debug for component "${this.constructor.COMPONENT_NAME}":`
+			);
+			console.log(`** On: ${this.constructor.COMPONENT_NAME}.render`);
 			console.log('Rendered HTML:', renderedHTML);
 			console.log('\n');
 		}
@@ -107,36 +119,12 @@ export default class RenderableComponent extends BaseComponent {
 	 * This allows the component to reflect property values as HTML attributes.
 	 * Render it self again.
 	 *
-	 * @param {Object} model - An object representing key-value pairs to map as attributes.
+	 * @template T
+	 * @param {T} model - An object representing key-value pairs to map as attributes.
 	 * @throws {Error} If the key name is not valid for attribute transformation.
 	 */
 	applyModel(model) {
-		const prefix = this.constructor.PREFIX_ATTRIBUTE;
-
-		// Regex pattern to detect camelCase to kebab-case transitions
-		const attributePattern = /(?<=[a-z])(?=[A-Z])/g;
-
-		// Collect attributes to observe
-		const observedAttributes = [];
-
-		for (const [key, value] of Object.entries(model)) {
-			// Convert camelCase to kebab-case
-			const attributeName = key.replace(attributePattern, '-').toLowerCase();
-
-			// Check if the conversion is valid
-			if (!attributeName.includes('-') && attributeName !== key.toLowerCase()) {
-				throw new Error(
-					`Invalid attribute name "${key}". It must contain at least one transition between lowercase and uppercase.`
-				);
-			}
-
-			// Apply attribute to the element
-			this.setAttribute(prefix + attributeName, value);
-
-			// Collect it for observation
-			observedAttributes.push(prefix + attributeName);
-		}
-
-		this.render();
+		/**@type {T} */
+		this.model = model;
 	}
 }
