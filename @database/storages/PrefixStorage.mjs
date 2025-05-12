@@ -1,4 +1,4 @@
-class PrefixStorage {
+export default class PrefixStorage {
 	/**
 	 * @private
 	 * @type {Map<number, string>}
@@ -14,11 +14,7 @@ class PrefixStorage {
 	/**
 	 * @param {string} resourcePath
 	 */
-	constructor(resourcePath = '/@database/s1/') {
-		resourcePath = resourcePath.endsWith('/')
-			? resourcePath
-			: resourcePath + '/';
-
+	constructor(resourcePath) {
 		this._pending = fetch(resourcePath + 'prefix.csv')
 			.then((res) => res.text())
 			.then((rawCSV) => this._parseRawCSV(rawCSV));
@@ -47,5 +43,3 @@ class PrefixStorage {
 		return this._registry.get(id);
 	}
 }
-
-export const prefixStorage = new PrefixStorage();

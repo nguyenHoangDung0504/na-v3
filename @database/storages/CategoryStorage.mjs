@@ -1,9 +1,9 @@
-import { Category } from '../src/app.models.mjs';
+import { Category } from '../../src/app.models.mjs';
 
 /**
  * @template {'cv' | 'tag' | 'series'} T
  */
-class CategoryStorage {
+export default class CategoryStorage {
 	/**
 	 * @private
 	 * @type {Map<number, Category<T>>}
@@ -32,12 +32,8 @@ class CategoryStorage {
 	 * @param {T} type
 	 * @param {string} resourcePath
 	 */
-	constructor(type, resourcePath = '/@database/s1/') {
+	constructor(type, resourcePath) {
 		this._type = type;
-		resourcePath = resourcePath.endsWith('/')
-			? resourcePath
-			: resourcePath + '/';
-
 		this._pending = fetch(resourcePath + this._type + '.csv')
 			.then((res) => res.text())
 			.then((rawCSV) => this._parseRawCSV(rawCSV));
@@ -105,7 +101,3 @@ class CategoryStorage {
 		return this._registry.get(id);
 	}
 }
-
-export const cvStorage = new CategoryStorage('cv');
-export const tagStorage = new CategoryStorage('tag');
-export const seriesStorage = new CategoryStorage('series');

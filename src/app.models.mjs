@@ -77,18 +77,6 @@ export class TrackResources {
 		this.images = images;
 		this.audios = audios;
 	}
-
-	/**
-	 * @param {boolean} option
-	 */
-	checkURLError(option) {
-		if (option === true) {
-			tryURL(this.thumbnail);
-			this.images.forEach((url) => tryURL(url));
-			this.audios.forEach((url) => tryURL(url));
-		}
-		return this;
-	}
 }
 
 export class AddtionalURL {
@@ -99,16 +87,6 @@ export class AddtionalURL {
 	constructor(label, url) {
 		this.note = label;
 		this.url = url;
-	}
-
-	/**
-	 * @param {boolean} option
-	 */
-	checkURLError(option) {
-		if (option === true) {
-			tryURL(this.url);
-		}
-		return this;
 	}
 }
 
@@ -138,14 +116,5 @@ export class SearchSuggestion {
 		this.value = value;
 		this.keyword = keyword;
 		this.code = id;
-	}
-}
-
-function tryURL(urlString) {
-	try {
-		new URL(urlString);
-	} catch (error) {
-		console.error(error);
-		console.log('Error url:', urlString);
 	}
 }

@@ -1,3 +1,4 @@
-import * as storages from './@database/index.mjs';
+import { database } from './@database/index.mjs';
 
-console.log(storages);
+console.log(database);
+window.database = database;

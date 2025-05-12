@@ -5,12 +5,9 @@ import {
 	TrackCategories,
 	TrackInfo,
 	TrackResources,
-} from '../src/app.models.mjs';
+} from '../../src/app.models.mjs';
 
-class TrackStorage {
-	/**Tạo new URL với mỗi assets URL để throw lỗi khi URL sai định dạng, mặc định tắt vì khá nặng */
-	static CHECK_URL = false;
-
+export default class TrackStorage {
 	/**
 	 * @private
 	 * @type {Map<number, Track>}
@@ -38,11 +35,7 @@ class TrackStorage {
 	/**
 	 * @param {string} resourcePath
 	 */
-	constructor(resourcePath = '/@database/s1/') {
-		resourcePath = resourcePath.endsWith('/')
-			? resourcePath
-			: resourcePath + '/';
-
+	constructor(resourcePath) {
 		this._pending = fetch(resourcePath + 'tracks.csv')
 			.then((res) => res.text())
 			.then((rawCSV) => this._parseRawCSV(rawCSV));
@@ -72,9 +65,7 @@ class TrackStorage {
 				.map((col) => new Resource(...col.split('->')));
 			const additionalURLs = line[10]
 				? line[10].split(',').map((col) => {
-						return new AddtionalURL(...col.split('::')).checkURLError(
-							TrackStorage.CHECK_URL
-						);
+						return new AddtionalURL(...col.split('::'));
 				  })
 				: [];
 			const [, RJcode, , , , eName, jName] = line;
@@ -137,8 +128,6 @@ class TrackStorage {
 		return this._registry.get(id) || this._registry.get(this._codeMap.get(id));
 	}
 }
-
-export const trackStorage = new TrackStorage();
 
 /**
  * @param {string} line
