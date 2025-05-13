@@ -1,21 +1,30 @@
-type Selector = `${string} as ${keyof HTMLElementTagNameMap}${'' | '[]'}` | `${string} as []` | (string & {});
+type UntypedListSelector = `${string} as []`;
+type TypedSelector = `${string} as ${keyof HTMLElementTagNameMap}${'' | '[]'}`;
+type RawSelector = string & {};
+type Selector = TypedSelector | UntypedListSelector | RawSelector;
+type ViewMapDefinition = Record<string, Selector>;
 
-type ViewMapDefinition = {
-	[identify: string]: Selector;
-};
-
-export default function createViewBinding<ViewMap extends ViewMapDefinition>(viewMap: ViewMap): ViewBinding<ViewMap>;
+/**
+ * Create a binding between the selector in `viewMap` and the DOM elements.
+ * @param viewMap - Define selector mapping
+ */
+export default function createViewBinding<ViewMap extends ViewMapDefinition>(
+	viewMap: ViewMap
+): ViewBinding<ViewMap>;
 
 interface ViewBinding<ViewMap extends ViewMapDefinition> {
-	bind(target?: HTMLElement | Document): {
-		[K in keyof ViewMap]: ViewMap[K] extends `${string} as ${infer EK extends keyof HTMLElementTagNameMap}[]`
-			? HTMLElementTagNameMap[EK][]
-			: ViewMap[K] extends `${string} as ${infer EK extends keyof HTMLElementTagNameMap}`
-			? HTMLElementTagNameMap[EK] | null
+	bind<Root extends HTMLElement | Document>(
+		target?: Root
+	): {
+		[K in keyof ViewMap]: ViewMap[K] extends `${string} as ${infer Tag extends keyof HTMLElementTagNameMap}[]`
+			? HTMLElementTagNameMap[Tag][]
+			: ViewMap[K] extends `${string} as ${infer Tag extends keyof HTMLElementTagNameMap}`
+			? HTMLElementTagNameMap[Tag] | null
 			: ViewMap[K] extends `${string} as []`
 			? HTMLElement[]
 			: HTMLElement | null;
 	} & {
+		root: Root;
 		rebind(): void;
 	};
 }

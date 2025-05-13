@@ -117,12 +117,12 @@ export const sort = {
 	bySuggestionRelevance(a, b) {
 		const typeOrder = [
 			'code',
-			'rj-code',
+			'RJcode',
 			'cv',
 			'tag',
 			'series',
-			'e-name',
-			'j-name',
+			'eName',
+			'jName',
 		];
 		const keywordIndexA = a.value.toString().toLowerCase().indexOf(a.keyword);
 		const keywordIndexB = b.value.toString().toLowerCase().indexOf(b.keyword);
@@ -153,5 +153,48 @@ export const highlight = {
 	revoke(text) {
 		let regex = /<span class="highlight">([\s\S]*?)<\/span>/gi;
 		return text.toString().replace(regex, '$1');
+	},
+};
+
+export const pager = {
+	/**
+	 * @param {number} currentPage
+	 * @param {number} pagePerGroup
+	 * @param {number} limitPage
+	 */
+	getGroupOfPagination(currentPage, pagePerGroup, limitPage) {
+		// Giới hạn `pagePerGroup` không vượt quá `limitPage`
+		pagePerGroup = Math.min(pagePerGroup, limitPage);
+
+		// Tính toán phạm vi startPage - endPage
+		let startPage = Math.max(
+			1,
+			currentPage - Math.floor((pagePerGroup - 1) / 2)
+		);
+		let endPage = startPage + pagePerGroup - 1;
+
+		// Điều chỉnh khi `endPage` vượt quá `limitPage`
+		if (endPage > limitPage) {
+			endPage = limitPage;
+			startPage = Math.max(1, endPage - pagePerGroup + 1);
+		}
+
+		// Trả về mảng số trang
+		return Array.from(
+			{ length: endPage - startPage + 1 },
+			(_, i) => startPage + i
+		);
+	},
+
+	/**
+	 * @param {number} page
+	 * @param {number} recordsPerPage
+	 * @param {number[]} IDs
+	 */
+	getTrackIDsForPage(page, recordsPerPage, IDs) {
+		const start = (page - 1) * recordsPerPage;
+		const end = Math.min(start + recordsPerPage - 1, IDs.length);
+
+		return IDs.slice(start, end + 1);
 	},
 };

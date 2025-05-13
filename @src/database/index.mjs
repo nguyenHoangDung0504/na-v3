@@ -138,7 +138,12 @@ class Database {
 
 		// Sắp xếp lại theo index gốc trước khi sort theo relevance
 		suggestions.sort((a, b) => a.index - b.index);
-		suggestions.sort(utils.sort.bySuggestionRelevance);
+		suggestions
+			.map((suggestion) => {
+				delete suggestion.index;
+				return suggestion;
+			})
+			.sort(utils.sort.bySuggestionRelevance);
 
 		return suggestions;
 
@@ -154,10 +159,14 @@ class Database {
 				!seen.has(setKey) &&
 				standardizedProp.toLowerCase().includes(lowerCaseKeyword)
 			) {
-				suggestions.push({
-					...new SearchSuggestion(type, standardizedProp, keyword, id),
-					index,
-				});
+				const suggestion = new SearchSuggestion(
+					type,
+					standardizedProp,
+					keyword,
+					id
+				);
+				suggestion.index = index;
+				suggestions.push(suggestion);
 				seen.add(setKey);
 			}
 		}
@@ -179,10 +188,14 @@ class Database {
 					!seen.has(setKey) &&
 					category.name.toLowerCase().includes(lowerCaseKeyword)
 				) {
-					suggestions.push({
-						...new SearchSuggestion(type, category.name, keyword, undefined),
-						index,
-					});
+					const suggestion = new SearchSuggestion(
+						type,
+						category.name,
+						keyword,
+						`${type}-${id}`
+					);
+					suggestion.index = index;
+					suggestions.push(suggestion);
 					seen.add(setKey);
 				}
 			});
@@ -195,8 +208,10 @@ class Database {
 	}
 }
 
-decoratorManager
-	.applyFor(TrackStorage, ['get'], ['memoize'])
-	.applyFor(Database, ['searchTracks', 'getSearchSuggestions'], ['memoize']);
+decoratorManager.applyFor(
+	Database,
+	['searchTracks', 'getSearchSuggestions'],
+	['memoize']
+);
 
 export const database = new Database();

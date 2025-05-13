@@ -1,7 +1,7 @@
 /**
  * Class helper hỗ trợ render danh sách dữ liệu từ mẫu HTML và dữ liệu.
  */
-export class ListView<T> {
+export default class ListView<T> {
 	/**
 	 * Khởi tạo một instance của ListView
 	 * @param DataType - Lớp định nghĩa kiểu dữ liệu

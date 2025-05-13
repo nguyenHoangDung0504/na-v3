@@ -4,12 +4,415 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="stylesheet" href="/@resources/styles/home.css">
+    <link rel="stylesheet" href="/@resources/styles/home.responsive.css">
+    <link rel="icon" type="image/x-icon"
+        href="https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/icon-edited.webp?v=1704340956129" />
     <title>Document</title>
-    <script src="index.js" type="module"></script>
+    <script type="module" src="/@src/cache.mgr.mjs"></script>
+    <script type="module" src="/@src/app.index.mjs" async></script>
+    <script type="module">
+        import cacheManager from '/@src/cache.mgr.mjs';
+        cacheManager.export();
+
+        const isMobileDevice = () => /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+        if (!isMobileDevice() && !localStorage.getItem('menu-state')) localStorage.setItem('menu-state', 'opened');
+        if (!isMobileDevice() && localStorage.getItem('menu-state') === 'opened') document.documentElement.classList.add('openMenu');
+    </script>
 </head>
 
-<body bgcolor="#222">
+<body>
+    <!-- LOADER -->
+    <div class="loader-modal -show"> <!-- Use class show to display -->
+        <div class="loader"></div>
+        <div class="displayer" message="Loading..."></div>
+    </div>
 
+    <!-- CATEGORIES MODAL -->
+    <div class="modal-container" id="categories-modal"> <!-- Use class open to display -->
+        <div class="border-spin-special-box animate pink-blue"> <!-- Border wrapper -->
+            <div class="modal-content"> <!-- Wrapper -->
+                <!-- Header -->
+                <div class="modal-header">
+                    <span class="">CATEGORIES - NHD ASMR&ensp;</span>
+                    <div class="close-btn" id="close-categories-modal-btn">
+                        <div class="x-special-button border animate pink-blue">
+                            <div class="x-sub-special-button"></div>
+                            <div class="x-sub-special-border"></div>
+                            <div class="x-sub-special-big-border"></div>
+                            <div class="x-sub-special-big-border-hidden"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Body -->
+                <div class="modal-body rank-list">
+                    <!-- CVs list -->
+                    <div class="accordion-item rank-list-grid-item cv-b">
+                        <h3 class="accordion-header title">Cvs<i class="fas fa-chevron-down"></i></h3>
+                        <div class="sub-rank-list accordion-content" id="rank-list-of-cv">
+                            <input class="search" type="text" placeholder="Search CV...">
+                            <div class="select-box">
+                                <label for="sort-cv">Sort by: </label>
+                                <select id="sort-cv">
+                                    <option value="name">Name</option>
+                                    <option value="quantity">Quantity</option>
+                                </select>
+                            </div>
+                            <div class="links">
+                                <a class="item" quantity="10">Item 1</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tags list -->
+                    <div class="accordion-item rank-list-grid-item tag-b">
+                        <h3 class="accordion-header title">Tags<i class="fas fa-chevron-down"></i></h3>
+                        <div class="sub-rank-list accordion-content" id="rank-list-of-tag">
+                            <input class="search" type="text" placeholder="Search tag...">
+                            <div class="select-box">
+                                <label for="sort-tag">Sort by: </label>
+                                <select id="sort-tag">
+                                    <option value="name">Name</option>
+                                    <option value="quantity">Quantity</option>
+                                </select>
+                            </div>
+                            <div class="links">
+                                <a class="item" quantity="10">Item 1</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Series list -->
+                    <div class="accordion-item rank-list-grid-item series-b">
+                        <h3 class="accordion-header title">Series<i class="fas fa-chevron-down"></i></h3>
+                        <div class="sub-rank-list accordion-content" id="rank-list-of-series">
+                            <input class="search" type="text" placeholder="Search series...">
+                            <div class="select-box">
+                                <label for="sort-series">Sort by: </label>
+                                <select id="sort-series">
+                                    <option value="name">Name</option>
+                                    <option value="quantity">Quantity</option>
+                                </select>
+                            </div>
+                            <div class="links">
+                                <a class="item" quantity="10">Item 1</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- GACHA_MODAL -->
+    <div class="modal-container" id="gacha-modal"> <!-- Use class open to display -->
+        <div class="border-spin-special-box animate pink-gold"> <!-- Border wrapper -->
+            <div class="modal-content"> <!-- Wrapper -->
+                <!-- Header -->
+                <div class="modal-header">
+                    <span class="">GACHA MACHINE - NHD ASMR&ensp;</span>
+                    <div class="close-btn" id="close-gacha-modal-btn">
+                        <div class="x-special-button border animate pink-gold">
+                            <div class="x-sub-special-button"></div>
+                            <div class="x-sub-special-border"></div>
+                            <div class="x-sub-special-big-border"></div>
+                            <div class="x-sub-special-big-border-hidden"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Body -->
+                <div class="gacha-modal-body">
+                    <div class="gacha-grid-container"> <!-- Grid container -->
+                        <!-- Item template -->
+                        <div data-added-action="false" data-code="79769" class="grid-item" id="link_to_79769"
+                            style="opacity: 1;">
+                            <!-- Image container -->
+                            <div class="image-container">
+                                <a href="/watch?code=79769">
+                                    <img loading="lazy"
+                                        src="https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/79769-0.jpg?v=1700552266691"
+                                        alt="thumbnail of 79769">
+                                </a>
+                            </div>
+
+                            <!-- Description container -->
+                            <div class="flex-container">
+                                <a href="/watch?code=79769"> <!-- Code, name, link -->
+                                    <div class="text-container">
+                                        <p class="multiline-ellipsis">
+                                            <b><i>RJ437264</i></b> - <span>A wife with a strong sexual desire who cares
+                                                deeply and is kind to you 2!</span>
+                                        </p>
+                                    </div>
+                                </a>
+                                <div class="text-container"> <!-- List CV -->
+                                    <p class="singleline-ellipsis">
+                                        <br><b>CV</b>:
+                                        <a title="CV: Chiroru Oyama" class="cv" href="..?cv=Chiroru Oyama">Chiroru
+                                            Oyama</a>
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- GACHA_MODAL.FOOTER -->
+                <div class="modal-footer">
+                    <!-- Blank div -->
+                    <div class=""></div>
+
+                    <!-- Button gacha x1 -->
+                    <div data-count="1" class="special-button" id="gachaX1">
+                        <div class="sub-special-button" style="display:none"></div>
+                    </div>
+
+                    <!-- Button gacha x10 -->
+                    <div data-count="10" class="special-button" id="gachaX10">
+                        <div class="sub-special-button"></div>
+                        <div class="sub-special-button left"></div>
+                        <div class="shard shard-1"></div>
+                        <div class="shard shard-2"></div>
+                        <div class="shard shard-3"></div>
+                        <div class="shard shard-4"></div>
+                        <div class="shard shard-5"></div>
+                        <div class="shard shard-6"></div>
+                        <div class="shard shard-7"></div>
+                        <div class="shard shard-8"></div>
+                        <div class="shard shard-9"></div>
+                        <div class="shard shard-10"></div>
+                    </div>
+
+                    <!-- Blank div -->
+                    <div class=""></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- HEADER -->
+    <div class="header">
+        <!-- TOGGLE MENU BTN -->
+        <div class="button-div">
+            <h1 class="button-open" id="toggle-menu-btn">&#9776;</h1>
+        </div>
+
+        <!-- APP TITLE & ICON -->
+        <div class="title-div">
+            <a href="/">
+                <h1 class="title">
+                    <img
+                        src="https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/icon-edited.webp?v=1704340956129">
+                    NHD ASMR
+                </h1>
+            </a>
+        </div>
+
+        <!-- SEARCH DIV -->
+        <div class="search-div">
+            <div class="search-div2">
+                <input type="text" class="search-input" id="main-search-input"
+                    placeholder="Search here... (Use + to split many categories keyword)" value="">
+                <div class="search-icon" id="main-search-icon">
+                    <h1><i class="fas fa-search"></i></h1>
+                </div>
+            </div>
+            <div class="result-box">
+                <!-- LIST OF SUBMISSION RESULT OF KEYWORD -->
+                <a href="javascript:void(0)"><i class="fas fa-search"></i>&nbsp;
+                    <strong>Type</strong>:
+                    <span class="cnt">Value</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- MENU -->
+    <div class="menu">
+        <a class="title">
+            <h1 class="">NHD ASMR - Menu</h1>
+        </a>
+        <a class="menu-item" id="close-menu-btn" href="javascript:void(0)">Close Menu</a>
+        <a class="menu-item direct-items">
+            Directions:
+            <div class="item back-item" title="Back"><i class="fa fa-arrow-left" aria-hidden="true"></i></div>
+            <div class="item reload-item" title="Reload"><i class="fa fa-refresh" aria-hidden="true"></i></div>
+            <div class="item forward-item" title="Forward"><i class="fa fa-arrow-right" aria-hidden="true"></i></div>
+        </a>
+        <!-- <a class="menu-item" id="advance-search-btn">Advance Search 🔎</a> -->
+        <a class="menu-item" id="open-categories-modal-btn">Categories</a>
+        <a class="menu-item" id="open-gacha-modal-btn">Gacha Machine</a>
+    </div>
+
+    <!-- MESSAGE -->
+    <p class="message">NHD Hentai - ASMR Hentai Tracks</p>
+
+    <!-- GRID OF TRACKS -->
+    <div class="content">
+        <div class="hidden-data-container"> <!-- Hidden data container -->
+            <!-- LIST OF HIDDEN ITEMS -->
+            <div class="hidden-info" id="hidden_info_of_114641" style="right: 100px; top: 200px; opacity: 1;">
+                <!-- Content container -->
+                <div class="content-container">
+                    <h3>
+                        <b>RJ Code</b>:
+                        <span class="rj-code">RJ01185774</span>
+                    </h3>
+                    <h3>
+                        <b>Series</b>:
+                        <span class="list-series">
+                            <span class="series">異世界・ファンタジー</span>
+                        </span>
+                    </h3>
+                    <h3>
+                        <b>Eng Name</b>:
+                        <span class="e-name">
+                            When I was reincarnated in another world, I was raped by the older sister of a big-breasted
+                            gravure idol who hates me ~ Creampie sex that won’t end until she get pregnant ~
+                        </span>
+                    </h3>
+                    <h3>
+                        <b>Original Name</b>:
+                        <span class="j-name">
+                            異世界転生したら俺のことが嫌いな爆乳グラビアアイドルの姉に逆レ〇プされた件～孕むまで終わらない中出し性活～ 【抱き枕推奨/ファンタジー/中出し】
+                        </span>
+                    </h3>
+                    <h3>
+                        <b>CV</b>:
+                        <span class="list-cv">
+                            <a class="cv" href="..?cv=星野天">星野天</a>,
+                            <a class="cv" href="..?cv=星野天">星野天</a>
+                        </span>
+                    </h3>
+                    <h3>
+                        <b>Tags</b>:
+                        <span class="list-tag">
+                            <span class="tag">AI一部利用</span>,
+                            <span class="tag">Big Breasts</span>,
+                            <span class="tag">Blowjob</span>,
+                            <span class="tag">Paizuri</span>,
+                            <span class="tag">Rape</span>,
+                            <span class="tag">Swimwear</span>
+                        </span>
+                    </h3>
+                </div>
+
+                <!-- Image container -->
+                <div class="image-container">
+                    <img loading="lazy" src="#" alt="-Thumbnail of 114641">
+                </div>
+            </div>
+        </div>
+
+        <div class="grid-container"> <!-- Main grid -->
+            <!-- LIST OF GRID ITEMS -->
+            <div data-added-action="false" data-code="114641" class="grid-item" id="link_to_114641">
+                <!-- IMAGE CONTAINER -->
+                <div class="image-container">
+                    <a href="/watch/?code=114641">
+                        <img loading="lazy" src="#" alt="-Thumbnail of 114641">
+                    </a>
+                </div>
+
+                <!-- TRACK NAME AND CV CONTAINER -->
+                <div class="flex-container">
+                    <a href="/watch?code=114641">
+                        <div class="text-container">
+                            <p class="multiline-ellipsis">
+                                <b><i class="rj-code">RJ01185774</i></b> -
+                                <span class="e-name">
+                                    When I was reincarnated in another world, I was raped by the older sister of a
+                                    big-breasted gravure idol who hates me ~ Creampie sex that won’t end until she get
+                                    pregnant ~
+                                </span>
+                            </p>
+                        </div>
+                    </a>
+                    <div class="text-container">
+                        <p class="singleline-ellipsis"><br>
+                            <b>CV</b>:
+                            <span class="list-cv">
+                                <a class="cv" title="CV: 星野天" href="..?cv=星野天">星野天</a>,
+                                <a class="cv" title="CV: 星野天" href="..?cv=星野天">星野天</a>
+                            </span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div></div><!-- Blank div for layout -->
+    </div>
+
+    <!-- PAGINATION -->
+    <div class="pagination">
+        <div class="pagination-body">
+            <a class="block" href="?page=1" id="first-link">&lt;&lt;</a>
+            <a class="active" href="?page=1">1</a>
+            <a class="" href="?page=2">2</a>
+            <a class="" href="?page=3">3</a>
+            <a class="" href="?page=4">4</a>
+            <a class="" href="?page=5">5</a>
+            <a class="" href="?page=6">6</a>
+            <a class="" href="?page=7">7</a>
+            <a class="" href="?page=12" id="last-link">&gt;&gt;</a>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="footer">
+        <h1 class="title">NHD Hentai - ASMR Hentai</h1>
+
+        <div class="footer-content">
+            <!-- GRID 1 -->
+            <div class="grid-item">
+                <h2>Source ASMR Websites</h2>
+                <a target="_blank" href="https://www.dlsite.com/maniax/asmr">
+                    <span style="color: #00BFFF;">►</span>DLsite
+                </a>
+                <a target="_blank" href="https://japaneseasmr.com/">
+                    <span style="color: #00BFFF;">►</span>Japanese ASMR
+                </a>
+                <a target="_blank" href="https://www.asmr.one/works">
+                    <span style="color: #00BFFF;">►</span>ASMR ONE
+                </a>
+                <a target="_blank" href="https://nightfawn.com/listen-public/">
+                    <span style="color: #00BFFF;">►</span>Nightfawn ASMR
+                </a>
+                <a target="_blank" href="https://www.jasmr.net/">
+                    <span style="color: #00BFFF;">►</span>JASMR
+                </a>
+            </div>
+
+            <!-- GRID 2 -->
+            <div class="grid-item">
+                <h2>Many Type Of Hentai Website</h2>
+                <a target="_blank" href="https://hentaianimezone.com/">
+                    <span style="color: #00BFFF;">►</span>HentaiAnimeZone
+                </a>
+            </div>
+
+            <!-- GRID 3 -->
+            <div class="grid-item">
+                <h2>Manga Hentai Websites</h2>
+                <a target="_blank" href="https://imhentai.xxx/">
+                    <span style="color: #00BFFF;">►</span>IMHentai
+                </a>
+                <a target="_blank" href="https://hentaifox.com/">
+                    <span style="color: #00BFFF;">►</span>HentaiFox
+                </a>
+                <a target="_blank" href="https://doujins.com/tags/Audio">
+                    <span style="color: #00BFFF;">►</span>Doujins
+                </a>
+            </div>
+        </div>
+
+        <p class="c">© 2023 NHD Hentai - ASMR Hentai. All rights reserved.</p>
+    </div>
 </body>
 
 </html>
