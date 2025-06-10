@@ -6,11 +6,6 @@ export default function createViewBinding(viewMap) {
 	}
 
 	return {
-		/**
-		 * Binds elements based on `viewMap` selectors.
-		 * @param {HTMLElement | Document} [target=document] - Root element to query from
-		 * @returns {ViewBinding<ViewMap>}
-		 */
 		bind(target = document) {
 			if (!(target instanceof HTMLElement || target instanceof Document)) {
 				throw new Error(
