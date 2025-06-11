@@ -1,6 +1,6 @@
-import createViewBinding from '../../../@libraries/view_binding/index.mjs';
+import { createViewBinding } from '../../../@libraries/view_binding/index.mjs';
 
-const appViewBinding = createViewBinding({
+const { viewBinding: appViewBinding } = createViewBinding({
 	loader: '.loader-modal',
 	categoryModel: '#categories-modal',
 	gachaModel: '#gacha-modal',
@@ -8,21 +8,21 @@ const appViewBinding = createViewBinding({
 	menu: '.menu',
 });
 
-const menuViewBinding = createViewBinding({
+const { viewBinding: menuViewBinding } = createViewBinding({
 	closeBtn: '#close-menu-btn',
 	backBtn: '.back-item',
 	reloadBtn: '.reload-item',
 	forwardBtn: '.forward-item',
 });
 
-const headerViewBinding = createViewBinding({
+const { viewBinding: headerViewBinding } = createViewBinding({
 	toggleBtn: '#toggle-menu-btn',
-	searchInput: '#main-search-input as input',
+	searchInput: '#main-search-input = input',
 	searchBtn: '#main-search-icon',
 	resultBox: '.result-box',
 });
 
-const suggestionsViewBinding = createViewBinding({
+const { viewBinding: suggestionsViewBinding } = createViewBinding({
 	type: 'strong',
 	value: 'span',
 });

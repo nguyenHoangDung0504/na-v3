@@ -19,10 +19,7 @@ initApp();
 async function initApp() {
 	activateTimer();
 
-	await Promise.all([
-		DOMLoaded(),
-		...Object.values(UIrequests).filter(Boolean),
-	]);
+	await Promise.all([DOMLoaded(), ...Object.values(UIrequests).filter(Boolean)]);
 
 	if (UIrequests.common) (await UIrequests.common).initialize(database);
 }

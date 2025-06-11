@@ -54,19 +54,16 @@ function initializeMenuFeatures(UIbindings) {
 		isOpen: () => document.documentElement.classList.contains('openMenu'),
 		isHome: () => ['/', '/index.html'].includes(location.pathname),
 		open: () => {
-			if (!menuController.isOpen())
-				document.documentElement.classList.add('openMenu');
+			if (!menuController.isOpen()) document.documentElement.classList.add('openMenu');
 			if (menuController.isHome() && !device.isMobile())
 				localStorage.setItem('menu-state', 'opened');
 		},
 		close: () => {
-			if (menuController.isOpen())
-				document.documentElement.classList.remove('openMenu');
+			if (menuController.isOpen()) document.documentElement.classList.remove('openMenu');
 			if (menuController.isHome() && !device.isMobile())
 				localStorage.setItem('menu-state', 'closed');
 		},
-		toggle: () =>
-			menuController.isOpen() ? menuController.close() : menuController.open(),
+		toggle: () => (menuController.isOpen() ? menuController.close() : menuController.open()),
 	};
 
 	menuView.backBtn.addEventListener('click', () => window.history.back());
@@ -87,17 +84,13 @@ function initializeHeaderFeatures(UIbindings, db, renderers) {
 	const { searchResultLV } = renderers;
 	const debounceTime = 300;
 
-	const hideResultBox = () =>
-		setTimeout(() => (resultBox.style.display = 'none'), 200);
+	const hideResultBox = () => setTimeout(() => (resultBox.style.display = 'none'), 200);
 
-	const showResultBox = () =>
-		searchInput.value.trim() && (resultBox.style.display = 'block');
+	const showResultBox = () => searchInput.value.trim() && (resultBox.style.display = 'block');
 
 	const search = () =>
 		searchInput.value.trim() &&
-		(window.location.href = `/?search=${encodeURIComponent(
-			searchInput.value
-		)}`);
+		(window.location.href = `/?search=${encodeURIComponent(searchInput.value)}`);
 
 	const enterPressHandler = (event) => event.key === 'Enter' && search();
 
@@ -119,9 +112,7 @@ function initializeHeaderFeatures(UIbindings, db, renderers) {
 
 			// Cập nhật ListView với dữ liệu đã lọc và sắp xếp
 			searchResultLV.update(
-				array
-					.deduplicateObjects(suggestions, 'code')
-					.sort(sort.bySuggestionRelevance)
+				array.deduplicateObjects(suggestions, 'code').sort(sort.bySuggestionRelevance)
 			);
 
 			showResultBox();
@@ -136,9 +127,7 @@ function initializeHeaderFeatures(UIbindings, db, renderers) {
 	});
 	searchInput.addEventListener('blur', hideResultBox);
 	searchInput.addEventListener('click', showResultBox);
-	searchInput.addEventListener('focus', () =>
-		window.addEventListener('keyup', enterPressHandler)
-	);
+	searchInput.addEventListener('focus', () => window.addEventListener('keyup', enterPressHandler));
 	searchInput.addEventListener('blur', () =>
 		window.removeEventListener('keyup', enterPressHandler)
 	);
@@ -158,10 +147,9 @@ function initializeRenderers(UIbindings) {
 		resultBox,
 		(/**@type {HTMLAnchorElement}*/ template, data) => {
 			const binding = suggestionsViewBinding.bind(template);
-			binding.root.href =
-				(['cv', 'tag', 'series'].includes(data.type)
-					? `/?${data.type}=`
-					: `/watch/?code=`) + data.code;
+			binding._root.href =
+				(['cv', 'tag', 'series'].includes(data.type) ? `/?${data.type}=` : `/watch/?code=`) +
+				data.code;
 			binding.type.textContent = data.displayType;
 			binding.value.innerHTML = highlight.apply(data.value, data.keyword);
 		}

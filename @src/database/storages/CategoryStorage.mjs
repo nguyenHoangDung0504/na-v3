@@ -49,10 +49,7 @@ export default class CategoryStorage {
 
 		lines.forEach((line) => {
 			const [id, name, quantity] = line.split(',');
-			this._registry.set(
-				Number(id),
-				new Category(this._type, name, Number(quantity))
-			);
+			this._registry.set(Number(id), new Category(this._type, name, Number(quantity)));
 		});
 
 		// Lấy danh sách ID để tối ưu việc sắp xếp

@@ -1,9 +1,13 @@
-const CACHE_NAME = 'nhda-cache';
+const CACHE_NAME = 'na-v3.cache';
 const CACHE_VERSION = '2';
 const CACHE_EXPIRATION = time({ minutes: 0 });
 const LOG = true;
 
 const cacheTargets = buildCacheTargets`
+	-- External CSS
+	https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css
+
+	-- Path
 	/
 	/resources/
 	/resources/styles/
@@ -20,7 +24,8 @@ function buildCacheTargets(targets, ..._) {
 	return targets[0]
 		.split('\n')
 		.map((line) => line.trim())
-		.filter(Boolean);
+		.filter(Boolean)
+		.filter((line) => line && !line.startsWith('--'));
 }
 
 function getFullCacheName() {
@@ -102,7 +107,10 @@ async function removeIfExpired(cache, request) {
 
 	const isExpired = Date.now() - metadata.timestamp > CACHE_EXPIRATION;
 	if (isExpired) {
-		await Promise.all([cache.delete(request), cache.delete(new Request(`${request.url}-metadata`))]);
+		await Promise.all([
+			cache.delete(request),
+			cache.delete(new Request(`${request.url}-metadata`)),
+		]);
 		return true;
 	}
 	return false;
@@ -165,14 +173,18 @@ self.addEventListener('fetch', (event) => {
 			try {
 				LOG && console.log(`--> [CacheManager.worker]: Fetching ${event.request.url} and caching`);
 				const networkResponse = await fetch(event.request);
-				if (!networkResponse.ok) throw new Error('--> [CacheManager.worker]: Network response not ok');
+				if (!networkResponse.ok)
+					throw new Error('--> [CacheManager.worker]: Network response not ok');
 
 				// Cập nhật cache sau khi tải thành công
 				await cache.put(event.request, networkResponse.clone());
 				await saveCacheMetadata(cache, event.request);
 				return networkResponse;
 			} catch (error) {
-				LOG && console.error(`--> [CacheManager.worker]: Fetch failed and no cache available: ${event.request.url}`);
+				LOG &&
+					console.error(
+						`--> [CacheManager.worker]: Fetch failed and no cache available: ${event.request.url}`
+					);
 				return new Response('--> [CacheManager.worker]: Network error and no cache available', {
 					status: 503,
 					statusText: 'Service Unavailable',

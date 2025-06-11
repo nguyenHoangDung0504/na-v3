@@ -57,12 +57,8 @@ export default class TrackStorage {
 			const tagIDs = line[3].split('-').map((id) => Number(id));
 			const seriesIDs = line[4].split('-').map((id) => Number(id));
 			const thumbnail = new Resource(...line[7].split('->'));
-			const images = line[8]
-				.split(',')
-				.map((col) => new Resource(...col.split('->')));
-			const audios = line[9]
-				.split(',')
-				.map((col) => new Resource(...col.split('->')));
+			const images = line[8].split(',').map((col) => new Resource(...col.split('->')));
+			const audios = line[9].split(',').map((col) => new Resource(...col.split('->')));
 			const additionalURLs = line[10]
 				? line[10].split(',').map((col) => {
 						return new AddtionalURL(...col.split('::'));
@@ -101,10 +97,7 @@ export default class TrackStorage {
 				const itemA = this._registry.get(a).replace('RJ', '');
 				const itemB = this._registry.get(b).replace('RJ', '');
 				if (criteria === 'rj-code') {
-					return (
-						(itemA.length - itemB.length || Number(itemA) - Number(itemB)) *
-						factor
-					);
+					return (itemA.length - itemB.length || Number(itemA) - Number(itemB)) * factor;
 				}
 				return 0;
 			});

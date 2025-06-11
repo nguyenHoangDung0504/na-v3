@@ -3,36 +3,37 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>View Binding Example</title>
-    <style>
-        .button {
-            margin: 5px;
-            padding: 10px;
-            background-color: #4CAF50;
-            color: white;
-            border: none;
-            cursor: pointer;
-        }
-
-        .button:hover {
-            background-color: #45a049;
-        }
-    </style>
+    <title>ViewBinding Test</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
-    <div id="app">
-        <h1 id="title">Tiêu đề chính</h1>
-        <input type="text" id="inputField" placeholder="Nhập nội dung...">
-        <button class="button" id="submitButton">Gửi</button>
-        <ul class="items">
-            <li>Item 1</li>
-            <li>Item 2</li>
-        </ul>
+<body bgcolor="#222">
+    <h1>Title</h1>
+
+    <div class="flex-box">
+        <input type="text" placeholder="Enter something..." />
+        <a class="link" href="#">Search</a>
     </div>
 
-    <script type="module" src="index.mjs"></script>
+    <div>Div 1</div>
+    <div>Div 2</div>
+
+    <p class="custom-class" contenteditable spellcheck="false">Raw element, content: Lorem ipsum dolor sit, amet
+        consectetur adipisicing elit. Non facilis
+        ipsum dolor aut molestias. At eligendi commodi consequatur beatae laboriosam perspiciatis velit, voluptatem non
+        molestiae expedita laborum ut dolorem fugiat.
+        <br><br>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam nemo fugit pariatur? Harum et quis culpa
+        exercitationem delectus nesciunt deleniti nobis impedit aut pariatur suscipit libero, explicabo consequatur,
+        similique eaque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur assumenda obcaecati officia
+        beatae, atque rerum blanditiis qui dolor, vel unde, at pariatur voluptatum officiis velit inventore ipsum itaque
+        magnam quibusdam.
+    </p>
+
+    <button>Submit</button>
+    <footer class="footer">Footer here</footer>
+
+    <script type="module" src="./index.js"></script>
 </body>
 
 </html>
