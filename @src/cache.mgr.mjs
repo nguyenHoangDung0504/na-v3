@@ -2,11 +2,9 @@ const WORKER_PATH = '/cache.worker.mjs';
 const cacheManager = {
 	clearCache,
 	unregisterWorker,
-	export() {
-		window.cacheManager = this;
-	},
 };
 
+window.cacheManager = this;
 export default cacheManager;
 
 if ('serviceWorker' in navigator) {
@@ -19,23 +17,15 @@ if ('serviceWorker' in navigator) {
 		navigator.serviceWorker
 			.register(WORKER_PATH)
 			.then((reg) => {
-				console.log(
-					'--> [CacheManager]: Service Worker registered with scope:',
-					reg.scope
-				);
+				console.log('--> [CacheManager]: Service Worker registered with scope:', reg.scope);
 				reg.addEventListener('message', (event) => {
 					if (event.data.status === 'CACHE_CLEARED') {
-						console.log(
-							'--> [CacheManager]: Cache has been cleared successfully.'
-						);
+						console.log('--> [CacheManager]: Cache has been cleared successfully.');
 					}
 				});
 			})
 			.catch((error) => {
-				console.error(
-					'--> [CacheManager]: Service Worker registration failed:',
-					error
-				);
+				console.error('--> [CacheManager]: Service Worker registration failed:', error);
 			});
 	});
 }
@@ -46,9 +36,7 @@ async function clearCache() {
 		registration.active.postMessage({ type: 'CLEAR_CACHE' });
 		console.log('--> [CacheManager]: Cache clear request sent.');
 	} else {
-		console.warn(
-			'--> [CacheManager]: No active Service Worker to handle cache clearing.'
-		);
+		console.warn('--> [CacheManager]: No active Service Worker to handle cache clearing.');
 	}
 }
 

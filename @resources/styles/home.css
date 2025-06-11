@@ -576,9 +576,7 @@ html:not(.openMenu)>body .content .grid-container .grid-item .flex-container .te
 }
 
 :is(.text-container, #track-info) .cv:before {
-    content: "❤";
-    color: red;
-    margin-right: 2px;
+    content: "@";
 }
 
 :is(.text-container, #track-info) .cv:hover {
@@ -594,9 +592,8 @@ html:not(.openMenu)>body .content .grid-container .grid-item .flex-container .te
 }
 
 :is(.text-container, #track-info) .tag:before {
-    content: "♦";
+    content: "#";
     color: var(--tag-color);
-    margin-right: 2px;
 }
 
 :is(.text-container, #track-info) .tag:hover {
@@ -1339,12 +1336,12 @@ body.openModel>.model-container {
 }
 
 .rank-list-grid-item.cv-b {
-    --before-content: "❤";
+    --before-content: "@";
     --category-color: deeppink;
 }
 
 .rank-list-grid-item.tag-b {
-    --before-content: "♦";
+    --before-content: "#";
     --category-color: gold;
 }
 
@@ -1432,7 +1429,7 @@ a.item .highlight {
 }
 
 .sub-rank-list a.item::after {
-    content: " (" attr(quantity) ")";
+    content: " (" attr(data-quantity) ")";
     margin: 2px;
     margin-right: 8px;
 }
@@ -1499,17 +1496,17 @@ input[type="text"].search::selection {
 
 @media screen and (max-width: 780px) {
     :is(.text-container, #track-info) .cv:before {
-        content: "";
+        /* content: ""; */
         margin-right: 0px;
     }
 
     :is(.text-container, #track-info) .tag:before {
-        content: "";
+        /* content: ""; */
         margin-right: 0px;
     }
 
     :is(.text-container, #track-info) .series:before {
-        content: "";
+        /* content: ""; */
         margin-right: 0px;
     }
 }

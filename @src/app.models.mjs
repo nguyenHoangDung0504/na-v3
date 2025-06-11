@@ -108,7 +108,7 @@ export class SearchSuggestion {
 	 * @param {T} type
 	 * @param {string} value
 	 * @param {string} keyword
-	 * @param {number} id
+	 * @param {string | number} id
 	 */
 	constructor(type, value, keyword, id) {
 		this.type = type;

@@ -6,6 +6,8 @@ const { viewBinding: appViewBinding } = createViewBinding({
 	gachaModel: '#gacha-modal',
 	header: '.header',
 	menu: '.menu',
+	categoriesModal: '#categories-modal',
+	gachaModal: '#gacha-modal',
 });
 
 const { viewBinding: menuViewBinding } = createViewBinding({
@@ -13,6 +15,8 @@ const { viewBinding: menuViewBinding } = createViewBinding({
 	backBtn: '.back-item',
 	reloadBtn: '.reload-item',
 	forwardBtn: '.forward-item',
+	openCatModalBtn: '#open-categories-modal-btn',
+	openGachaModelBtn: '#open-gacha-modal-btn',
 });
 
 const { viewBinding: headerViewBinding } = createViewBinding({
@@ -27,9 +31,30 @@ const { viewBinding: suggestionsViewBinding } = createViewBinding({
 	value: 'span',
 });
 
+const { viewBinding: categoriesViewBinding } = createViewBinding({
+	rankListCvCtn: '.cv-b',
+	rankListTagCtn: '.tag-b',
+	rankListSeriesCtn: '.series-b',
+	listCvCtn: '.cv-b .links',
+	listTagCtn: '.tag-b .links',
+	listSeriesCtn: '.series-b .links',
+	accordions: '.accordion-header = []',
+	closeBtn: '#close-categories-modal-btn',
+	subRankList: '.sub-rank-list = []',
+});
+
+const { viewBinding: gachaViewBinding } = createViewBinding({
+	gridGachaModal: '.gacha-grid-container',
+	btnCloseGachaModal: '#close-gacha-modal-btn',
+	gacha1: '#gachaX1',
+	gacha10: '#gachaX10',
+});
+
 export {
 	appViewBinding,
 	menuViewBinding,
 	headerViewBinding,
 	suggestionsViewBinding,
+	categoriesViewBinding,
+	gachaViewBinding,
 };

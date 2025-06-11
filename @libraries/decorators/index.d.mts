@@ -7,9 +7,7 @@ type Decorator = <TargetFn extends (...args: any) => any>(
 	...options: any[]
 ) => (...args: Parameters<TargetFn>) => ReturnType<TargetFn>;
 
-declare class DecoratorManager<
-	RegisteredDecorators extends Record<string, Decorator> = {}
-> {
+declare class DecoratorManager<RegisteredDecorators extends Record<string, Decorator> = {}> {
 	public constructor();
 
 	applyFor<TargetClass extends new (...args: any[]) => any>(
@@ -32,3 +30,12 @@ declare const decoratorManager: DecoratorManager<{
 }>;
 
 export default decoratorManager;
+
+/**
+ * Creates a debounced version of the provided function.
+ * @param func - The function to debounce.
+ * @param wait - The number of milliseconds to delay.
+ * @param [immediate=false] - Whether to execute the function immediately.
+ * @returns A debounced version of the provided function.
+ */
+export function debounce(func: Function, wait: number, immediate: boolean = false): Function;

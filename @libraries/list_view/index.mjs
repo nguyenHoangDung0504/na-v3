@@ -1,192 +1,155 @@
-/**
- * @template T
- */
 export default class ListView {
-	/**
-	 * @template ModelType
-	 * @typedef {(container: HTMLElement, data: T[]) => void} ListEventHandler
-	 */
+	// Configs
+	_containerMarkerAttribute = 'lv-container';
+	_templateMarkerAttribute = 'lv-template';
+	_log = true;
 
-	/**
-	 * @template ModelType
-	 * @typedef {(item: HTMLElement, data: T, index: number) => void} ItemEventHandler
-	 */
+	// Main variables
+	_DataType = class {};
+	_listContainer;
+	_itemTemplate;
+	_dataBinder = (template, data) => {};
+	_dataCollection = [];
 
-	/**
-	 * @template ModelType
-	 * @typedef {{
-	 * 		'before-render': ListEventHandler<ModelType>
-	 * 		'after-render': ListEventHandler<ModelType>
-	 * 		'before-item-added': ItemEventHandler<ModelType>
-	 * 		'after-item-added': ItemEventHandler<ModelType>
-	 * }} ListViewEventMap
-	 */
+	// Hooks
+	_beforeItemAdded;
+	_afterItemAdded;
+	_beforeRender;
+	_afterRender;
 
-	/**
-	 * @template ModelType
-	 * @typedef {new (...args: any[]) => ModelType} ModelClass
-	 */
+	constructor(DataType, listContainer, dataBinder) {
+		document.readyState === 'loading' &&
+			console.warn('--> [ListView.constructor] Warning, document is in loading state');
 
-	/**
-	 * @template ModelType
-	 * @typedef {(template: HTMLElement, data: ModelType) => void} ItemRenderer
-	 */
+		this._DataType = DataType;
 
-	/**
-	 * @private
-	 * @type {{
-	 * 		[K in keyof ListViewEventMap<T>]: ListViewEventMap<T>[K][]
-	 * }}
-	 */
-	_eventHandlers = {
-		'before-render': [],
-		'after-render': [],
-		'before-item-added': [],
-		'after-item-added': [],
-	};
-
-	/**
-	 * @private
-	 * @type {WeakMap<T, HTMLElement>}
-	 */
-	_itemCache = new WeakMap();
-
-	/**
-	 * @private
-	 * @type {T[]}
-	 */
-	_itemCacheKeys = [];
-
-	/**
-	 * Create new instance of ListView
-	 * @param {ModelClass<T>} ModelType
-	 * @param {HTMLElement} listContainer
-	 * @param {ItemRenderer<T>} itemRenderer
-	 */
-	constructor(ModelType, listContainer, itemRenderer) {
-		if (document.readyState === 'loading')
-			console.warn(
-				'--> [ListView.constructor]: Warning, document is still loading. Render might fail.'
-			);
-
-		/**@private */ this._ModelType = ModelType;
-		/**@private */ this._container = listContainer;
-		/**@private */ this._renderItem = itemRenderer;
-
-		if (!(this._container instanceof HTMLElement))
+		// Kiểm tra và thiết lập container
+		this._listContainer = listContainer;
+		if (!(listContainer instanceof HTMLElement)) {
 			throw new TypeError(
-				'--> [ListView.constructor]: Error, the container must be a valid instance of HTMLElement.'
-			);
-		if (this._container.childElementCount < 1)
-			throw new Error(
-				'--> [ListView.constructor]: Error, cannot not find a valid HTML template inside the container.'
-			);
-		if (typeof this._renderItem !== 'function')
-			throw new TypeError(
-				"--> [ListView.constructor]: Error, 'itemRenderer' must be a valid function."
-			);
-
-		/**@private */ this._template =
-			this._container.firstElementChild?.cloneNode(true);
-		this._container.innerHTML = '';
-	}
-
-	get data() {
-		return this._data;
-	}
-
-	/**
-	 * Update data and re-render
-	 * @param {T[]} newData
-	 */
-	update(newData) {
-		if (!Array.isArray(newData)) {
-			throw new Error(
-				`--> [ListView.updateData]: Error, 'newData' must be an array.`
+				'--> [ListView.constructor] Error, the container must be a valid instance of HTMLElement.'
 			);
 		}
-		if (!newData.every((item) => item instanceof this._ModelType)) {
-			throw new TypeError(
-				`[ListView.updateData] Error, 'newData' contains elements that are not instances of the expected model class.`
+
+		// Kiểm tra mẫu HTML
+		this._itemTemplate = this._listContainer.firstElementChild?.cloneNode(true);
+		if (!this._itemTemplate) {
+			throw new Error(
+				'--> [ListView.constructor] Error, could not find a valid HTML template inside the container.'
 			);
 		}
-		this._render(newData);
+
+		// Kiểm tra dataBinder
+		if (typeof dataBinder !== 'function') {
+			throw new Error("--> [ListView.constructor] Error, 'dataBinder' must be a valid function.");
+		}
+
+		this._dataBinder = dataBinder;
+
+		// Xóa nội dung template khỏi container
+		this._itemTemplate.removeAttribute(this._templateMarkerAttribute);
+		this._listContainer.innerHTML = '';
 	}
 
-	/**
-	 * Add an event handler
-	 * @template {keyof ListViewEventMap<T>} K
-	 * @param {K} eventName
-	 * @param {ListViewEventMap<T>[K]} handler
-	 */
-	on(eventName, handler) {
-		this._eventHandlers[eventName]?.push(handler);
+	config({ log, containerMarkerAttribute, templateMarkerAttribute }) {
+		this._log = log;
+		this._containerMarkerAttribute = containerMarkerAttribute;
+		this._templateMarkerAttribute = templateMarkerAttribute;
 		return this;
 	}
 
-	/**
-	 * @private
-	 * @param {T[]} newData
-	 */
-	_render(newData = this._data) {
-		this._eventHandlers['before-render'].forEach((cb) =>
-			cb(this._container, newData)
-		);
-
-		const fragment = document.createDocumentFragment();
-		const oldNodes = Array.from(this._container.children);
-
-		newData.forEach((item, index) => {
-			// Check cache
-			let node = this._itemCache.get(item);
-
-			// Render new node
-			if (!this._itemCache.has(item)) {
-				node = this._template.cloneNode(true);
-				this._renderItem(node, item, index);
-				this._itemCache.set(item, node);
-				this._itemCacheKeys.push(item);
-			}
-
-			// Add to view and call callbacks
-			this._eventHandlers['before-item-added'].forEach((cb) =>
-				cb(node, item, index)
-			);
-			fragment.appendChild(node);
-			this._eventHandlers['after-item-added'].forEach((cb) =>
-				cb(node, item, index)
-			);
-		});
-
-		oldNodes.forEach((node) => {
-			// Duyệt qua danh sách các key đã lưu
-			const boundItem = this._itemCacheKeys.find(
-				(key) => this._itemCache.get(key) === node
-			);
-			if (boundItem && !newData.includes(boundItem)) {
-				this._container.removeChild(node);
-				// Có thể cập nhật lại _itemCacheKeys nếu cần: loại bỏ boundItem khỏi mảng
-				this._itemCacheKeys = this._itemCacheKeys.filter(
-					(key) => key !== boundItem
+	setDataCollection(dataCollection) {
+		if (!Array.isArray(dataCollection)) {
+			this._log &&
+				console.error(
+					'--> [ListView.setDataCollection] Log debug: The data set type is invalid. An array required',
+					dataCollection
 				);
-			}
-		});
-
-		this._container.appendChild(fragment);
-		/**@private */
-		this._data = newData;
-		this._eventHandlers['after-render'].forEach((cb) =>
-			cb(this._container, this._data)
-		);
+			throw new Error(
+				`--> [ListView.setDataCollection] Error, the data collection must be an array containing elements of type '${this._DataType.name}'.`
+			);
+		}
+		this._dataCollection = dataCollection;
+		this.render();
 	}
 
-	/**
-	 * Create itemRenderer to storage and reuse
-	 * @template T
-	 * @param {ModelClass<T>} ModelType
-	 * @param {ItemRenderer<T>} itemRenderer
-	 */
-	static createItemRenderer(ModelType, itemRenderer) {
-		return itemRenderer;
+	beforeItemAddedCall(callback) {
+		this._beforeItemAdded = callback;
+		return this;
+	}
+
+	afterItemAddedCall(callback) {
+		this._afterItemAdded = callback;
+		return this;
+	}
+
+	beforeRenderCall(callback) {
+		this._beforeRender = callback;
+		return this;
+	}
+
+	afterRenderCall(callback) {
+		this._afterRender = callback;
+		return this;
+	}
+
+	render() {
+		let addedNodes = [];
+
+		if (!this._dataBinder) {
+			throw new Error(
+				"--> [ListView.render] Error, 'dataBinder' needs to be set before calling 'render'."
+			);
+		}
+
+		if (this._beforeRender) this._beforeRender(this._listContainer, this._dataCollection);
+
+		// Làm rỗng container trước khi render
+		this._listContainer.innerHTML = '';
+
+		this._dataCollection.forEach((data, index) => {
+			if (!(data instanceof this._DataType)) {
+				this._log &&
+					console.error(
+						`--> [ListView.render] Log debug: Element has invalid type at index ${index}.`,
+						data
+					);
+				throw new Error(
+					`--> [ListView.render] Error, the element at index ${index} is not an instance of class '${this._DataType.name}'.`
+				);
+			}
+
+			const root = this._itemTemplate.cloneNode(true);
+			addedNodes.push(root);
+
+			// Tạo binder và xử lý binding
+			this._dataBinder(root, data);
+
+			// Gọi hook trước khi thêm phần tử
+			if (this._beforeItemAdded) this._beforeItemAdded(root, data);
+
+			// Thêm phần tử vào container
+			this._listContainer.appendChild(root);
+
+			// Gọi hook sau khi thêm phần tử
+			if (this._afterItemAdded) this._afterItemAdded(root, data);
+		});
+
+		if (this._afterRender) this._afterRender(this._listContainer, this._dataCollection, addedNodes);
+	}
+
+	static createConfig({ log, containerMarkerAttribute, templateMarkerAttribute }) {
+		return { log, containerMarkerAttribute, templateMarkerAttribute };
+	}
+
+	static createDataBinder(DataType, bindFunction) {
+		return (binding, data) => {
+			if (!(data instanceof DataType)) {
+				throw new Error(
+					`--> [ListView.createDataBinder.bindFunction] Error, the input data must be an instance of class '${DataType.name}'.`
+				);
+			}
+			bindFunction(binding, data);
+		};
 	}
 }

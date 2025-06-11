@@ -17,10 +17,9 @@ export default class CategoryStorage {
 	_pending;
 
 	/**
-	 * @private
 	 * @type {T}
 	 */
-	_type;
+	type;
 
 	/**
 	 * @private
@@ -33,8 +32,8 @@ export default class CategoryStorage {
 	 * @param {string} resourcePath
 	 */
 	constructor(type, resourcePath) {
-		this._type = type;
-		this._pending = fetch(resourcePath + this._type + '.csv')
+		this.type = type;
+		this._pending = fetch(resourcePath + this.type + '.csv')
 			.then((res) => res.text())
 			.then((rawCSV) => this._parseRawCSV(rawCSV));
 	}
@@ -49,7 +48,7 @@ export default class CategoryStorage {
 
 		lines.forEach((line) => {
 			const [id, name, quantity] = line.split(',');
-			this._registry.set(Number(id), new Category(this._type, name, Number(quantity)));
+			this._registry.set(Number(id), new Category(this.type, name, Number(quantity)));
 		});
 
 		// Lấy danh sách ID để tối ưu việc sắp xếp
