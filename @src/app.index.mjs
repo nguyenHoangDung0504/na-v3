@@ -18,20 +18,26 @@ initApp();
 
 async function initApp() {
 	activateTimer();
-
 	await Promise.all([DOMLoaded(), ...Object.values(UIrequests).filter(Boolean)]);
-
 	if (UIrequests.common) (await UIrequests.common).initialize(database);
+	console.timeEnd('--> [App.timer]: App ready time');
 }
 
 function activateTimer() {
 	console.time('--> [App.timer]: DOM ready time');
+	console.time('--> [App.timer]: App ready time');
+	console.time('--> [App.timer]: App load time');
+	window.addEventListener('load', () => console.timeEnd('--> [App.timer]: App load time'));
 }
 
 async function DOMLoaded() {
 	return new Promise((resolve) => {
-		if (document.readyState !== 'loading') resolve();
-		else document.addEventListener('DOMContentLoaded', resolve, { once: true });
+		const callback = () => {
+			console.timeEnd('--> [App.timer]: DOM ready time');
+			resolve();
+		};
+		if (document.readyState !== 'loading') callback();
+		else document.addEventListener('DOMContentLoaded', callback, { once: true });
 	});
 }
 
