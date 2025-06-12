@@ -501,7 +501,7 @@ function initRenderers(db, UIbindings) {
 		const watchPath = `/watch/?code=${code}`;
 
 		binding._root.dataset.code = code;
-		binding._root.dataset.id = `link-to:${RJcode}`;
+		binding._root.dataset.id = `link-to:${code}`;
 		binding.img.alt = ` - Thumbnail:${code}`;
 		binding.img.src = `${await db.prefixies.get(thumbnail.prefixID)}${thumbnail.name}`;
 		binding.pRJcode.textContent = RJcode;

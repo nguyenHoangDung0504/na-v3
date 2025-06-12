@@ -22,6 +22,7 @@ async function initApp() {
 
 	if (UIrequests.common) (await UIrequests.common).init(database);
 	if (UIrequests.home) (await UIrequests.home).init(database);
+	if (UIrequests.watch) (await UIrequests.watch).init(database);
 
 	console.timeEnd('--> [App.timer]: App ready time');
 }

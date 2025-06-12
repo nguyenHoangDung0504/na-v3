@@ -4,21 +4,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
     <link rel="stylesheet" href="/@resources/styles/home.css">
     <link rel="stylesheet" href="/@resources/styles/home.responsive.css">
+    <link rel="stylesheet" href="/@resources/styles/watch.css">
+    <link rel="stylesheet" href="/@resources/styles/watch.responsive.css">
     <link rel="icon" type="image/x-icon"
         href="https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/icon-edited.webp?v=1704340956129" />
-
     <title>NHD ASMR</title>
 
-    <script src="/@src/initialize/recover-menu-state.js"></script>
+    <!-- Normal scripts -->
     <script type="module" src="/@src/cache.mgr.mjs"></script>
     <script type="module" src="/@src/app.index.mjs" async></script>
+
+    <!-- Description style/script -->
+    <!-- <link rel="stylesheet" href="/descriptions/styles/type-1.css">
+    <script src="/descriptions/scripts/buildContent.js"></script> -->
 </head>
 
 <body>
+    <div class="close-menu"></div>
     <!-- CATEGORIES MODAL -->
     <div class="modal-container" id="categories-modal"> <!-- Use class open to display -->
         <div class="border-spin-special-box animate pink-blue"> <!-- Border wrapper -->
@@ -202,7 +207,6 @@
         <div class="button-div">
             <h1 class="button-open" id="toggle-menu-btn">&#9776;</h1>
         </div>
-
         <!-- APP TITLE & ICON -->
         <div class="title-div">
             <a href="/">
@@ -213,7 +217,6 @@
                 </h1>
             </a>
         </div>
-
         <!-- SEARCH DIV -->
         <div class="search-div">
             <div class="search-div2">
@@ -225,10 +228,7 @@
             </div>
             <div class="result-box">
                 <!-- LIST OF SUBMISSION RESULT OF KEYWORD -->
-                <a href="javascript:void(0)"><i class="fas fa-search"></i>&nbsp;
-                    <strong>Type</strong>:
-                    <span class="cnt">Value</span>
-                </a>
+                <a href="/watch/?code=31261">🔎<strong>Code</strong>:<span class="cnt">31261</span></a>
             </div>
         </div>
     </div>
@@ -250,126 +250,83 @@
         <a class="menu-item" id="open-gacha-modal-btn">Gacha Machine</a>
     </div>
 
-    <!-- MESSAGE -->
-    <p class="message">NHD Hentai - ASMR Hentai Tracks</p>
+    <div class="container">
+        <div class="vid_div">
+            <iframe id="vid_frame" src="./altplayer?code=114571"></iframe>
+            <h3 id="track-info">
+                <span id="track_name">
+                    <b><i p-rjcode>RJ01173424</i></b> -
+                    <span p-engname>She may seem unfriendly, but she is considerate and a super beautiful wife who
+                        gently supports me! (Original name:
+                        <span p-japname>
+                            無愛想に見えるけど、思いやりがあって側でそっと支えてくれる超美人な嫁!～ビジネスワイフ制度～
+                        </span>)
+                    </span>
+                </span>
+                <br><br>
 
-    <!-- GRID OF TRACKS -->
-    <div class="content">
-        <div class="hidden-data-container"> <!-- Hidden data container -->
-            <!-- LIST OF HIDDEN ITEMS *Edit opacity to 1 to display-->
-            <div class="hidden-info" id="hidden_info_of_114641" style="right: 100px; top: 200px; opacity: 0;">
-                <!-- Content container -->
-                <div class="content-container">
-                    <h3>
-                        <b>RJ Code</b>:
-                        <span class="rj-code">RJ01185774</span>
-                    </h3>
-                    <h3>
-                        <b>Series</b>:
-                        <span class="list-series">
-                            <span class="series">異世界・ファンタジー</span>
-                        </span>
-                    </h3>
-                    <h3>
-                        <b>Eng Name</b>:
-                        <span class="e-name">
-                            When I was reincarnated in another world, I was raped by the older sister of a big-breasted
-                            gravure idol who hates me ~ Creampie sex that won’t end until she get pregnant ~
-                        </span>
-                    </h3>
-                    <h3>
-                        <b>Original Name</b>:
-                        <span class="j-name">
-                            異世界転生したら俺のことが嫌いな爆乳グラビアアイドルの姉に逆レ〇プされた件～孕むまで終わらない中出し性活～ 【抱き枕推奨/ファンタジー/中出し】
-                        </span>
-                    </h3>
-                    <h3>
-                        <b>CV</b>:
-                        <span class="list-cv">
-                            <a class="cv" href="..?cv=星野天">星野天</a>,
-                            <a class="cv" href="..?cv=星野天">星野天</a>
-                        </span>
-                    </h3>
-                    <h3>
-                        <b>Tags</b>:
-                        <span class="list-tag">
-                            <span class="tag">AI一部利用</span>,
-                            <span class="tag">Big Breasts</span>,
-                            <span class="tag">Blowjob</span>,
-                            <span class="tag">Paizuri</span>,
-                            <span class="tag">Rape</span>,
-                            <span class="tag">Swimwear</span>
-                        </span>
-                    </h3>
-                </div>
+                <b>Series</b>: <span id="track_series">
+                    <a title="ビジネスワイフ制度" href="#"><span class="series">ビジネスワイフ制度 (Business wife system) (4)</span></a>
+                </span>
+                <br><br>
 
-                <!-- Image container -->
-                <div class="image-container">
-                    <img loading="lazy" src="#" alt=" - Thumbnail:114641">
+                <b p-cv-label>CV</b>: <span id="track_list_cv">
+                    <a title="@Mio Namimi" href="#">
+                        <span class="cv">Mio Namimi (7)</span>
+                    </a>
+                </span>
+                <br><br>
+
+                <b p-tag-label>Tag</b>: <span id="track_list_tag">
+                    <a title="#Anal" href="#">
+                        <span class="tag">Anal (69)</span>
+                    </a>
+                </span>
+                <br><br>
+
+                <span id="other_links">
+                    <span><b>Manga ver</b>: <a class="series" target="_blank" href="null">Here</a></span>
+                </span>
+                <br><br>
+            </h3>
+
+            <h3 id="download-box" style="display: block">
+                <a class="series" target="_blank" href="./download?code=114571">Download ↓</a>
+            </h3>
+
+            <details id="track-description" style="padding: 20px 10px 10px 10px; color: white;">
+                <summary>Descriptions</summary>
+                <div style="padding: 1rem">
+                    Nothing here for now...
                 </div>
-            </div>
+            </details>
         </div>
 
-        <div class="grid-container" style="opacity: 0;"> <!-- Main grid -->
-
-            <!-- LIST OF GRID ITEMS -->
-            <div data-added-action="false" data-code="114641" class="grid-item" id="link_to_114641">
-                <!-- IMAGE CONTAINER -->
-                <div class="image-container">
-                    <a href="/watch/?code=114641">
-                        <img loading="lazy" decoding="async" src="#" alt=" - Thumbnail:114641">
-                    </a>
-                </div>
-                <!-- TRACK NAME AND CV CONTAINER -->
-                <div class="flex-container">
-                    <a href="/watch?code=114641">
-                        <div class="text-container">
-                            <p class="multiline-ellipsis">
-                                <b><i class="rj-code" p-rjcode>RJ01185774</i></b> -
-                                <span class="e-name" p-engname>
-                                    When I was reincarnated in another world, I was raped by the older sister of a
-                                    big-breasted gravure idol who hates me ~ Creampie sex that won’t end until she get
-                                    pregnant ~
-                                </span>
-                            </p>
-                        </div>
-                    </a>
-                    <div class="text-container">
-                        <p class="singleline-ellipsis"><br>
-                            <b p-cv-label>CV</b>:
-                            <span class="list-cv" p-cvs>
-                                <a class="cv" title="CV: 星野天" href="..?cv=星野天">星野天</a>,
-                                <a class="cv" title="CV: 星野天" href="..?cv=星野天">星野天</a>
-                            </span>
+        <div class="content_div">
+            <h2>Random post</h2>
+            <div class="post-box" id="random-post">
+                <a data-code="103539" href="../watch?code=103539">
+                    <div class="imgcontainer image-container">
+                        <img loading="lazy" decoding="async"
+                            src="https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/103539-0.jpg?v=1711805412890"
+                            alt=" - Thumbnail:103539">
+                    </div>
+                    <div class="text-box">
+                        <p class="content-p">
+                            <b><i p-rjcode>RJ01110728</i></b>
+                            <span p-engname> - Job encyclopedia 04 ”The job of a stopper” - This is a job to hold back
+                                ejaculation
+                                ♪</span>
                         </p>
                     </div>
-                </div>
+                </a>
             </div>
-
-        </div>
-
-        <div></div><!-- Blank div for layout -->
-    </div>
-
-    <!-- PAGINATION -->
-    <div class="pagination">
-        <div class="pagination-body">
-            <a class="block" href="?page=1" id="first-link">&lt;&lt;</a>
-            <a class="active" href="?page=1">1</a>
-            <a class="" href="?page=2">2</a>
-            <a class="" href="?page=3">3</a>
-            <a class="" href="?page=4">4</a>
-            <a class="" href="?page=5">5</a>
-            <a class="" href="?page=6">6</a>
-            <a class="" href="?page=7">7</a>
-            <a class="" href="?page=12" id="last-link">&gt;&gt;</a>
         </div>
     </div>
 
     <!-- FOOTER -->
     <div class="footer">
         <h1 class="title">NHD Hentai - ASMR Hentai</h1>
-
         <div class="footer-content">
             <!-- GRID 1 -->
             <div class="grid-item">
@@ -390,7 +347,6 @@
                     <span style="color: #00BFFF;">►</span>JASMR
                 </a>
             </div>
-
             <!-- GRID 2 -->
             <div class="grid-item">
                 <h2>Many Type Of Hentai Website</h2>
@@ -398,7 +354,6 @@
                     <span style="color: #00BFFF;">►</span>HentaiAnimeZone
                 </a>
             </div>
-
             <!-- GRID 3 -->
             <div class="grid-item">
                 <h2>Manga Hentai Websites</h2>

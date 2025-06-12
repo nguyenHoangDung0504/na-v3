@@ -1,6 +1,6 @@
 const CACHE_NAME = 'na-v3.cache';
 const CACHE_VERSION = '3';
-const CACHE_EXPIRATION = time({ minutes: 10 });
+const CACHE_EXPIRATION = time({ minutes: 0 });
 const LOG = true;
 
 const cacheTargets = buildCacheTargets`

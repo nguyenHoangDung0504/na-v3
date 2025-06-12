@@ -195,8 +195,8 @@ class Database {
 	 * @param {number} n
 	 * @param {number[]} IDs
 	 */
-	async getRandomTracksKey(n, IDs = []) {
-		if (!IDs.length) IDs = await this.tracks.getIDs();
+	async getRandomTracksKey(n, IDs = undefined) {
+		IDs ??= await this.tracks.getIDs();
 		let shuffledIndexes = JSON.parse(localStorage.getItem('shuffledIndexes'));
 		const randomKeyList = [];
 

@@ -7,7 +7,4 @@ const { viewBinding: homeViewBinding } = createViewBinding({
 	paginationBody: '.pagination-body',
 });
 
-export {
-    homeViewBinding,
-    
-};
+export { homeViewBinding };

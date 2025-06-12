@@ -13,7 +13,6 @@ const MAX_PAGINATION_ITEM = device.isMobile() ? 5 : 7;
 
 /**
  * @param {Database} database
- * @returns
  */
 export async function init(database) {
 	const UI = bindUI();
