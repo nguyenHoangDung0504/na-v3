@@ -14,7 +14,7 @@ export async function init(database) {
 	const UI = bindUI();
 	const renderers = initRenderers(database, UI);
 	await initViews(database, UI, renderers);
-	initFeatures(UI, renderers);
+	initFeatures(UI);
 }
 
 /**
@@ -28,9 +28,8 @@ async function initViews(database, UIbindings, renderers) {
 
 /**
  * @param {ReturnType<typeof bindUI>} UIbindings
- * @param {ReturnType<typeof initRenderers>} renderers
  */
-function initFeatures(UIbindings, renderers) {
+function initFeatures(UIbindings) {
 	initCloseMenuFeature(UIbindings);
 }
 
