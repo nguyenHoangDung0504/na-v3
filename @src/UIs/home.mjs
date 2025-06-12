@@ -20,7 +20,7 @@ export async function init(database) {
 	const renderers = initRenderers(database, UI);
 	await initViews(database, UI, renderers);
 	await initFeatures(database, UI, renderers);
-	UI.homeView.gridContainer.style.display = null;
+	UI.homeView.gridContainer.style.opacity = null;
 }
 
 /**
