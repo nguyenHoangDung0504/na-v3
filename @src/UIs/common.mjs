@@ -7,8 +7,10 @@ import {
 	menuViewBinding,
 	suggestionsViewBinding,
 	categoriesViewBinding,
+	gachaViewBinding,
+	gachaRsItem,
 } from './view_bindings/common.mjs';
-import { SearchSuggestion } from '../app.models.mjs';
+import { Category, SearchSuggestion, Track } from '../app.models.mjs';
 
 /**
  * @typedef {typeof import('../database/index.mjs')['database']} Database
@@ -20,7 +22,7 @@ import { SearchSuggestion } from '../app.models.mjs';
  */
 export async function initialize(database) {
 	const UI = bindUI();
-	const renderers = initializeRenderers(UI);
+	const renderers = initializeRenderers(database, UI);
 	await initializeViews(database, UI, renderers);
 	await initializeFeatures(database, UI, renderers);
 	return UI;
@@ -34,7 +36,9 @@ function bindUI() {
 	const menuView = menuViewBinding.bind(appView.menu);
 	const headerView = headerViewBinding.bind(appView.header);
 	const categoriesView = categoriesViewBinding.bind(appView.categoriesModal);
-	return { appView, menuView, headerView, categoriesView };
+	const gachaView = gachaViewBinding.bind(appView.gachaModal);
+
+	return { appView, menuView, headerView, categoriesView, gachaView };
 }
 
 /**
@@ -55,6 +59,7 @@ async function initializeFeatures(database, UIbindings, renderers) {
 	initializeMenuFeatures(UIbindings);
 	initializeHeaderFeatures(UIbindings, database, renderers);
 	initializeCategoriesFeatures(UIbindings, database);
+	initializeGachaFeatures(UIbindings, database, renderers);
 }
 
 /**
@@ -297,10 +302,147 @@ async function initializeCategoriesFeatures(UIbindings) {
 
 /**
  * @param {ReturnType<typeof bindUI>} UIbindings
+ * @param {Database} db
+ * @param {ReturnType<typeof initializeRenderers>} renderers
  */
-function initializeRenderers(UIbindings) {
-	const { headerView } = UIbindings;
-	const { resultBox } = headerView;
+function initializeGachaFeatures(UIbindings, db, renderers) {
+	const {
+		appView: { gachaModal },
+		menuView: { openGachaModalBtn },
+		gachaView: { gridGachaModal, gachaModalBody, closeBtn, gacha1, gacha10 },
+	} = UIbindings;
+	const { gachaResultLV } = renderers;
+	let onG10Anim = false;
+
+	openGachaModalBtn.addEventListener('click', openGachaModal);
+	closeBtn.addEventListener('click', closeGachaModal);
+	gachaModal.addEventListener('click', (event) => {
+		if (event.target.classList.contains('modal-container')) {
+			closeGachaModal();
+		}
+	});
+	gacha10.addEventListener('click', () => {
+		if (onG10Anim) return;
+
+		gacha10.classList.add('active');
+		onG10Anim = true;
+		gacha10.addEventListener(
+			'transitionend',
+			function () {
+				setTimeout(() => {
+					this.classList.remove('active');
+					this.style.setProperty('--transition-time', '.15s');
+					this.addEventListener(
+						'transitionend',
+						() => {
+							this.style.setProperty('--transition-time', null);
+							onG10Anim = false;
+						},
+						{ once: true }
+					);
+				}, 100);
+			},
+			{ once: true }
+		);
+
+		const shards = document.querySelectorAll('.shard');
+		const screenWidth = screen.width;
+		const screenHeight = screen.height;
+		const avgDimension = (screenWidth + screenHeight) / 2;
+		const usedPositions = []; // Mảng lưu trữ các vị trí đã dùng
+
+		shards.forEach((shard) => {
+			let xTranslate, yTranslate, distance;
+			shard.opacity = 1;
+
+			// Xác định vị trí sao cho không bị trùng hoặc quá gần các mảnh khác
+			do {
+				xTranslate = (Math.random() - 0.5) * (avgDimension * 0.2); // Khoảng cách bay 20% của avgDimension
+				yTranslate = (Math.random() - 0.5) * (avgDimension * 0.2); // Khoảng cách bay 20% của avgDimension
+
+				// Tính khoảng cách từ vị trí (xTranslate, yTranslate) đến các vị trí đã sử dụng
+				distance = usedPositions.every((pos) => {
+					const dx = xTranslate - pos.x;
+					const dy = yTranslate - pos.y;
+					return Math.sqrt(dx * dx + dy * dy) > avgDimension * 0.05; // Đảm bảo khoảng cách tối thiểu là 5% của avgDimension
+				});
+			} while (!distance);
+
+			// Lưu vị trí này vào mảng usedPositions
+			usedPositions.push({ x: xTranslate, y: yTranslate });
+
+			// Kích thước của mỗi shard (tỉ lệ theo avgDimension)
+			shard.style.width = `${avgDimension * 0.015}px`; // 1.5% của avgDimension
+			shard.style.height = `${avgDimension * 0.015}px`; // 1.5% của avgDimension
+
+			// Thời gian bay của mỗi shard
+			let duration = 800;
+
+			// Tạo animation với animate()
+			shard.animate(
+				[
+					{ transform: 'translate(0, 0)', filter: 'brightness(1.5)', opacity: 1 },
+					{
+						transform: `translate(${xTranslate}px, ${yTranslate}px) rotate(${180}deg)`,
+						filter: 'brightness(1.5)',
+						opacity: 1,
+					},
+					{
+						transform: `translate(${xTranslate}px, ${
+							yTranslate + Math.abs(yTranslate / 2)
+						}px) rotate(${270}deg)`,
+						filter: 'brightness(1.0)',
+						opacity: 1,
+					},
+					{
+						transform: `translate(${xTranslate}px, ${
+							yTranslate + Math.abs(yTranslate)
+						}px) rotate(${360}deg)`,
+						opacity: 0,
+					},
+				],
+				{
+					duration: duration,
+					easing: 'ease-out',
+					fill: 'forwards',
+				}
+			);
+		});
+	});
+	gacha10.addEventListener('click', function () {
+		gacha(this.dataset.count);
+	});
+	gacha1.addEventListener('click', function () {
+		gacha(this.dataset.count);
+	});
+
+	function openGachaModal() {
+		gachaModal.classList.add('open');
+		document.body.classList.add('openModal');
+	}
+	function closeGachaModal() {
+		gachaModal.classList.remove('open');
+		document.body.classList.remove('openModal');
+	}
+	async function gacha(count) {
+		gridGachaModal.innerHTML = '';
+		gachaModalBody.scrollTop = 0;
+
+		const trackKeys = await db.getRandomTracksKey(count);
+		const tracks = await db.tracks.getAll(trackKeys);
+		gachaResultLV.setDataCollection(tracks);
+	}
+}
+
+/**
+ * @param {Database} db
+ * @param {ReturnType<typeof bindUI>} UIbindings
+ */
+function initializeRenderers(db, UIbindings) {
+	const {
+		headerView: { resultBox },
+		gachaView: { gridGachaModal },
+	} = UIbindings;
 
 	/**@type {ListView<SearchSuggestion<"code" | "RJcode" | "cv" | "tag" | "series" | "eName" | "jName">>} */
 	const searchResultLV = new ListView(
@@ -316,5 +458,35 @@ function initializeRenderers(UIbindings) {
 		}
 	);
 
-	return { searchResultLV };
+	const gachaResultLV = new ListView(Track, gridGachaModal, async (template, data) => {
+		const binding = gachaRsItem.bind(template);
+		const {
+			info: { code, RJcode, eName },
+			resource: { thumbnail },
+			category: { cvIDs },
+		} = data;
+		const watchPath = `/watch/?code=${code}`;
+
+		binding._root.dataset.code = code;
+		binding._root.dataset.id = `link-to:${RJcode}`;
+		binding.img.alt = ` - Thumbnail:${code}`;
+		binding.img.src = `${await db.prefixies.get(thumbnail.prefixID)}${thumbnail.name}`;
+		binding.pRJcode.textContent = RJcode;
+		binding.pEngname.textContent = eName;
+		binding.link1.href = binding.link2.href = watchPath;
+		binding.cvLabel.textContent = 'CV' + (cvIDs.length > 1 ? 's' : '');
+
+		new ListView(Category, binding.cvList, (template, data) => {
+			template.href = `/?cv=${data.id}`;
+			template.title = `CV: ${data.name}`;
+			template.textContent = `${data.name} (${data.quantity})`;
+		}).setDataCollection(await db.CVs.getAll(cvIDs));
+	}).afterItemAddedCall((item, _, index) => {
+		item.style.opacity = '0';
+		setTimeout(() => {
+			item.style.opacity = null;
+		}, index * 100);
+	});
+
+	return { searchResultLV, gachaResultLV };
 }

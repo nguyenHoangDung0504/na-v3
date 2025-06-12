@@ -15,11 +15,13 @@ export class Track {
 
 export class TrackInfo {
 	/**
+	 * @param {number} code
 	 * @param {string} RJcode
 	 * @param {string} eName
 	 * @param {string} jName
 	 */
-	constructor(RJcode, eName, jName) {
+	constructor(code, RJcode, eName, jName) {
+		this.code = code;
 		this.RJcode = RJcode;
 		this.eName = eName;
 		this.jName = jName;
@@ -32,10 +34,12 @@ export class TrackInfo {
 export class Category {
 	/**
 	 * @param {T} type
+	 * @param {number} id
 	 * @param {string} name
 	 * @param {number} quantity
 	 */
-	constructor(type, name, quantity) {
+	constructor(id, type, name, quantity) {
+		this.id = id;
 		this.type = type;
 		this.name = name;
 		this.quantity = quantity;

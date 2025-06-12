@@ -4,7 +4,7 @@ const cacheManager = {
 	unregisterWorker,
 };
 
-window.cacheManager = this;
+window.cacheManager = cacheManager;
 export default cacheManager;
 
 if ('serviceWorker' in navigator) {

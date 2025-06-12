@@ -10,9 +10,7 @@ class Database {
 	 * @param {string} resourcePath
 	 */
 	constructor(resourcePath = '/@resources/databases/s1/') {
-		resourcePath = resourcePath.endsWith('/')
-			? resourcePath
-			: resourcePath + '/';
+		resourcePath = resourcePath.endsWith('/') ? resourcePath : resourcePath + '/';
 
 		this.CVs = new CategoryStorage('cv', resourcePath);
 		this.tags = new CategoryStorage('tag', resourcePath);
@@ -48,16 +46,10 @@ class Database {
 			} = track;
 
 			// Chuẩn hóa dữ liệu
-			[RJcode, eName, jName] = [RJcode, eName, jName].map((str) =>
-				str.toLowerCase()
-			);
+			[RJcode, eName, jName] = [RJcode, eName, jName].map((str) => str.toLowerCase());
 
 			// Nếu tìm thấy trong thông tin chính
-			if (
-				[id.toString(), RJcode, eName, jName].some((prop) =>
-					prop.includes(lowerCaseKeyword)
-				)
-			) {
+			if ([id.toString(), RJcode, eName, jName].some((prop) => prop.includes(lowerCaseKeyword))) {
 				keyResults.add({ id, index });
 				continue;
 			}
@@ -87,10 +79,7 @@ class Database {
 
 			const categories = await Promise.all(categoryPromises);
 			for (const { category } of categories) {
-				if (
-					category &&
-					category.name.toLowerCase().includes(lowerCaseKeyword)
-				) {
+				if (category && category.name.toLowerCase().includes(lowerCaseKeyword)) {
 					keyResults.add({ id, index });
 					break; // Chỉ cần tìm thấy 1 lần là đủ
 				}
@@ -98,9 +87,7 @@ class Database {
 		}
 
 		// Sắp xếp theo index gốc
-		return [...keyResults]
-			.sort((a, b) => a.index - b.index)
-			.map((item) => item.id);
+		return [...keyResults].sort((a, b) => a.index - b.index).map((item) => item.id);
 	}
 
 	/**
@@ -155,16 +142,8 @@ class Database {
 		 */
 		async function checkInfor(type, standardizedProp, index, id) {
 			const setKey = `${type}::${standardizedProp}`;
-			if (
-				!seen.has(setKey) &&
-				standardizedProp.toLowerCase().includes(lowerCaseKeyword)
-			) {
-				const suggestion = new SearchSuggestion(
-					type,
-					standardizedProp,
-					keyword,
-					id
-				);
+			if (!seen.has(setKey) && standardizedProp.toLowerCase().includes(lowerCaseKeyword)) {
+				const suggestion = new SearchSuggestion(type, standardizedProp, keyword, id);
 				suggestion.index = index;
 				suggestions.push(suggestion);
 				seen.add(setKey);
@@ -184,16 +163,8 @@ class Database {
 				if (!category) return;
 
 				const setKey = `${category.type}::${id}`;
-				if (
-					!seen.has(setKey) &&
-					category.name.toLowerCase().includes(lowerCaseKeyword)
-				) {
-					const suggestion = new SearchSuggestion(
-						type,
-						category.name,
-						keyword,
-						`${type}-${id}`
-					);
+				if (!seen.has(setKey) && category.name.toLowerCase().includes(lowerCaseKeyword)) {
+					const suggestion = new SearchSuggestion(type, category.name, keyword, `${type}-${id}`);
 					suggestion.index = index;
 					suggestions.push(suggestion);
 					seen.add(setKey);
@@ -203,15 +174,43 @@ class Database {
 		}
 	}
 
+	/**
+	 * @param {number} n
+	 * @param {number[]} IDs
+	 */
+	async getRandomTracksKey(n, IDs = []) {
+		if (!IDs.length) IDs = await this.tracks.getIDs();
+		let shuffledIndexes = JSON.parse(localStorage.getItem('shuffledIndexes'));
+		const randomKeyList = [];
+
+		if (!shuffledIndexes || shuffledIndexes.length < n) {
+			const remainingIndexes = Array.from(
+				Array(!shuffledIndexes ? IDs.length : IDs.length - shuffledIndexes.length).keys()
+			);
+			utils.array.shuffle(remainingIndexes);
+			if (!shuffledIndexes) {
+				shuffledIndexes = remainingIndexes;
+			} else {
+				shuffledIndexes.push(...remainingIndexes);
+			}
+			localStorage.setItem('shuffledIndexes', JSON.stringify(shuffledIndexes));
+		}
+
+		for (let i = 0; i < n; i++) {
+			randomKeyList.push(IDs[shuffledIndexes[i]]);
+		}
+
+		shuffledIndexes = shuffledIndexes.slice(n);
+		localStorage.setItem('shuffledIndexes', JSON.stringify(shuffledIndexes));
+
+		return randomKeyList;
+	}
+
 	export() {
 		window.database = this;
 	}
 }
 
-decoratorManager.applyFor(
-	Database,
-	['searchTracks', 'getSearchSuggestions'],
-	['memoize']
-);
+decoratorManager.applyFor(Database, ['searchTracks', 'getSearchSuggestions'], ['memoize']);
 
 export const database = new Database();

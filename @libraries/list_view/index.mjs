@@ -93,7 +93,7 @@ export default class ListView {
 		return this;
 	}
 
-	render() {
+	async render() {
 		let addedNodes = [];
 
 		if (!this._dataBinder) {
@@ -107,7 +107,9 @@ export default class ListView {
 		// Làm rỗng container trước khi render
 		this._listContainer.innerHTML = '';
 
-		this._dataCollection.forEach((data, index) => {
+		for (let index = 0; index < this._dataCollection.length; index++) {
+			const data = this._dataCollection[index];
+
 			if (!(data instanceof this._DataType)) {
 				this._log &&
 					console.error(
@@ -123,17 +125,17 @@ export default class ListView {
 			addedNodes.push(root);
 
 			// Tạo binder và xử lý binding
-			this._dataBinder(root, data);
+			await this._dataBinder(root, data);
 
 			// Gọi hook trước khi thêm phần tử
-			if (this._beforeItemAdded) this._beforeItemAdded(root, data);
+			if (this._beforeItemAdded) this._beforeItemAdded(root, data, index);
 
 			// Thêm phần tử vào container
 			this._listContainer.appendChild(root);
 
 			// Gọi hook sau khi thêm phần tử
-			if (this._afterItemAdded) this._afterItemAdded(root, data);
-		});
+			if (this._afterItemAdded) this._afterItemAdded(root, data, index);
+		}
 
 		if (this._afterRender) this._afterRender(this._listContainer, this._dataCollection, addedNodes);
 	}

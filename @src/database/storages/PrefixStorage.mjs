@@ -42,4 +42,13 @@ export default class PrefixStorage {
 		await this._pending;
 		return this._registry.get(id);
 	}
+
+	/**
+	 * @param {number[]} IDs
+	 * @returns {Promise<string[]>}
+	 */
+	async getAll(IDs) {
+		await this._pending;
+		return IDs.map((id) => this._registry.get(id));
+	}
 }

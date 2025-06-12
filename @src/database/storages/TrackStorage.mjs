@@ -69,7 +69,7 @@ export default class TrackStorage {
 			this._registry.set(
 				code,
 				new Track(
-					new TrackInfo(RJcode, eName, jName),
+					new TrackInfo(code, RJcode, eName, jName),
 					new TrackCategories(cvIDs, tagIDs, seriesIDs),
 					new TrackResources(thumbnail, images, audios),
 					additionalURLs
@@ -119,6 +119,15 @@ export default class TrackStorage {
 	async get(id) {
 		await this._pending;
 		return this._registry.get(id) || this._registry.get(this._codeMap.get(id));
+	}
+
+	/**
+	 * @param {number[] | `RJ${number}`[]} IDs
+	 * @returns {Promise<Track[]>}
+	 */
+	async getAll(IDs) {
+		await this._pending;
+		return IDs.map((id) => this._registry.get(id) || this._registry.get(this._codeMap.get(id)));
 	}
 }
 

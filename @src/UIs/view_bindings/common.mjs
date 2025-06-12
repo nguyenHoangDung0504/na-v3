@@ -2,8 +2,6 @@ import { createViewBinding } from '../../../@libraries/view_binding/index.mjs';
 
 const { viewBinding: appViewBinding } = createViewBinding({
 	loader: '.loader-modal',
-	categoryModel: '#categories-modal',
-	gachaModel: '#gacha-modal',
 	header: '.header',
 	menu: '.menu',
 	categoriesModal: '#categories-modal',
@@ -16,7 +14,7 @@ const { viewBinding: menuViewBinding } = createViewBinding({
 	reloadBtn: '.reload-item',
 	forwardBtn: '.forward-item',
 	openCatModalBtn: '#open-categories-modal-btn',
-	openGachaModelBtn: '#open-gacha-modal-btn',
+	openGachaModalBtn: '#open-gacha-modal-btn',
 });
 
 const { viewBinding: headerViewBinding } = createViewBinding({
@@ -45,9 +43,20 @@ const { viewBinding: categoriesViewBinding } = createViewBinding({
 
 const { viewBinding: gachaViewBinding } = createViewBinding({
 	gridGachaModal: '.gacha-grid-container',
-	btnCloseGachaModal: '#close-gacha-modal-btn',
+	gachaModalBody: '.gacha-modal-body',
+	closeBtn: '#close-gacha-modal-btn',
 	gacha1: '#gachaX1',
 	gacha10: '#gachaX10',
+});
+
+const { viewBinding: gachaRsItem } = createViewBinding({
+	img: 'img',
+	link1: '.image-container > a = a',
+	link2: '.flex-container > a = a',
+	pRJcode: '[p-rjcode]',
+	pEngname: '[p-engname]',
+	cvLabel: '[p-cv-label]',
+	cvList: '[p-cvs]',
 });
 
 export {
@@ -57,4 +66,5 @@ export {
 	suggestionsViewBinding,
 	categoriesViewBinding,
 	gachaViewBinding,
+	gachaRsItem,
 };

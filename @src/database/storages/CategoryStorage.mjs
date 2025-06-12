@@ -48,7 +48,7 @@ export default class CategoryStorage {
 
 		lines.forEach((line) => {
 			const [id, name, quantity] = line.split(',');
-			this._registry.set(Number(id), new Category(this.type, name, Number(quantity)));
+			this._registry.set(Number(id), new Category(+id, this.type, name, Number(quantity)));
 		});
 
 		// Lấy danh sách ID để tối ưu việc sắp xếp
@@ -95,5 +95,14 @@ export default class CategoryStorage {
 	async get(id) {
 		await this._pending;
 		return this._registry.get(id);
+	}
+
+	/**
+	 * @param {number[]} IDs
+	 * @returns {Promise<Category<T>[]>}
+	 */
+	async getAll(IDs) {
+		await this._pending;
+		return IDs.map((id) => this._registry.get(id));
 	}
 }
