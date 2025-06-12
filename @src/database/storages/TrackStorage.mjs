@@ -78,7 +78,7 @@ export default class TrackStorage {
 		});
 
 		// Lấy danh sách ID để tối ưu việc sắp xếp
-		this._IDs = [...this._registry.keys()];
+		this._IDs = [...this._registry.keys()].reverse();
 	}
 
 	/**

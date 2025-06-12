@@ -12,11 +12,20 @@ export const url = {
 	/**
 	 * @param {string} key
 	 * @param {string} value
-	 * @param {URL} [url=new URL(window.location.href)]
+	 * @param {URL} url
 	 */
-	setQueryParam(key, value, url = new URL(window.location.href)) {
+	setParam(key, value, url = new URL(window.location.href)) {
 		url.searchParams.set(key, value);
 		return url.toString();
+	},
+
+	/**
+	 * @param {string} key
+	 * @param {URLSearchParams} searchParams
+	 * @returns
+	 */
+	getParam(key, searchParams = new URLSearchParams(location.search)) {
+		return searchParams.get(key);
 	},
 };
 
@@ -28,10 +37,7 @@ export const array = {
 		let currentIndex = array.length;
 		while (currentIndex > 0) {
 			let randomIndex = Math.floor(Math.random() * currentIndex--);
-			[array[currentIndex], array[randomIndex]] = [
-				array[randomIndex],
-				array[currentIndex],
-			];
+			[array[currentIndex], array[randomIndex]] = [array[randomIndex], array[currentIndex]];
 		}
 		return array;
 	},
@@ -64,9 +70,7 @@ export const device = {
 export const fullscreen = {
 	activate() {
 		const elem = document.documentElement;
-		elem.requestFullscreen?.() ||
-			elem.webkitRequestFullscreen?.() ||
-			elem.msRequestFullscreen?.();
+		elem.requestFullscreen?.() || elem.webkitRequestFullscreen?.() || elem.msRequestFullscreen?.();
 	},
 
 	deactivate() {
@@ -82,9 +86,7 @@ export const fullscreen = {
 	},
 
 	toggle() {
-		document.fullscreenElement ||
-		document.webkitFullscreenElement ||
-		document.msFullscreenElement
+		document.fullscreenElement || document.webkitFullscreenElement || document.msFullscreenElement
 			? this.deactivate()
 			: this.activate();
 	},
@@ -115,22 +117,13 @@ export const sort = {
 	 * @returns {number}
 	 */
 	bySuggestionRelevance(a, b) {
-		const typeOrder = [
-			'code',
-			'RJcode',
-			'cv',
-			'tag',
-			'series',
-			'eName',
-			'jName',
-		];
+		const typeOrder = ['code', 'RJcode', 'cv', 'tag', 'series', 'eName', 'jName'];
 		const keywordIndexA = a.value.toString().toLowerCase().indexOf(a.keyword);
 		const keywordIndexB = b.value.toString().toLowerCase().indexOf(b.keyword);
 
 		if (keywordIndexA !== keywordIndexB) return keywordIndexA - keywordIndexB;
 
-		const typeComparison =
-			typeOrder.indexOf(a.type) - typeOrder.indexOf(b.type);
+		const typeComparison = typeOrder.indexOf(a.type) - typeOrder.indexOf(b.type);
 		if (typeComparison !== 0) return typeComparison;
 
 		return a.value.toString().localeCompare(b.value.toString());
@@ -167,10 +160,7 @@ export const pager = {
 		pagePerGroup = Math.min(pagePerGroup, limitPage);
 
 		// Tính toán phạm vi startPage - endPage
-		let startPage = Math.max(
-			1,
-			currentPage - Math.floor((pagePerGroup - 1) / 2)
-		);
+		let startPage = Math.max(1, currentPage - Math.floor((pagePerGroup - 1) / 2));
 		let endPage = startPage + pagePerGroup - 1;
 
 		// Điều chỉnh khi `endPage` vượt quá `limitPage`
@@ -180,10 +170,7 @@ export const pager = {
 		}
 
 		// Trả về mảng số trang
-		return Array.from(
-			{ length: endPage - startPage + 1 },
-			(_, i) => startPage + i
-		);
+		return Array.from({ length: endPage - startPage + 1 }, (_, i) => startPage + i);
 	},
 
 	/**

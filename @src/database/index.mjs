@@ -21,11 +21,28 @@ class Database {
 	}
 
 	/**
+	 * @param {'cv' | 'tag' | 'series'} type
+	 * @param {number[]} searchIDs
+	 * @param {number[]} IDs
+	 */
+	async searchTracksByCategory(type, searchIDs, IDs = null) {
+		IDs ??= await this.tracks.getIDs();
+		const keyList = [];
+
+		for (let i = 0; i < IDs.length; i++) {
+			const track = await this.tracks.get(IDs[i]);
+			if (searchIDs.every((id) => track.category[`${type}IDs`].includes(id))) keyList.push(IDs[i]);
+		}
+
+		return keyList;
+	}
+
+	/**
 	 * @param {string} keyword
 	 * @param {number[]} IDs
 	 */
-	async searchTracks(keyword, IDs = []) {
-		if (!IDs.length) IDs = await this.tracks.getIDs();
+	async searchTracks(keyword, IDs = null) {
+		IDs ??= await this.tracks.getIDs();
 		const lowerCaseKeyword = keyword.toString().toLowerCase();
 		const keyResults = new Set();
 
@@ -211,6 +228,10 @@ class Database {
 	}
 }
 
-decoratorManager.applyFor(Database, ['searchTracks', 'getSearchSuggestions'], ['memoize']);
+decoratorManager.applyFor(
+	Database,
+	['searchTracksByCategory', 'searchTracks', 'getSearchSuggestions'],
+	['memoize']
+);
 
 export const database = new Database();

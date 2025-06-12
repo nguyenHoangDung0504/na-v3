@@ -29,19 +29,6 @@ export async function initialize(database) {
 }
 
 /**
- * @param {Database} db
- */
-function bindUI() {
-	const appView = appViewBinding.bind(document);
-	const menuView = menuViewBinding.bind(appView.menu);
-	const headerView = headerViewBinding.bind(appView.header);
-	const categoriesView = categoriesViewBinding.bind(appView.categoriesModal);
-	const gachaView = gachaViewBinding.bind(appView.gachaModal);
-
-	return { appView, menuView, headerView, categoriesView, gachaView };
-}
-
-/**
  * @param {Database} database
  * @param {ReturnType<typeof bindUI>} UIbindings
  * @param {ReturnType<typeof initializeRenderers>} renderers
@@ -56,10 +43,23 @@ async function initializeViews(database, UIbindings, renderers) {
  * @param {ReturnType<typeof initializeRenderers>} renderers
  */
 async function initializeFeatures(database, UIbindings, renderers) {
-	initializeMenuFeatures(UIbindings);
 	initializeHeaderFeatures(UIbindings, database, renderers);
+	initializeMenuFeatures(UIbindings);
 	initializeCategoriesFeatures(UIbindings, database);
 	initializeGachaFeatures(UIbindings, database, renderers);
+}
+
+/**
+ * @param {Database} db
+ */
+function bindUI() {
+	const appView = appViewBinding.bind(document);
+	const menuView = menuViewBinding.bind(appView.menu);
+	const headerView = headerViewBinding.bind(appView.header);
+	const categoriesView = categoriesViewBinding.bind(appView.categoriesModal);
+	const gachaView = gachaViewBinding.bind(appView.gachaModal);
+
+	return { appView, menuView, headerView, categoriesView, gachaView };
 }
 
 /**
@@ -104,9 +104,11 @@ function initializeHeaderFeatures(UIbindings, db, renderers) {
 
 	const hideResultBox = () => setTimeout(() => (resultBox.style.display = 'none'), 200);
 	const showResultBox = () => searchInput.value.trim() && (resultBox.style.display = 'block');
-	const search = () =>
-		searchInput.value.trim() &&
-		(window.location.href = `/?search=${encodeURIComponent(searchInput.value)}`);
+	const search = () => {
+		const searchValue = searchInput.value.trim();
+		if (!developerSearch(searchValue))
+			searchValue && (window.location.href = `/?search=${encodeURIComponent(searchValue)}`);
+	};
 	const enterPressHandler = (event) => event.key === 'Enter' && search();
 	const updateSuggestions = debounce(async (keywords) => {
 		if (keywords.trim()) {
@@ -115,6 +117,18 @@ function initializeHeaderFeatures(UIbindings, db, renderers) {
 				.map((k) => k.trim())
 				.filter(Boolean);
 
+			if (keywords.includes('@') && !window.location.href.includes('s2')) {
+				resultBox.innerHTML = /*html*/ `
+                    <a href="../?search=@n"><span style="color: #00BFFF;">►</span><strong>@n</strong>: <span class="cnt">View newest tracks</span></a>
+                    <a href="../dev/list-code"><span style="color: #00BFFF;">►</span><strong>@lc or @listcode</strong>: <span class="cnt">View list code</span></a>
+                    <a href="../dev/data-capacity"><span style="color: #00BFFF;">►</span><strong>@dc or @datacapacity</strong>: <span class="cnt">View data capacity</span></a>
+                    <a href="https://japaneseasmr.com/"><span style="color: #00BFFF;">►</span><strong>@ja</strong>: <span class="cnt">Japanese ASMR</span></a>
+                    <a href="https://www.asmr.one/works"><span style="color: #00BFFF;">►</span><strong>@ao</strong>: <span class="cnt">ASMR ONE</span></a>
+                `;
+				showResultBox();
+				return;
+			}
+
 			// Chạy song song tất cả các tìm kiếm
 			const suggestionsArray = await Promise.all(
 				keywordList.map((keyword) => db.getSearchSuggestions(keyword))
@@ -122,7 +136,6 @@ function initializeHeaderFeatures(UIbindings, db, renderers) {
 
 			// Gộp tất cả các mảng kết quả lại (vì mỗi cái trả về một mảng)
 			const suggestions = suggestionsArray.flat();
-			console.log(`Debug suggestions:`, suggestions);
 
 			// Cập nhật ListView với dữ liệu đã lọc và sắp xếp
 			searchResultLV.setDataCollection(
@@ -144,6 +157,31 @@ function initializeHeaderFeatures(UIbindings, db, renderers) {
 		window.removeEventListener('keyup', enterPressHandler)
 	);
 	searchBtn.addEventListener('click', search);
+
+	function developerSearch(value) {
+		let active = false;
+		if (value.indexOf('@') == -1) return active;
+
+		const options = ['lc', 'listcode', 'dc', 'datacapacity', 'ja', 'ao'];
+		const links = [
+			'../dev/list-code',
+			'../dev/list-code',
+			'../dev/data-capacity',
+			'../dev/data-capacity',
+			'https://japaneseasmr.com/',
+			'https://www.asmr.one/works',
+		];
+		const optionBeforeSplit = value;
+		const optionAfterSplit = optionBeforeSplit.split('-');
+		const option = options.indexOf(optionAfterSplit[0].replaceAll('@', ''));
+		if (option != -1) {
+			active = true;
+			optionAfterSplit[1] == 'b'
+				? window.open(links[option], '_blank')
+				: (window.location = links[option]);
+		}
+		return active;
+	}
 }
 
 /**
