@@ -174,21 +174,19 @@ async function initializeCategoriesView(UIbindings, db) {
 		const listContainer = listContainers[i];
 
 		const IDs = await map.getIDs();
-		container.querySelector('.title').textContent += ` (${IDs.length})`;
-
-		const categoryList = await Promise.all(
-			IDs.map(async (id) => {
-				const category = await map.get(id);
-				if (!category) return '';
-				const { name, quantity } = category;
-				return /*html*/ `<a href="${location.href.includes('s2') ? '/s2' : ''}/?${
-					map.type
-				}=${encodeURIComponent(
-					id
-				)}" class="item" data-quantity="${quantity}" data-id="${id}">${name}</a>`;
-			})
+		const categoryList = (await map.getAll(IDs)).map(
+			/**@param {Category} category */ (category) => {
+				const { type, id, name, quantity } = category;
+				return /*html*/ `<a
+					href="/?${type}=${encodeURIComponent(id)}"
+					class="item"
+					data-quantity="${quantity}"
+					data-id="${id}">${name}
+				</a>`;
+			}
 		);
 
+		container.querySelector('.title').textContent += ` (${IDs.length})`;
 		htmls[i] = categoryList.join('');
 		listContainer.innerHTML = htmls[i];
 	}
@@ -218,7 +216,6 @@ async function initializeCategoriesFeatures(UIbindings) {
 
 		if (!device.isMobile()) setTimeout(() => accordion.dispatchEvent(new Event('click')), 200);
 	});
-
 	subRankList.forEach((subRankBox) => {
 		const searchBox = subRankBox.querySelector('input.search');
 		const sortTypeSelect = subRankBox.querySelector('select');
@@ -256,7 +253,6 @@ async function initializeCategoriesFeatures(UIbindings) {
 				sortTypeSelect.dispatchEvent(new Event('input'));
 			}, debounceTime)
 		);
-
 		sortTypeSelect.addEventListener('input', () => {
 			let sortedListOfLinks = null;
 			const value = sortTypeSelect.value.toLowerCase();
@@ -293,7 +289,6 @@ async function initializeCategoriesFeatures(UIbindings) {
 		categoriesModal.classList.add('open');
 		document.body.classList.add('openModal');
 	}
-
 	function closeCatgoriesModal() {
 		categoriesModal.classList.remove('open');
 		document.body.classList.remove('openModal');
@@ -478,7 +473,7 @@ function initializeRenderers(db, UIbindings) {
 
 		new ListView(Category, binding.cvList, (template, data) => {
 			template.href = `/?cv=${data.id}`;
-			template.title = `CV: ${data.name}`;
+			template.title = `@${data.name}`;
 			template.textContent = `${data.name} (${data.quantity})`;
 		}).setDataCollection(await db.CVs.getAll(cvIDs));
 	}).afterItemAddedCall((item, _, index) => {
