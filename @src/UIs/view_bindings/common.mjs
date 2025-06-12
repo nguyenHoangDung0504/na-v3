@@ -1,11 +1,11 @@
 import { createViewBinding } from '../../../@libraries/view_binding/index.mjs';
 
 const { viewBinding: appViewBinding } = createViewBinding({
-	loader: '.loader-modal',
 	header: '.header',
 	menu: '.menu',
 	categoriesModal: '#categories-modal',
 	gachaModal: '#gacha-modal',
+	loader: '#loader',
 });
 
 const { viewBinding: menuViewBinding } = createViewBinding({

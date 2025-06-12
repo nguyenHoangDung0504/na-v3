@@ -20,8 +20,8 @@ async function initApp() {
 	activateTimer();
 	await Promise.all([DOMLoaded(), ...Object.values(UIrequests).filter(Boolean)]);
 
-	if (UIrequests.common) await (await UIrequests.common).initialize(database);
-	if (UIrequests.home) await (await UIrequests.home).initialize(database);
+	if (UIrequests.common) (await UIrequests.common).init(database);
+	if (UIrequests.home) (await UIrequests.home).init(database);
 
 	console.timeEnd('--> [App.timer]: App ready time');
 }

@@ -1,52 +1,52 @@
+import ListView from '../../@libraries/list_view/index.mjs';
+import { Category, Track } from '../app.models.mjs';
+import { device, pager, url } from '../app.utils.mjs';
+import { gachaRsItem } from './view_bindings/common.mjs';
+import { homeViewBinding } from './view_bindings/home.mjs';
+
 /**
  * @typedef {typeof import('../database/index.mjs')['database']} Database
  */
 
-import ListView from '../../@libraries/list_view/index.mjs';
-import { Category, Track } from '../app.models.mjs';
-import { pager, url } from '../app.utils.mjs';
-import { gachaRsItem } from './view_bindings/common.mjs';
-import { homeViewBinding } from './view_bindings/home.mjs';
+const MAX_TRACK_PER_PAGE = device.isMobile() ? 28 : 40;
+const MAX_PAGINATION_ITEM = device.isMobile() ? 5 : 7;
 
 /**
  * @param {Database} database
  * @returns
  */
-export async function initialize(database) {
+export async function init(database) {
 	const UI = bindUI();
-	const renderers = initializeRenderers(database, UI);
-	await initializeViews(database, UI, renderers);
-	await initializeFeatures(database, UI, renderers);
-	return UI;
+	const renderers = initRenderers(database, UI);
+	await initViews(database, UI, renderers);
+	await initFeatures(database, UI, renderers);
+	UI.homeView.gridContainer.style.display = null;
 }
 
 /**
  * @param {Database} database
  * @param {ReturnType<typeof bindUI>} UIbindings
- * @param {ReturnType<typeof initializeRenderers>} renderers
+ * @param {ReturnType<typeof initRenderers>} renderers
  */
-async function initializeViews(database, UIbindings, renderers) {
-	const rs = await initializeResultMessageView(UIbindings, database, renderers);
-	await initializeGridView(rs, database, renderers);
+async function initViews(database, UIbindings, renderers) {
+	const rs = await initVars(UIbindings, database, renderers);
+	await initSearchRSView(rs, UIbindings, database);
+	await initGridView(rs, database, renderers);
+	initPaginationView(rs, UIbindings);
 }
 
 /**
  * @param {Database} database
  * @param {ReturnType<typeof bindUI>} UIbindings
- * @param {ReturnType<typeof initializeRenderers>} renderers
+ * @param {ReturnType<typeof initRenderers>} renderers
  */
-async function initializeFeatures(database, UIbindings, renderers) {}
+async function initFeatures(database, UIbindings, renderers) {}
 
 /**
  * @param {Database} db
  */
 function bindUI() {
 	const homeView = homeViewBinding.bind(document);
-	// const menuView = menuViewBinding.bind(appView.menu);
-	// const headerView = headerViewBinding.bind(appView.header);
-	// const categoriesView = categoriesViewBinding.bind(appView.categoriesModal);
-	// const gachaView = gachaViewBinding.bind(appView.gachaModal);
-
 	return { homeView };
 }
 
@@ -54,19 +54,20 @@ function bindUI() {
  * @param {ReturnType<typeof bindUI>} UIbindings
  * @param {Database} db
  */
-async function initializeResultMessageView(UIbindings, db) {
+async function initVars(UIbindings, db) {
 	const {
 		homeView: { messageBox },
 	} = UIbindings;
 
 	messageBox.innerHTML = 'NHD Hentai - ASMR Hentai Tracks';
 
-	await db.tracks.sortBy('code', 'desc');
-	let IDs = await db.tracks.getIDs();
 	let searchP = url.getParam('search') || url.getParam('s') || '';
 	let cvFilter = url.getParam('cv') || '';
 	let tagFilter = url.getParam('tag') || '';
 	let seriesFilter = url.getParam('series') || '';
+
+	if (!searchP || !['@newest', '@n'].includes(searchP)) await db.tracks.sortBy('code', 'desc');
+	let IDs = await db.tracks.getIDs();
 
 	// Filtering
 	if (seriesFilter) {
@@ -112,7 +113,26 @@ async function initializeResultMessageView(UIbindings, db) {
 		}
 	}
 
-	// Display result message
+	let limitPage = Math.ceil(IDs.length / MAX_TRACK_PER_PAGE);
+	let page = Number(url.getParam('page') || 1);
+	limitPage == 0 ? (limitPage = 1) : limitPage;
+	page = !page ? 1 : page;
+	page < 1 || page > limitPage ? window.history.back() : '';
+
+	return { IDs, searchP, cvFilter, tagFilter, seriesFilter, limitPage, page };
+}
+
+/**
+ * @param {Awaited<ReturnType<typeof initVars>>} vars
+ * @param {ReturnType<typeof bindUI>} UIbindings
+ * @param {Database} db
+ */
+async function initSearchRSView(vars, UIbindings, db) {
+	const { seriesFilter, cvFilter, tagFilter, searchP, IDs } = vars;
+	const {
+		homeView: { messageBox },
+	} = UIbindings;
+
 	let html = ``;
 	if (seriesFilter.length) {
 		html = (await db.series.getAll(seriesFilter)).map(
@@ -141,32 +161,48 @@ async function initializeResultMessageView(UIbindings, db) {
 	if (IDs.length === 0) {
 		messageBox.innerHTML += `<br>There weren't any results found&ensp;&ensp; <a style="padding-inline: 20px;" href="javascript:void(0)" class="series" onclick="window.history.back()">Back</a>`;
 	}
-
-	let limitPage = Math.ceil(IDs / 40);
-	let page = Number(url.getParam('page') || 1);
-	limitPage == 0 ? (limitPage = 1) : limitPage;
-	page = !page ? 1 : page;
-	page < 1 || page > limitPage ? window.history.back() : '';
-
-	return { IDs, searchP, cvFilter, tagFilter, seriesFilter, limitPage, page };
 }
 
 /**
- * @param {Awaited<ReturnType<typeof initializeResultMessageView>>} vars
+ * @param {Awaited<ReturnType<typeof initVars>>} vars
  * @param {Database} db
- * @param {ReturnType<typeof initializeRenderers>} renderers
+ * @param {ReturnType<typeof initRenderers>} renderers
  */
-async function initializeGridView(vars, db, renderers) {
+async function initGridView(vars, db, renderers) {
 	const { gridLV } = renderers;
 	const tracks = await db.tracks.getAll(vars.IDs);
-	gridLV.setDataCollection(pager.getTrackIDsForPage(vars.page, 40, tracks));
+	gridLV.setDataCollection(pager.getTrackIDsForPage(vars.page, MAX_TRACK_PER_PAGE, tracks));
+}
+
+/**
+ * @param {Awaited<ReturnType<typeof initVars>>} vars
+ * @param {ReturnType<typeof bindUI>} UIbindings
+ */
+function initPaginationView(vars, UIbindings) {
+	const { page, limitPage } = vars;
+	const {
+		homeView: { paginationBody },
+	} = UIbindings;
+	const group = pager.getGroupOfPagination(page, MAX_PAGINATION_ITEM, limitPage);
+	let links0 = [
+		`<a class="[class]" href="${url.setParam('page', '1')}" id="first-link">&lt;&lt;</a>`,
+		`[links]`,
+		`<a class="[class]" href="${url.setParam('page', limitPage)}" id="last-link">&gt;&gt;</a>`,
+	];
+	let links = ``;
+	links0[0] = page == 1 ? links0[0].replace('[class]', 'block') : links0[0];
+	links0[2] = page == limitPage ? links0[2].replace('[class]', 'block') : links0[2];
+	group.forEach((p) => {
+		links += `<a class="${p == page ? 'active' : ''}" href="${url.setParam('page', p)}">${p}</a>`;
+	});
+	paginationBody.innerHTML = links0.join('').replace('[links]', links);
 }
 
 /**
  * @param {Database} db
  * @param {ReturnType<typeof bindUI>} UIbindings
  */
-function initializeRenderers(db, UIbindings) {
+function initRenderers(db, UIbindings) {
 	const {
 		homeView: { gridContainer },
 	} = UIbindings;

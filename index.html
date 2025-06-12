@@ -19,12 +19,6 @@
 </head>
 
 <body>
-    <!-- LOADER -->
-    <div class="loader-modal -show"> <!-- Use class show to display -->
-        <div class="loader"></div>
-        <div class="displayer" message="Loading..."></div>
-    </div>
-
     <!-- CATEGORIES MODAL -->
     <div class="modal-container" id="categories-modal"> <!-- Use class open to display -->
         <div class="border-spin-special-box animate pink-blue"> <!-- Border wrapper -->
@@ -317,7 +311,7 @@
             </div>
         </div>
 
-        <div class="grid-container"> <!-- Main grid -->
+        <div class="grid-container" style="display: none;"> <!-- Main grid -->
 
             <!-- LIST OF GRID ITEMS -->
             <div data-added-action="false" data-code="114641" class="grid-item" id="link_to_114641">
@@ -355,7 +349,13 @@
 
         </div>
 
-        <div></div><!-- Blank div for layout -->
+        <div>
+            <!-- LOADER -->
+            <div id="loader" class="loader-modal show"> <!-- Use class show to display -->
+                <div class="loader"></div>
+                <div class="displayer" message="Loading..."></div>
+            </div>
+        </div><!-- Blank div for layout -->
     </div>
 
     <!-- PAGINATION -->

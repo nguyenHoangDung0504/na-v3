@@ -20,33 +20,33 @@ import { Category, SearchSuggestion, Track } from '../app.models.mjs';
  * @param {Database} database
  * @returns
  */
-export async function initialize(database) {
+export async function init(database) {
 	const UI = bindUI();
-	const renderers = initializeRenderers(database, UI);
-	await initializeViews(database, UI, renderers);
-	await initializeFeatures(database, UI, renderers);
-	return UI;
+	const renderers = initRenderers(database, UI);
+	await initViews(database, UI, renderers);
+	await initFeatures(database, UI, renderers);
+	UI.appView.loader.remove();
 }
 
 /**
  * @param {Database} database
  * @param {ReturnType<typeof bindUI>} UIbindings
- * @param {ReturnType<typeof initializeRenderers>} renderers
+ * @param {ReturnType<typeof initRenderers>} renderers
  */
-async function initializeViews(database, UIbindings, renderers) {
-	await initializeCategoriesView(UIbindings, database);
+async function initViews(database, UIbindings, renderers) {
+	await initCategoriesView(UIbindings, database);
 }
 
 /**
  * @param {Database} database
  * @param {ReturnType<typeof bindUI>} UIbindings
- * @param {ReturnType<typeof initializeRenderers>} renderers
+ * @param {ReturnType<typeof initRenderers>} renderers
  */
-async function initializeFeatures(database, UIbindings, renderers) {
-	initializeHeaderFeatures(UIbindings, database, renderers);
-	initializeMenuFeatures(UIbindings);
-	initializeCategoriesFeatures(UIbindings, database);
-	initializeGachaFeatures(UIbindings, database, renderers);
+async function initFeatures(database, UIbindings, renderers) {
+	initHeaderFeatures(UIbindings, database, renderers);
+	initMenuFeatures(UIbindings);
+	initCategoriesFeatures(UIbindings, database);
+	initGachaFeatures(UIbindings, database, renderers);
 }
 
 /**
@@ -65,7 +65,7 @@ function bindUI() {
 /**
  * @param {ReturnType<typeof bindUI>} UIbindings
  */
-function initializeMenuFeatures(UIbindings) {
+function initMenuFeatures(UIbindings) {
 	const { menuView, headerView } = UIbindings;
 
 	const menuController = {
@@ -94,9 +94,9 @@ function initializeMenuFeatures(UIbindings) {
 /**
  * @param {ReturnType<typeof bindUI>} UIbindings
  * @param {Database} db
- * @param {ReturnType<typeof initializeRenderers>} renderers
+ * @param {ReturnType<typeof initRenderers>} renderers
  */
-function initializeHeaderFeatures(UIbindings, db, renderers) {
+function initHeaderFeatures(UIbindings, db, renderers) {
 	const { headerView } = UIbindings;
 	const { searchInput, resultBox, searchBtn } = headerView;
 	const { searchResultLV } = renderers;
@@ -188,7 +188,7 @@ function initializeHeaderFeatures(UIbindings, db, renderers) {
  * @param {ReturnType<typeof bindUI>} UIbindings
  * @param {Database} db
  */
-async function initializeCategoriesView(UIbindings, db) {
+async function initCategoriesView(UIbindings, db) {
 	const {
 		categoriesView: {
 			rankListCvCtn,
@@ -233,7 +233,7 @@ async function initializeCategoriesView(UIbindings, db) {
 /**
  * @param {ReturnType<typeof bindUI>} UIbindings
  */
-async function initializeCategoriesFeatures(UIbindings) {
+function initCategoriesFeatures(UIbindings) {
 	const {
 		appView: { categoriesModal },
 		menuView: { openCatModalBtn },
@@ -336,9 +336,9 @@ async function initializeCategoriesFeatures(UIbindings) {
 /**
  * @param {ReturnType<typeof bindUI>} UIbindings
  * @param {Database} db
- * @param {ReturnType<typeof initializeRenderers>} renderers
+ * @param {ReturnType<typeof initRenderers>} renderers
  */
-function initializeGachaFeatures(UIbindings, db, renderers) {
+function initGachaFeatures(UIbindings, db, renderers) {
 	const {
 		appView: { gachaModal },
 		menuView: { openGachaModalBtn },
@@ -471,7 +471,7 @@ function initializeGachaFeatures(UIbindings, db, renderers) {
  * @param {Database} db
  * @param {ReturnType<typeof bindUI>} UIbindings
  */
-function initializeRenderers(db, UIbindings) {
+function initRenderers(db, UIbindings) {
 	const {
 		headerView: { resultBox },
 		gachaView: { gridGachaModal },
