@@ -53,9 +53,9 @@ export default class TrackStorage {
 			line = parseTrackLine(line);
 
 			const code = Number(line[0]);
-			const cvIDs = line[2].split('-').map((id) => Number(id));
-			const tagIDs = line[3].split('-').map((id) => Number(id));
-			const seriesIDs = line[4].split('-').map((id) => Number(id));
+			const cvIDs = line[2] ? line[2].split('-').map((id) => Number(id)) : [];
+			const tagIDs = line[3] ? line[3].split('-').map((id) => Number(id)) : [];
+			const seriesIDs = line[4] ? line[4].split('-').map((id) => Number(id)) : [];
 			const thumbnail = new Resource(...line[7].split('->'));
 			const images = line[8].split(',').map((col) => new Resource(...col.split('->')));
 			const audios = line[9].split(',').map((col) => new Resource(...col.split('->')));

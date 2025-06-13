@@ -86,6 +86,11 @@ async function initWatchView(db, UIbindings, renderers) {
 	seriesLV.setDataCollection(await db.series.getAll(seriesIDs));
 	otherLinkLV.setDataCollection(additional);
 
+	if (!cvIDs.length) watchView.cvCtn.parentElement.remove();
+	if (!tagIDs.length) watchView.tagCtn.parentElement.remove();
+	if (!seriesIDs.length) watchView.seriesCtn.parentElement.remove();
+	if (!additional.length) watchView.otherLinkCtn.parentElement.remove();
+
 	// Random post:
 	localStorage.removeItem('shuffledIndexes');
 	let randomPost = [];
@@ -137,6 +142,7 @@ function initRenderers(db, UIbindings) {
 		binding.img.src = `${await db.prefixies.get(thumbnail.prefixID)}${thumbnail.name}`;
 		binding.pRJcode.textContent = RJcode;
 		binding.pEngname.textContent = eName;
+		binding.pEngname.title = eName;
 	});
 
 	return { otherLinkLV, cvLV, tagLV, seriesLV, randomPostLV };

@@ -102,9 +102,18 @@
     /*   background-color: var(--bg2) */
 }
 
-/* #track_list_tag {
+.mag-top-2em {
+    display: inline-block;
+    margin-top: 1.5em;
+}
+
+.before-enter {
+    display: block !important;
+}
+
+#track_list_tag, #track_series, #track_list_cv, #track_name {
     line-height: 1.5;
-} */
+}
 
 .container .content_div div.post-box a .imgcontainer {
     display: block;

@@ -506,6 +506,7 @@ function initRenderers(db, UIbindings) {
 		binding.img.src = `${await db.prefixies.get(thumbnail.prefixID)}${thumbnail.name}`;
 		binding.pRJcode.textContent = RJcode;
 		binding.pEngname.textContent = eName;
+		binding.pEngname.title = eName;
 		binding.link1.href = binding.link2.href = watchPath;
 		binding.cvLabel.textContent = 'CV' + (cvIDs.length > 1 ? 's' : '');
 
