@@ -73,13 +73,12 @@ async function initWatchView(db, UIbindings, renderers) {
 		additional,
 	} = track;
 
-	watchView.vidFrame.src = `/watch/altplayer/?code=${code}`;
+	watchView.vidFrame.src = `/watch/player/?code=${code}`;
 	watchView.downloadLink.href = `/watch/download/?code=${code}`;
 	watchView.pCVlabel.textContent = 'CV' + (cvIDs.length > 1 ? 's' : '');
 	watchView.pTagLabel.textContent = 'Tag' + (tagIDs.length > 1 ? 's' : '');
 	watchView.pRJcode.textContent = RJcode;
-	watchView.pEngname.textContent = eName;
-	watchView.pJapname.textContent = jName;
+	watchView.pEngname.textContent = `${eName} (Original name: ${jName})`;
 
 	cvLV.setDataCollection(await db.CVs.getAll(cvIDs));
 	tagLV.setDataCollection(await db.tags.getAll(tagIDs));
@@ -119,13 +118,13 @@ function initRenderers(db, UIbindings) {
 	});
 
 	const tagLV = new ListView(Category, tagCtn, (template, { id, name, quantity }) => {
-		template.title = `@${name}`;
+		template.title = `#${name}`;
 		template.href = `/?tag=${id}`;
 		template.querySelector('span').textContent = `${name} (${quantity})`;
 	});
 
 	const seriesLV = new ListView(Category, seriesCtn, (template, { id, name, quantity }) => {
-		template.title = `@${name}`;
+		template.title = `${name}`;
 		template.href = `/?series=${id}`;
 		template.querySelector('span').textContent = `${name} (${quantity})`;
 	});

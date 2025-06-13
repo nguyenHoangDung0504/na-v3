@@ -4,7 +4,6 @@ const { viewBinding: watchViewBinding } = createViewBinding({
 	vidFrame: '#vid_frame',
 	pRJcode: '[p-rjcode]',
 	pEngname: '[p-engname]',
-	pJapname: '[p-japname]',
 	otherLinkCtn: '#other_links',
 	seriesCtn: '#track_series',
 	pCVlabel: '[p-cv-label]',

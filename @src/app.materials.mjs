@@ -238,7 +238,7 @@ class VideoPlayer {
 }
 
 class ImageDisplayer {
-	constructor(src, closeFullscreen, openFullscreen) {
+	constructor(src, toggleScreen) {
 		this.startX = 0;
 		this.currentX = 0;
 		this.startY = 0;
@@ -254,7 +254,6 @@ class ImageDisplayer {
 		this.currentMouseY = 0;
 		this.diffMouseY = 0;
 
-		// const ctn = document.createElement('div');
 		const ctn = document.createElement('zoomable-content');
 		ctn.classList.add('img-ctn');
 		this.div = document.createElement('div');
@@ -264,13 +263,7 @@ class ImageDisplayer {
 		img.classList.add('img');
 		img.src = src;
 		ctn.appendChild(img);
-		this.div.addEventListener('dblclick', () => {
-			if (document.fullscreenElement) {
-				closeFullscreen();
-				return;
-			}
-			openFullscreen();
-		});
+		this.div.addEventListener('dblclick', toggleScreen);
 
 		new SwipeHandler(
 			this.div,
@@ -369,7 +362,7 @@ class AudioController {
 	}
 
 	play() {
-		this.audContainer.setAttribute('before', `Playing: ${this.filename}`);
+		this.audContainer.setAttribute('before', this.filename);
 		setTimeout(() => {
 			if (this.audio.dataset.isPause == 'false') return;
 			this.audio.dataset.isPause = false;
@@ -441,14 +434,12 @@ class AudioPlayer {
 
 	setupMediaSession() {
 		if ('mediaSession' in navigator) {
-			if (track) {
-				navigator.mediaSession.metadata = new MediaMetadata({
-					title: `~${this.code}`,
-					artist: `${this.CVnames.join(', ')}`,
-					album: `${this.seriesNames.join(', ')}`,
-					artwork: [{ src: this.thumbnail, sizes: '512x512', type: 'image/jpeg' }],
-				});
-			}
+			navigator.mediaSession.metadata = new MediaMetadata({
+				title: `~${this.code}`,
+				artist: `${this.CVnames.join(', ')}`,
+				album: `${this.seriesNames.join(', ')}`,
+				artwork: [{ src: this.thumbnail, sizes: '512x512', type: 'image/jpeg' }],
+			});
 
 			navigator.mediaSession.setActionHandler('play', () => {
 				this.playCurrentTrack();
