@@ -22,10 +22,18 @@ export const url = {
 	/**
 	 * @param {string} key
 	 * @param {URLSearchParams} searchParams
-	 * @returns
 	 */
 	getParam(key, searchParams = new URLSearchParams(location.search)) {
 		return searchParams.get(key);
+	},
+
+	/**
+	 * @param {string} url
+	 */
+	getFileNameFromUrl(url) {
+		return decodeURIComponent(
+			url.slice(url.lastIndexOf('/') + 1, url.includes('?') ? url.lastIndexOf('?') : url.length)
+		);
 	},
 };
 

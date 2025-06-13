@@ -1,11 +1,12 @@
 const CACHE_NAME = 'na-v3.cache';
 const CACHE_VERSION = '3';
-const CACHE_EXPIRATION = time({ minutes: 10 });
+const CACHE_EXPIRATION = time({ minutes: 0 });
 const LOG = true;
 
 const cacheTargets = buildCacheTargets`
 	-- External CSS
 	https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css
+	https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css
 
 	-- Path
 	/@components/*

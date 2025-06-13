@@ -160,7 +160,7 @@ body.menu-ctn-right:not(.open-menu-ctn) .menu-ctn .btn:is(.open-and-close-btn) {
     z-index: 999;
     width: 100%;
     height: fit-content;
-    max-height: 30%;
+    max-height: 70%;
     bottom: 0;
     left: 0;
     transform: translateY(100%);

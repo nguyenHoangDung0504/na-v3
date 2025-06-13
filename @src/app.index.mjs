@@ -4,7 +4,7 @@ const path = location.pathname;
 
 const isHomePage = () => ['/', '/index.html'].includes(path);
 const isWatchPage = () => ['/watch/index.html', '/watch/'].includes(path);
-const isPlayerPage = () => ['/player/index.html', '/player/'].includes(path);
+const isPlayerPage = () => ['/watch/player/index.html', '/watch/player/'].includes(path);
 
 let UIrequests = {
 	common: isHomePage() || isWatchPage() ? loadCommonUI() : null,
@@ -23,6 +23,7 @@ async function initApp() {
 	if (UIrequests.common) (await UIrequests.common).init(database);
 	if (UIrequests.home) (await UIrequests.home).init(database);
 	if (UIrequests.watch) (await UIrequests.watch).init(database);
+	if (UIrequests.player) (await UIrequests.player).init(database);
 
 	console.timeEnd('--> [App.timer]: App ready time');
 }
