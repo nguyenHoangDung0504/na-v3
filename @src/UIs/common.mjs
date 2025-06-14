@@ -546,7 +546,6 @@ function enableHiddenInfoOnHover(db, selector, timeOut = 400) {
 		if (!alt) return;
 		const trackID = +alt.split(':')[1].trim();
 		const track = await db.tracks.get(trackID);
-		console.log(track);
 		if (!track) return;
 		const binding = hiddenItemViewBinding.bind(hiddenItem);
 		binding['rj-code'].textContent = track.info.RJcode;
