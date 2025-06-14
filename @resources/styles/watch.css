@@ -159,6 +159,11 @@
     text-decoration: underline;
 }
 
+#track-description {
+    padding: 20px 10px 10px 10px;
+    color: white;
+}
+
 #track-description>summary {
     cursor: pointer;
 }

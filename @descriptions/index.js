@@ -10,12 +10,13 @@ try {
 		const [contentDes, charDes, trackDes] = splitByMany(await res.text(), SPLIT_CHARS)
 			.filter(Boolean)
 			.map((ct) =>
-				ct
-					.split('\n')
-					.slice(1)
-					.map((l) => l.replaceAll(TAB_CHARS + '-', TAB_CHARS + '・'))
-					.join('\n')
-					.replaceAll('\n', '<br>')
+				replaceTextWithElements(
+					ct
+						.split('\n')
+						.slice(1)
+						.map((l) => l.replaceAll(TAB_CHARS + '-', TAB_CHARS + '・'))
+						.join('\n')
+				).replaceAll('\n', '<br>')
 			);
 
 		document.body.innerHTML = /*html*/ `
@@ -63,3 +64,46 @@ function splitByMany(str, delimiters) {
 
 	return str.split(regex);
 }
+
+function replaceTextWithElements(text) {
+	// Thay ảnh trước
+	text = text.replace(/img:(https?:\/\/[^\s"']+)/g, (match, url) => {
+		return `<img src="${url}" alt="">`;
+	});
+
+	// Thay link có thể có label dạng :"Label"
+	text = text.replace(/a:(https?:\/\/.*?)(?::"([^"]*)")?(?=\s|$)/g, (match, url, label) => {
+		const displayText = label || url;
+		return `<a href="${url}" target="_blank" rel="noopener noreferrer">${displayText}</a>`;
+	});
+
+	return text;
+}
+
+(function () {
+	function sendHeight() {
+		const tabs = document.querySelector('.tabs');
+		if (!tabs) return;
+		const style = getComputedStyle(tabs);
+		const height = tabs.getBoundingClientRect().height + parseFloat(style.marginBottom);
+		parent.postMessage({ iframeHeight: Math.ceil(height) }, '*');
+	}
+
+	window.addEventListener('load', sendHeight);
+
+	const observer = new ResizeObserver(sendHeight);
+	const tabs = document.querySelector('.tabs');
+	if (tabs) observer.observe(tabs);
+
+	document.querySelectorAll('input[name="tabs"]').forEach((radio) => {
+		radio.addEventListener('change', () => {
+			document.querySelectorAll('.tab-content').forEach((el) => (el.style.display = 'none'));
+
+			const id = radio.id.replace('tab', 'content');
+			const el = document.getElementById(id);
+			if (el) el.style.display = 'block';
+
+			requestAnimationFrame(() => sendHeight());
+		});
+	});
+})();

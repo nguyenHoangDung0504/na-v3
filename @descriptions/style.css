@@ -9,14 +9,14 @@ body {
     color: white;
     padding: .25em;
     text-align: justify;
-    display: block;
-    height: fit-content;
     width: 100%;
+    overflow: hidden;
 }
 
 .tabs {
     width: 100%;
     height: fit-content;
+    margin-bottom: .5em;
 }
 
 .tabs input[type="radio"] {
@@ -92,4 +92,18 @@ body {
     html {
         font-size: 13px;
     }
+}
+
+a {
+    display: inline-block;
+    text-decoration: underline;
+    color: deepskyblue;
+    padding: .5em;
+    margin-top: .25em;
+    background-color: #212121;
+    border-radius: 5px;
+}
+
+img {
+    width: 25%;
 }

@@ -13,26 +13,4 @@
     Nothing here for now...
 </body>
 
-<script>
-    function sendHeight() {
-        const body = document.body;
-        const html = document.documentElement;
-
-        const height = Math.max(
-            body.scrollHeight,
-            body.offsetHeight,
-            html.clientHeight,
-            html.scrollHeight,
-            html.offsetHeight
-        );
-
-        parent.postMessage({ iframeHeight: height }, '*');
-    }
-
-    window.addEventListener('load', sendHeight);
-
-    const observer = new ResizeObserver(sendHeight);
-    observer.observe(document.body);
-</script>
-
 </html>
