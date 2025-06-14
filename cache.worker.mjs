@@ -13,6 +13,8 @@ const cacheTargets = buildCacheTargets`
 	/@libraries/*
 	/@resources/*
     /@src/*
+	/
+	/watch/*
 `;
 
 /**
