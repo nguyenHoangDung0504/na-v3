@@ -52,8 +52,8 @@ function getTemplate() {
 		<div class="l"></div>
 		<div class="r"></div>
 	</div>
-
+	
 - Track_Des
-
+	
 	`;
 }

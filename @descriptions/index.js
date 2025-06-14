@@ -38,13 +38,13 @@ try {
 
                 <!-- Nội dung tương ứng -->
                 <div id="content1" class="tab-content">
-                    ${contentDes}
+                    ${contentDes.trim() || '...'}
                 </div>
                 <div id="content2" class="tab-content">
-                    ${charDes}
+                    ${charDes.trim() || '...'}
                 </div>
                 <div id="content3" class="tab-content">
-                    ${trackDes}
+                    ${trackDes.trim() || '...'}
                 </div>
             </div>
         `;
