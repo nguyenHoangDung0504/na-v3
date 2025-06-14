@@ -95,6 +95,34 @@ async function initWatchView(db, UIbindings, renderers) {
 	let randomPost = [];
 	while ((randomPost = await db.getRandomTracksKey(12)).includes(code));
 	randomPostLV.setDataCollection(await db.tracks.getAll(randomPost));
+
+	// Descriptions:
+	const container = document.getElementById('desc-content');
+	const iframe = document.createElement('iframe');
+	const iframeSrc = `/@descriptions/?code=${code}`;
+	const span = document.createElement('span');
+
+	iframe.style.width = '100%';
+	iframe.style.height = 'fit-content';
+	iframe.style.border = 'none';
+	iframe.style.display = 'none';
+
+	span.textContent = 'Loading...';
+	container.appendChild(span);
+	container.appendChild(iframe);
+
+	iframe.addEventListener('load', () => {
+		container.removeChild(span);
+		iframe.style.display = 'block';
+	});
+	iframe.addEventListener('error', () => (span.textContent = 'Nothing here for now...'));
+	iframe.src = iframeSrc;
+
+	window.addEventListener('message', (event) => {
+		if (event.data.iframeHeight) {
+			iframe.style.height = event.data.iframeHeight + 'px';
+		}
+	});
 }
 
 /**

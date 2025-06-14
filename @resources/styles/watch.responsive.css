@@ -74,6 +74,10 @@
     .hover:hover {
         text-decoration: none;
     }
+
+    #track-description>summary {
+        font-size: 14px;
+    }
 }
 
 @media screen and (max-width: 780px) and (orientation: portrait) {
@@ -149,6 +153,10 @@
 
     .hover:hover {
         text-decoration: none;
+    }
+
+    #track-description>summary {
+        font-size: 14px;
     }
 }
 

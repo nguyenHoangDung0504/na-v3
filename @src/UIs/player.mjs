@@ -133,9 +133,9 @@ function initFeatures(UIbindings) {
 			screen.orientation.unlock();
 			isPortrait = true;
 		} else {
-			if (icon.classList.contains('fa-expand')) {
-				icon.classList.remove('fa-expand');
-				icon.classList.add('fa-compress');
+			if (fullscreenIcon.classList.contains('fa-expand')) {
+				fullscreenIcon.classList.remove('fa-expand');
+				fullscreenIcon.classList.add('fa-compress');
 			}
 			fullscreen.activate();
 			if (device.isMobile()) screen.orientation.lock('landscape');

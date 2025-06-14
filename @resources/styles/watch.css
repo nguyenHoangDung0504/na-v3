@@ -111,7 +111,10 @@
     display: block !important;
 }
 
-#track_list_tag, #track_series, #track_list_cv, #track_name {
+#track_list_tag,
+#track_series,
+#track_list_cv,
+#track_name {
     line-height: 1.75;
 }
 
@@ -154,4 +157,8 @@
 
 .hover:hover {
     text-decoration: underline;
+}
+
+#track-description>summary {
+    cursor: pointer;
 }
