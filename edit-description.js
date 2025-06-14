@@ -9,7 +9,7 @@ if (isNaN(id)) {
 	process.exit(1);
 }
 
-const group = Math.trunc(id / 1000);
+const group = simplifyNumber(id);
 const rootDir = path.resolve(__dirname, './@descriptions/storage');
 const dirPath = path.join(rootDir, String(group), String(id));
 const filePath = path.join(dirPath, 'vi.txt');
@@ -25,17 +25,35 @@ if (!fs.existsSync(filePath)) {
 
 exec(`code --reuse-window "${filePath}"`);
 
-function getTemplate() {
-	return `
-		- Content_Des
-		
-		- Character_Des
-		
-		- Track_Des
+function simplifyNumber(n) {
+	if (n < 10000) return 10000;
 
-	`
-		.split('\n')
-		.filter(Boolean)
-		.map((l) => l.trim())
-		.join('\n');
+	const str = String(n);
+	const length = str.length;
+
+	// Quy tắc: giữ 1 chữ số đầu nếu < 100000
+	// Giữ 2 chữ số đầu nếu < 1_000_000
+	// Giữ 3 chữ số đầu nếu lớn hơn
+	let keep;
+	if (length <= 5) keep = 1;
+	else if (length === 6) keep = 2;
+	else keep = 3; // phòng xa
+
+	const head = str.slice(0, keep);
+	const zeros = '0'.repeat(length - keep);
+	return parseInt(head + zeros);
+}
+
+function getTemplate() {
+	return `- Content_Des
+	
+- Character_Des
+	<div class="char-box">
+		<div class="l"></div>
+		<div class="r"></div>
+	</div>
+
+- Track_Des
+
+	`;
 }

@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+html {
+    font-size: 18px;
+}
+
 body {
     background-color: #222;
     color: white;
@@ -106,4 +110,78 @@ a {
 
 img {
     width: 25%;
+}
+
+body:has(.loader-modal.show)::-webkit-scrollbar {
+    width: 0px;
+}
+
+.loader-modal {
+    display: none;
+    position: fixed;
+    pointer-events: none;
+}
+
+.loader-modal.show {
+    z-index: 999999999999;
+    display: flex;
+    top: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, .85);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100dvh;
+    pointer-events: all;
+}
+
+.loader-modal.show .loader {
+    --size: 100px;
+    width: var(--size);
+    aspect-ratio: 1/1;
+    background-image: conic-gradient(transparent 20%, #ffffff);
+    mask: radial-gradient(circle calc(var(--size) / 2.5),
+            transparent 100%,
+            #000000);
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .loader-modal.show .loader {
+        --size: 55px;
+    }
+
+    .displayer {
+        padding: 10px;
+        font-size: 16px;
+    }
+}
+
+.char-box {
+    display: flex;
+    column-gap: .75em;
+}
+
+.char-box>.l {
+    flex: .3;
+}
+
+.char-box div {
+    text-align: justify;
+}
+
+.char-box img {
+    width: 100%;
+}
+
+.char-box>.r {
+    flex: .7;
 }

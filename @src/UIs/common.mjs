@@ -91,6 +91,15 @@ function initMenuFeatures(UIbindings) {
 	menuView.forwardBtn.addEventListener('click', () => window.history.forward());
 	menuView.closeBtn.addEventListener('click', menuController.close);
 	headerView.toggleBtn.addEventListener('click', menuController.toggle);
+
+	if (device.isMobile())
+		import('../app.materials.mjs').then((module) => {
+			new module.SwipeHandler(
+				document.body,
+				menuController.open,
+				menuController.close
+			).registerEvents();
+		});
 }
 
 /**
