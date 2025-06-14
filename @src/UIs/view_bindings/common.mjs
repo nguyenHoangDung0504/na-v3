@@ -59,6 +59,16 @@ const { viewBinding: gachaRsItem } = createViewBinding({
 	cvList: '[p-cvs]',
 });
 
+const { viewBinding: hiddenItemViewBinding } = createViewBinding({
+	'rj-code': '.rj-code',
+	'list-series': '.list-series?',
+	'e-name': '.e-name',
+	'j-name': '.j-name',
+	'list-cv': '.list-cv?',
+	'list-tag': '.list-tag?',
+	img: 'img',
+});
+
 export {
 	appViewBinding,
 	menuViewBinding,
@@ -67,4 +77,5 @@ export {
 	categoriesViewBinding,
 	gachaViewBinding,
 	gachaRsItem,
+	hiddenItemViewBinding,
 };

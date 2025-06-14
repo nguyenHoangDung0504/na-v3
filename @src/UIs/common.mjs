@@ -9,6 +9,7 @@ import {
 	categoriesViewBinding,
 	gachaViewBinding,
 	gachaRsItem,
+	hiddenItemViewBinding,
 } from './view_bindings/common.mjs';
 import { Category, SearchSuggestion, Track } from '../app.models.mjs';
 
@@ -47,6 +48,7 @@ async function initFeatures(database, UIbindings, renderers) {
 	initMenuFeatures(UIbindings);
 	initCategoriesFeatures(UIbindings, database);
 	initGachaFeatures(UIbindings, database, renderers);
+	enableHiddenInfoOnHover(database, 'img');
 }
 
 /**
@@ -523,4 +525,80 @@ function initRenderers(db, UIbindings) {
 	});
 
 	return { searchResultLV, gachaResultLV };
+}
+
+/**
+ * @param {Database} db
+ * @param {string} selector
+ * @param {number} timeOut
+ */
+function enableHiddenInfoOnHover(db, selector, timeOut = 400) {
+	let hiddenItem = document.querySelector('.hidden-data-container > .hidden-info');
+	let timeoutId = null;
+	let currentTarget = null;
+
+	document.addEventListener('mouseover', async (event) => {
+		const target = event.target.closest(selector);
+		if (!target || target === currentTarget) return;
+
+		currentTarget = target;
+		const alt = currentTarget.getAttribute('alt');
+		if (!alt) return;
+		const trackID = +alt.split(':')[1].trim();
+		const track = await db.tracks.get(trackID);
+		console.log(track);
+		if (!track) return;
+		const binding = hiddenItemViewBinding.bind(hiddenItem);
+		binding['rj-code'].textContent = track.info.RJcode;
+		binding['e-name'].textContent = track.info.eName;
+		binding['j-name'].textContent = track.info.jName;
+
+		binding['list-cv'].innerHTML = (await db.CVs.getAll(track.category.cvIDs))
+			.map(({ name, quantity }) => `<span class="cv">@${name} (${quantity})</span>&nbsp;`)
+			.join('');
+		binding['list-tag'].innerHTML = (await db.tags.getAll(track.category.tagIDs))
+			.map(({ name, quantity }) => `<span class="tag">#${name} (${quantity})</span>&nbsp;`)
+			.join('');
+		binding['list-series'].innerHTML = (await db.series.getAll(track.category.seriesIDs))
+			.map(({ name, quantity }) => `<span class="series">#${name} (${quantity})</span>&nbsp;`)
+			.join('');
+
+		binding['list-cv'].parentElement.style.display = !track.category.cvIDs.length ? 'none' : null;
+		binding['list-tag'].parentElement.style.display = !track.category.tagIDs.length ? 'none' : null;
+		binding['list-series'].parentElement.style.display = !track.category.seriesIDs.length
+			? 'none'
+			: null;
+
+		binding.img.loading = 'lazy';
+		binding.img.alt = ` - Thumbnail:${track.info.code}`;
+		const { thumbnail } = track.resource;
+		binding.img.removeAttribute('src');
+		binding.img.src = `${await db.prefixies.get(thumbnail.prefixID)}${thumbnail.name}`;
+
+		const moveHandler = (e) => {
+			const x = e.clientX;
+			const y = e.clientY;
+			const iw = hiddenItem.offsetWidth;
+			const ih = hiddenItem.offsetHeight;
+
+			hiddenItem.style.left = (x <= window.innerWidth - iw - 30 ? x : x - iw) + 'px';
+			hiddenItem.style.top = (y <= window.innerHeight - ih ? y : y - ih) + 'px';
+		};
+
+		timeoutId = setTimeout(() => {
+			hiddenItem.style.opacity = '1';
+		}, timeOut);
+
+		document.addEventListener('mousemove', moveHandler);
+
+		const cleanup = () => {
+			clearTimeout(timeoutId);
+			hiddenItem.style.opacity = '0';
+			document.removeEventListener('mousemove', moveHandler);
+			target.removeEventListener('mouseleave', cleanup);
+			currentTarget = null;
+		};
+
+		target.addEventListener('mouseleave', cleanup);
+	});
 }
