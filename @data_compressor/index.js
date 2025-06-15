@@ -17,9 +17,7 @@ optimizeCSV();
  */
 function optimizeCSV() {
 	const formatedData = data.map((row) =>
-		row.map((col, _) =>
-			typeof col === 'string' && col.length ? convertQuotes(col.trim()) : col
-		)
+		row.map((col, _) => (typeof col === 'string' && col.length ? convertQuotes(col.trim()) : col))
 	);
 
 	// Tối ưu category
@@ -32,20 +30,17 @@ function optimizeCSV() {
 
 	// Tạo file track tối ưu hóa
 	const optimizedTracks = formatedData.map((line) => {
-		line[2] = `"${line[2]
-			.split(',')
+		line[2] = `"${formatCategoryLine(line[2])
 			.map((cv) => cvMap.get(cv))
 			.join('-')}"`;
-		line[3] = `"${line[3]
-			.split(',')
+		line[3] = `"${formatCategoryLine(line[3])
 			.map((tag) => tagMap.get(tag))
 			.join('-')}"`;
-		line[4] = `"${line[4]
-			.split(',')
+		line[4] = `"${formatCategoryLine(line[4])
 			.map((series) => seriesMap.get(series))
 			.join('-')}"`;
-		line[5] = `"${line[5]}"`;
-		line[6] = `"${line[6]}"`;
+		line[5] = line[5] ? `"${line[5]}"` : `""`;
+		line[6] = line[6] ? `"${line[6]}"` : `""`;
 		line[10] = line[10] ? `"${line[10]}"` : `""`;
 		return line.join(',');
 	});
@@ -56,6 +51,17 @@ function optimizeCSV() {
 			optimizedTracks.join('\n')
 	);
 	console.log('File CSV đã được tối ưu và lưu tại:', DIST_PATH);
+}
+
+function formatCategoryLine(categoryString) {
+	return Array.from(
+		new Set(
+			categoryString
+				.split(',')
+				.map((p) => p.trim())
+				.filter(Boolean)
+		)
+	);
 }
 
 /**
@@ -82,8 +88,7 @@ function processCategories(data, columnIndex, fileName) {
 	);
 	writeFileSync(
 		join(DIST_PATH, fileName),
-		'#category_id,#category_name,#quantity\n'.toUpperCase() +
-			optimizedData.join('\n')
+		'#category_id,#category_name,#quantity\n'.toUpperCase() + optimizedData.join('\n')
 	);
 
 	const categoryIndexMap = new Map(
@@ -112,19 +117,14 @@ function processURLs(data, columnIndexList, fileName) {
 				if (!prefixMap.has(prefix)) {
 					prefixMap.set(prefix, prefixMap.size + 1);
 				}
-				line[columnIndex] = line[columnIndex].replace(
-					url,
-					`${prefixMap.get(prefix)}->${fileName}`
-				);
+				line[columnIndex] = line[columnIndex].replace(url, `${prefixMap.get(prefix)}->${fileName}`);
 			});
 			line[columnIndex] = `"${line[columnIndex]}"`;
 		});
 	});
 
 	const prefixEntries = Array.from(prefixMap.entries());
-	const optimizedData = prefixEntries.map(
-		([prefix, index]) => `${index},${prefix}`
-	);
+	const optimizedData = prefixEntries.map(([prefix, index]) => `${index},${prefix}`);
 	writeFileSync(
 		join(DIST_PATH, fileName),
 		'#prefix_id,#prefix\n'.toUpperCase() + optimizedData.join('\n')
