@@ -2,6 +2,7 @@ import { device, url } from '../@src/app.utils.mjs';
 
 const trackID = url.getParam('code') || url.getParam('rjcode') || '';
 const TAB_CHARS = '    ';
+const TAB_CHARS_2 = '	';
 const SPLIT_CHARS = ['- Content_Des', '- Character_Des', '- Track_Des'];
 
 try {
@@ -15,6 +16,7 @@ try {
 						.split('\n')
 						.slice(1)
 						.map((l) => l.replaceAll(TAB_CHARS + '-', TAB_CHARS + '・'))
+						.map((l) => l.replaceAll(TAB_CHARS_2 + '-', TAB_CHARS + '・'))
 						.join('\n')
 				)
 					.trimEnd()
