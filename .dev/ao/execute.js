@@ -2,6 +2,7 @@ main();
 const STREAM_PATH = 'https://raw.kiko-play-niptan.one/media/stream/daily/';
 const DOWNLOAD_PATH = STREAM_PATH.replace('stream', 'download');
 const THUMBNAIL = document.querySelector('.q-img__image.absolute-full img').src;
+document.body.style.display = 'none';
 
 async function main() {
 	const STORAGE = [];
@@ -13,13 +14,20 @@ async function main() {
 
 	manifest.forEach((children) => {
 		if (children.title.includes(NO_SE)) return;
-		if (isFolder(children)) return traversal(children, STORAGE);
-		children['@folder'] = '@root';
+
+		children['@folder'] = '@ROOT';
+		if (isFolder(children)) {
+			return traversal(children, STORAGE);
+		}
+
 		STORAGE.push(format(children));
 	});
 
-	STORAGE.sort((a, b) => a['@folder'].localeCompare(b['@folder']));
-	console.log(STORAGE);
+	STORAGE.sort((a, b) => {
+		a['@folder'] = a['@folder'].replace('@ROOT ', '');
+		b['@folder'] = b['@folder'].replace('@ROOT ', '');
+		return a['@folder'].localeCompare(b['@folder']);
+	});
 
 	initView(STORAGE);
 }
@@ -56,8 +64,8 @@ async function getManifestJSON(version = 1) {
 function traversal(folder, storage) {
 	if (isFolder(folder)) {
 		folder.children.forEach((children) => {
+			children['@folder'] = `${(folder['@folder'] ??= '')} / ${folder.title}`;
 			if (isFolder(children)) return traversal(children, storage);
-			children['@folder'] = folder.title;
 			storage.push(format(children));
 		});
 	}
