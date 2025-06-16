@@ -562,13 +562,16 @@ function enableHiddenInfoOnHover(db, selector, timeOut = 400) {
 		binding['j-name'].textContent = track.info.jName;
 
 		binding['list-cv'].innerHTML = (await db.CVs.getAll(track.category.cvIDs))
-			.map(({ name, quantity }) => `<span class="cv">@${name} (${quantity})</span>&nbsp;`)
+			// .map(({ name, quantity }) => `<span class="cv">@${name} (${quantity})</span>&nbsp;`)
+			.map(({ name, quantity }) => `<span class="cv">@${name}</span>&nbsp;`)
 			.join('');
 		binding['list-tag'].innerHTML = (await db.tags.getAll(track.category.tagIDs))
-			.map(({ name, quantity }) => `<span class="tag">#${name} (${quantity})</span>&nbsp;`)
+			// .map(({ name, quantity }) => `<span class="tag">#${name} (${quantity})</span>&nbsp;`)
+			.map(({ name, quantity }) => `<span class="tag">#${name}</span>&nbsp;`)
 			.join('');
 		binding['list-series'].innerHTML = (await db.series.getAll(track.category.seriesIDs))
-			.map(({ name, quantity }) => `<span class="series">#${name} (${quantity})</span>&nbsp;`)
+			// .map(({ name, quantity }) => `<span class="series">#${name} (${quantity})</span>&nbsp;`)
+			.map(({ name, quantity }) => `<span class="series">#${name}</span>&nbsp;`)
 			.join('');
 
 		binding['list-cv'].parentElement.style.display = !track.category.cvIDs.length ? 'none' : null;

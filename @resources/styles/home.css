@@ -1580,3 +1580,8 @@ body:has(.loader-modal.show)::-webkit-scrollbar {
     line-height: 1.75;
     text-align: justify;
 }
+
+:is(.list-tag, .list-cv, .list-series)>span {
+    display: inline-block;
+    white-space: normal;
+}

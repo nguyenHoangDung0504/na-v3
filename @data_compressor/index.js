@@ -53,6 +53,7 @@ function optimizeCSV() {
 	console.log('File CSV đã được tối ưu và lưu tại:', DIST_PATH);
 }
 
+/**@param {string} categoryString  */
 function formatCategoryLine(categoryString) {
 	return Array.from(
 		new Set(
@@ -60,6 +61,8 @@ function formatCategoryLine(categoryString) {
 				.split(',')
 				.map((p) => p.trim())
 				.filter(Boolean)
+				.filter((c) => !(c.trim().toLowerCase() === 'described'))
+				.sort()
 		)
 	);
 }
@@ -74,7 +77,7 @@ function processCategories(data, columnIndex, fileName) {
 		const categories = line[columnIndex].split(',');
 		categories.forEach((category) => {
 			category = category.trim();
-			if (!category) return;
+			if (!category || category.trim().toLowerCase() === 'described') return;
 			if (!categoryMap.has(category)) {
 				categoryMap.set(category, { count: 0, index: categoryMap.size + 1 });
 			}

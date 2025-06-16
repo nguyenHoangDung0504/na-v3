@@ -2,62 +2,57 @@ const { trackIDs, CVs, tags } = await initData();
 const rs = crawlData();
 const { CV_KEYS, TAG_KEYS, EXCLUDE_TAGS } = getConstKeys();
 
+// console.log(trackIDs, CVs, tags);
+// console.log(rs);
+
 if (trackIDs.has(rs.code)) {
 	console.log('***NOTE: DUPLICATE CODE***');
 }
 
-await execute();
-
-async function execute() {
-	const rsCVstr = Array.from(
-		new Set(
-			rs.cvs.map((cv) => {
-				const title = toTitleCase(cv);
-				return (
-					CV_KEYS.get(title) ||
-					CVs.find((c) => c.toLowerCase() === title.toLowerCase().split(' ').reverse().join(' ')) ||
-					title
-				);
-			})
-		)
-	)
-		.sort()
-		.join(',');
-
-	const rsTagList = rs.tags
-		.map((tag) => {
-			let rsTag = toTitleCase(tag);
-			for (const [key, value] of TAG_KEYS.entries()) {
-				if (rsTag.toLowerCase().includes(key.toLowerCase())) {
-					rsTag = value;
-				}
-			}
-			return rsTag;
-		})
-		.map((rsTag) => {
-			if ([...TAG_KEYS.values()].includes(rsTag)) return rsTag;
-			const matched = [];
-			for (const tag of tags) {
-				if (rsTag.toLowerCase().includes(tag.toLowerCase())) {
-					matched.push(tag);
-				}
-			}
-			return Array.from(new Set(matched)).join(',');
-		})
-		.filter(Boolean);
-
-	let rsTagStr = Array.from(new Set(rsTagList.map((s) => s.split(',')).flat()));
-	EXCLUDE_TAGS.forEach((value, key) => {
-		if (rsTagStr.includes(key)) {
-			rsTagStr = rsTagStr.filter((r) => r !== value);
-		}
-	});
-	rsTagStr = rsTagStr.sort().join(',');
-
-	await copy(
-		`at(${rs.code}, "${rs.rjCode}", "${rsCVstr}", "${rsTagStr}", "", "${rs.engName}", "${rs.japName}", t0i0a)`
+let rsCVstr = '';
+const rsCVlist = rs.cvs.map((rsCV) => {
+	rsCV = toTitleCase(rsCV);
+	return (
+		CV_KEYS.get(rsCV) ||
+		CVs.find((cv) => cv.toLowerCase() === rsCV.toLowerCase().split(' ').reverse().join(' ')) ||
+		rsCV
 	);
-}
+});
+rsCVstr = Array.from(new Set(rsCVlist)).sort().join(',');
+
+let rsTagStr = '';
+const rsTagList = rs.tags
+	.map((rsTag) => {
+		rsTag = toTitleCase(rsTag);
+		TAG_KEYS.forEach((value, key) => {
+			if (rsTag.toLowerCase().includes(key.toLowerCase())) {
+				rsTag = value;
+			}
+		});
+		return rsTag;
+	})
+	.map((rsTag) => {
+		if ([...TAG_KEYS.values()].includes(rsTag)) return rsTag;
+		let innerRsTag = [];
+
+		for (let i = 0; i < tags.length; i++) {
+			if (rsTag.toLowerCase().includes(tags[i].toLowerCase())) {
+				innerRsTag.push(tags[i]);
+			}
+		}
+
+		return Array.from(new Set(innerRsTag)).join(',');
+	})
+	.filter(Boolean);
+rsTagStr = Array.from(new Set(rsTagList.map((s) => s.split(',')).flat())).sort();
+EXCLUDE_TAGS.forEach((value, key) => {
+	if (rsTagStr.includes(key)) rsTagStr = rsTagStr.filter((r) => !(r === value));
+});
+rsTagStr = rsTagStr.join(',');
+
+await copy(
+	`at(${rs.code}, "${rs.rjCode}", "${rsCVstr}", "${rsTagStr}", "", "${rs.engName}", "${rs.japName}", t0i0a)`
+);
 
 async function copy(value, timeout = 100) {
 	const textarea = document.createElement('textarea');
