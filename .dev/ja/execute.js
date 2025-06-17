@@ -152,7 +152,9 @@ function getConstKeys() {
 		['French kiss', 'Kissing'],
 		['Nonhuman/Monster Girl', 'Non-human Girl'],
 		['Reverse NTR', 'Netori'],
-		['Housewife', 'Housewife,Mature Women']
+		['Housewife', 'Housewife,Mature Women'],
+		['Sumata', 'Thighjob'],
+		['Guided Masturbation', 'Masturbation Support'],
 	]);
 
 	const CV_KEYS = new Map([

@@ -4,7 +4,7 @@
 3,Tsubame Yuzuki,84
 4,Haru Koyama,7
 5,Shio Satou,5
-6,Minase Suzuka,43
+6,Minase Suzuka,42
 7,Natsuki Nogami,4
 8,Mio Namimi,7
 9,Kaede Akino,48
@@ -22,132 +22,131 @@
 21,Mikoto Yusa,1
 22,氷上のあ,2
 23,蘭世,1
-24,Minami Meibi,1
-25,Amu Mochiri,12
-26,Rito Ichinose,2
-27,Yuka Hinata,64
-28,Yukiko Shinomori,4
-29,Popura Sawano,6
-30,Yukari Aoyama,1
-31,Haruru Akiyama,9
-32,Izumi Mikoshiba,21
-33,Suika Nishiuri,1
-34,Haruno Sakaki,2
-35,Kosuzu Momoka,7
-36,MOMOKA,19
-37,Kanoko,11
-38,Soramame,9
-39,不破ふわり,1
-40,Hano Amane,1
-41,Akari Yuzuki,4
-42,Shiki Asagi,13
-43,Chiroru Oyama,18
-44,Shiho Bubaigawara,10
-45,Nanami Mizuno,1
-46,鳴先そら,1
-47,Megumu Morino,2
-48,Tsukushi Haruno,1
-49,Ryou Suzuki,6
-50,Gemiko Yamada,10
-51,Amane Mizuchi,4
-52,Nodoka Nishiura,4
-53,Koibane Moko,2
-54,Yui Otokura,9
-55,Raichi Annin,1
-56,床貓,2
-57,Kotoka,2
-58,風慈宮ユキ,1
-59,Mei Misonoo,2
-60,Aoi Tokio,1
-61,Mako Ayane,4
-62,Rima Nemurine,2
-63,Satsuki Sonomiya,3
-64,Kotoza,1
-65,乙倉碧,1
-66,Aino Mimori,10
-67,Kannazuki Honoka,1
-68,Flan Kulumu,3
-69,都みみち(三八みみち),3
-70,滅茶ねむ,2
-71,早緒きむり,1
-72,しゃふ,2
-73,Jumi,1
-74,Mitsu Anzu,1
-75,葉鳥なゆ,1
-76,夢咲みるく,1
-77,Kana Iino,1
-78,咲坂栞,2
-79,小鳥遊いと,2
-80,能登麻美子,1
-81,Karin Inoue,2
-82,Yuki Usagi,1
-83,Run Hanami,2
-84,山田麗奈,1
-85,Mitaka Rin,1
-86,Nachu Aizawa,5
-87,木崎彩音,1
-88,Erena Kaibara,1
-89,藤村理央,1
-90,未想可みいろ,1
-91,Maria Ayana,1
-92,Kumoko Jorouin,1
-93,まあ油るる,1
-94,Ruina Himeki,1
-95,Mikan Yomoyama,1
-96,ユリハラ虧夕,1
-97,Paco Shirakawa,1
-98,Riyuu,1
-99,Hina Ayame,1
-100,白井るか,1
-101,笹木ころん,1
-102,Seika Ayakura,1
-103,Amamiya Suzuka,1
-104,星野天,4
-105,Nanana,1
-106,Musubi Aono,4
-107,朝野宇咲,1
-108,若山詩音,1
-109,竹早芽衣,2
-110,楓まろん,1
-111,Hiyori Misaki,1
-112,Shiharu Kanaya,1
-113,Shinoka Tenjo,1
-114,Emi Sakura,1
-115,Natsuka Hano,1
-116,八乙女しゃむ,1
-117,Phan Masaki,1
-118,Yuki Akashi,3
-119,Mashiro Kazahana,1
-120,Amamiya Mei,1
-121,Chiyuri Yugi,2
-122,鮎乃さしみ,1
-123,伊倉える,2
-124,豊川ゆき,1
-125,佐京柚音,1
-126,いぬです,1
-127,Yukina Izumi,1
-128,猫視ねこ,5
-129,Nami Saionji,2
-130,STELLA,2
-131,鳴宮なる,1
-132,Yuzuko Konoe,1
-133,神間みと,1
-134,Hotaru Kamiari,1
-135,川乃瀬由羽,1
-136,Yuzuhara Miu,1
-137,Rio Fujimura,1
-138,星月るな,1
-139,三久悠,1
-140,Himari,1
-141,Minami Imaya,1
-142,奏星イト,1
-143,雪見だいふく,2
-144,碧棺らむだ,1
-145,具羅津ちえ,1
-146,双葉すずね,2
-147,白瀬ほなみ,1
-148,Aoi Hinamori,1
-149,Riruru Kimino,1
-150,Sarah Ayumi,2
-151,都みみち,1
-152,鬼霧茜,1
+24,Amu Mochiri,12
+25,Yuka Hinata,64
+26,Yukiko Shinomori,4
+27,Popura Sawano,6
+28,Yukari Aoyama,1
+29,Haruru Akiyama,9
+30,Izumi Mikoshiba,21
+31,Suika Nishiuri,1
+32,Haruno Sakaki,2
+33,Kosuzu Momoka,7
+34,MOMOKA,19
+35,Kanoko,11
+36,Soramame,9
+37,不破ふわり,1
+38,Hano Amane,1
+39,Akari Yuzuki,4
+40,Shiki Asagi,13
+41,Chiroru Oyama,18
+42,Shiho Bubaigawara,10
+43,Nanami Mizuno,1
+44,鳴先そら,1
+45,Rito Ichinose,1
+46,Megumu Morino,2
+47,Tsukushi Haruno,1
+48,Ryou Suzuki,6
+49,Gemiko Yamada,10
+50,Amane Mizuchi,4
+51,Nodoka Nishiura,4
+52,Koibane Moko,2
+53,Yui Otokura,9
+54,Raichi Annin,1
+55,床貓,2
+56,Kotoka,2
+57,風慈宮ユキ,1
+58,Mei Misonoo,2
+59,Aoi Tokio,1
+60,Mako Ayane,4
+61,Rima Nemurine,2
+62,Satsuki Sonomiya,3
+63,Kotoza,1
+64,乙倉碧,1
+65,Aino Mimori,10
+66,Kannazuki Honoka,1
+67,Flan Kulumu,3
+68,都みみち(三八みみち),3
+69,滅茶ねむ,2
+70,早緒きむり,1
+71,しゃふ,2
+72,Jumi,1
+73,Mitsu Anzu,1
+74,葉鳥なゆ,1
+75,夢咲みるく,1
+76,Kana Iino,1
+77,咲坂栞,2
+78,小鳥遊いと,2
+79,能登麻美子,1
+80,Karin Inoue,2
+81,Yuki Usagi,1
+82,Run Hanami,2
+83,山田麗奈,1
+84,Mitaka Rin,1
+85,Nachu Aizawa,5
+86,木崎彩音,1
+87,Erena Kaibara,1
+88,藤村理央,1
+89,未想可みいろ,1
+90,Maria Ayana,1
+91,Kumoko Jorouin,1
+92,まあ油るる,1
+93,Ruina Himeki,1
+94,Mikan Yomoyama,1
+95,ユリハラ虧夕,1
+96,Paco Shirakawa,1
+97,Riyuu,1
+98,Hina Ayame,1
+99,白井るか,1
+100,笹木ころん,1
+101,Seika Ayakura,1
+102,Amamiya Suzuka,1
+103,星野天,4
+104,Nanana,1
+105,Musubi Aono,4
+106,朝野宇咲,1
+107,若山詩音,1
+108,竹早芽衣,2
+109,楓まろん,1
+110,Hiyori Misaki,1
+111,Shiharu Kanaya,1
+112,Shinoka Tenjo,1
+113,Emi Sakura,1
+114,Natsuka Hano,1
+115,八乙女しゃむ,1
+116,Phan Masaki,1
+117,Yuki Akashi,3
+118,Mashiro Kazahana,1
+119,Amamiya Mei,1
+120,Chiyuri Yugi,2
+121,鮎乃さしみ,1
+122,伊倉える,2
+123,豊川ゆき,1
+124,佐京柚音,1
+125,いぬです,1
+126,Yukina Izumi,1
+127,猫視ねこ,5
+128,Nami Saionji,2
+129,STELLA,2
+130,鳴宮なる,1
+131,Yuzuko Konoe,1
+132,神間みと,1
+133,Hotaru Kamiari,1
+134,川乃瀬由羽,1
+135,Yuzuhara Miu,1
+136,Rio Fujimura,1
+137,星月るな,1
+138,三久悠,1
+139,Himari,1
+140,Minami Imaya,1
+141,奏星イト,1
+142,雪見だいふく,2
+143,碧棺らむだ,1
+144,具羅津ちえ,1
+145,双葉すずね,2
+146,白瀬ほなみ,1
+147,Aoi Hinamori,1
+148,Riruru Kimino,1
+149,Sarah Ayumi,2
+150,都みみち,1
+151,鬼霧茜,1

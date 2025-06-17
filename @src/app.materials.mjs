@@ -260,6 +260,7 @@ class ImageDisplayer {
 		this.div.classList.add('get-evt');
 		const img = document.createElement('img');
 		img.decoding = 'async';
+		img.loading = 'lazy';
 		img.classList.add('img');
 		img.src = src;
 		ctn.appendChild(img);

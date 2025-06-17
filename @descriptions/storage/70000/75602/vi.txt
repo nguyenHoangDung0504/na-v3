@@ -1,0 +1,28 @@
+- Content_Des
+	Nữ chính là một người em gái đã đính hôn và yêu anh trai mình!?
+
+	Một ngày nọ, nhân vật chính, người đang ở Tokyo, phát hiện ra rằng em gái mình, người sống ở nhà, sắp kết hôn.
+
+	Từ nhỏ, anh đã có tình cảm với em gái mình, người yêu anh trai mình hơn cả gia đình.
+
+	Vài năm sau khi chuyển đến Tokyo, anh nhận được một cuộc gọi từ em gái mình vào thời điểm này...
+
+	"Anh trai... Em sắp kết hôn."
+
+	"Em được nghỉ một tuần, em có thể đến nhà anh không?"
+
+	Rồi đến ngày em gái anh đến...
+
+- Character_Des
+	<b>Himemiya Hotaru</b>
+
+	-Em gái của nhân vật chính. Một cô gái trầm tính và điềm tĩnh.
+	-Cô ấy đã yêu anh trai mình, người luôn giúp đỡ cô ấy từ khi họ còn nhỏ và đối xử tốt với cô ấy.
+	-"Ah, haa... Anh có muốn xuất tinh vào bên trong em như thế này không, anh trai?"
+	
+- Track_Des
+	-01 Thông báo kết hôn qua điện thoại...
+	-02 Thú nhận tình cảm...
+	-03 Lần đầu tiên với anh trai...
+	-04 Kết nối trực tiếp...
+	-05 Ngay cả khi tôi đang mang thai...
