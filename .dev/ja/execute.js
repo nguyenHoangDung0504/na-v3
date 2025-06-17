@@ -150,6 +150,8 @@ function getConstKeys() {
 		['Jock/Athlete/Sports', 'Sport Girl'],
 		['Cohabitation', 'Living Together'],
 		['Lovers', 'Girlfriend'],
+		['French kiss', 'Kissing'],
+		['Nonhuman/Monster Girl', 'Non-human Girl']
 	]);
 
 	const CV_KEYS = new Map([

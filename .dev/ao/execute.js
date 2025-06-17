@@ -2,7 +2,6 @@ main();
 const STREAM_PATH = 'https://raw.kiko-play-niptan.one/media/stream/daily/';
 const DOWNLOAD_PATH = STREAM_PATH.replace('stream', 'download');
 const THUMBNAIL = document.querySelector('.q-img__image.absolute-full img').src;
-document.body.style.display = 'none';
 
 async function main() {
 	const STORAGE = [];
