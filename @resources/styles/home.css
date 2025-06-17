@@ -572,6 +572,7 @@ html:not(.openMenu)>body .content .grid-container .grid-item .flex-container .te
     color: deeppink;
     padding: 2px 5px;
     border-radius: 5px;
+    display: inline-block;
     /*   font-weight: 600; */
 }
 
@@ -588,6 +589,7 @@ html:not(.openMenu)>body .content .grid-container .grid-item .flex-container .te
     color: var(--tag-color);
     padding: 2px 5px;
     border-radius: 5px;
+    display: inline-block;
     /*   font-weight: 600; */
 }
 
@@ -605,6 +607,7 @@ html:not(.openMenu)>body .content .grid-container .grid-item .flex-container .te
     color: var(--special-color);
     padding: 2px 5px;
     border-radius: 5px;
+    display: inline-block;
     /*   font-weight: 600;   */
 }
 

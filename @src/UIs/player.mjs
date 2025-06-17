@@ -36,18 +36,20 @@ async function initView(db, UIbindings) {
 	document.title = 'Alt Player:' + track.info.code;
 
 	const {
-		playerView: { contentContainer, mp3Container },
+		playerView: { contentContainer, mp3Container, fullscreenBtn },
 	} = UIbindings;
 
-	const images = track.resource.images;
-	if (images.length === 0) images.push(track.resource.thumbnail);
+	const images = [track.resource.thumbnail, ...track.resource.images];
+	const seen = new Set();
 	const imgPrefixes = await db.prefixies.getAll(images.map((img) => img.prefixID));
 	images.forEach((iov, index) => {
 		iov = `${imgPrefixes[index]}${iov.name}`;
+		if (seen.has(iov)) return;
+		seen.add(iov);
 		contentContainer.appendChild(
 			iov.includes('.mp4')
 				? new VideoPlayer(iov)
-				: new ImageDisplayer(iov, fullscreen.toggle.bind(fullscreen))
+				: new ImageDisplayer(iov, () => fullscreenBtn.click())
 		);
 	});
 
