@@ -139,19 +139,20 @@ function getConstKeys() {
 	const TAG_KEYS = new Map([
 		['Student', 'School Girl,Student'],
 		['School/Academy', 'School'],
-		['Imouto', 'Younger Sister'],
-		['Oneesan', 'Elder Sister'],
+		['Imouto', 'Sister,Younger Sister,Incest'],
 		['Breast Sex', 'Paizuri'],
 		['Trap', 'Crossdress'],
 		['Voluptuous/Plump', 'Chubby'],
 		['Real Elder Sister', 'Sister,Oneesan,Incest'],
-		['Mommie', 'Mother,Milf'],
-		['Mother', 'Mother,Milf'],
+		['Mommie', 'Mother,Milf,Mature Women'],
+		['Mother', 'Mother,Milf,Mature Women'],
 		['Jock/Athlete/Sports', 'Sport Girl'],
 		['Cohabitation', 'Living Together'],
 		['Lovers', 'Girlfriend'],
 		['French kiss', 'Kissing'],
-		['Nonhuman/Monster Girl', 'Non-human Girl']
+		['Nonhuman/Monster Girl', 'Non-human Girl'],
+		['Reverse NTR', 'Netori'],
+		['Housewife', 'Housewife,Mature Women']
 	]);
 
 	const CV_KEYS = new Map([
