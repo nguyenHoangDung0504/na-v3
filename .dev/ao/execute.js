@@ -12,8 +12,6 @@ async function main() {
 	if (manifest === null) return;
 
 	manifest.forEach((children) => {
-		if (children.title.includes(NO_SE)) return;
-
 		children['@folder'] = '@ROOT';
 		if (isFolder(children)) {
 			return traversal(children, STORAGE);

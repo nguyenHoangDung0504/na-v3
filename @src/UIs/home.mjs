@@ -65,7 +65,7 @@ async function initVars(UIbindings, db) {
 	let tagFilter = url.getParam('tag') || '';
 	let seriesFilter = url.getParam('series') || '';
 
-	if (!searchP || !['@newest', '@n'].includes(searchP)) await db.tracks.sortBy('code', 'desc');
+	// if (!searchP || !['@newest', '@n'].includes(searchP)) await db.tracks.sortBy('code', 'desc');
 	let IDs = await db.tracks.getIDs();
 
 	// Filtering
