@@ -54,11 +54,34 @@ const server = http.createServer(async (req, res) => {
 
 		// Nếu là file, gửi file về client
 		if (stats.isFile()) {
+			// const ext = path.extname(filePath).toLowerCase();
+			// const contentType = MIME_TYPES[ext] || 'application/octet-stream';
+			// res.writeHead(200, { 'Content-Type': contentType });
+			// fs.createReadStream(filePath).pipe(res);
 			const ext = path.extname(filePath).toLowerCase();
 			const contentType = MIME_TYPES[ext] || 'application/octet-stream';
-			res.writeHead(200, { 'Content-Type': contentType });
+
+			// **Thêm header CORS nếu request nằm trong thư mục .dev**
+			const relativePath = path.relative(ROOT_DIR, filePath).replace(/\\/g, '/'); // chuẩn hóa đường dẫn
+			const enableCORS =
+				relativePath.startsWith('.dev/') || relativePath.startsWith('@data_compressor');
+
+			const headers = { 'Content-Type': contentType };
+			if (enableCORS) {
+				headers['Access-Control-Allow-Origin'] = '*'; // hoặc đặt domain cụ thể nếu muốn giới hạn
+				// Nếu cần hỗ trợ preflight:
+				headers['Access-Control-Allow-Methods'] = 'GET, OPTIONS';
+				headers['Access-Control-Allow-Headers'] = 'Content-Type';
+			}
+
+			// Nếu là preflight OPTIONS request, trả về ngay
+			if (req.method === 'OPTIONS' && enableCORS) {
+				res.writeHead(204, headers);
+				return res.end();
+			}
+
+			res.writeHead(200, headers);
 			fs.createReadStream(filePath).pipe(res);
-			// console.log('Serving:', filePath);
 		} else {
 			res.writeHead(404);
 			res.end('Not found');
