@@ -1,5 +1,5 @@
 const CACHE_NAME = 'na-v3.cache';
-const CACHE_VERSION = '5';
+const CACHE_VERSION = 5;
 const CACHE_EXPIRATION = time({ minutes: 10 });
 const LOG = true;
 

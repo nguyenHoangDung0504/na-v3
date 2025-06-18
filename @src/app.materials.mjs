@@ -261,6 +261,7 @@ class ImageDisplayer {
 		const img = document.createElement('img');
 		img.decoding = 'async';
 		img.loading = 'lazy';
+		img.referrerPolicy = 'no-referrer';
 		img.classList.add('img');
 		img.src = src;
 		ctn.appendChild(img);
