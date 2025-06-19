@@ -17,7 +17,11 @@ optimizeCSV();
  */
 function optimizeCSV() {
 	const formatedData = data.map((row) =>
-		row.map((col, _) => (typeof col === 'string' && col.length ? convertQuotes(col.trim()) : col))
+		row.map((col, index) =>
+			[5, 6].includes(index) && typeof col === 'string' && col.length // Chỉ convertQuotes trên col engname, japname
+				? convertQuotes(col.trim())
+				: col
+		)
 	);
 
 	// Tối ưu category
