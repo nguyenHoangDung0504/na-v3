@@ -294,6 +294,7 @@ class AudioController {
 
 		this.audContainer.classList.add('aud-ctn');
 		this.audio.controls = true;
+		this.audio.preload = 'metadata';
 		this.audio.setAttribute('referrerpolicy', 'no-referrer');
 		this.audio.innerHTML = `<source src="${src}"></source>`;
 		this.audio.dataset.isPause = true;

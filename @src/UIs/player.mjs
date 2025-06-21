@@ -65,7 +65,7 @@ async function initView(db, UIbindings) {
 			track.info.code,
 			(await db.CVs.getAll(track.category.cvIDs)).map((c) => c.name),
 			(await db.series.getAll(track.category.seriesIDs)).map((s) => s.name),
-			`${await db.prefixies.get(track.resource.thumbnail.prefixID)}${track.resource.name}`
+			`${await db.prefixies.get(track.resource.thumbnail.prefixID)}${track.resource.thumbnail.name}`
 		).setupMediaSession();
 	} else {
 		mp3Container.remove();
