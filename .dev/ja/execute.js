@@ -79,7 +79,7 @@ async function copy(value, timeout = 100) {
  * @returns {Promise<{ trackIDs: Set<number>, CVs: string[], tags: string[], series: string[] }>}
  */
 async function initData() {
-	const module = await import('http://127.0.0.1:5500/@data_compressor/exported-data.js');
+	const module = await import('http://127.0.0.1:5500/.data_compressor/exported-data.js');
 
 	/**@type {[code:number, RJcode:string, CVs:string, tags:string, series:string][]} */
 	const data = module.default.map((line) => line.toSpliced(5));
@@ -155,6 +155,9 @@ function getConstKeys() {
 		['Housewife', 'Housewife,Mature Women'],
 		['Sumata', 'Thighjob'],
 		['Guided Masturbation', 'Masturbation Support'],
+		['Pubic Hair/Armpit Hair', 'Hairy'],
+		['Burping', 'Burping,Fetish'],
+		['Vomit', 'Vomit,Fetish'],
 	]);
 
 	const CV_KEYS = new Map([

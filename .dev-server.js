@@ -60,7 +60,7 @@ const server = http.createServer(async (req, res) => {
 			// **Thêm header CORS nếu request nằm trong thư mục .dev**
 			const relativePath = path.relative(ROOT_DIR, filePath).replace(/\\/g, '/'); // chuẩn hóa đường dẫn
 			const enableCORS =
-				relativePath.startsWith('.dev/') || relativePath.startsWith('@data_compressor');
+				relativePath.startsWith('.dev/') || relativePath.startsWith('.data_compressor');
 
 			const headers = { 'Content-Type': contentType };
 			if (enableCORS) {

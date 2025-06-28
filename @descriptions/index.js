@@ -17,12 +17,15 @@ try {
 						.slice(1)
 						.map((l) => l.replaceAll(TAB_CHARS + '-', TAB_CHARS + '・'))
 						.map((l) => l.replaceAll(TAB_CHARS_2 + '-', TAB_CHARS + '・'))
+						.map((l) =>
+							l.trim().startsWith('str:') ? `<strong>${l.replace('str:', '')}</strong>` : l
+						)
 						.join('\n')
 				)
 					.trimEnd()
 					.replaceAll('\n', '<br>')
+					.replaceAll('hr:', '<hr>')
 			);
-		''.startsWith;
 
 		document.body.innerHTML = /*html*/ `
             <div class="tabs">
