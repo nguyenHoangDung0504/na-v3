@@ -60,13 +60,20 @@ export class TrackCategories {
 }
 
 export class Resource {
-	/**
-	 * @param {string} prefixID
-	 * @param {string} name
-	 */
 	constructor(prefixID, name) {
 		this.prefixID = Number(prefixID);
-		this.name = name;
+		this.rawName = name;
+
+		/** @private */
+		this._encoded = null; // hoặc undefined
+	}
+
+	get name() {
+		if (this._encoded === null) {
+			console.log('Resource not encoded, encode');
+			this._encoded = encodeURIComponent(this.rawName);
+		}
+		return this._encoded;
 	}
 }
 

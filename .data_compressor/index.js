@@ -124,7 +124,7 @@ function processURLs(data, columnIndexList, fileName) {
 				if (!prefixMap.has(prefix)) {
 					prefixMap.set(prefix, prefixMap.size + 1);
 				}
-				line[columnIndex] = line[columnIndex].replace(url, `${prefixMap.get(prefix)}->${fileName}`);
+				line[columnIndex] = line[columnIndex].replace(url, `${prefixMap.get(prefix)}->${decodeURIComponent(fileName)}`);
 			});
 			line[columnIndex] = `"${line[columnIndex]}"`;
 		});
