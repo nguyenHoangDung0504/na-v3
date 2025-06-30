@@ -41,6 +41,10 @@ body {
     overflow-x: hidden;
 }
 
+html {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
 *::-webkit-scrollbar {
     width: 7px;
 }
@@ -75,7 +79,8 @@ body p.message {
     transition: margin var(--time);
     color: var(--text-color);
     display: block;
-    font-size: 22px;
+    /* font-size: 22px; */
+    font-size: 1.25em;
     margin: calc(var(--screen-width) * .02) calc(var(--screen-width) * .06);
     line-height: 1.75;
 }
@@ -84,7 +89,8 @@ html.openMenu>body p.message {
     transition: margin var(--time);
     color: var(--text-color);
     display: block;
-    font-size: 22px;
+    /* font-size: 22px; */
+    font-size: 1.25em;
     margin: calc(var(--screen-width) * .02);
 }
 
@@ -224,7 +230,8 @@ input[type="text"]::selection {
     overflow-y: auto;
     width: 566px;
     background-color: var(--bg);
-    font-size: 18px;
+    /* font-size: 18px; */
+    font-size: 1em;
     border: 1px solid black;
     z-index: 99999999;
     display: none;
@@ -255,10 +262,13 @@ input[type="text"]::selection {
 .header .search-div .search-div2 input[type="text"].search-input {
     padding: 10px 24px;
     width: calc(var(--screen-width) * .34);
-    font-size: 18px;
+    /* font-size: 18px; */
+    font-size: 1em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     outline: none;
     border: none;
-    border-radius: 10px 0px 0px 10px;
+    border-radius: 5px 0px 0px 5px;
+
 }
 
 .header .search-div .search-div2 .search-icon {
@@ -266,7 +276,7 @@ input[type="text"]::selection {
     background-color: white;
     border: 0px;
     height: inherit;
-    border-radius: 0px 10px 10px 0px;
+    border-radius: 0px 5px 5px 0px;
     cursor: pointer;
 }
 
@@ -277,8 +287,10 @@ input[type="text"]::selection {
 
 .header .search-div .search-div2 .search-icon h1 {
     display: block;
-    font-size: 24px;
+    /* font-size: 24px; */
+    font-size: 1.25em;
     margin: auto;
+    aspect-ratio: 1;
 }
 
 /*END HEADER*/
@@ -323,7 +335,8 @@ input[type="text"]::selection {
     height: fit-content;
     /* background-color: var(--bg2); */
     color: var(--text-color);
-    font-size: 18px;
+    /* font-size: 18px; */
+    font-size: 1em;
     padding: 10px 15px;
     text-decoration: none;
     cursor: pointer;
@@ -372,48 +385,6 @@ input[type="text"]::selection {
     margin: 10px 0px;
 }
 
-.menu .hidden-list {
-    height: 0;
-    overflow: hidden;
-    /*     transition: var(--time); */
-    /* border-top: 1px solid var(--text-color);
-    border-bottom: 1px solid var(--text-color); */
-    background-color: var(--bg);
-
-}
-
-.menu .hidden-list.opened {
-    height: auto;
-}
-
-.menu .hidden-list input[type="text"] {
-    display: block;
-    width: 100%;
-    height: fit-content;
-    font-size: 17px;
-    padding: 10px 15px;
-    border: .5px solid var(--text-color);
-    outline: none;
-    background-color: var(--big-bg);
-    color: var(--text-color);
-}
-
-.menu .hidden-list .sub-item {
-    display: block;
-    width: 100%;
-    height: fit-content;
-    color: var(--text-color);
-    font-size: 17px;
-    padding: 10px 30px;
-    text-decoration: none;
-    cursor: pointer;
-    overflow: hidden;
-}
-
-.menu .hidden-list .sub-item .hover:hover {
-    text-decoration: underline;
-}
-
 html.openMenu>body>.menu {
     left: 0;
 }
@@ -428,7 +399,7 @@ html.openMenu>body>.menu {
     display: flex;
     gap: 20px;
     flex-direction: row-reverse;
-    opacity: 0;
+    /* opacity: 0; */
     background-color: var(--bg2);
     color: var(--text-color);
     padding: 13px;
@@ -474,7 +445,8 @@ html.openMenu>body>.menu {
 } */
 .hidden-info h3 {
     display: block;
-    font-size: 14px;
+    /* font-size: 14px; */
+    font-size: .85em;
     font-weight: normal;
 }
 
@@ -513,22 +485,6 @@ html.openMenu>body>.menu {
     flex-direction: column;
 }
 
-.content .grid-container .grid-item .info-button {
-    display: none;
-    position: absolute;
-    right: 3px;
-    top: 3px;
-    border-radius: 50%;
-    font-weight: 900;
-    font-style: italic;
-    font-size: 20px;
-    padding: 4px 14px;
-    background-color: black;
-    color: white;
-    user-select: none;
-    cursor: help;
-}
-
 .content .grid-container .grid-item .image-container {
     width: 100%;
     aspect-ratio: 4 / 3;
@@ -556,7 +512,7 @@ html.openMenu>body>.menu {
 .content .grid-container .grid-item .flex-container .text-container {
     width: 100%;
     margin-top: 10px;
-    font-size: 15px;
+    font-size: .85em;
 }
 
 html:not(.openMenu)>body .content .grid-container .grid-item {
@@ -564,7 +520,7 @@ html:not(.openMenu)>body .content .grid-container .grid-item {
 }
 
 html:not(.openMenu)>body .content .grid-container .grid-item .flex-container .text-container {
-    font-size: 14px;
+    font-size: .82em;
 }
 
 .cv {
@@ -643,48 +599,6 @@ html:not(.openMenu)>body .content .grid-container .grid-item .flex-container .te
 /*END CONTENT*/
 
 /*MODEL*/
-.model-container {
-    transition: var(--time);
-    position: fixed;
-    background-color: var(--model-bg);
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100dvh;
-    z-index: 99;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    opacity: 0;
-    pointer-events: none;
-    user-select: none;
-}
-
-body.openModel>.model-container {
-    opacity: 1;
-    pointer-events: all;
-}
-
-.model-container .model-body {
-    width: 90%;
-    height: 98%;
-    background-color: var(--bg2);
-    border-radius: 5px;
-    box-shadow: 0 0 18px var(--text-color);
-}
-
-.model-container .model-body .model-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    height: 10%;
-}
-
-.model-container .model-body .model-header h3 {
-    color: var(--text-color);
-    font-size: 25px;
-}
-
 /*-----------------------------------------------------------------------------------------------------------------------------------------*/
 .gacha-modal-body {
     display: grid;
@@ -749,7 +663,8 @@ body.openModel>.model-container {
 .gacha-modal-body .gacha-grid-container .grid-item .flex-container .text-container {
     width: 100%;
     margin-top: 15px;
-    font-size: 14px;
+    /* font-size: 14px; */
+    font-size: .85em;
 }
 
 .gacha-modal-body .gacha-grid-container .grid-item .flex-container .text-container .multiline-ellipsis {
@@ -792,8 +707,8 @@ body.openModel>.model-container {
     cursor: pointer;
     width: fit-content;
     --transition-time: .2s;
-    font-size: 18px;
-    font-weight: bold;
+    font-size: 1em;
+    font-weight: 500;
     -webkit-tap-highlight-color: transparent;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -948,7 +863,7 @@ body.openModel>.model-container {
     transform: translateY(-50%) translateX(-50%);
     width: fit-content;
     height: fit-content;
-    font-size: 17px;
+    font-size: 1em;
 }
 
 .pagination .pagination-body a {
@@ -1001,14 +916,16 @@ body.openModel>.model-container {
     background-color: var(--bg);
     color: var(--text-color);
     padding: 10px 35px;
-    font-size: 18px;
+    /* font-size: 18px; */
+    font-size: 1em;
     line-height: 1.5;
     padding-bottom: 25px;
     user-select: none;
 }
 
 .footer h1.title {
-    font-size: 25px;
+    /* font-size: 25px; */
+    font-size: 1.25em;
     color: var(--text-color);
     display: block;
     margin: 8px 0;
@@ -1031,7 +948,7 @@ body.openModel>.model-container {
     display: block;
     width: fit-content;
     margin: 12px 0;
-    font-size: 17px;
+    font-size: 1em;
 }
 
 .footer .footer-content .grid-item a:hover {
@@ -1040,7 +957,7 @@ body.openModel>.model-container {
 
 .footer .footer-content .grid-item h2 {
     display: block;
-    font-size: 20px;
+    font-size: 1.1em;
     margin: 0 0 15px 0;
 }
 
@@ -1049,7 +966,7 @@ body.openModel>.model-container {
     width: 100%;
     border-top: 1px solid var(--text-color);
     padding-top: 10px;
-    font-size: 17px;
+    font-size: 1em;
 }
 
 /*END FOOTER*/
@@ -1300,7 +1217,7 @@ body.openModel>.model-container {
     justify-content: space-between;
     color: white;
     font-weight: 600;
-    font-size: 1.5rem;
+    font-size: 1.25em;
     padding: 5px 20px;
     background-color: black;
     border-bottom: 3px solid var(--border-spin-special-box-main-color);
@@ -1404,9 +1321,9 @@ body.openModel>.model-container {
     padding: 10px 20px;
     color: var(--category-color);
     cursor: pointer;
-    font-weight: 500;
+    font-weight: 400;
     border-radius: 5px;
-    font-size: 1.04rem;
+    font-size: .94em;
 }
 
 a.item .highlight {
@@ -1426,9 +1343,7 @@ a.item .highlight {
 
 .sub-rank-list a.item::before {
     content: var(--before-content);
-    margin: 2px;
-    margin-right: 4px;
-    font-size: .85rem;
+    font-size: .94em;
 }
 
 .sub-rank-list a.item::after {
@@ -1458,7 +1373,7 @@ a.item .highlight {
     margin: 10px;
     background-color: #111;
     color: white;
-    font-size: 1rem;
+    font-size: .94em;
 }
 
 input[type="text"].search::selection {
@@ -1474,9 +1389,8 @@ input[type="text"].search::selection {
 }
 
 .select-box label {
-    font-size: 1.04rem;
-    padding: 10px 20px 10px 2px;
-    font-size: 1.04rem;
+    font-size: .94em;
+    padding: 10px 20px 10px 5px;
     color: white;
 }
 

@@ -136,7 +136,7 @@ function replaceTextWithElements(text) {
 
 	if (device.isMobile())
 		import('../@src/app.materials.mjs').then((module) => {
-			new module.SwipeHandler(tabs, prevTab, nextTab).registerEvents();
+			new module.SwipeHandler(document.body, prevTab, nextTab, undefined, undefined, 7).registerEvents();
 		});
 
 	document.querySelectorAll('input[name="tabs"]').forEach((radio) => {
