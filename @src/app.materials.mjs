@@ -5,27 +5,35 @@ class SwipeHandler {
 		rightToLeft = () => null,
 		up = () => null,
 		down = () => null,
-		thresholdRatio = 2
+		bias = 10, // Yêu cầu phương trội lệch ít nhất 1.5 lần
+		minDistance = 30 // Khoảng cách tối thiểu để tính swipe
 	) {
-		/**
-		 * leftToRight: function to call when the swipe/drag action is from left to right
-		 * rightToLeft:                                                     right to left
-		 * up         :                                                     bottom to top
-		 * down       :                                                     top to bottom
-		 */
-		Object.assign(this, { element, leftToRight, rightToLeft, up, down, thresholdRatio });
+		Object.assign(this, {
+			element,
+			leftToRight,
+			rightToLeft,
+			up,
+			down,
+			bias,
+			minDistance,
+		});
+
 		this.startX = 0;
 		this.startY = 0;
 		this.endX = 0;
 		this.endY = 0;
+		this.startScrollY = 0;
 		this.isSelectingText = false;
+
 		document.addEventListener('selectionchange', this.handleSelectionChange.bind(this));
 	}
 
 	registerEvents() {
 		this.element.addEventListener('mousedown', this.handleMouseDown.bind(this));
 		this.element.addEventListener('mouseup', this.handleMouseUp.bind(this));
-		this.element.addEventListener('touchstart', this.handleTouchStart.bind(this));
+		this.element.addEventListener('touchstart', this.handleTouchStart.bind(this), {
+			passive: true,
+		});
 		this.element.addEventListener('touchend', this.handleTouchEnd.bind(this));
 	}
 
@@ -33,34 +41,40 @@ class SwipeHandler {
 		if (event.target.tagName === 'IMG') event.preventDefault();
 		this.startX = event.clientX;
 		this.startY = event.clientY;
+		this.startScrollY = window.scrollY;
 		this.isSelectingText = false;
 	}
 
 	handleMouseUp(event) {
-		const targetTagName = event.target.tagName;
-
-		// Ignore if event start from select or option
-		if (targetTagName === 'OPTION' || targetTagName === 'SELECT') return;
+		const tag = event.target.tagName;
+		if (tag === 'OPTION' || tag === 'SELECT') return;
 
 		this.endX = event.clientX;
 		this.endY = event.clientY;
-		if (!this.isSelectingText) {
+
+		const scrollChanged = Math.abs(window.scrollY - this.startScrollY) > 10;
+		if (!this.isSelectingText && !scrollChanged) {
 			this.handleSwipe();
 		}
 	}
 
 	handleTouchStart(event) {
 		if (event.touches.length > 1) return;
-		this.startX = event.touches[0].clientX;
-		this.startY = event.touches[0].clientY;
+		const touch = event.touches[0];
+		this.startX = touch.clientX;
+		this.startY = touch.clientY;
+		this.startScrollY = window.scrollY;
 		this.isSelectingText = false;
 	}
 
 	handleTouchEnd(event) {
-		if (event.touches.length > 1) return;
-		this.endX = event.changedTouches[0].clientX;
-		this.endY = event.changedTouches[0].clientY;
-		if (!this.isSelectingText) {
+		if (event.changedTouches.length > 1) return;
+		const touch = event.changedTouches[0];
+		this.endX = touch.clientX;
+		this.endY = touch.clientY;
+
+		const scrollChanged = Math.abs(window.scrollY - this.startScrollY) > 10;
+		if (!this.isSelectingText && !scrollChanged) {
 			this.handleSwipe();
 		}
 	}
@@ -71,19 +85,18 @@ class SwipeHandler {
 		const absDeltaX = Math.abs(deltaX);
 		const absDeltaY = Math.abs(deltaY);
 
-		if (absDeltaX > absDeltaY && absDeltaX / absDeltaY > this.thresholdRatio) {
-			if (deltaX > 0) {
-				this.leftToRight();
-				return;
-			}
-			this.rightToLeft();
-		} else if (absDeltaY > absDeltaX && absDeltaY / absDeltaX > this.thresholdRatio) {
-			if (deltaY > 0) {
-				this.down();
-				return;
-			}
-			this.up();
+		// Vuốt quá ngắn thì bỏ qua
+		if (absDeltaX < this.minDistance && absDeltaY < this.minDistance) return;
+
+		// Swipe ngang chiếm ưu thế rõ rệt
+		if (absDeltaX > absDeltaY * this.bias && absDeltaX >= this.minDistance) {
+			deltaX > 0 ? this.leftToRight() : this.rightToLeft();
 		}
+		// Swipe dọc chiếm ưu thế rõ rệt
+		else if (absDeltaY > absDeltaX * this.bias && absDeltaY >= this.minDistance) {
+			deltaY > 0 ? this.down() : this.up();
+		}
+		// Còn lại là vuốt chéo – không xử lý
 	}
 
 	handleSelectionChange() {

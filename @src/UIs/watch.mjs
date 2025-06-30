@@ -111,17 +111,19 @@ async function initWatchView(db, UIbindings, renderers) {
 	container.appendChild(span);
 	container.appendChild(iframe);
 
-	iframe.addEventListener('load', () => {
-		container.removeChild(span);
-		iframe.style.display = 'block';
-	});
 	iframe.addEventListener('error', () => (span.textContent = 'Nothing here for now...'));
+	iframe.addEventListener(
+		'load',
+		() => {
+			span.remove();
+			iframe.style.display = 'block';
+		},
+		{ once: true }
+	);
 	iframe.src = iframeSrc;
 
 	window.addEventListener('message', (event) => {
-		if (event.data.iframeHeight) {
-			iframe.style.height = event.data.iframeHeight + 'px';
-		}
+		if (event.data.iframeHeight) iframe.style.height = event.data.iframeHeight + 'px';
 	});
 }
 

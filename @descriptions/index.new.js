@@ -4,44 +4,49 @@ const trackID = url.getParam('code') || url.getParam('rjcode') || '';
 const TAB_CHARS = '    ';
 const TAB_CHARS_2 = '	';
 const SPLIT_CHARS = ['- Content_Des', '- Character_Des', '- Track_Des'];
+const prefixProcessors = [
+	{
+		match: /^hr:$/,
+		transform: () => /*html*/ `<hr>`,
+	},
+	{
+		match: /^br:$/,
+		transform: () => /*html*/ `<br>`,
+	},
+	{
+		match: /^str:(.*)$/,
+		transform: (_, content) => /*html*/ `<strong>${content.trim()}</strong>`,
+	},
+	{
+		match: /^img:(https?:\/\/[^\s"']+)/,
+		transform: (_, url) => /*html*/ `<img src="${url}" alt="" loading="lazy">`,
+	},
+	{
+		match: /^a:(https?:\/\/[^\s":]+)(?::"([^"]*)")?$/,
+		transform: (_, url, label) =>
+			`<a href="${url}" target="_blank" rel="noopener noreferrer">${label || url}</a>`,
+	},
+];
 
 try {
 	const res = await fetch(`./storage/${simplifyNumber(+trackID)}/${trackID}/vi.txt`);
 	if (res.ok) {
 		const [contentDes, charDes, trackDes] = splitByMany(await res.text(), SPLIT_CHARS)
 			.filter(Boolean)
-			.map((ct) =>
-				replaceTextWithElements(
-					ct
-						.split('\n')
-						.slice(1)
-						.map((l) => l.replaceAll(TAB_CHARS + '-', TAB_CHARS + '・'))
-						.map((l) => l.replaceAll(TAB_CHARS_2 + '-', TAB_CHARS + '・'))
-						.map((l) =>
-							l.trim().startsWith('str:') ? `<strong>${l.replace('str:', '')}</strong>` : l
-						)
-						.join('\n')
-				)
-					.trimEnd()
-					.replaceAll('\n', '<br>')
-					.replaceAll('hr:', '<hr>')
-			);
+			.map((ct) => processTextBlock(ct));
 
 		document.body.innerHTML = /*html*/ `
             <div class="tabs">
-                <!-- Các input radio đại diện cho từng tab -->
                 <input type="radio" name="tabs" id="tab1">
                 <input type="radio" name="tabs" id="tab2">
                 <input type="radio" name="tabs" id="tab3" checked>
 
-                <!-- Label cho từng tab -->
                 <div class="tab-labels">
                     <label for="tab1">Content</label>
                     <label for="tab2">Characters</label>
                     <label for="tab3">Tracks</label>
                 </div>
 
-                <!-- Nội dung tương ứng -->
                 <div id="content1" class="tab-content">
                     ${contentDes.trim() || '...'}
                 </div>
@@ -60,52 +65,66 @@ try {
 	console.log(error);
 }
 
+/**
+ * @param {string} str
+ * @param {string[]} delimiters
+ */
 function splitByMany(str, delimiters) {
 	if (!Array.isArray(delimiters) || delimiters.length === 0) return [str];
-
-	// Nếu chỉ có 1 delimiter, dùng split gốc cho hiệu quả
 	if (delimiters.length === 1) return str.split(delimiters[0]);
 
-	// Escape các ký tự đặc biệt cho biểu thức chính quy
 	const escaped = delimiters.map((d) => d.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));
-
-	// Tạo biểu thức chính quy kết hợp
 	const regex = new RegExp(escaped.join('|'), 'g');
-
 	return str.split(regex);
 }
 
+/**
+ * @param {number} n
+ */
 function simplifyNumber(n) {
 	if (n < 10000) return 10000;
 
 	const str = String(n);
 	const length = str.length;
-
-	// Quy tắc: giữ 1 chữ số đầu nếu < 100000
-	// Giữ 2 chữ số đầu nếu < 1_000_000
-	// Giữ 3 chữ số đầu nếu lớn hơn
 	let keep;
 	if (length <= 5) keep = 1;
 	else if (length === 6) keep = 2;
-	else keep = 3; // phòng xa
+	else keep = 3;
 
 	const head = str.slice(0, keep);
 	const zeros = '0'.repeat(length - keep);
 	return parseInt(head + zeros);
 }
 
+/**
+ * @param {string} text
+ */
+function processTextBlock(text) {
+	return text
+		.split('\n')
+		.slice(1)
+		.map((line) => line.replaceAll(TAB_CHARS + '-', TAB_CHARS + '・'))
+		.map((line) => line.replaceAll(TAB_CHARS_2 + '-', TAB_CHARS + '・'))
+		.map((line) => replaceTextWithElements(line).trim())
+		.map((lineHTML) =>
+			lineHTML.length
+				? lineHTML.trim() === '<br>'
+					? lineHTML
+					: `<div class="line">${lineHTML}</div>`
+				: ''
+		)
+		.join('');
+}
+
+/**
+ * @param {string} text
+ */
 function replaceTextWithElements(text) {
-	// Thay ảnh trước
-	text = text.replace(/img:(https?:\/\/[^\s"']+)/g, (_match, url) => {
-		return /*html*/`<img src="${url}" alt="" loading="lazy">`;
-	});
-
-	// Thay link có thể có label dạng :"Label"
-	text = text.replace(/a:(https?:\/\/.*?)(?::"([^"]*)")?(?=\s|$)/g, (_match, url, label) => {
-		const displayText = label || url;
-		return `<a href="${url}" target="_blank" rel="noopener noreferrer">${displayText}</a>`;
-	});
-
+	const trimmed = text.trim();
+	for (const rule of prefixProcessors) {
+		const match = trimmed.match(rule.match);
+		if (match) return rule.transform(...match);
+	}
 	return text;
 }
 
@@ -132,28 +151,31 @@ function replaceTextWithElements(text) {
 		});
 	});
 
+	let lastSentHeight = 0;
+
 	function sendHeight() {
 		const tabs = document.querySelector('.tabs');
 		if (!tabs) return;
 		const style = getComputedStyle(tabs);
 		const height = tabs.getBoundingClientRect().height + parseFloat(style.marginBottom);
-		parent.postMessage({ iframeHeight: Math.ceil(height) }, '*');
+		const rounded = Math.ceil(height);
+		if (rounded !== lastSentHeight) {
+			lastSentHeight = rounded;
+			parent.postMessage({ iframeHeight: rounded }, '*');
+		}
 	}
 
 	function nextTab() {
-		console.log('next');
 		document.querySelector(`label[for="tab${getTabID(1)}"]`).click();
 	}
 
 	function prevTab() {
-		console.log('prev');
 		document.querySelector(`label[for="tab${getTabID(-1)}"]`).click();
 	}
 
 	function getTabID(modifier) {
 		const current = document.querySelector('input[name="tabs"]:checked');
-		if (!current) return 1; // fallback nếu không có tab nào đang chọn
-
+		if (!current) return 1;
 		const id = parseInt(current.id.replace('tab', ''), 10);
 		const next = Math.min(3, Math.max(1, id + modifier));
 		return next;
