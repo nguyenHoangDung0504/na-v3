@@ -17,6 +17,7 @@ database.export();
 initApp();
 
 async function initApp() {
+	debugMode(false);
 	activateTimer();
 	await Promise.all([DOMLoaded(), ...Object.values(UIrequests).filter(Boolean)]);
 
@@ -44,6 +45,17 @@ async function DOMLoaded() {
 		if (document.readyState !== 'loading') callback();
 		else document.addEventListener('DOMContentLoaded', callback, { once: true });
 	});
+}
+
+function debugMode(on = false) {
+	if (!on) return;
+
+	const originalEncodeURI = window.encodeURI;
+	window.encodeURI = (uri) => {
+		const encodedURI = originalEncodeURI(uri);
+		console.log(`--> [Debugger]: Encoded URI: ${uri} --> ${encodedURI}`);
+		return encodedURI;
+	};
 }
 
 async function loadCommonUI() {

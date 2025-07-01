@@ -90,17 +90,13 @@ function processCategories(data, columnIndex, fileName) {
 	});
 
 	const categoryEntries = Array.from(categoryMap.entries());
-	const optimizedData = categoryEntries.map(
-		([category, { index, count }]) => `${index},${category},${count}`
-	);
+	const optimizedData = categoryEntries.map(([category, { index, count }]) => `${index},${category},${count}`);
 	writeFileSync(
 		join(DIST_PATH, fileName),
 		'#category_id,#category_name,#quantity\n'.toUpperCase() + optimizedData.join('\n')
 	);
 
-	const categoryIndexMap = new Map(
-		categoryEntries.map(([category, { index }]) => [category, index])
-	);
+	const categoryIndexMap = new Map(categoryEntries.map(([category, { index }]) => [category, index]));
 	return categoryIndexMap;
 }
 
@@ -119,12 +115,12 @@ function processURLs(data, columnIndexList, fileName) {
 					// console.log("Line có URL rỗng", line);
 					return;
 				}
-				const prefix = cleanURL.substring(0, cleanURL.lastIndexOf('/') + 1);
-				const fileName = cleanURL.substring(cleanURL.lastIndexOf('/') + 1);
-				if (!prefixMap.has(prefix)) {
-					prefixMap.set(prefix, prefixMap.size + 1);
+				const decodedPrefix = decodeURIComponent(cleanURL.substring(0, cleanURL.lastIndexOf('/') + 1));
+				const decodedFileName = decodeURIComponent(cleanURL.substring(cleanURL.lastIndexOf('/') + 1));
+				if (!prefixMap.has(decodedPrefix)) {
+					prefixMap.set(decodedPrefix, prefixMap.size + 1);
 				}
-				line[columnIndex] = line[columnIndex].replace(url, `${prefixMap.get(prefix)}->${decodeURIComponent(fileName)}`);
+				line[columnIndex] = line[columnIndex].replace(url, `${prefixMap.get(decodedPrefix)}->${decodedFileName}`);
 			});
 			line[columnIndex] = `"${line[columnIndex]}"`;
 		});
@@ -132,10 +128,7 @@ function processURLs(data, columnIndexList, fileName) {
 
 	const prefixEntries = Array.from(prefixMap.entries());
 	const optimizedData = prefixEntries.map(([prefix, index]) => `${index},${prefix}`);
-	writeFileSync(
-		join(DIST_PATH, fileName),
-		'#prefix_id,#prefix\n'.toUpperCase() + optimizedData.join('\n')
-	);
+	writeFileSync(join(DIST_PATH, fileName), '#prefix_id,#prefix\n'.toUpperCase() + optimizedData.join('\n'));
 
 	return prefixMap;
 }

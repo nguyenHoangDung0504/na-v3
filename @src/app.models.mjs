@@ -69,10 +69,7 @@ export class Resource {
 	}
 
 	get name() {
-		if (this._encoded === null) {
-			console.log('Resource not encoded, encode');
-			this._encoded = encodeURIComponent(this.rawName);
-		}
+		if (this._encoded === null) this._encoded = encodeURI(this.rawName);
 		return this._encoded;
 	}
 }
