@@ -7,10 +7,8 @@ const cacheManager = {
 window.cacheManager = cacheManager;
 export default cacheManager;
 
-if (
-	'serviceWorker' in navigator &&
-	!location.href.includes('127.0.0.1') &&
-	!location.href.includes('localhost')
+if ('serviceWorker' in navigator && !location.href.includes('127.0.0.1') 
+	// && !location.href.includes('localhost')
 ) {
 	navigator.serviceWorker.getRegistration().then((registration) => {
 		if (registration) {

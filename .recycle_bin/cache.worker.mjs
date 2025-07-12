@@ -1,5 +1,5 @@
 const CACHE_NAME = 'na-v3.cache';
-const CACHE_VERSION = 6;
+const CACHE_VERSION = 5;
 const CACHE_EXPIRATION = time({ minutes: 10 });
 const LOG = true;
 
@@ -14,35 +14,21 @@ const cacheTargets = buildCacheTargets`
 	/@libraries/*
 	/@resources/*
     /@src/*
-
-	/           --ignore-params
-	/watch/*    --ignore-params
+	/
+	/watch/*
 `;
-console.log('--> [CacheManager.worker]: Using cache rules:', cacheTargets);
-
-/**
- * @typedef {{
- *   pattern: string;
- *   ignoreParam?: boolean;
- * }} CacheTarget
- */
 
 /**
  * Build danh sách cache target từ một chuỗi ngăn cách bởi `\n`
  * @param {string} targets
- * @returns {CacheTarget[]}
+ * @returns {string[]}
  */
 function buildCacheTargets(targets, ..._) {
 	return targets[0]
 		.split('\n')
 		.map((line) => line.trim())
 		.filter(Boolean)
-		.filter((line) => !line.startsWith('--'))
-		.map((line) => {
-			const ignoreParam = line.includes('--ignore-params');
-			const pattern = line.replace('--ignore-params', '').trim();
-			return { pattern, ignoreParam };
-		});
+		.filter((line) => line && !line.startsWith('--'));
 }
 
 function getFullCacheName() {
@@ -64,41 +50,32 @@ function time({ hours = 0, minutes = 0, seconds = 0 } = {}) {
 }
 
 /**
- * Trả về rule phù hợp đầu tiên với URL, hoặc null nếu không có
- * @param {string | URL} inputUrl
- * @returns {CacheTarget | null}
+ * @param {string} url
+ * @returns {boolean}
  */
-function getMatchingRule(inputUrl) {
-	const url = typeof inputUrl === 'string' ? new URL(inputUrl) : inputUrl;
-	const { origin, pathname, href } = url;
+function shouldCache(url) {
+	const { origin, pathname } = new URL(url);
 
-	if (origin.startsWith('chrome-extension:')) return null;
-	
-	for (const rule of cacheTargets) {
-		const { pattern, ignoreParam } = rule;
-		const urlToCompare = ignoreParam ? `${origin}${pathname}` : href;
+	if (origin.startsWith('chrome-extension:')) return;
 
-		// So khớp tuyệt đối nếu là URL
-		if (pattern.startsWith('http')) {
-			if (urlToCompare === pattern) return rule;
+	return cacheTargets.some((target) => {
+		// Nếu target là một URL cụ thể, kiểm tra khớp tuyệt đối
+		if (target.startsWith('http')) return url === target;
+
+		// Nếu target là một đường dẫn kết thúc bằng /*, cache toàn bộ con/cháu
+		if (target.endsWith('/*')) {
+			const basePath = target.slice(0, -2); // Bỏ /* đi
+			return pathname.startsWith(basePath);
 		}
 
-		// So khớp nếu pattern là thư mục /**
-		else if (pattern.endsWith('/*')) {
-			const basePath = pattern.slice(0, -2);
-			if (pathname.startsWith(basePath)) return rule;
+		// Nếu target là một đường dẫn, chỉ cache các file con trực tiếp
+		if (pathname.startsWith(target)) {
+			const relativePath = pathname.slice(target.length);
+			return !relativePath.includes('/') || relativePath.endsWith('/'); // Chỉ cache file con trực tiếp
 		}
 
-		// So khớp tương đối như bản cũ
-		else {
-			if (pathname.startsWith(pattern)) {
-				const relative = pathname.slice(pattern.length);
-				if (!relative.includes('/') || relative.endsWith('/')) return rule;
-			}
-		}
-	}
-
-	return null;
+		return false;
+	});
 }
 
 /**
@@ -173,36 +150,34 @@ self.addEventListener('message', (event) => {
 
 // Khi fetch, kiểm tra và lấy từ cache, nếu cache hết hạn, cập nhật dưới nền
 self.addEventListener('fetch', (event) => {
-	if (CACHE_EXPIRATION < 1) return;
-
 	const requestUrl = new URL(event.request.url);
-	const matchingRule = getMatchingRule(requestUrl);
-	
-	if (!matchingRule) return;
 
-	const cacheRequest = getCacheRequest(event.request, matchingRule.ignoreParam);
+	if (CACHE_EXPIRATION < 1) return;
+	if (!shouldCache(requestUrl)) return;
 
 	event.respondWith(
 		(async () => {
 			const cache = await caches.open(getFullCacheName());
-			const cachedResponse = await cache.match(cacheRequest);
-			const isExpired = cachedResponse ? await removeIfExpired(cache, cacheRequest) : false;
+			const cachedResponse = await cache.match(event.request);
+			const isExpired = cachedResponse ? await removeIfExpired(cache, event.request) : false;
 
+			// Luôn ưu tiên trả về cache ngay lập tức để tăng tốc độ phản hồi
 			if (cachedResponse) {
-				LOG && console.log(`--> [CacheManager.worker]: Using cache for ${cacheRequest.url}`);
-				if (isExpired) updateCacheInBackground(cacheRequest, cache);
+				console.log(`--> [CacheManager.worker]: Using cache for ${event.request.url}`);
+				// Nếu cache đã hết hạn, cập nhật dữ liệu dưới nền
+				if (isExpired) updateCacheInBackground(event.request, cache);
 				return cachedResponse;
 			}
 
+			// Nếu không có cache, fetch bình thường
 			try {
 				LOG && console.log(`--> [CacheManager.worker]: Fetching ${event.request.url} and caching`);
 				const networkResponse = await fetch(event.request);
+				if (!networkResponse.ok) throw new Error('--> [CacheManager.worker]: Network response not ok');
 
-				if (!networkResponse.ok && networkResponse.type !== 'opaque')
-					throw new Error('--> [CacheManager.worker]: Network response not ok');
-
-				await cache.put(cacheRequest, networkResponse.clone());
-				await saveCacheMetadata(cache, cacheRequest);
+				// Cập nhật cache sau khi tải thành công
+				await cache.put(event.request, networkResponse.clone());
+				await saveCacheMetadata(cache, event.request);
 				return networkResponse;
 			} catch (error) {
 				LOG && console.error(`--> [CacheManager.worker]: Fetch failed and no cache available: ${event.request.url}`);
@@ -216,39 +191,6 @@ self.addEventListener('fetch', (event) => {
 });
 
 /**
- * Tạo Request mới từ cache key
- */
-function getCacheRequest(request, ignoreParam = false) {
-	const cacheKey = createCacheKey(request, ignoreParam);
-
-	// Lấy các trường hợp an toàn để clone
-	const safeInit = {
-		method: request.method,
-		headers: request.headers,
-		credentials: request.credentials,
-		cache: request.cache,
-		redirect: request.redirect,
-		referrer: request.referrer,
-		referrerPolicy: request.referrerPolicy,
-		integrity: request.integrity,
-		// KHÔNG được set mode nếu là 'navigate'
-		// mode: request.mode, ← bỏ dòng này!
-	};
-
-	return new Request(cacheKey, safeInit);
-}
-
-/**
- * Tạo cache key phù hợp cho request
- * @param {Request} request
- * @param {boolean} ignoreParam
- */
-function createCacheKey(request, ignoreParam = false) {
-	const url = new URL(request.url);
-	return ignoreParam ? `${url.origin}${url.pathname}` : url.href;
-}
-
-/**
  * Cập nhật cache trong nền khi cache đã cũ
  * @param {Request} request
  * @param {Cache} cache
@@ -256,13 +198,12 @@ function createCacheKey(request, ignoreParam = false) {
 async function updateCacheInBackground(request, cache) {
 	try {
 		const networkResponse = await fetch(request);
-		if (!networkResponse.ok && networkResponse.type !== 'opaque')
-			throw new Error('--> [CacheManager.worker]: Network response not ok');
+		if (!networkResponse.ok) throw new Error('--> [CacheManager.worker]: Network response not ok');
 
 		await cache.put(request, networkResponse.clone());
 		await saveCacheMetadata(cache, request);
 		LOG && console.log(`--> [CacheManager.worker]: Cache updated for ${request.url}`);
 	} catch (error) {
-		LOG && console.warn(`--> [CacheManager.worker]: Background update failed for ${request.url}`, error);
+		LOG && console.warn(`--> [CacheManager.worker]: Background update failed for ${request.url}`);
 	}
 }
