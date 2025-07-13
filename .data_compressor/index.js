@@ -115,8 +115,10 @@ function processURLs(data, columnIndexList, fileName) {
 					// console.log("Line có URL rỗng", line);
 					return;
 				}
-				const decodedPrefix = decodeURIComponent(cleanURL.substring(0, cleanURL.lastIndexOf('/') + 1));
-				const decodedFileName = decodeURIComponent(cleanURL.substring(cleanURL.lastIndexOf('/') + 1));
+				// const decodedPrefix = decodeURIComponent(cleanURL.substring(0, cleanURL.lastIndexOf('/') + 1));
+				// const decodedFileName = decodeURIComponent(cleanURL.substring(cleanURL.lastIndexOf('/') + 1));
+				const decodedPrefix = (cleanURL.substring(0, cleanURL.lastIndexOf('/') + 1));
+				const decodedFileName = (cleanURL.substring(cleanURL.lastIndexOf('/') + 1));
 				if (!prefixMap.has(decodedPrefix)) {
 					prefixMap.set(decodedPrefix, prefixMap.size + 1);
 				}

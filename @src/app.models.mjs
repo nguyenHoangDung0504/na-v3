@@ -63,14 +63,10 @@ export class Resource {
 	constructor(prefixID, name) {
 		this.prefixID = Number(prefixID);
 		this.rawName = name;
-
-		/** @private */
-		this._encoded = null; // hoặc undefined
 	}
 
 	get name() {
-		if (this._encoded === null) this._encoded = encodeURI(this.rawName);
-		return this._encoded;
+		return this.rawName;
 	}
 }
 

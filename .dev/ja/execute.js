@@ -158,6 +158,7 @@ function getConstKeys() {
 		['Pubic Hair/Armpit Hair', 'Hairy'],
 		['Burping', 'Burping,Fetish'],
 		['Vomit', 'Vomit,Fetish'],
+		['Oho voice', 'Oho Voice'],
 	]);
 
 	const CV_KEYS = new Map([

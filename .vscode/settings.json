@@ -3,5 +3,4 @@
         "exported-data.js": "plaintext"
     },
     "files.autoSave": "onFocusChange",
-    "editor.formatOnSave": true,
 }

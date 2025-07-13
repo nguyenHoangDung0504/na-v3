@@ -1,0 +1,52 @@
+- Content_Des
+	Hai đứa em gái của bạn không ưa bạn - thằng anh trai NEET.
+	Một ngày nọ, chúng bị thu hút bởi mùi hương hôi hám bốc ra từ phòng bạn và bắt đầu hít hà.
+	Mặc dù chúng nguyền rủa bạn vì mùi kinh tởm đó nhưng vì lý do nào đó chúng không thể ngừng hít hà, và ngày càng phấn khích mãnh liệt hơn...
+
+- Character_Des
+	str:Mikoto (Chị gái của Mio và là em gái của bạn)
+	-Tsundere
+	-"Em thực sự rất ghét anh"
+	-Em ấy đặc biệt thích ngửi con cặc đầy chất bẩn
+br:
+	str:Mio (Em gái của Mikoto và bạn)
+	-Lười biếng và không thích phiền phức
+	-"Không hiểu sao ông anh trai ngốc này lại kinh tởm đến thế"
+	-Em ấy đặc biệt thích ngửi những "quả bóng" lông
+	
+- Track_Des
+	◎1. Không thể ngừng ngửi mùi cơ thể hôi hám & thủ dâm hai lần (17:19)
+	Nội dung phát: ngửi mùi cơ thể khi thủ dâm, ngửi khăn giấy đã xuất tinh, từ chối ngửi bằng miệng, sỉ nhục thằng anh NEET luộm thuộm, ngửi qua quần, thủ dâm khi ngửi, sỉ nhục dương vật cương cứng co giật & sờ mó, lên đỉnh bằng thủ dâm
+hr:
+	◎2. Không thể ngừng ngửi mùi dương vật hôi hám & thủ dâm hai lần (38:18)
+	Nội dung phát: ngửi trực tiếp dương vật, ngửi lông dương vật, lột da dương vật, ngửi bựa dương vật, ngửi lông tinh hoàn, ngửi tiền tinh dịch, thủ dâm hai lần, ngửi tinh dịch dính, liếm tinh dịch
+hr:
+	◎3. Mồ hôi nhễ nhại và phấn khích, không thể ngừng hít hà & liếm cả hai tai trong lúc động dục (26:51)
+	Nội dung phát: Hít hà vô thức, tiếp xúc kép đầy mồ hôi và nóng bỏng, nụ hôn sâu đầy thèm khát và dính nhớp, liếm mặt dính đầy nước bọt, hít hà bên trong lỗ tai → liếm cả hai tai, nhân vật chính xuất tinh tự sướng
+hr:
+	◎4. Tư thế cowgirl piston hít hà không thể ngừng & xuất tinh hai lần (15:13)
+	Nội dung phát: Mất trinh ở tư thế cowgirl (Mio), cổ vũ cho lần quan hệ đầu tiên của em gái (Mikoto), hít hà sự kết nối giữa âm hộ còn trinh của em gái và con cặc hôi thối (Mikoto), xuất tinh âm đạo (Mio), xoa tinh dịch xuất tinh lên mũi và hít hà (Mio), xuất tinh âm đạo (Mikoto), sờ mó và hít hà tinh dịch (Mio)
+hr:
+	◎5. Mio muốn độc chiếm mùi hôi thối của anh trai (20:14)
+	Nội dung phát: hít hà mùi hôi thối trong chăn, hít hà trong khi lén lút đưa dương vật vào, thì thầm những nụ hôn và liếm tai trong khi ngửi mùi nồng nặc, đẩy và đẩy piston trong khi cố gắng kìm nén âm thanh, bóp chặt âm hộ, xuất tinh vào âm đạo, hít hà trong khi hít hà sát và ngủ thiếp đi
+hr:
+	◎6. Mikoto cũng muốn độc chiếm mùi hôi thối của anh trai (18:42)
+	Nội dung phát: bú cặc sau khi thức dậy (Mikoto), hít hà mùi hôi thối đầu tiên vào buổi sáng và nôn mửa (Mikoto), xuất tinh trong miệng và nuốt (Mikoto), ai tìm thấy chỗ hôi thối nhất sẽ thắng! Trận chiến mùi hôi thối, hít hà hậu môn, lên đỉnh không dùng tay chỉ bằng cách hít hà.
+hr:
+	◎7. Lý trí hoàn toàn sụp đổ, cực khoái hít hà đau đớn không thể dừng lại (15:12)
+	Nội dung phát: Mùi cơ thể chuyển sang mùi hôi thối, mùi hôi thối đau đớn, cực khoái hôi thối & xuất tinh liên tục, hít hà → liếm toàn thân, tư thế truyền thống (Mikoto), xuất tinh âm đạo (Mikoto), thủ dâm hít hà, tư thế truyền thống (Mio), xuất tinh âm đạo (Mio)
+hr:
+hr:
+	str:Bonus
+	3. Giọng báo thức ♡ Mikoto ver
+	4. Giọng báo thức ♡ Mio ver
+	5. Vòng lặp hít hà và nói thích ver A
+	6. Vòng lặp hít hà và nói thích ver B
+	7. Vòng lặp ngửi mùi hôi ♡ Mikoto ver
+	8. Vòng lặp ngửi mùi hôi ♡ Mio ver
+	9. Vòng lặp ngửi mùi hôi ♡ cả hai cùng lúc
+	10. Vòng lặp liếm tai ♡ Mikoto ver
+	11. Vòng lặp liếm tai ♡ Mio ver
+	12. Vòng lặp liếm tai ♡ cả hai cùng lúc
+	13. Vòng lặp thủ dâm
+	14. Freetalk

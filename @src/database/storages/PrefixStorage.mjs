@@ -12,12 +12,6 @@ export default class PrefixStorage {
 	_pending;
 
 	/**
-	 * @private
-	 * @type {Map<number, string>}
-	 */
-	_encoded = new Map();
-
-	/**
 	 * @param {string} resourcePath
 	 */
 	constructor(resourcePath) {
@@ -46,10 +40,7 @@ export default class PrefixStorage {
 	 */
 	async get(id) {
 		await this._pending;
-		if (!this._encoded.has(id)) {
-			this._encoded.set(id, encodeURI(this._registry.get(id)));
-		}
-		return this._encoded.get(id);
+		return this._registry.get(id);
 	}
 
 	/**
