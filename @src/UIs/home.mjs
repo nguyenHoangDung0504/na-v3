@@ -18,7 +18,8 @@ export async function init(database) {
 	const UI = bindUI();
 	const renderers = initRenderers(database, UI);
 	await initViews(database, UI, renderers);
-	await initFeatures(database, UI, renderers);
+
+	// Clear default hidden state
 	UI.homeView.gridContainer.style.opacity = null;
 }
 
@@ -33,13 +34,6 @@ async function initViews(database, UIbindings, renderers) {
 	await initGridView(rs, database, renderers);
 	initPaginationView(rs, UIbindings);
 }
-
-/**
- * @param {Database} database
- * @param {ReturnType<typeof bindUI>} UIbindings
- * @param {ReturnType<typeof initRenderers>} renderers
- */
-async function initFeatures(database, UIbindings, renderers) {}
 
 /**
  * @param {Database} db
@@ -140,22 +134,18 @@ async function initSearchRSView(vars, UIbindings, db) {
 		messageBox.innerHTML += `<br>Search result for series: ${html}`;
 	}
 	if (cvFilter.length) {
-		html = (await db.CVs.getAll(cvFilter)).map(
-			(cv) => `<span class="cv">${cv.name} (${cv.quantity})</span>`
-		);
+		html = (await db.CVs.getAll(cvFilter)).map((cv) => `<span class="cv">${cv.name} (${cv.quantity})</span>`);
 		messageBox.innerHTML += `<br>Search result for CVs: ${html}`;
 	}
 	if (tagFilter.length) {
-		html = (await db.tags.getAll(tagFilter)).map(
-			(tag) => `<span class="tag">${tag.name} (${tag.quantity})</span>`
-		);
+		html = (await db.tags.getAll(tagFilter)).map((tag) => `<span class="tag">${tag.name} (${tag.quantity})</span>`);
 		messageBox.innerHTML += `<br>Search result for tags: ${html}`;
 	}
 	if (searchP) {
 		const resultCount = IDs.length;
-		messageBox.innerHTML += `<br>Search result for keyword${
-			resultCount > 0 ? 's' : ''
-		}: <b><i>${searchP.map((value) => `"${value}"`).join(', ')}</i></b> (${resultCount})`;
+		messageBox.innerHTML += `<br>Search result for keyword${resultCount > 0 ? 's' : ''}: <b><i>${searchP
+			.map((value) => `"${value}"`)
+			.join(', ')}</i></b> (${resultCount})`;
 	}
 	if (IDs.length === 0) {
 		messageBox.innerHTML += `<br>There weren't any results found&ensp;&ensp; <a style="padding-inline: 20px;" href="javascript:void(0)" class="series" onclick="window.history.back()">Back</a>`;

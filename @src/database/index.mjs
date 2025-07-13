@@ -47,9 +47,7 @@ class Database {
 		const keyResults = new Set();
 
 		// Track kết quả tạm với vị trí index ban đầu
-		const trackPromises = IDs.map((id, index) =>
-			this.tracks.get(id).then((track) => ({ id, track, index }))
-		);
+		const trackPromises = IDs.map((id, index) => this.tracks.get(id).then((track) => ({ id, track, index })));
 
 		const results = await Promise.all(trackPromises);
 
@@ -228,10 +226,6 @@ class Database {
 	}
 }
 
-decoratorManager.applyFor(
-	Database,
-	['searchTracksByCategory', 'searchTracks', 'getSearchSuggestions'],
-	['memoize']
-);
+decoratorManager.applyFor(Database, ['searchTracksByCategory', 'searchTracks', 'getSearchSuggestions'], ['memoize']);
 
 export const database = new Database();

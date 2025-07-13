@@ -47,9 +47,7 @@ async function initView(db, UIbindings) {
 		if (seen.has(iov)) return;
 		seen.add(iov);
 		contentContainer.appendChild(
-			iov.includes('.mp4')
-				? new VideoPlayer(iov)
-				: new ImageDisplayer(iov, () => fullscreenBtn.click())
+			iov.includes('.mp4') ? new VideoPlayer(iov) : new ImageDisplayer(iov, () => fullscreenBtn.click())
 		);
 	});
 
@@ -122,11 +120,7 @@ function initFeatures(UIbindings) {
 	});
 
 	fullscreenBtn.addEventListener('click', () => {
-		if (
-			document.fullscreenElement ||
-			document.webkitFullscreenElement ||
-			document.msFullscreenElement
-		) {
+		if (document.fullscreenElement || document.webkitFullscreenElement || document.msFullscreenElement) {
 			if (fullscreenIcon.classList.contains('fa-compress')) {
 				fullscreenIcon.classList.remove('fa-compress');
 				fullscreenIcon.classList.add('fa-expand');

@@ -69,9 +69,7 @@ export const array = {
 
 export const device = {
 	isMobile() {
-		return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
-			navigator.userAgent
-		);
+		return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
 	},
 };
 
@@ -82,15 +80,8 @@ export const fullscreen = {
 	},
 
 	deactivate() {
-		if (
-			!document.fullscreenElement &&
-			!document.webkitFullscreenElement &&
-			!document.msFullscreenElement
-		)
-			return;
-		document.exitFullscreen?.() ||
-			document.webkitExitFullscreen?.() ||
-			document.msExitFullscreen?.();
+		if (!document.fullscreenElement && !document.webkitFullscreenElement && !document.msFullscreenElement) return;
+		document.exitFullscreen?.() || document.webkitExitFullscreen?.() || document.msExitFullscreen?.();
 	},
 
 	toggle() {

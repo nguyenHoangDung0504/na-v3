@@ -174,10 +174,7 @@ class ZoomableContainer extends HTMLElement {
 
 			const newDistance = this.getDistanceBetweenTouches(e.touches);
 			const scaleChange = newDistance / this.initialDistance; // Tính toán tỉ lệ zoom
-			const newScale = Math.min(
-				Math.max(this.initialScale * scaleChange, this.minScale),
-				this.maxScale
-			);
+			const newScale = Math.min(Math.max(this.initialScale * scaleChange, this.minScale), this.maxScale);
 
 			// Tính toán lại trung điểm giữa hai ngón tay
 			const rect = this.getBoundingClientRect();
@@ -224,10 +221,7 @@ class ZoomableContainer extends HTMLElement {
 	 * @returns {number}
 	 */
 	getDistanceBetweenTouches(touches) {
-		return Math.hypot(
-			touches[0].clientX - touches[1].clientX,
-			touches[0].clientY - touches[1].clientY
-		);
+		return Math.hypot(touches[0].clientX - touches[1].clientX, touches[0].clientY - touches[1].clientY);
 	}
 
 	/**
@@ -254,5 +248,4 @@ class ZoomableContainer extends HTMLElement {
 }
 
 // Định nghĩa Element nếu chưa tồn tại
-!customElements.get(ZoomableContainer.TAG_NAME) &&
-	customElements.define(ZoomableContainer.TAG_NAME, ZoomableContainer);
+!customElements.get(ZoomableContainer.TAG_NAME) && customElements.define(ZoomableContainer.TAG_NAME, ZoomableContainer);

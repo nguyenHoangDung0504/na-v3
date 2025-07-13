@@ -21,7 +21,7 @@ class SwipeHandler {
 		this.isSelectingText = false;
 		document.addEventListener('selectionchange', this.handleSelectionChange.bind(this));
 	}
-	
+
 	registerEvents() {
 		this.element.addEventListener('mousedown', this.handleMouseDown.bind(this));
 		this.element.addEventListener('mouseup', this.handleMouseUp.bind(this));
@@ -110,10 +110,7 @@ class VideoPlayer {
 		this.timeIndicator = this.vidContainer.querySelector('.time-indicator');
 		this.vidContainer.appendChild(this.video);
 
-		this.video.addEventListener(
-			'click',
-			(e) => this.vidContainer.scale !== 1 && e.preventDefault()
-		);
+		this.video.addEventListener('click', (e) => this.vidContainer.scale !== 1 && e.preventDefault());
 		this.video.addEventListener('dblclick', (e) => e.preventDefault());
 
 		this.vidContainer.addEventListener('mousedown', () => {

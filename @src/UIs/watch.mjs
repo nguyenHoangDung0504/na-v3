@@ -39,8 +39,7 @@ function initFeatures(UIbindings) {
 function initCloseMenuFeature(UIbindings) {
 	const { watchView } = UIbindings;
 	watchView._root.addEventListener('click', (ev) => {
-		if (watchView._isBoundTo(ev.target, 'closeMenuLayer'))
-			document.documentElement.classList.remove('openMenu');
+		if (watchView._isBoundTo(ev.target, 'closeMenuLayer')) document.documentElement.classList.remove('openMenu');
 	});
 }
 

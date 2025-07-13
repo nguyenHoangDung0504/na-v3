@@ -73,7 +73,7 @@ function getMatchingRule(inputUrl) {
 	const { origin, pathname, href } = url;
 
 	if (origin.startsWith('chrome-extension:')) return null;
-	
+
 	for (const rule of cacheTargets) {
 		const { pattern, ignoreParam } = rule;
 		const urlToCompare = ignoreParam ? `${origin}${pathname}` : href;
@@ -177,7 +177,7 @@ self.addEventListener('fetch', (event) => {
 
 	const requestUrl = new URL(event.request.url);
 	const matchingRule = getMatchingRule(requestUrl);
-	
+
 	if (!matchingRule) return;
 
 	const cacheRequest = getCacheRequest(event.request, matchingRule.ignoreParam);

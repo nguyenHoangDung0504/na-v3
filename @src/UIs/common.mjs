@@ -75,13 +75,11 @@ function initMenuFeatures(UIbindings) {
 		isHome: () => ['/', '/index.html'].includes(location.pathname),
 		open: () => {
 			if (!menuController.isOpen()) document.documentElement.classList.add('openMenu');
-			if (menuController.isHome() && !device.isMobile())
-				localStorage.setItem('menu-state', 'opened');
+			if (menuController.isHome() && !device.isMobile()) localStorage.setItem('menu-state', 'opened');
 		},
 		close: () => {
 			if (menuController.isOpen()) document.documentElement.classList.remove('openMenu');
-			if (menuController.isHome() && !device.isMobile())
-				localStorage.setItem('menu-state', 'closed');
+			if (menuController.isHome() && !device.isMobile()) localStorage.setItem('menu-state', 'closed');
 		},
 		toggle: () => (menuController.isOpen() ? menuController.close() : menuController.open()),
 	};
@@ -94,11 +92,7 @@ function initMenuFeatures(UIbindings) {
 
 	if (device.isMobile())
 		import('../app.materials.mjs').then((module) => {
-			new module.SwipeHandler(
-				document.body,
-				menuController.open,
-				menuController.close
-			).registerEvents();
+			new module.SwipeHandler(document.body, menuController.open, menuController.close).registerEvents();
 		});
 }
 
@@ -141,17 +135,13 @@ function initHeaderFeatures(UIbindings, db, renderers) {
 			}
 
 			// Chạy song song tất cả các tìm kiếm
-			const suggestionsArray = await Promise.all(
-				keywordList.map((keyword) => db.getSearchSuggestions(keyword))
-			);
+			const suggestionsArray = await Promise.all(keywordList.map((keyword) => db.getSearchSuggestions(keyword)));
 
 			// Gộp tất cả các mảng kết quả lại (vì mỗi cái trả về một mảng)
 			const suggestions = suggestionsArray.flat();
 
 			// Cập nhật ListView với dữ liệu đã lọc và sắp xếp
-			searchResultLV.setDataCollection(
-				array.deduplicateObjects(suggestions, 'code').sort(sort.bySuggestionRelevance)
-			);
+			searchResultLV.setDataCollection(array.deduplicateObjects(suggestions, 'code').sort(sort.bySuggestionRelevance));
 
 			showResultBox();
 		} else {
@@ -164,9 +154,7 @@ function initHeaderFeatures(UIbindings, db, renderers) {
 	searchInput.addEventListener('blur', hideResultBox);
 	searchInput.addEventListener('click', showResultBox);
 	searchInput.addEventListener('focus', () => window.addEventListener('keyup', enterPressHandler));
-	searchInput.addEventListener('blur', () =>
-		window.removeEventListener('keyup', enterPressHandler)
-	);
+	searchInput.addEventListener('blur', () => window.removeEventListener('keyup', enterPressHandler));
 	searchBtn.addEventListener('click', search);
 
 	function developerSearch(value) {
@@ -187,9 +175,7 @@ function initHeaderFeatures(UIbindings, db, renderers) {
 		const option = options.indexOf(optionAfterSplit[0].replaceAll('@', ''));
 		if (option != -1) {
 			active = true;
-			optionAfterSplit[1] == 'b'
-				? window.open(links[option], '_blank')
-				: (window.location = links[option]);
+			optionAfterSplit[1] == 'b' ? window.open(links[option], '_blank') : (window.location = links[option]);
 		}
 		return active;
 	}
@@ -201,14 +187,7 @@ function initHeaderFeatures(UIbindings, db, renderers) {
  */
 async function initCategoriesView(UIbindings, db) {
 	const {
-		categoriesView: {
-			rankListCvCtn,
-			rankListTagCtn,
-			rankListSeriesCtn,
-			listCvCtn,
-			listTagCtn,
-			listSeriesCtn,
-		},
+		categoriesView: { rankListCvCtn, rankListTagCtn, rankListSeriesCtn, listCvCtn, listTagCtn, listSeriesCtn },
 	} = UIbindings;
 
 	const maps = [db.CVs, db.tags, db.series];
@@ -265,6 +244,7 @@ function initCategoriesFeatures(UIbindings) {
 
 		if (!device.isMobile()) setTimeout(() => accordion.dispatchEvent(new Event('click')), 200);
 	});
+
 	subRankList.forEach((subRankBox) => {
 		const searchBox = subRankBox.querySelector('input.search');
 		const sortTypeSelect = subRankBox.querySelector('select');
@@ -287,9 +267,7 @@ function initCategoriesFeatures(UIbindings) {
 						link.style.display = 'none';
 					});
 					const sortedListOfLinks = Array.from(listOfLinks).sort(
-						(a, b) =>
-							a.textContent.toLowerCase().indexOf(keyword) -
-							b.textContent.toLowerCase().indexOf(keyword)
+						(a, b) => a.textContent.toLowerCase().indexOf(keyword) - b.textContent.toLowerCase().indexOf(keyword)
 					);
 					sortedListOfLinks.forEach((link) => linkContainer.appendChild(link));
 					return;
@@ -302,15 +280,14 @@ function initCategoriesFeatures(UIbindings) {
 				sortTypeSelect.dispatchEvent(new Event('input'));
 			}, debounceTime)
 		);
+
 		sortTypeSelect.addEventListener('input', () => {
 			let sortedListOfLinks = null;
 			const value = sortTypeSelect.value.toLowerCase();
 
 			switch (value) {
 				case 'name':
-					sortedListOfLinks = Array.from(listOfLinks).sort((a, b) =>
-						a.textContent.localeCompare(b.textContent)
-					);
+					sortedListOfLinks = Array.from(listOfLinks).sort((a, b) => a.textContent.localeCompare(b.textContent));
 					break;
 				case 'quantity':
 				case 'id':
@@ -432,16 +409,12 @@ function initGachaFeatures(UIbindings, db, renderers) {
 						opacity: 1,
 					},
 					{
-						transform: `translate(${xTranslate}px, ${
-							yTranslate + Math.abs(yTranslate / 2)
-						}px) rotate(${270}deg)`,
+						transform: `translate(${xTranslate}px, ${yTranslate + Math.abs(yTranslate / 2)}px) rotate(${270}deg)`,
 						filter: 'brightness(1.0)',
 						opacity: 1,
 					},
 					{
-						transform: `translate(${xTranslate}px, ${
-							yTranslate + Math.abs(yTranslate)
-						}px) rotate(${360}deg)`,
+						transform: `translate(${xTranslate}px, ${yTranslate + Math.abs(yTranslate)}px) rotate(${360}deg)`,
 						opacity: 0,
 					},
 				],
@@ -489,18 +462,14 @@ function initRenderers(db, UIbindings) {
 	} = UIbindings;
 
 	/**@type {ListView<SearchSuggestion<"code" | "RJcode" | "cv" | "tag" | "series" | "eName" | "jName">>} */
-	const searchResultLV = new ListView(
-		SearchSuggestion,
-		resultBox,
-		(/**@type {HTMLAnchorElement}*/ template, data) => {
-			const binding = suggestionsViewBinding.bind(template);
-			binding._root.href = ['cv', 'tag', 'series'].includes(data.type)
-				? `/?${data.type}=${data.code.split('-').pop()}`
-				: `/watch/?code=${data.code}`;
-			binding.type.textContent = data.displayType;
-			binding.value.innerHTML = highlight.apply(data.value, data.keyword);
-		}
-	);
+	const searchResultLV = new ListView(SearchSuggestion, resultBox, (/**@type {HTMLAnchorElement}*/ template, data) => {
+		const binding = suggestionsViewBinding.bind(template);
+		binding._root.href = ['cv', 'tag', 'series'].includes(data.type)
+			? `/?${data.type}=${data.code.split('-').pop()}`
+			: `/watch/?code=${data.code}`;
+		binding.type.textContent = data.displayType;
+		binding.value.innerHTML = highlight.apply(data.value, data.keyword);
+	});
 
 	const gachaResultLV = new ListView(Track, gridGachaModal, async (template, data) => {
 		const binding = gachaRsItem.bind(template);
@@ -576,9 +545,7 @@ function enableHiddenInfoOnHover(db, selector, timeOut = 400) {
 
 		binding['list-cv'].parentElement.style.display = !track.category.cvIDs.length ? 'none' : null;
 		binding['list-tag'].parentElement.style.display = !track.category.tagIDs.length ? 'none' : null;
-		binding['list-series'].parentElement.style.display = !track.category.seriesIDs.length
-			? 'none'
-			: null;
+		binding['list-series'].parentElement.style.display = !track.category.seriesIDs.length ? 'none' : null;
 
 		binding.img.loading = 'lazy';
 		binding.img.alt = ` - Thumbnail:${track.info.code}`;
