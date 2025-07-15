@@ -1,0 +1,154 @@
+- Content_Des
+	Nơi này là...
+	Suối nước nóng và rượu sake là những sản vật nổi tiếng...
+	「Ngôi làng rượu sake sữa trắng」...
+	Hàng ngày, rất nhiều thợ săn và lữ khách tụ tập...
+	Đây là một ngôi làng Nhật Bản quyến rũ...♪
+	Tuy nhiên...
+	Một ngày nọ...
+	Đột nhiên...
+	Gần ngôi làng này...
+	Ác thần [Yarimata no Orochi] đã ngự trị...
+	Nếu không muốn nó tấn công ngôi làng...
+	Trước hết...
+	Cháu gái của trưởng làng, hai chị em gái song sinh...
+	Ông ra lệnh cho họ dâng "Amate" và "Susano" làm vật tế...
+	...Trong nỗi đau buồn của dân làng...
+	Ông quyết định hiến thân làm vật tế cho ngôi làng. Những người chị em tốt bụng...
+	...Vào lúc đó... tình cờ... một thợ săn lão luyện... ghé qua ngôi làng này... và đã thành công đánh bại tà thần...♪
+	...Sau đó...
+	Hai chị em...
+	đến với bạn... vị cứu tinh của họ...
+	...sự hiếu khách tột bậc" được truyền lại trong ngôi làng này...♪
+	"Dịch vụ cho con bú trong bồn tắm sinh con"...
+	...bắt đầu...với dòng sữa mẹ nhỏ giọt...♪
+	Hai nữ tu sĩ song sinh xinh đẹp...sẽ một mình dẫn dắt bạn...đến thiên đường...
+	...Bí mật "Kozukuri" của làng rượu sake sữa trắng...sắp bắt đầu...♪
+
+- Character_Des
+	◆【Cặp nữ tu sĩ song sinh, Chị gái Amate no Kagura】◆　H-cup♪
+	CV: Yuka Hinata
+br:
+	"Lữ khách♪ Cảm ơn anh rất nhiều vì đã tiêu diệt [Yarimata no Orochi] trước đó...♪"
+	-Chị gái của cặp song sinh ngực khủng làm việc như những nữ thần ở "Làng Rượu Sữa Trắng", nổi tiếng với suối nước nóng và rượu sake...♪
+	-Cô ấy dịu dàng và điềm tĩnh... và là kiểu chị gái tốt bụng... nên cô ấy cực kỳ được lòng mọi người trong làng...♪
+	-Cô ấy đã định hiến tế bản thân cho vị thần tà ác đáng sợ đang cư ngụ gần ngôi làng này trong tương lai gần...
+	-Nhưng lần này, cô ấy đã yêu say đắm bạn, người đã cứu ngôi làng, và đang dâng hiến cơ thể đầy đặn của mình cho bạn, cầu xin được đã thụ thai...♪
+br:
+	(Trinh nữ♪)
+	(Có cả cảnh phun sữa mẹ♪)
+hr:
+	◆【Cặp nữ tu sĩ song sinh, em gái Susanoo no Kagura】◆ Cúp H♪
+	CV: Tsubame Yuzuki
+br:
+	"Nhờ có anh, ngôi làng đã được cứu. Anh là anh hùng của ngôi làng này."
+	-Tương tự như vậy... cô em gái sinh đôi ngực khủng làm việc như những vu nữ trong "Ngôi làng rượu sữa trắng" này...♪
+	-Tuy cô ấy điềm tĩnh và nhút nhát, nhưng cô ấy cũng là chuyên gia rượu sake giỏi nhất làng...♪
+	-Giống như chị gái mình... hai chị em đã định hiến tế bản thân cho ác thần, nhưng...
+	-Giống như chị gái mình... cô ấy đã yêu say đắm bạn, người đã cứu làng, và đang dâng hiến cơ thể đầy đặn của mình cho bạn, cầu xin được thụ thai...♪
+br:
+	(Trinh nữ♪)
+	(Có cả cảnh phun sữa mẹ♪)
+	
+- Track_Des
+	str:Tóm tắt:
+	1_Làng Rượu Trắng (Mở đầu) (02:47)
+	2_Hân Hoan (Liếm Tai, Liếm Núm Vú) (18:06)
+	3_Cấp 3 (Hút Vú, Nuốt, Thèm Sâu) (18:07)
+	4_Cấp 3 (Ôm ấp, Thủ Dâm Cho Con Bú) (19:06)
+	5_Cấp 3 (Nữ Cao Bồi, Cho Con Bú) (23:47)
+	6_Cấp 3 (Quan Hệ Tình Dục Đứng, Phun Sữa, Cho Con Bú) (14:44)
+	7_Cấp 3 (Quan Hệ Tình Dục Hậu Môn Đứng, Rimjob) (18:36)
+	8_Cấp 2 (Nữ Cao Bồi Nhện, Cho Con Bú) (17:43)
+	9_Cấp 2 (Quan Hệ Tình Dục Mặt Đối Mặt, Truyền Giáo) (16:25)
+	10_Cấp 2 (Susano_Love-Hold, Preg Press) (16:56)
+	11_Tier 1 (Quan hệ tình dục mặt đối mặt, Hôn, Liếm tai) (19:26)
+	12_Tier 1 (Love-Hold, Pussy Sandwich) (24:11)
+	13_Tier 1 (Lời kết, Tư thế cowgirl bụng, Cho con bú) (11:43)
+hr:
+hr:
+	◆　Track 1　【Harem đôi, phần 2 người】◆
+	◆　【Mở đầu, Gặp gỡ, Bài hát】　(02:50)
+br:
+	・1-1　Tại 「Ngôi làng rượu sake sữa trắng」, bạn, một thợ săn lão luyện, đã săn đuổi thành công "Ác thần Yarimata no Orochi" và sắp rời khỏi làng, nhưng hai chị em sinh đôi xinh đẹp lại nài nỉ bạn tiếp đãi...♪ "Lữ khách, xin hãy đợi! Làm ơn... hãy nói cho tôi biết thêm một chút..."...♪
+hr:
+	◆　Track 2　【Harem đôi, phần 2 người】◆
+	◆　【Ngủ cùng nhau, liếm tai, thủ dâm, thì thầm, liếm núm vú, thủ dâm, những lời âu yếm, track】　(18:06)
+br:
+	・2-1 Nhìn ra làng Shiranyuzake... Tại một suối nước nóng trên đồi... "Sự hiếu khách" của hai chị em phù thủy... Ngủ chung & liếm tai cuồng nhiệt... Thì thầm ngọt ngào cùng hơi thở thư giãn...♪
+	・2-2 Nhìn ra làng Shiranyuzake... Tại một suối nước nóng trên đồi... "Sự hiếu khách" của hai chị em phù thủy... Ngủ chung & liếm núm vú cuồng nhiệt & những lời nói thư giãn cùng hơi thở thư giãn...♪
+hr:
+	◆　Track 3　【Phun sữa mẹ♪　Cấp độ "Mận"　Harem đôi・Phần 2 người】◆
+	◆　【Bú cặc bằng vú　Xuất tinh vào miệng & nuốt　Bú cặc bằng vú BJ　nhìn chằm chằm】　(18:07)
+br:
+	・3-1　Sữa mẹ bắt đầu chảy ra... Một ngụm rượu sake đặc biệt...♪... Bởi hai chị em vu nữ ru...BJ bú vú đôi...Xuất tinh vào miệng chị gái và nuốt...♪
+	・3-2 Sữa mẹ phun ra...không ngừng...♪...BJ ngậm vú đôi...Xuất tinh vào miệng chị gái và nuốt...♪
+hr:
+	◆　Track 4　【Sữa mẹ phun ra♪　Cấp độ "Ume"　Harem đôi・Phần 2 người】◆
+	◆　【Ngủ cùng nhau　Tự sướng cho con bú　Đầu Vỗ nhẹ　nhìn chằm chằm】　(19:06)
+br:
+	・4-1　Ngực của chúng ta... hãy hôn bao nhiêu tùy thích...♪...Vắt sữa hai bên, ngủ cùng nhau, bú tay cho con bú bởi hai chị em ngực khủng...Vuốt đầu em...♪
+	・4-2　Em không thể... chơi khăm...♪... hôn núm vú... khi đang di chuyển...♪... Hai chị em ngực khủng... vắt sữa hai bên, cho con bú, bú tay, ngủ cùng nhau... vỗ nhẹ anh chàng thợ săn đáng yêu...♪
+hr:
+	◆　Track 5 [Bao gồm cả phun sữa mẹ♪ Cấp độ "Ume" Harem đôi, phần 2 người] ◆
+	◆ [Quan hệ tình dục cowgirl mất trinh, ngủ cùng nhau, chơi đùa với con bú, vuốt đầu, mất màng trinh theo dõi trực tiếp] (23:47)
+br:
+	・5-1 Lần đầu tiên của tôi... hình như là... cho ngày hôm nay...♪... Hai nữ tu sĩ - chị gái "Amate"... lần đầu tiên phá trinh tiết sữa mẹ, quan hệ tình dục kiểu cowgirl xuất tinh vào âm đạo... em gái ngủ cùng sữa mẹ, chơi đùa cho con bú & xoa đầu, bình luận trực tiếp phá vỡ màng trinh của Shiyoshi & em gái...♪
+	・5-2 Giống như chị gái tôi... Em sẽ dâng hiến "cô bé trinh nguyên" của mình cho anh...♪...W Hai nữ tu sĩ - em gái "Susano"... lần đầu tiên phá vỡ màng trinh của cô gái xuất tinh vào âm đạo... em gái ngủ cùng sữa mẹ, chơi đùa cho con bú & xoa đầu, bình luận trực tiếp phá vỡ màng trinh của em gái...♪
+hr:
+	◆　Track 6　【Có cảnh xuất tinh sữa mẹ♪　Cấp độ "Ume"　W harem/phần 2 người】◆
+	◆　【Quan hệ tình dục kiểu doggy đứng　Ôm sữa mẹ, phun sữa mẹ　Vuốt đầu & luộm thuộm　Cho con bú play　nhìn chằm chằm】　(14:44)
+br:
+	・6-1 Tôi có thể thấy quang cảnh này... tất cả là vì... bạn... đã đánh bại tên ác thần đó...♪... Nhìn ra ngôi làng xinh đẹp... Trong bồn tắm... Cô gái Mikoto đang vắt sữa, đứng kiểu chó, xuất tinh vào âm đạo... Cô gái Mikoto đang phun sữa, ôm ấp và cho con bú, vuốt ve đầu, ngoan, ngoan...♪
+	・6-2 Trong khi ngắm nhìn quê hương... Hãy cùng nhau vui vẻ nào...♪... Nhìn ra ngôi làng xinh đẹp... Trong bồn tắm... Cô gái Mikoto đang vắt sữa, đứng kiểu chó, xuất tinh vào âm đạo... Cô gái Mikoto đang phun sữa, ôm ấp và cho con bú, vuốt ve đầu, ngoan, ngoan...♪
+hr:
+	◆　Track 7　【Bao gồm xuất tinh vào âm đạo♪　Cấp độ "Ume"　Đôi Harem, 2 người chia tay】◆
+	◆　【Quan hệ hậu môn đứng, đứng, doggy, bình luận trực tiếp tốt nghiệp trinh tiết hậu môn, track】　(18:36)
+br:
+	・7-1　Chúng tôi sẽ dành tặng... lần đầu tiên sau lưng...cho em...♪...Trong bồn tắm ấm áp...trong khi ngắm nhìn khung cảnh tuyệt đẹp...Lần đầu tiên với chị Amate...vắt sữa, hậu môn trinh nguyên, quan hệ tình dục đứng quay mặt về phía sau xuất tinh...liếm hậu môn dữ dội của chị gái & bình luận trực tiếp tốt nghiệp trinh tiết hậu môn của chị gái...♪
+	・7-2　Về quê hương...những phần ngượng ngùng...dường như được phơi bày trọn vẹn...♪...Trong bồn tắm ấm áp...trong khi ngắm nhìn khung cảnh tuyệt đẹp...Lần đầu tiên với chị Susano...vắt sữa, hậu môn trinh nguyên, quan hệ tình dục đứng quay mặt về phía sau xuất tinh...liếm hậu môn dữ dội của chị gái & bình luận trực tiếp tốt nghiệp trinh tiết hậu môn của chị gái Bình luận...♪
+hr:
+	◆　Track 8　【Phun sữa mẹ♪　Cấp độ "Tre"　Hậu cung W, phần 2 người】◆
+	◆　【Cưỡng hiếp ngược kiểu nhện Piledriver, Chơi cho con bú, Vuốt đầu, Tốt, Tốt, Xe tải】　(17:43)
+br:
+	・8-1　Thứ đồ uống này... là phiên bản mạnh hơn của thứ tôi đã uống trước đó...♪... Trong phòng ngủ sang trọng của quán trọ... Vu nữ lớn tuổi vắt sữa cho bạn... Quan hệ tình dục xuất tinh ngược kiểu nhện Piledriver với sữa mẹ... Vu nữ trẻ tuổi ngủ với bạn và cho bạn rất nhiều sữa mẹ, chơi đùa và vuốt đầu...♪
+	・8-2　Chị em cùng một lúc... Xin hãy để em sinh con cho anh...♪... Trong phòng ngủ sang trọng của Quán trọ... Cô gái trẻ vắt sữa cho bạn... Cô gái chăn bò nhện, hiếp dâm ngược, xuất tinh ngược... Cô gái lớn tuổi hơn ngủ với bạn và cho bạn rất nhiều sữa Ngủ với nhiều trò chơi cho bú sữa và vuốt ve đầu...♪
+hr:
+	◆　Track 9　【Phun sữa mẹ♪　Cấp độ "Tre"　Chỉ dành cho chị em Amate・Phần solo】◆
+	◆　【Quan hệ với cô gái chăn bò mặt đối mặt　Hôn sâu　Quan hệ truyền giáo　Cầu xin được thụ thai　Cầu xin tình yêu　Tỏ tình　Theo dõi】　(16:25)
+br:
+	・9-1　Bạn có muốn đến phòng tôi không?...Hehehe...♪...Trong phòng ngủ của chị gái tôi...Với "Amate no Kagura"...Nghiêm túc Cầu xin được thụ thai & quan hệ tình dục xuất tinh kiểu cowgirl mặt đối mặt với rất nhiều sữa mẹ & nụ hôn sâu mãnh liệt & cầu xin tình yêu... Lời tỏ tình...♪
+	・9-2　Không ngừng nghỉ...Liên tục...♪...Trong phòng ngủ của chị gái tôi..."Amate no Kagura" "Te no Kagura" và... lượng sữa mẹ rất lớn, tư thế truyền giáo, quan hệ xuất tinh & hôn lưỡi mãnh liệt & cầu xin được thụ thai & thể hiện anh thích em đến nhường nào... yêu đương...♪
+hr:
+	◆　Track 10 [Bao gồm cả phun sữa mẹ♪ Cấp độ "Tre" Chỉ có Chị Susano, phần solo]◆
+	◆ [Quan hệ tình dục ôm ấp tình yêu mãnh liệt, hôn lưỡi, quan hệ tình dục ép tinh trùng, cầu xin được thụ thai, thể hiện anh thích em đến nhường nào, lời tỏ tình, track] (16:56)
+br:
+	・10-1 Chúng tôi đã chờ đợi điều này...♪... một cơ hội được ở riêng... mà không có chị gái...♪... trong Phòng ngủ của chị gái... với "Susano no Kagura"... cầu xin thụ thai nghiêm túc & lượng sữa mẹ dồi dào, ôm ấp nồng nàn, xuất tinh trong âm đạo & hôn lưỡi & em yêu anh biết bao... lời tỏ tình...♪
+	・10-2 Em... là... người... của... anh...♪... trong phòng ngủ của chị gái... với "Susanoo no Kagura"... xuất tinh trong âm đạo với lượng sữa mẹ dồi dào, xuất tinh trong âm đạo & hôn lưỡi mãnh liệt & cầu xin thụ thai & em yêu anh biết bao... giao hợp tình yêu...♪
+hr:
+	◆　Track 11　【Bao gồm cả phun sữa mẹ♪ Cấp độ "Matsu" Harem đôi, phần 2 người】◆
+	◆　【Quan hệ kiểu cowgirl mặt đối mặt, cầu xin thụ thai, hôn lưỡi, liếm tai, thì thầm yêu em biết bao, track】　(19:26)
+br:
+	・11-1　 Đúng như mong đợi... rượu sake Matsu thượng hạng...♪... ngắm nhìn khung cảnh làng quê yên bình về đêm... chị em sinh đôi và dòng sữa mẹ thượng hạng. Tư thế ngồi lên mặt, xuất tinh vào âm đạo, cầu xin được thụ thai và hôn kiểu Pháp đầy tham lam... Cô em gái ôm từ phía sau, bôi dòng sữa mẹ thượng hạng và liếm tai dữ dội, thì thầm yêu thương kèm theo những tiếng thở dài... Sữa mẹ thế nào...? ♪ Fufu♪
+	・11-2 Một nữ tu sĩ dâm đãng van xin được thụ thai, tử cung của cô ấy đã đầy... Tôi muốn lấp đầy nó bằng tinh dịch trắng tinh khiết...♪... Nhìn ra khung cảnh đêm yên bình của ngôi làng... Chị em sinh đôi và em gái đang quan hệ tình dục trong tư thế ngồi đối diện, cầu xin được thụ thai và hôn nhau kiểu Pháp đầy thèm khát... Chị gái ôm từ phía sau, bôi sữa mẹ chất lượng cao và liếm tai dữ dội và thì thầm yêu thương với rất nhiều tiếng thở dài... Sữa mẹ thế nào...? ♪ Fufu♪
+hr:
+	◆　Track 12 [Bao gồm phun sữa mẹ♪ Cấp độ "Matsu" Harem đôi, phần 2 người] ◆
+	◆ [Tình yêu lớn ôm ấp, cầu xin được thụ thai, tình dục ép hạt giống, hôn kiểu Pháp, liếm tai, thì thầm yêu đương, tình dục xếp bánh sandwich, thụ thai, xe tải] (24:11)
+br:
+	・12-1 Đây là...♪... một suối nước nóng chuyên về thụ thai và sinh con...♪... trong "Tắm sinh con"... trong suối nước nóng thiêng liêng mà chỉ gia đình trưởng làng mới được phép sử dụng... với hai nữ tu sĩ song sinh, chị gái "Amate no Kagura"... tình yêu lớn ôm ấp, xuất tinh vào trong, cầu xin được thụ thai và hôn kiểu Pháp... cô em gái ôm từ phía sau, bôi sữa mẹ lên người cô ấy, liếm tai mãnh liệt và thở dài đầy yêu thương. Thì thầm... Làm ơn... thụ thai cho tôi Chị ơi...♪
+	・12-2 Em gái yêu quý của anh... Xin hãy làm cho anh có thai...♪... Trong "Bồn Tắm Sinh Con"... Trong suối nước nóng thiêng liêng, nơi chỉ có gia đình tộc trưởng làng mới được phép... Với chị gái song sinh "Susanoo no Kagura"... Thụ tinh sữa mẹ cao cấp, xuất tinh vào âm đạo, cầu xin được thụ thai và hôn kiểu Pháp... Chị gái ôm từ phía sau, bôi sữa mẹ lên người, liếm tai dữ dội và thì thầm với rất nhiều tiếng thở dài... Xin hãy... làm cho em gái anh có thai...♪
+	・12-3 Như ý em muốn...♪... Trong "Bồn Tắm Sinh Con"... Với chị gái song sinh "Amate Susanoo"... Bánh mì kẹp bát chị gái sữa mẹ cao cấp, xuất tinh vào âm đạo, xuất tinh vào âm đạo, cầu xin được thụ thai và xen kẽ những cú piston ngẫu nhiên... Nồi thịt của chị gái Amate... xuất tinh vào âm đạo...♪
+	・12-4 Như ý em muốn...♪... Trong "Bồn Tắm Sinh Con"... Đền thờ song sinh Chị em gái "Susano Amate"... Bánh sandwich bát sữa mẹ cao cấp, bánh kem thụ tinh, quan hệ tình dục & cầu xin được thụ thai & piston xen kẽ ngẫu nhiên... nồi thịt của chị Susano... bánh kem thụ tinh...♪
+hr:
+	◆　Track 13　【Bao gồm phun sữa mẹ♪　Cấp độ "Matsu"　Hậu cung đôi, phần 2 người】◆
+	◆　【Lời bạt　Quan hệ tình dục với cô gái cao bồi bụng bầu　Nụ hôn sâu　Trò chơi cho con bú　Vuốt đầu　nói Em yêu anh　Theo dõi】　(11:43)
+br:
+	・13-1 Với "Người vợ yêu dấu, cô gái cao bồi Amate"... Bụng bự, quan hệ tình dục với cô gái cao bồi sữa mẹ cao cấp & nụ hôn kiểu Pháp & Em yêu anh... Gối đùi của chị gái tôi, Trò chơi cho con bú sữa mẹ đỉnh cao & những cái xoa đầu & Em yêu anh...♪
+	・13-2 Với "Nữ thần Susano của Đền thờ Người vợ yêu dấu"... Bụng bự, cảnh sex xuất tinh vào lồn của một cô gái chăn bò sữa đỉnh cao & những nụ hôn kiểu Pháp & Em yêu anh... Gối đùi của chị gái, trò chơi cho con bú sữa mẹ đỉnh cao & những cái xoa đầu & Em yêu anh...♪
+	・13-3 Anh là... anh hùng của làng... ân nhân của... tương lai... của chúng ta... và... "người chồng" yêu quý... của chúng ta...♪
+hr:
+	◆Bộ quà tặng đặt sớm♪ (28:02)
+	1-1 Lời mở đầu [Đến một thế giới khác... Một anh hùng đã được triệu hồi... Bạn... Theo dõi]
+	2-1 Carol Part [Bản nhạc Titty Cumshot & Titty Fuck & Cumshot in Mouth]
+	3-1 Sonia Part [Họng sâu & xuất tinh bằng miệng & thổi kèn & thổi kèn bằng miệng]
+	4-1 Margaret Part [Họng sâu, xuất tinh bằng miệng, paizuri bú]
