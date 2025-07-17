@@ -78,6 +78,7 @@ export class TrackResources {
 	 */
 	constructor(thumbnail, images, audios) {
 		this.thumbnail = thumbnail;
+		this.thumbnail.rawName += '?type=main';
 		this.images = images;
 		this.audios = audios;
 	}
