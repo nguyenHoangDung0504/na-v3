@@ -106,7 +106,7 @@ class VideoPlayer {
 		this.video.dataset.isPause = true;
 		this.video.dataset.timeChange = 0;
 		this.video.controls = true;
-		this.video.preload = 'auto';
+		this.video.preload = 'none';
 		this.timeIndicator = this.vidContainer.querySelector('.time-indicator');
 		this.vidContainer.appendChild(this.video);
 
@@ -292,6 +292,7 @@ class AudioController {
 		this.audContainer.classList.add('aud-ctn');
 		this.audio.controls = true;
 		this.audio.preload = 'none';
+		this.audio.crossOrigin = 'anonymous';
 		this.audio.setAttribute('referrerpolicy', 'no-referrer');
 		this.audio.innerHTML = `<source src="${src}"></source>`;
 		this.audio.dataset.isPause = true;
