@@ -32,6 +32,11 @@ async function main() {
 // @HANDLERS
 
 function format(children) {
+	// Update for leak fast audio link
+	if (children.type === 'audio' && children.streamLowQualityUrl.trim()) {
+		children.mediaStreamUrl = children.streamLowQualityUrl;
+	}
+
 	delete children.hash;
 	delete children.work;
 	delete children.mediaDownloadUrl;
@@ -50,9 +55,7 @@ async function getManifestJSON(version = 1) {
 	if (!location.href.includes('RJ')) return null;
 
 	const codePart = new URL(window.location.href).pathname.split('/').filter(Boolean).pop().slice(2);
-	const manifest = await (
-		await fetch(`https://api.asmr-200.com/api/tracks/${codePart}?v=${version}`)
-	).json();
+	const manifest = await (await fetch(`https://api.asmr-200.com/api/tracks/${codePart}?v=${version}`)).json();
 	console.log('Debug::Manifest:', manifest);
 
 	return manifest;
@@ -79,11 +82,7 @@ function initView(storage) {
 	const top = screen.width * 0.05;
 	const left = screen.height * 0.05;
 
-	const popup = window.open(
-		url,
-		'_blank',
-		`width=${width},height=${height},top=${top},left=${left}`
-	);
+	const popup = window.open(url, '_blank', `width=${width},height=${height},top=${top},left=${left}`);
 	popup.addEventListener('load', () => {
 		URL.revokeObjectURL(url);
 		initAction(popup.document, storage);
