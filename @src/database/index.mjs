@@ -2,14 +2,15 @@ import decoratorManager from '../../@libraries/decorators/index.mjs';
 import { SearchSuggestion } from '../app.models.mjs';
 import * as utils from '../app.utils.mjs';
 import CategoryStorage from './storages/CategoryStorage.mjs';
-import PrefixStorage from './storages/PrefixStorage.mjs';
+import PrefixStorage from './storages/PrefixStorage.test.mjs'; // Testing new prefix storage
 import TrackStorage from './storages/TrackStorage.mjs';
 
 class Database {
 	/**
+	 * ***Note:*** Testing new prefix storage
 	 * @param {string} resourcePath
 	 */
-	constructor(resourcePath = '/@resources/databases/s1/') {
+	constructor(resourcePath = '/@resources/databases/s1-test/') {
 		resourcePath = resourcePath.endsWith('/') ? resourcePath : resourcePath + '/';
 
 		this.CVs = new CategoryStorage('cv', resourcePath);
@@ -227,5 +228,6 @@ class Database {
 }
 
 decoratorManager.applyFor(Database, ['searchTracksByCategory', 'searchTracks', 'getSearchSuggestions'], ['memoize']);
+decoratorManager.applyFor(PrefixStorage, ['get', 'getAll'], ['memoize']);
 
 export const database = new Database();
