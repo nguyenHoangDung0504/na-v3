@@ -16,18 +16,12 @@ class DecoratorManager {
 				if (typeof decorator === 'function') {
 					return true;
 				}
-				console.warn(
-					`--> [DecoratorManager] Warning, decorator ignored:`,
-					decorator,
-					`is not a function.`
-				);
+				console.warn(`--> [DecoratorManager] Warning, decorator ignored:`, decorator, `is not a function.`);
 				return false;
 			});
 
 		if (validDecorators.length === 0) {
-			console.warn(
-				'--> [DecoratorManager] Warning, No valid decorators provided. Skipping.'
-			);
+			console.warn('--> [DecoratorManager] Warning, No valid decorators provided. Skipping.');
 			return;
 		}
 
@@ -36,9 +30,7 @@ class DecoratorManager {
 		 */
 		const methodNameList =
 			methods === '*'
-				? Object.getOwnPropertyNames(Target.prototype).filter(
-						(name) => typeof Target.prototype[name] === 'function'
-				  )
+				? Object.getOwnPropertyNames(Target.prototype).filter((name) => typeof Target.prototype[name] === 'function')
 				: methods;
 
 		// Áp dụng decorators lên danh sách method
@@ -55,22 +47,19 @@ class DecoratorManager {
 			}
 
 			// Áp dụng từng decorator, giữ nguyên decorator cũ
-			Target.prototype[methodName] = [noopDecorator, ...validDecorators].reduce(
-				(decorated, decorator) => {
-					const wrappedFunction = decorator(decorated);
+			Target.prototype[methodName] = [noopDecorator, ...validDecorators].reduce((decorated, decorator) => {
+				const wrappedFunction = decorator(decorated);
 
-					// Lưu lại tên class và method
-					const newName = originalMethod.name.split('.').includes(Target.name)
-						? originalMethod.name
-						: `${Target.name}.${originalMethod.name}`;
-					Object.defineProperty(wrappedFunction, 'name', {
-						value: newName,
-						configurable: true,
-					});
-					return wrappedFunction;
-				},
-				originalMethod
-			);
+				// Lưu lại tên class và method
+				const newName = originalMethod.name.split('.').includes(Target.name)
+					? originalMethod.name
+					: `${Target.name}.${originalMethod.name}`;
+				Object.defineProperty(wrappedFunction, 'name', {
+					value: newName,
+					configurable: true,
+				});
+				return wrappedFunction;
+			}, originalMethod);
 		});
 
 		console.log();
@@ -93,16 +82,18 @@ class DecoratorManager {
 }
 
 const decoratorManager = new DecoratorManager();
+let debug = true;
+
 export default decoratorManager;
+export function debugMode(mode) {
+	debug = mode;
+	console.log('----> [DecoratorManager] Debug mode set to:', mode);
+}
 
 export function logger(originalMethod) {
 	return function (...args) {
 		const log = (result, isAsync = false) => {
-			console.log(
-				`----> [DecoratorManager.logger] Calling ${
-					isAsync ? 'async ' : ''
-				}method:\t ${originalMethod.name}`
-			);
+			console.log(`----> [DecoratorManager.logger] Calling ${isAsync ? 'async ' : ''}method:\t ${originalMethod.name}`);
 			console.log(`----> [DecoratorManager.logger] Params:\t\t`, args);
 			console.log(`----> [DecoratorManager.logger] Result:\t\t`, result, '\n');
 			return result;
@@ -136,20 +127,14 @@ export function catchError(originalMethod) {
 
 			if (result instanceof Promise) {
 				return result.catch((error) => {
-					console.error(
-						`----> [DecoratorManager.catchError] Error when calling '${originalMethod.name}':`,
-						error
-					);
+					console.error(`----> [DecoratorManager.catchError] Error when calling '${originalMethod.name}':`, error);
 					return undefined;
 				});
 			}
 
 			return result;
 		} catch (error) {
-			console.error(
-				`----> [DecoratorManager.catchError] Error when calling '${originalMethod.name}':`,
-				error
-			);
+			console.error(`----> [DecoratorManager.catchError] Error when calling '${originalMethod.name}':`, error);
 			return undefined;
 		}
 	};
@@ -180,27 +165,29 @@ export function memoize(fn) {
 		if (typeof key === 'object' && key !== null) {
 			if (objectCache.has(key)) {
 				const rs = objectCache.get(key);
-				console.log(
-					`[Decorators.memoize] Object cache hit for [${fnName}]:`,
-					'\nParams:',
-					args,
-					'\nResult:',
-					rs,
-					'\n\n'
-				);
+				debug &&
+					console.log(
+						`----> [DecoratorManager.memoize] Object cache hit for [${fnName}]:`,
+						'\nParams:',
+						args,
+						'\nResult:',
+						rs,
+						'\n\n'
+					);
 				return rs;
 			}
 		} else {
 			if (cache.has(key)) {
 				const rs = cache.get(key);
-				console.log(
-					`[Decorators.memoize] Cache hit for [${fnName}]:`,
-					'\nParams:',
-					args,
-					'\nResult:',
-					rs,
-					'\n\n'
-				);
+				debug &&
+					console.log(
+						`----> [DecoratorManager.memoize] Cache hit for [${fnName}]:`,
+						'\nParams:',
+						args,
+						'\nResult:',
+						rs,
+						'\n\n'
+					);
 				return rs;
 			}
 		}

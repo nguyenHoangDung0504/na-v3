@@ -10,7 +10,7 @@ class Database {
 	 * ***Note:*** Testing new prefix storage
 	 * @param {string} resourcePath
 	 */
-	constructor(resourcePath = '/@resources/databases/s1-test/') {
+	constructor(resourcePath = '/@resources/databases/s1/') {
 		resourcePath = resourcePath.endsWith('/') ? resourcePath : resourcePath + '/';
 
 		this.CVs = new CategoryStorage('cv', resourcePath);

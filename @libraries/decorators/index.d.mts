@@ -30,6 +30,7 @@ declare const decoratorManager: DecoratorManager<{
 }>;
 
 export default decoratorManager;
+export function debugMode(mode: boolean): void;
 
 /**
  * Creates a debounced version of the provided function.

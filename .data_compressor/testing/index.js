@@ -5,7 +5,7 @@ import data from '../exported-data.js';
 import { convertQuotes } from '../utils.js';
 
 const DIST_PATH = (function getDist() {
-	const DIST_PATH = '@resources/databases/s1-test/';
+	const DIST_PATH = '@resources/databases/s1/';
 	if (!existsSync(DIST_PATH)) throw new Error('Directory not found! Create before run');
 	return DIST_PATH;
 })();
@@ -384,8 +384,11 @@ function applyHierarchicalCompression(data, columnIndexList, urls, level1Prefixe
 				const lastSlashIndex = cleanURL.lastIndexOf('/');
 				if (lastSlashIndex > 0) {
 					const prefix = cleanURL.substring(0, lastSlashIndex + 1);
-					const name = cleanURL.substring(lastSlashIndex + 1);
+					let name = cleanURL.substring(lastSlashIndex + 1);
 					const prefixId = prefixToIdMap.get(prefix);
+
+					// Note: update 17/8/2025, test decodeURIComponent for compress
+					name = decodeURIComponent(name);
 
 					if (prefixId) {
 						return `${prefixId}->${name}`;
@@ -395,7 +398,7 @@ function applyHierarchicalCompression(data, columnIndexList, urls, level1Prefixe
 				return cleanURL;
 			});
 
-			line[columnIndex] = `"${compressedUrls.join(',')}"`;
+			line[columnIndex] = `"${compressedUrls.join('/')}"`;
 		});
 	});
 

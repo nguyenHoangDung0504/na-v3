@@ -63,10 +63,15 @@ export class Resource {
 	constructor(prefixID, name) {
 		this.prefixID = Number(prefixID);
 		this.rawName = name;
+		this.query = '';
+		this.fullPath = undefined;
 	}
 
 	get name() {
-		return this.rawName;
+		// return this.rawName;
+
+		// Note: update 17/8/2025, test decodeURIComponent for compress
+		return this.fullPath ? this.fullPath : (this.fullPath = encodeURIComponent(this.rawName) + this.query);
 	}
 }
 
@@ -78,7 +83,7 @@ export class TrackResources {
 	 */
 	constructor(thumbnail, images, audios) {
 		this.thumbnail = thumbnail;
-		this.thumbnail.rawName += '?type=main';
+		this.thumbnail.query = '?type=main';
 		this.images = images;
 		this.audios = audios;
 	}

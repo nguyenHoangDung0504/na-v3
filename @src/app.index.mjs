@@ -1,3 +1,4 @@
+import { debugMode as decoratorDebug } from '../@libraries/decorators/index.mjs';
 import { database } from './database/index.mjs';
 
 const path = location.pathname;
@@ -17,7 +18,7 @@ database.export();
 initApp();
 
 async function initApp() {
-	debugMode(false);
+	const DEBUG_MODE = debugMode(false);
 	activateTimer();
 	await Promise.all([DOMLoaded(), ...Object.values(UIrequests).filter(Boolean)]);
 
@@ -27,6 +28,7 @@ async function initApp() {
 	if (UIrequests.player) (await UIrequests.player).init(database);
 
 	console.timeEnd('--> [App.timer]: App ready time');
+	decoratorDebug(DEBUG_MODE);
 }
 
 function activateTimer() {
@@ -48,14 +50,16 @@ async function DOMLoaded() {
 }
 
 function debugMode(on = false) {
-	if (!on) return;
+	if (!on) return on;
 
-	const originalEncodeURI = window.encodeURI;
-	window.encodeURI = (uri) => {
-		const encodedURI = originalEncodeURI(uri);
+	const originalEncodeURIComponent = window.encodeURIComponent;
+	window.encodeURIComponent = (uri) => {
+		const encodedURI = originalEncodeURIComponent(uri);
 		console.log(`--> [Debugger]: Encoded URI: ${uri} --> ${encodedURI}`);
 		return encodedURI;
 	};
+
+	return on;
 }
 
 async function loadCommonUI() {
