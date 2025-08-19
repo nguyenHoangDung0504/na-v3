@@ -4,14 +4,6 @@
 node .\@data_compressor\
 ```
 
-**_Note:_** Đang thử nghiệm thuật toán lưu URL mới, hiện tại, sử dụng:
-
-```bash
-node .\.data_compressor\testing\
-```
-
-_**Lưu ý phải chạy từ project root**: Trong mã nguồn có sử dụng đường dẫn tương đối -> chạy file trực tiếp sẽ lỗi_
-
 ## Sửa descriptions:
 
 _Với `code` là code của track_, chạy:
@@ -30,4 +22,5 @@ node .\.dev-server.js
 
 ### Lưu trữ URL prefix
 
-Hiện tại đừng cố `decodeURI` hay `decodeURIComponent` trước khi lưu trữ vì cái nào cũng có case lỗi. Sau này khi quá kém tối ưu hẵn tính
+- Hiện tại đừng cố `decodeURI` hay `decodeURIComponent` trước khi lưu trữ vì cái nào cũng có case lỗi. Sau này khi quá kém tối ưu hẵn tính
+- **_Đã fix_**, sử dụng `decodeURIComponent` khi lưu trữ và export lại khi lấy ra (Version sau 18/8/2025)

@@ -159,6 +159,7 @@ function getConstKeys() {
 		['Burping', 'Burping,Fetish'],
 		['Vomit', 'Vomit,Fetish'],
 		['Oho voice', 'Oho Voice'],
+		['Seductive', 'Seduction'],
 	]);
 
 	const CV_KEYS = new Map([
