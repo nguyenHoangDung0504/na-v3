@@ -105,9 +105,13 @@ function processTextBlock(text) {
 		.map((line) => line.replaceAll(TAB_CHARS + '-', TAB_CHARS + '・'))
 		.map((line) => line.replaceAll(TAB_CHARS_2 + '-', TAB_CHARS + '・'))
 		.map((line) => replaceTextWithElements(line).trim())
-		.map((lineHTML) =>
-			lineHTML.length ? (lineHTML.trim() === '<br>' ? lineHTML : `<div class="line">${lineHTML}</div>`) : ''
-		)
+		.map((lineHTML) => {
+			const trimmedHTML = lineHTML.trim();
+			
+			if (!trimmedHTML.length) return '';
+			if (['<br', '<div'].some((tag) => trimmedHTML.startsWith(tag))) return trimmedHTML;
+			return `<div class="line">${trimmedHTML}</div>`;
+		})
 		.join('');
 }
 
