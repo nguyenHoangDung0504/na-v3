@@ -184,3 +184,18 @@ export const pager = {
 		return IDs.slice(start, end + 1);
 	},
 };
+
+export const string = {
+	/**
+	 * @param {string} string
+	 */
+	formatQuotes(string) {
+		return (
+			string
+				// single quotes ’ and ‘ -> '
+				.replace(/[‘’‛`´]/g, "'")
+				// double quotes “ and ” -> "
+				.replace(/[“”«»„‟]/g, '"')
+		);
+	},
+};

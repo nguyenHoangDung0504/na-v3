@@ -1,4 +1,5 @@
 import { AddtionalURL, Resource, Track, TrackCategories, TrackInfo, TrackResources } from '../../app.models.mjs';
+import { string } from '../../app.utils.mjs';
 
 export default class TrackStorage {
 	/**
@@ -60,7 +61,10 @@ export default class TrackStorage {
 				  })
 				: [];
 
-			const [, RJcode, , , , eName, jName] = line;
+			let [, RJcode, , , , eName, jName] = line;
+			eName = string.formatQuotes(eName);
+			jName = string.formatQuotes(jName);
+
 			this._codeMap.set(RJcode, code);
 			this._registry.set(
 				code,

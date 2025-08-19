@@ -567,10 +567,12 @@ html:not(.openMenu)>body .content .grid-container .grid-item .flex-container .te
     /*   font-weight: 600;   */
 }
 
-:is(.text-container, #track-info) .series:before {
+:is(.text-container, #track-info, .links) .series:before {
     content: "►";
     color: var(--special-color);
     margin-right: 2px;
+    transform: scaleY(1.6);
+    display: inline-block;
 }
 
 :is(.text-container, #track-info) .series:hover {
@@ -1341,7 +1343,7 @@ a.item .highlight {
     background-color: #111;
 }
 
-.sub-rank-list a.item::before {
+.sub-rank-list a.item:not(.series):before {
     content: var(--before-content);
     font-size: .94em;
 }

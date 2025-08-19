@@ -203,11 +203,14 @@ async function initCategoriesView(UIbindings, db) {
 
 		const IDs = await map.getIDs();
 		const categoryList = (await map.getAll(IDs)).map(
-			/**@param {Category} category */ (category) => {
+			/**@param {Category<"cv" | "tag" | "series">} category */
+			(category) => {
 				const { type, id, name, quantity } = category;
+
+				// Note: if type is `series`, add class `series` for display prefix
 				return /*html*/ `<a
 					href="/?${type}=${encodeURIComponent(id)}"
-					class="item"
+					class="item${type === 'series' ? ' ' + type : ''}"
 					data-quantity="${quantity}"
 					data-id="${id}">${name}
 				</a>`;
