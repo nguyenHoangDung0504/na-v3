@@ -113,8 +113,8 @@ function crawlData() {
 	const ps = document.querySelectorAll('p');
 
 	const japName = ps[1].textContent.trim();
-	const engName = filterEngName(document.querySelector('h1.page-title').textContent.trim());
-	const rjCode = ps[3].textContent.split(': ')[1].trim();
+	const engName = escapeQuotes(filterEngName(document.querySelector('h1.page-title').textContent.trim()));
+	const rjCode = escapeQuotes(ps[3].textContent.split(': ')[1].trim());
 
 	const cvs = ps[2].textContent
 		.split(': ')[1]
@@ -126,13 +126,24 @@ function crawlData() {
 		.filter(Boolean);
 
 	return { code, rjCode, japName, engName, cvs, tags };
+}
 
-	/**@param {string} input  */
-	function filterEngName(input) {
-		let alphabeticCount = input.replace(/[^a-zA-Z]/g, '').length;
-		let percentageAlphabetic = (alphabeticCount / input.length) * 100;
-		return percentageAlphabetic > 60 ? input : 'engName';
-	}
+/**@param {string} input  */
+function filterEngName(input) {
+	let alphabeticCount = input.replace(/[^a-zA-Z]/g, '').length;
+	let percentageAlphabetic = (alphabeticCount / input.length) * 100;
+	return percentageAlphabetic > 70 ? input : 'engName';
+}
+
+/**
+ * @param {string} str
+ * @returns {string}
+ */
+function escapeQuotes(str) {
+	return str
+		.replace(/\\/g, '\\\\') // escape backslash trước
+		.replace(/"/g, '\\"') // escape double quote
+		.replace(/'/g, "\\'"); // escape single quote
 }
 
 function getConstKeys() {
