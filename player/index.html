@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media List Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="upload-area" onclick="document.getElementById('fileInput').click()">
+            <div>📁 Chọn hoặc kéo thả file media</div>
+            <small>Ảnh, Video, Audio</small>
+        </div>
+        <input type="file" id="fileInput" class="file-input" multiple accept="image/*,video/*,audio/*">
+    </div>
+
+    <div class="media-list" id="mediaList">
+        <div class="empty-state">
+            <div>Chưa có file nào</div>
+            <small>Tải lên để bắt đầu</small>
+        </div>
+    </div>
+
+    <!-- Floating Action Button -->
+    <div class="floating-tools" id="floatingTools">
+        <div class="fab-menu" id="fabMenu">
+            <div class="fab-item">
+                <div class="fab-label">Dừng tất cả</div>
+                <button class="fab-button pause" onclick="pauseAllMedia()">⏸️</button>
+            </div>
+            <div class="fab-item">
+                <div class="fab-label">Phát video</div>
+                <button class="fab-button play-video" onclick="playAllVideos()">▶️</button>
+            </div>
+            <div class="fab-item">
+                <div class="fab-label">Phát audio</div>
+                <button class="fab-button play-audio" onclick="playAllAudio()">🔊</button>
+            </div>
+            <div class="fab-item">
+                <div class="fab-label">Xóa tất cả</div>
+                <button class="fab-button clear" onclick="clearAll()">🗑️</button>
+            </div>
+        </div>
+        <button class="fab-main" id="fabMain">⚙️</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
