@@ -69,11 +69,11 @@ function formatFileSize(bytes) {
 function updateMediaList() {
 	if (mediaFiles.length === 0) {
 		mediaList.innerHTML = `
-                    <div class="empty-state">
-                        <div>Chưa có file nào</div>
-                        <small>Tải lên để bắt đầu</small>
-                    </div>
-                `;
+			<div class="empty-state">
+				<div>Chưa có file nào</div>
+				<small>Tải lên để bắt đầu</small>
+			</div>
+		`;
 		return;
 	}
 
@@ -87,11 +87,11 @@ function updateMediaList() {
 				mediaElement = `<img src="${media.url}" alt="${media.name}" loading="lazy" onclick="showImageOverlay(${media.id})">`;
 				itemClass = 'image-type';
 				overlayHtml = `
-                        <div class="image-overlay" id="overlay-${media.id}">
-                            <span class="file-name">${media.name} (${media.size})</span>
-                            <button class="remove-btn" onclick="removeMedia(${media.id})">×</button>
-                        </div>
-                    `;
+					<div class="image-overlay" id="overlay-${media.id}">
+						<span class="file-name">${media.name} (${media.size})</span>
+						<button class="remove-btn" onclick="removeMedia(${media.id})">×</button>
+					</div>
+				`;
 			} else if (media.type === 'video') {
 				mediaElement = `<video src="${media.url}" controls preload="metadata"></video>`;
 			} else if (media.type === 'audio') {
@@ -99,22 +99,22 @@ function updateMediaList() {
 			}
 
 			return `
-                    <div class="media-item ${itemClass}" data-id="${media.id}">
-                        ${mediaElement}
-                        ${overlayHtml}
-                        ${
-													media.type !== 'image'
-														? `
-                        <div class="media-info">
-                            <span class="file-name">${media.name}</span>
-                            <span>${media.size}</span>
-                            <button class="remove-btn" onclick="removeMedia(${media.id})">×</button>
-                        </div>
-                        `
-														: ''
-												}
-                    </div>
-                `;
+				<div class="media-item ${itemClass}" data-id="${media.id}">
+					${mediaElement}
+					${overlayHtml}
+					${
+						media.type !== 'image'
+							? `
+								<div class="media-info">
+									<span class="file-name">${media.name}</span>
+									<span>${media.size}</span>
+									<button class="remove-btn" onclick="removeMedia(${media.id})">×</button>
+								</div>
+							`
+							: ''
+					}
+				</div>
+			`;
 		})
 		.join('');
 }
