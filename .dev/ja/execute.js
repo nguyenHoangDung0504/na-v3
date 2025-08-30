@@ -55,7 +55,7 @@ async function execute() {
 	rsTagStr = rsTagStr.sort().join(',');
 
 	await copy(
-		`at(${rs.code}, "${rs.rjCode}", "${rsCVstr}", "${rsTagStr}", "", "${rs.engName}", "${rs.japName}", t0i0a)`
+		`_(${rs.code}, "${rs.rjCode}", "${rsCVstr}", "${rsTagStr}", "", "${rs.engName}", "${rs.japName}", t0i0a)`
 	);
 }
 

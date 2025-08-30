@@ -1,0 +1,44 @@
+- Content_Des
+	Chào mừng bạn đến với Chinatown Maid Reflexology
+	Bạn đã đến một tiệm bấm huyệt kiểu hầu gái ở Khu Phố Tàu.
+	Một cô hầu gái người Trung Quốc sẽ nhẹ nhàng chăm sóc và xoa dịu đôi tai của bạn bằng sự kết hợp giữa tiếng Trung và tiếng Nhật.
+
+	Hiệu ứng âm thanh được ghi âm đồng thời với giọng nói bất cứ khi nào có thể♪
+
+	Tất cả âm thanh được ghi âm bằng đầu giả.
+	Vui lòng nghe bằng tai nghe hoặc tai nghe nhét tai.
+
+- Character_Des
+	
+- Track_Des
+	01_Chào mừng bạn trở về, chủ nhân (1:53)
+	Bạn được chào đón trở lại tiệm bấm huyệt kiểu hầu gái ở Khu Phố Tàu bởi Xiaoling. Đây là khởi đầu cho quá trình chữa lành và làm mới của bạn.
+	<ASMR: Tiếng xào xạc>
+hr:
+	02_Giờ trà và Mát-xa tai (17:33)
+	Sau khi thư giãn với tách trà Kozuru pha, đã đến lúc mát-xa tai.
+	<ASMR: Tiếng bước chân, tiếng pha trà, mát-xa tai, nút tai>
+hr:
+	03_Làm sạch tai thư giãn (Tai phải) (29:44)
+	Đầu tiên, tai phải được làm sạch.
+	Hãy tận hưởng âm thanh của tiếng chuông trên que lấy ráy tai và tiếng làm sạch tai.
+	<ASMR: Âm thanh của gối đùi, tiếng làm sạch tai, tiếng chuông và tiếng Bonten>
+hr:
+	04_Làm sạch tai thư giãn (Tai trái) (30:49)
+	Tiếp theo, tai trái được làm sạch.
+	<ASMR: tiếng gối đặt trên đùi, tiếng ngực chạm vào mặt, tiếng ngoáy tai, tiếng chuông, tiếng chuông, tiếng chuông, tiếng khăn giấy>
+hr:
+	05_ Nuông chiều thủ dâm và cho con bú (20:50)
+	Kosuzu có bản năng làm mẹ mạnh mẽ và rất thích những chàng trai dễ thương.
+	Cô ấy nhẹ nhàng thủ dâm cho bạn trong khi bạn mút ngực cô ấy.
+	<ASMR: tiếng quần áo được kéo khóa, tiếng quần bị tụt xuống, tiếng thủ dâm, tiếng xuất tinh>
+hr:
+	06_ Liếm tai và cho con bú (37:39)
+	Cô ấy liếm tai bạn khi bạn ngủ bên cạnh, mệt mỏi như bạn.
+	Bạn hôn ngực cô ấy khi bạn đang được liếm.
+	<ASMR: tiếng liếm tai>
+hr:
+	07_ Chúc chủ nhân một ngày tốt lành (1:35)
+	Gần đến giờ tạm biệt rồi.
+	Đã đến lúc tiễn Kosuzu đi.
+	
