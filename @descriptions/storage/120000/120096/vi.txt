@@ -13,7 +13,7 @@ hr:
 			img:https://img.dlsite.jp/modpub/images2/parts/RJ01193000/RJ01192283/add881b1f8d7e9db732e3cbd3f3b9141.jpg
 		</div>
 		<div class="r">
-			[Găng tay Satin]
+			str:[Găng tay Satin]
 			Satin là một loại vải bóng, mềm mại và mịn màng, mang lại cảm giác tuyệt vời khi chạm vào. Tính chất của nó tương tự như lụa, lại có giá thành rẻ, nên được ưa chuộng cho nhiều loại trang phục.
 		</div>
 	</div>
@@ -23,7 +23,7 @@ hr:
 			img:https://img.dlsite.jp/modpub/images2/parts/RJ01193000/RJ01192283/2277bdc7a30e92dc54c6f64a9d641069.jpg
 		</div>
 		<div class="r">
-			[Găng tay ren]
+			str:[Găng tay ren]
 			Găng tay này có bề mặt vân nổi với họa tiết hoa được dệt vào, tạo cảm giác hơi nhám khi chạm vào. Găng tay này có phần trong suốt.
 		</div>
 	</div>
@@ -33,7 +33,7 @@ hr:
 			img:https://img.dlsite.jp/modpub/images2/parts/RJ01193000/RJ01192283/f78ecafa8be5330b4e6876598f2b7c1c.jpg
 		</div>
 		<div class="r">
-			[Găng tay vải tất]
+			str:[Găng tay vải tất]
 			Được làm từ cùng loại vải với tất mỏng. Chúng mỏng nhẹ và dễ chịu khi chạm vào. Độ nhám được phân loại theo thứ tự ren > tất > satin.
 		</div>
 	</div>
@@ -43,7 +43,7 @@ hr:
 			img:https://img.dlsite.jp/modpub/images2/parts/RJ01193000/RJ01192283/64fadb7bd4fa8d9ecee2d542d13931e7.jpg
 		</div>
 		<div class="r">
-			[Găng tay lụa]
+			str:[Găng tay lụa]
 			Lụa là loại vải sang trọng, bóng, mềm mại và mịn màng. Chúng cũng có khả năng thấm hút và thoát ẩm tuyệt vời, đồng thời giữ ẩm tốt.
 		</div>
 	</div>
@@ -53,7 +53,7 @@ hr:
 			img:https://img.dlsite.jp/modpub/images2/parts/RJ01193000/RJ01192283/c6f6540b97868e4c40fd550157895dd0.jpg
 		</div>
 		<div class="r">
-			[Găng tay cao su]
+			str:[Găng tay cao su]
 			Được làm bằng cao su, chúng ôm sát vào da và có cảm giác mịn màng như cao su. Chúng có giá thành rẻ và phù hợp để sử dụng một lần.
 		</div>
 	</div>
@@ -71,13 +71,13 @@ br:
 
 - Character_Des
 	str:Miyuki Ishiguro
-
+br:
 	Một thành viên mới của câu lạc bộ nghiên cứu anime và cosplayer.
 
 	Bề ngoài, cô ấy có vẻ vui vẻ, hòa đồng và Thân thiện.
 
 	Cô ấy có bộ ngực lớn và thân hình gợi cảm.
-
+br:
 	Nhưng sâu thẳm bên trong, cô ấy là một cô gái độc ác, khinh thường văn hóa otaku và tin rằng otaku là những gã đàn ông yếu đuối, sẽ cho cô ấy tiền nếu cô ấy cosplay.
 
 	Khi tìm thấy một otaku có vẻ dễ tiếp cận, cô ấy quyến rũ anh ta bằng thân hình kiêu hãnh và cosplay của mình, và dụ dỗ anh ta trở thành nô lệ trung thành, người sẽ cho cô ấy tiền.
@@ -85,34 +85,34 @@ br:
 	Một khi đã quyến rũ được anh ta, cô ấy sẽ hút cạn tiền bạc và tinh trùng của anh ta, vì vậy không người đàn ông nào được phép tiếp cận cô ấy trừ khi họ muốn trở thành nô lệ của cô ấy.
 	
 - Track_Des
-	(1) Đàn em cosplayer
+	str:(1) Đàn em cosplayer
 	"Dạo này có quá nhiều sự kiện cosplay, và em đang gặp khó khăn về chi phí."
 hr:
-	(2) Lời cầu nguyện của một Junior (Găng tay satin)
+	str:(2) Lời cầu nguyện của một Junior (Găng tay satin)
 	(Quyến rũ/Quyến rũ/Lạm dụng bằng lời nói/Nói chuyện tục tĩu/Thầm thì cận cảnh/Khơi gợi khổ dâm/Chạm lông vũ/Thủ dâm bằng găng tay dài/Thủ dâm bằng tay cầu nguyện/Số lần xuất tinh: 1)
 br:
 	"Khi đôi găng tay mềm mại ấy nắm chặt lấy dương vật và cọ xát những điểm nhạy cảm của em, em sẽ xuất tinh ngay lập tức, phải không?"
 	"Chuẩn bị tinh thần đi! Em sẽ cho anh thật nhiều khoái cảm với màn thủ dâm bằng găng tay đến nỗi anh sẽ không bao giờ quên được."
 hr:
-	(3) Bị đàn em van xin (Găng tay ren)
+	str:(3) Bị đàn em van xin (Găng tay ren)
 	(Dụ dỗ/Quyến rũ/Lạm dụng bằng lời nói/Nói chuyện bậy bạ/Thầm thì cận cảnh/Vòng tay/Thủ dâm cận cảnh/Thủ dâm bằng găng tay dài/Thủ dâm bằng núm vú/Số lần xuất tinh: 1)
 br:
 	"Họa tiết ren mỏng manh này đẹp quá phải không? Hehe, vải mỏng quá, nhìn xuyên qua là thấy da thịt em rồi. Anh không thấy nó gợi tình lắm sao?"
 	"Khi lớp ren thô ráp chạm vào núm vú, nó thật tê tái và khoái cảm, thật khó để dừng lại♪"
 hr:
-	(4) Thử thách với đàn em (Găng tay tất)
+	str:(4) Thử thách với đàn em (Găng tay tất)
 	(Khổ dâm/Quyến rũ/Lạm dụng bằng lời nói/Nói chuyện bậy bạ/Thì thầm cận cảnh/Thủ dâm cận cảnh/Liếm tai/Thủ dâm bằng găng tay dài/Số lần xuất tinh: 1)
 br:
 	"Cảm giác của đôi tất này cọ xát và vuốt ve dương vật, ép tinh dịch ra khỏi tinh hoàn ♪"
 	"Tuyệt vời! Với trò thủ dâm bằng găng tay và liếm tai yêu thích của anh, một cô gái trẻ đã khiến anh xuất tinh một cách thảm hại và lấy hết tiền của anh~♪"
 hr:
-	(5) Bị đàn em bóp khô (Găng tay lụa)
+	str:(5) Bị đàn em bóp khô (Găng tay lụa)
 	(Quyến rũ một kẻ khổ dâm/Lạm dụng bằng lời nói/Thì thầm cận cảnh/Thủ dâm bằng găng tay/Thủ dâm bằng găng tay/Thủ dâm bằng cách trêu chọc quy đầu/Xuất tinh/Xuất tinh: 1)
 br:
 	"Được bao bọc trong đôi găng tay lụa mềm mại, ấm áp đó, xuất tinh, xuất tinh, cảm giác được làm tình với tay em thật tuyệt vời phải không nào?"
 	"Để em vắt sữa anh lấy tiền và tinh trùng cho đến khi anh xuất tinh như một thằng khổ dâm thảm hại ♪"
 hr:
-	(6) Kẻ khổ dâm đóng góp (Găng tay cao su)
+	str:(6) Kẻ khổ dâm đóng góp (Găng tay cao su)
 	(Lạm dụng lời nói/Nói tục/Lạm dụng hậu môn/Thủ dâm bằng găng tay/Thủ dâm bằng tay vắt sữa/Thủ dâm bằng tay chọc phá tuyến tiền liệt/Xuất tinh: 1)
 br:
 	"Cảm giác mịn màng của đôi găng tay cao su thật khó cưỡng, phải không?
