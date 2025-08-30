@@ -53,18 +53,38 @@ async function initView(db, UIbindings) {
 
 	const audios = track.resource.audios;
 	const audPrefixes = await db.prefixies.getAll(audios.map((aud) => aud.prefixID));
+	const audioElements = [];
+
 	if (audios.length > 0) {
 		audios.forEach(({ name }, index) => {
+			/**@type {import('../../@components/audio_wrapper/component').default} */
+			const audioPlayer = document.createElement('audio-wrapper');
 			const src = `${audPrefixes[index]}${name}`;
-			mp3Container.appendChild(new AudioController(src, url.getFileNameFromUrl(src)));
+			audioPlayer.sources = [src];
+			audioPlayer.setAttribute('name', url.getFileNameFromUrl(src));
+			mp3Container.appendChild(audioPlayer);
+			audioElements.push(audioPlayer.audio);
 		});
 		new AudioPlayer(
-			Array.from(document.querySelectorAll('audio')),
+			audioElements,
 			track.info.code,
 			(await db.CVs.getAll(track.category.cvIDs)).map((c) => c.name),
 			(await db.series.getAll(track.category.seriesIDs)).map((s) => s.name),
 			`${await db.prefixies.get(track.resource.thumbnail.prefixID)}${track.resource.thumbnail.name}`
 		).setupMediaSession();
+
+		// Old version of audio player
+		// audios.forEach(({ name }, index) => {
+		// 	const src = `${audPrefixes[index]}${name}`;
+		// 	mp3Container.appendChild(new AudioController(src, url.getFileNameFromUrl(src)));
+		// });
+		// new AudioPlayer(
+		// 	Array.from(document.querySelectorAll('audio')),
+		// 	track.info.code,
+		// 	(await db.CVs.getAll(track.category.cvIDs)).map((c) => c.name),
+		// 	(await db.series.getAll(track.category.seriesIDs)).map((s) => s.name),
+		// 	`${await db.prefixies.get(track.resource.thumbnail.prefixID)}${track.resource.thumbnail.name}`
+		// ).setupMediaSession();
 	} else {
 		mp3Container.remove();
 		document.querySelector('#opn-cls-menu-mp3-btn').remove();
