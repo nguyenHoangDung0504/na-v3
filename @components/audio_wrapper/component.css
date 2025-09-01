@@ -66,9 +66,6 @@ button.icon {
     aspect-ratio: 1;
     border-radius: 50%;
     cursor: pointer;
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
     display: grid;
     place-items: center;
 
@@ -79,13 +76,13 @@ button.icon {
     position: relative;
 }
 
-button.icon::after {
+/* button.icon::after {
     content: '';
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
+} */
 
 button.icon:hover {
     background: #5b4b8a;

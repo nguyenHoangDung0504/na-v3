@@ -1,4 +1,4 @@
-import { AudioController, AudioPlayer, ImageDisplayer, VideoPlayer } from '../app.materials.mjs';
+import { AudioPlayer, ImageDisplayer, VideoPlayer } from '../app.materials.mjs';
 import { device, fullscreen, url } from '../app.utils.mjs';
 import { playerViewBinding } from './view_bindings/player.mjs';
 
