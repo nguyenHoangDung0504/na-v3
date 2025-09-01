@@ -15,6 +15,7 @@ const { viewBinding: menuViewBinding } = createViewBinding({
 	forwardBtn: '.forward-item',
 	openCatModalBtn: '#open-categories-modal-btn',
 	openGachaModalBtn: '#open-gacha-modal-btn',
+	clearCacheBtn: '#clear-cache'
 });
 
 const { viewBinding: headerViewBinding } = createViewBinding({
