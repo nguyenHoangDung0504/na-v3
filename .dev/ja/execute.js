@@ -162,7 +162,6 @@ function getConstKeys() {
 		['Lovers', 'Girlfriend'],
 		['French kiss', 'Kissing'],
 		['Nonhuman/Monster Girl', 'Non-human Girl'],
-		['Reverse NTR', 'Netori'],
 		['Housewife', 'Housewife,Mature Women'],
 		['Sumata', 'Thighjob'],
 		['Guided Masturbation', 'Masturbation Support'],

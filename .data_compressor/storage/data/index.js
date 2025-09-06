@@ -4,11 +4,11 @@ export const data = [];
 export const dataMap = new Map();
 
 export function buildPush(fromModulePath = '_') {
-	const [code, ..._] = arguments;
+	const [code] = arguments;
 	if (!dataMap.has(fromModulePath)) dataMap.set(fromModulePath, []);
 
 	return function () {
-		dataMap.get(fromModulePath).push(code);
+		// dataMap.get(fromModulePath).push(code);
 		data.push([...arguments]);
 	};
 }
