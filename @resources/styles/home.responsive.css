@@ -398,7 +398,6 @@
     /* END NEW MODAL */
 }
 
-
 @media screen and (min-width: 780px) and (max-width: 1400px) {
     :root {
         --vh: 100vh;

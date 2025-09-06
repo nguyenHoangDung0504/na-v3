@@ -89,7 +89,10 @@ function initMenuFeatures(UIbindings) {
 	menuView.reloadBtn.addEventListener('click', () => window.location.reload());
 	menuView.forwardBtn.addEventListener('click', () => window.history.forward());
 	menuView.closeBtn.addEventListener('click', menuController.close);
-	menuView.clearCacheBtn.addEventListener('click', cacheManager.clearCache);
+	menuView.clearCacheBtn.addEventListener('click', () => {
+		cacheManager.clearCache();
+		menuController.close();
+	});
 	headerView.toggleBtn.addEventListener('click', menuController.toggle);
 
 	if (device.isMobile())

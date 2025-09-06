@@ -341,6 +341,7 @@ input[type="text"]::selection {
     text-decoration: none;
     cursor: pointer;
     overflow: hidden;
+    transition: .3s;
 }
 
 .menu .menu-item.close-menu-button {
