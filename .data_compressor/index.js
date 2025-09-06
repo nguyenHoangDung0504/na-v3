@@ -2,7 +2,10 @@ import { existsSync, writeFileSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 
-import data from './exported-data.js';
+// Old version
+// import data from './exported-data.js';
+
+import { data } from './storage/index.js';
 import { convertQuotes } from './utils.js';
 
 const __filename = fileURLToPath(import.meta.url);
