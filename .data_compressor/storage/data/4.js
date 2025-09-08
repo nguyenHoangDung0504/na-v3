@@ -1161,7 +1161,7 @@ _(
 	'https://fast.kiko-play-niptan.one/media/stream/daily/2024-08-21/RJ01192283/%E6%9C%AC%E7%B7%A8/WAV/%E6%9C%AC%E7%B7%A8/%E2%91%A0%20%E3%82%B3%E3%82%B9%E3%83%97%E3%83%AC%E3%82%A4%E3%83%A4%E3%83%BC%E3%81%AE%E5%BE%8C%E8%BC%A9.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2024-08-21/RJ01192283/%E6%9C%AC%E7%B7%A8/WAV/%E6%9C%AC%E7%B7%A8/%E2%91%A1%20%E5%BE%8C%E8%BC%A9%E3%81%AE%E6%8F%90%E6%A1%88.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2024-08-21/RJ01192283/%E6%9C%AC%E7%B7%A8/WAV/%E6%9C%AC%E7%B7%A8/%E2%91%A2%20%E5%BE%8C%E8%BC%A9%E3%81%AB%E3%81%9F%E3%81%8B%E3%82%89%E3%82%8C%E3%81%A6.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2024-08-21/RJ01192283/%E6%9C%AC%E7%B7%A8/WAV/%E6%9C%AC%E7%B7%A8/%E2%91%A3%20%E5%BE%8C%E8%BC%A9%E3%81%A8%E3%81%AE%E5%8B%9D%E8%B2%A0.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2024-08-21/RJ01192283/%E6%9C%AC%E7%B7%A8/WAV/%E6%9C%AC%E7%B7%A8/%E2%91%A4%20%E5%BE%8C%E8%BC%A9%E3%81%AB%E5%85%A8%E9%83%A8%E6%90%BE%E3%82%8A%E5%8F%96%E3%82%89%E3%82%8C%E3%81%A6.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2024-08-21/RJ01192283/%E6%9C%AC%E7%B7%A8/WAV/%E6%9C%AC%E7%B7%A8/%E2%91%A5%20%E8%B2%A2%E3%81%8E%E3%83%9E%E3%82%BE.m4a'
 );
 
-// Update 1/9/2025
+// Added 1/9/2025
 _(
 	126061,
 	'RJ01252226',
@@ -1185,4 +1185,42 @@ _(
 	'https://api.asmr-200.com/api/cover/1397400.jpg?type=main',
 	'https://raw.kiko-play-niptan.one/media/stream/daily/2025-07-23/RJ01397400/%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88/%E5%A4%A7%E6%AB%9B%E7%B4%97%E5%A4%9C_%E3%82%B5%E3%83%A0%E3%83%8D%E3%82%A4%E3%83%AB%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88.jpg,https://raw.kiko-play-niptan.one/media/stream/daily/2025-07-23/RJ01397400/%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88/%E5%A4%A7%E6%AB%9B%E7%B4%97%E5%A4%9C_%E7%89%B9%E5%85%B8%E5%B7%AE%E5%88%86%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88.jpg',
 	'https://fast.kiko-play-niptan.one/media/stream/daily/2025-07-23/RJ01397400/%E6%9C%AC%E7%B7%A8/wav/0.%E3%80%8C%E3%81%BE%E3%81%A0%E5%90%9B%E3%81%AE%E4%BA%8B%E5%A5%BD%E3%81%8D%E3%81%A0%E3%81%91%E3%81%A9%E2%80%A6%E3%81%A3%E3%81%A6%E8%A8%80%E3%81%A3%E3%81%9F%E3%82%89%E3%80%81%E3%81%A9%E3%81%86%E3%81%99%E3%82%8B%EF%BC%9F%EF%BC%88%E5%BA%8F%E7%AB%A0%EF%BC%89%E3%80%8D.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2025-07-23/RJ01397400/%E6%9C%AC%E7%B7%A8/wav/1.%E5%A4%A7%E4%BA%BA%E6%B0%97%E3%82%B0%E3%83%A9%E3%83%89%E3%83%AB%E3%81%AE%E6%9F%94%E4%B9%B3%E6%8A%BC%E3%81%97%E3%81%A4%E3%81%91%E5%AF%86%E7%9D%80%E8%80%B3%E8%88%90%E3%82%81%E6%89%8B%E3%82%B3%E3%82%AD.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2025-07-23/RJ01397400/%E6%9C%AC%E7%B7%A8/wav/2.%E7%99%BA%E6%83%85%E5%85%83%E3%82%AB%E3%83%8E%E3%81%AE%E3%83%87%E3%82%AB%E4%B9%B3%E6%93%A6%E3%82%8A%E3%81%A4%E3%81%91%E7%94%9F%E3%83%8F%E3%83%A1%E9%80%86%E3%83%AC%E9%A8%8E%E4%B9%97%E4%BD%8D%E2%86%92%E5%BF%83%E6%83%85%E4%BB%A3%E5%BC%81%E7%94%9F%E4%B8%AD%E5%87%BA%E3%81%97.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2025-07-23/RJ01397400/%E6%9C%AC%E7%B7%A8/wav/3.%E3%82%AA%E3%83%8A%E3%82%B7%E3%82%B3%E3%83%90%E3%83%AC%E3%81%97%E3%81%9F%E3%83%81%E3%83%B3%E3%83%9D%E3%81%8A%E6%8E%83%E9%99%A4%E2%86%92%E3%82%B0%E3%83%A9%E3%83%89%E3%83%AB%E9%95%B7%E4%B9%B3%E5%A0%AA%E8%83%BD%E3%83%91%E3%82%A4%E3%82%BA%E3%83%AA.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2025-07-23/RJ01397400/%E6%9C%AC%E7%B7%A8/wav/4.%E5%91%BC%E3%81%B3%E5%87%BA%E3%81%97%E5%AF%86%E7%9D%80%E6%B7%BB%E3%81%84%E5%AF%9D%E8%80%B3%E8%88%90%E3%82%81%E6%89%8B%E3%82%B3%E3%82%AD%E2%86%92%E6%BD%AE%E5%90%B9%E3%81%8D%E3%82%AA%E3%83%8A%E3%82%A4%E3%82%AD%EF%BC%86%E6%89%8B%E3%82%B3%E3%82%AD%E5%B0%84%E7%B2%BE.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2025-07-23/RJ01397400/%E6%9C%AC%E7%B7%A8/wav/5.%E3%83%94%E3%83%AB%E6%8A%9C%E3%81%8D%E5%8D%B1%E9%99%BA%E6%97%A5%E3%81%8A%E3%81%BE%E3%82%93%E3%81%93%E3%81%AB%E9%80%A3%E7%B6%9A%E3%81%90%E3%81%A1%E3%82%83%E3%81%A9%E3%82%8D%E9%80%86NTR%E7%A8%AE%E4%BB%98%E3%81%91%E6%9C%AC%E6%B0%97%E4%BA%A4%E5%B0%BE.m4a'
+);
+
+// Added 8/9/2025
+_(
+	108735,
+	'RJ01066684',
+	'China Mugisawa',
+	'ASMR,Creampie,Ear Licking,Hand Job,Internal Cumshot,Kissing,Oral Cumshot,Female Teacher,Mature Women,Apron,Femdom',
+	'',
+	"A strict nursery teacher punishes me with sex. Ayumi-sensei's doting confinement and ejaculation lessons lead to orgasm.",
+	'僕だけに厳しい保育士のお仕置きえっち。あゆみ先生の溺愛監禁お射精教イク',
+	'https://api.asmr-200.com/api/cover/1066684.jpg?type=main',
+	'https://raw.kiko-play-niptan.one/media/stream/daily/2024-01-22/RJ01066684/%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88.png',
+	'https://fast.kiko-play-niptan.one/media/stream/daily/2024-01-22/RJ01066684/%E6%9C%AC%E7%B7%A8_wav/%EF%BC%91.%E6%82%AA%E3%83%BC%E3%81%84%E5%AD%90%E3%81%AB%E3%81%AF%E3%81%9F%E3%81%A3%E3%81%B7%E3%82%8A%E3%81%8A%E4%BB%95%E7%BD%AE%E3%81%8D%E3%81%A7%E3%81%99%EF%BC%81.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2024-01-22/RJ01066684/%E6%9C%AC%E7%B7%A8_wav/%EF%BC%92.%E5%B0%84%E7%B2%BE%E3%81%AE%E4%BB%95%E6%96%B9%E3%80%81%E6%95%99%E3%81%88%E3%81%A6%E3%81%82%E3%81%92%E3%82%8B%E2%99%AA.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2024-01-22/RJ01066684/%E6%9C%AC%E7%B7%A8_wav/%EF%BC%93.%E5%85%88%E7%94%9F%E3%81%AE%E3%82%B3%E3%82%B3%E2%80%A6%E3%81%A8%E3%82%8D%E3%81%A8%E3%82%8D%E3%81%AB%E3%81%AA%E3%81%A3%E3%81%A1%E3%82%83%E3%81%84%E3%81%BE%E3%81%97%E3%81%9F.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2024-01-22/RJ01066684/%E6%9C%AC%E7%B7%A8_wav/%EF%BC%94.%E7%AB%A5%E8%B2%9E%E3%81%A1%E3%82%93%E3%81%BD%E2%80%A6%E5%85%88%E7%94%9F%E3%81%8C%E9%A3%9F%E3%81%B9%E3%81%A1%E3%82%83%E3%81%84%E3%81%BE%E3%81%99%E3%81%AD.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2024-01-22/RJ01066684/%E6%9C%AC%E7%B7%A8_wav/%EF%BC%95.%E3%82%82%E3%81%A3%E3%81%A8%E7%AA%81%E3%81%84%E3%81%A6%E3%80%81%E3%81%8A%E3%81%BE%E3%82%93%E3%81%93%E3%82%AA%E3%83%88%E3%81%97%E3%81%A6%E2%99%AA.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2024-01-22/RJ01066684/%E6%9C%AC%E7%B7%A8_wav/%EF%BC%96.%E5%85%88%E7%94%9F%E3%81%AE%E3%81%8A%E3%81%BE%E3%82%93%E3%81%93%E3%81%AB%E4%BE%9D%E5%AD%98%E3%81%97%E3%81%A1%E3%82%83%E3%81%84%E3%81%AA%E3%81%95%E3%81%84%E2%99%A1.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2024-01-22/RJ01066684/%E7%89%B9%E5%85%B8_wav/%E7%89%B9%E5%85%B81%EF%BC%9A9%E5%88%86%E9%96%93%E8%80%B3%E8%88%90%E3%82%81%E3%81%95%E3%82%8C%E3%81%AA%E3%81%8C%E3%82%89%E8%80%B3%E8%88%90%E3%82%81%E6%89%8B%E3%82%B3%E3%82%AD%E3%80%81%E3%82%B0%E3%83%A9%E3%82%A4%E3%83%B3%E3%83%89%E9%A8%8E%E4%B9%97%E4%BD%8D%E3%81%A7%E3%82%A4%E3%82%AF%E9%9F%B3%E5%A3%B0.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2024-01-22/RJ01066684/%E7%89%B9%E5%85%B8_wav/%E7%89%B9%E5%85%B82%EF%BC%9A12%E5%88%86%E9%96%93%E8%80%B3%E8%88%90%E3%82%81%E3%81%95%E3%82%8C%E3%81%AA%E3%81%8C%E3%82%89%E3%83%A1%E3%82%B9%E5%A0%95%E3%81%A1%E6%AD%A3%E5%B8%B8%E4%BD%8D%E3%80%81%E6%9D%AD%E6%89%93%E3%81%A1%E9%A8%8E%E4%B9%97%E4%BD%8D%E3%81%A7%E3%82%A4%E3%82%AF%E9%9F%B3%E5%A3%B0.m4a'
+);
+_(
+	132255,
+	'RJ01299530',
+	'Mikan Yomoyama',
+	'ASMR,Apron,Big Breasts,Blowjob,Incest,Oneesan,Paizuri,Sister,Elder Sister,Creampie,Whispering',
+	'',
+	'A forbidden sex life with my older sister! Her sweet sighs stir my heart♪',
+	'[241130][Colapi] お姉ちゃんとの禁断の性活!甘い吐息が僕の心をかき乱す♪ [RJ01299530]',
+	'https://api.asmr-200.com/api/cover/1299530.jpg?type=main',
+	'https://raw.kiko-play-niptan.one/media/stream/daily/2025-04-30/RJ01299530/%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88.png',
+	'https://fast.kiko-play-niptan.one/media/stream/daily/2025-04-30/RJ01299530/01_%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%EF%BD%9E%E6%8A%BC%E3%81%97%E3%81%8B%E3%81%91%E3%81%8A%E5%A7%89%E3%81%A1%E3%82%83%E3%82%93%EF%BD%9E.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2025-04-30/RJ01299530/02_%E9%85%94%E3%81%A3%E3%81%A6%E3%82%8B%E3%81%8A%E5%A7%89%E3%81%A1%E3%82%83%E3%82%93.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2025-04-30/RJ01299530/03_%E7%A7%98%E3%82%81%E3%81%9F%E6%83%B3%E3%81%84%E3%81%AE%E5%91%8A%E7%99%BD.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2025-04-30/RJ01299530/04_%E5%B8%83%E5%9B%A3%E3%81%AE%E4%B8%AD%E3%81%A7%E5%AF%86%E7%9D%80%E6%89%8B%E3%82%B3%E3%82%AD%E3%83%97%E3%83%AC%E3%82%A4.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2025-04-30/RJ01299530/05_%E8%A3%B8%E3%82%A8%E3%83%97%E3%83%AD%E3%83%B3%E3%81%8B%E3%82%89%E3%81%AE%E6%80%A7%E6%AC%B2%E7%99%BA%E6%95%A3%E3%83%97%E3%83%AC%E3%82%A4.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2025-04-30/RJ01299530/06_%E9%A2%A8%E9%82%AA%E3%81%AE%E6%99%82%E3%81%93%E3%81%9D%E3%82%BB%E3%83%83%E3%82%AF%E3%82%B9%EF%BC%81%E3%81%8B%E3%82%89%E3%81%AE%E7%9C%8B%E7%97%85%E3%83%95%E3%82%A7%E3%83%A9.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2025-04-30/RJ01299530/07_%E4%BA%8C%E4%BA%BA%E3%81%8D%E3%82%8A%E3%81%AE%E6%B8%A9%E6%B3%89%E6%97%85%E8%A1%8C%EF%BD%9E%E7%A6%81%E6%96%AD%E3%81%AE%E4%B8%AD%E5%87%BA%E3%81%97%EF%BD%9E.m4a'
+);
+_(
+	25814,
+	'RJ101337',
+	'Myua,Yuuran',
+	'Anal,Apron,Blowjob,Incest,Mature Women,Milf,Mother,Hairy',
+	'',
+	'Baka Mama: Naked Apron Ero Buta SEX',
+	'バカママ ～はだかエプロンで エロブタSEX～',
+	'https://api.asmr-200.com/api/cover/101337.jpg?type=main',
+	'https://raw.kiko-play-niptan.one/media/stream/hvdb/500-599/RJ101337/bakamama_art01.jpg,https://raw.kiko-play-niptan.one/media/stream/hvdb/500-599/RJ101337/bakamama_art02.jpg,https://raw.kiko-play-niptan.one/media/stream/hvdb/500-599/RJ101337/bakamama_art03.jpg,https://raw.kiko-play-niptan.one/media/stream/hvdb/500-599/RJ101337/bakamama_art04.jpg',
+	'https://raw.kiko-play-niptan.one/media/stream/hvdb/500-599/RJ101337/Bakamama.mp3'
 );

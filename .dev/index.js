@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 
 const PORT = 5500;
-const ROOT_DIR = path.resolve(__dirname); // Hoặc thư mục chứa static
+const ROOT_DIR = path.resolve(__dirname, '../'); // Hoặc thư mục chứa static
 
 const MIME_TYPES = {
 	'.html': 'text/html',

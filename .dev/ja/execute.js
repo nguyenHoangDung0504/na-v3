@@ -79,10 +79,10 @@ async function copy(value, timeout = 100) {
  * @returns {Promise<{ trackIDs: Set<number>, CVs: string[], tags: string[], series: string[] }>}
  */
 async function initData() {
-	const module = await import('http://127.0.0.1:5500/.data_compressor/exported-data.js');
+	const module = await import('http://127.0.0.1:5500/.data_compressor/storage/index.js');
 
 	/**@type {[code:number, RJcode:string, CVs:string, tags:string, series:string][]} */
-	const data = module.default.map((line) => line.toSpliced(5));
+	const data = module.data.map((line) => line.toSpliced(5));
 
 	const trackIDs = new Set();
 	let CVs = new Set();
@@ -154,7 +154,7 @@ function getConstKeys() {
 		['Breast Sex', 'Paizuri'],
 		['Trap', 'Crossdress'],
 		['Voluptuous/Plump', 'Chubby'],
-		['Real Elder Sister', 'Sister,Oneesan,Incest'],
+		['Real Elder Sister', 'Sister,Oneesan,Incest,Elder Sister'],
 		['Mommie', 'Mother,Milf,Mature Women'],
 		['Mother', 'Mother,Milf,Mature Women'],
 		['Jock/Athlete/Sports', 'Sport Girl'],
