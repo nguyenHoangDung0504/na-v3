@@ -154,7 +154,7 @@ function getConstKeys() {
 		['Breast Sex', 'Paizuri'],
 		['Trap', 'Crossdress'],
 		['Voluptuous/Plump', 'Chubby'],
-		['Real Elder Sister', 'Sister,Oneesan,Incest,Elder Sister'],
+		['Real Elder Sister', 'Sister,Oneesan,Incest'],
 		['Mommie', 'Mother,Milf,Mature Women'],
 		['Mother', 'Mother,Milf,Mature Women'],
 		['Jock/Athlete/Sports', 'Sport Girl'],

@@ -1,0 +1,32 @@
+- Content_Des
+	Một ngày nọ, khi trốn tiết ở phòng y tế, có một cô gái cố chiếm giường của bạn.
+	Hóa ra cô ấy bị ám ảnh bởi mùi cơ thể, và cái nóng khiến cô đổ mồ hôi không kiểm soát trên chiếc giường cạnh cửa sổ.
+	Mùi cơ thể khiến cô ấy khó chịu đến mức trốn tiết thể dục nhiều lần, nhưng bạn nhất quyết không chịu nhường giường.
+	Từ đó, một cuộc chiến nghịch ngợm giành giường trong phòng y tế bắt đầu.
+
+- Character_Des
+	str:Yui Aoi
+	- Một nữ sinh trung học đầy đặn, ngực khủng. Ích kỷ và tự cao tự đại. Đổ mồ hôi nhiều và có mùi cơ thể nồng nặc.
+	- Cô ấy chủ động trong chuyện tình dục.
+	- Khi phấn khích, cô ấy đổ mồ hôi rất nhiều.
+	- Cô ấy chưa bao giờ quan hệ tình dục với người khác giới.
+	
+- Track_Des
+	01. Lời mở đầu [03:54]
+	➡ [Trò chuyện]
+br:
+	02. Thủ dâm bằng tay với kem dưỡng ẩm nách mạnh mẽ [27:39]
+	➡ [Thủ dâm/Thú vị núm vú/Mồ hôi nách/Thú vị mùi hương/Ôm/Dụ dỗ/Tiếp xúc gần/Thầm thì/Nuốt]
+br:
+	03. Thủ dâm bằng miệng dưới chăn với núm vú đầy mồ hôi [19:54]
+	➡ [Thú vị núm vú/Thú vị núm vú/Ngửi dương vật/Mồ hôi ngực/Thú vị mùi hương/Dụ dỗ/Thầm thì/Xuất tinh vào miệng/Nuốt]
+br:
+	04. Ôm ấp trong chiếc futon ấm áp, đẫm mồ hôi, thơm tho cho cuộc yêu cực kỳ thân mật, mãnh liệt và rên rỉ [24:03]
+	➡ [Ôm theo tư thế truyền thống / Rên rỉ / Mất trinh / Hôi miệng / Lan tỏa / Tỏ tình / Hôn kiểu Pháp / Chơi đùa mùi hương / Ôm / Quyến rũ / Thì thầm / Tiếp xúc gần gũi / Nói "Thích" Liên Tục / Tình dục thô bạo / Xuất tinh trong âm đạo]
+br:
+	05. Tình dục cực kỳ thân mật, rên rỉ mãnh liệt được bao bọc trong sự dày đặc, mềm mại và thơm ngát, thấm đẫm mùi hương nữ tính mạnh mẽ [27:19]
+	➡ [Tư thế ôm kiểu cowgirl / Rên rỉ / Liếm tai / Hôn kiểu Pháp / Quyến rũ bằng mùi hương / Ôm / Quyến rũ / Thì thầm / Tiếp xúc gần gũi / Nói "Thích" Liên Tục / Tình dục thô bạo / Xuất tinh trong âm đạo]
+br:
+	06. Lời kết [05:14]
+	➡ [Hôn kiểu Pháp]
+	

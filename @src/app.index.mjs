@@ -2,6 +2,7 @@ import { debugMode as decoratorDebug } from '../@libraries/decorators/index.mjs'
 import { database } from './database/index.mjs';
 
 const path = location.pathname;
+if (location.href.includes('127.0.0.1')) localStorage.setItem('dev-mode', 1);
 
 const isHomePage = () => ['/', '/index.html'].includes(path);
 const isWatchPage = () => ['/watch/index.html', '/watch/'].includes(path);

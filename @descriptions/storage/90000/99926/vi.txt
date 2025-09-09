@@ -1,0 +1,35 @@
+- Content_Des
+	Bạn, nhân vật chính (Ikuo Ikisugi), được cho là đã chết trong một tai nạn.
+	Bạn đột nhiên thấy mình đứng trước một nhà thờ xa lạ.
+br:
+	Nữ thần đột nhiên xuất hiện và nói với bạn rằng bà đã hồi sinh bạn. Bà cũng nói với bạn rằng "để đổi lấy sự hồi sinh của ngươi, ngươi sẽ phải quan hệ tình dục, nhưng ngươi sẽ không được phép đạt cực khoái (xuất tinh) - một lời nguyền (nhiệm vụ) sẽ cho phép ngươi tận hưởng điều đó."
+br:
+	Nếu bạn từ chối quan hệ, bạn sẽ chết, nhưng nếu bạn xuất tinh, lời nguyền sẽ tiếp tục và Nữ thần sẽ kiểm soát tình dục của bạn mãi mãi cho đến khi bạn hoàn toàn kiệt sức...
+	Người bạn tình đầu tiên của bạn là một nữ tu đang gặp vấn đề về tình dục tại nhà thờ, một tín đồ cuồng nhiệt của Nữ thần.
+br:
+	Không chút do dự, nhiệm vụ bắt đầu. Rồi một nữ tu xuất hiện từ nhà thờ...
+	Bạn có thể chịu đựng được bao lâu...?
+
+- Character_Des
+	str:Fiorna
+
+	Là một nữ tu tại một nhà thờ thờ phụng Nữ thần, Fiorna là một tín đồ cuồng nhiệt của Nữ thần.
+	Nhận được lời mặc khải thiêng liêng từ Nữ thần rằng "càng khiến đàn ông lên đỉnh, bạn càng hạnh phúc", cô quyết tâm làm cho bạn lên đỉnh bằng mọi giá.
+	Cho đến nay, cô vẫn kiêng quan hệ tình dục do các quy tắc tôn giáo, điều này khiến cô cảm thấy bất lực về mặt tình dục, nhưng lời mặc khải thiêng liêng này từ Nữ thần đã khiến cô bùng nổ, và, như một phản ứng dữ dội từ những trải nghiệm trước đây, cô đã trở thành một người phụ nữ cực kỳ dâm đãng.
+	
+- Track_Des
+	01. Bạn đã được một nữ thần hồi sinh, nhưng cô ấy đã nói với bạn một điều khó tin...
+	"Ngươi không được xuất tinh. Xuất tinh bị cấm. Hãy chịu đựng."
+br:
+	02. Vòng 1: Thì thầm thủ dâm & Liếm tai
+	"Đây rồi... Xuất tinh nào, xuất tinh nào..."
+br:
+	03. Vòng 2: Thổi kèn thức dậy & Thổi kèn vú
+	"Cặc, cặc thơm quá..."
+br:
+	04. Vòng 3: Hôn hít sâu & Rên rỉ tình dục
+	"Ôi, ôi, ôi, cặc của anh đang kích thích cái lồn đang kiêng khem của em..."
+br:
+	05. Vòng 4: Làm tình hết mình, hết sức mạnh mẽ, không cách nào kiềm chế được
+	"Lồn của em, lồn của em sắp ra rồi, em sắp ra rồi..."
+	
