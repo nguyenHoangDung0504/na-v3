@@ -1,0 +1,84 @@
+- Content_Des
+	Khi bạn thức dậy, không hiểu vì lý do gì bạn lại thấy mình đang ở trong một căn phòng xa lạ... cùng với bạn cùng lớp, cô nàng thoải mái Nishino Ai.
+	Có một tấm biển trên cửa trông giống như một lối vào, và nó ghi quy tắc
+
+	Trên đó có ghi dòng chữ "Một căn phòng mà bạn không thể ra khỏi nếu không ○○".
+
+	Nội dung tự nhiên mang tính khiêu dâm, và mặc dù cô ấy nhút nhát,
+
+	Sau khi đáp ứng đủ điều kiện, cả hai trốn thoát khỏi căn phòng kỳ lạ này.
+
+	Tuy nhiên, bên kia cánh cửa là một căn phòng mới, và những điều kiện để trốn thoát được ghi trên một tấm biển thậm chí còn khắc nghiệt hơn căn phòng trước đó.
+
+	Trong một căn phòng dường như vô tận, bạn làm việc cùng với cô gái Nishino,
+
+	Hãy cố gắng thoát khỏi căn phòng đưa ra những chỉ dẫn nghịch ngợm!
+
+- Character_Des
+	str:Ai Nishino
+br:
+	Một cô gái thoải mái và dễ thương.
+	Cô ấy có tính cách hơi đãng trí và vô tư, và không giỏi học hành.
+	Mặc dù cô ấy cảm thấy xấu hổ vì mình hư hỏng, cô rất ít sự phản đối đối với những quy tắc.
+	Cô ấy gọi bạn là Otaku-kun và thường trêu chọc bạn trong lớp.
+	Đôi khi tôi cũng nói tục.
+	
+- Track_Des
+	[Track 1] Căn Phòng Nơi Bạn Không Thể Thoát Ra Trừ Khi Được Hôn Lên (11:14)
+br:
+	Hai bạn thức dậy trong một căn phòng xa lạ.
+	Điều kiện để thoát ra là phải được hôn lên cho đến khi cương cứng.
+
+	Đúng như manh mối duy nhất, Nishino mạnh dạn tiến đến gần bạn.
+
+	Nhưng bạn lại xấu hổ, nói rằng mình chỉ hứng thú với 2D, và cố gắng tránh xa Nishino.
+
+	"...Hehe. Chắc chắn chưa có otaku nào từng có một cô gái nào lại gần mình đến thế này. Và giờ cô ấy sắp hôn mình. Nguy hiểm thật."
+
+	"Mmmm... Lại gần hơn đi... Mmmm... Đừng chạy trốn... Mmmm... Mmmm... Mmmm..."
+hr:
+	[Track 2] Căn Phòng Nơi Bạn Không Thể Thoát Ra Trừ Khi Được Liếm Tai Và Thủ Dâm (18:20)
+br:
+	Bạn đã đạt được điều kiện và nghĩ rằng mình đã thoát ra an toàn. Tuy nhiên, cánh cửa dẫn đến một căn phòng khác,
+	và cặp đôi bối rối được đặt vào một tình huống mới.
+
+	"Được một cô bạn cùng lớp thủ dâm cũng giống như cả đời thủ dâm vậy, lol. Wow, cậu may mắn thật đấy, lol?"
+
+	"Ừm, nếu cậu thực sự muốn... tớ thậm chí sẽ làm một màn xuất tinh đặc biệt cho cậu đấy, biết không?"
+
+	— ... "Người cậu giật giật phải không? Cậu thực sự nhạy cảm với núm vú của mình sao? Mặc dù cậu là con trai?"
+
+	"Cậu tỏa ra mùi hương gợi cảm quá... cô ấy đang cố quyến rũ cậu à?"
+hr:
+	[Track 4] Căn phòng mà bạn không thể ra ngoài trừ khi cùng nhau thủ dâm (10:24)
+br:
+	Tình huống tiếp theo là thủ dâm cho nhau. Cảnh tượng Nishino để lộ ngực và sờ soạng đồ lót của cô ấy càng làm tăng thêm sự phấn khích của bạn.
+
+	"Ah, ah... Tinh dịch đang trào ra từ bên trong tinh hoàn của em... ừm, đặc quánh, phun ra..."
+	"Ah, ah... Em muốn xuất tinh. Mmm, mmm, ah... tệ quá lol"
+hr:
+	[Track 5] Một Căn Phòng Nơi Bạn Không Thể Ra Ngoài Trừ Khi Đạt Cực Khoái Nhiều Lần Trong Tư Thế Truyền Giáo (13:12)
+br:
+	Cuối cùng hai người cũng quan hệ.
+	Và điều kiện để hoàn thành thử thách này rất khắc nghiệt: đạt cực khoái nhiều lần.
+
+	"Tư thế truyền giáo nghĩa là... anh ở trên, vậy nghĩa là em sẽ xuất tinh nhiều lần?"
+
+	"Không... em... không thể... đẩy... ah, ah, ah, cảm giác này quá sức chịu đựng, em sắp phát điên rồi..."
+	"Ah, ah, ah, oh, ohhhh"
+	"Ôi, nếu em biết nó sướng đến thế nào, ah, sex... em sẽ nghiện mất thôi."
+hr:
+	[Track 6] Một căn phòng nơi bạn không thể rời đi trừ khi xuất tinh cùng lúc trong màn sex kiểu cowgirl liếm tai (15:06)
+br:
+	Điều kiện tiếp theo cũng là sex. Và mối quan hệ yêu đương đồng nghĩa với việc họ phải là người yêu.
+
+	Cảm xúc thật sự của Nishino sau những màn tán tỉnh táo bạo cho đến giờ là gì...?
+
+	"Cowgirl sex... thử xem."
+
+	"Dù anh có nói gì đi nữa, ngay cả "cô bé" của con gái cũng thích cảm giác đó, phải không?"
+
+	"Lúc nãy anh chỉ lắc hông vì ham muốn tình dục thôi, nhưng... anh có thể yêu em không?"
+
+	Liệu họ có thể thoát khỏi căn phòng kỳ lạ này không? Mời các bạn thưởng thức phần còn lại của câu chuyện chính...!
+	

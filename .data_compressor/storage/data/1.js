@@ -1377,13 +1377,13 @@ _(
 	55385,
 	'RJ345104',
 	'Narumi Aisaka',
-	'Blowjob,Classmate,Ear Licking,Gal,Hand Job',
+	'Blowjob,Classmate,Ear Licking,Gal,Hand Job,Internal Cumshot,Seduction,Successive Orgasms,Sweet Love,Whispering,School Girl',
 	'',
 	'Together with the girls in the class! One room where you can’t get out where erotic instructions become extreme',
 	'クラスのギャルと一緒!エロ指示が過激になっていく出られない系ワンルーム【KU100】',
-	'https://cdn.glitch.global/cbd0ac37-5557-4012-b498-643e6f89d54c/55385(0)?v=1690899966968',
-	'https://cdn.glitch.global/cbd0ac37-5557-4012-b498-643e6f89d54c/55385(1)?v=1690899972018',
-	'https://cdn.glitch.me/cbd0ac37-5557-4012-b498-643e6f89d54c/55385.mp3?v=1690900164124'
+	'https://api.asmr-200.com/api/cover/345104.jpg?type=main',
+	'https://raw.kiko-play-niptan.one/media/stream/daily/2021-11-04/RJ345104/%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88/02_%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88.png',
+	'https://fast.kiko-play-niptan.one/media/stream/daily/2021-11-04/RJ345104/wav/1.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2021-11-04/RJ345104/wav/2.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2021-11-04/RJ345104/wav/3.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2021-11-04/RJ345104/wav/4.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2021-11-04/RJ345104/wav/5.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2021-11-04/RJ345104/wav/6.m4a'
 );
 _(
 	62248,

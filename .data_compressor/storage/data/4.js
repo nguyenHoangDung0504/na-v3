@@ -1101,17 +1101,18 @@ _(
 	'https://raw.kiko-play-niptan.one/media/stream/daily/2025-08-27/RJ01435209/%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88JPG/%E7%89%B9%E5%85%B8%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88/%E7%89%B9%E5%85%B8%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88%EF%BC%88%E5%9C%B0%E7%8D%84A%EF%BC%89.jpg,https://raw.kiko-play-niptan.one/media/stream/daily/2025-08-27/RJ01435209/%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88JPG/%E7%89%B9%E5%85%B8%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88/%E7%89%B9%E5%85%B8%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88%EF%BC%88%E5%9C%B0%E7%8D%84B%EF%BC%89.jpg,https://raw.kiko-play-niptan.one/media/stream/daily/2025-08-27/RJ01435209/%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88JPG/%E7%89%B9%E5%85%B8%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88/%E7%89%B9%E5%85%B8%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88%EF%BC%88%E5%9C%B0%E7%8D%84C%EF%BC%89.jpg,https://raw.kiko-play-niptan.one/media/stream/daily/2025-08-27/RJ01435209/%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88JPG/%E7%89%B9%E5%85%B8%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88/%E7%89%B9%E5%85%B8%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88%EF%BC%88%E5%9C%B0%E7%8D%84D%EF%BC%89.jpg,https://raw.kiko-play-niptan.one/media/stream/daily/2025-08-27/RJ01435209/%E5%A3%81%E7%B4%99/%E3%82%B9%E3%83%9E%E3%83%9B%E7%94%A8/%E3%82%B9%E3%83%9E%E3%83%9B%E7%B8%A6B.jpg,https://raw.kiko-play-niptan.one/media/stream/daily/2025-08-27/RJ01435209/%E5%A3%81%E7%B4%99/%E3%82%B9%E3%83%9E%E3%83%9B%E7%94%A8/%E3%82%B9%E3%83%9E%E3%83%9B%E7%B8%A6A.jpg',
 	'https://fast.kiko-play-niptan.one/media/stream/daily/2025-08-27/RJ01435209/%E3%80%90Track01%E3%80%91%E5%AA%9A%E8%96%AC%E3%82%A2%E3%83%AD%E3%83%9E%E3%81%AB%E3%82%88%E3%82%8B%E5%A6%8A%E6%B4%BB%E3%82%B1%E3%83%84%E7%A9%B4%E3%83%AC%E3%83%83%E3%82%B9%E3%83%B3%E3%80%90scene02%E3%80%91.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2025-08-27/RJ01435209/%E3%80%90Track02%E3%80%91%E3%83%89%E3%82%B9%E3%82%B1%E3%83%99%E7%89%9B%E6%9F%84%E3%83%93%E3%82%AD%E3%83%8B%E3%81%A7%E3%82%B1%E3%83%84%E7%A9%B4%E3%83%AC%E3%83%83%E3%82%B9%E3%83%B3%E3%80%90scene04%E3%80%91.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2025-08-27/RJ01435209/%E3%80%90Track03%E3%80%91%E9%96%8B%E8%8A%B1%E3%81%99%E3%82%8B%E4%BA%BA%E5%A6%BB%E3%81%AE%E3%83%9F%E3%83%81%E3%83%9F%E3%83%81%E3%82%B1%E3%83%84%E3%81%BE%E3%82%93%E3%81%93%E3%80%90scene06%E3%80%91.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2025-08-27/RJ01435209/%E3%80%90Track04%E3%80%91%E4%BE%BF%E5%99%A8%E3%81%AB%E3%81%95%E3%82%8C%E3%82%8B%E4%BA%BA%E5%A6%BB%E3%81%AE%E3%82%B9%E3%82%B1%E3%83%99%E3%81%BE%E3%82%93%E3%81%93%E3%80%90scene08%E3%80%91.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2025-08-27/RJ01435209/%E3%80%90Track05%E3%80%91%E5%A6%8A%E5%A8%A0%E3%81%97%E3%81%9F%E4%BA%BA%E5%A6%BB%E3%81%BE%E3%82%93%E3%81%93%E3%81%AB%E3%82%B6%E3%83%BC%E3%83%A1%E3%83%B3%E4%B8%AD%E5%87%BA%E3%81%97%E3%80%90scene10%E3%80%91.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2025-08-27/RJ01435209/%E3%80%90Track06%E3%80%91%E9%A4%85%E6%A2%A8%E3%81%82%E3%82%80%E3%81%95%E3%82%93%E3%83%95%E3%83%AA%E3%83%BC%E3%83%88%E3%83%BC%E3%82%AF%E2%99%AA.m4a'
 );
-// Wait
-// _(
-// 	137107,
-// 	'RJ01435198',
-// 	'Amu Mochiri',
-// 	'ASMR,Anal,Big Breasts,Fetish,Housewife,Internal Cumshot,Mature Woman,Pregnancy/Impregnation,Sweet Love,Wife,Hairy',
-// 	'天国地獄',
-// 	'I Want to Fill My Lewd Pussy with Your Beloved Semen and Get Pregnant',
-// 	'【人妻スケベまんこ甘オホ】妊活人妻天国篇 大好きなアナタのザーメンをスケベまんこに満たして孕みたい【KU100ハイレゾ】',
-// 	t0i0a
-// );
+_(
+	137107,
+	'RJ01435198',
+	'Amu Mochiri',
+	'ASMR,Anal,Big Breasts,Fetish,Housewife,Internal Cumshot,Mature Woman,Pregnancy/Impregnation,Sweet Love,Wife,Hairy',
+	'天国地獄',
+	'I Want to Fill My Lewd Pussy with Your Beloved Semen and Get Pregnant',
+	'【人妻スケベまんこ甘オホ】妊活人妻天国篇 大好きなアナタのザーメンをスケベまんこに満たして孕みたい【KU100ハイレゾ】',
+	'https://api.asmr-200.com/api/cover/1435198.jpg?type=main',
+	'https://raw.kiko-play-niptan.one/media/stream/daily/2025-09-02/RJ01435198/%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88JPG/%E7%89%B9%E5%85%B8%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88/%E7%89%B9%E5%85%B8%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88%EF%BC%88%E5%A4%A9%E5%9B%BDA%EF%BC%89.jpg,https://raw.kiko-play-niptan.one/media/stream/daily/2025-09-02/RJ01435198/%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88JPG/%E7%89%B9%E5%85%B8%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88/%E7%89%B9%E5%85%B8%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88%EF%BC%88%E5%A4%A9%E5%9B%BDB%EF%BC%89.jpg,https://raw.kiko-play-niptan.one/media/stream/daily/2025-09-02/RJ01435198/%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88JPG/%E7%89%B9%E5%85%B8%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88/%E7%89%B9%E5%85%B8%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88%EF%BC%88%E5%A4%A9%E5%9B%BDC%EF%BC%89.jpg,https://raw.kiko-play-niptan.one/media/stream/daily/2025-09-02/RJ01435198/%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88JPG/%E7%89%B9%E5%85%B8%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88/%E7%89%B9%E5%85%B8%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88%EF%BC%88%E5%A4%A9%E5%9B%BDD%EF%BC%89.jpg,https://raw.kiko-play-niptan.one/media/stream/daily/2025-09-02/RJ01435198/%E5%A3%81%E7%B4%99/%E3%82%B9%E3%83%9E%E3%83%9B%E7%94%A8/%E3%82%B9%E3%83%9E%E3%83%9B%E7%B8%A6B.jpg,https://raw.kiko-play-niptan.one/media/stream/daily/2025-09-02/RJ01435198/%E5%A3%81%E7%B4%99/%E3%82%B9%E3%83%9E%E3%83%9B%E7%94%A8/%E3%82%B9%E3%83%9E%E3%83%9B%E7%B8%A6A.jpg',
+	'https://fast.kiko-play-niptan.one/media/stream/daily/2025-09-02/RJ01435198/%E3%80%90Track01%E3%80%91%E5%A4%AB%E5%A9%A6%E3%81%AE%E3%82%A4%E3%83%81%E3%83%A3%E3%82%89%E3%81%B6%E5%AD%90%E4%BD%9C%E3%82%8A%E3%82%BB%E3%83%83%E3%82%AF%E3%82%B9%E3%80%90scene01%E3%80%91.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2025-09-02/RJ01435198/%E3%80%90Track02%E3%80%91%E6%84%9B%E6%83%85%E3%81%9F%E3%81%A3%E3%81%B7%E3%82%8A%E3%81%B5%E3%81%95%E3%81%B5%E3%81%95%E3%81%BE%E3%82%93%E6%AF%9B%E8%80%B3%E7%B4%A0%E8%82%A1%E3%80%90scene03%E3%80%91.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2025-09-02/RJ01435198/%E3%80%90Track03%E3%80%91%E7%88%86%E4%B9%B3%E5%A5%A5%E3%81%95%E3%82%93%E3%81%AE%E7%89%9B%E6%9F%84%E3%82%A8%E3%83%AD%E3%83%93%E3%82%AD%E3%83%8B%E3%81%88%E3%81%A3%E3%81%A1%E3%80%90scene05%E3%80%91.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2025-09-02/RJ01435198/%E3%80%90Track04%E3%80%91%E3%81%8A%E9%A2%A8%E5%91%82%E3%81%A7%E6%B1%81%E3%81%BE%E3%81%BF%E3%82%8C%E3%81%A8%E3%82%8D%E3%81%A8%E3%82%8D%E3%82%BB%E3%83%83%E3%82%AF%E3%82%B9%E3%80%90scene07%E3%80%91.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2025-09-02/RJ01435198/%E3%80%90Track05%E3%80%91%E5%A6%8A%E5%A8%A0%E5%A5%A5%E3%81%95%E3%82%93%E3%81%AE%E3%82%B1%E3%83%84%E3%81%BE%E3%82%93%E3%81%93%E3%81%AB%E3%82%BA%E3%83%9C%E3%83%8F%E3%83%A1%E3%80%90scene09%E3%80%91.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2025-09-02/RJ01435198/%E3%80%90Track06%E3%80%91%E9%A4%85%E6%A2%A8%E3%81%82%E3%82%80%E3%81%95%E3%82%93%E3%83%95%E3%83%AA%E3%83%BC%E3%83%88%E3%83%BC%E3%82%AF%E2%99%AA.m4a'
+);
 _(
 	137064,
 	'RJ01413902',
@@ -1224,3 +1225,26 @@ _(
 	'https://raw.kiko-play-niptan.one/media/stream/hvdb/500-599/RJ101337/bakamama_art01.jpg,https://raw.kiko-play-niptan.one/media/stream/hvdb/500-599/RJ101337/bakamama_art02.jpg,https://raw.kiko-play-niptan.one/media/stream/hvdb/500-599/RJ101337/bakamama_art03.jpg,https://raw.kiko-play-niptan.one/media/stream/hvdb/500-599/RJ101337/bakamama_art04.jpg',
 	'https://raw.kiko-play-niptan.one/media/stream/hvdb/500-599/RJ101337/Bakamama.mp3'
 );
+_(
+	136695,
+	'RJ01388021',
+	'Tsubame Yuzuki',
+	'Big Breasts,Femdom,Foot Job,Paizuri,Seduction,Spit,Cheerleader',
+	'誘惑シリーズ',
+	'Seduced by a junior cheerleader and reduced to a loser masochist - Lose, lose, lose!',
+	'[250719][びゅくびゅく亭] チアリーダーの後輩に誘惑されて負けマゾに堕とされろっ～負けろ、負けろ、負けろ～ [RJ01388021]',
+	'https://api.asmr-200.com/api/cover/1388021.jpg?type=main',
+	'https://raw.kiko-play-niptan.one/media/stream/daily/2025-08-20/RJ01388021/%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88/%E3%82%B8%E3%83%A3%E3%82%B1%E3%83%83%E3%83%88%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88%20%E3%83%AD%E3%82%B4%E3%81%AA%E3%81%97ver.jpg',
+	'https://fast.kiko-play-niptan.one/media/stream/daily/2025-08-20/RJ01388021/%E6%9C%AC%E7%B7%A8/WAV/%E6%9C%AC%E7%B7%A8/%E2%91%A0%20%E5%BE%8C%E8%BC%A9%E3%81%AE%E3%83%81%E3%82%A2%E3%83%AA%E3%83%BC%E3%83%80%E3%83%BC.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2025-08-20/RJ01388021/%E6%9C%AC%E7%B7%A8/WAV/%E6%9C%AC%E7%B7%A8/%E2%91%A1%20%E7%89%B9%E5%88%A5%E3%81%AA%E5%BF%9C%E6%8F%B4.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2025-08-20/RJ01388021/%E6%9C%AC%E7%B7%A8/WAV/%E6%9C%AC%E7%B7%A8/%E2%91%A2%20%E7%B5%A1%E3%82%81%E3%81%A8%E3%82%89%E3%82%8C%E3%81%A6.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2025-08-20/RJ01388021/%E6%9C%AC%E7%B7%A8/WAV/%E6%9C%AC%E7%B7%A8/%E2%91%A3%20%E7%94%98%E7%BE%8E%E3%81%AA%E8%AA%98%E6%83%91.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2025-08-20/RJ01388021/%E6%9C%AC%E7%B7%A8/WAV/%E6%9C%AC%E7%B7%A8/%E2%91%A4%20%E8%A3%8F%E5%88%87%E3%82%8A%E3%81%AE%E3%82%BB%E3%83%83%E3%82%AF%E3%82%B9.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2025-08-20/RJ01388021/%E6%9C%AC%E7%B7%A8/WAV/%E6%9C%AC%E7%B7%A8/%E2%91%A5%20%E8%B2%A0%E3%81%91%E3%83%9E%E3%82%BE.m4a'
+);
+// Wait
+// _(
+// 	137247,
+// 	'RJ01427160',
+// 	'Chiroru Oyama,Tsubame Yuzuki',
+// 	'ASMR,Blowjob,Dirty Talk,Fetish,Hand Job,Internal Cumshot,Oho Voice,Older Stepsister,Oneesan,Sister,Vulgar Moans,Harem',
+// 	'',
+// 	'engName',
+// 	'[250808][しゃーぷ] ムレあね【全編ゆるオホ】 [RJ01427160]',
+// 	t0i0a
+// );
