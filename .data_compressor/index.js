@@ -2,9 +2,6 @@ import { existsSync, writeFileSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 
-// Old version
-// import data from './exported-data.js';
-
 import { data } from './storage/index.js';
 import { convertQuotes } from './utils.js';
 

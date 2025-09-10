@@ -15,7 +15,7 @@ node .\.edit-description.js code
 ## Chạy dev-server
 
 ```bash
-node .\.dev-server.js
+node .\.dev\
 ```
 
 ## Note khác
