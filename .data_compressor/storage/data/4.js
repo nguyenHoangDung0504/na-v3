@@ -705,13 +705,13 @@ _(
 	127729,
 	'RJ01302846',
 	'Minase Suzuka',
-	'Fetish,Naughty,Perverted,School,Virgin Female,School Girl,Spit',
+	'Fetish,Naughty,Oho Voice,Perverted,School,Spit,Sweet Love,Virgin Female,Vulgar Moans,School Girl,Spit,Demon,Girlfriend',
 	'',
 	'A school life filled with love and a ruthless busty devil who can destroy the world if she so desires',
 	'その気になれば世界を滅ぼせる冷酷な巨乳悪魔と愛に満ち溢れた学校性活',
-	'https://cdn.glitch.global/d0ba9ac8-9843-4269-aa9a-93830f7c36ff/127729-0.jpg?v=1737190302872',
-	'https://cdn.glitch.global/d0ba9ac8-9843-4269-aa9a-93830f7c36ff/127729-1.jpg?v=1737190303045',
-	'https://cdn.glitch.me/d0ba9ac8-9843-4269-aa9a-93830f7c36ff/127729t1.mp3?v=1737190314020'
+	'https://api.asmr-200.com/api/cover/1302846.jpg?type=main',
+	'https://raw.kiko-play-niptan.one/media/stream/daily/2025-01-19/RJ01302846/04_%E3%83%91%E3%83%83%E3%82%B1%E3%83%BC%E3%82%B8%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88/%E3%83%91%E3%83%83%E3%82%B1%E3%83%BC%E3%82%B8%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88(%E3%83%AD%E3%82%B4%E7%84%A1%E3%81%97).png',
+	'https://fast.kiko-play-niptan.one/media/stream/daily/2025-01-19/RJ01302846/02_%E6%9C%AC%E7%B7%A8(wav)/01.%E3%83%97%E3%83%AD%E3%83%AD%E3%83%BC%E3%82%B0.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2025-01-19/RJ01302846/02_%E6%9C%AC%E7%B7%A8(wav)/02.%E3%83%A1%E3%82%B9%E3%81%AE%E5%8C%82%E3%81%84%E3%81%A8%E5%91%B3%E3%82%92%E4%BD%93%E3%81%AB%E5%8F%A9%E3%81%8D%E8%BE%BC%E3%81%BE%E3%82%8C%E3%81%AA%E3%81%8C%E3%82%89%E4%B9%B3%E9%A6%96%E8%B2%AC%E3%82%81%E6%89%8B%E3%82%B3%E3%82%AD.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2025-01-19/RJ01302846/02_%E6%9C%AC%E7%B7%A8(wav)/03.%E6%B1%97%E8%87%AD%E3%81%84%E4%BD%93%E8%87%AD%E3%81%AE%E9%9B%91%E9%AD%9A%E3%83%9E%E3%83%B3%E6%82%AA%E9%AD%94%E3%81%A8%E6%8A%B1%E3%81%8D%E3%81%A4%E3%81%8D%E4%BA%A4%E5%B0%BE.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2025-01-19/RJ01302846/02_%E6%9C%AC%E7%B7%A8(wav)/04.%E5%AD%A6%E7%B4%9A%E9%96%89%E9%8E%96%E4%B8%AD%E3%81%AB%E4%B9%B3%E9%A6%96%E8%B2%AC%E3%82%81%E3%83%95%E3%82%A7%E3%83%A9%E3%83%81%E3%82%AA.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2025-01-19/RJ01302846/02_%E6%9C%AC%E7%B7%A8(wav)/05.%E6%81%90%E6%80%96%E3%81%A8%E5%BF%AB%E6%84%9F%E3%81%AB%E7%8B%82%E3%82%8F%E3%81%95%E3%82%8C%E3%81%A6%E7%90%86%E6%80%A7%E5%B4%A9%E5%A3%8A%E6%B1%97%E3%81%A0%E3%81%8F%E4%BA%A4%E5%B0%BE.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2025-01-19/RJ01302846/02_%E6%9C%AC%E7%B7%A8(wav)/06.%E4%B8%96%E7%95%8C%E3%82%92%E6%BB%85%E3%81%BC%E3%81%97%E3%81%AA%E3%81%8C%E3%82%89%E6%84%9B%E3%82%92%E6%B7%B1%E3%82%81%E3%82%8B%E7%B4%94%E6%84%9B%E4%BA%A4%E5%B0%BE.m4a'
 );
 _(
 	125142,
@@ -1248,3 +1248,27 @@ _(
 // 	'[250808][しゃーぷ] ムレあね【全編ゆるオホ】 [RJ01427160]',
 // 	t0i0a
 // );
+_(
+	101618,
+	'RJ01098713',
+	'Soramame',
+	'Ahegao,Hairy,Bunny Girl,Armpit,Big Breasts,Blowjob,Burping,Classmate,Creampie,Deepthroat,Dirty Talk,Fart,Fetish,Internal Cumshot,Naughty,Oho Voice,Oral Cumshot,Perverted,Rape,School Girl,School Uniform,Vulgar Moans,Anal,Double Penetration',
+	'',
+	'Sumikawa-san, người bạn bàn bên...',
+	'隣の席の澄川さんは…',
+	'https://api.asmr-200.com/api/cover/1098713.jpg?type=main',
+	'https://raw.kiko-play-niptan.one/media/stream/daily/2023-10-19/RJ01098713/%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88/%E8%A1%A8%E7%B4%99%E7%B5%B5(%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB%E3%81%AA%E3%81%97).jpg,https://raw.kiko-play-niptan.one/media/stream/daily/2023-10-19/RJ01098713/%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88/%E8%A1%A8%E7%B4%99%E7%B5%B5%EF%BC%BF%E5%B7%AE%E5%88%86%EF%BC%91.jpg,https://raw.kiko-play-niptan.one/media/stream/daily/2023-10-19/RJ01098713/%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88/%E8%A1%A8%E7%B4%99%E7%B5%B5%EF%BC%BF%E5%B7%AE%E5%88%86%EF%BC%92.jpg',
+	'https://fast.kiko-play-niptan.one/media/stream/daily/2023-10-19/RJ01098713/%E6%9C%AC%E7%B7%A8/SE%E3%81%82%E3%82%8A/7%EF%BC%8F20.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2023-10-19/RJ01098713/%E6%9C%AC%E7%B7%A8/SE%E3%81%82%E3%82%8A/7%EF%BC%8F20%E3%80%90%E2%98%86%E2%98%86%E2%98%86%E3%81%8A%E3%81%A3%E3%81%95%E3%82%93%E3%83%81%E3%83%B3%E3%83%9D%E3%81%97%E3%82%83%E3%81%B6%E3%82%8A%E3%81%BE%E3%81%8F%E3%82%8A%E7%94%9F%E9%85%8D%E4%BF%A1%E2%98%86%E2%98%86%E2%98%86%E3%80%91.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2023-10-19/RJ01098713/%E6%9C%AC%E7%B7%A8/SE%E3%81%82%E3%82%8A/7%EF%BC%8F22.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2023-10-19/RJ01098713/%E6%9C%AC%E7%B7%A8/SE%E3%81%82%E3%82%8A/7%EF%BC%8F22%E3%80%90%E2%98%86%E2%98%86%E2%98%86%E3%81%8A%E3%81%A3%E3%81%95%E3%82%93%E3%83%81%E3%83%B3%E3%83%9D%E5%97%85%E3%81%8E%E6%AF%94%E3%81%B9%E4%BC%81%E7%94%BB%E2%98%86%E2%98%86%E2%98%86%E3%80%91.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2023-10-19/RJ01098713/%E6%9C%AC%E7%B7%A8/SE%E3%81%82%E3%82%8A/7%EF%BC%8F25.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2023-10-19/RJ01098713/%E6%9C%AC%E7%B7%A8/SE%E3%81%82%E3%82%8A/7%EF%BC%8F25%E3%80%90%E2%98%86%E2%98%86%E2%98%863%E6%97%A5%E6%9C%AA%E5%85%A5%E6%B5%B4!%E6%B1%97%E3%82%AF%E3%82%B5%E3%81%99%E3%81%BF%E3%81%99%E3%81%BF%E5%85%A8%E8%BA%AB%E3%82%B3%E3%82%AD%E3%81%BE%E3%81%8F%E3%82%8A%E7%94%9F%E9%85%8D%E4%BF%A1%E2%98%86%E2%98%86%E2%98%86%E3%80%91.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2023-10-19/RJ01098713/%E6%9C%AC%E7%B7%A8/SE%E3%81%82%E3%82%8A/7%EF%BC%8F28.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2023-10-19/RJ01098713/%E6%9C%AC%E7%B7%A8/SE%E3%81%82%E3%82%8A/7%EF%BC%8F28%E3%80%90%E2%98%86%E2%98%86%E2%98%86%E3%82%B6%E3%83%BC%E3%83%A1%E3%83%B3%E6%B5%A3%E8%85%B8%E4%BC%81%E7%94%BB!%E3%80%80%E3%82%B6%E3%83%BC%E6%B1%81%E3%82%82%E3%82%89%E3%81%95%E3%81%9A%E3%81%AB10%E4%BA%BA%E3%83%8F%E3%83%A1%E5%80%92%E3%81%9B%E3%82%8B%E3%81%8B%E7%94%9F%E9%85%8D%E4%BF%A1%E2%98%86%E2%98%86%E2%98%86%E3%80%91.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2023-10-19/RJ01098713/%E6%9C%AC%E7%B7%A8/SE%E3%81%82%E3%82%8A/8%EF%BC%8F1.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2023-10-19/RJ01098713/%E6%9C%AC%E7%B7%A8/%E3%82%B2%E3%83%83%E3%83%97%E3%81%BE%E3%81%A8%E3%82%81/%E3%82%B2%E3%83%83%E3%83%97%E3%81%BE%E3%81%A8%E3%82%81.m4a'
+);
+_(
+	107979,
+	'RJ01127317',
+	'Kaede Akino',
+	'Burping,Dirty Talk,Fetish,Hand Job,Masturbation Support,No Penetrative,Successive Orgasms,Twins,Sisters,Vulgar Moans,Harem',
+	'',
+	'Tôi muốn được kẹp giữa những tiếng ợ dâm đãng của hai JK sạch sẽ và gọn gàng',
+	'【生ゲップ】清楚なJKのドスケベ生ゲップに挟まれたい',
+	'https://api.asmr-200.com/api/cover/1127317.jpg?type=main',
+	'https://raw.kiko-play-niptan.one/media/stream/daily/2024-01-30/RJ01127317/%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88/%E3%83%AD%E3%82%B4%E3%81%AA%E3%81%97.jpg',
+	'https://fast.kiko-play-niptan.one/media/stream/daily/2024-01-30/RJ01127317/%E5%8A%B9%E6%9E%9C%E9%9F%B3%E3%81%82%E3%82%8A/00.%E3%83%97%E3%83%AD%E3%83%AD%E3%83%BC%E3%82%B0.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2024-01-30/RJ01127317/%E5%8A%B9%E6%9E%9C%E9%9F%B3%E3%81%82%E3%82%8A/01.%E6%81%A5%E3%81%9A%E3%81%8B%E3%81%97%E3%81%8C%E3%82%8A%E3%81%AA%E3%81%8C%E3%82%89%E3%81%AE%E3%82%A8%E3%83%AD%E3%82%B2%E3%83%83%E3%83%97.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2024-01-30/RJ01127317/%E5%8A%B9%E6%9E%9C%E9%9F%B3%E3%81%82%E3%82%8A/02.%E3%83%89%E3%82%B9%E3%82%B1%E3%83%99%E6%95%99%E8%82%B2%EF%BC%88%E5%8D%8A%E5%B9%B4%E5%BE%8C%EF%BC%89.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2024-01-30/RJ01127317/%E5%8A%B9%E6%9E%9C%E9%9F%B3%E3%81%82%E3%82%8A/03.%E5%A7%89%E5%A6%B9%E5%96%A7%E5%98%A9%EF%BC%88%E4%B8%80%E5%B9%B4%E5%BE%8C%EF%BC%89.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2024-01-30/RJ01127317/%E5%8A%B9%E6%9E%9C%E9%9F%B3%E3%81%82%E3%82%8A/EX.%E3%82%B2%E3%83%83%E3%83%97%E3%81%AE%E3%81%BF.m4a'
+);

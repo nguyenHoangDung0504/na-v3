@@ -1,0 +1,30 @@
+- Content_Des
+	Sau khi thổ lộ tình cảm với một bạn nữ cùng lớp, cô ấy đã bất ngờ chấp nhận lời tỏ tình của bạn.
+	Tuy nhiên, thân phận thực sự của cô ấy là một con quỷ nguy hiểm đang âm mưu hủy diệt thế giới.
+
+- Character_Des
+	str:Ruin
+br:
+	- Con quỷ hủy diệt.
+	- Cô ấy có tính cách lạnh lùng và tàn nhẫn.
+	- Cô ấy đổ mồ hôi nhiều và có mùi cơ thể nồng.
+	- Cô ấy có thể phá hủy bất cứ thứ gì cô ấy muốn.
+	
+- Track_Des
+	▼01. Lời mở đầu [05:19]
+	[Trò chuyện]
+hr:
+	▼02. Trêu chọc núm vú và thủ dâm trong khi mùi hương và vị giác của phụ nữ được truyền vào cơ thể [23:55]
+	[Trêu chọc núm vú / Mát-xa ngực / Hôn sâu / Nước bọt / Hơi thở có mùi / Trêu chọc mùi hương / Tiếp xúc thân mật / Thầm thì / Nuốt nước bọt]
+hr:
+	▼03. Ôm ấp và giao phối với một con quỷ yếu đuối, mồ hôi nhễ nhại, cơ thể bốc mùi [20:16]
+	[Ôm ấp tư thế truyền thống / Rên rỉ / Mất trinh / Thử thách mùi hương / Tiếp xúc thân mật / Quyến rũ / Thì thầm / Nói "thích" liên tục / Quan hệ không bao / Xuất tinh vào âm đạo]
+hr:
+	▼04. Trêu chọc núm vú và thổi kèn khi lớp học kết thúc [19:33]
+	[Thổi kèn / Cổ ngực / Hít tinh vào dương vật / Quyến rũ / Thì thầm / Xuất tinh vào miệng / Nuốt tinh]
+hr:
+	▼05. Phát điên vì sợ hãi và khoái cảm, một buổi ân ái đẫm mồ hôi nơi lý trí tan vỡ [20:00]
+	[Ôm trong tư thế cowgirl / Rên rỉ / Tống tiền / Thử thách núm vú / Hôn sâu / Nước bọt / Hơi thở hôi / Thổi kèn / Tiếp xúc thân mật / Quyến rũ / Thì thầm / Nói "thích" liên tục / Quan hệ không bao / Xuất tinh vào âm đạo]
+hr:
+	▼06. Tình yêu thuần khiết, làm tình yêu thêm sâu sắc [19:43]
+	[Ôm trong tư thế cowgirl / Rên rỉ / Chơi núm vú / Hôn sâu / Tiếp xúc thân mật / Quyến rũ / Thầm thì / Nói "thích" liên tục / Quan hệ không bao / Xuất tinh vào âm đạo]

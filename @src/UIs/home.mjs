@@ -209,7 +209,13 @@ function initRenderers(db, UIbindings) {
 		binding._root.dataset.code = code;
 		binding._root.dataset.id = `link-to:${RJcode}`;
 		binding.img.alt = ` - Thumbnail:${code}`;
-		binding.img.src = `${await db.prefixies.get(thumbnail.prefixID)}${thumbnail.name}`;
+
+		// Đề phòng glitch sập
+		const imgSrc = `${await db.prefixies.get(thumbnail.prefixID)}${thumbnail.name}`;
+		binding.img.src = imgSrc.includes('glitch')
+			? `https://api.asmr-200.com/api/cover/${RJcode.replace('RJ', '')}.jpg?type=main`
+			: imgSrc;
+
 		binding.pRJcode.textContent = RJcode;
 		binding.pEngname.textContent = eName;
 		binding.pEngname.title = eName;

@@ -1,0 +1,50 @@
+- Content_Des
+	Hai chị em sinh đôi xuất thân từ một gia đình danh giá đã là học sinh, nhưng cha mẹ họ đã sắp đặt cho họ kết hôn.
+	Học tại một trường nữ sinh, họ không có kinh nghiệm với đàn ông và lo lắng về những gì sẽ xảy ra sau khi kết hôn.
+	Nếu họ bị yêu cầu ly hôn vì không hợp nhau về mặt tình dục, điều đó sẽ làm hoen ố danh tiếng của gia đình...
+	Để ngăn chặn điều này xảy ra, cặp song sinh được người lao công nam duy nhất của trường (bạn) hướng dẫn cách làm hài lòng đàn ông.
+	Tuy nhiên, bạn dạy họ những kiến ​​thức tình dục sai trái.
+	Hai chị em sinh đôi ngoan ngoãn làm theo chỉ dẫn của bạn và dần dần bị biến thành những người phụ nữ hư hỏng.
+
+- Character_Des
+	str:Todo Eri (Chị gái)
+	str:Todo Shiori (Em gái)
+br:
+	Hai chị em sinh đôi xuất thân từ một gia đình danh giá.
+	Họ học hành xuất sắc và có cuộc sống học tập chăm chỉ xứng đáng với gia đình danh giá của mình.
+	Mặc dù tính cách nghiêm túc, cơ thể của họ đã trở thành những ham muốn dâm dục.
+	Họ không biết gì về đàn ông và tin tất cả những gì người khác nói.
+
+- Track_Des
+	■00. Lời mở đầu (2:39)
+hr:
+	■01. Ợ hơi khiêu gợi e thẹn (29:30)
+	(Nói bậy/Ợ hơi)
+br:
+	Ờ, "Thủ dâm?"... Vậy ra chú gọi hành động cọ xát dương vật bằng chiếc nhẫn trên ngón tay là thủ dâm à?
+
+	Hừm... Ra vậy... Thủ dâm là một hành động sinh sản được mô phỏng!
+
+	Nói cách khác... Nếu cháu có thể giúp một người đàn ông thủ dâm một cách khoái lạc, thì cháu đang làm chú hài lòng... Đó là điều chú muốn nói đấy!
+
+	Ồ, ồ, ồ... Và, và, nó sắp ra rồi... Nó sắp ra rồi... Chú ơi, cháu sắp ra rồi... <Geeeeeeep> À... Không... Xấu hổ quá.
+hr:
+	■02. Giáo dục biến thái (Sáu tháng sau) (27:31)
+	(Nói bậy/Ợ hơi/Giả lợn/Đánh đòn)
+br:
+	Cháu sẽ hành động giống lợn hơn nữa để chú có thể thủ dâm.
+	Cứ tự sướng thỏa thích, dùng em gái trơ trẽn đang ve vãn con cặc của chú làm bữa tiệc của chú đi.
+	H, huh... Huff huff huff huff huff, huff huff... Mmmm... Huff huff, huff huff... Buh, buh, buh buh,... Huff huff huff huff huff!!
+hr:
+	■03. Cuộc chiến chị em (Một năm sau) (29:03)
+	(Nói bậy/Ợ/Đối đầu chị em/Đối đầu Ợ/Đối đầu giả heo)
+br:
+	Shiori! Đây là một cuộc thi! Kẻ thua cuộc phải dọn sạch chất bẩn trên người chú!
+	Ừm, chú ơi, cháu muốn tiếng ợ nóng bỏng vang vọng trong con cặc của chú.
+	Làm ơn hãy thủ dâm theo tiếng ợ của cháu đi.
+	Ngh... Ngh... Mhmm... Mhmm, Ư, Ư, Ư... À, sắp rồi... Cháu sắp xuất tinh rồi, cháu sắp xuất tinh rồi... Fghh...
+hr:
+	■EX. Chỉ ợ (10:02)
+	(Ợ/Tổng hợp/Tóm tắt)
+	Đây là bản tổng hợp âm thanh chỉ gồm những tiếng ợ.
+	
