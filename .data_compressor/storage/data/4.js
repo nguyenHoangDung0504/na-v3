@@ -654,52 +654,28 @@ _(
 	'https://cdn.glitch.me/d0ba9ac8-9843-4269-aa9a-93830f7c36ff/112855t1.mp3?v=1737190022443'
 );
 _(
-	101971,
-	'RJ01098500',
-	'Sarah Ayumi',
-	'Anal,Blowjob,Crossdress',
-	'男の娘にフェラチオしたい',
-	"I want to give a blowjob to a boy Iori-kun's case ~ Every day is healed by a sweet and completely positive penis ~",
-	'男の娘にフェラチオしたい いおりくんの場合 ～あまあま全肯定おちんちんに癒される毎日～',
-	'https://cdn.glitch.global/d0ba9ac8-9843-4269-aa9a-93830f7c36ff/101971-0.jpg?v=1737190075640',
-	'https://cdn.glitch.global/d0ba9ac8-9843-4269-aa9a-93830f7c36ff/101971-1.jpg?v=1737190075386',
-	'https://cdn.glitch.me/d0ba9ac8-9843-4269-aa9a-93830f7c36ff/101971t1.mp3?v=1737190084951'
-);
-_(
 	126682,
 	'RJ01282001',
 	'Haru Koyama',
-	'Blowjob,Incest,Magical Girl,Sister,Tentacle,Younger Sister,Yandere',
+	'Blowjob,Magical Girl,Blowjob,Hypnosis,Incest,Sister,Tentacle,Yandere,Younger Sister',
 	'',
-	'The Fall of the Strongest Magical Girl Misty Holia ~The Fall of My Sister~',
+	'Sự sa ngã của cô gái phép thuật mạnh nhất - Misty Holia ~Sự sa ngã của cô em gái ruột~',
 	'最強魔法少女ミスティホーリアの陥落～実妹悪堕計画～',
-	'https://cdn.glitch.global/d0ba9ac8-9843-4269-aa9a-93830f7c36ff/126682-0.jpg?v=1737190139785',
-	'https://cdn.glitch.global/d0ba9ac8-9843-4269-aa9a-93830f7c36ff/126682-1.jpg?v=1737190140626,https://cdn.glitch.global/d0ba9ac8-9843-4269-aa9a-93830f7c36ff/126682-2.jpg?v=1737190140649,https://cdn.glitch.global/d0ba9ac8-9843-4269-aa9a-93830f7c36ff/126682-3.jpg?v=1737190139895',
-	'https://cdn.glitch.me/d0ba9ac8-9843-4269-aa9a-93830f7c36ff/126682t1.mp3?v=1737190150075'
-);
-_(
-	99569,
-	'RJ01085267',
-	'Haru Amachi',
-	'Dirty Talk,Ear Licking,Paizuri',
-	'',
-	'Cock etiquette',
-	'チンポ礼節 【バイノーラル】',
-	'https://cdn.glitch.global/d0ba9ac8-9843-4269-aa9a-93830f7c36ff/99569-0.jpg?v=1737190189713',
-	'https://cdn.glitch.global/d0ba9ac8-9843-4269-aa9a-93830f7c36ff/99569-1.jpg?v=1737190189372',
-	'https://cdn.glitch.me/d0ba9ac8-9843-4269-aa9a-93830f7c36ff/99569t1.mp3?v=1737190204547,https://cdn.glitch.global/d0ba9ac8-9843-4269-aa9a-93830f7c36ff/99569omake.mp3?v=1737190190939'
+	'https://api.asmr-200.com/api/cover/1282001.jpg?type=main',
+	'https://raw.kiko-play-niptan.one/media/stream/daily/2024-12-27/RJ01282001/%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88/%E3%82%B5%E3%83%A0%E3%83%8D%E6%96%87%E5%AD%97%E7%84%A1%E3%81%97.PNG,https://raw.kiko-play-niptan.one/media/stream/daily/2024-12-27/RJ01282001/%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88/%E7%AC%AC5%E3%83%95%E3%82%A7%E3%82%A4%E3%82%BA.PNG,https://raw.kiko-play-niptan.one/media/stream/daily/2024-12-27/RJ01282001/%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88/%E7%AB%8B%E3%81%A1%E7%B5%B5%E6%96%87%E5%AD%97%E7%84%A1%E3%81%97.PNG',
+	'https://fast.kiko-play-niptan.one/media/stream/daily/2024-12-27/RJ01282001/%E6%9C%AC%E7%B7%A8/1.FIRST%20PHASE.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2024-12-27/RJ01282001/%E6%9C%AC%E7%B7%A8/2.HYPNO%20PHASE.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2024-12-27/RJ01282001/%E6%9C%AC%E7%B7%A8/3.BRAINWASH%20PHASE.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2024-12-27/RJ01282001/%E6%9C%AC%E7%B7%A8/4.NEGATIVE%20PHASE.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2024-12-27/RJ01282001/%E6%9C%AC%E7%B7%A8/5.CORRPUPT%20PHASE.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2024-12-27/RJ01282001/%E6%9C%AC%E7%B7%A8/6.REINCARNATION%20PHASE.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2024-12-27/RJ01282001/%E6%9C%AC%E7%B7%A8/7.DARKNESS%20PHASE.m4a'
 );
 _(
 	128703,
 	'RJ01308666',
 	'双葉すずね',
-	'Big Breasts,Blowjob,Cheerleader,Oral Cumshot,Ponytail,Tease,Whispering',
+	'Blowjob,Cheerleader,Big Breasts,Oho Voice,Oral Cumshot,Ponytail,Seduction,Tease,Vulgar Moans,Whispering,Reverse NTR',
 	'万華学園シリーズ',
-	'After-school lesson with big-breasted cheerleader Chie Aizawa♪',
+	'Bài học sau giờ học với cô nàng cổ động viên ngực khủng Chie Aizawa ♪',
 	'巨乳チアガールの愛沢千恵に迫られる放課後レッスン♪【あまあま×寝取りJK】',
-	'https://cdn.glitch.global/d0ba9ac8-9843-4269-aa9a-93830f7c36ff/128703-0.jpg?v=1737190267641',
-	'https://cdn.glitch.global/d0ba9ac8-9843-4269-aa9a-93830f7c36ff/128703-1.jpg?v=1737190268291,https://cdn.glitch.global/d0ba9ac8-9843-4269-aa9a-93830f7c36ff/128703-2.jpg?v=1737190269265,https://cdn.glitch.global/d0ba9ac8-9843-4269-aa9a-93830f7c36ff/128703-3.jpg?v=1737190268186',
-	'https://cdn.glitch.me/d0ba9ac8-9843-4269-aa9a-93830f7c36ff/128703t1.mp3?v=1737190270796'
+	'https://api.asmr-200.com/api/cover/1308666.jpg?type=main',
+	'https://raw.kiko-play-niptan.one/media/stream/daily/2025-02-05/RJ01308666/%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88/%E3%80%90%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88%E3%83%BB%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB%E3%83%AD%E3%82%B4%E3%81%AA%E3%81%97%E3%80%91%E3%83%81%E3%82%A2%E9%83%A8JK.jpg,https://raw.kiko-play-niptan.one/media/stream/daily/2025-02-05/RJ01308666/%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88/%E5%A3%81%E7%B4%99/PC%E7%94%A8.jpg,https://raw.kiko-play-niptan.one/media/stream/daily/2025-02-05/RJ01308666/%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88/%E5%A3%81%E7%B4%99/%E3%82%B9%E3%83%9E%E3%83%9B%E7%94%A8.jpg',
+	'https://fast.kiko-play-niptan.one/media/stream/daily/2025-02-05/RJ01308666/SE%E3%81%82%E3%82%8A/%E3%83%81%E3%82%A2JK%EF%BC%91(SE%E3%81%82%E3%82%8A).m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2025-02-05/RJ01308666/SE%E3%81%82%E3%82%8A/%E3%83%81%E3%82%A2JK%EF%BC%92(SE%E3%81%82%E3%82%8A).m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2025-02-05/RJ01308666/SE%E3%81%82%E3%82%8A/%E3%83%81%E3%82%A2JK%EF%BC%93(SE%E3%81%82%E3%82%8A).m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2025-02-05/RJ01308666/%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8/%EF%BC%90%EF%BC%8E%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8(%E9%80%9A%E3%81%97).m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2025-02-05/RJ01308666/%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8/%EF%BC%91%EF%BC%8E%E3%83%A1%E3%83%BC%E3%83%AB%E7%9D%80%E4%BF%A1%E3%83%BB%E5%8F%97%E4%BF%A1.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2025-02-05/RJ01308666/%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8/%EF%BC%92%EF%BC%8E%E3%82%B4%E3%83%9F%E7%AE%B1%E3%82%92%E7%A9%BA%E3%81%AB.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2025-02-05/RJ01308666/%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8/%EF%BC%93%EF%BC%8E%E3%82%A8%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2025-02-05/RJ01308666/%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8/%EF%BC%94%EF%BC%8E%E8%B5%B7%E5%8B%95.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2025-02-05/RJ01308666/%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8/%EF%BC%95%EF%BC%8E%E7%B5%82%E4%BA%86.m4a'
 );
 _(
 	127729,
@@ -1264,7 +1240,7 @@ _(
 	107979,
 	'RJ01127317',
 	'Kaede Akino',
-	'Burping,Dirty Talk,Fetish,Hand Job,Masturbation Support,No Penetrative,Successive Orgasms,Twins,Sisters,Vulgar Moans,Harem',
+	'Burping,Dirty Talk,Fetish,Hand Job,Masturbation Support,No Penetrative,Successive Orgasms,Twins,Sisters,Vulgar Moans,Harem,School Girl,Whispering',
 	'',
 	'Tôi muốn được kẹp giữa những tiếng ợ dâm đãng của hai JK sạch sẽ và gọn gàng',
 	'【生ゲップ】清楚なJKのドスケベ生ゲップに挟まれたい',

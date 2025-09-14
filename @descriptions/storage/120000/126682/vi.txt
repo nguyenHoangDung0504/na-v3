@@ -1,0 +1,97 @@
+- Content_Des
+	Phó Tư lệnh Chi nhánh Nhật Bản của Dark Gravity – Black Eclipse (Bạn):
+br:
+	Sau khi cha mẹ bị thiệt mạng trong một cuộc tấn công của tổ chức Dark Gravity, hai anh em chỉ còn biết nương tựa vào nhau để sống tiếp. Không biết là may mắn hay bất hạnh, thời điểm cha mẹ mất lại đúng lúc bạn sắp tốt nghiệp và chuẩn bị đi làm, nên bạn đã nhanh chóng xin được việc tại một công ty bình thường ngay sau tang lễ.
+br:
+	Tuy nhiên, chỉ ba tháng sau đó, cuộc đời bạn đã thay đổi hoàn toàn.
+br:
+	Hôm đó, khi bạn đang trên đường đến công ty như mọi ngày, bất ngờ bị một người lạ gọi lại trên phố. Ban đầu bạn định phớt lờ vì tưởng là người phát tờ rơi như thường lệ, nhưng rồi bạn bất chợt khựng lại khi nghe thấy một câu nói kỳ lạ phát ra từ miệng người đó:
+br:
+	“Chúng tôi đang giữ thi thể cha mẹ bạn.”
+br:
+	Bạn đứng sững lại.
+br:
+	“Tôi không nói dối. Tôi đến đây để chiêu mộ bạn. Với tư cách là ứng viên cho vị trí cán bộ cấp cao của tổ chức Dark Gravity. Phí ký hợp đồng là 100 triệu yên. Tất nhiên, danh tính và quá khứ của bạn sẽ tuyệt đối không bị lộ, và bạn cũng hoàn toàn không cần phải trực tiếp ra tay làm gì cả. Bạn chỉ cần dùng ma lực của mình để chỉ huy và điều phối ma vật. Nếu sau này bạn cảm thấy không phù hợp, có thể nghỉ bất cứ lúc nào. Khoản ký hợp đồng không cần hoàn trả. An toàn của người thân bạn, chúng tôi cũng đảm bảo tuyệt đối.”
+br:
+	Một lời đề nghị nghe quá hoang đường, đến mức như chuyện trẻ con bịa ra. Ngay từ chuyện "hợp đồng 100 triệu yên" đã khiến mọi thứ trở nên khó tin. Tuy nhiên, người đàn ông kia còn tiếp tục níu kéo bạn bằng cách đề nghị đưa 1 triệu yên chỉ để bạn nghe chuyện, nên bạn đành miễn cưỡng đi theo.
+br:
+	Kết quả, người đàn ông đó cho biết rằng bạn sở hữu tố chất hiếm có về "ma lực bóng tối".
+br:
+	Khi đang sống trong điều kiện kinh tế không mấy dư dả, lại được đưa ra một khoản tiền lớn ngay trước mắt, bạn không thể chống lại sự cám dỗ. Cuối cùng, bạn đã ký hợp đồng và trở thành “ứng viên cán bộ cấp cao của tổ chức hắc ám.”
+br:
+	“Lưu ý: Việc tham gia tổ chức hắc ám được giữ kín hoàn toàn, đặc biệt không được cho em gái bạn biết.”
+
+- Character_Des
+	Ma pháp thiếu nữ mạnh nhất trong 100 năm – Holy Misty Holia (Em gái bạn)
+	img:https://img.dlsite.jp/modpub/images2/parts/RJ01283000/RJ01282001/cac8d182f08ae836b88f8a87a06a3321.jpg
+br:
+	Giống như bạn, cô đã đánh thức được tiềm năng ma lực thánh mạnh mẽ bên trong sau khi mất cha mẹ trong một cuộc tấn công của tổ chức Dark Gravity. Nhận thấy tài năng hiếm có đó, Hiệp hội Ma Pháp Thiếu Nữ lập tức đưa ra mức phí hợp đồng lớn để chiêu mộ cô vào hàng ngũ ma pháp thiếu nữ.
+br:
+	Cuộc sống gia đình vốn khó khăn nên cô gần như không có lý do gì để từ chối. Sau khi ký hợp đồng, cô bắt đầu hoạt động tích cực khắp nơi trên thế giới với tư cách là một ma pháp thiếu nữ.
+br:
+	Với danh xưng “Ma pháp thiếu nữ xuất hiện một lần trong 100 năm”, cô là một pháp sư cấp SS sở hữu lượng ma lực vượt trội. Những chiến công của cô không chỉ nổi tiếng trong nội bộ Hiệp hội mà còn được người dân bình thường và truyền thông rộng rãi biết đến.
+br:
+	Dù không giỏi trong việc điều khiển ma lực tinh vi, nhưng cô lại sở hữu sức mạnh vượt trội để bù đắp điều đó – nổi bật với lối chiến đấu thiên về sức mạnh áp đảo. Trong số các kỹ năng, đòn tất sát mang thuộc tính thánh [Thánh Pháo Đại Ma Đạo – Galactic Holy] được cho là có sức mạnh xuyên thủng và thanh tẩy bất kỳ quái vật cường đại nào nếu trúng đòn trực diện – chính là minh chứng cho lý do vì sao cô được gọi là ma pháp thiếu nữ mạnh nhất.
+hr:
+	str:Tuy nhiên, đó chỉ là hình ảnh bề ngoài của cô.
+br:
+	Đằng sau ánh hào quang ấy là sự đố kỵ từ chính các đồng đội do cô quá mạnh mẽ, những trách nhiệm nặng nề bị Hiệp hội đơn phương đẩy lên vai, thậm chí không ít lần phải hứng chịu những lời bôi nhọ, công kích vô cớ.
+br:
+	Dù vậy, cô vẫn tiếp tục chiến đấu – vì sự bình yên của thế giới, và hơn hết, để bảo vệ người thân duy nhất còn lại mà cô vô cùng yêu quý, anh trai cô ấy (bạn).
+
+- Track_Des
+	TRACK 1: GIAI ĐOẠN ĐẦU TIÊN (12:24)
+br:
+	Uống một loại thuốc có đặc tính kích thích tình dục ma thuật đen tối, lý trí cô ấy suy giảm, tinh thần hưng phấn tăng lên, bản năng hoạt động mạnh mẽ hơn, và đặc biệt là ham muốn tình dục tăng lên. Hơn nữa, tác dụng mạnh hơn gấp mười lần so với bình thường.
+br:
+	Tỷ lệ duy trì thuộc tính thánh: 93%
+	Mức độ xói mòn bóng tối: 7%
+br:
+	[Thất bại của ma pháp thiếu nữ / Danh tính bí mật của em gái / Đồ uống kích dục / Tăng độ nhạy cảm / Thủ dâm trước mắt / Sờ mó / Xuất tinh / Lên đỉnh]
+hr:
+	TRACK 2: GIAI ĐOẠN THÔI MIÊN (10:01)
+br:
+	Giai đoạn chuyển tiếp thứ hai là trực tiếp đồng hóa tinh trùng hắc ám. Một câu thần chú thôi miên hắc ám được sử dụng để bộc lộ cảm xúc ẩn giấu của em gái, và sau đó nguyên tố hắc ám được hấp thụ từ bên ngoài. Mối quan hệ loạn luân vượt qua ranh giới anh em ruột càng củng cố sự vô đạo đức của cô và làm suy yếu khả năng kháng cự của cô đối với thuộc tính hắc ám.
+br:
+	Tỷ lệ duy trì thuộc tính thánh: 86%
+	Mức độ xói mòn bóng tối: 14%
+br:
+	[Ma thuật thôi miên / Kiểm soát cảm xúc / Giải phóng bản năng / Loạn luân / Suy sụp đạo đức / Thủ dâm thôi miên / Xuất tinh trên mặt]
+hr:
+	TRACK 3: GIAI ĐOẠN RỬA NÃO (13:27)
+br:
+	Ma thuật kích dục được thực hiện bằng sức mạnh ma thuật hắc ám. Hơn nữa, các biện pháp tẩy não được tăng cường bằng cách tăng cường sóng tư tưởng ma thuật, và việc cải tạo đạo đức của em gái và ma pháp thiếu nữMistyhoria được thực hiện một cách nghiêm túc. Hơn nữa, nếu phát hiện sự suy sụp tinh thần hoặc các dấu hiệu suy sụp tương tự do sự gia tăng sóng tư tưởng ma thuật, việc tẩy não sẽ tạm thời bị đình chỉ.
+br:
+	Tỷ lệ duy trì thuộc tính thánh: 71%
+	Mức độ xói mòn bóng tối: 29%
+br:
+	Phép thuật tẩy não / Giải phóng cảm xúc cưỡng bức / Tăng ham muốn / Tiết lộ danh tính thực sự (tiếp tục thôi miên) Cảm xúc thực sự của chị gái / Chia sẻ phép thuật đen tối / Tẩy não bằng miệng và xuất tinh bằng miệng
+hr:
+	TRACK 4: GIAI ĐOẠN SUY YẾU (13:54)
+br:
+	Thích nghi và đồng bộ hóa sức mạnh ma thuật hắc ám. Trạng thái thôi miên. Sức mạnh ma thuật hắc ám, mặc dù yếu, vẫn tiếp tục được duy trì trong cơ thể cô gái phép thuật. Tiềm thức dần trở nên hoạt động mạnh mẽ hơn và bắt đầu nổi lên. Điều này cũng gây ra sự bất ổn trong suy nghĩ và cảm xúc, nhưng không ảnh hưởng đến cơ thể hay tâm trí. Tuy nhiên, hoạt động tình dục tạm thời bị dừng lại.
+br:
+	Tỷ lệ duy trì thuộc tính thánh: 48%
+	Mức độ xói mòn bóng tối: 52%
+br:
+	[Giải phóng tạm thời khỏi sự tẩy não / Tiếp tục trạng thái thôi miên / Thay đổi trí nhớ / Cảm xúc thật của ma pháp thiếu nữ/ Quá khứ bị bắt nạt / Thất vọng / Khinh thường đồng đội / Sự điên loạn ngấm ngầm]
+hr:
+	TRACK 5: GIAI ĐOẠN THA HÓA (11:36)
+br:
+	Sau khi hóa giải thôi miên, bạn tiết lộ danh tính thật của mình với em gái. Rồi những xúc tu do ma thuật hắc ám tạo ra xâm chiếm trực tiếp não cô, khiến những cảm xúc tiêu cực của cô với tư cách là một ma pháp thiếu nữmạnh nhất càng thêm sâu sắc. Điều này càng khiến cô căm ghét chính những cô gái phép thuật, và cô trút hết mọi ham muốn lên anh trai mình bằng giọng nói lảnh lót như chim hót, xua tan mọi nghi ngờ.
+br:
+	Tỷ lệ duy trì thuộc tính thánh: 29%
+	Mức độ xói mòn bóng tối: 71%
+br:
+	[Giải phóng hoàn toàn thôi miên / Tiết lộ sự thật / Xúc tu xâm chiếm trực tiếp não / Cải tạo toàn diện tẩy não cuối cùng / Hút cu piston / Tinh dịch vào miệng / Quyết tâm của em gái]
+hr:
+	TRACK 6: GIAI ĐOẠN TÁI SINH (8:56)
+br:
+	Một ma pháp thiếu nữsa ngã vào vòng xoáy của tà ác. Liên tục bị ma thuật đen tối bào mòn, những thuộc tính thánh thiện của cô cuối cùng cũng bị hủy hoại hoàn toàn, bộ trang phục trắng muốt của cô bị nhuộm đen. Sau đó, cô thổ lộ tất cả tình yêu mà cô đã chôn giấu trong lòng từ thuở nhỏ, và thực sự trở thành một với kẻ cai trị tà ác.
+br:
+	Tỷ lệ duy trì thuộc tính thánh: 7%
+	Mức độ xói mòn thuộc tính bóng tối: 93%
+br:
+	[Sa vào tội lỗi / Tình dục / Tư thế truyền thống / Xuất tinh vào âm đạo / Sự ra đời của cô gái ma thuật đen tối]
+hr:
+	TRACK 7: ??? (19:17)
