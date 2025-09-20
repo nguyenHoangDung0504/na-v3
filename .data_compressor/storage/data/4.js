@@ -1252,7 +1252,7 @@ _(
 	134028,
 	'RJ01377909',
 	'Minami Imaya',
-	'ASMR,Blowjob,Burping,Fetish,Housewife,Wife,Mature Women,Sweet Love',
+	'ASMR,Blowjob,Burping,Fetish,Housewife,Wife,Mature Woman,Sweet Love',
 	'',
 	'Người phụ nữ đã kết hôn ♡ Nuông chiều và ợ hơi. ~Phiên bản Arisa~',
 	'人妻♡甘やかしげっぷ。～ありさの場合～',
@@ -1264,7 +1264,7 @@ _(
 	130086,
 	'RJ01332451',
 	'Yukiko Shinomori',
-	'ASMR,Blowjob,Housewife,Mature Women,Oho Voice,Reverse NTR,Vulgar Moans,Facesitting',
+	'ASMR,Blowjob,Housewife,Mature Woman,Oho Voice,Reverse NTR,Vulgar Moans,Facesitting',
 	'',
 	'Tôi cắm sừng bạn gái đi gặp mặt và quan hệ tình dục không ràng buộc thì gặp mẹ của bạn gái',
 	'【音声×Live2D】オフパコ行ったらかのママに逆NTRされました',
@@ -1276,7 +1276,7 @@ _(
 	129633,
 	'RJ01330452',
 	'奏星イト',
-	'ASMR,Big Breasts,Breast Feeding,Breast Milk,Ear Licking,Housewife,Mature Women,Netori,Oho Voice,Vulgar Moans',
+	'ASMR,Big Breasts,Breast Feeding,Breast Milk,Ear Licking,Housewife,Mature Woman,Netori,Oho Voice,Vulgar Moans',
 	'',
 	'Một người vợ nói tiếng Hakata khuất phục trước khoái cảm và thủ dâm, phun ra dòng sữa đặc và liếm láp, quấn quýt suốt đêm',
 	'【耳舐め/ASMR】博多弁人妻が快楽に負けてオホりながらドピュドピュ濃厚母乳を撒き散らし舐め絡み合う一夜【NTR/KU100/Ear licking】',
@@ -1295,4 +1295,28 @@ _(
 	'https://api.asmr-200.com/api/cover/385221.jpg?type=main',
 	'https://raw.kiko-play-niptan.one/media/stream/daily/2022-04-26/RJ385221/LOVEWhisper%E3%81%84%E3%82%82%E3%81%86%E3%81%A838wall02.jpg',
 	'https://fast.kiko-play-niptan.one/media/stream/daily/2022-04-26/RJ385221/wav/LOVEWhisper%E3%81%84%E3%82%82%E3%81%86%E3%81%A838_SE01.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2022-04-26/RJ385221/wav/LOVEWhisper%E3%81%84%E3%82%82%E3%81%86%E3%81%A838_SE02.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2022-04-26/RJ385221/wav/LOVEWhisper%E3%81%84%E3%82%82%E3%81%86%E3%81%A838_SE03.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2022-04-26/RJ385221/wav/LOVEWhisper%E3%81%84%E3%82%82%E3%81%86%E3%81%A838_SE04.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2022-04-26/RJ385221/wav/LOVEWhisper%E3%81%84%E3%82%82%E3%81%86%E3%81%A838_SE05.m4a'
+);
+_(
+	130538,
+	'RJ01341633',
+	'匿名milf',
+	'Hairy,Incest,Mature Woman,Mature Woman,Milf,Mother,Oho Voice,Pregnancy/Impregnation,Vulgar Moans,Whispering',
+	'背徳のお母さん・ママ作品',
+	'Bạn thèm muốn có một cô em gái nên mẹ đã trở thành "em gái" bạn～ Em gái 50 tuổi của bạn đã sẵn sàng chơi với bạn bao nhiêu tùy thích～',
+	'母親に妹が欲しいと頼んでみたら～50歳の妹!?は悪戯し放題～',
+	'https://api.asmr-200.com/api/cover/1341633.jpg?type=main',
+	'https://img.dlsite.jp/modpub/images2/work/doujin/RJ01342000/RJ01341633_img_smp1.webp',
+	'https://fast.kiko-play-niptan.one/media/stream/daily/2025-04-07/RJ01341633/SE%E5%8A%B9%E6%9E%9C%E9%9F%B3%E3%81%82%E3%82%8A/1.%E3%83%97%E3%83%AD%E3%83%AD%E3%83%BC%E3%82%B0-%E6%81%AF%E5%AD%90%E3%81%AE%E6%80%A7%E7%99%96.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2025-04-07/RJ01341633/SE%E5%8A%B9%E6%9E%9C%E9%9F%B3%E3%81%82%E3%82%8A/2.%E7%AA%81%E7%84%B6%E7%8F%BE%E3%82%8C%E3%81%9F%E3%81%A8%E3%82%93%E3%81%A7%E3%82%82%E3%81%AA%E3%81%84%E5%A6%B9%E3%81%AB%E2%80%A6.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2025-04-07/RJ01341633/SE%E5%8A%B9%E6%9E%9C%E9%9F%B3%E3%81%82%E3%82%8A/3.%E6%84%9B%E5%AD%90%E3%81%AE%E7%9C%9F%E6%84%8F.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2025-04-07/RJ01341633/SE%E5%8A%B9%E6%9E%9C%E9%9F%B3%E3%81%82%E3%82%8A/4.%E3%80%8C%E5%A6%B9%E3%80%8D%E3%81%A8%E4%B8%80%E7%B7%9A%E3%82%92%E8%B6%8A%E3%81%88%E3%81%A6.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2025-04-07/RJ01341633/SE%E5%8A%B9%E6%9E%9C%E9%9F%B3%E3%81%82%E3%82%8A/5.%E3%80%8C%E5%A6%B9%E3%80%8D%E3%81%AE%E8%A1%8C%E7%82%BA%E3%81%AF%E3%80%8C%E6%AF%8D%E3%80%8D%E3%81%AB%E3%82%82%E4%BE%B5%E9%A3%9F%E3%81%97%E3%81%A6%E2%80%A6.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2025-04-07/RJ01341633/SE%E5%8A%B9%E6%9E%9C%E9%9F%B3%E3%81%82%E3%82%8A/6.%E8%A6%AA%E5%AD%90%E3%81%A8%E3%81%97%E3%81%A6%E3%82%82%E9%96%A2%E4%BF%82%E3%82%92%E6%8C%81%E3%81%A3%E3%81%A6%E2%80%A6.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2025-04-07/RJ01341633/SE%E5%8A%B9%E6%9E%9C%E9%9F%B3%E3%81%82%E3%82%8A/7.%E3%82%A8%E3%83%94%E3%83%AD%E3%83%BC%E3%82%B0-%E6%81%AF%E5%AD%90%E3%81%AE%E5%A5%B3%E3%81%AB%E3%81%AA%E3%82%8A%E3%81%BE%E3%81%97%E3%81%9F.m4a'
+);
+_(
+	135381,
+	'RJ01394265',
+	'匿名milf',
+	'Internal Cumshot,Mature Woman,Milf,Mother,Pregnancy/Impregnation,Whispering',
+	'背徳のお母さん・ママ作品',
+	'Bí mật giữa hai mẹ con không thể kể với ai - Mối tình loạn luân của hai mẹ con',
+	'誰にも言えない息子と私の秘密 とある母親の近親相○ケース',
+	'https://api.asmr-200.com/api/cover/1394265.jpg?type=main',
+	'',
+	'https://fast.kiko-play-niptan.one/media/stream/daily/2025-07-18/RJ01394265/SE%E5%8A%B9%E6%9E%9C%E9%9F%B3%E3%81%82%E3%82%8A/1.%E3%83%97%E3%83%AD%E3%83%AD%E3%83%BC%E3%82%B0%20%E7%A7%81%E3%81%AF%E6%81%AF%E5%AD%90%E3%82%92%E6%83%B3%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2025-07-18/RJ01394265/SE%E5%8A%B9%E6%9E%9C%E9%9F%B3%E3%81%82%E3%82%8A/2.%E6%81%AF%E5%AD%90%E3%82%82%E7%A7%81%E3%81%AE%E3%81%93%E3%81%A8%E3%82%92%E2%80%A6.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2025-07-18/RJ01394265/SE%E5%8A%B9%E6%9E%9C%E9%9F%B3%E3%81%82%E3%82%8A/3.%E8%A6%AA%E5%AD%90%E3%81%AE%E7%A7%98%E5%AF%86%E3%81%8C%E5%87%BA%E6%9D%A5%E3%81%9F%E5%A4%9C.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2025-07-18/RJ01394265/SE%E5%8A%B9%E6%9E%9C%E9%9F%B3%E3%81%82%E3%82%8A/4.%E7%A7%81%E3%81%AE%E4%B8%AD%E3%81%AE%E6%82%AA%E9%AD%94%E3%81%8C%E5%9B%81%E3%81%8F.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2025-07-18/RJ01394265/SE%E5%8A%B9%E6%9E%9C%E9%9F%B3%E3%81%82%E3%82%8A/5.%E7%8B%82%E6%B0%97%E3%81%AB%E8%AA%98%E3%81%86%E9%AD%94%E6%B3%95%E3%81%AE%E8%A8%80%E8%91%89.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2025-07-18/RJ01394265/SE%E5%8A%B9%E6%9E%9C%E9%9F%B3%E3%81%82%E3%82%8A/6.%E6%81%AF%E5%AD%90%E3%81%AB%E5%88%9D%E3%82%81%E3%81%A6%E6%8A%B1%E3%81%8B%E3%82%8C%E3%82%8B%E5%A4%9C.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2025-07-18/RJ01394265/SE%E5%8A%B9%E6%9E%9C%E9%9F%B3%E3%81%82%E3%82%8A/7.%E9%A3%A2%E3%81%88%E3%81%9F%E6%AC%B2%E6%9C%9B%E3%81%AF%E6%9E%9C%E3%81%A6%E3%81%AA%E3%81%8F.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2025-07-18/RJ01394265/SE%E5%8A%B9%E6%9E%9C%E9%9F%B3%E3%81%82%E3%82%8A/8.%E6%88%BB%E3%82%8C%E3%81%AA%E3%81%84%E3%81%A8%E3%81%93%E3%82%8D%E3%81%BE%E3%81%A7%E5%A0%95%E3%81%A1%E3%81%A6%E3%81%84%E3%81%8D%E3%81%9F%E3%81%84.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2025-07-18/RJ01394265/SE%E5%8A%B9%E6%9E%9C%E9%9F%B3%E3%81%82%E3%82%8A/9.%E3%82%A8%E3%83%94%E3%83%AD%E3%83%BC%E3%82%B0%20%E8%AA%B0%E3%81%8B%E3%81%B8%E3%81%AE%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8.m4a'
 );

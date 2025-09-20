@@ -1,0 +1,31 @@
+- Content_Des
+	Kaori Fujiwara, một bà mẹ đơn thân 44 tuổi, đột nhiên thấy mình nhìn chằm chằm vào con trai mình.
+
+	Con trai cô đã từ một cậu bé trở thành một người đàn ông trưởng thành, giờ là sinh viên đại học, và cơ thể cường tráng của cậu... cô thấy mình đang nhìn nó với ánh mắt của một người phụ nữ.
+
+	Tôi thật kỳ lạ - một người mẹ, vậy mà tôi không thể tin được mình lại cảm thấy như vậy về con trai mình. Dù cô có tự nhủ bao nhiêu lần đi nữa, cô cũng không thể nói dối.
+
+	Chỉ cần một chút tác động nhỏ nhất cũng có thể gây ra mâu thuẫn giữa cha mẹ và con cái. Và đó chính là lúc điều đó cuối cùng cũng xảy ra với gia đình đơn thân mong manh này. Một câu chuyện về tình yêu và ham muốn bị cấm đoán, vô đạo đức.
+br:
+	Bất kỳ người mẹ và người con nào cũng có thể rơi vào vũng lầy của sự vô đạo đức chỉ với một bước đi sai lầm nhỏ.
+	Chắc chắn điều đó bao gồm cả bạn và mẹ của bạn.
+
+- Character_Des
+	str:Kaori Fujiwara
+
+	Một bà mẹ đơn thân 44 tuổi sống cùng cậu con trai đang học đại học.
+
+	Kể từ khi ly hôn khoảng 20 năm trước, Kaori đã trở thành một y tá, dành toàn bộ thời gian cho công việc và nuôi dạy con cái, không còn thời gian cho sở thích hay chuyện tình cảm.
+
+	Giờ đây, khi việc nuôi dạy con cái đã ổn định và cô có nhiều thời gian hơn để chăm sóc bản thân, tâm trí và cơ thể cô bắt đầu cảm thấy cô đơn...
+	
+- Track_Des
+	1. Lời mở đầu: Người mẹ nghĩ về con trai mình.
+	2. Người con trai cũng nghĩ về mẹ...
+	3. Đêm mà hai mẹ con tạo nên bí mật.
+	4. Con quỷ bên trong thì thầm.
+	5. Những lời nói mê hoặc dẫn đến sự cám dỗ.
+	6. Đêm đầu tiên làm tình của hai mẹ con.
+	7. Những ham muốn khao khát của là vô tận.
+	8. Mong muốn sa ngã đến mức không thể quay lại.
+	9. Lời kết: Một thông điệp gửi đến ai đó.

@@ -1,0 +1,48 @@
+- Content_Des
+	Khi người mẹ đơn thân Aiko ngày càng già đi, cô bắt đầu lo lắng về mối quan hệ với đứa con trai duy nhất.
+
+	Con trai cô đã trở nên lạnh nhạt với cô trong những năm tháng dễ bị ảnh hưởng. Ngay cả khi cô cố gắng giao tiếp với con, nó cũng chỉ cằn nhằn cô, chỉ để giữ khoảng cách với cô...
+
+	Một ngày nọ, khi đang dọn dẹp phòng con trai, cô tìm thấy một cuốn sách khiêu dâm dưới gầm giường. Hơn nữa, đó lại là một bộ manga về em gái...
+
+	Để gần gũi hơn với con trai mình! Để chữa trị chứng cuồng dâm kỳ lạ của con!
+
+	Quyết tâm hoàn thành bổn phận làm mẹ, Aiko vạch ra một kế hoạch và thực hiện nó...
+hr:
+	Khi bạn về nhà, mẹ bạn trông như thế này:
+	<img style="width:100%" src=https://img.dlsite.jp/modpub/images2/work/doujin/RJ01342000/RJ01341633_img_smp1.webp>
+
+	Onii-chan ơi...
+	Ai cảm thấy... có gì đó lạ quá.
+
+	Quần lót của em ướt hết rồi, cứ như em vừa tè dầm vậy...
+
+	Aa, háng em ngứa quá...
+
+	Anh cởi đồ em ra được không, anh?
+
+	Làm ơn xoa háng Ai đi...
+hr:
+	Niềm đam mê của bà ấy với việc mặc đồ bơi và đồng phục thủy thủ cho phụ nữ trưởng thành đã trở nên quá mức kiểm soát...
+	Bạn đã yêu cầu bà ấy trở thành một học sinh tiểu học.
+	Không phải một người phụ nữ trưởng thành bình thường, mà là một người mẹ. Mẹ ruột của bạn.
+	Bạn nghĩ rằng nếu bà ấy là một học sinh tiểu học, bà ấy vẫn chưa có kinh nguyệt, nên việc xuất tinh vào bên trong bà ấy mỗi ngày cũng không sao...
+
+- Character_Des
+	str:Sonoda Aiko (Cosplay thành Ai)
+	50 tuổi
+br:
+	Một bà mẹ đơn thân sống với cậu con trai duy nhất.
+	Cô rất trân trọng đứa con trai sinh ra khi đã ngoài 30 tuổi, nhưng gần đây cô cảm thấy khoảng cách giữa hai người và lo lắng không biết phải cư xử với con như thế nào.
+br:
+	Kể từ khi chia tay chồng, Aiko sống một cuộc sống không đàn ông. Lo lắng về việc tăng cân và lão hóa ở tuổi trung niên, cô nghĩ mình đã từ bỏ việc làm phụ nữ, nhưng...
+
+- Track_Des
+	1. Mở đầu - Khuynh hướng tình dục của con trai
+	2. Cô "em gái" khó tin đột nhiên xuất hiện...
+	3. Ý định thực sự của Aiko
+	4. Vượt qua ranh giới với "em gái"
+	5. Hành động của "em gái" cũng ảnh hướng đến "mẹ"...
+	6. Mối quan hệ của chúng ta là mẹ - con mà
+	7. Kết thúc - Mẹ trở thành người phụ nữ của con trai
+	
