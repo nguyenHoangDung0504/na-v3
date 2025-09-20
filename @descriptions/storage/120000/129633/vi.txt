@@ -1,0 +1,51 @@
+- Content_Des
+	"Tôi biết mình không nên... nhưng sữa đang chảy ra từ ngực tôi...!"
+
+	Một ngày nọ, Tsukino Hoshikawa, một phụ nữ đã có chồng, đi uống rượu với một đồng nghiệp cấp dưới (bạn).
+	Do một căn bệnh bí ẩn khiến cô ấy tiết sữa, cô ấy đột nhiên chuyển đến sống cùng nhà với bạn.
+	Thể trạng và lịch trình bận rộn là nguyên nhân khiến cô không phản ứng kịp...
+	Khi Tsukino bắt đầu tâm sự những lo lắng của mình, bạn không thể kìm nén được sự phấn khích, bạn hôn cô say đắm trong khi lau sạch sữa mẹ.
+	Lần đầu tiên sau một thời gian dài, Tsukino nhớ lại những niềm vui khi được làm phụ nữ, và dần dần chấp nhận những hành động hư hỏng.
+
+- Character_Des
+	str:Hoshikawa Tsukino
+	〖Tuổi〗: Giữa 30
+br:
+	〖Tính cách〗
+	Dịu dàng và chu đáo.
+	Kiểu người như một người mẹ, một người chị.
+	Cô thích những điều vui vẻ, hài hước, và cười rất nhiều.
+br:
+	〖Sở trường〗
+	Nấu ăn, ngủ nhanh ở bất cứ đâu
+br:
+	〖Sở thích〗
+	Làm vườn rau, tập Pilates, xem phim hài
+
+- Track_Des
+	0. Ăn tối một mình với đồng nghiệp cấp dưới, một sự cố bất ngờ
+	〖Lời mở đầu〗
+hr:
+	1. Bí mật của một người phụ nữ đã có chồng
+	Một nụ hôn nồng cháy không thể quay lại
+	〖Nụ hôn〗
+hr:
+	2. Sữa mẹ bắn tung tóe
+	Tung tóe lên mặt và trong miệng cô ấy, tôi không thể ngừng liếm chúng.
+	〖Sữa mẹ〗
+hr:
+	3. Đầu vú dính đầy sữa...
+
+	Mút và kích thích bằng đầu vú giòn tan
+	〖Trò đùa núm vú〗
+hr:
+	4. Rên rỉ với một người vợ đang cho con bú
+
+	Cô ấy phát ra những âm thanh dâm dục trong khi phun sữa.
+	〖Liếm tai/hôn/sữa mẹ〗
+hr:
+	5. Kết thúc cuộc tình
+
+	Mối quan hệ này sẽ kết thúc ở đâu?
+	〖Lời kết〗
+	

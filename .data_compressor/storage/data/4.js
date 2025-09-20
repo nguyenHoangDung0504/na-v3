@@ -1248,3 +1248,51 @@ _(
 	'https://raw.kiko-play-niptan.one/media/stream/daily/2024-01-30/RJ01127317/%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88/%E3%83%AD%E3%82%B4%E3%81%AA%E3%81%97.jpg',
 	'https://fast.kiko-play-niptan.one/media/stream/daily/2024-01-30/RJ01127317/%E5%8A%B9%E6%9E%9C%E9%9F%B3%E3%81%82%E3%82%8A/00.%E3%83%97%E3%83%AD%E3%83%AD%E3%83%BC%E3%82%B0.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2024-01-30/RJ01127317/%E5%8A%B9%E6%9E%9C%E9%9F%B3%E3%81%82%E3%82%8A/01.%E6%81%A5%E3%81%9A%E3%81%8B%E3%81%97%E3%81%8C%E3%82%8A%E3%81%AA%E3%81%8C%E3%82%89%E3%81%AE%E3%82%A8%E3%83%AD%E3%82%B2%E3%83%83%E3%83%97.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2024-01-30/RJ01127317/%E5%8A%B9%E6%9E%9C%E9%9F%B3%E3%81%82%E3%82%8A/02.%E3%83%89%E3%82%B9%E3%82%B1%E3%83%99%E6%95%99%E8%82%B2%EF%BC%88%E5%8D%8A%E5%B9%B4%E5%BE%8C%EF%BC%89.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2024-01-30/RJ01127317/%E5%8A%B9%E6%9E%9C%E9%9F%B3%E3%81%82%E3%82%8A/03.%E5%A7%89%E5%A6%B9%E5%96%A7%E5%98%A9%EF%BC%88%E4%B8%80%E5%B9%B4%E5%BE%8C%EF%BC%89.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2024-01-30/RJ01127317/%E5%8A%B9%E6%9E%9C%E9%9F%B3%E3%81%82%E3%82%8A/EX.%E3%82%B2%E3%83%83%E3%83%97%E3%81%AE%E3%81%BF.m4a'
 );
+_(
+	134028,
+	'RJ01377909',
+	'Minami Imaya',
+	'ASMR,Blowjob,Burping,Fetish,Housewife,Wife,Mature Women,Sweet Love',
+	'',
+	'Người phụ nữ đã kết hôn ♡ Nuông chiều và ợ hơi. ~Phiên bản Arisa~',
+	'人妻♡甘やかしげっぷ。～ありさの場合～',
+	'https://api.asmr-200.com/api/cover/1377909.jpg?type=main',
+	'https://raw.kiko-play-niptan.one/media/stream/daily/2025-06-07/RJ01377909/%E3%81%8A%E3%81%BE%E3%81%91/%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88_%E4%BA%BA%E5%A6%BB%E7%94%98%E3%82%84%E3%81%8B%E3%81%97%E3%81%92%E3%81%A3%E3%81%B7%E3%80%82%EF%BD%9E%E3%81%82%E3%82%8A%E3%81%95%E3%81%AE%E5%A0%B4%E5%90%88%EF%BD%9E.jpg',
+	'https://fast.kiko-play-niptan.one/media/stream/daily/2025-06-07/RJ01377909/WAV%E7%89%88/01_%E3%81%8A%E3%81%AF%E3%82%88%E3%81%86%E3%81%AE%E3%82%AD%E3%82%B9%E3%81%8B%E3%82%89%E3%83%95%E3%82%A7%E3%83%A9%E3%81%B8.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2025-06-07/RJ01377909/WAV%E7%89%88/02_%E4%B9%B3%E9%A6%96%E3%81%A8%E3%81%B8%E3%81%9D%E8%88%90%E3%82%81.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2025-06-07/RJ01377909/WAV%E7%89%88/03_%E9%A8%8E%E4%B9%97%E4%BD%8D%E3%81%88%E3%81%A3%E3%81%A1.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2025-06-07/RJ01377909/WAV%E7%89%88/04_%E5%AF%9D%E3%81%8B%E3%81%97%E3%81%A4%E3%81%91%E3%81%92%E3%81%A3%E3%81%B7.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2025-06-07/RJ01377909/WAV%E7%89%88/05_%E3%81%92%E3%81%A3%E3%81%B7%E3%81%BE%E3%81%A8%E3%82%81.m4a'
+);
+_(
+	130086,
+	'RJ01332451',
+	'Yukiko Shinomori',
+	'ASMR,Blowjob,Housewife,Mature Women,Oho Voice,Reverse NTR,Vulgar Moans,Facesitting',
+	'',
+	'Tôi cắm sừng bạn gái đi gặp mặt và quan hệ tình dục không ràng buộc thì gặp mẹ của bạn gái',
+	'【音声×Live2D】オフパコ行ったらかのママに逆NTRされました',
+	'https://api.asmr-200.com/api/cover/1332451.jpg?type=main',
+	'https://raw.kiko-play-niptan.one/media/stream/daily/2025-03-31/RJ01332451/CG/%E3%83%95%E3%82%A7%E3%83%A9.png,https://raw.kiko-play-niptan.one/media/stream/daily/2025-03-31/RJ01332451/CG/%E9%A8%8E%E4%B9%97%E4%BD%8D.png',
+	'https://fast.kiko-play-niptan.one/media/stream/daily/2025-03-31/RJ01332451/wav/1.%E5%87%BA%E4%BC%9A%E3%81%84.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2025-03-31/RJ01332451/wav/2.%E4%B9%B3%E9%A6%96%E8%B2%AC%E3%82%81%E3%81%95%E3%82%8C%E3%81%AA%E3%81%8C%E3%82%89%E3%83%95%E3%82%A7%E3%83%A9.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2025-03-31/RJ01332451/wav/3.%E9%A1%94%E9%9D%A2%E9%A8%8E%E4%B9%97%E3%81%A7%E3%82%AF%E3%83%B3%E3%83%8B%E3%81%97%E3%81%AA%E3%81%8C%E3%82%89%E6%89%8B%E3%82%B3%E3%82%AD%E3%81%95%E3%82%8C%E3%82%8B.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2025-03-31/RJ01332451/wav/4.%E5%BD%BC%E5%A5%B3%E3%81%A8%E9%9B%BB%E8%A9%B1%E3%81%97%E3%81%AA%E3%81%8C%E3%82%89%E9%A8%8E%E4%B9%97%E4%BD%8D%E3%81%A7%E7%8A%AF%E3%81%95%E3%82%8C%E3%82%8B.m4a'
+);
+_(
+	129633,
+	'RJ01330452',
+	'奏星イト',
+	'ASMR,Big Breasts,Breast Feeding,Breast Milk,Ear Licking,Housewife,Mature Women,Netori,Oho Voice,Vulgar Moans',
+	'',
+	'Một người vợ nói tiếng Hakata khuất phục trước khoái cảm và thủ dâm, phun ra dòng sữa đặc và liếm láp, quấn quýt suốt đêm',
+	'【耳舐め/ASMR】博多弁人妻が快楽に負けてオホりながらドピュドピュ濃厚母乳を撒き散らし舐め絡み合う一夜【NTR/KU100/Ear licking】',
+	'https://api.asmr-200.com/api/cover/1330452.jpg?type=main',
+	'https://img.dlsite.jp/modpub/images2/work/doujin/RJ01331000/RJ01330452_img_smp4.webp',
+	'https://fast.kiko-play-niptan.one/media/stream/daily/2025-03-04/RJ01330452/WAV/0.%E3%83%97%E3%83%AD%E3%83%AD%E3%83%BC%E3%82%B0.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2025-03-04/RJ01330452/WAV/1.%E4%BA%BA%E5%A6%BB%E3%81%AE%E7%A7%98%E5%AF%86.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2025-03-04/RJ01330452/WAV/2.%E6%AF%8D%E4%B9%B3%E3%81%B6%E3%81%A3%E3%81%8B%E3%81%91.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2025-03-04/RJ01330452/WAV/3.%E3%83%9F%E3%83%AB%E3%82%AF%E3%81%BE%E3%81%BF%E3%82%8C%E3%81%AE%E4%B9%B3%E9%A6%96%E3%82%92%E2%80%A6.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2025-03-04/RJ01330452/WAV/4.%E3%82%AA%E3%83%9B%E5%A3%B0%E6%AF%8D%E4%B9%B3%E4%BA%BA%E5%A6%BB%E3%81%A8%E8%88%90%E3%82%81%E4%B9%B1%E3%82%8C.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2025-03-04/RJ01330452/WAV/5.%E6%83%85%E4%BA%8B%E3%81%AE%E6%9E%9C%E3%81%A6%E3%81%AB.m4a'
+);
+_(
+	62857,
+	'RJ385221',
+	'Minami Imaya',
+	'Big Breasts,Blowjob,Breast Feeding,Breast Milk,Incest,Internal Cumshot,Sister,Sweet Love,Whispering,Younger Sister',
+	'',
+	'Cô em gái múp rụp, phóng khoáng và tuyệt vời',
+	'体は大きくて心はユルくてアソコは凄いいもうと',
+	'https://api.asmr-200.com/api/cover/385221.jpg?type=main',
+	'https://raw.kiko-play-niptan.one/media/stream/daily/2022-04-26/RJ385221/LOVEWhisper%E3%81%84%E3%82%82%E3%81%86%E3%81%A838wall02.jpg',
+	'https://fast.kiko-play-niptan.one/media/stream/daily/2022-04-26/RJ385221/wav/LOVEWhisper%E3%81%84%E3%82%82%E3%81%86%E3%81%A838_SE01.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2022-04-26/RJ385221/wav/LOVEWhisper%E3%81%84%E3%82%82%E3%81%86%E3%81%A838_SE02.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2022-04-26/RJ385221/wav/LOVEWhisper%E3%81%84%E3%82%82%E3%81%86%E3%81%A838_SE03.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2022-04-26/RJ385221/wav/LOVEWhisper%E3%81%84%E3%82%82%E3%81%86%E3%81%A838_SE04.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2022-04-26/RJ385221/wav/LOVEWhisper%E3%81%84%E3%82%82%E3%81%86%E3%81%A838_SE05.m4a'
+);

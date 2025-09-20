@@ -10,7 +10,7 @@
 - Character_Des
 	<div class="char-box">
 		<div class="l">
-			img:a:https://img.dlsite.jp/modpub/images2/parts/RJ431000/RJ430567/99005dfef1234384ac0ed69d1fc1cd4a.jpg
+			img:https://img.dlsite.jp/modpub/images2/parts/RJ431000/RJ430567/99005dfef1234384ac0ed69d1fc1cd4a.jpg
 		</div>
 		<div class="r">
 			Chị gái: Một cô gái trung học tóc vàng, tự tin, mạnh mẽ
@@ -30,7 +30,7 @@
 			-Vị trí micrô: Bên phải
 		</div>
 		<div class="l">
-			img:a:https://img.dlsite.jp/modpub/images2/parts/RJ431000/RJ430567/70d723bb80b3a5a6efa219f3b433e6e5.jpg
+			img:https://img.dlsite.jp/modpub/images2/parts/RJ431000/RJ430567/70d723bb80b3a5a6efa219f3b433e6e5.jpg
 		</div>
 	</div>
 	

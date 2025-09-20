@@ -288,7 +288,7 @@ _(
 	53134,
 	'RJ336256',
 	'Koyori Engawa',
-	'ASMR,Dirty Talk,Kissing,Whispering,Ear Licking,Double Earlicking,Hand Job,Thighjob,Breathing,Femdom,Micro Bikini,Sisters,Twins,Reverse NTR',
+	'ASMR,Dirty Talk,Kissing,Whispering,Ear Licking,Idol,Double Earlicking,Hand Job,Thighjob,Breathing,Femdom,Micro Bikini,Sisters,Twins,Reverse NTR',
 	'',
 	'Gravure Idol Sisters’ Reverse NTR Virgin-Corruption',
 	'ドスケベグラドル姉妹の逆寝取られ童貞いじめ邪悪好意マゾ堕とし',
@@ -1989,11 +1989,11 @@ _(
 	66292,
 	'RJ397359',
 	'Izumi Mikoshiba',
-	'ASMR,Dirty Talk,Hairy,Maid,Perverted',
+	'ASMR,Burping,Dirty Talk,Fetish,Maid,Masturbation Support,Netorare,Oho Voice,Perverted',
 	'',
-	'~From now on, we will give sex education to the master~ Sex education that distorts the sexual habits of an office maid',
+	'[Giọng nói trầm/Giọng nói vô cảm] ~Từ giờ trở đi, tôi sẽ dạy dỗ chủ nhân về tình dục~ Giáo dục tình dục như một công việc của một hầu gái vô cảm làm biến dạng khuynh hướng tình dục của bạn [Nói bậy/Rên rỉ]',
 	'【事務的・低音】～これよりご主人様への性教育を行います～事務的メイドの性癖歪ませ性教育【淫語・オホ声】',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/66292-0.jpg?v=1698744376315',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/66292-1.jpg?v=1698744377641',
-	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/66292track1.mp3?v=1698744391261,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/66292omake.mp3?v=1698744380334'
+	'https://api.asmr-200.com/api/cover/397359.jpg?type=main',
+	'https://raw.kiko-play-niptan.one/media/stream/daily/2022-07-21/RJ397359/%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88/2520%C3%971890%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB%E7%84%A1%E3%81%97.jpg',
+	'https://fast.kiko-play-niptan.one/media/stream/daily/2022-07-21/RJ397359/%E6%9C%AC%E7%B7%A8/SE%E6%9C%89/1.%E3%82%AA%E3%83%81%E3%83%B3%E3%83%9D%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2022-07-21/RJ397359/%E6%9C%AC%E7%B7%A8/SE%E6%9C%89/2.%E3%82%AA%E3%83%9E%E3%83%B3%E3%82%B3%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2022-07-21/RJ397359/%E6%9C%AC%E7%B7%A8/SE%E6%9C%89/3.%E3%82%BB%E3%83%83%E3%82%AF%E3%82%B9%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2022-07-21/RJ397359/%E6%9C%AC%E7%B7%A8/SE%E6%9C%89/4.%E3%81%94%E4%B8%BB%E4%BA%BA%E6%A7%98%E3%81%AE%E5%A5%BD%E3%81%8D%E3%81%AA%E5%A5%B3%E6%80%A7%E3%81%AF%E2%80%A6.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2022-07-21/RJ397359/%E6%9C%AC%E7%B7%A8/SE%E6%9C%89/5.%E4%BA%8B%E5%8B%99%E7%9A%84%E3%83%A1%E3%82%A4%E3%83%89%E3%81%AE%E6%80%A7%E7%B5%8C%E9%A8%93.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2022-07-21/RJ397359/%E6%9C%AC%E7%B7%A8/SE%E6%9C%89/%E3%81%8A%E3%81%BE%E3%81%91.%E3%82%B2%E3%83%83%E3%83%97%E3%82%AA%E3%83%8A%E3%82%B5%E3%83%9D.m4a'
 );
