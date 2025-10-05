@@ -88,9 +88,9 @@ export default class AudioWrapper extends HTMLElement {
 		this.openBtn.id = 'open';
 		this.openBtn.title = 'Open in new tab';
 
-		tools.append(this.slider, this.backBtn, this.forwardBtn, this.reloadBtn, this.openBtn);
+		tools.append(this.backBtn, this.forwardBtn, this.reloadBtn, this.openBtn, this.slider);
 		this.panel.append(tools);
-		audioControls.append(this.audio, this.settingsBtn);
+		audioControls.append(this.settingsBtn, this.audio);
 		container.append(this.nameLabel, audioControls);
 		this.shadowRoot.append(linkCSS.cloneNode(), container, this.panel);
 	}

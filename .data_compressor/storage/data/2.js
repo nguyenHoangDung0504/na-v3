@@ -1337,13 +1337,13 @@ _(
 	108527,
 	'RJ01031871',
 	'Narumi Aisaka',
-	'Big Breasts,Classmate,Ear Licking,Kissing,Tease',
+	'Kissing,Big Breasts,Classmate,Ear Licking,Masturbation Support,Tease,Whispering',
 	'メインライン',
-	"Nipple torture & forced masturbation instruction to make you understand ～ The beginning of a life where you become a classmate's wallet and spread masochist semen again～",
+	'Tra tấn trêu chọc núm vú, hướng dẫn và ép buộc thủ dâm tại nhà thổ ~ Lại trở thành ví tiền của bạn học cũ và bắt đầu cuộc sống xuất tinh khổ dâm ~',
 	'乳首責め&強制オナ指示でわからせ風俗～再開した同級生のお財布君になってマゾザーメンまき散らし生活のはじまり～',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/108527-0.jpg?v=1705655651032',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/108527-1.jpg?v=1705655652183',
-	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/108527t1.mp3?v=1705655657352'
+	'https://api.asmr-200.com/api/cover/1031871.jpg?type=main',
+	'https://raw.kiko-play-niptan.one/media/stream/daily/2024-02-07/RJ01031871/%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88/%E3%81%84%E3%81%98%E3%82%81%E3%81%A3%E5%AD%90.jpg',
+	'https://fast.kiko-play-niptan.one/media/stream/daily/2024-02-07/RJ01031871/%E6%9C%AC%E7%B7%A8.m4a'
 );
 _(
 	61753,

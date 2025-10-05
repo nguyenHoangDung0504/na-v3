@@ -30,7 +30,7 @@ _(
 	48817,
 	'RJ319007',
 	'Narumi Aisaka',
-	'Described,Blowjob,English Words/Phrases,Hand Job,Sweet Love,Whispering,Internal Cumshot,Femdom',
+	'Described,Blowjob,English Words/Phrases,Hand Job,Sweet Love,Whispering,Internal Cumshot,Femdom,Kissing',
 	'',
 	'Pure Love Pussy Therapy ~ A Pussy Therapist Will Relieve That Unfulfilled Feeling ♪~',
 	'純愛おまんこセラピー ～その満たされなさ、おまんこセラピストが解消します♪～',

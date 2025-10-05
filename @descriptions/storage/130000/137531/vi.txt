@@ -1,0 +1,32 @@
+- Content_Des
+	Một chuyến tàu buổi sáng đông đúc.
+	Trên chuyến tàu đông đúc, bạn bị quyến rũ bởi mùi hương nồng nàn, nữ tính tỏa ra từ một nữ sinh trung học đầy mồ hôi.
+	Khi bạn bị thu hút bởi mùi hương ấy... cô ấy gọi bạn.
+
+- Character_Des
+	str:Yurie Misaka
+br:
+	- Một nữ sinh trung học tinh nghịch.
+	- Cô ấy đổ mồ hôi nhiều và có mùi cơ thể nồng.
+	- Cô ấy không tắm để tránh bị quấy rối.
+	- Mềm mại và thoải mái khi ôm.
+	- Cô ấy theo học một trường dành riêng cho nữ sinh.
+	
+- Track_Des
+	01. Lời mở đầu [03:11]
+	➡ [Trò chuyện]
+br:
+	02. Chọc ghẹo núm vú và thủ dâm trong khi bị quấn trong một cơ thể nặng mùi [20:58]
+	➡ [Chọc ghẹo/Chọc ghẹo núm vú/Hơi thở hôi/Thích mùi hương/Ôm/Tiếp xúc gần/Thì thầm/Xuất tinh lên đồng phục]
+br:
+	03. Quỳ gối trong khi liếm tai bằng nước bọt dính [19:20]
+	➡ [Chọc ghẹo/Liếm tai/Hơi thở hôi/Thích mùi hương/Tiếp xúc gần/Thì thầm/Xuất tinh lên đồng phục]
+br:
+	04. Chọc ghẹo vú và thủ dâm trong khi trêu ghẹo núm vú với mồ hôi nách nặng mùi [20:22]
+	➡ [Chọc ghẹo/Quan hệ tình dục bằng vú/Chơi núm vú/Ngửi nách/Dùng sữa dưỡng thể mồ hôi nách/Ngửi dương vật/Quyến rũ bằng mùi/Xuất tinh vào miệng/Nuốt nước bọt]
+br:
+	05. Cơ thể của cô ấy áp sát vào khiến bạn mất trí [17:28]
+	➡ [Sumata/Nước hoa tình yêu/Nụ hôn kiểu Pháp/Quyến rũ bằng mùi/Ôm/Tiếp xúc thân mật/Thầm thì/Nói "thích" nhiều lần]
+br:
+	06. Lời kết [03:50]
+	➡ [Nụ hôn kiểu Pháp]
