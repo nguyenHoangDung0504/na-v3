@@ -1,0 +1,113 @@
+- Content_Des
+	Bạn có một cô em gái thông minh, năng động và ngây thơ, nhỏ hơn bạn rất nhiều.
+	Bạn chuyển đến Tokyo làm việc và phải xa em gái, nhưng bạn rất lo lắng.
+br:
+	Lý do là...
+	Em ấy là một người đáng tin cậy, nhưng em ấy lại là một cô gái cực kỳ coi trọng anh trai và cực kỳ phức tạp với anh trai.
+	Bạn lo lắng cho em ấy và tự hỏi liệu em ấy có ổn không nếu không có bạn.
+	"Ding dong ♪ Chào anh ♪ Lâu rồi không gặp anh ♪
+	Sao thế? Trông anh ngạc nhiên quá.
+	Có lẽ anh chỉ đang quá xúc động khi được đoàn tụ với em gái thôi? Hehe, đùa thôi ♪"
+
+- Character_Des
+	str:Sakuraba Miyu
+	・Một cô gái brocon rất yêu anh trai mình
+	・Một nữ sinh trung học vui vẻ và năng động
+	・Một cô gái ngây thơ và trong sáng
+	・Dù còn trinh trắng nhưng cô ấy rất cởi mở với bất cứ điều gì gợi cảm
+hr:
+	...Anh ơi, cảm ơn anh đã vất vả mỗi ngày ♪
+	Hehe...
+	Nhưng mà... khuôn mặt lúc ngủ của anh vẫn dễ thương như ngày nào.
+	Cặc của anh trai cương cứng kinh khủng.
+	Quần anh ấy chật quá,
+	Ôi, cảm giác như sắp nổ tung...
+	
+- Track_Des
+	str:#01: Một chuyến thăm bất ngờ của cô em gái mắc chứng cuồng anh trai! [3:31]
+	<Mở đầu>
+	Chào mọi người! Lâu rồi không gặp anh trai! Hahaha! Trông anh có vẻ ngạc nhiên lắm. Chắc anh chỉ bị choáng ngợp vì được đoàn tụ với em gái thôi? Hehe, đùa thôi! ♪
+	Hả? Anh đến đây để làm gì...? Anh biết đấy, sống một mình rất khó khăn mà, phải không? Anh làm việc từ sáng đến tối, và ngay cả khi về nhà mệt nhoài, anh vẫn phải làm việc nhà. Đó là lý do tại sao em đến đây để chăm sóc anh. Ý em là, anh không giỏi việc nhà, phải không? Em cá là anh lúc nào cũng ăn đồ ăn nhanh. ...Hahaha, đúng là nói trúng tim đen! ♪
+	Dù sao thì, em đến đây để giúp anh đỡ vất vả hơn một chút, anh trai ạ.
+	Được chứ? Trường học hiện đang nghỉ dài hạn, nên cho em ở lại một lúc nhé. Được chứ?
+hr:
+	str:#02 Dọn Dẹp Cái Của Anh Trai Yêu Quý Của Em [7:55]
+	<Ngửi Cái Của Anh Trai/Dọn Dẹp Cái Của Anh Trai/Hút Cặc>
+	Cái của anh trai cứng kinh khủng.
+	Quần anh ấy chật quá, trông như sắp bung ra bất cứ lúc nào vậy...
+	Anh đã nói là anh bận rộn đến tận hôm nay mà.
+	Cái của anh ấy to quá lúc anh ấy ngủ...
+	Anh ấy làm việc cật lực mỗi ngày đến nỗi chẳng có thời gian để thủ dâm...
+	Tuyệt vời, anh làm tốt lắm, anh trai.
+	Nhưng... con trai phải thủ dâm đúng cách chứ, phải không?
+	Vậy nên...♪
+	Em sẽ chăm sóc cái của anh thật tốt, anh trai...
+	Wow...!
+	Haaah... đây chính là "cậu nhỏ" mà tôi hằng mong ước...
+	Nó đã to ngay cả khi mặc quần rồi, nhưng nhìn tận mắt còn tuyệt vời hơn nữa...♪
+	Tất cả sự mệt mỏi và ham muốn sau công việc đã dồn hết vào "cậu nhỏ" của anh ấy...
+	Nó cứng như đá...♪
+	Haaah...♪ Nó có mùi...hít...hít...hít...
+hr:
+	str:#03 Tắm cùng Anh trai [8:27]
+	<Tắm rửa/Tự sướng/Liếm tai/>
+	Có lẽ em bị kích thích khi được tắm bằng ngực anh? Hehehehe♪
+	Ừ, anh đoán em nói đúng, anh đã nhìn chằm chằm vào ngực em từ khi anh đến nhà em.
+	Sự tinh nghịch của Anh trai...♪
+	Chỉ vì đã lâu rồi em không gặp em gái mình, không có nghĩa là em nên nhìn chằm chằm vào ngực em ấy như thế, đúng không?
+	Hehehehe♪
+	Ôi trời, anh không nhịn được nữa rồi, anh hai...♪
+	Vậy thì...
+	Cặc của anh hai bị kích thích bởi bộ ngực của em gái này quá.
+	Em sẽ dùng tay vuốt ve nó cho nó sướng♪
+	Được rồi, vuốt ve, vuốt ve, vuốt ve...♪
+	Vuốt ve, vuốt ve, vuốt ve, vuốt ve...♪
+	Hehehehe...♪
+	Ép ngực em vào anh trong khi vuốt ve dương vật của anh~♪
+	Thế nào, anh hai... cảm giác thế nào...?
+hr:
+	str:#04 Dịch vụ Hút cặc [6:15]
+	<Hút cặc sâu/Hút cặc hút cặc/Xuất tinh vào miệng>
+	Anh thật là xấu tính, anh hai, bị kích thích bởi cơ thể của em gái mình♪
+	...Hehehe, đùa thôi.
+	Em muốn anh nhìn em thật nhiều, và thật phấn khích...
+	Nhưng nếu anh đi làm như thế này, chắc chắn một ngày nào đó anh sẽ tán tỉnh một cô gái ở chỗ làm mất~♪
+	Vậy nên, để ngăn điều đó xảy ra, em sẽ chăm sóc cho "cậu nhỏ" của anh...
+	Em sẽ chăm sóc tất cả...♪
+	Sẽ tuyệt vời lắm, không một người phụ nữ nào có thể...♪
+	Haa...haa...
+	Giờ thì, anh sẽ dùng những ngóc ngách sâu nhất trong miệng mình... để khiến "cậu nhỏ" của em thực sự sướng...♪
+	Ahhh...♪
+	Thế nào? Tuyệt vời không...♪ Một màn "blow" sâu bằng miệng-lồn của em gái anh...♪
+	Khi em ấy mút "cậu nhỏ" của anh, cổ họng em ấy thắt lại...♪
+hr:
+	str:#05 Ham muốn em gái!!! [6:39]
+	<Hôn sâu/móc/xuất tinh>
+	Hửm...? Sao vậy anh trai...?
+	Có gì đó kỳ lạ... Ý em là, mắt anh trông như mắt thú vậy...
+	Ê, này anh hai, anh đang làm gì thế... hửm!?
+	Hửm, anh hai...♪ Nụ hôn đó... thật mãnh liệt...♪
+	Cặc anh sướng quá... anh không chịu nổi nữa sao...?
+	Được rồi... Em hiểu rồi...♪
+	Vậy thì, giải phóng mọi ham muốn tình dục của anh lên em đi...♪
+	Em sẽ chấp nhận tất cả...♪
+	Hmm...♪ Một nụ hôn kiểu Pháp đầy yêu thương, trao đổi nước bọt với anh trai...♪
+	Cảm giác thật tuyệt... đầu em quay cuồng...♪
+	Làm ơn... nữa, nữa... hôn em thật nhiều...♪
+	Hmm...♪ À, ngay đó... ngực em...♪
+hr:
+	str:#06 Quan hệ tình dục cực khoái bị cấm đoán với em gái nhỏ của tôi [10:11]
+	<Liếm tai/Đâm thô bạo/Nạp piston liên tục/Xuất tinh/Xuất tinh/Hút tinh sạch>
+	Em chưa bao giờ nghĩ sẽ có ngày được ôm anh lần nữa...♪
+	Ngay cả bây giờ khi em đã trưởng thành, anh vẫn có thể làm được, dù sao thì anh cũng là anh trai của em mà.
+	Hehehe...♪
+	Wow...!?
+	Ôi trời... Sao thế, Onii-chan, sao tự nhiên anh lại ôm em thế?
+	Có lẽ anh đang hứng tình và muốn chui vào lồn em ngay bây giờ...?
+	Hehehe... Em cũng nghĩ vậy...♪
+	Nhưng anh có thể đợi thêm chút nữa rồi mới chui vào lồn em được không...?
+	Trước tiên, chúng ta cần phải làm cho cảm xúc và cơ thể của nhau thăng hoa hoàn toàn... phải không?♪
+	Hehehe...♪
+	Được rồi...♪
+	Được rồi... Em sẽ cho anh bú tai yêu thích của em... để anh trở thành con cặc tuyệt vời nhất hôm nay...♪
+	

@@ -1,0 +1,45 @@
+- Content_Des
+	str:Ý tưởng
+	・Siêu mãnh liệt và phong phú... ngập tràn tình dục ngọt ngào, êm dịu...♪
+	・Đạt được khoái cảm cùng một nữ tu sĩ dịu dàng, tràn ngập tình mẫu tử...♪
+	・Chưa kể đến những màn ân ái nồng nàn, ngọt ngào trong khi cực kỳ gần gũi...♪
+	・Tận hưởng khoái cảm người lớn mãnh liệt, gợi cảm...♪
+
+	"Bạn sẽ có thể xuất tinh trong khi ngủ say...♪ Đầy ắp tình dục mãnh liệt, ngọt ngào và êm dịu với thánh nữ...♪"
+hr:
+	str:Tóm tắt
+	Một ngày nọ...♪ bạn đã được dịch chuyển đến một thế giới khác...♪
+	Bạn dừng chân tại một nhà thờ lớn, nơi bạn gặp một thánh nữ nói với bạn rằng bạn là một anh hùng...
+	Cô ấy cầu xin bạn cùng cô ấy tham gia vào hành trình phong ấn Quỷ Vương...♪
+	Nhưng trước tiên...♪ bạn và thánh nữ phải thực hiện nghi lễ ký kết để trở thành bạn đời...♪
+	Dưới sự hướng dẫn của thánh nữ, bạn sẽ trải nghiệm một "nghi lễ giao ước (giao hợp♪)" siêu mãnh liệt và chữa lành...♪
+
+- Character_Des
+	・Elena (Thánh nữ ngọt ngào H cup)
+	・Số đo: B102 W63 H92
+br:
+	・Một thánh nữ được nuôi dưỡng từ nhỏ để phục vụ anh hùng...♪
+	・Cơ thể đầy đặn của cô được truyền ma thuật cấm phong ấn chúa quỷ, được truyền lại từ thời cổ đại...♪
+	・Bằng cách hấp thụ tinh dịch của các anh hùng từ thế giới khác, sức mạnh của phong ấn tăng lên và huy hiệu được củng cố...♪
+	・Cô đã chờ đợi anh hùng... và vẫn giữ mình trinh nguyên để trở thành một thánh nữ thuần khiết...♪
+	・Để làm hài lòng người anh hùng mà cô ngưỡng mộ, cô dường như có rất nhiều kiến ​​thức về tình dục...♪
+br:
+	"Vậy thì... với tôi...♪...chúng ta hãy bắt đầu nào Lễ ký kết...♪"
+	
+- Track_Des
+	Track 1 - Nụ Hôn Của Lời Thề Thiêng Liêng (06:42)
+	Track 2 - Màn Thổi Kèn Ngọt Ngào + Nuốt Ngọt Ngào (08:14)
+	Track 3 - Nghi Thức Giao Ước (29:30)
+	Track 4 - Liếm Tai Yêu Thương + Thủ Dâm (17:01)
+	Track 5 - Ân Ái Thân Mật Trong Tư Thế Truyền Thống + Liếm Tai Chữa Lành (16:45)
+	Track 6 - Được Thủ Dâm + Mút Ngực Trong Tư Thế Cho Con Bú (12:21)
+	Track 7 - Quan Hệ Tình Dục Trước Khi Khởi Hành (12:13)
+hr:
+	str:Phụ đề tiếng Trung:
+	a:https://api.asmr-200.com/api/media/stream/1068519/777696:"Track 1"
+	a:https://api.asmr-200.com/api/media/stream/1068519/777696:"Track 2"
+	a:https://api.asmr-200.com/api/media/stream/1068519/777696:"Track 3"
+	a:https://api.asmr-200.com/api/media/stream/1068519/777696:"Track 4"
+	a:https://api.asmr-200.com/api/media/stream/1068519/777696:"Track 5"
+	a:https://api.asmr-200.com/api/media/stream/1068519/777696:"Track 6"
+	a:https://api.asmr-200.com/api/media/stream/1068519/777696:"Track 7"

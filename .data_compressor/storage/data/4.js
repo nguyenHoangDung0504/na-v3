@@ -1414,11 +1414,23 @@ _(
 	136467,
 	'RJ01397422',
 	'笹木ころん,鷹見れん',
-	'Big Breasts,Internal Cumshot,Naughty,Netorare,Oho Voice,Paid Dating,Vulgar Moans',
+	'Big Breasts,Internal Cumshot,Naughty,Netorare,Oho Voice,Paid Dating,Vulgar Moans,Bukkake',
 	'',
 	'Câu chuyện về một người bạn thời thơ ấu bị một tên khốn nạn huấn luyện kinh tởm và rơi vào sự đồi trụy về thể xác và tinh thần',
 	'[250625][フリーダムspyware.exe] 幼馴染が屑男に胸糞調教されて身も心も堕ちる話 [RJ01397422]',
 	'https://api.asmr-200.com/api/cover/1397422.jpg?type=main',
 	'https://raw.kiko-play-niptan.one/media/stream/daily/2025-08-14/RJ01397422/%E7%89%B9%E5%85%B8/%E5%8E%9F%E5%AF%B8.png,https://raw.kiko-play-niptan.one/media/stream/daily/2025-08-14/RJ01397422/%E7%89%B9%E5%85%B8/%E5%8D%98%E4%BD%93%E3%83%BB%E5%90%90%E6%81%AF%E3%81%82%E3%82%8B%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3.png,https://raw.kiko-play-niptan.one/media/stream/daily/2025-08-14/RJ01397422/%E7%89%B9%E5%85%B8/%E5%8D%98%E4%BD%93%E3%83%BB%E5%90%90%E6%81%AF%E3%81%AA%E3%81%84%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3.png,https://raw.kiko-play-niptan.one/media/stream/daily/2025-08-14/RJ01397422/%E7%89%B9%E5%85%B8/%E3%83%A9%E3%83%95001.png,https://raw.kiko-play-niptan.one/media/stream/daily/2025-08-14/RJ01397422/%E7%89%B9%E5%85%B8/%E3%83%A9%E3%83%95002.png,https://raw.kiko-play-niptan.one/media/stream/daily/2025-08-14/RJ01397422/%E7%89%B9%E5%85%B8/001%E5%88%9D%E6%9C%9F.png,https://raw.kiko-play-niptan.one/media/stream/daily/2025-08-14/RJ01397422/%E7%89%B9%E5%85%B8/002.png,https://raw.kiko-play-niptan.one/media/stream/daily/2025-08-14/RJ01397422/%E7%89%B9%E5%85%B8/003.png,https://raw.kiko-play-niptan.one/media/stream/daily/2025-08-14/RJ01397422/%E7%89%B9%E5%85%B8/004.png',
 	'https://fast.kiko-play-niptan.one/media/stream/daily/2025-08-14/RJ01397422/%E5%A5%B3%E5%A3%B0%E3%81%AE%E3%81%BFwav/SE%E3%81%82%E3%82%8A/1.NTR%EF%BD%9E%E5%B9%BC%E3%81%AA%E3%81%98%E3%81%BF%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AB%E5%B1%91%E7%94%B7%E3%81%AE%E5%85%83%E3%81%B8%E6%8A%97%E8%AD%B0%E3%81%B8%E8%A1%8C%E3%81%8F%E3%82%BB%E3%83%AA%E3%82%B3.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2025-08-14/RJ01397422/%E5%A5%B3%E5%A3%B0%E3%81%AE%E3%81%BFwav/SE%E3%81%82%E3%82%8A/2.%E7%AF%AD%E7%B5%A1%EF%BD%9E%E6%9C%BA%E3%81%AB%E5%AF%9D%E3%81%8B%E3%81%95%E3%82%8C%E3%80%81%E6%89%8B%E3%83%9E%E3%83%B3%E3%80%81%E3%82%AF%E3%83%B3%E3%83%8B%E3%81%95%E3%82%8C%E3%80%81%E9%9A%A0%E8%AA%9E%E3%82%92%E5%90%A0%E3%81%88%E3%81%BE%E3%81%8F%E3%82%8B.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2025-08-14/RJ01397422/%E5%A5%B3%E5%A3%B0%E3%81%AE%E3%81%BFwav/SE%E3%81%82%E3%82%8A/3.%E8%84%85%E8%BF%AB%EF%BD%9E%E7%B4%84%E6%9D%9F%E3%82%92%E7%A0%B4%E3%82%89%E3%82%8C%E3%80%81%E5%88%9D%E3%82%BB%E3%83%83%E3%82%AF%E3%82%B9%E3%81%B8%E7%AA%81%E5%85%A5%E3%80%81%E3%83%9E%E3%82%BE%E9%96%8B%E8%8A%B1%E3%81%99%E3%82%8B%E3%82%BB%E3%83%AA%E3%82%B3.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2025-08-14/RJ01397422/%E5%A5%B3%E5%A3%B0%E3%81%AE%E3%81%BFwav/SE%E3%81%82%E3%82%8A/4.%E5%AE%8C%E5%A0%95%E3%81%A1%EF%BD%9E%E3%83%91%E3%82%A4%E3%82%BA%E3%83%AA%E3%83%95%E3%82%A7%E3%83%A9%E3%80%81H%E3%81%AA%E8%B3%AA%E5%95%8F%E3%82%92%E3%81%95%E3%82%8C%E3%80%81%E3%81%9D%E3%82%8C%E3%81%AB%E3%83%95%E3%82%A7%E3%83%A9%E3%83%81%E3%82%AA%E3%81%A7%E7%AD%94%E3%81%88%E3%82%8B%E3%82%BB%E3%83%AA%E3%82%B3.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2025-08-14/RJ01397422/%E5%A5%B3%E5%A3%B0%E3%81%AE%E3%81%BFwav/SE%E3%81%82%E3%82%8A/5.%E8%BC%AA%E5%A7%A6%EF%BD%9E%E5%89%8D%E7%A9%B4%E3%80%81%E5%BE%8C%E7%A9%B4%E3%82%92%E6%8E%98%E3%82%89%E3%82%8C%E3%81%9F%E5%BE%8C%E3%80%81%E3%83%8F%E3%83%A1%E6%92%AE%E3%82%8A%E9%A8%8E%E4%B9%97%E4%BD%8D%E3%81%A7%E5%B0%BB%E3%82%92%E6%8C%AF%E3%82%8A%E5%9B%9E%E3%81%99%E3%82%BB%E3%83%AA%E3%82%B3.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2025-08-14/RJ01397422/%E5%A5%B3%E5%A3%B0%E3%81%AE%E3%81%BFwav/SE%E3%81%82%E3%82%8A/6.%E8%AA%BF%E6%95%99%E5%AE%8C%E4%BA%86.m4a'
+);
+_(
+	136429,
+	'RJ01134084',
+	'千紗',
+	'AI一部利用,Blowjob,Creampie,Deepthroat,Fetish,Incest,Internal Cumshot,Kissing,Oral Cumshot,Pregnancy/Impregnation,Reverse Rape,Sister,Spit,Younger Sister,Femdom,School Girl,Bukkake',
+	'',
+	'Cô em gái JK chu đáo của bạn muốn đối xử với bạn như thú cưng ~ Dọn dẹp phô mai dương vật mỗi ngày',
+	'世話好き妹JKは兄を愛玩化したくてたまらない～チンカスお掃除な毎日',
+	'https://api.asmr-200.com/api/cover/1134084.jpg?type=main',
+	'',
+	'https://fast.kiko-play-niptan.one/media/stream/daily/2024-01-28/RJ01134084/wav/sewazuki_TR01_v1.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2024-01-28/RJ01134084/wav/sewazuki_TR02_v1.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2024-01-28/RJ01134084/wav/sewazuki_TR03_v1.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2024-01-28/RJ01134084/wav/sewazuki_TR04_v1.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2024-01-28/RJ01134084/wav/sewazuki_TR05_v1.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2024-01-28/RJ01134084/wav/sewazuki_TR06_v1.m4a'
 );

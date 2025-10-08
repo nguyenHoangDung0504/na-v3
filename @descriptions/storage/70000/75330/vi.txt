@@ -1,0 +1,46 @@
+- Content_Des
+	"Có chuyện gì vậy? Có điều gì làm anh khó chịu không?"
+
+	Bạn đi làm về như thường lệ và được chào đón bằng một giọng nói xa lạ.
+
+	Có một cô gái ăn mặc như người hầu gái trong phòng mà tôi không biết...
+
+	"...Tôi là ai? Tôi là ai?"
+
+	Cô gái này là ai mà lại có vẻ hơi khó gần và láo xược thế...? Bạn sẽ thấy mình bị người hầu gái bất ngờ xuất hiện làm phiền.
+
+- Character_Des
+	str:Naho
+	"Tôi chán ngấy khi nhìn thấy khuôn mặt của anh khi anh xuất tinh"
+	3 vòng: B91 W55 H82
+br:
+	Do onahole yêu thích của bạn hóa thành. Tên được lấy từ onahole.
+	Một cô gái hơi láo xược và vô cảm
+	Cậu ấy rất kiêu hãnh và muốn bạn, chủ nhân của cô ấy, sử dụng cô ấy theo cách thật ngầu.
+hr:
+	Bạn
+	Chủ nhân của Naho. Cô ta đột nhiên xuất hiện và kiểm soát anh bạn.
+	
+- Track_Des
+	[Track (Thời gian phát lại/Thời gian xuất tinh)]
+br:
+	■Track01_Dat01
+	Cô hầu gái mặt lạnh đột nhiên xuất hiện thực ra lại là cái onahole yêu thích của bạn!? Cô ấy ngay lập tức liếm tai và thủ dâm cho bạn!
+	(16:01/13:17)
+br:
+	■Track02_Dat02
+	Chào buổi sáng, liếm tai và thủ dâm! Cô ấy sẽ vắt sữa cho bạn vào bữa sáng!
+	(14:20/13:03)
+br:
+	■Track03_Dat02
+	Khi bạn về nhà, bạn sẽ thấy một tấm thảm tắm và sữa dưỡng thể trong phòng tắm!? Cô ấy sẽ khiến bạn xuất tinh bằng cách thủ dâm kiểu xà phòng! Hôm nay là ngày kỷ niệm của hai bạn! Hai bạn cùng nhau làm bánh! (Không có cảnh quay)
+	(06:08/–:–)
+br:
+	■Track05_Dat03
+	Sau khi làm bánh, là cảnh sex kiểu cowgirl! Cô ấy được vắt sữa với chiếc bánh kem đầu tiên!
+	(12:16/09:40)
+br:
+	■Track06_Dat04
+	Cô nàng thủ dâm trở lại bình thường?! Cảnh sex kiểu truyền thống để khoe vẻ ngầu của mình ở cuối phim!
+	(18:51/15:38)
+	
