@@ -1322,16 +1322,18 @@ _(
 	'',
 	'https://fast.kiko-play-niptan.one/media/stream/daily/2025-07-18/RJ01394265/SE%E5%8A%B9%E6%9E%9C%E9%9F%B3%E3%81%82%E3%82%8A/1.%E3%83%97%E3%83%AD%E3%83%AD%E3%83%BC%E3%82%B0%20%E7%A7%81%E3%81%AF%E6%81%AF%E5%AD%90%E3%82%92%E6%83%B3%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2025-07-18/RJ01394265/SE%E5%8A%B9%E6%9E%9C%E9%9F%B3%E3%81%82%E3%82%8A/2.%E6%81%AF%E5%AD%90%E3%82%82%E7%A7%81%E3%81%AE%E3%81%93%E3%81%A8%E3%82%92%E2%80%A6.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2025-07-18/RJ01394265/SE%E5%8A%B9%E6%9E%9C%E9%9F%B3%E3%81%82%E3%82%8A/3.%E8%A6%AA%E5%AD%90%E3%81%AE%E7%A7%98%E5%AF%86%E3%81%8C%E5%87%BA%E6%9D%A5%E3%81%9F%E5%A4%9C.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2025-07-18/RJ01394265/SE%E5%8A%B9%E6%9E%9C%E9%9F%B3%E3%81%82%E3%82%8A/4.%E7%A7%81%E3%81%AE%E4%B8%AD%E3%81%AE%E6%82%AA%E9%AD%94%E3%81%8C%E5%9B%81%E3%81%8F.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2025-07-18/RJ01394265/SE%E5%8A%B9%E6%9E%9C%E9%9F%B3%E3%81%82%E3%82%8A/5.%E7%8B%82%E6%B0%97%E3%81%AB%E8%AA%98%E3%81%86%E9%AD%94%E6%B3%95%E3%81%AE%E8%A8%80%E8%91%89.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2025-07-18/RJ01394265/SE%E5%8A%B9%E6%9E%9C%E9%9F%B3%E3%81%82%E3%82%8A/6.%E6%81%AF%E5%AD%90%E3%81%AB%E5%88%9D%E3%82%81%E3%81%A6%E6%8A%B1%E3%81%8B%E3%82%8C%E3%82%8B%E5%A4%9C.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2025-07-18/RJ01394265/SE%E5%8A%B9%E6%9E%9C%E9%9F%B3%E3%81%82%E3%82%8A/7.%E9%A3%A2%E3%81%88%E3%81%9F%E6%AC%B2%E6%9C%9B%E3%81%AF%E6%9E%9C%E3%81%A6%E3%81%AA%E3%81%8F.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2025-07-18/RJ01394265/SE%E5%8A%B9%E6%9E%9C%E9%9F%B3%E3%81%82%E3%82%8A/8.%E6%88%BB%E3%82%8C%E3%81%AA%E3%81%84%E3%81%A8%E3%81%93%E3%82%8D%E3%81%BE%E3%81%A7%E5%A0%95%E3%81%A1%E3%81%A6%E3%81%84%E3%81%8D%E3%81%9F%E3%81%84.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2025-07-18/RJ01394265/SE%E5%8A%B9%E6%9E%9C%E9%9F%B3%E3%81%82%E3%82%8A/9.%E3%82%A8%E3%83%94%E3%83%AD%E3%83%BC%E3%82%B0%20%E8%AA%B0%E3%81%8B%E3%81%B8%E3%81%AE%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8.m4a'
 );
-// _(
-// 	138242,
-// 	'RJ01464547',
-// 	'Amu Mochiri',
-// 	'ASMR,Anal,Fetish,Housewife,Internal Cumshot,Mature Woman,Netorare,Oho Voice,Shrine Maiden,Vulgar Moans',
-// 	'孕み巫女',
-// 	'Vu Nữ Mang Thai - Chương 2: Cô Vợ Quyến Rũ Madoka Shindo, 29 Tuổi',
-// 	'【巫女/NTR】人妻孕み巫女 弐ノ章 豊満妻 進藤円香29歳【KU100ハイレゾ】',
-// 	t0i0a
-// );
+_(
+	138242,
+	'RJ01464547',
+	'Amu Mochiri',
+	'ASMR,Anal,Fetish,Housewife,Internal Cumshot,Mature Woman,Netorare,Oho Voice,Shrine Maiden,Vulgar Moans,Big Breasts',
+	'孕み巫女',
+	'Vu Nữ Mang Thai - Chương 2: Cô Vợ Quyến Rũ Madoka Shindo, 29 Tuổi',
+	'【巫女/NTR】人妻孕み巫女 弐ノ章 豊満妻 進藤円香29歳【KU100ハイレゾ】',
+	'https://api.asmr-200.com/api/cover/1464547.jpg?type=main',
+	'https://raw.kiko-play-niptan.one/media/stream/daily/2025-10-28/RJ01464547/%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88JPG/%E7%89%B9%E5%85%B8%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88%E2%91%A1.jpg,https://raw.kiko-play-niptan.one/media/stream/daily/2025-10-28/RJ01464547/%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88JPG/%E7%89%B9%E5%85%B8%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88%E2%91%A0.jpg,https://raw.kiko-play-niptan.one/media/stream/daily/2025-10-28/RJ01464547/%E5%A3%81%E7%B4%99/%E3%82%B9%E3%83%9E%E3%83%9B%E7%94%A8/%E3%82%B9%E3%83%9E%E3%83%9B%E7%B8%A6B.jpg,https://raw.kiko-play-niptan.one/media/stream/daily/2025-10-28/RJ01464547/%E5%A3%81%E7%B4%99/%E3%82%B9%E3%83%9E%E3%83%9B%E7%94%A8/%E3%82%B9%E3%83%9E%E3%83%9B%E7%B8%A6A.jpg',
+	'https://fast.kiko-play-niptan.one/media/stream/daily/2025-10-28/RJ01464547/%E3%80%90Track01%E3%80%91%E5%BA%8F%EF%BD%9E%E6%9D%91%E9%95%B7%E3%81%AE%E6%AF%92%E7%89%99%E3%80%81%E5%AD%95%E3%81%BF%E5%B7%AB%E5%A5%B3%E3%81%B8%E3%81%AE%E8%AA%98%E3%81%84.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2025-10-28/RJ01464547/%E3%80%90Track02%E3%80%91%E6%B0%97%E4%B8%88%E3%81%AA%E4%BA%BA%E5%A6%BB%E3%81%AE%E3%82%82%E3%81%98%E3%82%83%E6%AF%9B%E3%81%BE%E3%82%93%E3%81%93%E8%80%B3%E7%B4%A0%E8%82%A1.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2025-10-28/RJ01464547/%E3%80%90Track03%E3%80%91%E4%BA%BA%E5%A6%BB%E3%81%AE%E3%81%BE%E3%82%93%E3%81%93%E3%81%AB%E4%BA%8C%E9%80%A3%E7%B6%9A%E3%82%B6%E3%83%BC%E3%83%A1%E3%83%B3%E4%B8%AD%E5%87%BA%E3%81%97.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2025-10-28/RJ01464547/%E3%80%90Track04%E3%80%91%E3%81%8A%E9%A2%A8%E5%91%82%E3%81%A7%E4%BA%BA%E5%A6%BB%E3%81%A8%E7%94%9F%E3%83%8F%E3%83%A1%E4%B8%AD%E5%87%BA%E3%81%97%E3%82%BB%E3%83%83%E3%82%AF%E3%82%B9.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2025-10-28/RJ01464547/%E3%80%90Track05%E3%80%91%E3%83%81%E3%83%B3%E5%AA%9A%E3%81%B3%E4%BA%BA%E5%A6%BB%E5%B7%AB%E5%A5%B3%E3%81%AE%E8%82%9B%E9%96%80%E3%81%AB%E3%82%BA%E3%83%9C%E3%83%8F%E3%83%A1.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2025-10-28/RJ01464547/%E3%80%90Track06%E3%80%91%E6%9D%91%E4%B8%AD%E3%81%AE%E7%94%B7%E3%81%AB%E3%83%8F%E3%83%A1%E3%82%89%E3%82%8C%E3%82%8B%E3%82%B9%E3%82%B1%E3%83%99%E3%81%BE%E3%82%93%E3%81%93%E9%85%8D%E4%BF%A1.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2025-10-28/RJ01464547/%E3%80%90Track07%E3%80%91%E9%A4%85%E6%A2%A8%E3%81%82%E3%82%80%E3%81%95%E3%82%93%E3%83%95%E3%83%AA%E3%83%BC%E3%83%88%E3%83%BC%E3%82%AF%E2%99%AA.m4a'
+);
 _(
 	1940,
 	'RJ234970',
