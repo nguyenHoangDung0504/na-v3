@@ -1470,18 +1470,6 @@ _(
 	'https://cdn.glitch.me/cbd0ac37-5557-4012-b498-643e6f89d54c/71191.mp3?v=1691030616589'
 );
 _(
-	97305,
-	'RJ01037642',
-	'Kaede Akino',
-	'Assjob,Big Breasts,Ear Licking,Foot Job,Gal,Hand Job,Kissing,Paizuri,School Girl,School Uniform',
-	'',
-	'Being pursued by a gal who wants to improve her grades, I got hooked on the color scheme',
-	'成績を上げたいギャルにつきまとわれて まんまと色仕掛けにハマってしまった',
-	'https://cdn.glitch.global/cbd0ac37-5557-4012-b498-643e6f89d54c/97305(0)?v=1691030807267',
-	'https://cdn.glitch.global/cbd0ac37-5557-4012-b498-643e6f89d54c/97305(1)?v=1691030871390',
-	'https://cdn.glitch.me/cbd0ac37-5557-4012-b498-643e6f89d54c/97305.mp3?v=1691030976905'
-);
-_(
 	73684,
 	'RJ01009221',
 	'Minase Suzuka',

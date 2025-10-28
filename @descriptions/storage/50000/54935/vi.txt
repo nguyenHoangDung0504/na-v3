@@ -1,0 +1,102 @@
+- Content_Des
+	"Ôi, một con cu trong lồn, một con cu giả trong đít. Chỉ cần tưởng tượng cả hai ra vào cùng một lúc thôi cũng đủ làm tôi ướt át."
+	Tận hưởng những tiếng rên rỉ tuyệt vời và những màn bú cu ướt át, nhớp nháp của cô ấy!
+hr:
+	str:Nội dung:
+	Bạn chuyển đến một căn hộ tuyệt vời với giá hời.
+	Trong lúc đang thủ dâm, bạn nghe thấy giọng nói của một người phụ nữ vọng đến từ đâu đó.
+	Bạn nhìn quanh nhưng không thấy gì cả.
+	Nghĩ rằng đó chỉ là tưởng tượng của mình, bạn tiếp tục, và đột nhiên, một làn sóng khoái cảm chạy dọc dương vật bạn.
+	"Ôi, ngon quá! Hương vị của đàn ông, tôi không thể cưỡng lại được!
+	Hehe♪ Ôi không, tôi bị phát hiện rồi! Hehehe."
+	Bạn ngạc nhiên trước sự xuất hiện đột ngột của người phụ nữ trưởng thành.
+	Bạn hỏi cô ta có phải là kẻ trộm không, nhưng người phụ nữ trưởng thành phủ nhận.
+	"Anh có biết tại sao anh có thể mua nó rẻ như thế không?"
+	Cô ta cười và bay lên không trung.
+	"Tôi là ma, nên... hehe. Được rồi, đây... hehe."
+	Người phụ nữ trưởng thành sau đó đưa ra một điều kiện cho bạn khi bạn đang run rẩy vì sợ.
+	"Tôi sẽ xuất hiện khi cảm thấy ham muốn. Tôi muốn anh làm bạn tình của tôi. Được chứ?"
+	Vừa nói, cô vừa ngậm lấy dương vật mềm nhũn của bạn.
+
+- Character_Des
+	Một hồn ma trưởng thành sống trong ngôi nhà bạn vừa chuyển đến.
+	Một mỹ nhân trầm lặng điển hình,
+	Cô ấy là một nhân vật rất gợi cảm trong suốt cuộc đời.
+	Cô ấy có một ham muốn tình dục cực kỳ mạnh mẽ và thử nhiều loại trò chơi khác nhau.
+	Cuối cùng, cô ấy đi quá xa và lên đỉnh.
+	Cô ấy vẫn ở lại thế giới này, khao khát những trò chơi biến thái mà cô ấy vẫn chưa thử.
+
+- Track_Des
+	str:Track01 (12:27)
+	◆Dì Ma Xuất Hiện ~Hút Dương Vật & Nuốt Tinh~◆
+
+	"Tôi không nhịn được nữa, chỉ một chút thôi...
+	Ahhh, ngon quá! Hương vị của đàn ông, tôi không cưỡng lại được~ ufufu♪"
+
+	Một dì ma đang lén lút theo dõi một bạn thủ dâm.
+
+	Không thể cưỡng lại mùi tiền xuất tinh, dì xuất hiện.
+
+	Dì ma giải thích tình hình cho bạn đang ngạc nhiên.
+
+	Sau khi ép bạn chấp nhận, dì ngậm lấy dương vật ướt át của bạn vào miệng.
+hr:
+	str:Track02 (16:57)
+	◆Vở kịch bóp cổ của dì ma ~Quan hệ tình dục theo tư thế truyền thống trong khi bị bóp cổ~◆
+
+	"...Sao, anh muốn tôi nói lại lần nữa sao? Được rồi, anh có thể bóp cổ tôi không? Thật chặt."
+
+	Phớt lờ bạn đang sững sờ, dì ma yêu cầu một vở kịch bóp cổ.
+
+	Sau khi ép bạn chấp nhận, dì bắt đầu màn kịch.
+hr:
+	str:Track03 (19:43)
+	◆Trải nghiệm kinh hoàng của dì ma - Sốc điện vào lỗ hậu, núm vú và âm vật◆
+
+	Để tìm thấy cõi niết bàn, dì ma yêu cầu thử một điều gì đó kỳ quặc.
+
+	Đó là một nỗ lực phi thường: truyền điện giật qua bộ phận sinh dục của mình.
+
+	Hành động dần dần leo thang...
+	"Ồ! Ồ, ồ không!
+
+	A, ngọ nguậy, ngứa ran, hiiiiiiiiii!"
+
+	Sự kích thích dữ dội khiến dì ma hét lên và tiểu tiện.
+
+	Là một kẻ khổ dâm, cô ấy đòi hỏi nhiều hơn nữa.
+hr:
+	str:Track04 (22:04)
+	◆Sự yên nghỉ của dì ma? - Quan hệ qua đường hậu môn, quan hệ kép bằng dương vật giả và dương vật nam◆
+
+	Cả hai tham gia vào một loạt các hành vi đồi trụy.
+
+	Không thể tìm thấy cõi niết bàn, dì ma đánh cược lần cuối
+	bằng cách yêu cầu quan hệ kép.
+	Cô ấy nhét một cái "cậu nhỏ" vào âm đạo và một cái "dương vật" to tướng vào hậu môn...
+
+	"Aaaaaaaah! Lỗ đít tôi rách rồi!
+
+	Aaaah, ahhh, ahhh, bụng tôi rách ra rồi, aaaah!"
+hr:
+	str:Track05 (05:31)
+	◆Clip Track 1: Cảnh "BJ" và "Nuốt tinh" bằng máy hút bụi◆
+
+	Dành cho những ai muốn nghe cảnh "BJ" và "Nuốt tinh".
+hr:
+	str:Track06 (11:33)
+	◆Clip Track 2: Quan hệ tình dục tư thế truyền giáo khi bị siết cổ◆
+
+	Dành cho những ai muốn nghe màn "bóp cổ" và "la hét" trong Track 2.
+hr:
+	str:Track07 (13:47)
+	◆Clip Track 3: Sốc điện vào mông, núm vú và âm vật◆
+
+	Dành cho những ai muốn nghe trải nghiệm kinh hoàng của một ma nữ bị kẹp vào những bộ phận nhạy cảm và dòng điện chạy qua người,
+	la hét và tè dầm.
+hr:
+	str:Track08 (15:43)
+	◆Clip Track 4: Quan hệ qua đường hậu môn, quan hệ tình dục đôi bằng dương vật giả và dương vật, và cảnh xuất tinh◆
+
+	Dành cho những ai muốn nghe sự dâm đãng của một hồn ma phụ nữ lớn tuổi, rên rỉ đầy dục vọng khi quan hệ qua đường hậu môn và gần như phát điên khi quan hệ tình dục đôi.
+	

@@ -386,18 +386,6 @@ _(
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/124872t1.mp3?v=1730294061993,https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/124872tokuten.mp3?v=1730294048162'
 );
 _(
-	123035,
-	'RJ01240960',
-	'Amu Mochiri',
-	'Big Breasts,Deepthroat,Orgy Sex,Paizuri,Pregnancy/Impregnation,School Girl,School Uniform',
-	'',
-	"It's too late but I loved you ~Literary girl x BSS x vulgar low-pitched moaning~",
-	'【寝取られ/28日間限定イラスト差分つき】手遅れだけど君のことが好きでした～文学少女×BSS×お下品低音オホ声～【KU100】',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/123035-0.jpg?v=1730293701510',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/123035-1.jpg?v=1730293702234,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/123035-2.jpg?v=1730293702540,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/123035-3.jpg?v=1730293704583,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/123035-4.jpg?v=1730293703650',
-	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/123035t1.mp3?v=1730293735573,https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/123035bss_shiten.mp3?v=1730293725832'
-);
-_(
 	120172,
 	'RJ01226338',
 	'双葉すずね',
@@ -628,18 +616,6 @@ _(
 	'https://cdn.glitch.global/d0ba9ac8-9843-4269-aa9a-93830f7c36ff/114244-0.jpg?v=1737189859804',
 	'https://cdn.glitch.global/d0ba9ac8-9843-4269-aa9a-93830f7c36ff/114244-1.jpg?v=1737189860111,https://cdn.glitch.global/d0ba9ac8-9843-4269-aa9a-93830f7c36ff/114244-2.jpg?v=1737189859286',
 	'https://cdn.glitch.me/d0ba9ac8-9843-4269-aa9a-93830f7c36ff/114244t1.mp3?v=1737189875077'
-);
-_(
-	124922,
-	'RJ01274944',
-	'Chiroru Oyama',
-	'ASMR,Blowjob,Ear Licking,Oneesan,Hand Job,Kissing,Pregnancy/Impregnation,Reverse Rape,Whispering',
-	'',
-	"My childhood friend's shy older sister was in heat and wouldn't let me sleep. She attacked me in bed and in heat, whispering in my ear and telling me to get pregnant",
-	'幼馴染の内気なお姉ちゃんが発情して寝かせてくれない -布団で襲われ発情豹変ずっと密着耳元囁き孕ませ連呼♪-',
-	'https://cdn.glitch.global/d0ba9ac8-9843-4269-aa9a-93830f7c36ff/124922-0.jpg?v=1737189960826',
-	'https://cdn.glitch.global/d0ba9ac8-9843-4269-aa9a-93830f7c36ff/124922-1.jpg?v=1737189960465,https://cdn.glitch.global/d0ba9ac8-9843-4269-aa9a-93830f7c36ff/124922-2.jpg?v=1737189960439',
-	'https://cdn.glitch.me/d0ba9ac8-9843-4269-aa9a-93830f7c36ff/124922t1.mp3?v=1737189972001'
 );
 _(
 	112855,
@@ -1326,7 +1302,7 @@ _(
 	138242,
 	'RJ01464547',
 	'Amu Mochiri',
-	'ASMR,Anal,Fetish,Housewife,Internal Cumshot,Mature Woman,Netorare,Oho Voice,Shrine Maiden,Vulgar Moans,Big Breasts',
+	'ASMR,Anal,Fetish,Housewife,Internal Cumshot,Mature Woman,Netorare,Oho Voice,Shrine Maiden,Vulgar Moans,Big Breasts,Hairy',
 	'孕み巫女',
 	'Vu Nữ Mang Thai - Chương 2: Cô Vợ Quyến Rũ Madoka Shindo, 29 Tuổi',
 	'【巫女/NTR】人妻孕み巫女 弐ノ章 豊満妻 進藤円香29歳【KU100ハイレゾ】',

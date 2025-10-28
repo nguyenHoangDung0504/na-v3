@@ -641,13 +641,13 @@ _(
 	32593,
 	'RJ298123',
 	'Ryou Suzuki',
-	'ASMR,Ear Licking,Hairy,Housewife,Incest,Licking,Milf,Mother',
+	'Hairy,Incest,ASMR,Ear Licking,Housewife,Mature Woman,Milf,Mother,Successive Orgasms',
 	'',
-	'Zero distance. mom massage chair',
+	'Không khoảng cách. Mẹ là ghế mát xa cho bạn',
 	'【音圧耳舐め】ゼロ距離。マママッサージチェア【ASMR・乳首責め・手コキ・騎乗位】',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/32593-0.jpg?v=1701504196133',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/32593-1.jpg?v=1701504197459',
-	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/32593t1.mp3?v=1701504214632'
+	'https://api.asmr-200.com/api/cover/298123.jpg?type=main',
+	'https://raw.kiko-play-niptan.one/media/stream/hvdb/8700-8799/RJ298123/%E7%94%BB%E5%83%8F/2000x1500.png,https://raw.kiko-play-niptan.one/media/stream/hvdb/8700-8799/RJ298123/%E7%94%BB%E5%83%8F/%E3%82%B8%E3%83%A3%E3%82%B1%E3%83%83%E3%83%881_1400x1400.jpg',
+	'https://raw.kiko-play-niptan.one/media/stream/hvdb/8700-8799/RJ298123/mp3/%E7%92%B0%E5%A2%83%E9%9F%B3%E3%81%AA%E3%81%97/05%20-%20%E5%B0%8E%E5%85%A5_%E7%92%B0%E5%A2%83%E9%9F%B3%E3%81%AA%E3%81%97.mp3,https://raw.kiko-play-niptan.one/media/stream/hvdb/8700-8799/RJ298123/mp3/%E7%92%B0%E5%A2%83%E9%9F%B3%E3%81%AA%E3%81%97/06%20-%20%E5%85%A8%E5%B9%B4%E9%BD%A2%E3%83%9E%E3%83%83%E3%82%B5%E3%83%BC%E3%82%B8_%E7%92%B0%E5%A2%83%E9%9F%B3%E3%81%AA%E3%81%97.mp3,https://raw.kiko-play-niptan.one/media/stream/hvdb/8700-8799/RJ298123/mp3/%E7%92%B0%E5%A2%83%E9%9F%B3%E3%81%AA%E3%81%97/07%20-%20R18%E3%83%9E%E3%83%83%E3%82%B5%E3%83%BC%E3%82%B8_%E7%92%B0%E5%A2%83%E9%9F%B3%E3%81%AA%E3%81%97.mp3,https://raw.kiko-play-niptan.one/media/stream/hvdb/8700-8799/RJ298123/mp3/%E7%92%B0%E5%A2%83%E9%9F%B3%E3%81%AA%E3%81%97/08%20-%20%E6%9C%AC%E7%95%AA_%E7%92%B0%E5%A2%83%E9%9F%B3%E3%81%AA%E3%81%97.mp3'
 );
 _(
 	79025,
