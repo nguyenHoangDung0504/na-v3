@@ -1061,13 +1061,13 @@ _(
 	31261,
 	'RJ286285',
 	'Karin Inoue',
-	'Incest,Paizuri,School Uniform,Sister',
+	'Incest,Oneesan,Sister,Sweet Love,Whispering,Paizuri,School Uniform,Femdom',
 	'',
-	'An administrative lady who wants to be your mom',
+	'Chị gái nghiêm túc muốn trở thành mẹ của bạn',
 	'[バイノーラル]貴方のママになりたい事務的姉さん',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/31261-0.jpg?v=1705139314509',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/31261-1.jpg?v=1705139316196',
-	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/31261t1.mp3?v=1705139323613'
+	'https://api.asmr-200.com/api/cover/286285.jpg?type=main',
+	'https://raw.kiko-play-niptan.one/media/stream/hvdb/7900-7999/RJ286285/%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88/%E3%83%AD%E3%82%B4%E3%81%AA%E3%81%97.jpeg,https://raw.kiko-play-niptan.one/media/stream/hvdb/7900-7999/RJ286285/%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88/%E3%82%B5%E3%83%A0%E3%83%8D%E3%82%A4%E3%83%AB%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88.jpg',
+	'https://fast.kiko-play-niptan.one/media/stream/hvdb/7900-7999/RJ286285/%E9%9F%B3%E5%A3%B0%E3%83%87%E3%83%BC%E3%82%BF/SE%E3%81%82%E3%82%8A/1_%E3%83%9E%E3%83%9E%E3%81%A8%E6%B7%A1%E3%80%85%E5%88%9D%E3%82%A8%E3%83%83%E3%83%81.m4a,https://fast.kiko-play-niptan.one/media/stream/hvdb/7900-7999/RJ286285/%E9%9F%B3%E5%A3%B0%E3%83%87%E3%83%BC%E3%82%BF/SE%E3%81%82%E3%82%8A/2_%E5%9B%81%E3%81%8D%E7%9A%AE%E5%89%A5%E3%81%8D%E6%89%8B%E3%82%B3%E3%82%AD.m4a,https://fast.kiko-play-niptan.one/media/stream/hvdb/7900-7999/RJ286285/%E9%9F%B3%E5%A3%B0%E3%83%87%E3%83%BC%E3%82%BF/SE%E3%81%82%E3%82%8A/3_%E7%9A%AE%E5%89%A5%E3%81%8D%E5%BF%9C%E6%8F%B4%E3%81%A8%E3%81%B1%E3%81%84%E3%81%9A%E3%82%8A.m4a,https://fast.kiko-play-niptan.one/media/stream/hvdb/7900-7999/RJ286285/%E9%9F%B3%E5%A3%B0%E3%83%87%E3%83%BC%E3%82%BF/SE%E3%81%82%E3%82%8A/4_%E3%83%9E%E3%83%9E%E3%81%A8%E7%94%98%E3%80%85%E5%9B%81%E3%81%8D%E3%82%A8%E3%83%83%E3%83%81.m4a'
 );
 _(
 	108051,
