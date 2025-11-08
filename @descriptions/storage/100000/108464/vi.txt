@@ -1,0 +1,80 @@
+- Content_Des
+	str:★Giới thiệu
+
+	Trường của bạn có một câu lạc bộ chuyên giúp các nam sinh vị thành niên xuất tinh: "Câu lạc bộ tủ đồ lotion" ♪
+br:
+	Trong các tủ đồ bên trong phòng câu lạc bộ, các nữ sinh trung học phủ đầy lotion đang chờ đợi, nhẹ nhàng vuốt ve "cậu nhỏ" của bất kỳ nam sinh nào bước vào♡
+br:
+	Một nữ thần tượng trung học nổi tiếng, một bạn học uể oải, và một thành viên hội học sinh chăm chỉ...
+hr:
+	str:★Nội dung
+	Bạn đang ở một mình trong tủ đồ với một cô nữ sinh trung học mũm mĩm, người phủ đầy lotion.♡
+br:
+	Trong chiếc tủ nhỏ xíu đó...
+br:
+	Ngực cô ấy cứ chạm vào bạn.♪
+	Dương vật của bạn cứ cọ xát vào cô ấy.♪
+	Những tiếng thở dài và thì thầm sẽ làm bạn thích thú.♪
+	Những nụ hôn kiểu Pháp và cọ xát với âm hộ.♪
+br:
+	Bạn sẽ vào tủ đồ nào?
+
+- Character_Des
+	str:Akane Miyano (Bé tóc hồng)
+	CV: Aino Mimori
+	Năm thứ hai, Lớp B. Một nữ thần tượng trung học rất nổi tiếng♪
+br:
+	Cô ấy tham gia Câu lạc bộ "tủ đồ lotion" để bù đắp cho việc vắng học do hoạt động thần tượng.
+	Nụ cười dễ thương, tinh nghịch của cô ấy khiến "cậu nhỏ" của bạn cảm thấy tuyệt vời.
+	"Để cảm ơn sự ủng hộ liên tục của cậu... Tớ sẽ cho cậu thật nhiều fan service tinh nghịch."
+
+hr:
+	str:Nanami Nanamori (Bé tóc xanh)
+	CV: Minase Suzuka
+	Năm thứ hai, Lớp A. Một người bạn cùng lớp mà bạn chưa nói chuyện nhiều♪
+br:
+	Để đạt điểm cao, cô ấy là thành viên của cả câu lạc bộ bơi lội và câu lạc bộ "tủ đồ lotion".
+	Cô ấy có vẻ ngoài uể oải, nhưng luôn đảm bảo sẽ thổi kèn cho bạn một cách đầy đủ.
+	"Cậu đang cọ xát "cậu nhỏ" của cậu vào bụng tớ... Cậu đang làm nũng với tớ à?"
+
+hr:
+	str:Niijima Chihiro (Bé tóc nâu)
+	CV: Tsubame Yuzuki
+	Năm thứ ba, Lớp C. Thư ký Hội học sinh♪
+br:
+	Cô ấy giúp đỡ câu lạc bộ vì nó đang thiếu nhân sự.
+	Cô ấy có tính cách nghiêm túc, và cô ấy luôn chăm chỉ với "cô bé" mỏng manh của mình, khiến nó luôn rỉ nước ướt át.
+	"Cứ nghĩ đến việc làm cho "cậu nhỏ" của em sướng đi, cứ tự nhiên làm bất cứ điều gì em muốn..."
+	
+- Track_Des
+
+	str:01: Tủ đồ của Akane ~Giờ thì, em là thần tượng của riêng anh♪~ (32 phút)
+br:
+	Mở tủ đồ ra, bạn sẽ thấy một nữ thần tượng trung học phủ đầy lotion...♪
+	Bạn sẽ thấy cái bụng trơn trượt của cô ấy cọ xát vào "cậu nhỏ" của mình, và bạn sẽ có thể đưa "cậu nhỏ" của mình ra vào "cô bé" của cô ấy, thật thân mật và gần gũi... Bạn sẽ sở hữu nữ thần tượng trung học này cho riêng mình♪
+br:
+	"Anh nghĩ sao, senpai? Đây chính là cặp vú của nữ thần tượng mà em hằng ngưỡng mộ♪"
+	"Em muốn thấy vẻ mặt của senpai đẹp trai của anh khi anh ấy xuất tinh vào bên trong "cô bé"~~ ♪"
+br:
+	(Những nụ hôn chào đón / Thoa lotion khắp cơ thể / Vuốt ve "cậu nhỏ" của bạn với một cái bụng phủ đầy lotion ♪ / Nâng đỡ "cậu nhỏ" ♪ / Những nụ hôn đầy nước dãi / Dấu vết xuất tinh trên bụng nữ thần tượng ♪ / Tiếng gọi phun nước / Tiếng vỗ tay cổ vũ của piston ♪ / Âm hộ thần tượng tình tứ / Âm hộ ngọt ngào / Hôn kiểu Pháp và xuất tinh vào trong)
+hr:
+	str:02: Tủ đồ của Nanami ~Được rồi, vì cậu đã ở đây... Tớ sẽ làm bất cứ điều gì cho cậu~ (35 phút)
+br:
+	Mở tủ đồ ra và cô bạn cùng lớp câu lạc bộ bơi lội, với thân hình rám nắng nổi bật, sẽ chào đón bạn...♪
+	Liếm tai và hôn kiểu Pháp thỏa thích, tiếp theo là một màn thủ dâm bằng lotion, như một con thú đang động dục. Tận hưởng cơ thể Nanami một cách trọn vẹn nhất với màn ân ái không cân xứng này♪
+br:
+	"Cặc cậu đang giật giật... Chẳng phải rất kích thích khi được liếm tai trong khi tớ vuốt ve nó sao?"
+	"A, a, mmm... Để tớ mút lưỡi cậu thêm nữa nhé...!"
+br:
+	(Nụ hôn chào mừng / Thoa lotion khắp cơ thể / Liếm tai / Thủ dâm / Thoa lotion / Xuất tinh thỏa thích với nụ hôn kiểu Pháp và thủ dâm / Liếm và nuốt tinh dịch ngay cạnh tai / Đùi đầy đặn / Âm hộ hoàn hảo ♪ / Âm hộ ngọt ngào / Rên rỉ oho / Xuất tinh vào trong)
+hr:
+	str:03: Tủ đồ của Chihiro ~Ha, chị ghét những chuyện ngượng ngùng...!~ (29 phút)
+br:
+	Mở tủ đồ, bạn sẽ thấy một cô gái nổi tiếng nghiêm khắc. Senpai cuối cấp chào đón bạn...♪
+	Cô nàng senpai lẳng lơ này dễ dàng xuất tinh chỉ với một cái thúc nhẹ, trở nên ám ảnh với dương vật của bạn...♪
+br:
+	"Phát ra những âm thanh kỳ lạ trước mặt đàn em của mình... Ưm... Chị muốn được ra, ưm..."
+	"Ngay khi em chạm vào âm hộ của chị, chị không thể suy nghĩ được gì nữa... Tâm trí chị tràn ngập những suy nghĩ về dương vật..."
+br:
+	(Nụ hôn chào mừng / Thoa lotion khắp cơ thể / Cọ xát dương vật vào bụng cô ấy phủ đầy lotion / Bóp lấy bộ ngực K-cup của cô ấy / Âm hộ mềm mại♪ / Rên rỉ / Giọng rên rỉ / Liên tục xuất tinh / Liên tục đạt cực khoái / Bóp lấy cái mông to của cô ấy và đập vào cô ấy / Liếm tai / Cầu xin được xuất tinh và mang thai♪ / Xuất tinh vào âm đạo)
+	
