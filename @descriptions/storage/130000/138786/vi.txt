@@ -1,0 +1,188 @@
+- Content_Des
+	
+- Character_Des
+	str:Nhân vật chính - Về bạn
+	Là nam sinh duy nhất và là sinh viên nhận học bổng tại Học viện Nụ hôn Pháp.
+	Tên anh bạn là Tanaka. (Cô nữ sinh người Mỹ gọi bạn là "Tanachi.")
+hr:
+	str:Các nữ chính
+	<img src=https://raw.kiko-play-niptan.one/media/stream/daily/2025-11-14/RJ01474192/2%20%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88/%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88C%20%E3%83%88%E3%83%A9%E3%83%83%E3%82%AF%E3%83%AA%E3%82%B9%E3%83%8801-06.jpg style="width:100%">
+
+	str:Lớp trưởng-chan - CV: 星野天 (Track 1, 2, 13)
+	Bạn ấy là lớp trưởng ngọt ngào và chu đáo của lớp.
+
+	"Đó là nhiệm vụ của tớ với tư cách là lớp trưởng", cô ấy nói trước khi trao cho bạn một nụ hôn ngọt ngào và nồng nàn.
+	Cô ấy dường như rất thích nhập vai, chẳng hạn như đóng vai người mẹ và chiều chuộng bạn bằng giọng nói nũng nịu, hoặc đóng vai em gái nhỏ.
+	Cô ấy có thể rất hay chiếm hữu và cư xử như một con quỷ nhỏ.
+br:
+	str:Du học sinh Mỹ gal-chan - CV: Kanoko (Track 3, 4, 14)
+	Một cô bạn cùng lớp vui vẻ.
+
+	Tớ nghĩ rằng chúng ta rất hợp về tính cách và ngoại hình.
+	Thay vì tỏ ra tử tế với những người hâm mộ văn hóa otaku, chính cô ấy lại giống một người hâm mộ văn hóa otaku hơn.
+	Trong lúc trò chuyện về bộ anime yêu thích, hai bạn trao nhau nụ hôn sâu nồng nàn, lưỡi quấn quýt lấy nhau.
+	Cô ấy luôn thân thiện và tràn đầy tình cảm ngọt ngào, trìu mến.
+br:
+	str:Em gái bạn - CV: Minase Suzuka (Track 5, 6, 13)
+	Em gái nhỏ của bạn hơi "tsundere" nhưng lại rất "dere".
+	Ở nơi công cộng, cô ấy che giấu điều đó bằng cách tỏ ra ngần ngại khi hôn.
+	Nhưng khi ở riêng với nhau:
+	- "Em yêu anh, Onii♡"
+	- Thành thật tán tỉnh.
+	- Cô bé còn van xin quan hệ tình dục loạn luân bằng một nụ hôn kiểu Pháp ướt át, vụng về.
+	"Em đăng ký vào trường này để được hôn anh hợp pháp đó"
+hr:
+	<img src=https://raw.kiko-play-niptan.one/media/stream/daily/2025-11-14/RJ01474192/2%20%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88/%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88C%20%E3%83%88%E3%83%A9%E3%83%83%E3%82%AF%E3%83%AA%E3%82%B9%E3%83%8807-12.jpg style="width:100%">
+
+	str:Đàn em gal-chan - CV: Yuka Hinata (Track 7, 8, 14)
+	Nàng gal đàn em đầy khiêu khích.
+	Cô bé nghĩ bạn là người thích bị hành hạ và muốn bạn làm bất cứ điều gì cô bé muốn.
+	Cô bé pha trộn giọng nói cao vút, nịnh nọt, ngọt ngào với giọng nói trầm thấp, đầy vẻ lăng mạ và rên rỉ.
+	Một kiểu trêu chọc đầy tính tự hành hạ bản thân theo kiểu "cây gậy và củ cà rốt" và những nụ hôn kiểu Pháp nồng nàn, thân mật.
+	Cô ấy không quan hệ tình dục với bạn, nhưng cô ấy lại kích thích bạn bằng đùi cô ấy.
+br:
+	str:Tiền bối của bạn - CV: Shiki Asagi (Track 9, 10, 15)
+	Senpai với phong cách tomboy.
+	Chị ấy đang nghiên cứu những tác dụng tích cực của việc hôn đối với cơ thể trong câu lạc bộ khoa học. Chị ấy lấy việc hợp tác với nhóm đối tượng thử nghiệm làm cái cớ để được hôn thoải mái, hôn kiểu Pháp và hôn sâu. Các cô gái dưới quyền nói chị ấy "ngầu", nhưng khi bạn gọi chị ấy là "dễ thương", chị ấy lại ngượng ngùng.
+br:
+	str:Cô giáo chủ nhiệm của bạn - CV: Tsubame Yuzuki (Track 11, 12, 15)
+	Cô giáo toát lên vẻ quyến rũ điềm tĩnh.
+	Cô ấy tự hào về bạn vì bạn là một học sinh xuất sắc, và lợi dụng vị trí giáo viên của mình để dành tặng bạn một nụ hôn kiểu Pháp nồng nàn và say đắm.
+	Cả những nụ hôn trách mắng và những nụ hôn kiểu Pháp ngọt ngào kèm lời khen ngợi đều là một phần của quá trình dạy dỗ.
+	Cô ấy trông có vẻ lạnh lùng, nhưng thực ra lại rất tình cảm.
+hr:
+	<img src=https://raw.kiko-play-niptan.one/media/stream/daily/2025-11-14/RJ01474192/2%20%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88/%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88C%20%E3%83%88%E3%83%A9%E3%83%83%E3%82%AF%E3%83%AA%E3%82%B9%E3%83%8813-15.jpg style="width:100%">
+
+- Track_Des
+	str:01: Màn thủ dâm với nụ hôn ngọt ngào và âu yếm của Lớp trưởng (Xuất tinh 30:08 / 35:00)
+	(Hôn, Nuốt nước bọt, Hôn kiểu Pháp, Liếm núm vú và thủ dâm, Hôn kiểu Pháp và thủ dâm)
+br:
+	Trên đường đến trường vào buổi sáng, bạn hôn cô giáo, đàn chị và nàng gal Mỹ để chào hỏi khi đi ngang qua họ ở hành lang.
+	Cuối cùng bạn gặp lớp trưởng, hai bạn trao nhau một nụ hôn sâu ngọt ngào, sau đó đi vào một lớp học trống với dương vật cương cứng.
+	Bạn được liếm núm vú và thủ dâm, cuối cùng xuất tinh khi được thủ dâm với nụ hôn kiểu Pháp.
+hr:
+	str:02: Roleplay mẹ con, tiếng rên rỉ khe khẽ, quan hệ tình dục và hôn kiểu Pháp với lớp trưởng (Xuất tinh 28:22 / 31:50)
+	(Nói chuyện như trẻ con, nuốt nước bọt, hôn kiểu Pháp, trò chơi cho con bú, quan hệ tình dục hôn kiểu Pháp)
+	Sau giờ học, lớp trưởng đến chỗ tôi ở để may tạp dề cho lớp học nội trợ.
+br:
+	Khi bạn nhìn thấy cô ấy mặc tạp dề và nói: "Trông cậu thật giống một người mẹ", cô ấy bắt đầu cư xử như một người mẹ.
+	Trong khi được chiều chuộng bằng những lời nói nuông chiều của lớp trưởng, bạn đạt cực khoái trong khi quan hệ tình dục và hôn kiểu Pháp.
+hr:
+	str:03: Gal-chan Mỹ: Hôn kiểu Pháp thân mật, vuốt ve nhũ hoa và thủ dâm (Xuất tinh 21:00 / 25:20)
+	(Hôn kiểu Pháp, nuốt nước bọt, vuốt ve nhũ hoa và thủ dâm, nuốt tinh dịch bên tai)
+br:
+	Hôn kiểu Pháp với gal-chan trong khi thảo luận về bộ anime mà cô ấy đã xem hôm qua.
+	"Khi cậu cương cứng, cậu phải rút nó ra, đúng không?♡," cô thì thầm vào tai bạn và liếm nó, quyến rũ bạn.
+	Cô trêu chọc nhũ hoa của bạn trong khi thủ dâm cho bạn và hôn nồng nhiệt, đưa bạn đến cực khoái.
+	Cô ấy nuốt tinh dịch của bạn trên tay.
+hr:
+	str:04: Gal-chan Mỹ: Paizuri, sau đó là hôn kiểu Pháp nồng nàn (Cực khoái: 18:15 / 21:33)
+	(Nụ hôn quyến rũ, Hôn kiểu Pháp, Quan hệ bằng ngực, Quyến rũ bằng cách áp mặt vào tai, Cực khoái với hôn kiểu Pháp)
+br:
+	Gal-chan đến nhà khi bạn đang làm bài tập về nhà sau giờ học.
+	Cô ấy quyến rũ bạn bằng một nụ hôn kiểu Pháp, khuyến khích bạn học hành chăm chỉ hơn.
+	Mặc dù bạn nói với cô ấy rằng cô ấy đang "làm phiền việc học", nhưng bạn nhanh chóng cương cứng, và sau khi đụ ngực, bạn đạt cực khoái bằng một nụ hôn kiểu Pháp.
+hr:
+	str:05: Em gái xấu hổ → Hôn kiểu Pháp nồng nàn, Trêu chọc núm vú và đụ đùi (Xuất tinh 23:50 / 28:14)
+	(Hôn kiểu Pháp, Nuốt nước bọt, Mát xa ngực bằng tay trong khi hôn kiểu Pháp, Hôn kiểu Pháp, Trêu chọc núm vú và đụ đùi)
+br:
+	Khi bạn đưa bữa trưa cho em gái vì con bé bỏ quên, em ấy miễn cưỡng hôn bạn.
+	Khi hai bạn vào một lớp học trống và chỉ có hai người, en ấy nói, "Em yêu anh, onii♡" với giọng điệu chân thành, âu yếm.
+	Hai bạn thân mật với nhau, nuốt nước bọt và thi xem ai có thể khoe đôi môi mềm mại nhất.
+	Trong khi hôn kiểu Pháp, cô ấy dùng cả hai tay trêu chọc núm vú của bạn và vuốt ve dương vật của bạn bằng đùi.
+hr:
+	str:06: Loạn luân bằng nụ hôn kiểu Pháp trong phòng y tá với em gái (Cực khoái 19:53 / 25:12)
+	(Quan hệ tình dục và hôn kiểu Pháp, liếm núm vú, nuốt nước bọt, trao đổi nước bọt, rên rỉ)
+br:
+	Em gái bạn cảm thấy không khỏe và yêu cầu được đưa đến phòng y tá.
+	Ngay khi chỉ còn hai người, hai bạn lao vào nhau và bắt đầu hôn sâu, rõ ràng là con bé đang giả vờ.
+	Cô giáo bước vào phòng giữa chừng, khiến cả hai càng thêm phấn khích.
+	"Em muốn thêm thuốc theo toa của onii nữa...♡" cô ấy nói, dẫn đến quan hệ tình dục loạn luân và những nụ hôn sâu đậm.
+hr:
+	str:07:Kouhai gal-chan: Giọng cao, quyến rũ, ngọt ngào + giọng trầm, khổ dâm, khiêu khích, hôn sâu đậm, hướng dẫn thủ dâm (Xuất tinh: 21:03 / 22:48)
+	(Giọng cao, ngọt ngào + giọng trầm, khổ dâm, khiêu khích, nhổ/nhỏ nước bọt vào miệng, hôn sâu đậm, hướng dẫn thủ dâm, rên rỉ)
+br:
+	Bạn bắt gặp đàn em đang uống một lon nước trái cây và bị quyến rũ bởi một nụ hôn gián tiếp.
+	Cô ấy trêu chọc bạn về một "nụ hôn trực tiếp", trêu chọc bằng sự kết hợp giữa giọng cao, ngọt ngào và giọng trầm.
+	Cô ấy đã hôn sâu bạn, và khi bạn cương cứng, cô ấy hướng dẫn bạn thủ dâm "Nào, thủ dâm đi"
+	Cô ấy tự thỏa mãn bằng nụ hôn kiểu Pháp và xuất tinh trong khi trêu chọc bạn bằng những tiếng rên rỉ của mình.
+hr:
+	str:08: Kouhai gal-chan: Mắng mỏ trêu chọc theo kiểu khổ dâm bằng những nụ hôn, trừng phạt bằng những nụ hôn kiểu Pháp và màn kích thích bằng đùi (Xuất tinh 22:02 / 23:38)
+	(Những lời trêu chọc khổ dâm ngọt ngào, cao vút + trầm, nhổ nước bọt vào miệng, liếm núm vú, hôn kiểu Pháp và kích thích đùi, rên rỉ)
+br:
+	Kouhai gal-chan gọi bạn ra phía sau phòng tập thể dục sau giờ học.
+	Cô ấy mắng bạn vì không trả lời tin nhắn của cô ấy ngay lập tức và trừng phạt bạn.
+	Cô ấy trêu chọc bạn bằng màn kích thích khổ dâm trong khi nhổ nước bọt và liếm núm vú của bạn.
+	Cô ấy không cho phép bạn quan hệ tình dục, nói rằng "Anh quá tham vọng đối với một người khổ dâm", nhưng cô ấy vẫn dùng cặp đùi đầy đặn của mình để khiến bạn xuất tinh.
+	Cuối cùng, bạn đạt cực khoái trong khi được trêu chọc bằng những tiếng rên rỉ ngọt ngào, lúc cao lúc thấp bên tai.
+hr:
+	str:09: Nụ hôn sâu và màn oral sex giải phóng hormone hạnh phúc với tomboy senpai (Xuất tinh: 20:45 / 23:37)
+	(Tiếng thở dài thư giãn, Hôn, Hôn sâu, Nuốt, Oral sex, Xuất tinh vào miệng)
+br:
+	Bạn được senpai gọi đến phòng câu lạc bộ khoa học.
+	Chị ấy đang nghiên cứu tác dụng tích cực của nụ hôn đối với cơ thể, và dưới cái cớ của một thí nghiệm, hai bạn trao nhau một nụ hôn kiểu Pháp thư giãn.
+	Khi chị ấy nhận thấy sự cương cứng của bạn, chị ấy nói "Ngay cả xuất tinh cũng giải phóng hormone hạnh phúc" và oral sex cho bạn, từ tinh hoàn đến dương vật, để bạn đạt cực khoái.
+hr:
+	str:10: Thí nghiệm bổ sung: Liếm núm vú, Quan hệ tình dục hôn sâu dễ thương với tomboy senpai (Cực khoái 17:16 / 21:07)
+	(Hôn thư giãn, Liếm núm vú, Hôn sâu, Tư thế Doggy, Quan hệ tình dục hôn sâu mặt đối mặt khi đứng)
+br:
+	Senpai tiến hành một thí nghiệm bổ sung, phát hiện ra rằng hôn núm vú cũng có tác dụng tích cực.
+	Là một "phần thuần túy của nghiên cứu", "sự tiếp xúc thể chất mãnh liệt" cũng được yêu cầu.
+	Sau khi thâm nhập từ phía sau, senpai e thẹn nói, "Chị thực sự... muốn... hôn em..."
+	Quan hệ tình dục mặt đối mặt khi đứng với một nụ hôn sâu.
+hr:
+	str:11: Cô giáo trách móc kèm nụ hôn → Hỗ trợ thủ dâm bằng nụ hôn sâu (Xuất tinh 21:02 / 23:22)
+	(Vừa hôn vừa trách móc, nuốt nước bọt, hôn sâu, liếm núm vú, hỗ trợ thủ dâm, rên rỉ)
+br:
+	Cô giáo gọi bạn vào phòng tư vấn và hôn kiểu Pháp với bạn trong khi trách móc.
+	Khi bạn cương cứng, cô hướng dẫn bạn cách thủ dâm, nói rằng, "Việc một giáo viên dạy học sinh cách thủ dâm là điều tự nhiên thôi."
+	Bạn đạt cực khoái với một nụ hôn sâu trong khi bị giọng nói bên tai trêu chọc.
+hr:
+	str:12: Phần thưởng của cô giáo: Quan hệ tình dục với nụ hôn kiểu Pháp thân mật (Đạt cực khoái 19:22 / 23:05)
+	(Nụ hôn kiểu Pháp ngọt ngào, nuốt nước bọt, nói thích liên tục, Quan hệ tình dục bằng nụ hôn kiểu Pháp, rên rỉ)
+br:
+	Một nụ hôn kiểu Pháp ngọt ngào trong khi khen ngợi bạn vì đã đạt điểm cao nhất trong bài kiểm tra.
+	Một nụ hôn kiểu Pháp ngọt ngào trong khi khen ngợi sự xuất sắc của bạn và liên tục nói "Cô yêu em, cô yêu em"
+	Một nụ hôn kiểu Pháp nồng nàn và những tiếng rên rỉ mãnh liệt khi cô ấy lên đỉnh.
+hr:
+	str:13: Lớp trưởng + Em gái: Hai cô em gái? Cạnh tranh liếm tai, chơi đùa với núm vú và thủ dâm (Xuất tinh 22:21 / 26:40)
+	(Hôn kiểu Pháp, Liếm tai, Liếm núm vú, Liếm tai, Chơi đùa với núm vú, Thủ dâm, Bú dương vật)
+br:
+	Lớp trưởng bước vào khi bạn đang hôn em gái mình.
+	Hai người cạnh tranh nụ hôn kiểu Pháp, cố gắng độc chiếm bạn.
+	Lớp trưởng cũng bắt đầu cư xử như một cô em gái và gọi bạn là "Anh trai ♡." Cường độ dần giảm xuống và sự tán tỉnh trở nên mãnh liệt hơn, với việc liếm tai, trêu chọc núm vú và thủ dâm dẫn đến xuất tinh.
+	Vào thời điểm lên đỉnh, lớp trưởng bú dương vật, sau đó là em gái.
+hr:
+	str:14: Hai nàng gal: Trò Chơi Khủng Hoảng Dương Vật: Trêu chọc từ Tai đến Xuất Tinh + Quan Hệ Bằng Miệng (Xuất tinh 14:10 / 17:35 / 19:22)
+	(Hôn, trêu chọc núm vú, luân phiên trêu chọc hai + quan hệ bằng miệng, xuất tinh vào miệng)
+	Hai cô gái thi xem ai có thể làm bạn cương cứng nhất bằng nụ hôn kiểu Pháp.
+br:
+	Gal-chan Mỹ đề xuất một "Trò Chơi Khủng Hoảng Dương Vật".
+	Họ luân phiên giữa trêu chọc tai và quan hệ bằng miệng, và người nào khiến người kia xuất tinh trong khi trêu chọc tai của đối phương sẽ thắng.
+	Ở vòng thứ tư, Gal-chan Mỹ trêu chọc tai của bạn, và kouhai gal-chan quan hệ bằng miệng, dẫn đến xuất tinh vào miệng.
+	Kouhai-chan không chịu, nói "Chẳng phải người nào khiến anh ta xuất tinh bằng quan hệ bằng miệng sẽ thắng sao?"
+	Họ đổi chỗ, kouhai-chan xoa tai và gal-chan Mỹ thực hiện quan hệ bằng miệng, sau đó bạn xuất tinh vào miệng cô ấy.
+hr:
+	str:15: Cô giáo + Senpai: Lời mời tham gia hôn kiểu Pháp và cực khoái kèm tiếng rên rỉ (Cực khoái lúc 11:42 / 17:26 / 19:55)
+	(Hôn luân phiên và đồng thời, liếm núm vú, hôn kèm tiếng rên rỉ, thay phiên nhau hôn kiểu Pháp và cực khoái kèm tiếng rên rỉ)
+br:
+	Khi cô giáo chủ nhiệm và senpai mời bạn chính thức tham gia câu lạc bộ khoa học, các bạn hôn kiểu Pháp và họ liếm cả hai núm vú của bạn.
+	"Nếu em cho vào... sẽ còn tuyệt hơn nữa..." họ nói, cám dỗ bạn thâm nhập vào họ khi cậu tham gia.
+	Senpai rồi đến cô giáo, hôn kiểu Pháp và rên rỉ dẫn đến hai lần cực khoái liên tiếp.
+hr:
+	Scripts:
+	a:https://api.asmr-200.com/api/media/stream/1474192/1659116:"Track 1"
+	a:https://api.asmr-200.com/api/media/stream/1474192/1659117:"Track 2"
+	a:https://api.asmr-200.com/api/media/stream/1474192/1659118:"Track 3"
+	a:https://api.asmr-200.com/api/media/stream/1474192/1659119:"Track 4"
+	a:https://api.asmr-200.com/api/media/stream/1474192/1659120:"Track 5"
+	a:https://api.asmr-200.com/api/media/stream/1474192/1659121:"Track 6"
+	a:https://api.asmr-200.com/api/media/stream/1474192/1659122:"Track 7"
+	a:https://api.asmr-200.com/api/media/stream/1474192/1659123:"Track 8"
+	a:https://api.asmr-200.com/api/media/stream/1474192/1659124:"Track 9"
+	a:https://api.asmr-200.com/api/media/stream/1474192/1659125:"Track 10"
+	a:https://api.asmr-200.com/api/media/stream/1474192/1659126:"Track 11"
+	a:https://api.asmr-200.com/api/media/stream/1474192/1659127:"Track 12"
+	a:https://api.asmr-200.com/api/media/stream/1474192/1659128:"Track 13"
+	a:https://api.asmr-200.com/api/media/stream/1474192/1659129:"Track 14"
+	a:https://api.asmr-200.com/api/media/stream/1474192/1659130:"Track 15"
