@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio VTT Player - Dark Mode</title>
+    <script src="/@components/audio_wrapper/component.js" type="module"></script>
+    <link rel="stylesheet" href="/@resources/styles/track-player.css" />
+    <link rel="stylesheet" href="/@resources/styles/track-player.responsive.css" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <div class="image-container" id="imageContainer">
+                <div class="image-placeholder" id="imagePlaceholder">
+                    <div class="icon">🖼️</div>
+                    <h2>Không có ảnh</h2>
+                    <p>Thêm tham số ?images=url1,url2,url3 vào URL</p>
+                </div>
+
+                <!-- Image Counter -->
+                <div class="image-counter" id="imageCounter" style="display: none;">
+                    <span id="currentImageIndex">1</span> / <span id="totalImages">1</span>
+                </div>
+
+                <!-- Toggle Button -->
+                <!-- <button class="toggle-btn" id="toggleBtn" onclick="toggleSubtitles()">
+                    Ẩn phụ đề
+                </button> -->
+
+                <!-- Subtitle Overlay (bottom) -->
+                <div class="subtitle-overlay" id="subtitleOverlay"></div>
+
+                <!-- Subtitle List Overlay -->
+                <div class="subtitle-list-overlay hidden" id="subtitleListOverlay">
+                    <div class="subtitle-list" id="subtitleList"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Audio Controls -->
+        <div class="audio-controls" id="audioControls">
+            <div class="controls-header">
+                <button class="collapse-btn" onclick="setViewMode('list')">List phụ đề</button>
+                <button class="collapse-btn" onclick="setViewMode('overlay')">Ẩn list phụ đề</button>
+                <button class="collapse-btn" id="toggleBtn" onclick="toggleSubtitles()">Ẩn phụ đề</button>
+                <button class="collapse-btn" onclick="toggleControlsCollapse()">▼</button>
+                <button class="collapse-btn" id="prevImageBtn" onclick="previousImage()">‹</button>
+                <button class="collapse-btn" id="nextImageBtn" onclick="nextImage()">›</button>
+            </div>
+            <audio-wrapper id="audio" controls></audio-wrapper>
+        </div>
+    </div>
+
+
+    <script src="./formatter.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>

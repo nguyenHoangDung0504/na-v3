@@ -42,13 +42,14 @@ async function initView(db, UIbindings) {
 	const images = [track.resource.thumbnail, ...track.resource.images];
 	const seen = new Set();
 	const imgPrefixes = await db.prefixies.getAll(images.map((img) => img.prefixID));
-	images.forEach((iov, index) => {
+	const realImage = images.map((iov, index) => {
 		iov = `${imgPrefixes[index]}${iov.name}`;
 		if (seen.has(iov)) return;
 		seen.add(iov);
 		contentContainer.appendChild(
 			iov.includes('.mp4') ? new VideoPlayer(iov) : new ImageDisplayer(iov, () => fullscreenBtn.click())
 		);
+		return iov.includes('.mp4') ? undefined : iov;
 	});
 
 	const audios = track.resource.audios;
@@ -64,6 +65,19 @@ async function initView(db, UIbindings) {
 			audioPlayer.setAttribute('name', url.getFileNameFromUrl(src));
 			mp3Container.appendChild(audioPlayer);
 			audioElements.push(audioPlayer.audio);
+
+			audioPlayer.openBtn.addEventListener('click', async () => {
+				const vttPath = `/@descriptions/vtts/${trackID}/${index}.vtt`;
+				const res = await fetch(vttPath, { method: 'HEAD' });
+				if (res.ok) {
+					window.open(
+						`/watch/player/vtt-player/?audio=${src}&vtt=${vttPath}&images=${realImage.filter(Boolean).join(',')}`,
+						'_blank'
+					);
+				} else {
+					audioPlayer.audioControls?.openInNewTab();
+				}
+			});
 		});
 		new AudioPlayer(
 			audioElements,

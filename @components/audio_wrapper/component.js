@@ -5,275 +5,6 @@ linkCSS.rel = 'stylesheet';
 linkCSS.href = import.meta.resolve('./component.css');
 
 /**
- * Custom HTML element that provides an enhanced audio player with seeking capabilities,
- * skip controls, and settings panel. Supports multiple audio sources and drag-to-seek functionality.
- *
- * @example
- * ```html
- * <audio-wrapper
- *   src='["https://example.com/audio.mp3", "https://example.com/audio.ogg"]'
- *   name="My Audio Track">
- * </audio-wrapper>
- * ```
- *
- * @extends HTMLElement
- */
-export default class AudioWrapper extends HTMLElement {
-	/**
-	 * Creates a new AudioWrapper instance.
-	 * Initializes shadow DOM, creates UI elements, and sets up behaviors.
-	 */
-	constructor() {
-		super();
-		this.attachShadow({ mode: 'open' });
-
-		this._createElements();
-		this._initBehaviors();
-		this._bindEvents();
-		this._initFromAttributes();
-	}
-
-	/**
-	 * Creates and structures all DOM elements for the component.
-	 * Sets up the shadow DOM structure with audio controls, settings panel, and tools.
-	 *
-	 * @private
-	 */
-	_createElements() {
-		const container = document.createElement('div');
-		container.classList.add('container');
-
-		// Nhãn tên
-		this.nameLabel = document.createElement('div');
-		this.nameLabel.classList.add('name-label');
-
-		// Phần chứa audio và settings
-		const audioControls = document.createElement('div');
-		audioControls.classList.add('audio-controls');
-
-		this.audio = document.createElement('audio');
-		this.audio.controls = true;
-
-		this.settingsBtn = document.createElement('button');
-		this.settingsBtn.className = 'icon';
-		this.settingsBtn.id = 'settings';
-		this.settingsBtn.title = 'settings';
-
-		this.panel = document.createElement('div');
-		this.panel.classList.add('panel');
-
-		const tools = document.createElement('div');
-		tools.classList.add('tools');
-
-		this.slider = document.createElement('div');
-		this.slider.className = 'slider';
-
-		this.backBtn = document.createElement('button');
-		this.backBtn.className = 'icon';
-		this.backBtn.id = 'back';
-		this.backBtn.title = 'Back 5s';
-
-		this.forwardBtn = document.createElement('button');
-		this.forwardBtn.className = 'icon';
-		this.forwardBtn.id = 'forward';
-		this.forwardBtn.title = 'Forward 5s';
-
-		this.reloadBtn = document.createElement('button');
-		this.reloadBtn.className = 'icon';
-		this.reloadBtn.id = 'reload';
-		this.reloadBtn.title = 'Reload audio';
-
-		this.openBtn = document.createElement('button');
-		this.openBtn.className = 'icon';
-		this.openBtn.id = 'open';
-		this.openBtn.title = 'Open in new tab';
-
-		tools.append(this.backBtn, this.forwardBtn, this.reloadBtn, this.openBtn, this.slider);
-		this.panel.append(tools);
-		audioControls.append(this.settingsBtn, this.audio);
-		container.append(this.nameLabel, audioControls);
-		this.shadowRoot.append(linkCSS.cloneNode(), container, this.panel);
-	}
-
-	/**
-	 * Initializes behavior classes (SeekBehavior and AudioControls).
-	 * Creates instances that handle specific functionality.
-	 *
-	 * @private
-	 */
-	_initBehaviors() {
-		// Initialize behavior instances
-		/** @type {SeekBehavior} */
-		this.seekBehavior = new SeekBehavior(this.audio, this.slider);
-		/** @type {AudioControls} */
-		this.audioControls = new AudioControls(this.audio);
-	}
-
-	/**
-	 * Binds event listeners to control buttons.
-	 * Handles settings panel toggle and audio control actions.
-	 *
-	 * @private
-	 */
-	_bindEvents() {
-		this.settingsBtn.addEventListener('click', () => {
-			this.panel.classList.toggle('open');
-		});
-
-		this.backBtn.addEventListener('click', () => {
-			this.audioControls.skipBackward();
-		});
-
-		this.forwardBtn.addEventListener('click', () => {
-			this.audioControls.skipForward();
-		});
-
-		this.reloadBtn.addEventListener('click', () => {
-			this.audioControls.reload();
-		});
-
-		this.openBtn.addEventListener('click', () => {
-			this.audioControls.openInNewTab();
-		});
-	}
-
-	/**
-	 * Initializes component state from HTML attributes.
-	 * Processes 'src' and 'name' attributes if present.
-	 *
-	 * @private
-	 */
-	_initFromAttributes() {
-		if (this.hasAttribute('src')) {
-			this._updateSourcesFromAttr(this.getAttribute('src'));
-		} else {
-			/** @private @type {string[]} */
-			this._sources = [];
-		}
-		this._updateNameLabel();
-	}
-
-	/**
-	 * Called when the component is removed from the DOM.
-	 * Cleans up event listeners to prevent memory leaks.
-	 */
-	disconnectedCallback() {
-		this.seekBehavior?.destroy();
-	}
-
-	/**
-	 * List of attributes to observe for changes.
-	 * @returns {string[]} Array of attribute names
-	 */
-	static get observedAttributes() {
-		return ['src', 'name'];
-	}
-
-	/**
-	 * Called when an observed attribute changes.
-	 *
-	 * @param {string} name - The attribute name
-	 * @param {string | null} oldValue - Previous attribute value
-	 * @param {string | null} newValue - New attribute value
-	 */
-	attributeChangedCallback(name, oldValue, newValue) {
-		if (name === 'src') this._updateSourcesFromAttr(newValue);
-		if (name === 'name') this._updateNameLabel();
-	}
-
-	/**
-	 * Gets the underlying HTML audio element.
-	 * @returns {HTMLAudioElement} The audio element
-	 */
-	get audioElement() {
-		return this.audio;
-	}
-
-	/**
-	 * Gets the current list of audio sources.
-	 * @returns {string[]} Array of audio source URLs
-	 */
-	get sources() {
-		return this._sources;
-	}
-
-	/**
-	 * Sets the audio sources and updates the DOM.
-	 *
-	 * @param {string[]} arr - Array of audio source URLs
-	 * @throws {TypeError} If the input is not an array
-	 */
-	set sources(arr) {
-		if (!Array.isArray(arr)) {
-			throw new TypeError('sources must be an array of URLs');
-		}
-		this._sources = [...arr];
-		this._renderSources();
-		this.setAttribute('src', JSON.stringify(this._sources));
-	}
-
-	/**
-	 * Updates internal sources from the 'src' attribute.
-	 * Expects a JSON array of URLs.
-	 *
-	 * @param {string | null} value - JSON string containing array of URLs
-	 * @private
-	 */
-	_updateSourcesFromAttr(value) {
-		if (!value) {
-			this._sources = [];
-			this._renderSources();
-			return;
-		}
-		try {
-			const arr = JSON.parse(value);
-			if (Array.isArray(arr)) {
-				this._sources = arr;
-				this._renderSources();
-			} else {
-				console.warn('src attribute must be a JSON array, Invalid JSON:', this.getAttribute('src'));
-			}
-		} catch (e) {
-			console.warn('Invalid JSON in src attribute', e);
-		}
-	}
-
-	/**
-	 * Updates the name label display based on the 'name' attribute.
-	 * Shows the label if name is provided, hides it otherwise.
-	 *
-	 * @private
-	 */
-	_updateNameLabel() {
-		const name = this.getAttribute('name');
-		if (name && name.trim()) {
-			this.nameLabel.textContent = name.trim();
-			this.nameLabel.style.display = 'block';
-		} else {
-			this.nameLabel.style.display = 'none';
-		}
-	}
-
-	/**
-	 * Renders audio source elements into the audio tag.
-	 * Creates <source> elements for each URL and reloads the audio.
-	 *
-	 * @private
-	 */
-	_renderSources() {
-		this.audio.innerHTML = '';
-		for (const url of this._sources) {
-			const s = document.createElement('source');
-			s.src = url;
-			this.audio.appendChild(s);
-		}
-		this.audio.load();
-	}
-}
-
-!customElements.get(COMPONENT_NAME) && customElements.define(COMPONENT_NAME, AudioWrapper);
-
-/**
  * Handles audio seeking behavior through mouse and touch interactions on a slider element.
  * Provides drag-to-seek functionality with play/pause state management.
  */
@@ -481,3 +212,272 @@ class AudioControls {
 		if (firstSource) window.open(firstSource.src, '_blank');
 	}
 }
+
+/**
+ * Custom HTML element that provides an enhanced audio player with seeking capabilities,
+ * skip controls, and settings panel. Supports multiple audio sources and drag-to-seek functionality.
+ *
+ * @example
+ * ```html
+ * <audio-wrapper
+ *   src='["https://example.com/audio.mp3", "https://example.com/audio.ogg"]'
+ *   name="My Audio Track">
+ * </audio-wrapper>
+ * ```
+ *
+ * @extends HTMLElement
+ */
+export default class AudioWrapper extends HTMLElement {
+	/**
+	 * Creates a new AudioWrapper instance.
+	 * Initializes shadow DOM, creates UI elements, and sets up behaviors.
+	 */
+	constructor() {
+		super();
+		this.attachShadow({ mode: 'open' });
+
+		this._createElements();
+		this._initBehaviors();
+		this._bindEvents();
+		this._initFromAttributes();
+	}
+
+	/**
+	 * Creates and structures all DOM elements for the component.
+	 * Sets up the shadow DOM structure with audio controls, settings panel, and tools.
+	 *
+	 * @private
+	 */
+	_createElements() {
+		const container = document.createElement('div');
+		container.classList.add('container');
+
+		// Nhãn tên
+		this.nameLabel = document.createElement('div');
+		this.nameLabel.classList.add('name-label');
+
+		// Phần chứa audio và settings
+		const audioControls = document.createElement('div');
+		audioControls.classList.add('audio-controls');
+
+		this.audio = document.createElement('audio');
+		this.audio.controls = true;
+
+		this.settingsBtn = document.createElement('button');
+		this.settingsBtn.className = 'icon';
+		this.settingsBtn.id = 'settings';
+		this.settingsBtn.title = 'settings';
+
+		this.panel = document.createElement('div');
+		this.panel.classList.add('panel');
+
+		const tools = document.createElement('div');
+		tools.classList.add('tools');
+
+		this.slider = document.createElement('div');
+		this.slider.className = 'slider';
+
+		this.backBtn = document.createElement('button');
+		this.backBtn.className = 'icon';
+		this.backBtn.id = 'back';
+		this.backBtn.title = 'Back 5s';
+
+		this.forwardBtn = document.createElement('button');
+		this.forwardBtn.className = 'icon';
+		this.forwardBtn.id = 'forward';
+		this.forwardBtn.title = 'Forward 5s';
+
+		this.reloadBtn = document.createElement('button');
+		this.reloadBtn.className = 'icon';
+		this.reloadBtn.id = 'reload';
+		this.reloadBtn.title = 'Reload audio';
+
+		this.openBtn = document.createElement('button');
+		this.openBtn.className = 'icon';
+		this.openBtn.id = 'open';
+		this.openBtn.title = 'Open in new tab';
+
+		tools.append(this.backBtn, this.forwardBtn, this.reloadBtn, this.openBtn, this.slider);
+		this.panel.append(tools);
+		audioControls.append(this.settingsBtn, this.audio);
+		container.append(this.nameLabel, audioControls);
+		this.shadowRoot.append(linkCSS.cloneNode(), container, this.panel);
+	}
+
+	/**
+	 * Initializes behavior classes (SeekBehavior and AudioControls).
+	 * Creates instances that handle specific functionality.
+	 *
+	 * @private
+	 */
+	_initBehaviors() {
+		// Initialize behavior instances
+		/** @type {SeekBehavior} */
+		this.seekBehavior = new SeekBehavior(this.audio, this.slider);
+		/** @type {AudioControls} */
+		this.audioControls = new AudioControls(this.audio);
+	}
+
+	/**
+	 * Binds event listeners to control buttons.
+	 * Handles settings panel toggle and audio control actions.
+	 *
+	 * @private
+	 */
+	_bindEvents() {
+		this.settingsBtn.addEventListener('click', () => {
+			this.panel.classList.toggle('open');
+		});
+
+		this.backBtn.addEventListener('click', () => {
+			this.audioControls.skipBackward();
+		});
+
+		this.forwardBtn.addEventListener('click', () => {
+			this.audioControls.skipForward();
+		});
+
+		this.reloadBtn.addEventListener('click', () => {
+			this.audioControls.reload();
+		});
+
+		// this.openBtn.addEventListener('click', () => {
+		// 	this.audioControls.openInNewTab();
+		// });
+	}
+
+	/**
+	 * Initializes component state from HTML attributes.
+	 * Processes 'src' and 'name' attributes if present.
+	 *
+	 * @private
+	 */
+	_initFromAttributes() {
+		if (this.hasAttribute('src')) {
+			this._updateSourcesFromAttr(this.getAttribute('src'));
+		} else {
+			/** @private @type {string[]} */
+			this._sources = [];
+		}
+		this._updateNameLabel();
+	}
+
+	/**
+	 * Called when the component is removed from the DOM.
+	 * Cleans up event listeners to prevent memory leaks.
+	 */
+	disconnectedCallback() {
+		this.seekBehavior?.destroy();
+	}
+
+	/**
+	 * List of attributes to observe for changes.
+	 * @returns {string[]} Array of attribute names
+	 */
+	static get observedAttributes() {
+		return ['src', 'name'];
+	}
+
+	/**
+	 * Called when an observed attribute changes.
+	 *
+	 * @param {string} name - The attribute name
+	 * @param {string | null} oldValue - Previous attribute value
+	 * @param {string | null} newValue - New attribute value
+	 */
+	attributeChangedCallback(name, oldValue, newValue) {
+		if (name === 'src') this._updateSourcesFromAttr(newValue);
+		if (name === 'name') this._updateNameLabel();
+	}
+
+	/**
+	 * Gets the underlying HTML audio element.
+	 * @returns {HTMLAudioElement} The audio element
+	 */
+	get audioElement() {
+		return this.audio;
+	}
+
+	/**
+	 * Gets the current list of audio sources.
+	 * @returns {string[]} Array of audio source URLs
+	 */
+	get sources() {
+		return this._sources;
+	}
+
+	/**
+	 * Sets the audio sources and updates the DOM.
+	 *
+	 * @param {string[]} arr - Array of audio source URLs
+	 * @throws {TypeError} If the input is not an array
+	 */
+	set sources(arr) {
+		if (!Array.isArray(arr)) {
+			throw new TypeError('sources must be an array of URLs');
+		}
+		this._sources = [...arr];
+		this._renderSources();
+		this.setAttribute('src', JSON.stringify(this._sources));
+	}
+
+	/**
+	 * Updates internal sources from the 'src' attribute.
+	 * Expects a JSON array of URLs.
+	 *
+	 * @param {string | null} value - JSON string containing array of URLs
+	 * @private
+	 */
+	_updateSourcesFromAttr(value) {
+		if (!value) {
+			this._sources = [];
+			this._renderSources();
+			return;
+		}
+		try {
+			const arr = JSON.parse(value);
+			if (Array.isArray(arr)) {
+				this._sources = arr;
+				this._renderSources();
+			} else {
+				console.warn('src attribute must be a JSON array, Invalid JSON:', this.getAttribute('src'));
+			}
+		} catch (e) {
+			console.warn('Invalid JSON in src attribute', e);
+		}
+	}
+
+	/**
+	 * Updates the name label display based on the 'name' attribute.
+	 * Shows the label if name is provided, hides it otherwise.
+	 *
+	 * @private
+	 */
+	_updateNameLabel() {
+		const name = this.getAttribute('name');
+		if (name && name.trim()) {
+			this.nameLabel.textContent = name.trim();
+			this.nameLabel.style.display = 'block';
+		} else {
+			this.nameLabel.style.display = 'none';
+		}
+	}
+
+	/**
+	 * Renders audio source elements into the audio tag.
+	 * Creates <source> elements for each URL and reloads the audio.
+	 *
+	 * @private
+	 */
+	_renderSources() {
+		this.audio.innerHTML = '';
+		for (const url of this._sources) {
+			const s = document.createElement('source');
+			s.src = url;
+			this.audio.appendChild(s);
+		}
+		this.audio.load();
+	}
+}
+
+!customElements.get(COMPONENT_NAME) && customElements.define(COMPONENT_NAME, AudioWrapper);
