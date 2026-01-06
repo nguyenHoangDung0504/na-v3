@@ -1577,13 +1577,13 @@ _(
 	123413,
 	'RJ01226007',
 	'Izumi Mikoshiba',
-	'ASMR,Blowjob,Hand Job,Oral Cumshot,Paizuri',
+	'VTT,Nun,Big Breasts,Blowjob,Breast Feeding,Breast Milk,Hand Job,Internal Cumshot,Oho Voice,Oral Cumshot,Paizuri,Vulgar Moans',
 	'えちえちファンタジー',
-	'Virgin Mary x Breast Milk Titty Fuck ~While being pressed by her huge breasts and mouth, she uses breast milk instead of lotion for a slippery sex!~',
+	'Thánh mẫu x Paizuri với sữa mẹ ~Trong khi bị ép chặt bởi bộ ngực đồ sộ và miệng của cô ấy, cô ấy dùng sữa mẹ thay vì lotion để có một cuộc yêu trơn trượt!~',
 	'【痴女ド密着】聖母×母乳パイズリ ～爆乳とお口に圧迫されながら、ローション代わりの母乳でヌルヌルえっち!～',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/123413-0.jpg?v=1726720803804',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/123413-1.jpg?v=1726720805294,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/123413-2.jpg?v=1726720806578,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/123413-3.webp?v=1726720811151',
-	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/123413t1.mp3?v=1726720824610,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/123413freetalk.mp3?v=1726720809620'
+	'https://api.asmr-200.com/api/cover/1226007.jpg?type=main',
+	'https://raw.kiko-play-niptan.one/media/stream/daily/2024-11-08/RJ01226007/%E9%AB%98%E8%A7%A3%E5%83%8F%E5%BA%A6%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88.png,https://raw.kiko-play-niptan.one/media/stream/daily/2024-11-08/RJ01226007/%E6%97%A9%E6%9C%9F%E7%89%B9%E5%85%B8/%E3%82%B9%E3%83%9E%E3%83%9B%E5%A3%81%E7%B4%99/wallpaper.png',
+	'https://raw.kiko-play-niptan.one/media/stream/daily/2024-11-08/RJ01226007/mp3/tr00.mp3,https://raw.kiko-play-niptan.one/media/stream/daily/2024-11-08/RJ01226007/mp3/tr01.mp3,https://raw.kiko-play-niptan.one/media/stream/daily/2024-11-08/RJ01226007/mp3/tr02.mp3,https://raw.kiko-play-niptan.one/media/stream/daily/2024-11-08/RJ01226007/mp3/tr03.mp3,https://raw.kiko-play-niptan.one/media/stream/daily/2024-11-08/RJ01226007/mp3/tr04.mp3,https://raw.kiko-play-niptan.one/media/stream/daily/2024-11-08/RJ01226007/mp3/tr05.mp3,https://raw.kiko-play-niptan.one/media/stream/daily/2024-11-08/RJ01226007/mp3/tr06.mp3,https://raw.kiko-play-niptan.one/media/stream/daily/2024-11-08/RJ01226007/free%20talk/free%20talk.mp3'
 );
 _(
 	123001,

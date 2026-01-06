@@ -1,7 +1,7 @@
-import { SwipeHandler } from '../../../@src/app.materials.mjs';
+// import { SwipeHandler } from '../../../@src/app.materials.mjs';
 import { convertToWebVTT, isBracketTimestampVTT } from './formatter.js';
 import { sampleAudioURL, sampleImgURL } from './samples.js';
-import { device, fullscreen } from '../app.utils.mjs';
+import { device, fullscreen } from '../../../@src/app.utils.mjs';
 
 window.addEventListener('load', () => {
 	/**
@@ -325,7 +325,7 @@ window.addEventListener('load', () => {
 	init();
 	makeDraggable(document.querySelector('.subtitle-overlay'));
 
-	window.fullscreen = () => {
+	window.toggleFullscreen = () => {
 		if (document.fullscreenElement || document.webkitFullscreenElement || document.msFullscreenElement) {
 			fullscreen.deactivate();
 			screen.orientation.unlock();
