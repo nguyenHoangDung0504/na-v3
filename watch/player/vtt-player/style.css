@@ -131,19 +131,33 @@ audio::-webkit-media-controls-time-remaining-display {
 
 /* Subtitle Overlay */
 .subtitle-overlay {
-    position: absolute;
+    position: fixed;
     bottom: 8.5em;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-50%) translateY(var(--drag-y, 0px));
     background: rgba(0, 0, 0, 0.75);
     color: #fff;
-    padding: .5rem 1rem;
+    padding: .5em 1em;
     border-radius: 12px;
-    /* max-width: 90vw; */
+    /* width: 90vw; */
+    width: fit-content;
+    max-width: 60vw;
     text-align: center;
     line-height: 1.5;
-    z-index: 10;
+    z-index: 200;
     transition: opacity 0.3s;
+}
+
+@media screen and (max-width: 780px) and (orientation: portrait) {
+    .subtitle-overlay {
+        max-width: 90vw;
+    }
+}
+
+@media screen and (max-width: 780px) and (orientation: landscape) {
+    .subtitle-overlay {
+        max-width: 75vw;
+    }
 }
 
 .subtitle-overlay:empty {

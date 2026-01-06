@@ -1,5 +1,7 @@
 import { SwipeHandler } from '../../../@src/app.materials.mjs';
 import { convertToWebVTT, isBracketTimestampVTT } from './formatter.js';
+import { sampleAudioURL, sampleImgURL } from './samples.js';
+import { device, fullscreen } from '../app.utils.mjs';
 
 window.addEventListener('load', () => {
 	/**
@@ -23,6 +25,7 @@ window.addEventListener('load', () => {
 	const nextImageBtn = document.getElementById('nextImageBtn');
 	const audioControls = document.getElementById('audioControls');
 	const collapseBtn = document.getElementById('collapseBtn');
+	const toCurrentBtn = document.getElementById('to-current');
 
 	// State
 	let subtitles = [];
@@ -39,11 +42,7 @@ window.addEventListener('load', () => {
 		return {
 			audio: params.get('audio'),
 			vtt: params.get('vtt') ?? './test.vtt',
-			images: params.get('images')
-				? params.get('images').split(',')
-				: [
-						'https://raw.kiko-play-niptan.one/media/stream/daily/2025-10-20/RJ01415695/%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88.jpg',
-				  ],
+			images: params.get('images') ? params.get('images').split(',') : [sampleImgURL],
 		};
 	}
 
@@ -106,12 +105,7 @@ window.addEventListener('load', () => {
 		const params = getUrlParams();
 
 		// Load audio
-		if (params.audio) {
-			audio.src = params.audio;
-		} else {
-			audio.src =
-				'https://raw.kiko-play-niptan.one/media/stream/daily/2025-10-20/RJ01415695/MP3/SE%E3%81%82%E3%82%8A/01.%E5%88%B6%E6%9C%8D%E3%83%9E%E3%83%9E%E3%81%AE%E6%B7%AB%E4%B9%B1%E6%8C%91%E7%99%BA%E3%81%A8%E3%82%AA%E3%83%8A%E3%83%8B%E3%83%BC%E5%BC%B7%E5%88%B6.mp3';
-		}
+		audio.src = params.audio || sampleAudioURL;
 
 		// Load VTT
 		await loadVTT(params.vtt);
@@ -120,7 +114,7 @@ window.addEventListener('load', () => {
 		if (params.images && params.images.length > 0) {
 			images = params.images;
 			loadImages();
-			new SwipeHandler(imageContainer, previousImage, nextImage).registerEvents();
+			// new SwipeHandler(imageContainer, previousImage, nextImage).registerEvents();
 		}
 	}
 
@@ -225,9 +219,11 @@ window.addEventListener('load', () => {
 		if (subtitleListOverlay.classList.contains('hidden')) {
 			setViewMode('list');
 			tgBtn.textContent = 'Ẩn list phụ đề';
+			toCurrentBtn.style.display = null;
 		} else {
 			setViewMode('overlay');
 			tgBtn.textContent = 'List phụ đề';
+			toCurrentBtn.style.display = 'none';
 		}
 	}
 
@@ -263,6 +259,8 @@ window.addEventListener('load', () => {
 	}
 
 	// Audio events
+	let currentActiveItem = null;
+	window.toCurrent = () => currentActiveItem?.scrollIntoView({ behavior: 'smooth', block: 'center' });
 	audio.addEventListener('timeupdate', () => {
 		const currentTime = audio.currentTime;
 		const duration = audio.duration;
@@ -289,6 +287,7 @@ window.addEventListener('load', () => {
 					item.classList.add('active');
 					// Auto-scroll
 					// item.scrollIntoView({ behavior: 'smooth', block: 'center' });
+					currentActiveItem = item;
 				} else {
 					item.classList.remove('active');
 				}
@@ -325,6 +324,16 @@ window.addEventListener('load', () => {
 	// Initialize on load
 	init();
 	makeDraggable(document.querySelector('.subtitle-overlay'));
+
+	window.fullscreen = () => {
+		if (document.fullscreenElement || document.webkitFullscreenElement || document.msFullscreenElement) {
+			fullscreen.deactivate();
+			screen.orientation.unlock();
+		} else {
+			fullscreen.activate();
+			if (device.isMobile()) screen.orientation.lock('landscape');
+		}
+	};
 });
 
 /**
@@ -337,34 +346,28 @@ window.addEventListener('load', () => {
  * }} [opts]
  * @returns {() => void} cleanup
  */
-function makeDraggable(el, opts = {}) {
-	let { x, y } = getTranslate(el);
-	let sx = 0,
-		sy = 0;
+function makeDraggable(el) {
+	let startY = 0;
+	let baseY = 0;
 	let dragging = false;
 
-	el.style.touchAction = 'none'; // 🔴 bắt buộc cho mobile
+	el.style.touchAction = 'none';
 
 	function down(e) {
 		dragging = true;
-		sx = e.clientX - x;
-		sy = e.clientY - y;
+		startY = e.clientY;
+		baseY = parseFloat(getComputedStyle(el).getPropertyValue('--drag-y')) || 0;
 		el.setPointerCapture(e.pointerId);
-		opts.onStart?.({ x, y });
 	}
 
 	function move(e) {
 		if (!dragging) return;
-		x = e.clientX - sx;
-		y = e.clientY - sy;
-		el.style.transform = `translate(${x}px, ${y}px)`;
-		opts.onMove?.({ x, y });
+		const y = baseY + (e.clientY - startY);
+		el.style.setProperty('--drag-y', `${y}px`);
 	}
 
 	function up() {
-		if (!dragging) return;
 		dragging = false;
-		opts.onEnd?.({ x, y });
 	}
 
 	el.addEventListener('pointerdown', down);
@@ -372,16 +375,10 @@ function makeDraggable(el, opts = {}) {
 	el.addEventListener('pointerup', up);
 	el.addEventListener('pointercancel', up);
 
-	// cleanup
 	return () => {
 		el.removeEventListener('pointerdown', down);
 		el.removeEventListener('pointermove', move);
 		el.removeEventListener('pointerup', up);
 		el.removeEventListener('pointercancel', up);
 	};
-}
-function getTranslate(el) {
-	const style = getComputedStyle(el);
-	const matrix = new DOMMatrixReadOnly(style.transform);
-	return { x: matrix.m41, y: matrix.m42 };
 }
