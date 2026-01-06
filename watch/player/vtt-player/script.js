@@ -288,7 +288,7 @@ window.addEventListener('load', () => {
 				if (subtitles[index] === currentSubtitle) {
 					item.classList.add('active');
 					// Auto-scroll
-					item.scrollIntoView({ behavior: 'smooth', block: 'center' });
+					// item.scrollIntoView({ behavior: 'smooth', block: 'center' });
 				} else {
 					item.classList.remove('active');
 				}
