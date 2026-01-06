@@ -1,4 +1,4 @@
-function isBracketTimestampVTT(text, checkLines = 5) {
+export function isBracketTimestampVTT(text, checkLines = 5) {
 	const lines = text.split(/\r?\n/).filter((l) => l.trim());
 	const regex = /^\[\d{2}:\d{2}\.\d{2,3}\]/;
 
@@ -10,7 +10,7 @@ function isBracketTimestampVTT(text, checkLines = 5) {
 	return matchCount >= 3;
 }
 
-function convertToWebVTT(text, lastDuration = 2) {
+export function convertToWebVTT(text, lastDuration = 2) {
 	const lines = text.split(/\r?\n/).filter((l) => l.trim());
 	const cues = [];
 

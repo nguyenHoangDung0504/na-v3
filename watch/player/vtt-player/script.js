@@ -1,3 +1,6 @@
+import { SwipeHandler } from '../../../@src/app.materials.mjs';
+import { convertToWebVTT, isBracketTimestampVTT } from './formatter.js';
+
 window.addEventListener('load', () => {
 	/**
 	 * @type {import('../../../@components/audio_wrapper/component.js').default}
@@ -117,6 +120,7 @@ window.addEventListener('load', () => {
 		if (params.images && params.images.length > 0) {
 			images = params.images;
 			loadImages();
+			new SwipeHandler(imageContainer, previousImage, nextImage).registerEvents();
 		}
 	}
 
@@ -127,6 +131,7 @@ window.addEventListener('load', () => {
 		// Create image elements
 		images.forEach((src, index) => {
 			const img = document.createElement('img');
+			img.draggable = false;
 			img.src = src;
 			img.className = 'image-display';
 			if (index === 0) img.classList.add('active');
@@ -211,6 +216,19 @@ window.addEventListener('load', () => {
 		audioControls.classList.toggle('collapsed');
 		subtitleOverlay.classList.toggle('collapsed');
 		collapseBtn.textContent = controlsCollapsed ? '▲' : '▼';
+	}
+
+	const tgBtn = document.getElementById('toggle-vtt-view');
+
+	window.toggleViewMode = toggleViewMode;
+	function toggleViewMode() {
+		if (subtitleListOverlay.classList.contains('hidden')) {
+			setViewMode('list');
+			tgBtn.textContent = 'Ẩn list phụ đề';
+		} else {
+			setViewMode('overlay');
+			tgBtn.textContent = 'List phụ đề';
+		}
 	}
 
 	window.setViewMode = setViewMode;

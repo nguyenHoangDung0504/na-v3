@@ -641,7 +641,7 @@ _(
 	32593,
 	'RJ298123',
 	'Ryou Suzuki',
-	'Hairy,Incest,ASMR,Ear Licking,Housewife,Mature Woman,Milf,Mother,Successive Orgasms',
+	'VTT,Hairy,Incest,ASMR,Ear Licking,Housewife,Mature Woman,Milf,Mother,Successive Orgasms',
 	'',
 	'Không khoảng cách. Mẹ là ghế mát xa cho bạn',
 	'【音圧耳舐め】ゼロ距離。マママッサージチェア【ASMR・乳首責め・手コキ・騎乗位】',

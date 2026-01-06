@@ -46,10 +46,10 @@
         <!-- Audio Controls -->
         <div class="audio-controls" id="audioControls">
             <div class="controls-header">
-                <button class="collapse-btn" onclick="setViewMode('list')">List phụ đề</button>
-                <button class="collapse-btn" onclick="setViewMode('overlay')">Ẩn list phụ đề</button>
-                <button class="collapse-btn" id="toggleBtn" onclick="toggleSubtitles()">Ẩn phụ đề</button>
                 <button class="collapse-btn" onclick="toggleControlsCollapse()">▼</button>
+                <button class="collapse-btn" id="toggle-vtt-view" onclick="toggleViewMode()">List phụ đề</button>
+                <!-- <button class="collapse-btn" onclick="setViewMode('overlay')">Ẩn list phụ đề</button> -->
+                <button class="collapse-btn" id="toggleBtn" onclick="toggleSubtitles()">Ẩn phụ đề</button>
                 <button class="collapse-btn" id="prevImageBtn" onclick="previousImage()">‹</button>
                 <button class="collapse-btn" id="nextImageBtn" onclick="nextImage()">›</button>
             </div>
@@ -57,9 +57,7 @@
         </div>
     </div>
 
-
-    <script src="./formatter.js"></script>
-    <script src="./script.js"></script>
+    <script src="./script.js" type="module"></script>
 </body>
 
 </html>

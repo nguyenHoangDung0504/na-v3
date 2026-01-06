@@ -5,7 +5,7 @@ const { exec } = require('child_process');
 // Lấy ID từ tham số dòng lệnh
 const id = parseInt(process.argv[2], 10);
 if (isNaN(id)) {
-	console.error('Vui lòng nhập ID hợp lệ, ví dụ: node edit-description.js 1125');
+	console.error('Nhập ID hợp lệ, ví dụ: node .edit-description.js 1125');
 	process.exit(1);
 }
 

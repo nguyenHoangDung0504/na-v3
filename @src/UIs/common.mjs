@@ -559,7 +559,13 @@ function enableHiddenInfoOnHover(db, selector, timeOut = 400) {
 		binding.img.alt = ` - Thumbnail:${track.info.code}`;
 		const { thumbnail } = track.resource;
 		binding.img.removeAttribute('src');
-		binding.img.src = `${await db.prefixies.get(thumbnail.prefixID)}${thumbnail.name}`;
+
+		// binding.img.src = `${await db.prefixies.get(thumbnail.prefixID)}${thumbnail.name}`;
+		// Đề phòng glitch sập
+		const imgSrc = `${await db.prefixies.get(thumbnail.prefixID)}${thumbnail.name}`;
+		binding.img.src = imgSrc.includes('glitch')
+			? `https://api.asmr-200.com/api/cover/${track.info.RJcode.replace('RJ', '')}.jpg?type=main`
+			: imgSrc;
 
 		const moveHandler = (e) => {
 			const x = e.clientX;

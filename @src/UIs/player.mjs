@@ -67,7 +67,7 @@ async function initView(db, UIbindings) {
 			audioElements.push(audioPlayer.audio);
 
 			audioPlayer.openBtn.addEventListener('click', async () => {
-				const vttPath = `/@descriptions/vtts/${trackID}/${index}.vtt`;
+				const vttPath = `/@descriptions/vtts/${trackID}/${index}.txt`;
 				const res = await fetch(vttPath);
 				if (res.ok) {
 					window.open(
