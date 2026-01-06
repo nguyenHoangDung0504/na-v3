@@ -68,7 +68,7 @@ async function initView(db, UIbindings) {
 
 			audioPlayer.openBtn.addEventListener('click', async () => {
 				const vttPath = `/@descriptions/vtts/${trackID}/${index}.vtt`;
-				const res = await fetch(vttPath, { method: 'HEAD' });
+				const res = await fetch(vttPath);
 				if (res.ok) {
 					window.open(
 						`/watch/player/vtt-player/?audio=${src}&vtt=${vttPath}&images=${realImage.filter(Boolean).join(',')}`,
