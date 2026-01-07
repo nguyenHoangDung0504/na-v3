@@ -256,7 +256,7 @@ window.addEventListener('load', () => {
 	}
 
 	subtitleListOverlay.addEventListener('click', (ev) => {
-		if (['subtitle-item', 'subtitle-list'].all((cls) => !ev.target.classList.contains(cls))) setViewMode('overlay');
+		if (!['subtitle-item', 'subtitle-list'].some((cls) => ev.target.classList.contains(cls))) setViewMode('overlay');
 	});
 
 	// Audio events
