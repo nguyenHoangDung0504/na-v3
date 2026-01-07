@@ -11,7 +11,6 @@ window.addEventListener('load', () => {
 	audioWrp.shadowRoot.querySelector('#open')?.remove();
 	const audio = audioWrp.audio;
 	const playBtn = document.getElementById('playBtn');
-	const volumeBtn = document.getElementById('volumeBtn');
 	const subtitleOverlay = document.getElementById('subtitleOverlay');
 	const subtitleListOverlay = document.getElementById('subtitleListOverlay');
 	const subtitleList = document.getElementById('subtitleList');
@@ -40,7 +39,8 @@ window.addEventListener('load', () => {
 	function getUrlParams() {
 		const params = new URLSearchParams(window.location.search);
 		return {
-			audio: params.get('audio'),
+			// audio: params.get('audio'),
+			audio: getRawQueryParam('audio'),
 			vtt: params.get('vtt') ?? './test.vtt',
 			images: params.get('images') ? params.get('images').split(',') : [sampleImgURL],
 		};
@@ -256,7 +256,7 @@ window.addEventListener('load', () => {
 	}
 
 	subtitleListOverlay.addEventListener('click', (ev) => {
-		if (!['subtitle-item', 'subtitle-list'].some((cls) => ev.target.classList.contains(cls))) setViewMode('overlay');
+		if (!ev.target.closest('.subtitle-item, .subtitle-list')) setViewMode('overlay');
 	});
 
 	// Audio events
@@ -386,4 +386,20 @@ function makeDraggableY(el) {
 		el.removeEventListener('pointerup', up);
 		el.removeEventListener('pointercancel', up);
 	};
+}
+
+function getRawQueryParam(name) {
+	const query = window.location.search.slice(1); // bỏ '?'
+	if (!query) return null;
+
+	for (const part of query.split('&')) {
+		const idx = part.indexOf('=');
+		if (idx === -1) continue;
+
+		const key = part.slice(0, idx);
+		if (key === name) {
+			return part.slice(idx + 1); // raw value
+		}
+	}
+	return null;
 }
