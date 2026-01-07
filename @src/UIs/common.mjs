@@ -491,12 +491,17 @@ function initRenderers(db, UIbindings) {
 		binding._root.dataset.code = code;
 		binding._root.dataset.id = `link-to:${code}`;
 		binding.img.alt = ` - Thumbnail:${code}`;
-		binding.img.src = `${await db.prefixies.get(thumbnail.prefixID)}${thumbnail.name}`;
 		binding.pRJcode.textContent = RJcode;
 		binding.pEngname.textContent = eName;
 		binding.pEngname.title = eName;
 		binding.link1.href = binding.link2.href = watchPath;
 		binding.cvLabel.textContent = 'CV' + (cvIDs.length > 1 ? 's' : '');
+
+		// binding.img.src = `${await db.prefixies.get(thumbnail.prefixID)}${thumbnail.name}`;
+		const imgSrc = `${await db.prefixies.get(thumbnail.prefixID)}${thumbnail.name}`;
+		binding.img.src = imgSrc.includes('glitch')
+			? `https://api.asmr-200.com/api/cover/${RJcode.replace('RJ', '')}.jpg?type=main`
+			: imgSrc;
 
 		new ListView(Category, binding.cvList, (template, data) => {
 			template.href = `/?cv=${data.id}`;
