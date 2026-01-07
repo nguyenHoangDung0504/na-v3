@@ -198,12 +198,6 @@ window.addEventListener('load', () => {
 		if (audio.paused) audio.play();
 	}
 
-	window.toggleMute = toggleMute;
-	function toggleMute() {
-		audio.muted = !audio.muted;
-		volumeBtn.textContent = audio.muted ? '🔇' : '🔊';
-	}
-
 	window.toggleControlsCollapse = toggleControlsCollapse;
 	function toggleControlsCollapse() {
 		controlsCollapsed = !controlsCollapsed;
@@ -218,12 +212,8 @@ window.addEventListener('load', () => {
 	function toggleViewMode() {
 		if (subtitleListOverlay.classList.contains('hidden')) {
 			setViewMode('list');
-			tgBtn.textContent = 'Ẩn list phụ đề';
-			toCurrentBtn.style.display = null;
 		} else {
 			setViewMode('overlay');
-			tgBtn.textContent = 'List phụ đề';
-			toCurrentBtn.style.display = 'none';
 		}
 	}
 
@@ -237,36 +227,53 @@ window.addEventListener('load', () => {
 			subtitleListOverlay.classList.add('hidden');
 			subtitleOverlay.classList.remove('hidden');
 			toggleBtn.style.display = 'block';
+
+			// tgBtn.textContent = 'List phụ đề';
+			tgBtn.textContent = '☰✓';
+			toCurrentBtn.style.display = 'none';
 		} else if (mode === 'list') {
 			subtitleListOverlay.classList.remove('hidden');
 			subtitleOverlay.classList.add('hidden');
 			toggleBtn.style.display = 'none';
+
+			// tgBtn.textContent = 'Ẩn list phụ đề';
+			tgBtn.textContent = '☰✕';
+			toCurrentBtn.style.display = null;
 		}
 	}
 
 	window.toggleSubtitles = toggleSubtitles;
 	function toggleSubtitles() {
 		showSubtitles = !showSubtitles;
-		if (viewMode === 'overlay') {
+		if (viewMode === 'overlay')
 			if (showSubtitles) {
 				subtitleOverlay.classList.remove('hidden');
-				toggleBtn.textContent = 'Ẩn phụ đề';
+				toggleBtn.textContent = '👁✕';
 			} else {
 				subtitleOverlay.classList.add('hidden');
-				toggleBtn.textContent = 'Hiện phụ đề';
+				toggleBtn.textContent = '👁✓';
 			}
-		}
 	}
+
+	subtitleListOverlay.addEventListener('click', (ev) => {
+		if (['subtitle-item', 'subtitle-list'].all((cls) => !ev.target.classList.contains(cls))) setViewMode('overlay');
+	});
 
 	// Audio events
 	let currentActiveItem = null;
+	let scrollDebounceTimer = null;
+	let autoScrollEnabled = true;
+	subtitleListOverlay.addEventListener('scroll', () => {
+		autoScrollEnabled = false;
+		clearTimeout(scrollDebounceTimer);
+
+		scrollDebounceTimer = setTimeout(() => {
+			autoScrollEnabled = true;
+		}, 2000); // 2 giây
+	});
 	window.toCurrent = () => currentActiveItem?.scrollIntoView({ behavior: 'smooth', block: 'center' });
 	audio.addEventListener('timeupdate', () => {
 		const currentTime = audio.currentTime;
-		const duration = audio.duration;
-
-		// currentTimeEl.textContent = formatTime(currentTime);
-		// progressFill.style.width = `${(currentTime / duration) * 100}%`;
 
 		// Update current subtitle
 		const newSubtitle = subtitles.find((sub) => currentTime >= sub.start && currentTime < sub.end);
@@ -275,18 +282,14 @@ window.addEventListener('load', () => {
 			currentSubtitle = newSubtitle;
 
 			// Update overlay
-			if (currentSubtitle) {
-				subtitleOverlay.textContent = currentSubtitle.text;
-			} else {
-				subtitleOverlay.textContent = '';
-			}
+			subtitleOverlay.textContent = currentSubtitle ? currentSubtitle.text : '';
 
 			// Update list items
 			document.querySelectorAll('.subtitle-item').forEach((item, index) => {
 				if (subtitles[index] === currentSubtitle) {
 					item.classList.add('active');
 					// Auto-scroll
-					// item.scrollIntoView({ behavior: 'smooth', block: 'center' });
+					autoScrollEnabled && item.scrollIntoView({ behavior: 'smooth', block: 'center' });
 					currentActiveItem = item;
 				} else {
 					item.classList.remove('active');
@@ -323,7 +326,7 @@ window.addEventListener('load', () => {
 
 	// Initialize on load
 	init();
-	makeDraggable(document.querySelector('.subtitle-overlay'));
+	makeDraggableY(document.querySelector('.subtitle-overlay'));
 
 	window.toggleFullscreen = () => {
 		if (document.fullscreenElement || document.webkitFullscreenElement || document.msFullscreenElement) {
@@ -346,7 +349,7 @@ window.addEventListener('load', () => {
  * }} [opts]
  * @returns {() => void} cleanup
  */
-function makeDraggable(el) {
+function makeDraggableY(el) {
 	let startY = 0;
 	let baseY = 0;
 	let dragging = false;
@@ -358,6 +361,7 @@ function makeDraggable(el) {
 		startY = e.clientY;
 		baseY = parseFloat(getComputedStyle(el).getPropertyValue('--drag-y')) || 0;
 		el.setPointerCapture(e.pointerId);
+		el.style.transition = 'opacity 0.3s, transform 0s';
 	}
 
 	function move(e) {
@@ -368,6 +372,7 @@ function makeDraggable(el) {
 
 	function up() {
 		dragging = false;
+		el.style.transition = null;
 	}
 
 	el.addEventListener('pointerdown', down);

@@ -5,52 +5,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NHD ASMR - VTT Player</title>
-    <script src="/@components/audio_wrapper/component.js" type="module"></script>
+
+    <link rel="icon" href="data:," />
+    <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="/@resources/styles/track-player.css" />
     <link rel="stylesheet" href="/@resources/styles/track-player.responsive.css" />
-    <link rel="stylesheet" href="./style.css">
+
+    <script src="/@components/zoomable-container.js"></script>
+    <script src="/@components/audio_wrapper/component.js" type="module"></script>
 </head>
 
 <body>
-    <div class="container" ondblclick="toggleFullscreen()">
+    <div class="container">
 
         <!-- Main Content -->
         <div class="main-content">
-            <div class="image-container" id="imageContainer">
+            <zoomable-content class="image-container" id="imageContainer" ondblclick="toggleFullscreen()">
                 <div class="image-placeholder" id="imagePlaceholder">
-                    <div class="icon">🖼️</div>
-                    <h2>Không có ảnh</h2>
-                    <p>Thêm tham số ?images=url1,url2,url3 vào URL</p>
+                    <div>
+                        <h2>Không có ảnh</h2>
+                        <p>Thêm tham số ?images=url1,url2,url3 vào URL</p>
+                    </div>
                 </div>
+            </zoomable-content>
 
-                <!-- Image Counter -->
-                <div class="image-counter" id="imageCounter" style="display: none;">
-                    <span id="currentImageIndex">1</span> / <span id="totalImages">1</span>
-                </div>
-
-                <!-- Toggle Button -->
-                <!-- <button class="toggle-btn" id="toggleBtn" onclick="toggleSubtitles()">
-                    Ẩn phụ đề
-                </button> -->
-
-                <!-- Subtitle Overlay (bottom) -->
-                <div class="subtitle-overlay" id="subtitleOverlay"></div>
-
-                <!-- Subtitle List Overlay -->
-                <div class="subtitle-list-overlay hidden" id="subtitleListOverlay">
-                    <div class="subtitle-list" id="subtitleList"></div>
-                </div>
+            <!-- Image Counter -->
+            <div class="image-counter" id="imageCounter" style="display: none;">
+                <span id="currentImageIndex">1</span> / <span id="totalImages">1</span>
             </div>
+
+            <!-- Subtitle List Overlay -->
+            <div class="subtitle-list-overlay hidden" id="subtitleListOverlay">
+                <div class="subtitle-list" id="subtitleList"></div>
+            </div>
+
+            <!-- Subtitle Overlay (bottom) -->
+            <div class="subtitle-overlay" id="subtitleOverlay"></div>
         </div>
+
 
         <!-- Audio Controls -->
         <div class="audio-controls" id="audioControls">
             <div class="controls-header">
-                <button class="collapse-btn" onclick="toggleControlsCollapse()">▼</button>
-                <button class="collapse-btn" id="toggle-vtt-view" onclick="toggleViewMode()">List phụ đề</button>
-                <button class="collapse-btn" style="display: none;" id="to-current" onclick="toCurrent()">Phụ đề hiện
-                    tại</button>
-                <button class="collapse-btn" id="toggleBtn" onclick="toggleSubtitles()">Ẩn phụ đề</button>
+                <button class="collapse-btn" id="collapseBtn" onclick="toggleControlsCollapse()">▼</button>
+                <button class="collapse-btn" id="toggle-vtt-view" onclick="toggleViewMode()">☰✓</button>
+                <button class="collapse-btn" style="display: none;" id="to-current" onclick="toCurrent()">⏲</i></button>
+                <button class="collapse-btn" id="toggleBtn" onclick="toggleSubtitles()">👁✕</button>
                 <button class="collapse-btn" id="prevImageBtn" onclick="previousImage()">‹</button>
                 <button class="collapse-btn" id="nextImageBtn" onclick="nextImage()">›</button>
             </div>
