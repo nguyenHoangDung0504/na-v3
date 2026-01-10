@@ -340,7 +340,7 @@ window.addEventListener('load', () => {
 });
 
 /**
- * Làm cho element có thể kéo để di chuyển (mobile + desktop)
+ * Làm cho element có thể kéo để di chuyển Y (mobile + desktop)
  * @param {HTMLElement} el
  * @param {{
  *   onStart?: (pos: {x:number,y:number}) => void,

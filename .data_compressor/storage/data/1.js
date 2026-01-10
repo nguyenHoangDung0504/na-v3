@@ -1605,13 +1605,13 @@ _(
 	97433,
 	'RJ01070736',
 	'Tsubame Yuzuki',
-	'Big Breasts,Blowjob,Gal,Hand Job,Paizuri,School Girl',
+	'Ponytail,Big Breasts,Blowjob,Gal,Hand Job,Healing,Internal Cumshot,Oral Cumshot,Paizuri,School Girl,Sweet Love,Gal',
 	'',
-	'Close contact with a gentle gal Pampered virgin graduation sex!',
+	'Một nàng gal dịu dàng chiều chuộng bạn và giúp bạn mất trinh!',
 	'優しいギャルとの密着甘やかし童貞卒業えっち!【フォーリーサウンド】',
-	'https://cdn.glitch.global/cbd0ac37-5557-4012-b498-643e6f89d54c/97433(0)?v=1691052525960',
-	'https://cdn.glitch.global/cbd0ac37-5557-4012-b498-643e6f89d54c/97433(1)?v=1691052530628',
-	'https://cdn.glitch.me/cbd0ac37-5557-4012-b498-643e6f89d54c/97433.mp3?v=1691052801783'
+	'https://api.asmr-200.com/api/cover/1070736.jpg?type=main',
+	'https://raw.kiko-play-niptan.one/media/stream/daily/2023-07-23/RJ01070736/EX%E3%83%87%E3%83%BC%E3%82%BF/%E9%AB%98%E7%94%BB%E8%B3%AA%E3%83%91%E3%83%83%E3%82%B1%E3%83%BC%E3%82%B8.jpg',
+	'https://fast.kiko-play-niptan.one/media/stream/daily/2023-07-23/RJ01070736/%E6%9C%AC%E7%B7%A8/%231.%E3%81%82%E3%81%9A%E3%81%8B%E3%81%AE%E5%A5%BD%E6%84%8F%E3%81%A8%E3%81%88%E3%81%A3%E3%81%A1%E3%81%AE%E3%81%8A%E8%AA%98%E3%81%84.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2023-07-23/RJ01070736/%E6%9C%AC%E7%B7%A8/%232.%E3%81%82%E3%81%9A%E3%81%8B%E3%81%AE%E7%94%98%E3%80%85%E5%BF%AB%E6%84%9F%E6%89%8B%E3%82%B3%E3%82%AD.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2023-07-23/RJ01070736/%E6%9C%AC%E7%B7%A8/%233.%E3%81%82%E3%81%9A%E3%81%8B%E3%81%AB%E5%8F%A3%E5%86%85%E5%B0%84%E7%B2%BE%E3%83%95%E3%82%A7%E3%83%A9.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2023-07-23/RJ01070736/%E6%9C%AC%E7%B7%A8/%234.%E3%81%82%E3%81%9A%E3%81%8B%E3%81%A8%E7%AB%A5%E8%B2%9E%E5%8D%92%E6%A5%AD%E7%94%9F%E3%81%88%E3%81%A3%E3%81%A1.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2023-07-23/RJ01070736/%E6%9C%AC%E7%B7%A8/%235.%E3%81%82%E3%81%9A%E3%81%8B%E3%81%AB%E5%91%8A%E7%99%BD%EF%BC%81%E4%B8%80%E7%B7%92%E3%81%AB%E6%B7%BB%E3%81%84%E5%AF%9D.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2023-07-23/RJ01070736/%E6%9C%AC%E7%B7%A8/%236.%E3%81%82%E3%81%9A%E3%81%8B%E3%81%AE%E6%BF%A1%E3%82%8C%E9%81%8B%E3%82%8C%E3%83%91%E3%83%B3%E3%83%84%E6%89%8B%E3%82%B3%E3%82%AD.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2023-07-23/RJ01070736/%E6%9C%AC%E7%B7%A8/%237.%E3%81%82%E3%81%9A%E3%81%8B%E3%81%AE%E3%81%B5%E3%82%8F%E3%81%B5%E3%82%8F%E3%83%91%E3%82%A4%E3%82%BA%E3%83%AA%E3%83%95%E3%82%A7%E3%83%A9.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2023-07-23/RJ01070736/%E6%9C%AC%E7%B7%A8/%238.%E3%81%82%E3%81%9A%E3%81%8B%E3%81%A8%E3%83%A9%E3%83%96%E3%83%A9%E3%83%96%E5%AF%86%E7%9D%80%E3%81%88%E3%81%A3%E3%81%A1.m4a'
 );
 _(
 	65047,

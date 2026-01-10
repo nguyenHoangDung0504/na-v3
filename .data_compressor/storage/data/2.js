@@ -926,18 +926,6 @@ _(
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/101258t1.mp3?v=1703647210538'
 );
 _(
-	80263,
-	'RJ01056162',
-	'Kana Iino',
-	'Hand Job,Housewife,Rape',
-	'',
-	"A married woman's nasty and mean verbal abuse - Even though I have a girlfriend, I can't hold back my ejaculation after being forced to be marked",
-	'【逆NTR】人妻のドスケベ意地悪言葉責め∼彼女がいるのに無理矢理マーキングでわからせられて射精我慢できない',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/80263-0.jpg?v=1703648259679',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/80263-1.jpg?v=1703648260771,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/80263-2.jpg?v=1703648261810',
-	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/80263t1.mp3?v=1703648273935'
-);
-_(
 	16322,
 	'RJ272093',
 	'Haru Amachi',
@@ -1046,18 +1034,6 @@ _(
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/106927t1.mp3?v=1705132719955'
 );
 _(
-	38997,
-	'RJ312554',
-	'Aino Mimori',
-	'ASMR,Ear Licking,Swimwear,Twins',
-	'',
-	'Sweet Lip',
-	'【ASMR×催眠音声】甘とろリップ',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/38997-0.jpg?v=1705138636476',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/38997-1.jpg?v=1705138638285',
-	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/38997t1.mp3?v=1705138647903'
-);
-_(
 	31261,
 	'RJ286285',
 	'Karin Inoue',
@@ -1068,30 +1044,6 @@ _(
 	'https://api.asmr-200.com/api/cover/286285.jpg?type=main',
 	'https://raw.kiko-play-niptan.one/media/stream/hvdb/7900-7999/RJ286285/%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88/%E3%83%AD%E3%82%B4%E3%81%AA%E3%81%97.jpeg,https://raw.kiko-play-niptan.one/media/stream/hvdb/7900-7999/RJ286285/%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88/%E3%82%B5%E3%83%A0%E3%83%8D%E3%82%A4%E3%83%AB%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88.jpg',
 	'https://fast.kiko-play-niptan.one/media/stream/hvdb/7900-7999/RJ286285/%E9%9F%B3%E5%A3%B0%E3%83%87%E3%83%BC%E3%82%BF/SE%E3%81%82%E3%82%8A/1_%E3%83%9E%E3%83%9E%E3%81%A8%E6%B7%A1%E3%80%85%E5%88%9D%E3%82%A8%E3%83%83%E3%83%81.m4a,https://fast.kiko-play-niptan.one/media/stream/hvdb/7900-7999/RJ286285/%E9%9F%B3%E5%A3%B0%E3%83%87%E3%83%BC%E3%82%BF/SE%E3%81%82%E3%82%8A/2_%E5%9B%81%E3%81%8D%E7%9A%AE%E5%89%A5%E3%81%8D%E6%89%8B%E3%82%B3%E3%82%AD.m4a,https://fast.kiko-play-niptan.one/media/stream/hvdb/7900-7999/RJ286285/%E9%9F%B3%E5%A3%B0%E3%83%87%E3%83%BC%E3%82%BF/SE%E3%81%82%E3%82%8A/3_%E7%9A%AE%E5%89%A5%E3%81%8D%E5%BF%9C%E6%8F%B4%E3%81%A8%E3%81%B1%E3%81%84%E3%81%9A%E3%82%8A.m4a,https://fast.kiko-play-niptan.one/media/stream/hvdb/7900-7999/RJ286285/%E9%9F%B3%E5%A3%B0%E3%83%87%E3%83%BC%E3%82%BF/SE%E3%81%82%E3%82%8A/4_%E3%83%9E%E3%83%9E%E3%81%A8%E7%94%98%E3%80%85%E5%9B%81%E3%81%8D%E3%82%A8%E3%83%83%E3%83%81.m4a'
-);
-_(
-	108051,
-	'RJ01139117',
-	'Popura Sawano',
-	'Incest,School Girl,School Uniform,Sister',
-	'ライト向けNTRシリーズ',
-	'Sleepy older sister is everyone’s shared masturbator',
-	'眠たがりのお姉ちゃんはみんなの共有オナホ',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/108051-0.jpg?v=1705139602932',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/108051-1.jpg?v=1705139604034',
-	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/108051t1.mp3?v=1705139612210'
-);
-_(
-	20076,
-	'RJ279422',
-	'Popura Sawano',
-	'Big Breasts,Blowjob,Dirty Talk,Incest,Naughty,Sister',
-	'ライト向けNTRシリーズ',
-	'My Older Sister Will Fuck Anyone',
-	'誰とでもエッチする僕のお姉ちゃん',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/20076-0.jpg?v=1705140098233',
-	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/20076-1.png?v=1705140169005',
-	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/20076t1.mp3?v=1705140703930'
 );
 _(
 	105963,
@@ -1248,18 +1200,6 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/98788-0.jpg?v=1705220496174',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/98788-1.jpg?v=1705220497246,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/98788-2.jpg?v=1705220498985,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/98788-3.jpg?v=1705220500126,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/98788-4.jpg?v=1705220501528,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/98788-5.jpg?v=1705220502576,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/98788-6.jpg?v=1705220476448,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/98788-7.jpg?v=1705220477499',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/98788t1.mp3?v=1705220494529,https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/98788freetalk.mp3?v=1705220481239'
-);
-_(
-	104836,
-	'RJ01104844',
-	'Izumi Mikoshiba',
-	'Anal,Loli,Rape,Succubus,Twin Tail,Virgin Female',
-	'',
-	'Time-stopping rape with a cute loli succubus ~ 3 days of raping non-resisting Puniman J○s ~',
-	'ぶりっ子ロリサキュバスちゃんと時間停止レイプ〜無抵抗ぷにまんJ○達を犯し続けた3日間〜',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/104836-0.jpg?v=1705221083558',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/104836-1.jpg?v=1705221084712',
-	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/104836t1.mp3?v=1705221097227'
 );
 _(
 	103050,

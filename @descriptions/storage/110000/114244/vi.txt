@@ -1,0 +1,88 @@
+- Content_Des
+	Một ngày nọ, bạn bắt đầu bị bạn cùng lớp - nữ thần tượng học đường Mizuki Yukishiro bắt nạt.
+	Lý do dường như là vì cô ấy đã bỏ lỡ cơ hội xuất hiện trong một quảng cáo cho công ty của bố bạn.
+	Bạn ngay lập tức hỏi ý kiến ​​cô hầu gái Sophia, và thật yên tâm, cô ấy dường như đã tìm ra một giải pháp...
+
+- Character_Des
+	str:Sophia (CV: Kanoko)
+	Cô hầu gái lớn tuổi, lạnh lùng, hơn cả chị gái của bạn♪
+	Cô ấy yêu bạn say đắm, và hơn bất cứ điều gì, cô ấy thích hôn kiểu Pháp với bạn (→ việc bắt bạn uống nước bọt ngọt ngào, dính nhớp của cô ấy là chuyện thường ngày).
+
+	Cô ấy có hiểu biết sâu sắc về huấn luyện, và dường như cô ấy có thể biến bất kỳ cô gái nào thành nô lệ thủ dâm...?
+
+	"Việc hôn kiểu Pháp để chào hỏi và áp bộ ngực đồ sộ của cô ấy vào người là điều hoàn toàn tự nhiên—một sở thích có thể sánh ngang với bất kỳ thần tượng ảnh khỏa thân nào... Hãy tận hưởng thân hình của Mizuki đến hết mức có thể nhé♪"
+hr:
+	str:Mizuki Yukishiro (CV: Minase Suzuka)
+	Bạn cùng lớp của bạn, một thần tượng học đường thoải mái♪
+	Sau khi quấy rối bạn, Sophia để ý đến cô ấy và huấn luyện cô ấy trở thành nô lệ thủ dâm riêng của bạn.
+
+	Những chuyển động hông của cô ấy, được mài dũa qua các bài học khiêu vũ hàng ngày, và âm đạo săn chắc của cô ấy thật tuyệt vời. Bởi vì cô ấy đã được Sophia huấn luyện hoàn hảo, cô ấy thậm chí sẽ liếm cả hậu môn của bạn với một nụ cười. ♪ "Cho vào đi, chủ nhân! Tôi muốn dương vật của ngài trong âm đạo của tôi! Gâu, gâu, gâu!"
+	
+- Track_Des
+	str:01: Lời mở đầu ♪ (3 phút)
+	(Vừa trò chuyện vừa hôn kiểu Pháp)
+hr:
+	str:02: Màn "bắn tinh" trái phép vào mông của một nữ sinh thần tượng ♪ (16 phút)
+
+	Sophia chuẩn bị "mông" của Mizuki để trả thù cho việc bị bắt nạt.
+	Trong khi Sophia thì thầm những lời khiêu gợi vào tai bạn và bạn trao nhau nụ hôn kiểu Pháp ngọt ngào... hãy trút tinh dịch của bạn vào âm đạo của Mizuki♪
+
+	"Đây là mông trần của Mizuki Yukishiro, nữ thần tượng hư hỏng và nữ sinh trung học đã hành hạ ngài, Chủ nhân♪"
+
+	"Âm đạo áp sát vào tường của nữ thần tượng không có khả năng tự vệ này... hãy thúc hông của bạn vào đó và lan tỏa tinh dịch của chủ nhân vào bên trong cô ấy♪"
+
+	(Chuẩn bị bằng liếm âm đạo/Giải thích về âm đạo bằng lời thì thầm/Liếm tai/Vẽ lên mông cô ấy/Cho cô ấy uống nước bọt của bạn) (Hôn liếm/Hỗ trợ nụ hôn kiểu Pháp dính nhớp/Xuất tinh trong khi hôn kiểu Pháp)
+hr:
+	str:03: Huấn luyện một nữ sinh trung học thần tượng hầu gái lạnh lùng thành nô lệ không da thịt ♪ (7 phút)
+
+	Những cảnh cực khoái của Mizuki khi cô ấy được huấn luyện để trở thành nô lệ không da thịt riêng của bạn ♪
+
+	"Chờ đã, chờ ... Tôi sẽ không dừng lại. Nào, lại đi, xuất tinh một cách nhục nhã đi."
+
+	(Bị trói ở tư thế bò/ Phun liên tục/ Đánh mông/ Tiếp tục xuất tinh ngay cả sau khi xuất tinh /Xuất tinh điên cuồng)
+hr:
+	str:04: Một trận chiến thổi kèn giữa cô hầu gái lạnh lùng và nô lệ xác thịt ♪ (9 phút)
+
+	Mizuki đã trở thành nô lệ xác thịt riêng của bạn ♪
+
+	Háo hức cho lần phục vụ đầu tiên, Mizuki và cô nàng Sophia yêu quý của cô ấy liếm láp dương vật của bạn như thể họ đang tranh giành nó ♪
+
+	"Từ hôm nay, tôi sẽ phục vụ bạn với tư cách là nô lệ xác thịt của bạn. Rất vui được gặp bạn, Chủ nhân ♪"
+
+	"Thật tự nhiên khi chào nhau bằng một nụ hôn, và áp bộ ngực đồ sộ của bạn vào chúng, điều này sẽ khiến một thần tượng ảnh khỏa thân phải xấu hổ..." Hãy tận hưởng đến hết mức có thể ♪"
+
+	(Ấn ngực vào lưỡi hôn/ngửi dương vật/trêu chọc dương vật trong khi mút/liếm tinh hoàn/liếm đầu dương vật/thổi kèn kiểu hậu cung/nuốt đồng thời vào tai)
+hr:
+	str:05: Giao phối hoang dã thực sự với một Kẻ thủ dâm trong trang phục chó với cô hầu gái quyến rũ♪ (15 phút)
+
+	Mizuki bị kích thích trong một buổi đi dạo tối♪
+	Trong khi Sophia thì thầm vào tai bạn, hãy tận hưởng màn giao phối hoang dã thực sự với Mizuki trong bộ trang phục chó sẽ khiến bạn hoàn toàn trống rỗng♪
+
+	"Wow Gâu gâu, gâu gâu. Chủ nhân, làm ơn cho tôi dương vật của ngài!♪"
+
+	"Một cựu thần tượng, một con mèo cưng dâm đãng... làm ơn hãy dạy cho nó một bài học thích đáng!♪"
+
+	(Đi tiểu lên cột điện thoại/Bắt chước chó/Đuôi hậu môn và thâm nhập kép/Cầu xin được thụ thai/Nụ hôn kiểu Pháp khô khốc/Cắt đuôi hậu môn → Âm đạo khít!♪/Cực khoái sâu, giao phối nghiêm túc/Tiếng gọi xuất tinh phun trào)
+hr:
+	str:06: Sự ghen tuông của cô hầu gái quyến rũ được bộc lộ khi cô ấy vắt sữa anh ta bằng cách liếm hậu môn của nô lệ thủ dâm. Cảng ♪ (18 phút)
+
+	"Dạo này Mizuki không phải là nỗi ám ảnh của anh sao?" Sophia ghen tuông hỏi. ♪
+	Trong khi chiếc lưỡi mềm mại của Mizuki luồn vào hậu môn của cô ấy, Sophia và tôi có một màn "vắt sữa" ngọt ngào... ♪
+
+	"Hậu môn của chủ nhân dễ thương quá. Nó co giật và chuyển động mỗi khi Mizuki liếm nó. Hehehe ♪"
+
+	"Đừng để rò rỉ... Tôi vẫn chưa được yêu thương đủ. Xin hãy ban phước cho tôi bằng niềm hạnh phúc được xuất tinh cùng chủ nhân, chủ nhân ♪"
+
+	(Quan hệ tình dục ban đêm/Cầu xin được thụ thai/Hôn và làm tình/O (Ấn ngực, hôn kiểu Pháp, ngửi hậu môn và xuất tinh trong khi được liếm hậu môn)
+hr:
+	str:07: Thông báo mang thai hoàn toàn khỏa thân với nụ hôn kiểu Pháp kép và màn thủ dâm kiểu hậu cung ♪ (16 phút)
+
+	Mizuki và Sophia bò vào giường bạn, hoàn toàn khỏa thân ♪
+	Sau khi thông báo mang thai, chân của họ đan xen vào nhau một cách liền mạch... và màn thủ dâm kiểu hậu cung bắt đầu ♪
+	Họ hôn bạn liên tục và dai dẳng, thì thầm "Em yêu anh ♪" và "Em yêu..." "Em yêu anh♪" cho đến khi đầu óc em tan chảy... và em sẽ được thỏa mãn bằng một cơn xuất tinh sung sướng. ♪
+
+	"Thưa chủ nhân, nếu thấy thích thì cứ thoải mái mà lên tiếng. Sẽ không ai nghe thấy ngoài Mizuki và những người khác đâu."
+	"Đúng vậy. Cho dù anh có vẻ không ngầu đến đâu, với chúng tôi, mọi thứ về anh đều ngầu cả."
+
+	(Quan hệ tình dục ban đêm/Thông báo mang thai/Ngực của dàn harem áp sát vào tôi/Chân quấn chặt vào nhau/Hai nụ hôn lưỡi/Hai nụ hôn lưỡi nuốt nước bọt/Những nụ hôn harem liên tục/Những lời thì thầm "Anh yêu em"/Xuất tinh trong khi bị hôn đôi/Âm thanh nuốt tinh dịch đồng thời bên tai)
+	

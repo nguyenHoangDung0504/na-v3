@@ -1,0 +1,49 @@
+- Content_Des
+	◆Những ngày tràn ngập tình dục với cơ thể đẫm mồ hôi♪
+	◆Xuất tinh trực tiếp vào âm đạo bốc mùi♪
+	◆Những tiếng rên rỉ tục tĩu theo bản năng♪
+	◆Liếm tai đến tận gáy♪
+	◆Trêu chọc bằng mùi hương trong chiếc nệm ẩm ướt♪
+hr:
+	Bạn đã hẹn hò với bạn gái được hơn sáu tháng, và cả hai đều đang tận hưởng cuộc sống NEET của mình và có những màn ân ái lười biếng, rên rỉ tại nhà.
+	Rồi một ngày, em gái cô ấy đến chơi.
+	Bạn hơi bối rối trước sự thay đổi đột ngột này, nhưng các bạn quyết định cùng nhau tận hưởng cuộc sống NEET.
+
+- Character_Des
+	str:Shimizu Yukari (Bé nằm dưới)
+
+	18 tuổi.
+	Em gái bạn gái bạn.
+	Một nhà đầu tư thiên tài.
+	Mùi cơ thể rất khó chịu.
+	Một cô nàng trơn tru, hôi hám.
+hr:
+	str:Shimizu Aoi (Bé nằm trên)
+
+	20 tuổi.
+	Cô bạn gái biến thái của bạn.
+	Cô gái NEET vô dụng.
+	Mùi cơ thể rất khó chịu.
+	Một cô nàng dâm đãng rậm rạp.
+	
+- Track_Des
+	01. Lời mở đầu [09:08]
+	➡ [Trò chuyện]
+br:
+	02. Đối mặt với em gái trong khi nhũ hoa bị trêu chọc [31:11]
+	➡ [Đối mặt/Trêu chọc nhũ hoa/Mất trinh/Hậu cung/Trêu chọc bằng mùi hương/Ngửi âm đạo/Liếm âm hộ/Xòe chân/Tiếp xúc gần/Thì thầm/Quyến rũ/Quan hệ tình dục trần trụi/Xuất tinh vào trong]
+br:
+	03. Làm tình sâu sắc với cô bạn gái gợi cảm, đẫm mồ hôi, rên rỉ và thở hổn hển [21:30]
+	➡ [Ôm ấp và làm tình kiểu truyền thống/Rên rỉ/Hôn kiểu Pháp/Trêu chọc bằng mùi hương/Ôm ấp/Tiếp xúc gần/Thì thầm/Quyến rũ/Nói "Thích" nhiều lần/Quan hệ tình dục trần trụi/Xuất tinh vào trong]
+br:
+	04. Nhiều tiếng thở dài và màn thủ dâm liếm tai trên chiếc futon bốc mùi dâm đãng [37:37]
+	➡ [Thủ dâm/Liếm tai/Tra tấn quy đầu/Liếm nách/Tra tấn núm vú/Tra tấn nước bọt/Hậu cung/Hơi thở hôi/Hôn kiểu Pháp/Tra tấn bằng mùi hương/Tiếp xúc thân mật/Thì thầm/Quyến rũ/Quan hệ tình dục không dùng bao cao su/Xuất tinh vào âm đạo/Nuốt tinh dịch]
+br:
+	05. Quan hệ tình dục âu yếm, rên rỉ với em gái đầy mồ hôi và mùi hôi của bạn gái tôi [21:20]
+	➡ [Ôm ấp kiểu truyền giáo/Rên rỉ/Hôn kiểu Pháp/Tra tấn bằng mùi hương/Ôm ấp/Tiếp xúc thân mật/Thì thầm/Quyến rũ/Nói "Thích" nhiều lần/Quan hệ tình dục không dùng bao cao su/Xuất tinh vào âm đạo]
+br:
+	06. Tư thế ngồi đối mặt với em gái của bạn gái trong khi em gái cô ấy tra tấn núm vú cho bạn [28:50]
+	➡ [Tư thế ngồi đối mặt/Tra tấn núm vú/NTR ngược/Quan hệ tình dục qua hậu môn/Liếm tai/Hậu cung/Hôn kiểu Pháp/Mùi hương/Tra tấn/Thủ dâm/Tiếp xúc thân mật/Thì thầm/Quyến rũ/Quan hệ tình dục trần trụi/Xuất tinh vào bên trong]
+br:
+	07. Lời kết [10:07]
+	➡ [Nụ hôn tình yêu thuần khiết]
