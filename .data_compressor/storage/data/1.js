@@ -6,7 +6,7 @@ _(
 	19178,
 	'RJ276886',
 	'Eikyuu',
-	'Described,Blowjob,English Words/Phrases,Housewife,Milf,Whispering,Mature Woman,Femdom,Paizuri,Seduction',
+	'VTT,Described,Blowjob,English Words/Phrases,Housewife,Milf,Whispering,Mature Woman,Femdom,Paizuri,Seduction',
 	'熟女',
 	"Ripe Woman 12: Another Friend's Mother",
 	'熟れた女12:友だちのお母さん 2人目',
@@ -114,7 +114,7 @@ _(
 	35998,
 	'RJ306372',
 	'Mio Namimi',
-	'Described,Anal,Bitch,Blowjob,Hand Job,Internal Cumshot,Outdoor Sex,School Girl,Sweet Love,Yandere',
+	'VTT,Described,Anal,Bitch,Blowjob,Hand Job,Internal Cumshot,Outdoor Sex,School Girl,Sweet Love,Yandere',
 	'プレミアムフォーリーシリーズ',
 	'Crazed Gal’s 0 Yen Pussy',
 	'メンヘラギャルの0円おまんことの性活【フォーリーサウンド】',
@@ -126,7 +126,7 @@ _(
 	75549,
 	'RJ01013493',
 	'Kaede Akino,Mio Namimi',
-	'Described,Big Breasts,Blowjob,Breathing,Dirty Talk,Ear Licking,Hand Job,Internal Cumshot,Kissing,Masturbation Support,School,School Girl,Seduction,Sweet Love,Tomboy,Harem,Femdom',
+	'VTT,Described,Big Breasts,Blowjob,Breathing,Dirty Talk,Ear Licking,Hand Job,Internal Cumshot,Kissing,Masturbation Support,School,School Girl,Seduction,Sweet Love,Tomboy,Harem,Femdom',
 	'',
 	'Tomboyish girl and Gal girl are too familiar with each other!',
 	'ボーイッシュ女とギャル女が馴れ馴れしいっ!【マゾ系おねショタのドスケベ性行為】',
@@ -164,7 +164,7 @@ _(
 	45123,
 	'RJ315439',
 	'Kotone Akatsuki',
-	'Described,ASMR,Dirty Talk,Ear Licking,Naughty,Orgy Sex,Sweet Love,Whispering,Younger Stepsister,Harem,Sisters',
+	'VTT,Described,ASMR,Dirty Talk,Ear Licking,Naughty,Orgy Sex,Sweet Love,Whispering,Younger Stepsister,Harem,Sisters',
 	'二人の義妹',
 	'Step-sisters giving you a raw fuck with lots of kisses and love',
 	'まっすぐに好意を寄せてくる義妹がキスと愛情たっぷりに生ハメ交尾してくれる音声',
@@ -302,7 +302,7 @@ _(
 	57648,
 	'RJ362188',
 	'Haru Amachi',
-	'Big Breasts,Chubby,Dirty Talk,Ear Licking,Hand Job,Paizuri,Queen/Princess,Wife,Hand Job,Big Breasts,Dirty Talk,Ear Licking,Hand Job,Internal Cumshot,Paizuri,Queen/Princess,Sweet Love,Kissing,Masturbation Support',
+	'VTT,Big Breasts,Chubby,Dirty Talk,Ear Licking,Hand Job,Paizuri,Queen/Princess,Wife,Hand Job,Big Breasts,Dirty Talk,Ear Licking,Hand Job,Internal Cumshot,Paizuri,Queen/Princess,Sweet Love,Kissing,Masturbation Support',
 	'お姫様',
 	'Getting Married and Making Babies with an Aloof Princess',
 	'“クールな”お姫様と結婚して、オナホおまんこでイチャラブ子作りえっちが仕事になる生活♪【バイノーラル】',
@@ -338,7 +338,7 @@ _(
 	71765,
 	'RJ427661',
 	'ありがた～い私',
-	'Anal,Big Breasts,Blowjob,Internal Cumshot,Oho Voice,Outdoor Sex,Sweet Love,Goddess',
+	'VTT,Anal,Big Breasts,Blowjob,Internal Cumshot,Oho Voice,Outdoor Sex,Sweet Love,Goddess',
 	'100円おかず',
 	'The story of how the goddess came out when I dropped the Masturbator into the pond and rewarded me as an honest person ~',
 	'お池のオナホ女神様 ～オナホを池に落としたら女神様が出てきて正直者の俺にご褒美くれた話～',
@@ -410,7 +410,7 @@ _(
 	38876,
 	'RJ310861',
 	'Minase Suzuka',
-	'Big Breasts,Cheerleader,Dirty Talk,Hand Job,Masturbation,Masturbation Support,Naughty,Outdoor Sex,Peeing,Perverted,School,School Girl,Student',
+	'VTT,Big Breasts,Cheerleader,Dirty Talk,Hand Job,Masturbation,Masturbation Support,Naughty,Outdoor Sex,Peeing,Perverted,School,School Girl,Student',
 	'ドスケベJKシリーズ',
 	'Perverted pervert club activity of perverted cheerleader girl♪ ~Neat and clean school idol was perverted and the lowest exhibitionist♪~',
 	'ドスケベチアガールのエロエロ変態部活動♪～清楚な学園のアイドルはド変態で最っ低な露出狂でした♪～',
@@ -457,7 +457,7 @@ _(
 _(
 	78234,
 	'RJ01046110',
-	'Tsubame Yuzuki,Yuka Hinata',
+	'VTT,Tsubame Yuzuki,Yuka Hinata',
 	'Anal,Big Breasts,Blowjob,Dirty Talk,Double Earlicking,Ear Licking,Hand Job,Oho Voice,Oral Cumshot,Paizuri,Pregnancy/Impregnation,Successive Orgasms,Mature Woman,Harem,School Girl,Student',
 	'チンカス汚ちんぽシリーズ',
 	'A story about a big-breasted lewd lady and her mother who flatter and serve a dirty cock♪',
@@ -494,7 +494,7 @@ _(
 	56709,
 	'RJ350926',
 	'Yuka Hinata',
-	'Anal,Big Breasts,Blowjob,Dirty Talk,Housewife,Internal Cumshot,Mature Woman,Netori,Oho Voice,Orgy Sex,Kouhai,Cosplay,Harem',
+	'VTT,Anal,Big Breasts,Blowjob,Dirty Talk,Housewife,Internal Cumshot,Mature Woman,Netori,Oho Voice,Orgy Sex,Kouhai,Cosplay,Harem',
 	'チンカス汚ちんぽシリーズ',
 	'A story about a busty junior cheerleader and her mother serving dirty dicks♪',
 	'巨乳後輩チアガールとその母親がチンカス汚ちんぽにご奉仕してくれるお話♪【KU100】',
@@ -596,26 +596,13 @@ _(
 	54417,
 	'RJ343049',
 	'Hanami Takanashi',
-	'ASMR,Big Breasts,Chubby,Dirty Talk,Hand Job,Oho Voice,School Girl,Student,Swallowing,Burping,Fetish,Licking,Micro Bikini,Spit,Whispering,Breathing',
+	'VTT,ASMR,Big Breasts,Chubby,Dirty Talk,Hand Job,Oho Voice,School Girl,Student,Swallowing,Burping,Fetish,Licking,Micro Bikini,Spit,Whispering,Breathing',
 	'',
 	'Nasty Doskebe Sexual Processing Committee Chairman’s Erection Control Vulgar Squeezing Sexual Activity Guidance',
 	'淫乱ドスケベ性処理委員長の勃起取り締まりお下品搾精性活指導【淫乱オナサポ、ベロキス手コキ、バキュームフェラ、腋&足の臭い責め、オホ声、ザーメンゲップ】',
 	'https://api.asmr-200.com/api/cover/343049.jpg?type=main',
 	'https://raw.kiko-play-niptan.one/media/stream/daily/2021-10-12/RJ343049/%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88/%E9%9F%B3%E5%A3%B0%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88%E7%99%BD%E3%83%91%E3%83%B3%E3%83%84.png,https://raw.kiko-play-niptan.one/media/stream/daily/2021-10-12/RJ343049/%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88/%E9%9F%B3%E5%A3%B0%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88%E9%BB%92%E3%83%91%E3%83%B3%E3%83%84.png',
 	'https://raw.kiko-play-niptan.one/media/stream/daily/2021-10-12/RJ343049/wav/1.%E3%83%89%E3%82%B9%E3%82%B1%E3%83%99%E5%A7%94%E5%93%A1%E9%95%B7%E3%81%8B%E3%82%89%E3%81%AE%E5%91%BC%E3%81%B3%E5%87%BA%E3%81%97(%E5%B0%8E%E5%85%A5).wav,https://raw.kiko-play-niptan.one/media/stream/daily/2021-10-12/RJ343049/wav/2.%E5%AA%9A%E3%81%B3%E5%AA%9A%E3%81%B3%E8%AA%98%E6%83%91%E3%81%A8%E6%B7%AB%E8%AA%9E%E8%B2%AC%E3%82%81%E5%AF%B8%E6%AD%A2%E3%82%81%E3%82%AA%E3%83%8A%E3%82%B5%E3%83%9D.wav,https://fast.kiko-play-niptan.one/media/stream/daily/2021-10-12/RJ343049/wav/3.%E5%8C%82%E3%81%84%E8%B2%AC%E3%82%81%E3%81%A8%E3%83%99%E3%83%AD%E3%82%AD%E3%82%B9%E5%AF%86%E7%9D%80%E6%90%BE%E7%B2%BE%E6%89%8B%E3%82%B3%E3%82%AD.m4a,https://raw.kiko-play-niptan.one/media/stream/daily/2021-10-12/RJ343049/wav/4.%E6%8A%9C%E3%81%8D%E6%89%93%E3%81%A1%E3%83%90%E3%82%AD%E3%83%A5%E3%83%BC%E3%83%A0%E3%83%95%E3%82%A7%E3%83%A9%E3%83%81%E3%82%AAin%E4%BD%93%E8%82%B2%E5%80%89%E5%BA%AB.wav,https://raw.kiko-play-niptan.one/media/stream/daily/2021-10-12/RJ343049/wav/5.%E3%82%A2%E3%83%8A%E3%83%AB%E8%88%90%E3%82%81%E3%83%91%E3%82%A4%E3%82%BA%E3%83%AA%26%E8%87%AD%E3%81%84%E8%B2%AC%E3%82%81%E6%8C%87%E5%B0%8E%E3%81%AE%E8%BF%BD%E4%BD%93%E9%A8%93%E3%82%AA%E3%83%8A%E3%83%9B%E3%82%B3%E3%82%AD.wav,https://raw.kiko-play-niptan.one/media/stream/daily/2021-10-12/RJ343049/wav/6.%E7%B2%BE%E9%A8%8E%E4%B9%97%E4%BD%8D%E3%82%AA%E3%83%9B%E5%A3%B0%E4%B8%AD%E5%87%BA%E3%81%97%E6%9C%AC%E6%B0%97%E4%BA%A4%E5%B0%BE.wav,https://raw.kiko-play-niptan.one/media/stream/daily/2021-10-12/RJ343049/wav/%E3%81%8A%E3%81%BE%E3%81%91.%E3%82%B6%E3%83%BC%E3%83%A1%E3%83%B3%E3%82%B8%E3%83%A7%E3%83%83%E3%82%AD%E3%81%94%E3%81%A3%E3%81%8F%E3%82%93%E3%81%A8%E3%82%B6%E3%83%BC%E3%83%A1%E3%83%B3%E3%82%B2%E3%83%83%E3%83%97.wav'
-);
-//
-_(
-	76798,
-	'RJ01036759',
-	'Tsubame Yuzuki',
-	'Anal,Big Breasts,Ear Licking,Oneesan,Paizuri',
-	'チンカス汚ちんぽシリーズ',
-	'A story about a dirty long-breasted sister who flatters and serves a dirty cock♪',
-	'ドスケベ長乳シスターさんがチンカス汚ちんぽに媚び媚びご奉仕してくれるお話♪【KU100】',
-	'https://cdn.glitch.global/43bf1b52-1acd-4635-9e88-afc9baf0e898/76798(0)?v=1684244561779',
-	'https://cdn.glitch.global/43bf1b52-1acd-4635-9e88-afc9baf0e898/76798(1)?v=1684244570877,https://cdn.glitch.global/43bf1b52-1acd-4635-9e88-afc9baf0e898/76798(2)?v=1684244583814',
-	'https://cdn.glitch.me/43bf1b52-1acd-4635-9e88-afc9baf0e898/76798.mp3?v=1684245015838'
 );
 _(
 	66870,
@@ -630,18 +617,6 @@ _(
 	'https://cdn.glitch.me/43bf1b52-1acd-4635-9e88-afc9baf0e898/66870.mp3?v=1684245036290'
 );
 _(
-	79438,
-	'RJ01053029',
-	'Izumi Mikoshiba,Suika Nishiuri',
-	'Anal,Blowjob,Ear Licking,Hand Job,Kissing,Magical Girl,Naughty,Paizuri,Perverted,Tentacle',
-	'',
-	'Evil Fallen Magical Girl ~A magical girl with a lewd crest captured you, your childhood friend, and turned into a horny tentacle monster who forced her distorted love and her own libido into her sperm~',
-	'【逆レイプ】悪堕魔法少女〜淫紋を刻まれた魔法少女は幼馴染の貴方を捕まえ、歪んだ愛と自分の性欲を押し付け搾精する淫乱触手怪人になりました〜',
-	'https://cdn.glitch.global/43bf1b52-1acd-4635-9e88-afc9baf0e898/79438(0)?v=1684245274926',
-	'https://cdn.glitch.global/43bf1b52-1acd-4635-9e88-afc9baf0e898/79438(1)?v=1684245278635,https://cdn.glitch.global/43bf1b52-1acd-4635-9e88-afc9baf0e898/79438(2)?v=1684245282742,https://cdn.glitch.global/43bf1b52-1acd-4635-9e88-afc9baf0e898/79438(3)?v=1684245286474',
-	'https://cdn.glitch.me/43bf1b52-1acd-4635-9e88-afc9baf0e898/79438.mp3?v=1684245548864,https://cdn.glitch.global/43bf1b52-1acd-4635-9e88-afc9baf0e898/79438omake.mp3?v=1684245510719'
-);
-_(
 	70545,
 	'RJ413231',
 	'Haruno Sakaki',
@@ -652,18 +627,6 @@ _(
 	'https://cdn.glitch.global/43bf1b52-1acd-4635-9e88-afc9baf0e898/70545(0)?v=1684245612498',
 	'https://cdn.glitch.global/43bf1b52-1acd-4635-9e88-afc9baf0e898/70545(1)?v=1684245615521',
 	'https://cdn.glitch.me/43bf1b52-1acd-4635-9e88-afc9baf0e898/70545.mp3?v=1684245866687'
-);
-_(
-	76737,
-	'RJ01026587',
-	'ありがた～い私',
-	'Big Breasts,Blowjob,Housewife,Milf,Paizuri',
-	'',
-	'A story of a soggy and rich service by a tragic married woman who met at a sex shop in the outskirts of town',
-	'場末の風俗店で出会った悲壮感漂う人妻によるねっとり濃厚サービスの話',
-	'https://cdn.glitch.global/43bf1b52-1acd-4635-9e88-afc9baf0e898/76737(0)?v=1684246046580',
-	'https://cdn.glitch.global/43bf1b52-1acd-4635-9e88-afc9baf0e898/76737(1)?v=1684246049153',
-	'https://cdn.glitch.me/43bf1b52-1acd-4635-9e88-afc9baf0e898/76737.mp3?v=1684246190608'
 );
 _(
 	63345,
@@ -774,18 +737,6 @@ _(
 	'https://raw.kiko-play-niptan.one/media/stream/daily/2023-06-19/RJ01058204/%E2%96%A003_%E6%9C%AC%E7%B7%A8%E3%80%8ESE%E3%81%82%E3%82%8AMP3%E3%80%8F/SE%E3%81%82%E3%82%8A_1%E7%AB%A0%E3%80%80%E8%81%96%E3%81%AA%E3%82%8B%E8%AA%93%E3%81%84%E3%81%AE%E5%8F%A3%E3%81%A5%E3%81%91%E2%80%A6%E2%99%AA.mp3,https://raw.kiko-play-niptan.one/media/stream/daily/2023-06-19/RJ01058204/%E2%96%A003_%E6%9C%AC%E7%B7%A8%E3%80%8ESE%E3%81%82%E3%82%8AMP3%E3%80%8F/SE%E3%81%82%E3%82%8A_2%E7%AB%A0%E3%80%80%E3%81%AD%E3%81%A3%E3%81%A8%E3%82%8A%E6%BF%83%E5%8E%9A%E3%81%AA%E3%83%95%E3%82%A7%E3%83%A9%E2%80%A6%E7%94%98%E3%80%85%E3%82%B4%E3%83%83%E3%82%AF%E3%83%B3%E2%80%A6%E2%99%AA.mp3,https://raw.kiko-play-niptan.one/media/stream/daily/2023-06-19/RJ01058204/%E2%96%A003_%E6%9C%AC%E7%B7%A8%E3%80%8ESE%E3%81%82%E3%82%8AMP3%E3%80%8F/SE%E3%81%82%E3%82%8A_3%E7%AB%A0%E3%80%80%E5%A5%91%E7%B4%84%E3%81%AE%E5%84%80%E5%BC%8F%E2%80%A6%E3%81%AF%E3%81%98%E3%82%81%E3%81%A6%E3%81%AE%E3%81%82%E3%81%BE%E3%83%88%E3%83%AD%E9%A8%8E%E4%B9%97%E4%BD%8D%E3%81%88%E3%81%A3%E3%81%A1%E2%80%A6%E2%99%AA.mp3,https://raw.kiko-play-niptan.one/media/stream/daily/2023-06-19/RJ01058204/%E2%96%A003_%E6%9C%AC%E7%B7%A8%E3%80%8ESE%E3%81%82%E3%82%8AMP3%E3%80%8F/SE%E3%81%82%E3%82%8A_4%E7%AB%A0%E3%80%80%E3%81%82%E3%81%BE%E3%81%82%E3%81%BE%E3%81%AA%E3%81%8A%E8%80%B3%E8%88%90%E3%82%81%E2%80%A6%E3%81%97%E3%81%A3%E3%81%A8%E3%82%8A%E6%89%8B%E3%82%B3%E3%82%AD%E2%80%A6%E2%99%AA.mp3,https://raw.kiko-play-niptan.one/media/stream/daily/2023-06-19/RJ01058204/%E2%96%A003_%E6%9C%AC%E7%B7%A8%E3%80%8ESE%E3%81%82%E3%82%8AMP3%E3%80%8F/SE%E3%81%82%E3%82%8A_5%E7%AB%A0%E3%80%80%E8%B6%85%E5%AF%86%E7%9D%80%E3%81%AA%E5%AF%BE%E9%9D%A2%E5%BA%A7%E4%BD%8D%E3%81%88%E3%81%A3%E3%81%A1%E2%80%A6%E7%99%92%E3%81%97%E3%81%9F%E3%81%A3%E3%81%B7%E3%82%8A%E3%81%AE%E3%81%8A%E8%80%B3%E8%88%90%E3%82%81%E2%80%A6%E2%99%AA.mp3,https://raw.kiko-play-niptan.one/media/stream/daily/2023-06-19/RJ01058204/%E2%96%A003_%E6%9C%AC%E7%B7%A8%E3%80%8ESE%E3%81%82%E3%82%8AMP3%E3%80%8F/SE%E3%81%82%E3%82%8A_6%E7%AB%A0%E3%80%80%E6%AF%8D%E6%80%A7%E3%81%9F%E3%81%A3%E3%81%B7%E3%82%8A%E2%80%A6%E3%81%82%E3%81%BE%E3%81%82%E3%81%BE%E6%8E%88%E4%B9%B3%E6%89%8B%E3%82%B3%E3%82%AD%E2%80%A6%E2%99%AA.mp3,https://raw.kiko-play-niptan.one/media/stream/daily/2023-06-19/RJ01058204/%E2%96%A003_%E6%9C%AC%E7%B7%A8%E3%80%8ESE%E3%81%82%E3%82%8AMP3%E3%80%8F/SE%E3%81%82%E3%82%8A_7%E7%AB%A0%E3%80%80%E7%99%92%E3%81%97%E3%81%AE%E4%B8%AD%E3%81%A7%E2%80%A6%E6%97%85%E7%AB%8B%E3%81%A1%E3%81%AE%E7%A8%AE%E4%BB%98%E3%81%91%E3%81%88%E3%81%A3%E3%81%A1%E2%80%A6%E2%99%AA.mp3'
 );
 _(
-	61841,
-	'RJ372806',
-	'Narumi Aisaka',
-	'ASMR,Big Breasts,Cheating,Ear Licking,Paizuri,Sister',
-	'あまあまヒロイン',
-	'My Girlfriend’s Younger Sister Secretly Seduced Me To My Secret Sister Bowl ~ Show Off Your Sister Who Has A Masochistic Sex With A Reverse NTR Official Etiquette♪~',
-	'【KU100】彼女の妹からこっそり誘惑されて隠密姉妹丼〜ドMが発覚したお姉ちゃんに逆NTR公認えっちを見せつけちゃえ♪〜',
-	'https://cdn.glitch.global/43bf1b52-1acd-4635-9e88-afc9baf0e898/61841(0)?v=1686753766732',
-	'https://cdn.glitch.global/43bf1b52-1acd-4635-9e88-afc9baf0e898/61841(1)?v=1686753856222',
-	'https://cdn.glitch.me/43bf1b52-1acd-4635-9e88-afc9baf0e898/61841.mp3?v=1686754336936'
-);
-_(
 	72339,
 	'RJ431161',
 	'Kaede Akino',
@@ -820,18 +771,6 @@ _(
 	'https://cdn.glitch.global/cbd0ac37-5557-4012-b498-643e6f89d54c/80129(0)?v=1687962550310',
 	'https://cdn.glitch.global/cbd0ac37-5557-4012-b498-643e6f89d54c/80129(1)?v=1687962552625,https://cdn.glitch.global/cbd0ac37-5557-4012-b498-643e6f89d54c/80129(2)?v=1687962556281,https://cdn.glitch.global/cbd0ac37-5557-4012-b498-643e6f89d54c/80129(3)?v=1687962560260,https://cdn.glitch.global/cbd0ac37-5557-4012-b498-643e6f89d54c/80129(4)?v=1687962566097',
 	'https://cdn.glitch.global/cbd0ac37-5557-4012-b498-643e6f89d54c/80129.mp3?v=1687962640515'
-);
-_(
-	95986,
-	'RJ01064816',
-	'Tsubame Yuzuki',
-	'ASMR,Ear Licking,Foot Job,Hand Job,Oneesan,Paizuri,Sister-In-Law',
-	'義理あね。',
-	'Sister-in-law。',
-	'義理あね。',
-	'https://cdn.glitch.global/cbd0ac37-5557-4012-b498-643e6f89d54c/95986(0)?v=1687963121220',
-	'https://cdn.glitch.global/cbd0ac37-5557-4012-b498-643e6f89d54c/95986(1)?v=1687963123911',
-	'https://cdn.glitch.me/cbd0ac37-5557-4012-b498-643e6f89d54c/95986.mp3?v=1687963258017,https://cdn.glitch.global/cbd0ac37-5557-4012-b498-643e6f89d54c/95986omake.mp3?v=1687963223693'
 );
 _(
 	70744,
@@ -1014,18 +953,6 @@ _(
 	'https://cdn.glitch.me/cbd0ac37-5557-4012-b498-643e6f89d54c/96589.mp3?v=1688381058498'
 );
 _(
-	53520,
-	'RJ337519',
-	'Haruru Akiyama',
-	'Oneesan,Perverted,Tease',
-	'ドライオーガズム',
-	'A story about an older sister whispering in your ear while sweetly loving your nipples and making you feel like you’re going to have a perverted body with your nipples♪',
-	'年上お姉さんに耳元で囁かれながら甘々に乳首を可愛がられて、乳首で感じてイっちゃう変態ボディにさせられちゃうお話♪【密着耳元囁き乳首責め・KU100バイノーラル】',
-	'https://cdn.glitch.global/cbd0ac37-5557-4012-b498-643e6f89d54c/53520(0)?v=1688381811576',
-	'https://cdn.glitch.global/cbd0ac37-5557-4012-b498-643e6f89d54c/53520(1)?v=1688381815078',
-	'https://cdn.glitch.me/cbd0ac37-5557-4012-b498-643e6f89d54c/53520.mp3?v=1688381921631'
-);
-_(
 	79846,
 	'RJ01050683',
 	'Uzuki Lilim',
@@ -1180,18 +1107,6 @@ _(
 	'https://cdn.glitch.global/cbd0ac37-5557-4012-b498-643e6f89d54c/65793(0)?v=1688831295009',
 	'https://cdn.glitch.global/cbd0ac37-5557-4012-b498-643e6f89d54c/65793(1)?v=1688831297194',
 	'https://cdn.glitch.me/cbd0ac37-5557-4012-b498-643e6f89d54c/65793.mp3?v=1688831466339'
-);
-_(
-	8390,
-	'RJ256013',
-	'Yuka Hinata',
-	'Big Breasts,Dirty Talk,Ear Licking',
-	'',
-	'Melting Ear Teasing Torture',
-	'蕩けるような耳責め拷問【捕虜の末路】',
-	'https://cdn.glitch.global/cbd0ac37-5557-4012-b498-643e6f89d54c/8390(0)?v=1688986905990',
-	'https://cdn.glitch.global/cbd0ac37-5557-4012-b498-643e6f89d54c/8390(1)?v=1688986909566',
-	'https://cdn.glitch.me/cbd0ac37-5557-4012-b498-643e6f89d54c/8390.mp3?v=1688987003752'
 );
 _(
 	68317,
@@ -1386,18 +1301,6 @@ _(
 	'https://fast.kiko-play-niptan.one/media/stream/daily/2021-11-04/RJ345104/wav/1.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2021-11-04/RJ345104/wav/2.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2021-11-04/RJ345104/wav/3.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2021-11-04/RJ345104/wav/4.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2021-11-04/RJ345104/wav/5.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2021-11-04/RJ345104/wav/6.m4a'
 );
 _(
-	62248,
-	'RJ381076',
-	'Soramame',
-	'Hand Job,Paizuri,School Girl,Tease,Thighjob',
-	'',
-	'A bruised little devil bitch JK entangles a virgin teacher♪',
-	'あざとい小悪魔ビッチJKによる童貞先生籠絡♪媚び媚び誘惑色仕掛け♪【ハメ撮り実況、援助交際、性体験談、レイプごっこ】',
-	'https://cdn.glitch.global/cbd0ac37-5557-4012-b498-643e6f89d54c/62248(0)?v=1690900373926',
-	'https://cdn.glitch.global/cbd0ac37-5557-4012-b498-643e6f89d54c/62248(1)?v=1690900378304,https://cdn.glitch.global/cbd0ac37-5557-4012-b498-643e6f89d54c/62248(2)?v=1690900384245',
-	'https://cdn.glitch.me/cbd0ac37-5557-4012-b498-643e6f89d54c/62248.mp3?v=1690900602086,https://cdn.glitch.global/cbd0ac37-5557-4012-b498-643e6f89d54c/62248omake.mp3?v=1690900606923'
-);
-_(
 	20055,
 	'RJ278847',
 	'Kaede Akino,Shiki Asagi',
@@ -1456,30 +1359,6 @@ _(
 	'https://cdn.glitch.global/cbd0ac37-5557-4012-b498-643e6f89d54c/81031(0)?v=1691029704419',
 	'https://cdn.glitch.global/cbd0ac37-5557-4012-b498-643e6f89d54c/81031(1)?v=1691029709347',
 	'https://cdn.glitch.me/cbd0ac37-5557-4012-b498-643e6f89d54c/81031.mp3?v=1691029937727'
-);
-_(
-	71191,
-	'RJ421767',
-	'Kaede Akino',
-	'Dirty Talk,School Girl,Tsundere',
-	'',
-	'If you stick your dick in, you’ll fall immediately ♪ Cheeky tsundere junior ⇒ Fierce little fish Onaho ♪',
-	'【密着×おほ声】ちんぽ突っ込んだら即堕ち♪ 生意気ツンデレ後輩 ⇒ 激ちょろおほおほ雑魚オナホ♪【KU100】',
-	'https://cdn.glitch.global/cbd0ac37-5557-4012-b498-643e6f89d54c/71191(0)?v=1691030530083',
-	'https://cdn.glitch.global/cbd0ac37-5557-4012-b498-643e6f89d54c/71191(1)?v=1691030532896',
-	'https://cdn.glitch.me/cbd0ac37-5557-4012-b498-643e6f89d54c/71191.mp3?v=1691030616589'
-);
-_(
-	73684,
-	'RJ01009221',
-	'Minase Suzuka',
-	'ASMR,Big Breasts,Dirty Talk,Ear Licking,Hand Job,Kissing,Licking,Paizuri,School Girl,School Uniform',
-	'',
-	'On a crowded train, I am reversely molested by a dirty little schoolgirl downer JK.',
-	'満員電車でジト目なドスケベダウナーJKに逆痴漢される',
-	'https://cdn.glitch.global/cbd0ac37-5557-4012-b498-643e6f89d54c/73684(0)?v=1691031253084',
-	'https://cdn.glitch.global/cbd0ac37-5557-4012-b498-643e6f89d54c/73684(1)?v=1691031262065,https://cdn.glitch.global/cbd0ac37-5557-4012-b498-643e6f89d54c/73684(2)?v=1691031267032',
-	'https://cdn.glitch.me/cbd0ac37-5557-4012-b498-643e6f89d54c/73684.mp3?v=1691031466015'
 );
 _(
 	62673,
@@ -1641,25 +1520,13 @@ _(
 	69272,
 	'RJ412274',
 	'Tsubame Yuzuki',
-	'VTT,Anal,Blowjob,Cheerleader,Hand Job,Pregnancy/Impregnation,Internal Cumshot,Oho Voice,Whispering,Breast Milk,Breast Feeding,Vulgar Moans',
+	'Kuudere,VTT,Anal,Blowjob,Cheerleader,Hand Job,Pregnancy/Impregnation,Internal Cumshot,Oho Voice,Whispering,Breast Milk,Breast Feeding,Vulgar Moans',
 	'',
-	'Lewd Sex Services with JK Cheerleader',
+	'Dịch vụ sex dâm dục của JK hoạt náo viên giọng trầm quyến rũ',
 	'【9月26日まで限定イラスト付き】低音ダウナークール系チアJKによるドスケベご奉仕性交【オホ声】',
 	'https://api.asmr-200.com/api/cover/412274.jpg?type=main',
 	'https://raw.kiko-play-niptan.one/media/stream/daily/2022-10-23/RJ412274/%E9%AB%98%E7%94%BB%E8%B3%AA%E8%A1%A8%E7%B4%99.jpg,https://raw.kiko-play-niptan.one/media/stream/daily/2022-10-23/RJ412274/%E8%B2%A9%E5%A3%B2%E9%96%8B%E5%A7%8B%E4%B8%80%E9%80%B1%E9%96%93%E9%99%90%E5%AE%9A%E3%80%80%E5%85%A8%E8%A3%B8%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88.jpg',
 	'https://fast.kiko-play-niptan.one/media/stream/daily/2022-10-23/RJ412274/%E5%8A%B9%E6%9E%9C%E9%9F%B3%E3%81%82%E3%82%8AWAV/1%E7%AB%A0%E3%83%80%E3%82%A6%E3%83%8A%E3%83%BC%E3%82%AF%E3%83%BC%E3%83%AB%E3%81%AA%E5%90%8C%E7%B4%9A%E7%94%9F%E3%81%AF%E3%81%82%E3%81%AA%E3%81%9F%E5%B0%82%E5%B1%9E%E3%81%AE%E6%80%A7%E3%83%9A%E3%83%83%E3%83%88%EF%BC%88%E9%83%A8%E5%AE%A4%E3%80%80%E6%94%BE%E8%AA%B2%E5%BE%8C%E3%80%802%E4%BA%BA%EF%BC%89.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2022-10-23/RJ412274/%E5%8A%B9%E6%9E%9C%E9%9F%B3%E3%81%82%E3%82%8AWAV/2%E7%AB%A0%E4%BD%8E%E9%9F%B3%E3%83%80%E3%82%A6%E3%83%8A%E3%83%BC%E3%83%81%E3%82%A2JK%E3%81%AE%E3%83%89%E3%82%B9%E3%82%B1%E3%83%99%E3%83%91%E3%82%A4%E3%82%BA%E3%83%AA%E3%83%95%E3%82%A7%E3%83%A9%EF%BC%88%E3%83%81%E3%82%A2%E9%83%A8%E3%81%AE%E6%80%A7%E5%BF%9C%E6%8F%B4%E5%AE%A4%EF%BC%89.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2022-10-23/RJ412274/%E5%8A%B9%E6%9E%9C%E9%9F%B3%E3%81%82%E3%82%8AWAV/3%E7%AB%A0%E3%83%80%E3%82%A6%E3%83%8A%E3%83%BCJK%E3%81%AE%E5%AB%8C%E3%80%85%E3%82%A2%E3%83%8A%E3%83%AB%E8%88%90%E3%82%81%E6%89%8B%E3%82%B3%E3%82%AD.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2022-10-23/RJ412274/%E5%8A%B9%E6%9E%9C%E9%9F%B3%E3%81%82%E3%82%8AWAV/4%E7%AB%A0%E3%83%80%E3%82%A6%E3%83%8A%E3%83%BC%E3%83%81%E3%82%A2JK%E3%81%AE%E3%81%AD%E3%81%A3%E3%81%A8%E3%82%8A%E3%82%AD%E3%82%B9%E3%80%80%E6%89%8B%E3%82%B3%E3%82%AD.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2022-10-23/RJ412274/%E5%8A%B9%E6%9E%9C%E9%9F%B3%E3%81%82%E3%82%8AWAV/5%E7%AB%A0%E3%80%90%E3%82%AA%E3%83%9B%E5%A3%B0%E3%80%91%E3%83%80%E3%82%A6%E3%83%8A%E3%83%BC%E3%83%81%E3%82%A2%E3%81%AE%E7%94%9F%E3%83%8F%E3%83%A1%E3%82%AA%E3%83%9B%E5%A3%B0%E9%A8%8E%E4%B9%97%E4%BD%8D%E3%82%BB%E3%83%83%E3%82%AF%E3%82%B9%E3%80%80.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2022-10-23/RJ412274/%E5%8A%B9%E6%9E%9C%E9%9F%B3%E3%81%82%E3%82%8AWAV/6%E7%AB%A0%E3%80%80%E3%80%90%E6%9C%80%E7%B5%82%E6%97%A5%E3%80%91%E5%AF%BE%E9%9D%A2%E5%BA%A7%E4%BD%8D%E3%81%88%E3%81%A3%E3%81%A1with%E5%A5%BD%E3%81%8D%E5%9B%81%E3%82%AD%E3%82%B9%E3%82%AD%E3%82%B9.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2022-10-23/RJ412274/%E5%8A%B9%E6%9E%9C%E9%9F%B3%E3%81%82%E3%82%8AWAV/7%E7%AB%A0%E3%80%80%E6%9C%9F%E9%96%93%E7%B5%82%E4%BA%86%E5%BE%8C%20%E3%81%84%E3%81%A1%E3%82%83%E3%82%89%E3%81%B6%E5%A6%8A%E5%A8%A0%E6%81%8B%E4%BA%BA%E3%82%BB%E3%83%83%E3%82%AF%E3%82%B9%E3%80%80%EF%BC%88%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AE%E9%83%A8%E5%B1%8B%EF%BC%89.m4a'
-);
-_(
-	96731,
-	'RJ01071646',
-	'Kaede Akino,Natsuki Nogami',
-	'Big Breasts,Dirty Talk,Naughty,Peeing',
-	'',
-	'Erotic Mess Instructor and Doskebe Lesson',
-	'オスレベルアッパー エロメスインストラクターとオスみを磨くドスケベレッスン♪',
-	'https://cdn.glitch.global/cbd0ac37-5557-4012-b498-643e6f89d54c/96731(0)?v=1691471175514',
-	'https://cdn.glitch.global/cbd0ac37-5557-4012-b498-643e6f89d54c/96731(1)?v=1691471179146',
-	'https://cdn.glitch.me/cbd0ac37-5557-4012-b498-643e6f89d54c/96731.mp3?v=1691471272951'
 );
 _(
 	70549,
@@ -1684,18 +1551,6 @@ _(
 	'https://cdn.glitch.global/1d46fb5f-c750-4e6d-9785-7de06c91262f/68344(0)?v=1692852377009',
 	'https://cdn.glitch.global/1d46fb5f-c750-4e6d-9785-7de06c91262f/68344(1)?v=1692852379496',
 	'https://cdn.glitch.me/1d46fb5f-c750-4e6d-9785-7de06c91262f/68344.mp3?v=1692852572491'
-);
-_(
-	77471,
-	'RJ01038914',
-	'Tsubame Yuzuki',
-	'Blowjob,Foot Job,Gal,Hand Job,Pregnancy/Impregnation,School Girl,Girlfriend',
-	'',
-	'Beach, JK-Gal girlfriend and copulation at a resort hotel',
-	'海とJK～ギャルな彼女とリゾートホテルでおほ声中出し孕ませ交尾～【フォーリーサウンド】',
-	'https://cdn.glitch.global/1d46fb5f-c750-4e6d-9785-7de06c91262f/77471(0)?v=1692852713303',
-	'https://cdn.glitch.global/1d46fb5f-c750-4e6d-9785-7de06c91262f/77471(1)?v=1692852716118',
-	'https://cdn.glitch.me/1d46fb5f-c750-4e6d-9785-7de06c91262f/77471.mp3?v=1692852908437'
 );
 _(
 	71004,
@@ -1782,30 +1637,6 @@ _(
 	'https://cdn.glitch.me/cbd0ac37-5557-4012-b498-643e6f89d54c/97357.mp3?v=1690886900329'
 );
 _(
-	75264,
-	'RJ01018217',
-	'Koibane Moko',
-	'ASMR,Anal,Ear Licking,Loli,Magical Girl,Virgin Female',
-	'えちえちファンタジー',
-	'A Magical Girl’s Lovey-Dovey Service That Will Never Lose ～Your Semen Is Necessary To Protect This Earth!～',
-	'【KU100】絶対負けない魔法少女のイチャラブご奉仕 ～この地球を守るためにあなたの精液が必要なのです!～',
-	'https://cdn.glitch.global/1d46fb5f-c750-4e6d-9785-7de06c91262f/75264(0)?v=1693796858772',
-	'https://cdn.glitch.global/1d46fb5f-c750-4e6d-9785-7de06c91262f/75264(1)?v=1693796862699',
-	'https://cdn.glitch.me/1d46fb5f-c750-4e6d-9785-7de06c91262f/75264.mp3?v=1693797053244,https://cdn.glitch.global/1d46fb5f-c750-4e6d-9785-7de06c91262f/75264freetalk.mp3?v=1693797055814'
-);
-_(
-	75252,
-	'RJ01009404',
-	'Haru Amachi,Koibane Moko',
-	'ASMR,Angel,Demon,Ear Licking,Harem,Loli,Peeing,Yuri',
-	'',
-	'Za~a ko♪ za~a ko♪ za~a ko♪ za~a ~ ko♪',
-	'【悪魔のメスガキ】×【天使のメスガキ】ざぁこ♪ざぁこ♪ざぁこ♪ざぁ～こ♪【CV.天知遥&恋羽もこ/KU100/ハーレムASMR】',
-	'https://cdn.glitch.global/1d46fb5f-c750-4e6d-9785-7de06c91262f/75252(0)?v=1693796411443',
-	'https://cdn.glitch.global/1d46fb5f-c750-4e6d-9785-7de06c91262f/75252(1)?v=1693796415180',
-	'https://cdn.glitch.me/1d46fb5f-c750-4e6d-9785-7de06c91262f/75252.mp3?v=1693796624156'
-);
-_(
 	53311,
 	'RJ338641',
 	'MOMOKA,Yuka Hinata',
@@ -1840,18 +1671,6 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/102412(0)?v=1697351606052',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/102412(1)?v=1697351609877,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/102412(2)?v=1697351614076',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/102412.mp3?v=1697351822690'
-);
-_(
-	99248,
-	'RJ01080303',
-	'Tsubame Yuzuki',
-	'ASMR,Blowjob,Ear Licking,Kissing',
-	'',
-	'Reverse molestation by a JK at Netcafe',
-	'【★限定版】ダウナーJKにネカフェで逆痴漢される',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/99248(0)?v=1697352271863',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/99248(0)?v=1697352271863,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/99248(1)?v=1697352287264,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/99248(2)?v=1697352290740',
-	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/99248.mp3?v=1697352528417'
 );
 _(
 	80550,

@@ -74,18 +74,6 @@ _(
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/60803t1.mp3?v=1700297129975,https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/60803BGM.mp3?v=1700297120639'
 );
 _(
-	103973,
-	'RJ01114777',
-	'Igasaki Ayaka,Yuka Hinata',
-	'Blowjob,Ear Licking,Harem,Licking,Naughty,Nurse',
-	'',
-	'Show off to other listeners that you are the No. 1 recipient of the highest amount of support! A story about ejaculating to the max with a sense of superiority in a public live broadcast using a penis.',
-	'高額支援額1位の貴方は他リスナーに見せつけ!お○んぽ使った公開生配信で優越感MAXなお射精をしまくる話',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/103973-0.jpg?v=1700297955536',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/103973-1.jpg?v=1700297956628,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/103973-2.jpg?v=1700297957623',
-	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/103973t1.mp3?v=1700297979285,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/103973omake.mp3?v=1700297960472'
-);
-_(
 	31474,
 	'RJ293957',
 	'床貓',
@@ -158,18 +146,6 @@ _(
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/69030t1.mp3?v=1700391707696'
 );
 _(
-	104281,
-	'RJ01106956',
-	'Izumi Mikoshiba',
-	'ASMR,Big Breasts,Oneesan,Rape,Sister,Succubus',
-	'',
-	'A rich brush stroke lesson with a little devilish succubus sister ~ Inserting it all the way into the smooth pussy that goes well with it ~',
-	'小悪魔系サキュバスお姉さんと濃厚筆おろしおちんぽレッスン〜相性抜群とろとろおま○こにずっーと挿入〜',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/104281-0.jpg?v=1700392023950',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/104281-1.jpg?v=1700392024937,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/104281-2.webp?v=1700392025990',
-	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/104281t1.mp3?v=1700392031054'
-);
-_(
 	77965,
 	'RJ01039611',
 	'Shiho Bubaigawara',
@@ -228,18 +204,6 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/99260-0.jpg?v=1700452638299',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/99260-1.jpg?v=1700452650714',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/99260t1.mp3?v=1700452649565'
-);
-_(
-	103092,
-	'RJ01105701',
-	'Kotone Akatsuki',
-	'Classmate,Foot Job,Gal,Rape,School,School Girl,School Uniform',
-	'',
-	'When I got my dick bulged with off-paco back dirt, it became a gal’s toy.',
-	'【バイノーラル】オフパコ裏垢でチン凸したらギャルのおもちゃになりました。',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/103092-0.jpg?v=1700453356628',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/103092-1.jpg?v=1700453357845',
-	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/103092t1.mp3?v=1700453355100'
 );
 _(
 	99487,
@@ -336,30 +300,6 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/101628-0.jpg?v=1700489697297',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/101628-1.jpg?v=1700489698819',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/101628t1.mp3?v=1700489714157'
-);
-_(
-	104371,
-	'RJ01112678',
-	'Rima Nemurine',
-	'ASMR,Big Breasts,Glasses,Maid,Naughty,School Girl,Virgin Female,Girlfriend',
-	'',
-	"A sweet and depraved sex life with a slutty girlfriend - from the first night on, she's slutty, at school and in the park. Every day is filled with happiness as she also works as a maid",
-	'無自覚どすけべで陰キャな彼女とあまらぶへんたい交尾性活～初夜から淫乱、学校でも公園でもえっち。メイドさんご奉仕もしてくれる幸せいっぱいの日々。～【KU100】',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/104371-0.jpg?v=1700490437028',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/104371-1.jpg?v=1700490438061,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/104371-2.jpg?v=1700490439078,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/104371-3.jpg?v=1700490440063,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/104371-4.jpg?v=1700490441057,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/104371-5.jpg?v=1700490442008,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/104371-6.jpg?v=1700490443091,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/104371-7.jpg?v=1700490444083,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/104371-8.jpg?v=1700490445206',
-	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/104371t1.mp3?v=1700490463703'
-);
-_(
-	96994,
-	'RJ01063815',
-	'Tsubame Yuzuki',
-	'Big Breasts,Blowjob,Ear Licking,Kissing,Nurse,Oneesan',
-	'',
-	'Sex life in hospital with sweet exclusive nurse onee-san',
-	'えちえち専属ナースのお姉さんとあまあま搾精入院性活',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/96994-0.jpg?v=1700491109781',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/96994-1.jpg?v=1700491111025',
-	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/96994t1.mp3?v=1700491108545,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/96994omake.mp3?v=1700491071321'
 );
 _(
 	100478,
@@ -566,18 +506,6 @@ _(
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/96687-t1.mp3?v=1701338256925,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/96687omake.mp3?v=1701338262657'
 );
 _(
-	104936,
-	'RJ01117438',
-	'Yui Otokura',
-	'Blowjob,Deepthroat,Loli,Magical Girl',
-	'',
-	'Magical girl Filia who came to exterminate lolicons and a serious sex battle!',
-	'【早期購入割引】ロリコン退治に来た魔法少女フィリアとガチセックス勝負!(KU100マイク収録作品)',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/104936-0.jpg?v=1701338482127',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/104936-1.jpg?v=1701338483149',
-	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/104936t1.mp3?v=1701338490336'
-);
-_(
 	104918,
 	'RJ01115734',
 	'Yuka Hinata',
@@ -612,30 +540,6 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/103401-0.jpg?v=1701490318574',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/103401-1.jpg?v=1701490307698',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/103401t1.mp3?v=1701490317062'
-);
-_(
-	78226,
-	'RJ01045310',
-	'Izumi Mikoshiba',
-	'ASMR,Big Breasts,Ear Licking,Incest,Licking,Oneesan,Sister',
-	'',
-	'A countdown intense ejaculation lesson for the two of us with a big-breasted lewd older sister who is familiar to us from the past♪',
-	'昔馴染みの爆乳ドスケベお姉さんによる二人っきりのカウントダウン濃厚射精レッスン♪【2時間11分】【全10トラック射精あり】',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/78226-0.jpg?v=1701490672125',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/78226-1.jpg?v=1701490673220',
-	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/78226t1.mp3?v=1701490695271'
-);
-_(
-	96261,
-	'RJ01062047',
-	'Gemiko Yamada',
-	'Blowjob,Deepthroat,Idol,Kissing,Peeing,Rape',
-	'',
-	'Watch this underground dollar rape AV♪ Serious love business fucking pussy fucking leaked out ♪ Until she becomes a lewd hentai AV actress whose pussy is drenched with deep throat',
-	'【イラマたっぷり♪】ぶりっこ地下ドル凌辱AVでびゅー♪ガチ恋営業クソマンコハメ撮り流出大炎上♪喉奥イラマでまんこびしょ濡れのドスケベヘンタイAV女優になっちゃうまで',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/96261-0.jpg?v=1701491097202',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/96261-1.jpg?v=1701491098587,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/96261-2.jpg?v=1701491099627,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/96261-3.jpg?v=1701491100841',
-	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/96261t1.mp3?v=1701491117512'
 );
 _(
 	32593,
@@ -701,37 +605,13 @@ _(
 	74006,
 	'RJ01014263',
 	'Akari Yuzuki',
-	'Big Breasts,Blowjob,Ear Licking,Hand Job,Licking,Paizuri,Swimwear',
+	'Big Breasts,Blowjob,Ear Licking,Hand Job,Licking,Paizuri,Swimwear,School Swimwear',
 	'',
 	'The big-breasted manager is a naughty swimmer',
 	'巨乳部長はえっちなスイマー',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/74006-0.jpg?v=1701505628816',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/74006-1.jpg?v=1701505629829',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/74006t1.mp3?v=1701505641955,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/74006omake.mp3?v=1701505632577'
-);
-_(
-	97058,
-	'RJ01069758',
-	'Izumi Mikoshiba',
-	'Blowjob,Ear Licking,Hand Job,Kuudere,Licking,Nurse,Uniform',
-	'',
-	'Sexual desire x insomnia relief clinic ~ We will relieve insomnia due to excessive sexual desire with the best pleasure ~',
-	'【ドマゾ罵倒】性欲×不眠解消クリニック～性欲過多による不眠を最高の快感で解消いたします～',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/97058-0.jpg?v=1701505996939',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/97058-1.jpg?v=1701505995583',
-	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/97058t1.mp3?v=1701505994226'
-);
-_(
-	60404,
-	'RJ376471',
-	'Kanoko',
-	'Ear Licking,Hand Job,Incest,Licking,Oneesan,Sister',
-	'',
-	'Dero sweet sister Miyuki elder sister spoils you with ear licking and nipple torture',
-	'でろ甘お姉ちゃん 耳舐めと乳首責め多めであなたをでろでろに甘やかす深雪お姉ちゃん',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/60404-0.jpg?v=1701506196651',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/60404-1.jpg?v=1701506197637',
-	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/60404t1.mp3?v=1701506218565,https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/60404omake.mp3?v=1701506204534'
 );
 _(
 	105206,
@@ -756,18 +636,6 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/67055-0.jpg?v=1701506918331',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/67055-1.jpg?v=1701506917327',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/67055t1.mp3?v=1701506915961'
-);
-_(
-	73126,
-	'RJ426964',
-	'葉鳥なゆ',
-	'ASMR,Big Breasts,Blowjob,Elf,Pregnancy/Impregnation,Queen/Princess',
-	'',
-	'Elf Queen’s sweet baby-making summons~I’m not going home~',
-	'【ぶっかけ差分イラスト付き】エルフ女王のあまあま子作り召喚~もう俺は帰らない~【KU100】',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/73126-0.jpg?v=1701506981808',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/73126-1.jpg?v=1701506980767,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/73126-2.jpg?v=1701506979606',
-	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/73126t1.mp3?v=1701506988849'
 );
 _(
 	100716,
@@ -926,18 +794,6 @@ _(
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/101258t1.mp3?v=1703647210538'
 );
 _(
-	16322,
-	'RJ272093',
-	'Haru Amachi',
-	'ASMR,Dirty Talk,Ear Licking,Licking,School,School Girl,School Uniform',
-	'',
-	'Dirty student council president’s dick lesson ~ Sex after discipline ♪',
-	'ドスケベ生徒会長のチ〇ポレッスン～セックスは躾のあとでネ♪【KU100バイノーラル】',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/16322-0.jpg?v=1704031794121',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/16322-1.jpg?v=1704031795430,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/16322-2.jpg?v=1704031796447,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/16322-3.jpg?v=1704031797758,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/16322-4.jpg?v=1704031798836',
-	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/16322t1.mp3?v=1704031814595'
-);
-_(
 	60632,
 	'RJ377445',
 	'Kaede Akino',
@@ -996,18 +852,6 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/105470-0.jpg?v=1704034703289',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/105470-1.jpg?v=1704034704850',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/105470t1.mp3?v=1704034711514'
-);
-_(
-	104425,
-	'RJ01116660',
-	'小鳥遊いと',
-	'AI一部利用,Anal,Big Breasts,Blowjob,Perverted,Rape,School,School Girl',
-	'',
-	'A delinquent high school girl with bad behavior and poor grades has her anus and pussy raped by her teachers’ big dicks and is forced to use the female meat urinal.',
-	'素行や成績が悪い不良JKは先生達のデカち●ぽでアナルやお●んこを犯されメス肉便器にさせられる【プレミアムフォーリー】',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/104425-0.jpg?v=1704035061198',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/104425-1.jpg?v=1704035062452',
-	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/104425t1.mp3?v=1704035067676'
 );
 _(
 	78939,
@@ -1073,13 +917,13 @@ _(
 	101949,
 	'RJ01096832',
 	'Yuka Hinata',
-	'Described,Big Breasts,Childhood Friend,Ear Licking,Licking,School,School Girl,Girlfriend,Sweet Love,Kissing,Virgin Female',
+	'VTT,Described,Big Breasts,Childhood Friend,Ear Licking,Licking,School,School Girl,Girlfriend,Sweet Love,Kissing,Virgin Female',
 	'あまあま全肯定',
 	'A life of close kissing and sex with a downer cool JK 「Lover tongue mating...Yeah, let’s do it?」',
 	'☆10月11日まで限定版☆ダウナークールJKと密着キスハメしまくる生活「恋人ベロチュー交尾…うん、しよ?」【甘オホ】',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/101949-0.jpg?v=1705141857068',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/101949-1.jpg?v=1705141858130',
-	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/101949t1.mp3?v=1705141871068,https://raw.kiko-play-niptan.one/media/stream/daily/2025-03-28/RJ01105494/02%EF%BC%9A%E3%80%90wav%E3%80%91%E8%88%87%E6%B6%88%E6%A5%B5%E5%86%B7%E9%85%B7%E5%A5%B3%E9%AB%98%E4%B8%AD%E7%94%9F%E7%9A%84%E7%98%8B%E7%8B%82%E8%A6%AA%E5%AF%86%E6%8E%A5%E5%90%BB%E7%94%9F%E6%B4%BB%E3%80%8C%E5%A5%BD%E5%95%8A%E2%80%A6%E5%81%9A%E5%90%A7%EF%BC%9F%E2%80%A6%E6%88%80%E4%BA%BA%E9%96%93%E7%9A%84%E7%94%9C%E8%9C%9C%E8%88%8C%E5%90%BB%E6%80%A7%E4%BA%A4%E3%80%8D/01%E6%A8%99%E9%A1%8C%E6%9C%97%E8%AE%80.wav,https://raw.kiko-play-niptan.one/media/stream/daily/2025-03-28/RJ01105494/02%EF%BC%9A%E3%80%90wav%E3%80%91%E8%88%87%E6%B6%88%E6%A5%B5%E5%86%B7%E9%85%B7%E5%A5%B3%E9%AB%98%E4%B8%AD%E7%94%9F%E7%9A%84%E7%98%8B%E7%8B%82%E8%A6%AA%E5%AF%86%E6%8E%A5%E5%90%BB%E7%94%9F%E6%B4%BB%E3%80%8C%E5%A5%BD%E5%95%8A%E2%80%A6%E5%81%9A%E5%90%A7%EF%BC%9F%E2%80%A6%E6%88%80%E4%BA%BA%E9%96%93%E7%9A%84%E7%94%9C%E8%9C%9C%E8%88%8C%E5%90%BB%E6%80%A7%E4%BA%A4%E3%80%8D/02%E7%99%BC%E7%8F%BE%E5%8B%83%E8%B5%B7%E3%80%82%E5%92%8C%E6%B6%88%E6%A5%B5%E7%9A%84%E5%85%92%E6%99%82%E7%8E%A9%E4%BC%B4%E7%AC%AC%E4%B8%80%E6%AC%A1%E8%A6%AA%E5%90%BB%E5%BE%8C%E8%82%89%E6%A3%92%E5%B0%B1%E8%A2%AB%E6%91%B8%E2%80%A6.wav,https://raw.kiko-play-niptan.one/media/stream/daily/2025-03-28/RJ01105494/02%EF%BC%9A%E3%80%90wav%E3%80%91%E8%88%87%E6%B6%88%E6%A5%B5%E5%86%B7%E9%85%B7%E5%A5%B3%E9%AB%98%E4%B8%AD%E7%94%9F%E7%9A%84%E7%98%8B%E7%8B%82%E8%A6%AA%E5%AF%86%E6%8E%A5%E5%90%BB%E7%94%9F%E6%B4%BB%E3%80%8C%E5%A5%BD%E5%95%8A%E2%80%A6%E5%81%9A%E5%90%A7%EF%BC%9F%E2%80%A6%E6%88%80%E4%BA%BA%E9%96%93%E7%9A%84%E7%94%9C%E8%9C%9C%E8%88%8C%E5%90%BB%E6%80%A7%E4%BA%A4%E3%80%8D/03%E5%9C%A8%E5%AD%B8%E6%A0%A1%E5%81%9A%E8%BA%AB%E9%AB%94%E7%B7%8A%E8%B2%BC%E8%88%8C%E5%90%BB%E5%B0%8D%E9%9D%A2%E5%BA%A7%E4%BD%8D%E3%80%82%E6%B7%AB%E8%95%A9%E7%84%A1%E8%87%AA%E8%A6%BA%E7%9A%84%E6%89%AD%E8%85%B0%E9%AB%98%E6%BD%AE.wav,https://raw.kiko-play-niptan.one/media/stream/daily/2025-03-28/RJ01105494/02%EF%BC%9A%E3%80%90wav%E3%80%91%E8%88%87%E6%B6%88%E6%A5%B5%E5%86%B7%E9%85%B7%E5%A5%B3%E9%AB%98%E4%B8%AD%E7%94%9F%E7%9A%84%E7%98%8B%E7%8B%82%E8%A6%AA%E5%AF%86%E6%8E%A5%E5%90%BB%E7%94%9F%E6%B4%BB%E3%80%8C%E5%A5%BD%E5%95%8A%E2%80%A6%E5%81%9A%E5%90%A7%EF%BC%9F%E2%80%A6%E6%88%80%E4%BA%BA%E9%96%93%E7%9A%84%E7%94%9C%E8%9C%9C%E8%88%8C%E5%90%BB%E6%80%A7%E4%BA%A4%E3%80%8D/04%E5%9C%A8%E4%BD%A0%E7%9A%84%E6%88%BF%E9%96%93%E5%81%9A%E8%88%94%E8%80%B3%E5%88%BA%E6%BF%80%E4%B9%B3%E9%A0%AD%E9%A8%8E%E4%B9%98%E4%BD%8D%E3%80%82%E9%80%8F%E9%81%8E%E6%89%93%E6%A8%81%E5%BC%8F%E6%B4%BB%E5%A1%9E%E4%BD%BF%E3%80%8C%E7%B7%A9%E5%92%8C%E5%93%A6%E9%BD%81%E3%80%8D%E8%A6%BA%E9%86%92.wav,https://raw.kiko-play-niptan.one/media/stream/daily/2025-03-28/RJ01105494/02%EF%BC%9A%E3%80%90wav%E3%80%91%E8%88%87%E6%B6%88%E6%A5%B5%E5%86%B7%E9%85%B7%E5%A5%B3%E9%AB%98%E4%B8%AD%E7%94%9F%E7%9A%84%E7%98%8B%E7%8B%82%E8%A6%AA%E5%AF%86%E6%8E%A5%E5%90%BB%E7%94%9F%E6%B4%BB%E3%80%8C%E5%A5%BD%E5%95%8A%E2%80%A6%E5%81%9A%E5%90%A7%EF%BC%9F%E2%80%A6%E6%88%80%E4%BA%BA%E9%96%93%E7%9A%84%E7%94%9C%E8%9C%9C%E8%88%8C%E5%90%BB%E6%80%A7%E4%BA%A4%E3%80%8D/05%E6%B1%97%E6%B0%B4%E6%B7%8B%E6%BC%93%E7%9A%84%E9%99%AA%E7%9D%A1%E6%80%A7%E6%84%9B%E3%80%82%E8%AE%93%E5%A5%B9%E4%B8%80%E6%95%B4%E6%99%9A%E9%83%BD%E8%87%AA%E8%A6%BA%E5%88%B0%E3%80%8C%E5%96%9C%E6%AD%A1%E3%80%8D%E7%9A%84%E5%90%8C%E6%99%82%E4%B8%AD%E5%87%BA%EF%BC%86%E6%BD%AE%E5%90%B9.wav,https://raw.kiko-play-niptan.one/media/stream/daily/2025-03-28/RJ01105494/02%EF%BC%9A%E3%80%90wav%E3%80%91%E8%88%87%E6%B6%88%E6%A5%B5%E5%86%B7%E9%85%B7%E5%A5%B3%E9%AB%98%E4%B8%AD%E7%94%9F%E7%9A%84%E7%98%8B%E7%8B%82%E8%A6%AA%E5%AF%86%E6%8E%A5%E5%90%BB%E7%94%9F%E6%B4%BB%E3%80%8C%E5%A5%BD%E5%95%8A%E2%80%A6%E5%81%9A%E5%90%A7%EF%BC%9F%E2%80%A6%E6%88%80%E4%BA%BA%E9%96%93%E7%9A%84%E7%94%9C%E8%9C%9C%E8%88%8C%E5%90%BB%E6%80%A7%E4%BA%A4%E3%80%8D/06%E5%8F%97%E5%88%B0%E8%B2%BB%E6%B4%9B%E8%92%99%E7%9A%84%E5%8C%85%E5%9C%8D%E2%80%A6%E5%92%8C%E5%8F%AF%E6%84%9B%E7%9A%84%E4%BC%8A%E7%B9%94%E7%98%8B%E7%8B%82%E8%88%8C%E5%90%BB%E4%BA%A4%E5%B0%BE%E7%9A%84%E7%BE%8E%E5%A4%A2.wav,https://raw.kiko-play-niptan.one/media/stream/daily/2025-03-28/RJ01105494/02%EF%BC%9A%E3%80%90wav%E3%80%91%E8%88%87%E6%B6%88%E6%A5%B5%E5%86%B7%E9%85%B7%E5%A5%B3%E9%AB%98%E4%B8%AD%E7%94%9F%E7%9A%84%E7%98%8B%E7%8B%82%E8%A6%AA%E5%AF%86%E6%8E%A5%E5%90%BB%E7%94%9F%E6%B4%BB%E3%80%8C%E5%A5%BD%E5%95%8A%E2%80%A6%E5%81%9A%E5%90%A7%EF%BC%9F%E2%80%A6%E6%88%80%E4%BA%BA%E9%96%93%E7%9A%84%E7%94%9C%E8%9C%9C%E8%88%8C%E5%90%BB%E6%80%A7%E4%BA%A4%E3%80%8D/07%E5%92%8C%E6%88%90%E7%82%BA%E6%84%9B%E4%BA%BA%E7%9A%84%E4%BC%8A%E7%B9%94%E4%B8%80%E8%B5%B7%E5%AE%89%E7%9C%A0%E2%80%A6%E6%AF%AB%E7%84%A1%E9%98%B2%E5%82%99%E7%9A%84%E7%9D%A1%E7%9C%A0%E5%91%BC%E5%90%B8%E8%81%B2%EF%BC%88%E9%99%84%E8%B4%88%EF%BC%89.wav,https://raw.kiko-play-niptan.one/media/stream/daily/2025-03-28/RJ01105494/02%EF%BC%9A%E3%80%90wav%E3%80%91%E8%88%87%E6%B6%88%E6%A5%B5%E5%86%B7%E9%85%B7%E5%A5%B3%E9%AB%98%E4%B8%AD%E7%94%9F%E7%9A%84%E7%98%8B%E7%8B%82%E8%A6%AA%E5%AF%86%E6%8E%A5%E5%90%BB%E7%94%9F%E6%B4%BB%E3%80%8C%E5%A5%BD%E5%95%8A%E2%80%A6%E5%81%9A%E5%90%A7%EF%BC%9F%E2%80%A6%E6%88%80%E4%BA%BA%E9%96%93%E7%9A%84%E7%94%9C%E8%9C%9C%E8%88%8C%E5%90%BB%E6%80%A7%E4%BA%A4%E3%80%8D/08%E5%8F%97%E5%88%B0%E8%B2%BB%E6%B4%9B%E8%92%99%E7%9A%84%E5%8C%85%E5%9C%8D%E2%80%A6%E5%92%8C%E5%8F%AF%E6%84%9B%E7%9A%84%E4%BC%8A%E7%B9%94%E7%98%8B%E7%8B%82%E8%88%8C%E5%90%BB%E4%BA%A4%E5%B0%BE%E7%9A%84%E6%98%8E%E6%99%B0%E5%A4%A2%EF%BC%88%E6%9C%9F%E9%96%93%E9%99%90%E5%AE%9A%E7%89%88%EF%BC%89.wav'
+	'https://api.asmr-200.com/api/cover/1096832.jpg?type=main',
+	'https://raw.kiko-play-niptan.one/media/stream/daily/2023-10-22/RJ01096832/%E3%80%90DL%E9%99%90%E5%AE%9A%E7%89%B9%E5%85%B8%E7%89%88%E3%80%91GKSD035%E6%9C%9F%E9%96%93%E9%99%90%E5%AE%9A%E7%89%B9%E5%85%B8/04%EF%BC%9A%EF%BC%88%E9%99%90%E5%AE%9A%E7%89%88%EF%BC%89%E9%AB%98%E7%94%BB%E8%B3%AA%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88/%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88_%E6%96%87%E5%AD%97%E3%81%AA%E3%81%97%EF%BC%88%E9%99%90%E5%AE%9A%E7%89%88%EF%BC%89.jpg,https://raw.kiko-play-niptan.one/media/stream/daily/2023-10-22/RJ01096832/03%EF%BC%9A%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88/%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88_%E6%96%87%E5%AD%97%E3%81%AA%E3%81%97.jpg',
+	'https://raw.kiko-play-niptan.one/media/stream/daily/2023-10-22/RJ01096832/01%EF%BC%9A%E3%80%90mp3%E3%80%91%E3%83%80%E3%82%A6%E3%83%8A%E3%83%BC%E3%82%AF%E3%83%BC%E3%83%ABJK%E3%81%A8%E5%AF%86%E7%9D%80%E3%82%AD%E3%82%B9%E3%83%8F%E3%83%A1%E3%81%97%E3%81%BE%E3%81%8F%E3%82%8B%E7%94%9F%E6%B4%BB%E3%80%8C%E6%81%8B%E4%BA%BA%E3%83%99%E3%83%AD%E3%83%81%E3%83%A5%E3%83%BC%E4%BA%A4%E5%B0%BE%E2%80%A6%E3%81%86%E3%82%93%E3%80%81%E3%81%97%E3%82%88%EF%BC%9F%E3%80%8D/01%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB%E3%82%B3%E3%83%BC%E3%83%AB.mp3,https://raw.kiko-play-niptan.one/media/stream/daily/2023-10-22/RJ01096832/01%EF%BC%9A%E3%80%90mp3%E3%80%91%E3%83%80%E3%82%A6%E3%83%8A%E3%83%BC%E3%82%AF%E3%83%BC%E3%83%ABJK%E3%81%A8%E5%AF%86%E7%9D%80%E3%82%AD%E3%82%B9%E3%83%8F%E3%83%A1%E3%81%97%E3%81%BE%E3%81%8F%E3%82%8B%E7%94%9F%E6%B4%BB%E3%80%8C%E6%81%8B%E4%BA%BA%E3%83%99%E3%83%AD%E3%83%81%E3%83%A5%E3%83%BC%E4%BA%A4%E5%B0%BE%E2%80%A6%E3%81%86%E3%82%93%E3%80%81%E3%81%97%E3%82%88%EF%BC%9F%E3%80%8D/02%E5%8B%83%E8%B5%B7%E7%99%BA%E8%A6%9A%E3%80%82%E3%83%80%E3%82%A6%E3%83%8A%E3%83%BC%E3%81%AA%E5%B9%BC%E9%A6%B4%E6%9F%93%E3%81%A8%E5%88%9D%E3%82%AD%E3%82%B9%E3%81%97%E3%81%9F%E3%82%89%E3%83%81%E2%97%8B%E3%83%9D%E3%82%92%E6%92%AB%E3%81%A7%E3%82%89%E3%82%8C%E2%80%A6.mp3,https://raw.kiko-play-niptan.one/media/stream/daily/2023-10-22/RJ01096832/01%EF%BC%9A%E3%80%90mp3%E3%80%91%E3%83%80%E3%82%A6%E3%83%8A%E3%83%BC%E3%82%AF%E3%83%BC%E3%83%ABJK%E3%81%A8%E5%AF%86%E7%9D%80%E3%82%AD%E3%82%B9%E3%83%8F%E3%83%A1%E3%81%97%E3%81%BE%E3%81%8F%E3%82%8B%E7%94%9F%E6%B4%BB%E3%80%8C%E6%81%8B%E4%BA%BA%E3%83%99%E3%83%AD%E3%83%81%E3%83%A5%E3%83%BC%E4%BA%A4%E5%B0%BE%E2%80%A6%E3%81%86%E3%82%93%E3%80%81%E3%81%97%E3%82%88%EF%BC%9F%E3%80%8D/03%E5%AD%A6%E6%A0%A1%E3%81%A7%E3%80%81%E5%AF%86%E7%9D%80%E3%83%99%E3%83%AD%E3%83%81%E3%83%A5%E3%83%BC%E5%AF%BE%E9%9D%A2%E5%BA%A7%E4%BD%8D%E3%80%82%E7%84%A1%E8%87%AA%E8%A6%9A%E3%81%AB%E3%83%89%E3%82%B9%E3%82%B1%E3%83%99%E3%81%AA%E8%85%B0%E6%8C%AF%E3%82%8A%E3%82%A2%E3%82%AF%E3%83%A1.mp3,https://raw.kiko-play-niptan.one/media/stream/daily/2023-10-22/RJ01096832/01%EF%BC%9A%E3%80%90mp3%E3%80%91%E3%83%80%E3%82%A6%E3%83%8A%E3%83%BC%E3%82%AF%E3%83%BC%E3%83%ABJK%E3%81%A8%E5%AF%86%E7%9D%80%E3%82%AD%E3%82%B9%E3%83%8F%E3%83%A1%E3%81%97%E3%81%BE%E3%81%8F%E3%82%8B%E7%94%9F%E6%B4%BB%E3%80%8C%E6%81%8B%E4%BA%BA%E3%83%99%E3%83%AD%E3%83%81%E3%83%A5%E3%83%BC%E4%BA%A4%E5%B0%BE%E2%80%A6%E3%81%86%E3%82%93%E3%80%81%E3%81%97%E3%82%88%EF%BC%9F%E3%80%8D/04%E5%90%9B%E3%81%AE%E9%83%A8%E5%B1%8B%E3%81%A7%E3%80%81%E8%80%B3%E8%88%90%E3%82%81%E4%B9%B3%E9%A6%96%E8%B2%AC%E3%82%81%E9%A8%8E%E4%B9%97%E4%BD%8D%E3%80%82%E6%9D%AD%E6%89%93%E3%81%A1%E3%83%94%E3%82%B9%E3%83%88%E3%83%B3%E3%81%A7%E3%80%8C%E3%82%86%E3%82%8B%E3%82%AA%E3%83%9B%E3%80%8D%E8%A6%9A%E9%86%92.mp3,https://raw.kiko-play-niptan.one/media/stream/daily/2023-10-22/RJ01096832/01%EF%BC%9A%E3%80%90mp3%E3%80%91%E3%83%80%E3%82%A6%E3%83%8A%E3%83%BC%E3%82%AF%E3%83%BC%E3%83%ABJK%E3%81%A8%E5%AF%86%E7%9D%80%E3%82%AD%E3%82%B9%E3%83%8F%E3%83%A1%E3%81%97%E3%81%BE%E3%81%8F%E3%82%8B%E7%94%9F%E6%B4%BB%E3%80%8C%E6%81%8B%E4%BA%BA%E3%83%99%E3%83%AD%E3%83%81%E3%83%A5%E3%83%BC%E4%BA%A4%E5%B0%BE%E2%80%A6%E3%81%86%E3%82%93%E3%80%81%E3%81%97%E3%82%88%EF%BC%9F%E3%80%8D/05%E6%B1%97%E3%81%A0%E3%81%8F%E6%B7%BB%E3%81%84%E5%AF%9D%E3%83%8F%E3%83%A1%E3%80%82%E4%B8%80%E6%99%A9%E4%B8%AD%E3%80%8C%E5%A5%BD%E3%81%8D%E3%80%8D%E3%82%92%E8%87%AA%E8%A6%9A%E3%81%95%E3%81%9B%E3%81%AA%E3%81%8C%E3%82%89%E4%B8%AD%E5%87%BA%E3%81%97%EF%BC%86%E6%BD%AE%E5%90%B9%E3%81%8D.mp3,https://raw.kiko-play-niptan.one/media/stream/daily/2023-10-22/RJ01096832/01%EF%BC%9A%E3%80%90mp3%E3%80%91%E3%83%80%E3%82%A6%E3%83%8A%E3%83%BC%E3%82%AF%E3%83%BC%E3%83%ABJK%E3%81%A8%E5%AF%86%E7%9D%80%E3%82%AD%E3%82%B9%E3%83%8F%E3%83%A1%E3%81%97%E3%81%BE%E3%81%8F%E3%82%8B%E7%94%9F%E6%B4%BB%E3%80%8C%E6%81%8B%E4%BA%BA%E3%83%99%E3%83%AD%E3%83%81%E3%83%A5%E3%83%BC%E4%BA%A4%E5%B0%BE%E2%80%A6%E3%81%86%E3%82%93%E3%80%81%E3%81%97%E3%82%88%EF%BC%9F%E3%80%8D/06%E3%83%95%E3%82%A7%E3%83%AD%E3%83%A2%E3%83%B3%E3%81%AB%E5%8C%85%E3%81%BE%E3%82%8C%E2%80%A6%E5%8F%AF%E6%84%9B%E3%81%84%E4%BC%8A%E7%B9%94%E3%81%A8%E3%83%99%E3%83%AD%E3%83%81%E3%83%A5%E3%83%BC%E4%BA%A4%E5%B0%BE%E3%81%97%E3%81%BE%E3%81%8F%E3%82%8B%E5%A4%A2.mp3,https://raw.kiko-play-niptan.one/media/stream/daily/2023-10-22/RJ01096832/01%EF%BC%9A%E3%80%90mp3%E3%80%91%E3%83%80%E3%82%A6%E3%83%8A%E3%83%BC%E3%82%AF%E3%83%BC%E3%83%ABJK%E3%81%A8%E5%AF%86%E7%9D%80%E3%82%AD%E3%82%B9%E3%83%8F%E3%83%A1%E3%81%97%E3%81%BE%E3%81%8F%E3%82%8B%E7%94%9F%E6%B4%BB%E3%80%8C%E6%81%8B%E4%BA%BA%E3%83%99%E3%83%AD%E3%83%81%E3%83%A5%E3%83%BC%E4%BA%A4%E5%B0%BE%E2%80%A6%E3%81%86%E3%82%93%E3%80%81%E3%81%97%E3%82%88%EF%BC%9F%E3%80%8D/07%E6%81%8B%E4%BA%BA%E3%81%AB%E3%81%AA%E3%81%A3%E3%81%9F%E4%BC%8A%E7%B9%94%E3%81%A8%E5%AE%89%E7%9C%A0%E2%80%A6%E7%84%A1%E9%98%B2%E5%82%99%E3%81%AA%E5%AF%9D%E6%81%AF%E3%83%9C%E3%82%A4%E3%82%B9%EF%BC%88%E3%83%9C%E3%83%BC%E3%83%8A%E3%82%B9%EF%BC%89.mp3,https://raw.kiko-play-niptan.one/media/stream/daily/2023-10-22/RJ01096832/%E3%80%90DL%E9%99%90%E5%AE%9A%E7%89%B9%E5%85%B8%E7%89%88%E3%80%91GKSD035%E6%9C%9F%E9%96%93%E9%99%90%E5%AE%9A%E7%89%B9%E5%85%B8/01%EF%BC%9A%EF%BC%88%E9%99%90%E5%AE%9A%E7%89%88%EF%BC%89%E7%89%B9%E5%85%B8%E3%83%88%E3%83%A9%E3%83%83%E3%82%AF/08%E3%83%95%E3%82%A7%E3%83%AD%E3%83%A2%E3%83%B3%E3%81%AB%E5%8C%85%E3%81%BE%E3%82%8C%E2%80%A6%E5%8F%AF%E6%84%9B%E3%81%84%E4%BC%8A%E7%B9%94%E3%81%A8%E3%83%99%E3%83%AD%E3%83%81%E3%83%A5%E3%83%BC%E4%BA%A4%E5%B0%BE%E3%81%97%E3%81%BE%E3%81%8F%E3%82%8B%E6%98%8E%E6%99%B0%E5%A4%A2%EF%BC%88%E6%9C%9F%E9%96%93%E9%99%90%E5%AE%9A%E7%89%88%EF%BC%89.mp3'
 );
 _(
 	29039,
@@ -1178,18 +1022,6 @@ _(
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/108013t1.mp3?v=1705219242434,https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/108013omake.mp3?v=1705219226371,https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/108013freetalk.mp3?v=1705219223376'
 );
 _(
-	105502,
-	'RJ01117224',
-	'Uzuki Lilim',
-	'ASMR,Ahegao,Animal Ears,Loli,Non-human Girl',
-	'声優完全プロデュース！極上わからせ体験シリーズ',
-	'Let the female brat cat be sweet!!~A sweet love life with a cocky loli female cat in heat♪~',
-	'メスガキ猫を甘わからせ!!〜発情生意気ロリメス猫と甘々オホ声いちゃラブライフ♪〜【ロリオナホ育成ASMR】',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/105502-0.jpg?v=1705220056394',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/105502-1.jpg?v=1705220057766,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/105502-2.jpg?v=1705220060206',
-	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/105502t1.mp3?v=1705220077133,https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/105502freetalk.mp3?v=1705220063133,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/105502alarm.mp3?v=1705220059104'
-);
-_(
 	98788,
 	'RJ01072889',
 	'Uzuki Lilim',
@@ -1250,18 +1082,6 @@ _(
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/68126t1.mp3?v=1705383237437,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/68126freetalk.mp3?v=1705383211585'
 );
 _(
-	107671,
-	'RJ01135355',
-	'Amu Mochiri',
-	'ASMR,Ahegao,Rape,Succubus',
-	'即ヌキ！',
-	'Absorbed completely by a brutal succubus! ~He hits back and immediately loses, with a silly voice and naughty voice!~',
-	'粗暴なサキュバスに吸い尽くされる!～返り討ちにして即落ち敗北オホ声えっち!～【バイノーラル】',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/107671-0.jpg?v=1705385018666',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/107671-1.jpg?v=1705385019759',
-	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/107671t1.mp3?v=1705385026485'
-);
-_(
 	77469,
 	'RJ01038626',
 	'Amu Mochiri',
@@ -1308,18 +1128,6 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/53924-0.jpg?v=1705656767458',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/53924-1.jpg?v=1705656769398,https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/53924-2.mp4?v=1705656783914',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/53924t1.mp3?v=1705656777350'
-);
-_(
-	73096,
-	'RJ403105',
-	'Kosuzu Momoka',
-	'ASMR,Big Breasts,Blowjob,Dirty Talk,Ear Licking,Hand Job,Licking,Oneesan,Live 2D',
-	"Lover's Hand ASMR",
-	'An ear reading fortune teller who is very good at licking ear canals ～ a naughty tall lady who is very good at licking ear holes～',
-	'凶相出てる!?濃厚密着エッチなご奉仕をしてくる耳相占い師～耳穴舐めが上手すぎるどすけべ高身長お姉さん～',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/73096-0.jpg?v=1705657773838',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/73096-1.jpg?v=1705657775250,https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/73096-2.mp4?v=1705657792253',
-	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/73096t1.mp3?v=1705657784861'
 );
 _(
 	107621,
@@ -1418,18 +1226,6 @@ _(
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/78230t1.mp3?v=1705812971110'
 );
 _(
-	63323,
-	'RJ379852',
-	'Gemiko Yamada',
-	'ASMR,Big Breasts,Deepthroat,Demon,Queen/Princess,Non-human Girl,Loli',
-	'えちえちファンタジー',
-	"The female brat devil's masturbation! ~I trained her into a sex slave as revenge for making fun of humans~",
-	'【KU100】メスガキ魔王の分からせオナホ! ～人間を馬鹿にした復讐として性奴隷に調教しました～',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/63323-0.jpg?v=1706155218659',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/63323-1.jpg?v=1706155220796',
-	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/63323t1.mp3?v=1706155252433,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/63323freetalk.mp3?v=1706155222772'
-);
-_(
 	107975,
 	'RJ01126956',
 	'木崎彩音',
@@ -1478,18 +1274,6 @@ _(
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/100694t1.mp3?v=1706160177749'
 );
 _(
-	108472,
-	'RJ01141509',
-	'Kaede Akino',
-	'AI一部利用,ASMR,School Girl,Girlfriend,School Uniform',
-	'',
-	"My girlfriend's gentle penis bullying ~I'll make you love me even more~",
-	'ゆるふわ彼女のおちんぽイジメ ～浮気性なキミに、私のこともっと好きになってもらうから～',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/108472-0.jpg?v=1706161206679',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/108472-1.jpg?v=1706161205602',
-	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/108472t1.mp3?v=1706161211937'
-);
-_(
 	59605,
 	'RJ372859',
 	'Kaede Akino,Chiroru Oyama',
@@ -1526,18 +1310,6 @@ _(
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/109138t1.mp3?v=1707477011274,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/109138t2.mp3?v=1707476974993,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/109138freetalk.mp3?v=1707477021242'
 );
 _(
-	110036,
-	'RJ01153011',
-	'藤村理央',
-	'AI一部利用,Big Breasts,Gym Clothes,School,School Girl,Uniform,Virgin Female',
-	'',
-	'A well-developed track and field member seduces the teacher, but on the contrary, he is educated♪',
-	'【KU100】発育の良い陸上部員は先生を誘惑するが、逆に教育される♪',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/110036-0.jpg?v=1709476416188',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/110036-0.jpg?v=1709476416188',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/110036t1.mp3?v=1709476421165'
-);
-_(
 	110030,
 	'RJ01151411',
 	'未想可みいろ',
@@ -1572,18 +1344,6 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/97789-0.jpg?v=1709477898747',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/97789-1.webp?v=1709477900680',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/97789t1.mp3?v=1709477918491'
-);
-_(
-	109695,
-	'RJ01147257',
-	'Tsubame Yuzuki',
-	'ASMR,Blowjob,Hand Job,School Girl,Twin Tail,School Uniform',
-	'',
-	'The student council president was so serious that he was so interested that he even had sex with her.',
-	'真面目すぎる委員長は、世話焼きすぎて性処理までシてくれる【KU100】',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/109695-0.jpg?v=1709478266643',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/109695-1.jpg?v=1709478265492',
-	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/109695t1.mp3?v=1709478295017,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/109695freetalk.mp3?v=1709478273909'
 );
 _(
 	109657,
@@ -1839,18 +1599,6 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/78684t1.mp3?v=1711679439011,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/78684omake.mp3?v=1711679433705'
 );
 _(
-	80299,
-	'RJ01059718',
-	'Izumi Mikoshiba',
-	'AI一部利用,Blowjob,Hand Job,Idol,Naughty',
-	'#秒ヌキ♪ショート同人',
-	'The case of a big-breasted idol becoming a sex worker for her wet pussy ~ The circumstances of a S idol who has a strong sexual desire ~',
-	'巨乳アイドルのムレムレおまんこ性処理係になった件〜性欲つよつよドSアイドルのアレ事情〜【#秒ヌキショート同人】',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/80299-0.jpg?v=1711679886705',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/80299-1.jpg?v=1711679888403',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/80299t1.mp3?v=1711679893129,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/80299omake.mp3?v=1711679889803'
-);
-_(
 	78348,
 	'RJ01040110',
 	'Narumi Aisaka',
@@ -1922,28 +1670,4 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/98922-1.jpg?v=1711684394483',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/98922t1.mp3?v=1711684392181',
 	'Manga Ver::https://nhdcollection.glitch.me/s2?code=1190154imh&chapter=last'
-);
-_(
-	110640,
-	'RJ01152959',
-	'若山詩音',
-	'ASMR,Classmate,Moe,Crossdress',
-	'',
-	"ASMR where a neat and pretty girlfriend makes her look cute~It's so cute~",
-	'【メイクされちゃうASMR】清楚で可憐な彼女にかわいくメイクされちゃうASMR～めちゃくちゃかわいいよぉ～CV:若山詩音【メイク音・水音・ささやき】',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/110640-0.jpg?v=1711792721204',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/110640-1.jpg?v=1711792720073,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/110640-2.jpg?v=1711792718912',
-	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/110640t1.mp3?v=1711792714391,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/110640omake.mp3?v=1711792717508'
-);
-_(
-	36749,
-	'RJ307977',
-	'Tsubame Yuzuki',
-	'ASMR,Blowjob,Gal,School Girl,School Uniform',
-	'プレミアムフォーリーシリーズ',
-	'I can hear her deep voice next to me, cuckolding her pussy.',
-	'隣で聞こえる彼女の深イキオホ声寝取られおまんこ【フォーリーサウンド】',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/36749-0.jpg?v=1711792963722',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/36749-1.jpg?v=1711792965107',
-	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/36749t1.mp3?v=1711793008235,https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/36749B.mp3?v=1711792984832'
 );

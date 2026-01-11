@@ -86,30 +86,6 @@ _(
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/103517t1.mp3?v=1711794153506'
 );
 _(
-	112273,
-	'RJ01168990',
-	'Tsubame Yuzuki',
-	'ASMR,Oneesan,Sister-In-Law,Stockings,Tease',
-	'義理あね。',
-	'Sister-in-law。2',
-	'義理あね。2',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/112273-0.jpg?v=1711795000907',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/112273-1.jpg?v=1711794999788',
-	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/112273t1.mp3?v=1711795018126,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/112273omake.mp3?v=1711795003885'
-);
-_(
-	112566,
-	'RJ01169631',
-	'Tsubame Yuzuki',
-	'Anal,Blowjob,Foot Job,Hand Job,Maid,Stockings,Tanned Skin',
-	'プレミアムフォーリーシリーズ',
-	"Brown maid's silent processing sex",
-	'褐色メイドの無口性処理えっち【フォーリーサウンド】',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/112566-0.jpg?v=1711796737572',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/112566-1.jpg?v=1711796736223',
-	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/112566t1.mp3?v=1711796734792'
-);
-_(
 	111768,
 	'RJ01162234',
 	'Tsubame Yuzuki',
@@ -146,18 +122,6 @@ _(
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/109978t1.mp3?v=1711796882056'
 );
 _(
-	61252,
-	'RJ344361',
-	'Yomogi Ashitaba',
-	'ASMR,Blowjob,Foot Job,Loli',
-	'ボイスオンリーストーリーシリーズ',
-	'A petite and serious apprentice sister is an older, slutty slut. Is it okay for me to listen to your confession in naughty underwear?',
-	'小柄で真面目な見習いシスターは耳年増なムッツリスケベ～エッチな下着であなたの懺悔、お聞きしちゃダメですか?～',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/61252-0.jpg?v=1711794657130',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/61252-1.jpg?v=1711794656085,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/61252-2.jpg?v=1711794654939,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/61252-3.jpg?v=1711794653874,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/61252-4.jpg?v=1711794652680,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/61252-5.jpg?v=1711794651581',
-	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/61252t1.mp3?v=1711794685088,https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/61252t2.mp3?v=1711794666791'
-);
-_(
 	111556,
 	'RJ01133329',
 	'Tsubame Yuzuki',
@@ -180,18 +144,6 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/104229-0.jpg?v=1711796559598',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/104229-1.jpg?v=1711796558431',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/104229t1.mp3?v=1711796556193'
-);
-_(
-	111114,
-	'RJ01156255',
-	'Tsubame Yuzuki',
-	'Anal,Blowjob,Elf,Big Breasts,Wife',
-	'プレミアムフォーリーシリーズ',
-	'A lewd marriage sex activity with an elf princess. 2nd year ~ More intense marital sexual activity ~',
-	'エルフ姫とのどすけべ結婚性活。2年目～より濃厚な結婚性活～【フォーリーサウンド】',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/111114-0.jpg?v=1711796833292',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/111114-1.jpg?v=1711796831880',
-	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/111114t1.mp3?v=1711796830616'
 );
 _(
 	99928,
@@ -518,18 +470,6 @@ _(
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/55048t1.mp3?v=1711933559368'
 );
 _(
-	41766,
-	'RJ317750',
-	'Kaede Akino,Tsubame Yuzuki',
-	'ASMR,Blowjob,Hand Job,School Girl,School Uniform,Stockings,Gal',
-	'プレミアムフォーリーシリーズ',
-	'The Gals of the Creampie Club',
-	'ヤリサーギャルと中出しサークル活動【フォーリーサウンド】',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/41766-0.jpg?v=1711933751972',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/41766-1.jpg?v=1711933753334',
-	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/41766t1.mp3?v=1711933818975,https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/41766B.mp3?v=1711933788939'
-);
-_(
 	70267,
 	'RJ422821',
 	'Narumi Aisaka',
@@ -588,18 +528,6 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/112548-0.jpg?v=1711935565959',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/112548-1.jpg?v=1711935568428,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/112548-2.jpg?v=1711935570926,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/112548-3.jpg?v=1711935573149,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/112548-4.jpg?v=1711935575305,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/112548-5.jpg?v=1711935577513',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/112548t1.mp3?v=1711935622847,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/112548freetalk.mp3?v=1711935587337,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/112548ex.mp3?v=1711935584279'
-);
-_(
-	112438,
-	'RJ01027197',
-	'Mako Ayane',
-	'ASMR,Ahegao,Dirty Talk,Ear Licking,Loli,Animal Ears,Stockings,Non-human Girl,Twin Tail',
-	'',
-	'The big kid fox and the loser brother',
-	'メ○ガキ狐と負け犬お兄さん',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/112438-0.jpg?v=1711935531307',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/112438-1.jpg?v=1711935532502,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/112438-2.jpg?v=1711935533659',
-	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/112438t1.mp3?v=1711935563666'
 );
 _(
 	81731,
@@ -710,18 +638,6 @@ _(
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/98728t1.mp3?v=1712479226867'
 );
 _(
-	77348,
-	'RJ434065',
-	'Kaede Akino',
-	'Big Breasts,Blowjob,Chubby,Ear Licking,Gal,Hand Job,Kissing,Nipple Licking,Perverted,School,School Girl,School Uniform,Non-human Girl',
-	'ゾンビ・オブ・ザ・デッド',
-	'Chikubi of the dead',
-	'チクビ・オブ・ザ・デッド',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/77348-0.jpg?v=1712479578901',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/77348-1.jpg?v=1712479577793,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/77348-2.jpg?v=1712479576655',
-	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/77348t1.mp3?v=1712479592317'
-);
-_(
 	76759,
 	'RJ01032505',
 	'Amamiya Mei',
@@ -744,18 +660,6 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/111672-0.jpg?v=1713231670737',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/111672-1.jpg?v=1713231671893,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/111672-2.jpg?v=1713231673062',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/111672t1.mp3?v=1713231682877'
-);
-_(
-	112472,
-	'RJ01144419',
-	'Minase Suzuka,Izumi Mikoshiba',
-	'ASMR,Blowjob,School,School Girl,Sport Girl',
-	'インモラル少女♪',
-	'Immoral club activity guidance ~ "common sense change" service guidance for two girl at once ~',
-	'【濃厚ねっとり120分♪】インモラル部活指導～2人まとめて"常識改変"ご奉仕指導～【 前振りなし!ずっと濃厚えっちプレイ♪快楽落ち】[ CV 涼花みなせ/御子柴泉]',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/112472-0.jpg?v=1713232436678',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/112472-1.jpg?v=1713232434619',
-	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/112472t1.mp3?v=1713232432156'
 );
 _(
 	110568,
@@ -792,18 +696,6 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/81787-0.jpg?v=1713234894707',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/81787-1.jpg?v=1713234895854',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/81787t1.mp3?v=1713234917331'
-);
-_(
-	57305,
-	'RJ360638',
-	'Kaede Akino',
-	'Blowjob,Foot Job,Hand Job,Idol,Moe',
-	'プレミアムフォーリーシリーズ',
-	"Maka-chan's recommendation is Shima〇Koshi only.",
-	'makaちゃんの推しま〇こしか勝たん。【フォーリーサウンド】',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/57305-0.jpg?v=1713234878262',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/57305-1.jpg?v=1713234879641',
-	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/57305t1.mp3?v=1713234893499'
 );
 _(
 	110612,
@@ -876,18 +768,6 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/102752-0.jpg?v=1714318545433',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/102752-1.jpg?v=1714318547062',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/102752t1.mp3?v=1714318589196,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/102752omake.mp3?v=1714318564206,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/102752freetalk.mp3?v=1714318557059'
-);
-_(
-	108434,
-	'RJ01138036',
-	'Igasaki Ayaka',
-	'Blowjob,Ear Licking,Paizuri,Succubus,Tease',
-	'',
-	'A succubus girl who keeps playing mischief with her naughty magic has a sexual life dominated by her!',
-	'【効果音同時収録で超エッチ♪】エッチな魔法で悪戯ばかりしてくるサキュバス娘に手玉に取られる性活!',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/108434-0.jpg?v=1714318590806',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/108434-1.jpg?v=1714318592335,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/108434-2.jpg?v=1714318593769,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/108434-3.jpg?v=1714318595820',
-	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/108434t1.mp3?v=1714318620697,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/108434freetalk.mp3?v=1714318597852'
 );
 _(
 	111702,
@@ -974,18 +854,6 @@ _(
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/111058t1.mp3?v=1714317840024'
 );
 _(
-	111764,
-	'RJ01162111',
-	'豊川ゆき',
-	'AI一部利用,Anal,Big Breasts,Blowjob,Non-human Girl,Succubus',
-	'異世界・ファンタジー',
-	'The big-breasted succubus girl was hungry, so she squeezed out the thick, sticky semen until she was full.',
-	'爆乳サキュバスお姉さんは腹ペコだったので濃厚ドロドロ精液を満腹になるまで搾り取られた話【抱き枕推奨/ファンタジー/中出し】',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/111764-0.jpg?v=1714554752920',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/111764-1.webp?v=1714554754357,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/111764-2.webp?v=1714554755558',
-	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/111764t1.mp3?v=1714554760273'
-);
-_(
 	109427,
 	'RJ01145115',
 	'Haru Amachi',
@@ -1056,18 +924,6 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/114228-0.jpg?v=1714557117887',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/114228-1.jpg?v=1714557116689,https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/114228-2.mp4?v=1714557113974',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/114228t1.mp3?v=1714557106749'
-);
-_(
-	109120,
-	'RJ01142896',
-	'星野天',
-	'AI一部利用,Big Breasts,Blowjob,Fantasy,Paizuri',
-	'異世界・ファンタジー',
-	"A story about a cool big-breasted wizard and a virgin warrior who are locked in a room where they can't leave without having sex.",
-	'セックスしないと出られない部屋に閉じ込められたクール系巨乳魔法使いと童貞戦士が濃厚ドスケベえっちする話【抱き枕推奨/ファンタジー/処女】',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/109120-0.jpg?v=1714557796810',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/109120-1.webp?v=1714557798030,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/109120-2.webp?v=1714557799229',
-	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/109120t1.mp3?v=1714557808144'
 );
 _(
 	114264,
@@ -1154,18 +1010,6 @@ _(
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/115258t1.mp3?v=1715959689778,https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/115258adoribu.mp3?v=1715959693936'
 );
 _(
-	115302,
-	'RJ01182608',
-	'Kaede Akino',
-	'Big Breasts,Blowjob,Ear Licking,Hand Job,Maid',
-	'',
-	'A runaway maid\'s "doting" motherly reverse rape ~ A silent, intimate voice that will heal your reluctance as an infantilized mom ~',
-	'暴走メイドさんの「溺愛」母性逆レ〇プ～無声密着ボイスで嫌がるあなたを強○幼児化ママ癒し～',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/115302-0.jpg?v=1715959681615',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/115302-1.jpg?v=1715959680233,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/115302-2.jpg?v=1715959679041',
-	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/115302t1.mp3?v=1715959677549'
-);
-_(
 	114581,
 	'RJ01175735',
 	'Haruru Akiyama,Soramame',
@@ -1176,18 +1020,6 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/114581-0.jpg?v=1715959722731',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/114581-1.jpg?v=1715959720553,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/114581-2.jpg?v=1715959718052',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/114581t1.mp3?v=1715959710988,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/114581omake.mp3?v=1715959715624'
-);
-_(
-	106081,
-	'RJ01119703',
-	'佐京柚音',
-	'AI一部利用,Blowjob,Bunny Girl,Ear Licking,Pregnancy/Impregnation,School Girl',
-	'',
-	'A bunny girl JK with a boyfriend is made to fall into a hypnotic slave and trained for raw cuckolding',
-	'彼氏持ちバニーガールJKを催眠奴隷堕ちさせて生ハメ寝取り調教',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/106081-0.jpg?v=1715959745882',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/106081-1.webp?v=1715959743625,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/106081-2.webp?v=1715959742366',
-	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/106081t1.mp3?v=1715959734794,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/106081omake.mp3?v=1715959740597'
 );
 _(
 	115274,
@@ -1418,18 +1250,6 @@ _(
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/114507t1.mp3?v=1725116510368'
 );
 _(
-	117996,
-	'RJ01209535',
-	'猫視ねこ',
-	'AI一部利用,Big Breasts,Blowjob,Paizuri,Rape,Student,Twin Tail',
-	'',
-	"A story about squeezing the huge breasts of a JK who can't stop breastfeeding, then getting reverse raped by the JK, and squeezing out the thick cock milk to the limit",
-	'母乳が止まらないJKの爆乳を搾り取ったらJKに逆レされ、濃厚おちんぽミルクも限界まで搾り取られた話【抱き枕推奨/巨乳/中出し】',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/117996-0.jpg?v=1725116598658',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/117996-1.webp?v=1725116599874,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/117996-2.webp?v=1725116600997',
-	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/117996t1.mp3?v=1725116604938'
-);
-_(
 	109936,
 	'RJ01128805',
 	'猫視ねこ',
@@ -1440,30 +1260,6 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/109936-0.jpg?v=1725116398219',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/109936-1.webp?v=1725116399603,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/109936-2.webp?v=1725116400736,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/109936-3.webp?v=1725116401855',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/109936t1.mp3?v=1725116405625'
-);
-_(
-	108300,
-	'RJ01124061',
-	'猫視ねこ',
-	'AI一部利用,Big Breasts,Blowjob,Gal,Incest,Pregnancy/Impregnation,Sister,Virgin Female,Younger Sister',
-	'',
-	"A world where having a baby with a big-breasted gal JK sister is allowed. Fill your vagina with your beloved brother's thick and delicious sperm♪",
-	'巨乳ギャルJK妹と子作りしても許される世界「大好きなお兄ちゃんの濃厚で美味しい精子で膣内を満たして♪」【抱き枕推奨/ファンタジー/近親相姦】',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/108300-0.jpg?v=1725116279748',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/108300-1.jpg?v=1725116281187',
-	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/108300t1.mp3?v=1725116288894'
-);
-_(
-	121179,
-	'RJ01222309',
-	'猫視ねこ',
-	'AI一部利用,Big Breasts,Blowjob,Incest,Paizuri,Swimwear,Sister,Older Stepsister,School Girl,Glasses',
-	'',
-	'Big-breasted step sister: "I\'m the one who takes care of my brother\'s sexual needs, right?" Days of endless love and milking with my step sister, a classmate with an abnormal fetish',
-	'爆乳姉「弟の性処理はお姉ちゃんがするものなんだよ?」異常性癖の同級生義姉との終わらないラブあま搾精の日々【中出し/近親相○/JK】',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/121179-0.jpg?v=1725116796204',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/121179-1.webp?v=1725116797321,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/121179-2.webp?v=1725116798453,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/121179-3.webp?v=1725116799557',
-	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/121179t1.mp3?v=1725116806939'
 );
 _(
 	120840,
@@ -1500,18 +1296,6 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/121755-0.jpg?v=1725116808181',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/121755-1.webp?v=1725116809331,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/121755-2.webp?v=1725116810450,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/121755-3.webp?v=1725116811532',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/121755t1.mp3?v=1725116815761'
-);
-_(
-	109904,
-	'RJ01091792',
-	'Yui Otokura',
-	'Ahegao,Deepthroat,ASMR,Gal,Sister,Younger Stepsister',
-	'',
-	"Training a step-sister gal who has a boyfriend to moan and behave in a silly way ~My brother's virgin dick makes me cum like crazy~",
-	'【同梱特典あり】彼氏持ち義妹ギャルをわからせオホ声調教 ～兄貴の童貞ち●ぽでイキ狂わされるなんて～【KU100】',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/109904-0.jpg?v=1725116408266',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/109904-1.jpg?v=1725116409391,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/109904-2.jpg?v=1725116410527,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/109904-3.jpg?v=1725116411624',
-	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/109904t1.mp3?v=1725116396752,https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/109904omake.mp3?v=1725116416323,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/109904freetalk.mp3?v=1725116413168'
 );
 _(
 	101546,
@@ -1560,18 +1344,6 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/115775-0.jpg?v=1725117511550',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/115775-1.png?v=1725117513363,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/115775-2.webp?v=1725117514485',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/115775t1.mp3?v=1725117517513'
-);
-_(
-	96703,
-	'RJ01068201',
-	'Minase Suzuka',
-	'Ear Licking,Hand Job,Kissing,Sister,Virgin Female,Younger Sister,Incest',
-	'',
-	'Codependent nipple training by a mentally unstable sister who keeps teasing my nipples',
-	'しつこいほど乳首責めしてくるメンヘラ妹の共依存乳首調教',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/96703-0.jpg?v=1725117787495',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/96703-1.jpg?v=1725117788732',
-	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/96703t1.mp3?v=1725117807317'
 );
 _(
 	123413,
@@ -1910,18 +1682,6 @@ _(
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/68592t1.mp3?v=1726914391111'
 );
 _(
-	66242,
-	'RJ390284',
-	'Mako Ayane',
-	'ASMR,Blowjob,Oneesan,Paizuri,Office Lady,Lotion',
-	'あまあま風俗',
-	'A soapland where you can enjoy a lovey-dovey time with a service office lady and get your semen squeezed out',
-	'【KU100】ご奉仕OLとイチャラブしながらグポグポ搾精されるソープランド',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/66242-0.jpg?v=1726914378563',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/66242-1.jpg?v=1726914381852',
-	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/66242t1.mp3?v=1726914452317,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/66242freetalk.mp3?v=1726914374486'
-);
-_(
 	117422,
 	'RJ01202616',
 	'Tsubame Yuzuki',
@@ -1944,18 +1704,6 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/112781-0.jpg?v=1727273367143',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/112781-1.jpg?v=1727273366523',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/112781t1.mp3?v=1727273384343,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/112781omake.mp3?v=1727273370963,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/112781freetalk.mp3?v=1727273367767'
-);
-_(
-	119800,
-	'RJ01226130',
-	'Izumi Mikoshiba',
-	'AI一部利用,Blowjob,Naughty,Nurse,Paizuri',
-	'',
-	'Misaki, a lewd and perverted nurse who loves dirty dicks, sneaks in at night',
-	'夜中にこっそり忍び込んでくる汚ちんぽ大好き淫乱スケベな美咲さん',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/119800-0.jpg?v=1727274714674',
-	'',
-	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/119800t1.mp3?v=1727274716224,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/119800omake.mp3?v=1727274715689'
 );
 _(
 	51772,

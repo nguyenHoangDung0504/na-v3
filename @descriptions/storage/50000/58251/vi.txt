@@ -1,0 +1,42 @@
+- Content_Des
+
+	Bạn ghé thăm một cửa hàng bán đồ dùng hỗ trợ thủ dâm.
+
+	"Tôi muốn thử kỹ thuật thủ dâm chậm rãi đang được nhiều người ưa chuộng!"
+
+	Đó là điều bạn nghĩ, nhưng dường như bạn có xu hướng xuất tinh muộn.
+
+	Dường như việc xuất tinh rất khó khăn...
+
+	Tuy nhiên, để đảm bảo ngay cả những khách hàng như vậy cũng có thể tận hưởng, cửa hàng này cung cấp "thuốc giúp trẻ hóa cơ thể về trạng thái trước tuổi dậy thì".
+
+	Dường như có một...
+hr:
+	5 điểm chính
+
+	①Trong khi hướng dẫn thủ dâm, cô ấy thì thầm một cách thân mật♡
+	② Hơi thở ấm áp♡
+	③ Liếm tai trong khi đối xử với bạn như trẻ em♡
+	④ Kích thích nhẹ nhàng từ lúc xuất tinh trở đi♡
+	⑤ Được khen ngợi ngọt ngào khi xuất tinh♡
+
+- Character_Des
+	str:Mikuru
+
+	-Một phụ nữ làm việc tại cửa hàng bán dụng cụ hỗ trợ thủ dâm.
+	-Trước đây cô ấy làm giáo viên trường mẫu giáo, nên đã quen với việc tiếp xúc với trẻ em.
+	-Khi hướng dẫn thủ dâm, cô ấy sẽ hoàn toàn khỏa thân và tiếp xúc gần gũi với bạn.
+	-Cô ấy rất nổi tiếng vì bạn có thể xuất tinh khi được bao bọc trong cơ thể mềm mại và bông xốp của cô ấy.
+
+- Track_Des
+	01: Lời mở đầu [4 phút 6 giây]
+
+	(Dành cho những ai bị xuất tinh chậm và muốn được hỗ trợ thủ dâm chậm.
+	Tôi quyết định cho bạn uống thuốc trực tiếp...♡)
+br:
+	02: Hỗ trợ thủ dâm chậm [58 phút 3 giây]
+
+	(Giờ đây khi bạn đã hoàn toàn biến thành một đứa trẻ, bạn sẽ nhận được sự hỗ trợ thủ dâm chậm rãi trong khi được đối xử ngọt ngào... và đôi khi với thái độ kỷ luật nghiêm khắc...♡)
+br:
+	03: Lời kết [1 phút 35 giây]
+	
