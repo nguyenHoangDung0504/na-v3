@@ -1349,7 +1349,7 @@ _(
 	123413,
 	'RJ01226007',
 	'Izumi Mikoshiba',
-	'VTT,Nun,Big Breasts,Blowjob,Breast Feeding,Breast Milk,Hand Job,Internal Cumshot,Oho Voice,Oral Cumshot,Paizuri,Vulgar Moans',
+	'*VTT,Nun,Big Breasts,Blowjob,Breast Feeding,Breast Milk,Hand Job,Internal Cumshot,Oho Voice,Oral Cumshot,Paizuri,Vulgar Moans',
 	'えちえちファンタジー',
 	'Thánh mẫu x Paizuri với sữa mẹ ~Trong khi bị ép chặt bởi bộ ngực đồ sộ và miệng của cô ấy, cô ấy dùng sữa mẹ thay vì lotion để có một cuộc yêu trơn trượt!~',
 	'【痴女ド密着】聖母×母乳パイズリ ～爆乳とお口に圧迫されながら、ローション代わりの母乳でヌルヌルえっち!～',

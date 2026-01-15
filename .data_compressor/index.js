@@ -4,6 +4,8 @@ import { fileURLToPath } from 'url';
 
 import { data } from './storage/index.js';
 import { convertQuotes } from './utils.js';
+import getDescribedTrackID from './getDescribedTrackID.js';
+import { processURLsTokenization } from './test-zip.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -14,6 +16,17 @@ const DIST_PATH = (function getDist() {
 	return DIST_PATH;
 })();
 
+// Get described ID, has VTT ID
+const [vttIDs, describedIDs] = await Promise.all([
+	getDescribedTrackID(join(__dirname, '../@descriptions/vtts/')),
+	getDescribedTrackID(join(__dirname, '../@descriptions/storage/')),
+]);
+writeFileSync(
+	join(DIST_PATH, '@described-tracks.txt'),
+	'Part 1: Described\nPart 2: Has VTT\n\n' + describedIDs.join(',') + '\n\n' + vttIDs.join(',')
+);
+
+// Zip main data
 optimizeCSV();
 
 /**
@@ -35,6 +48,7 @@ function optimizeCSV() {
 
 	// Tối ưu URL
 	processURLs(formatedData, [7, 8, 9], 'prefix.csv');
+	// processURLsTokenization(formatedData, [7, 8, 9], 'prefix.compare.csv');
 
 	// Tạo file track tối ưu hóa
 	const optimizedTracks = formatedData.map((line) => {
