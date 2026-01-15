@@ -5,7 +5,6 @@ import { fileURLToPath } from 'url';
 import { data } from './storage/index.js';
 import { convertQuotes } from './utils.js';
 import getDescribedTrackID from './getDescribedTrackID.js';
-import { processURLsTokenization } from './test-zip.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -21,10 +20,10 @@ const [vttIDs, describedIDs] = await Promise.all([
 	getDescribedTrackID(join(__dirname, '../@descriptions/vtts/')),
 	getDescribedTrackID(join(__dirname, '../@descriptions/storage/')),
 ]);
-writeFileSync(
-	join(DIST_PATH, '@described-tracks.txt'),
-	'Part 1: Described\nPart 2: Has VTT\n\n' + describedIDs.join(',') + '\n\n' + vttIDs.join(',')
-);
+// writeFileSync(
+// 	join(DIST_PATH, '@described-tracks.txt'),
+// 	`Described:${describedIDs.join(',')}\n\nHas VTT:${vttIDs.join(',')}`
+// );
 
 // Zip main data
 optimizeCSV();
@@ -33,13 +32,20 @@ optimizeCSV();
  * Đọc và xử lý file CSV
  */
 function optimizeCSV() {
-	const formatedData = data.map((row) =>
-		row.map((col, index) =>
-			[5, 6].includes(index) && typeof col === 'string' && col.length // Chỉ convertQuotes trên col engname, japname
-				? convertQuotes(col.trim())
-				: col
-		)
-	);
+	const formatedData = data
+		.map((row) => {
+			const code = row[0];
+			if (vttIDs.includes(code) && !row[3].includes('*VTT')) row[3] += ',*VTT';
+			if (describedIDs.includes(code)) row[3] += ',*Described';
+			return row;
+		})
+		.map((row) =>
+			row.map((col, index) =>
+				[5, 6].includes(index) && typeof col === 'string' && col.length // Chỉ convertQuotes trên col engname, japname
+					? convertQuotes(col.trim())
+					: col
+			)
+		);
 
 	// Tối ưu category
 	const cvMap = processCategories(formatedData, 2, 'cv.csv');
@@ -48,7 +54,6 @@ function optimizeCSV() {
 
 	// Tối ưu URL
 	processURLs(formatedData, [7, 8, 9], 'prefix.csv');
-	// processURLsTokenization(formatedData, [7, 8, 9], 'prefix.compare.csv');
 
 	// Tạo file track tối ưu hóa
 	const optimizedTracks = formatedData.map((line) => {
