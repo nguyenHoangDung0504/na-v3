@@ -12,33 +12,47 @@ hr:
 	str:Shinonome Anna
 	Cô ấy có 2 mặt
 hr:
-	Mặt thần tượng: 
+	<div class="char-box">
+		<div class="l">
+			img:https://img.dlsite.jp/modpub/images2/parts/RJ01116000/RJ01115734/5e4c628960cd861dc40a070eaeec6ff4.jpg
+		</div>
+		<div class="r">
+				Mặt thần tượng: 
 
-	Là thần tượng thuần khiết số 1, cô ấy là thần tượng hot nhất hiện nay.
+				Là thần tượng thuần khiết số 1, cô ấy là thần tượng hot nhất hiện nay.
 
-	Cô ấy luôn vui vẻ và tươi cười, đối xử bình đẳng với mọi người, bao gồm cả người hâm mộ và nhân viên, và cực kỳ nổi tiếng nhờ dịch vụ fan tuyệt vời.
+				Cô ấy luôn vui vẻ và tươi cười, đối xử bình đẳng với mọi người, bao gồm cả người hâm mộ và nhân viên, và cực kỳ nổi tiếng nhờ dịch vụ fan tuyệt vời.
 
-	Có lẽ vì điều này, cô ấy có rất nhiều người thầm thương trộm nhớ, và là đối tượng của ham muốn tình dục và là chủ đề cho những hình ảnh tự sướng hàng ngày trên mạng xã hội và các diễn đàn.
-br:
-	"Đó là cách tốt nhất để bạn giải tỏa căng thẳng sao...?"
+				Có lẽ vì điều này, cô ấy có rất nhiều người thầm thương trộm nhớ, và là đối tượng của ham muốn tình dục và là chủ đề cho những hình ảnh tự sướng hàng ngày trên mạng xã hội và các diễn đàn.
+			br:
+				"Đó là cách tốt nhất để bạn giải tỏa căng thẳng sao...?"
 
-	"Ừm... Tôi thực sự yêu thích công việc của mình, và tôi được đối xử rất tốt..."
-	"Thêm vào đó, sự ủng hộ từ người hâm mộ mang lại cho tôi rất nhiều năng lượng, vì vậy tôi không hề bị căng thẳng chút nào♪"
+				"Ừm... Tôi thực sự yêu thích công việc của mình, và tôi được đối xử rất tốt..."
+				"Thêm vào đó, sự ủng hộ từ người hâm mộ mang lại cho tôi rất nhiều năng lượng, vì vậy tôi không hề bị căng thẳng chút nào♪"
 
-	"Cảm ơn tất cả các bạn vì sự ủng hộ liên tục♪"
+				"Cảm ơn tất cả các bạn vì sự ủng hộ liên tục♪"
+		</div>
+	</div>
 hr:
-	str:Mặt bạn gái
-	Cô bạn gái thần tượng lẳng lơ của riêng bạn.
+	<div class="char-box">
+		<div class="l">
+			img:https://img.dlsite.jp/modpub/images2/parts/RJ01116000/RJ01115734/6a09d6b27229d1248067b7a08e150657.jpg
+		</div>
+		<div class="r">
+			str:Mặt bạn gái
+			Cô bạn gái thần tượng lẳng lơ của riêng bạn.
 
-	Cô ấy vô cùng yêu thương bạn trai của mình, và sẵn sàng làm bất cứ điều gì để làm anh ấy hạnh phúc.
+			Cô ấy vô cùng yêu thương bạn trai của mình, và sẵn sàng làm bất cứ điều gì để làm anh ấy hạnh phúc.
 
-	Cô ấy đáp ứng yêu cầu của bạn trai bằng cách hành động như một thần tượng thực thụ, sử dụng sự nổi tiếng của mình để tạo cảm giác vượt trội và khiến anh ấy cảm thấy tội lỗi hơn... và đôi khi còn trêu chọc anh ấy một cách ngọt ngào.
-br:
-	"Cách tốt nhất để giải tỏa căng thẳng của tôi là..."
+			Cô ấy đáp ứng yêu cầu của bạn trai bằng cách hành động như một thần tượng thực thụ, sử dụng sự nổi tiếng của mình để tạo cảm giác vượt trội và khiến anh ấy cảm thấy tội lỗi hơn... và đôi khi còn trêu chọc anh ấy một cách ngọt ngào.
+		br:
+			"Cách tốt nhất để giải tỏa căng thẳng của tôi là..."
 
-	"Vừa thì thầm những lời yêu thương ngọt ngào với bạn trai, tôi lại làm tình cả ngày dài lol"
+			"Vừa thì thầm những lời yêu thương ngọt ngào với bạn trai, tôi lại làm tình cả ngày dài lol"
 
-	"Đặc biệt là khi tôi "cổ vũ" anh ấy bằng nụ hôn kiểu Pháp và điệu nhảy lắc hông... tôi nhận được một lượng tinh dịch dồi dào... đó là điều tôi thích nhất ♪ hehe..."
+			"Đặc biệt là khi tôi "cổ vũ" anh ấy bằng nụ hôn kiểu Pháp và điệu nhảy lắc hông... tôi nhận được một lượng tinh dịch dồi dào... đó là điều tôi thích nhất ♪ hehe..."
+		</div>
+	</div>
 
 - Track_Des
 	str:■Track 1: "Lướt mạng và được bạn gái thần tượng thủ dâm khiến tôi cảm thấy vượt trội♪" (19 phút 13 giây)
