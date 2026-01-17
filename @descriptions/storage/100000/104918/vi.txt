@@ -1,0 +1,137 @@
+- Content_Des
+	[Tóm tắt]
+	Bạn đang hẹn hò với thần tượng siêu nổi tiếng... Anna Shinonome. Cô ấy yêu bạn sâu sắc, và bạn cảm thấy mình vượt trội hơn cô ấy.
+	Tác phẩm âm thanh ngọt ngào và gợi cảm này miêu tả cuộc sống nghịch ngợm, âu yếm tràn ngập cảm giác vượt trội♪
+hr:
+	・Tôi muốn được âu yếm với một cô gái thần tượng!
+	・Tôi muốn cảm nhận sự vượt trội!
+	・Tôi muốn có những giây phút vui vẻ ngọt ngào và gợi cảm!
+	↑↑ Khuyến nghị cho những ai thích thể loại này!↑↑
+
+- Character_Des
+	str:Shinonome Anna
+	Cô ấy có 2 mặt
+hr:
+	Mặt thần tượng: 
+
+	Là thần tượng thuần khiết số 1, cô ấy là thần tượng hot nhất hiện nay.
+
+	Cô ấy luôn vui vẻ và tươi cười, đối xử bình đẳng với mọi người, bao gồm cả người hâm mộ và nhân viên, và cực kỳ nổi tiếng nhờ dịch vụ fan tuyệt vời.
+
+	Có lẽ vì điều này, cô ấy có rất nhiều người thầm thương trộm nhớ, và là đối tượng của ham muốn tình dục và là chủ đề cho những hình ảnh tự sướng hàng ngày trên mạng xã hội và các diễn đàn.
+br:
+	"Đó là cách tốt nhất để bạn giải tỏa căng thẳng sao...?"
+
+	"Ừm... Tôi thực sự yêu thích công việc của mình, và tôi được đối xử rất tốt..."
+	"Thêm vào đó, sự ủng hộ từ người hâm mộ mang lại cho tôi rất nhiều năng lượng, vì vậy tôi không hề bị căng thẳng chút nào♪"
+
+	"Cảm ơn tất cả các bạn vì sự ủng hộ liên tục♪"
+hr:
+	str:Mặt bạn gái
+	Cô bạn gái thần tượng lẳng lơ của riêng bạn.
+
+	Cô ấy vô cùng yêu thương bạn trai của mình, và sẵn sàng làm bất cứ điều gì để làm anh ấy hạnh phúc.
+
+	Cô ấy đáp ứng yêu cầu của bạn trai bằng cách hành động như một thần tượng thực thụ, sử dụng sự nổi tiếng của mình để tạo cảm giác vượt trội và khiến anh ấy cảm thấy tội lỗi hơn... và đôi khi còn trêu chọc anh ấy một cách ngọt ngào.
+br:
+	"Cách tốt nhất để giải tỏa căng thẳng của tôi là..."
+
+	"Vừa thì thầm những lời yêu thương ngọt ngào với bạn trai, tôi lại làm tình cả ngày dài lol"
+
+	"Đặc biệt là khi tôi "cổ vũ" anh ấy bằng nụ hôn kiểu Pháp và điệu nhảy lắc hông... tôi nhận được một lượng tinh dịch dồi dào... đó là điều tôi thích nhất ♪ hehe..."
+
+- Track_Des
+	str:■Track 1: "Lướt mạng và được bạn gái thần tượng thủ dâm khiến tôi cảm thấy vượt trội♪" (19 phút 13 giây)
+br:
+	• Một câu chuyện về việc được bạn gái thần tượng thủ dâm trong khi lướt mạng với cảm giác vượt trội. [Thủ dâm/Hôn kiểu Pháp]
+
+	"...Chà, nhìn kìa, cô ấy sắp được xuất hiện trên các trang tổng hợp rồi~♪"
+
+	"Thần tượng Anna Shinonome vừa gợi cảm vừa dễ thương, có thể chinh phục cả thế giới...♪"
+
+	"Để tôi mở bài báo ra xem một chút nhé?...Chà, thật tuyệt vời...Có quá nhiều bình luận khiêu dâm đến mức gây sốc...♪"
+
+	"Cô ấy quá xinh đẹp, hoặc...Với khuôn mặt đó, cô ấy lại có thân hình quá hoàn hảo, thật không công bằng...♪"
+
+	"Thế này cũng được, nhưng...chết tiệt, ngực cô ấy to quá...sự tồn tại của cô ấy chỉ toàn là tình dục...Đôi chân dài trắng nõn và bắp đùi của cô ấy thật quyến rũ và gợi cảm...♪" Quá khiêu dâm... Wow, cái này... hehe...♪"
+
+	"Cô ấy ngây thơ và dễ thương chết người, nhưng lại có thân hình lẳng lơ như sinh ra để giao phối... Anna, tôi sẽ làm cho cô ấy có thai♪ Tôi..." "Tôi sẽ cho dương vật cương cứng của mình vào trong cô ấy và thúc hông vào cô ấy♪"
+
+	"Tôi sẽ trút tinh trùng của mình vào cơ thể trẻ trung 18 tuổi đó♪... hehe... đó là những gì tôi đã nói"
+
+	"...Này, nhìn xem... Tôi tự hỏi bây giờ em đang cảm thấy thế nào...?"
+hr:
+	str:■Track 2: "Màn oral sex tuyệt vời của bạn gái thần tượng để thỏa mãn ham muốn buổi sáng của tôi♪" (15 phút 36 giây)
+br:
+	・Một câu chuyện về việc được bạn gái thần tượng đánh thức bằng màn oral sex thư giãn vào buổi sáng. [Màn oral sex]
+
+	"Hehe, em tỉnh rồi à?" Chào buổi sáng♪ À, không sao, không sao, cứ thư giãn và ở yên đó nhé♪"
+
+	"Khuôn mặt Anna thật quyến rũ khi cô ấy mút dương vật của bạn... Hãy tận hưởng trọn vẹn và đắm chìm trong khoái cảm♪"
+
+	"Hehe, meow meow♪ À, mmm..."
+
+	"Mmh, mmh, như thế này, hãy ngậm lấy đầu dương vật...♪"
+
+	"Mmh, mmh, mmm, mmm, mút, mút sâu...♪"
+
+	"Mmm, mmm, bạn thích điều này chứ?" Mmm, cảm giác thật tuyệt, hãy ngậm môi lại, anh sẽ cho em một màn thủ dâm tuyệt vời♪"
+
+	"Hãy giải tỏa cơn thèm khát buổi sáng nào...♪"
+hr:
+	str:■Track 3: "Liếm tai và thủ dâm bằng onahole từ một cô bạn gái thần tượng đang trong chế độ bán hàng♪" (18 phút 10 giây)
+br:
+	・Một câu chuyện về màn thủ dâm bằng onahole thuần khiết và nịnh nọt từ một cô bạn gái thần tượng. [Thủ dâm bằng Onahole/Liếm tai/Giọng nói tán tỉnh]
+
+	"...Hôm nay anh đang trong chế độ làm việc, nên anh sẽ thủ dâm bằng onahole cho em♪ Sao em không tận hưởng nó từ góc nhìn của một fan hâm mộ?"
+
+	"...Một màn thủ dâm bằng onahole âu yếm từ một thần tượng hàng đầu luôn tán tỉnh và thuần khiết♪"
+
+	"...Hehe, hơi thở của em có vẻ nặng nề hơn rồi đấy?" "Bạn có thấy hào hứng không?"
+
+	"Hehe, bắt đầu thôi... Bắt đầu thôi...♪"
+
+	"...Chào buổi tối, tôi là Anna Shinonome♪ Hôm nay, tôi rất mong chờ♪ hehe...♪"
+
+	"Của anh... trúng số độc đắc rồi, em sẽ vuốt ve nó thật mạnh... Em sẽ rất hạnh phúc nếu anh có thể xuất tinh vì sung sướng... hehe♪"
+hr:
+	str:■Track 4: "Tôi đã bắt bạn gái thần tượng của mình mặc một bộ đồ gợi cảm và quay cảnh sex POV♪" (29 phút 24 giây)
+br:
+	・Một câu chuyện về video sex POV ngọt ngào và đầy yêu thương, tràn ngập cảm giác tự cao khi bạn khoe khoang với người hâm mộ. [Tư thế truyền giáo/Hôn kiểu Pháp]
+
+	"...À, tất cả người hâm mộ đang xem sao?"
+
+	"Hehe, giờ tôi sẽ làm tình với bạn trai của mình trong bộ đồ này...♪ Hãy cố gắng hết sức trong buổi thủ dâm vô nghĩa này nhé♪"
+
+	"Mm, hehe... Em yêu anh," Em yêu...♪"
+
+	"Hừm, hôn, hôn, liếm, hôn, liếm, hôn, liếm, liếm, hôn"
+
+	"Cảm ơn em đã ôm anh hôm nay, Anna...♪"
+
+	"Hehe, em thế nào rồi? "Em thích bộ đồ này không?... Ờ, hơi tục tĩu một chút? Xin lỗi, xin lỗi vì đã hơi hư...♪"
+
+	"Chụt chụt... Hừm... Nhưng em biết đấy, anh thích Anna, thích trêu chọc fan của cô ấy trong bộ đồ gợi cảm như thế này...♪"
+hr:
+	str:■Track 5: "Một đêm thư giãn với màn ân ái nồng nàn cùng bạn gái thần tượng của tôi♪" (20 phút 40 giây)
+br:
+	・Một câu chuyện về màn ân ái nồng nàn với bạn gái thần tượng. [Kiểu cưỡi ngựa/Hôn kiểu Pháp/Liếm tai]
+
+	"Mọi chuyện thế nào rồi? Cảm giác ra sao?♪"
+
+	"Âm đạo của thần tượng này đang ôm chặt lấy dương vật cương cứng của tôi... liếm nó như thể nó đang liếm tôi vậy...♪"
+
+	"Tôi muốn được thủ dâm từ đầu dương vật, và hơi nóng từ âm đạo nóng bỏng của cô gái trẻ này đang đập mạnh vào háng tôi♪"
+
+	"Này, này, giữ nó thật sâu bên trong tôi và mút tôi thật mạnh... kéo âm đạo lên nữa đi♪"
+
+	"Tôi sẽ thủ dâm cho dương vật của anh bằng những cú thúc gợi cảm của cô ấy cho đến khi nó hoàn toàn bị phá hủy..." Ah, ah, tình dục, tình dục, giao phối thật tuyệt vời...♪"
+
+	"Cơ thể gợi cảm của bạn gái thần tượng của tôi thật tuyệt vời...♪ Nó thực sự kích thích ham muốn sinh sản của tôi...♪"
+
+	"Tôi muốn tiếp tục với tốc độ này và gieo mầm giống của mình vào cô bạn gái thần tượng hàng đầu này, người đang ở độ tuổi sinh sản...♪"
+
+	"Hừm, ah...♪ ...Không sao đâu, anh yêu em" ♪ Em sẽ làm bất cứ điều gì anh muốn..."
+
+	"Anh có thể làm bất cứ điều gì anh muốn với em...♪ Em yêu anh...Em thực sự yêu anh...♪"
+	
