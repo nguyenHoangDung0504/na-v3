@@ -27,15 +27,10 @@ fs.mkdirSync(rootDir, { recursive: true });
 
 for (let i = 0; i < vttCount; i++) {
 	const filePath = path.join(rootDir, `${i}.txt`);
-	if (i === 0) {
-		exec(`code --reuse-window "${filePath}"`);
-	}
+	if (i === 0) exec(`code --reuse-window "${filePath}"`);
 
-	// 🛡️ LỚP BẢO HIỂM
-	if (fs.existsSync(filePath)) {
-		continue;
-	}
-
+	// LỚP BẢO HIỂM
+	if (fs.existsSync(filePath)) continue;
 	fs.writeFileSync(filePath, '', {
 		encoding: 'utf8',
 		flag: 'wx', // extra safety: fail if file exists
