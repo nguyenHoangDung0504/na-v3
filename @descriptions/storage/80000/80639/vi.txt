@@ -1,0 +1,53 @@
+- Content_Des
+	Đã 20 năm kể từ khi bạn cưới nàng công chúa elf quyến rũ, lẳng lơ, Lieselotte. Cô con gái của hai bạn đã lớn lên khỏe mạnh và cứng cáp.
+
+	Selene phải lòng bố cô ấy. Mặc dù bố cô ấy ân ái với vợ mỗi ngày, nhưng cô bé ngày nào cũng quyến rũ bạn... Cuối cùng, bạn quan hệ với cả vợ và con gái cùng một lúc ♪
+
+- Character_Des
+	str:Selene
+
+	Nàng là công chúa của vương quốc tiên tộc và là con gái của bạn.
+	Nàng có vòng ngực cỡ H (106cm) và vẫn đang phát triển ở tuổi 20.
+	Cô bé yêu bạn, cũng như yêu mẹ. Bất cứ khi nào có cơ hội, cô bé sẽ cố gắng quyến rũ bạn và khiến bạn ngủ với nó...♪
+hr:
+	str:Liselotte
+
+	Nữ hoàng của vương quốc tiên tộc và là vợ của bạn.
+	Cô ấy sở hữu thân hình tuyệt vời với vòng ngực cỡ J 110cm và một vóc dáng khơi gợi ham muốn tình dục của đàn ông.
+	Cô ấy từng là một trinh nữ chưa từng biết mùi vị của dương vật, nhưng sau khi kết hôn, cô ấy trở thành một nàng tiên dâm đãng nghiện tình dục ♪ Ngay cả bây giờ, 20 năm sau khi kết hôn, cô ấy vẫn thèm khát dương vật của bạn mỗi ngày ♪
+
+- Track_Des
+	1. Vẫn sung sức sau 20 năm kết hôn ♪ Quan hệ tình dục nồng nàn với vợ yêu tinh và một cặp vợ chồng trưởng thành (Mẹ)
+br:
+	12:03
+	Lời thì thầm quyến rũ bên tai/Quan hệ tình dục kiểu chó giữa vợ chồng/Người vợ ghen tuông thúc mạnh và xuất tinh vào âm đạo
+hr:
+	2. Không cưỡng lại được sự cám dỗ của bộ ngực con gái và đưa dương vật trần vào (Con gái)
+	14:56
+br:
+	Con gái đến thăm đêm ngược/Cám dỗ bằng cách ấn ngực/Hôn kiểu Pháp và quan hệ tình dục kiểu truyền thống/Xuất tinh vào âm đạo con gái
+hr:
+	3. Vợ cho phép quan hệ tình dục với con gái ♪ Mẹ và con gái cùng chia sẻ một dương vật (Mẹ)
+	14:31
+br:
+	Cho phép quan hệ tình dục với con gái/Mút dương vật đầy yêu thương/Quan hệ tình dục nồng nàn giữa vợ chồng, xuất tinh vào âm đạo
+hr:
+	4. Ngược lại Cưỡng hiếp con gái yêu quý cha mình! Quan hệ tình dục kiểu cao bồi với xuất tinh (Con gái)
+	19:02
+br:
+	Thì thầm quyến rũ dương vật/Hôn dương vật/Quan hệ bằng miệng/Cưỡng hiếp ngược kiểu cao bồi với xuất tinh
+hr:
+	5. Mẹ và con gái phục vụ với liếm tai và thủ dâm♪ (3 người)
+	17:01
+br:
+	Mẹ và con gái phục vụ dương vật/Kẹp má dương vật/Luân phiên liếm tai và thủ dâm
+hr:
+	6. Thì thầm quyến rũ vào cả hai tai và quan hệ bằng miệng, xuất tinh lên khuôn mặt dễ thương của mẹ và con gái (3 người)
+	16:38
+br:
+	Thì thầm quyến rũ từ cả hai phía/Luân phiên quan hệ bằng miệng/Xuất tinh lên mặt
+hr:
+	7. Vợ và con gái chia sẻ dương vật cho cuộc yêu mãnh liệt♪ (3 người)
+	18:39
+br:
+	Mẹ và con gái chia sẻ dương vật/Quan hệ tình dục luân phiên/Xuất tinh mãnh liệt vào cả hai âm đạo

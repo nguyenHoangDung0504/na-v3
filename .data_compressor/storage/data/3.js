@@ -1,5 +1,5 @@
-import { buildPush } from './index.js';
-const _ = buildPush(import.meta.url);
+import { buildPush } from './index.js'
+const _ = buildPush(import.meta.url)
 
 _(
 	68820,
@@ -12,7 +12,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/68820-0.jpg?v=1711793933485',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/68820-1.jpg?v=1711793934651',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/68820t1.mp3?v=1711793948916',
-);
+)
 _(
 	69935,
 	'RJ420016',
@@ -24,7 +24,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/69935-0.jpg?v=1711793950082',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/69935-1.jpg?v=1711793951406',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/69935t1.mp3?v=1711793963381',
-);
+)
 _(
 	64117,
 	'RJ390341',
@@ -36,7 +36,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/64117-0.jpg?v=1711793911209',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/64117-1.jpg?v=1711793912547',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/64117t1.mp3?v=1711793932320',
-);
+)
 _(
 	112524,
 	'RJ01164987',
@@ -48,7 +48,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/112524-0.jpg?v=1711794123109',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/112524-1.jpg?v=1711794121660',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/112524t1.mp3?v=1711794120493',
-);
+)
 _(
 	33334,
 	'RJ300204',
@@ -60,7 +60,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/33334-0.jpg?v=1711793889068',
 	'',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/33334t1.mp3?v=1711793898388,https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/33334t2.mp3?v=1711793910093',
-);
+)
 _(
 	106560,
 	'RJ01123037',
@@ -72,7 +72,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/106560-0.jpg?v=1711794141321',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/106560-1.jpg?v=1711794139984',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/106560t1.mp3?v=1711794138808',
-);
+)
 _(
 	103517,
 	'RJ01109428',
@@ -84,7 +84,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/103517-0.jpg?v=1711794155802',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/103517-1.jpg?v=1711794154655',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/103517t1.mp3?v=1711794153506',
-);
+)
 _(
 	111768,
 	'RJ01162234',
@@ -96,7 +96,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/111768-0.jpg?v=1711796769864',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/111768-1.jpg?v=1711796768536,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/111768-2.jpg?v=1711796767187',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/111768t1.mp3?v=1711796766007',
-);
+)
 _(
 	78871,
 	'RJ354082',
@@ -108,7 +108,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/78871-0.jpg?v=1711796621570',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/78871-1.jpg?v=1711796620525',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/78871t1.mp3?v=1711796617291,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/78871bonus.mp3?v=1711796619175',
-);
+)
 _(
 	109978,
 	'RJ01142500',
@@ -120,7 +120,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/109978-0.jpg?v=1711796853008',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/109978-1.jpg?v=1711796851895,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/109978-2.jpg?v=1711796850793',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/109978t1.mp3?v=1711796882056',
-);
+)
 _(
 	111556,
 	'RJ01133329',
@@ -132,7 +132,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/111556-0.jpg?v=1711796818150',
 	'',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/111556t1.mp3?v=1711796816931,https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/111556t2.mp3?v=1711796800509',
-);
+)
 _(
 	104229,
 	'RJ01097743',
@@ -144,7 +144,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/104229-0.jpg?v=1711796559598',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/104229-1.jpg?v=1711796558431',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/104229t1.mp3?v=1711796556193',
-);
+)
 _(
 	99928,
 	'RJ01087623',
@@ -156,7 +156,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/99928-0.jpg?v=1711796599751',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/99928-1.jpg?v=1711796598406',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/99928t1.mp3?v=1711796597239',
-);
+)
 _(
 	102358,
 	'RJ01098402',
@@ -168,7 +168,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/102358-0.jpg?v=1711796579297',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/102358-1.jpg?v=1711796577917',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/102358t1.mp3?v=1711796567794,https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/102358omake.mp3?v=1711796576738',
-);
+)
 _(
 	108775,
 	'RJ01125180',
@@ -180,7 +180,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/108775-0.jpg?v=1711796871053',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/108775-1.jpg?v=1711796869644',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/108775t1.mp3?v=1711796868258',
-);
+)
 _(
 	50701,
 	'RJ322947',
@@ -192,7 +192,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/50701-0.jpg?v=1711805404491',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/50701-1.jpg?v=1711805403294',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/50701t1.mp3?v=1711805401586',
-);
+)
 _(
 	55267,
 	'RJ342161',
@@ -204,7 +204,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/55267-0.jpg?v=1711805447342',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/55267-1.jpg?v=1711805445186',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/55267t1.mp3?v=1711805440001,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/55267omake.mp3?v=1711805442787',
-);
+)
 _(
 	103539,
 	'RJ01110728',
@@ -216,7 +216,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/103539-0.jpg?v=1711805412890',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/103539-1.jpg?v=1711805411589',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/103539t1.mp3?v=1711805410436',
-);
+)
 _(
 	49240,
 	'RJ319802',
@@ -228,7 +228,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/49240-0.jpg?v=1711807862708',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/49240-1.jpg?v=1711807864069',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/49240t1.mp3?v=1711807878773,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/49240omake.mp3?v=1711807865525',
-);
+)
 _(
 	52796,
 	'RJ329545',
@@ -240,7 +240,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/52796-0.jpg?v=1711807879921',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/52796-1.jpg?v=1711807881343',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/52796t1.mp3?v=1711807897682,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/52796omake.mp3?v=1711807882529',
-);
+)
 _(
 	41081,
 	'RJ313193',
@@ -252,7 +252,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/41081-0.jpg?v=1711807850382',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/41081-1.jpg?v=1711807851520',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/41081t1.mp3?v=1711807861441',
-);
+)
 _(
 	37776,
 	'RJ305855',
@@ -264,7 +264,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/37776-0.jpg?v=1711807837410',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/37776-1.jpg?v=1711807838714',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/37776t1.mp3?v=1711807848742',
-);
+)
 _(
 	109421,
 	'RJ01144859',
@@ -276,7 +276,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/109421-0.jpg?v=1711807930066',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/109421-1.jpg?v=1711807932239',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/109421t1.mp3?v=1711807949331,https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/109421omake.mp3?v=1711807940811',
-);
+)
 _(
 	99571,
 	'RJ01085301',
@@ -288,7 +288,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/99571-0.jpg?v=1711807899908',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/99571-1.jpg?v=1711807903121',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/99571t1.mp3?v=1711807927130,https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/99571omake.mp3?v=1711807914293',
-);
+)
 _(
 	112488,
 	'RJ01154006',
@@ -300,7 +300,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/112488-0.jpg?v=1711808951579',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/112488-1.jpg?v=1711808950515',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/112488t1.mp3?v=1711808949135',
-);
+)
 _(
 	111046,
 	'RJ01150167',
@@ -312,7 +312,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/111046-0.jpg?v=1711808978557',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/111046-1.jpg?v=1711808976430,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/111046-2.jpg?v=1711808974037,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/111046-3.jpg?v=1711808971567',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/111046t1.mp3?v=1711808969217',
-);
+)
 _(
 	96992,
 	'RJ01063674',
@@ -324,7 +324,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/96992-0.jpg?v=1711810339534',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/96992-1.mp4?v=1711810338283',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/96992t1.mp3?v=1711810322994,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/96992omake.mp3?v=1711810324527',
-);
+)
 _(
 	102340,
 	'RJ01095442',
@@ -336,7 +336,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/102340-0.jpg?v=1711810310951',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/102340-1.jpg?v=1711810389299,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/102340-2.jpg?v=1711810387932',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/102340t1.mp3?v=1711810386702',
-);
+)
 _(
 	103869,
 	'RJ01105903',
@@ -348,7 +348,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/103869-0.jpg?v=1711810371302',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/103869-1.jpg?v=1711810370187',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/103869t1.mp3?v=1711810369021',
-);
+)
 _(
 	4046,
 	'RJ226301',
@@ -360,7 +360,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/4046-0.jpg?v=1711810361238',
 	'',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/4046t1.mp3?v=1711810360096',
-);
+)
 _(
 	29256,
 	'RJ288419',
@@ -372,7 +372,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/29256-0.jpg?v=1711812437907',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/29256-1.jpg?v=1711812439361',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/29256t1.mp3?v=1711812453470,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/29256omake.mp3?v=1711812443617',
-);
+)
 _(
 	61250,
 	'RJ344253',
@@ -384,7 +384,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/61250-0.jpg?v=1711812610391',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/61250-1.jpg?v=1711812609294,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/61250-2.jpg?v=1711812607685',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/61250t1.mp3?v=1711812606206',
-);
+)
 _(
 	53500,
 	'RJ334327',
@@ -396,7 +396,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/53500-0.jpg?v=1711812454898',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/53500-1.jpg?v=1711812456111,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/53500-2.jpg?v=1711812457180',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/53500t1.mp3?v=1711812509979,https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/53500omake.mp3?v=1711812474166',
-);
+)
 _(
 	58619,
 	'RJ362083',
@@ -408,7 +408,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/58619-0.jpg?v=1711813404218',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/58619-1.jpg?v=1711813402028,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/58619-2.jpg?v=1711813399307',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/58619t1.mp3?v=1711813393801,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/58619freetalk.mp3?v=1711813396916,https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/58619ASMRver.mp3?v=1711813426911',
-);
+)
 _(
 	72701,
 	'RJ439902',
@@ -420,7 +420,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/72701-0.jpg?v=1711813374218',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/72701-1.jpg?v=1711813372998',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/72701t1.mp3?v=1711813449471,https://raw.kiko-play-niptan.one/media/stream/daily/2022-12-28/RJ439902/wav/el84_01_%E5%A5%B4%E9%9A%B7%E5%A5%91%E7%B4%84%E5%88%9D%E6%97%A5%E3%80%81%E3%81%8A%E5%87%BA%E8%BF%8E%E3%81%88.wav,https://raw.kiko-play-niptan.one/media/stream/daily/2022-12-28/RJ439902/wav/el84_02_%E3%81%BE%E3%81%9A%E3%81%AF%E6%97%85%E3%81%AE%E7%96%B2%E3%82%8C%E3%82%92%E7%99%92%E3%81%97%E3%81%A6%E3%81%84%E3%81%9F%E3%81%A0%E3%81%8F%E3%81%9F%E3%82%81%E3%81%AB%E3%81%8A%E8%83%8C%E4%B8%AD%E3%82%92%E3%81%8A%E6%B5%81%E3%81%97%E3%81%97%E3%81%BE%E3%81%99.wav,https://raw.kiko-play-niptan.one/media/stream/daily/2022-12-28/RJ439902/wav/el84_03_%E7%A7%81%E3%81%AE%E8%BA%AB%E4%BD%93%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%A6%E3%81%94%E4%B8%BB%E4%BA%BA%E6%A7%98%E3%81%AE%E8%BA%AB%E4%BD%93%E3%82%92%E3%81%8A%E6%B4%97%E3%81%84%E3%81%97%E3%81%BE%E3%81%99.wav,https://raw.kiko-play-niptan.one/media/stream/daily/2022-12-28/RJ439902/wav/el84_04_%E3%81%88%E2%80%A6%E2%80%A6%E8%80%B3%E3%82%92%E3%80%81%E8%88%90%E3%82%81%E3%82%8B%E3%82%93%E3%81%A7%E3%81%99%E3%81%8B%E2%80%A6%E2%80%A6%EF%BC%9F%EF%BC%88%E5%8F%B3%E8%80%B3%EF%BC%89.wav,https://raw.kiko-play-niptan.one/media/stream/daily/2022-12-28/RJ439902/wav/el84_05_%E5%8F%8D%E5%AF%BE%E5%81%B4%E3%81%AE%E8%80%B3%E3%81%AF%E2%80%A6%E2%80%A6%E6%B8%A9%E6%B3%89%E3%81%AB%E3%82%86%E3%81%A3%E3%81%9F%E3%82%8A%E3%81%A8%E6%B5%B8%E3%81%8B%E3%82%8A%E3%81%AA%E3%81%8C%E3%82%89%E3%80%81%E3%81%8A%E6%8E%83%E9%99%A4%E3%81%84%E3%81%9F%E3%81%97%E3%81%BE%E3%81%99%E3%81%AD%EF%BC%88%E5%B7%A6%E8%80%B3%EF%BC%89.wav,https://raw.kiko-play-niptan.one/media/stream/daily/2022-12-28/RJ439902/wav/el84_06_%E5%B9%95%E9%96%93%E3%80%82%E4%B8%80%E6%99%A9%E7%9B%AE%E7%B5%82%E4%BA%86.wav,https://raw.kiko-play-niptan.one/media/stream/daily/2022-12-28/RJ439902/wav/el84_07_%E4%BA%8C%E6%97%A5%E7%9B%AE%E3%80%81%E6%9C%9D%E5%8B%83%E3%81%A1%E3%81%B8%E3%81%AE%E3%81%94%E6%8C%A8%E6%8B%B6.wav,https://raw.kiko-play-niptan.one/media/stream/daily/2022-12-28/RJ439902/wav/el84_08_%E4%B8%80%E4%BA%BA%E3%81%A7%E4%BD%93%E3%82%92%E6%85%B0%E3%82%81%E3%82%8B%E5%85%AC%E9%96%8B%E6%89%8B%E6%B7%AB.wav,https://fast.kiko-play-niptan.one/media/stream/daily/2022-12-28/RJ439902/wav/el84_09_%E7%B4%85%E8%91%89%E5%90%88%E3%82%8F%E3%81%9B%EF%BC%88%E3%83%91%E3%82%A4%E3%82%BA%E3%83%AA%EF%BC%89.m4a,https://raw.kiko-play-niptan.one/media/stream/daily/2022-12-28/RJ439902/wav/el84_10_%E9%AB%98%E3%81%BE%E3%82%8B%E8%88%88%E5%A5%AE%E3%80%81%E3%81%A8%E3%82%81%E3%81%A9%E3%81%AA%E3%81%84%E3%82%AD%E3%82%B9.wav,https://raw.kiko-play-niptan.one/media/stream/daily/2022-12-28/RJ439902/wav/el84_11_%E5%A4%9C%E9%80%9A%E3%81%97%E3%82%BB%E3%83%83%E3%82%AF%E3%82%B9.wav,https://raw.kiko-play-niptan.one/media/stream/daily/2022-12-28/RJ439902/wav/el84_12_%E4%B8%89%E6%97%A5%E7%9B%AE%E3%80%81%E5%A5%B4%E9%9A%B7%E5%A5%91%E7%B4%84%E3%81%AE%E6%BA%80%E4%BA%86%E2%80%A6%E2%80%A6%EF%BC%9F.wav',
-);
+)
 _(
 	46327,
 	'RJ320029',
@@ -432,7 +432,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/46327-0.jpg?v=1711933820137',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/46327-1.jpg?v=1711933821514,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/46327-2.jpg?v=1711933822837',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/46327t1.mp3?v=1711933837479',
-);
+)
 _(
 	112526,
 	'RJ01165316',
@@ -444,7 +444,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/112526-0.jpg?v=1711858252965',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/112526-2.jpg?v=1711858686071,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/112526-3.mp4?v=1711859159557',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/112526t1.mp3?v=1711889358555',
-);
+)
 _(
 	47463,
 	'RJ323107',
@@ -456,7 +456,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/47463-0.jpg?v=1711933973326',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/47463-1.jpg?v=1711933974658',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/47463t1.mp3?v=1711933982632',
-);
+)
 _(
 	55048,
 	'RJ340134',
@@ -468,7 +468,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/55048-0.jpg?v=1711889657430',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/55048-1.jpg?v=1711889649127',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/55048t1.mp3?v=1711933559368',
-);
+)
 _(
 	70267,
 	'RJ422821',
@@ -480,7 +480,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/70267-0.jpg?v=1711856384962',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/70267-1.jpg?v=1711856380100',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/70267t1.mp3?v=1711858067842',
-);
+)
 _(
 	46449,
 	'RJ322212',
@@ -492,7 +492,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/46449-0.jpg?v=1711933893668',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/46449-1.jpg?v=1711933895097',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/46449t1.mp3?v=1711933972167,https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/46449B.mp3?v=1711933925206',
-);
+)
 _(
 	40878,
 	'RJ316229',
@@ -504,7 +504,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/40878-0.jpg?v=1711933712265',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/40878-1.jpg?v=1711933713628',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/40878t1.mp3?v=1711933750768,https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/40878B.mp3?v=1711933733929',
-);
+)
 _(
 	52390,
 	'RJ336002',
@@ -516,7 +516,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/52390-0.jpg?v=1711933983868',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/52390-1.jpg?v=1711933985223',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/52390t1.mp3?v=1711934020177,https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/52390B.mp3?v=1711933994331,https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/52390C.mp3?v=1711934001646',
-);
+)
 _(
 	112548,
 	'RJ01167461',
@@ -528,7 +528,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/112548-0.jpg?v=1711935565959',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/112548-1.jpg?v=1711935568428,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/112548-2.jpg?v=1711935570926,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/112548-3.jpg?v=1711935573149,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/112548-4.jpg?v=1711935575305,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/112548-5.jpg?v=1711935577513',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/112548t1.mp3?v=1711935622847,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/112548freetalk.mp3?v=1711935587337,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/112548ex.mp3?v=1711935584279',
-);
+)
 _(
 	81731,
 	'RJ01041059',
@@ -540,7 +540,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/81731-0.jpg?v=1711935747470',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/81731-1.jpg?v=1711935746031',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/81731t1.mp3?v=1711935744785',
-);
+)
 _(
 	73636,
 	'RJ01005988',
@@ -552,7 +552,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/73636-0.jpg?v=1711936293469',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/73636-1.jpg?v=1711936292386',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/73636t1.mp3?v=1711936287818,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/73636omake.mp3?v=1711936290167,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/73636freetalk.mp3?v=1711936291265',
-);
+)
 _(
 	32894,
 	'RJ295919',
@@ -564,7 +564,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/32894-0.jpg?v=1711936297898',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/32894-1.jpg?v=1711936296806,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/32894-2.jpg?v=1711936295703,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/32894-3.jpg?v=1711936294625,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/32894-4.jpg?v=1711936298973',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/32894t1.mp3?v=1711936332407',
-);
+)
 _(
 	103413,
 	'RJ01088816',
@@ -576,7 +576,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/103413-0.jpg?v=1712477579520',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/103413-1.jpg?v=1712477577167',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/103413t1.mp3?v=1712477574280',
-);
+)
 _(
 	69967,
 	'RJ422483',
@@ -588,7 +588,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/69967-0.jpg?v=1712478052737',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/69967-1.jpg?v=1712478054196',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/69967t1.mp3?v=1712478077536,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/69967omake.mp3?v=1712478056375',
-);
+)
 _(
 	99262,
 	'RJ01082123',
@@ -600,7 +600,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/99262-0.jpg?v=1712478183395',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/99262-1.jpg?v=1712478184515',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/99262t1.mp3?v=1712478204905,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/99262freetalk.mp3?v=1712478187385',
-);
+)
 _(
 	65028,
 	'RJ389516',
@@ -612,7 +612,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/65028-0.jpg?v=1712478582293',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/65028-1.jpg?v=1712478583690,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/65028-2.jpg?v=1712478584820',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/65028t1.mp3?v=1712478602179',
-);
+)
 _(
 	60374,
 	'RJ372765',
@@ -624,7 +624,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/60374-0.jpg?v=1712479177480',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/60374-1.jpg?v=1712479176372,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/60374-2.jpg?v=1712479175175,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/60374-3.jpg?v=1712479174034,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/60374-4.jpg?v=1712479172646',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/60374t1.mp3?v=1712479171202',
-);
+)
 _(
 	98728,
 	'RJ01057288',
@@ -636,7 +636,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/98728-0.jpg?v=1712479229649',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/98728-1.jpg?v=1712479228279',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/98728t1.mp3?v=1712479226867',
-);
+)
 _(
 	76759,
 	'RJ01032505',
@@ -648,7 +648,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/76759-0.jpg?v=1713231136895',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/76759-1.jpg?v=1713231135790,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/76759-2.jpg?v=1713231134236',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/76759t1.mp3?v=1713231148317,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/76759freetalk.mp3?v=1713231132493',
-);
+)
 _(
 	111672,
 	'RJ01155381',
@@ -660,7 +660,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/111672-0.jpg?v=1713231670737',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/111672-1.jpg?v=1713231671893,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/111672-2.jpg?v=1713231673062',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/111672t1.mp3?v=1713231682877',
-);
+)
 _(
 	110568,
 	'RJ01136164',
@@ -672,7 +672,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/110568-0.jpg?v=1713232467542',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/110568-1.jpg?v=1713232465397,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/110568-2.jpg?v=1713232462990,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/110568-3.jpg?v=1713232460583,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/110568-4.jpg?v=1713232458322',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/110568t1.mp3?v=1713232456090',
-);
+)
 _(
 	68466,
 	'RJ408785',
@@ -684,7 +684,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/68466-0.jpg?v=1713233273410',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/68466-1.jpg?v=1713233274805',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/68466t1.mp3?v=1713233271726',
-);
+)
 _(
 	81787,
 	'RJ01061760',
@@ -696,7 +696,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/81787-0.jpg?v=1713234894707',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/81787-1.jpg?v=1713234895854',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/81787t1.mp3?v=1713234917331',
-);
+)
 _(
 	110612,
 	'RJ01149104',
@@ -708,7 +708,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/110612-0.jpg?v=1713234918623',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/110612-1.jpg?v=1713234919824,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/110612-2.jpg?v=1713234921244,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/110612-3.jpg?v=1713234922642,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/110612-4.jpg?v=1713234927492,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/110612-5.jpg?v=1713234928814,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/110612-6.jpg?v=1713234930242,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/110612-7.jpg?v=1713234931589,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/110612-8.jpg?v=1713234932700,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/110612-9.jpg?v=1713234933903,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/110612-10.jpg?v=1713234935064,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/110612-11.jpg?v=1713234936593,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/110612-12.jpg?v=1713234937660,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/110612-13.jpg?v=1713234938904,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/110612-14.jpg?v=1713234939957,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/110612-15.jpg?v=1713234941074,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/110612-16.jpg?v=1713234942187,https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/110612-17.mp4?v=1713234952325,https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/110612-18.mp4?v=1713234852613,https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/110612-19.mp4?v=1713234862070',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/110612t1.mp3?v=1713234876574',
-);
+)
 _(
 	69714,
 	'RJ419019',
@@ -720,7 +720,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/69714-0.jpg?v=1714318012368',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/69714-1.webp?v=1714318014769',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/69714t1.mp3?v=1714318046211',
-);
+)
 _(
 	78636,
 	'RJ01035582',
@@ -732,7 +732,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/78636-0.jpg?v=1714318444303',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/78636-1.jpg?v=1714318445596',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/78636t1.mp3?v=1714318404316,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/78636freetalk.mp3?v=1714318384622',
-);
+)
 _(
 	113474,
 	'RJ01176763',
@@ -744,7 +744,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/113474-0.jpg?v=1714317282842',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/113474-1.jpg?v=1714317364443,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/113474-2.jpg?v=1714317363114,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/113474-3.jpg?v=1714317361894,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/113474-4.jpg?v=1714317360701,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/113474-5.jpg?v=1714317358625',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/113474t1.mp3?v=1714317357383,https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/113474t2.mp3?v=1714317326028',
-);
+)
 _(
 	51281,
 	'RJ329141',
@@ -756,7 +756,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/51281-0.jpg?v=1714317473164',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/51281-1.jpg?v=1714317474803,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/51281-2.jpg?v=1714317476017,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/51281-3.jpg?v=1714317477179,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/51281-4.jpg?v=1714317478660,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/51281-5.jpg?v=1714317480098,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/51281-6.jpg?v=1714317481803,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/51281-7.jpg?v=1714317483405,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/51281-8.jpg?v=1714317484771,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/51281-9.jpg?v=1714317485947,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/51281-10.jpg?v=1714317487224',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/51281t1.mp3?v=1714317539690,https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/51281omake.mp3?v=1714317493295,https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/51281Ryoumiminame.mp3?v=1714317508718',
-);
+)
 _(
 	102752,
 	'RJ01103771',
@@ -768,7 +768,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/102752-0.jpg?v=1714318545433',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/102752-1.jpg?v=1714318547062',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/102752t1.mp3?v=1714318589196,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/102752omake.mp3?v=1714318564206,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/102752freetalk.mp3?v=1714318557059',
-);
+)
 _(
 	111702,
 	'RJ01158066',
@@ -780,7 +780,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/111702-0.jpg?v=1714317754163',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/111702-1.jpg?v=1714317752767,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/111702-3.jpg?v=1714317751282',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/111702t1.mp3?v=1714317726569,https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/111702omake.mp3?v=1714317736134,https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/111702Gojitsu.mp3?v=1714317749902',
-);
+)
 _(
 	53912,
 	'RJ338424',
@@ -792,7 +792,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/53912-0.jpg?v=1714317975517',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/53912-1.jpg?v=1714317977000',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/53912t1.mp3?v=1714318011085',
-);
+)
 _(
 	74264,
 	'RJ01006933',
@@ -804,7 +804,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/74264-0.jpg?v=1714318147839',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/74264-3.jpg?v=1714318154545,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/74264-2.jpg?v=1714318152663,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/74264-1.jpg?v=1714318150125',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/74264t1.mp3?v=1714318206481,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/74264freetalk.mp3?v=1714318164811',
-);
+)
 _(
 	74260,
 	'RJ01006931',
@@ -816,7 +816,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/74260-0.jpg?v=1714318125067',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/74260-1.jpg?v=1714318126853,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/74260-2.jpg?v=1714318128022,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/74260-3.jpg?v=1714318129195,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/74260-4.jpg?v=1714318130379,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/74260-5.jpg?v=1714318131522',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/74260t1.mp3?v=1714318145257',
-);
+)
 _(
 	75330,
 	'RJ01027347',
@@ -828,7 +828,7 @@ _(
 	'https://api.asmr-200.com/api/cover/1027347.jpg?type=main',
 	'https://raw.kiko-play-niptan.one/media/stream/daily/2023-04-03/RJ01027347/02_%E7%94%BB%E5%83%8F/06_%E9%AB%98%E7%94%BB%E8%B3%AA%20%E6%96%87%E5%AD%97%E7%84%A1%E3%81%97%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88.png,https://raw.kiko-play-niptan.one/media/stream/daily/2023-04-03/RJ01027347/03_%E7%89%B9%E5%85%B8%E6%BC%AB%E7%94%BB/1p(Track01%E7%B5%82%E7%9B%A4).png,https://raw.kiko-play-niptan.one/media/stream/daily/2023-04-03/RJ01027347/03_%E7%89%B9%E5%85%B8%E6%BC%AB%E7%94%BB/2p(Track02%E7%B5%82%E7%9B%A4).png,https://raw.kiko-play-niptan.one/media/stream/daily/2023-04-03/RJ01027347/03_%E7%89%B9%E5%85%B8%E6%BC%AB%E7%94%BB/3p(Track05%E7%B5%82%E7%9B%A401).png,https://raw.kiko-play-niptan.one/media/stream/daily/2023-04-03/RJ01027347/03_%E7%89%B9%E5%85%B8%E6%BC%AB%E7%94%BB/4p(Track05%E7%B5%82%E7%9B%A402).jpg,https://raw.kiko-play-niptan.one/media/stream/daily/2023-04-03/RJ01027347/03_%E7%89%B9%E5%85%B8%E6%BC%AB%E7%94%BB/5p(Track05%E7%B5%82%E7%9B%A403).jpg',
 	'https://fast.kiko-play-niptan.one/media/stream/daily/2023-04-03/RJ01027347/01_%E9%9F%B3%E5%A3%B0/wav/SE%E3%81%82%E3%82%8A/Track01_Dat1_%E7%AA%81%E7%84%B6%E7%8F%BE%E3%82%8C%E3%81%9F%E7%84%A1%E8%A1%A8%E6%83%85%E3%81%AA%E3%83%A1%E3%82%A4%E3%83%89%E3%81%AF%E6%84%9B%E7%94%A8%E3%81%97%E3%81%A6%E3%81%9F%E3%82%AA%E3%83%8A%E3%83%9B%E3%81%A0%E3%81%A3%E3%81%9F%EF%BC%81%EF%BC%9F%E8%80%B3%E8%88%90%E3%82%81%E6%89%8B%E3%82%B3%E3%82%AD%E3%81%A7%E3%81%84%E3%81%8D%E3%81%AA%E3%82%8A%E6%90%BE%E7%B2%BE%EF%BC%81(SE%E3%81%82%E3%82%8A).m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2023-04-03/RJ01027347/01_%E9%9F%B3%E5%A3%B0/wav/SE%E3%81%82%E3%82%8A/Track02_Dat2_%E3%81%8A%E3%81%AF%E3%82%88%E3%81%86%E3%81%8B%E3%82%89%E3%81%AE%E3%83%91%E3%82%A4%E3%82%BA%E3%83%AA%E3%83%95%E3%82%A7%E3%83%A9%EF%BC%81%E6%9C%9D%E3%81%94%E3%81%AF%E3%82%93%E4%BB%A3%E3%82%8F%E3%82%8A%E3%81%AB%E6%90%BE%E3%82%8A%E5%8F%96%E3%82%89%E3%82%8C%E3%81%BE%E3%81%99%EF%BC%81(SE%E3%81%82%E3%82%8A).m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2023-04-03/RJ01027347/01_%E9%9F%B3%E5%A3%B0/wav/SE%E3%81%82%E3%82%8A/Track03_Dat2_%E5%B8%B0%E3%82%8B%E3%81%A8%E3%81%8A%E9%A2%A8%E5%91%82%E3%81%AB%E3%83%9E%E3%83%83%E3%83%88%E3%81%A8%E3%83%AD%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%81%8C%EF%BC%81%EF%BC%9F%E3%82%BD%E3%83%BC%E3%83%97%E9%A2%A8%E3%82%B9%E3%83%9E%E3%82%BF%E3%81%A7%E3%82%A4%E3%82%AB%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99%EF%BC%81(SE%E3%81%82%E3%82%8A).m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2023-04-03/RJ01027347/01_%E9%9F%B3%E5%A3%B0/wav/SE%E3%81%82%E3%82%8A/Track04_Dat3_%E4%BA%8C%E4%BA%BA%E3%81%AE%E8%A8%98%E5%BF%B5%E6%97%A5%EF%BC%81%E4%B8%80%E7%B7%92%E3%81%AB%E3%82%B1%E3%83%BC%E3%82%AD%E4%BD%9C%E3%82%8A%EF%BC%81%E2%80%BBR18%E3%82%B7%E3%83%BC%E3%83%B3%E3%81%AA%E3%81%97(SE%E3%81%82%E3%82%8A).m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2023-04-03/RJ01027347/01_%E9%9F%B3%E5%A3%B0/wav/SE%E3%81%82%E3%82%8A/Track05_Dat3_%E3%82%B1%E3%83%BC%E3%82%AD%E4%BD%9C%E3%82%8A%E3%81%AE%E3%81%82%E3%81%A8%E3%81%AF%E9%A8%8E%E4%B9%97%E4%BD%8D%E3%82%BB%E3%83%83%E3%82%AF%E3%82%B9%EF%BC%81%E5%88%9D%E3%82%81%E3%81%A6%E3%81%AE%E4%B8%AD%E5%87%BA%E3%81%97%E3%81%A7%E6%90%BE%E7%B2%BE%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99%EF%BC%81(SE%E3%81%82%E3%82%8A).m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2023-04-03/RJ01027347/01_%E9%9F%B3%E5%A3%B0/wav/SE%E3%81%82%E3%82%8A/Track06_Dat4_%E3%82%AA%E3%83%8A%E3%83%9B%E3%81%8C%E5%85%83%E3%81%AE%E5%A7%BF%E3%81%AB%E6%88%BB%E3%82%8B%EF%BC%81%EF%BC%9F%E6%9C%80%E5%BE%8C%E3%81%AB%E3%82%AB%E3%83%83%E3%82%B3%E3%81%84%E3%81%84%E3%81%A8%E3%81%93%E3%82%8D%E3%82%92%E8%A6%8B%E3%81%9B%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AB%E6%AD%A3%E5%B8%B8%E4%BD%8D%E4%B8%AD%E5%87%BA%E3%81%97%E3%82%BB%E3%83%83%E3%82%AF%E3%82%B9%EF%BC%81(SE%E3%81%82%E3%82%8A).m4a,https://raw.kiko-play-niptan.one/media/stream/daily/2023-04-03/RJ01027347/01_%E9%9F%B3%E5%A3%B0/%E9%AE%8E%E4%B9%83%E3%81%95%E3%81%97%E3%81%BF_%E3%83%95%E3%83%AA%E3%83%BC%E3%83%88%E3%83%BC%E3%82%AF.mp3',
-);
+)
 _(
 	45505,
 	'RJ317793',
@@ -840,7 +840,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/45505-0.jpg?v=1714317540888',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/45505-1.jpg?v=1714317543222',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/45505t1.mp3?v=1714317470148',
-);
+)
 _(
 	111058,
 	'RJ01152774',
@@ -852,7 +852,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/111058-0.jpg?v=1714317686083',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/111058-1.jpg?v=1714317855600,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/111058-2.jpg?v=1714317854441,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/111058-3.jpg?v=1714317853258,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/111058-4.jpg?v=1714317851265,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/111058-5.jpg?v=1714317849586,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/111058-6.jpg?v=1714317848287,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/111058-7.jpg?v=1714317846279,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/111058-8.jpg?v=1714317844437,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/111058-9.jpg?v=1714317842937',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/111058t1.mp3?v=1714317840024',
-);
+)
 _(
 	109427,
 	'RJ01145115',
@@ -864,7 +864,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/109427-0.jpg?v=1714555155170',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/109427-1.jpg?v=1714555156494,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/109427-2.jpg?v=1714555157724,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/109427-3.jpg?v=1714555159211,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/109427-4.jpg?v=1714555160451,https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/109427-5.mp4?v=1714555192082',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/109427t1.mp3?v=1714555207070',
-);
+)
 _(
 	113452,
 	'RJ01174340',
@@ -876,7 +876,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/113452-0.jpg?v=1714555684159',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/113452-1.jpg?v=1714555685319,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/113452-2.jpg?v=1714555686475,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/113452-3.jpg?v=1714555687545,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/113452-4.jpg?v=1714555688658,https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/113452-5.mp4?v=1714555698766',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/113452t1.mp3?v=1714555720672',
-);
+)
 _(
 	114641,
 	'RJ01185774',
@@ -888,7 +888,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/114641-0.jpg?v=1714555722950',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/114641-1.webp?v=1714555724426,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/114641-2.webp?v=1714555725669,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/114641-3.webp?v=1714555726815,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/114641-4.webp?v=1714555728033',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/114641t1.mp3?v=1714555732212',
-);
+)
 _(
 	109148,
 	'RJ01148564',
@@ -900,7 +900,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/109148-0.jpg?v=1714556543215',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/109148-1.webp?v=1714556544291,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/109148-2.webp?v=1714556545408',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/109148t1.mp3?v=1714556541535',
-);
+)
 _(
 	114571,
 	'RJ01173424',
@@ -912,7 +912,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/114571-0.jpg?v=1714557096487',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/114571-1.jpg?v=1714557094218,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/114571-2.jpg?v=1714557092045,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/114571-3.jpg?v=1714557089847,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/114571-4.jpg?v=1714557087422,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/114571-5.jpg?v=1714557084963',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/114571t1.mp3?v=1714557082668',
-);
+)
 _(
 	114228,
 	'RJ01168542',
@@ -924,7 +924,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/114228-0.jpg?v=1714557117887',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/114228-1.jpg?v=1714557116689,https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/114228-2.mp4?v=1714557113974',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/114228t1.mp3?v=1714557106749',
-);
+)
 _(
 	114264,
 	'RJ01178141',
@@ -936,7 +936,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/114264-0.jpg?v=1714557810626',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/114264-1.jpg?v=1714557813006,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/114264-2.jpg?v=1714557815228,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/114264-3.jpg?v=1714557817460,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/114264-4.jpg?v=1714557819663',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/114264t1.mp3?v=1714557843820,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/114264omake.mp3?v=1714557824246,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/114264freetalk.mp3?v=1714557822257',
-);
+)
 _(
 	114242,
 	'RJ01172764',
@@ -948,7 +948,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/114242-0.jpg?v=1714558720174',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/114242-1.jpg?v=1714558719013,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/114242-2.jpg?v=1714558717600',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/114242t1.mp3?v=1714558716000,https://raw.kiko-play-niptan.one/media/stream/daily/2024-05-19/RJ01172764/%E9%9F%B3%E5%A3%B0%E6%9C%AC%E7%B7%A8/WAV/%E3%83%88%E3%83%A9%E3%83%83%E3%82%AF1%E3%80%80%E5%91%8A%E7%99%BD%E3%81%97%E3%81%9F%E5%BD%BC%E5%A5%B3%E3%81%AF%E3%82%A8%E3%83%AD%E6%BC%AB%E7%94%BB%E5%AE%B6JK.wav,https://raw.kiko-play-niptan.one/media/stream/daily/2024-05-19/RJ01172764/%E9%9F%B3%E5%A3%B0%E6%9C%AC%E7%B7%A8/WAV/%E3%83%88%E3%83%A9%E3%83%83%E3%82%AF2%E3%80%80%E3%81%AF%E3%81%98%E3%82%81%E3%81%A6%E3%81%AE%E3%81%8A%E3%81%86%E3%81%A1%E3%83%87%E3%83%BC%E3%83%88%E3%81%A7%E4%B9%B3%E9%A6%96%E3%81%8A%E3%81%A1%E3%82%93%E3%81%BD%E3%82%B9%E3%82%B1%E3%83%83%E3%83%81.wav,https://raw.kiko-play-niptan.one/media/stream/daily/2024-05-19/RJ01172764/%E9%9F%B3%E5%A3%B0%E6%9C%AC%E7%B7%A8/WAV/%E3%83%88%E3%83%A9%E3%83%83%E3%82%AF3%E3%80%80%E3%81%AF%E3%81%98%E3%82%81%E3%81%A6%E3%81%AE%E3%81%8A%E3%81%86%E3%81%A1%E3%83%87%E3%83%BC%E3%83%88%E3%81%A7%E6%89%8B%E3%82%B3%E3%82%AD%E3%83%95%E3%82%A7%E3%83%A9%E3%80%81%E3%82%A4%E3%83%A9%E3%83%9E%E3%83%81%E3%82%AA%E3%80%81%E3%82%AA%E3%83%8A%E3%83%8B%E3%83%BC.wav,https://raw.kiko-play-niptan.one/media/stream/daily/2024-05-19/RJ01172764/%E9%9F%B3%E5%A3%B0%E6%9C%AC%E7%B7%A8/WAV/%E3%83%88%E3%83%A9%E3%83%83%E3%82%AF%EF%BC%94%E3%80%80%E5%A4%A7%E4%BA%BA%E3%81%AE%E3%81%8A%E3%82%82%E3%81%A1%E3%82%83%E3%81%AE%EF%BC%B0%EF%BC%B2%E6%A1%88%E4%BB%B6%E3%81%A7%E9%80%A3%E7%B6%9A%E7%B5%B6%E9%A0%82.wav,https://raw.kiko-play-niptan.one/media/stream/daily/2024-05-19/RJ01172764/%E9%9F%B3%E5%A3%B0%E6%9C%AC%E7%B7%A8/WAV/%E3%83%88%E3%83%A9%E3%83%83%E3%82%AF%EF%BC%95%E3%80%80%E6%94%BE%E8%AA%B2%E5%BE%8C%E3%81%AE%E6%95%99%E5%AE%A4%E3%81%A7%E5%88%9D%E3%81%88%E3%81%A3%E3%81%A1.wav,https://raw.kiko-play-niptan.one/media/stream/daily/2024-05-19/RJ01172764/%E9%9F%B3%E5%A3%B0%E6%9C%AC%E7%B7%A8/WAV/%E3%83%88%E3%83%A9%E3%83%83%E3%82%AF6%E3%80%80%E9%9A%A3%E3%81%AE%E5%B8%AD%E3%81%A7%E7%99%BA%E6%83%85%E3%81%97%E3%81%A1%E3%82%83%E3%81%A3%E3%81%9F%E5%BD%BC%E5%A5%B3%E3%81%A8%E3%81%8A%E6%98%BC%E4%BC%91%E3%81%BF%E3%81%AE%E5%B1%8B%E4%B8%8A%E3%81%A7%E9%9D%92%E5%A7%A6.wav,https://raw.kiko-play-niptan.one/media/stream/daily/2024-05-19/RJ01172764/%E9%9F%B3%E5%A3%B0%E6%9C%AC%E7%B7%A8/WAV/%E3%83%88%E3%83%A9%E3%83%83%E3%82%AF%EF%BC%97%E3%80%80%E3%82%A8%E3%83%94%E3%83%AD%E3%83%BC%E3%82%B0.wav',
-);
+)
 _(
 	68697,
 	'RJ409425',
@@ -960,7 +960,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/68697-0.jpg?v=1714558736762',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/68697-1.jpg?v=1714558735329',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/68697t1.mp3?v=1714558734031',
-);
+)
 _(
 	33085,
 	'RJ220667',
@@ -972,7 +972,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/33085-0.jpg?v=1714558999689',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/33085-1.jpg?v=1714559000861',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/33085t1.mp3?v=1714559015915',
-);
+)
 _(
 	54935,
 	'RJ343424',
@@ -984,7 +984,7 @@ _(
 	'https://api.asmr-200.com/api/cover/343424.jpg?type=main',
 	'https://raw.kiko-play-niptan.one/media/stream/daily/2021-10-12/RJ343424/%E5%A3%81%E7%B4%99.jpg',
 	'https://fast.kiko-play-niptan.one/media/stream/daily/2021-10-12/RJ343424/%E5%8A%B9%E6%9E%9C%E9%9F%B3%E5%85%A5%E3%82%8A/WAVE/1%E2%97%86%E5%B9%BD%E9%9C%8A%E3%81%8A%E3%81%B0%E3%81%95%E3%82%93%E7%8F%BE%E3%82%8B%EF%BD%9E%E3%83%90%E3%82%AD%E3%83%A5%E3%83%BC%E3%83%A0%E3%83%95%E3%82%A7%E3%83%A9%EF%BC%86%E9%A3%B2%E7%B2%BE%EF%BD%9E%E2%97%86%E5%8A%B9%E6%9E%9C%E9%9F%B3%E5%85%A5%E3%82%8A.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2021-10-12/RJ343424/%E5%8A%B9%E6%9E%9C%E9%9F%B3%E5%85%A5%E3%82%8A/WAVE/2%E2%97%86%E5%B9%BD%E9%9C%8A%E3%81%8A%E3%81%B0%E3%81%95%E3%82%93%E3%81%AE%E7%AA%92%E6%81%AF%E3%83%97%E3%83%AC%E3%82%A4%EF%BD%9E%E9%A6%96%E3%82%92%E7%B5%9E%E3%82%81%E3%82%89%E3%82%8C%E3%81%AA%E3%81%8C%E3%82%89%E6%AD%A3%E5%B8%B8%E4%BD%8D%E3%82%BB%E3%83%83%E3%82%AF%E3%82%B9%EF%BD%9E%E2%97%86%E5%8A%B9%E6%9E%9C%E9%9F%B3%E5%85%A5%E3%82%8A.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2021-10-12/RJ343424/%E5%8A%B9%E6%9E%9C%E9%9F%B3%E5%85%A5%E3%82%8A/WAVE/3%E2%97%86%E5%B9%BD%E9%9C%8A%E3%81%8A%E3%81%B0%E3%81%95%E3%82%93%E3%83%93%E3%83%AA%E3%83%93%E3%83%AA%EF%BD%9E%E3%81%8A%E5%B0%BB%E3%80%81%E4%B9%B3%E9%A6%96%E3%80%81%E3%82%AF%E3%83%AA%E3%83%88%E3%83%AA%E3%82%B9%E3%81%AB%E9%9B%BB%E6%92%83%EF%BD%9E%E2%97%86%E5%8A%B9%E6%9E%9C%E9%9F%B3%E5%85%A5%E3%82%8A.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2021-10-12/RJ343424/%E5%8A%B9%E6%9E%9C%E9%9F%B3%E5%85%A5%E3%82%8A/WAVE/4%E2%97%86%E5%B9%BD%E9%9C%8A%E3%81%8A%E3%81%B0%E3%81%95%E3%82%93%E6%88%90%E4%BB%8F%EF%BC%9F%EF%BD%9E%E3%82%A2%E3%83%8A%E3%83%AB%E3%82%BB%E3%83%83%E3%82%AF%E3%82%B9%E3%80%81%E3%83%87%E3%82%A3%E3%83%AB%E3%83%89%E3%81%A8%E7%94%B7%E6%80%A7%E5%99%A8%E3%81%A7%E4%BA%8C%E7%A9%B4%E8%B2%AC%E3%82%81%EF%BD%9E%E2%97%86%E5%8A%B9%E6%9E%9C%E9%9F%B3%E5%85%A5%E3%82%8A.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2021-10-12/RJ343424/%E5%8A%B9%E6%9E%9C%E9%9F%B3%E5%85%A5%E3%82%8A/WAVE/5%E2%97%861%E7%AB%A0%E3%83%90%E3%82%AD%E3%83%A5%E3%83%BC%E3%83%A0%E3%83%95%E3%82%A7%E3%83%A9%EF%BC%86%E9%A3%B2%E7%B2%BE%E3%82%88%E3%82%8A%E6%8A%9C%E3%81%8D%E3%82%B7%E3%83%BC%E3%83%B3%E2%97%86%E5%8A%B9%E6%9E%9C%E9%9F%B3%E5%85%A5%E3%82%8A.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2021-10-12/RJ343424/%E5%8A%B9%E6%9E%9C%E9%9F%B3%E5%85%A5%E3%82%8A/WAVE/6%E2%97%862%E7%AB%A0%E9%A6%96%E3%82%92%E7%B5%9E%E3%82%81%E3%82%89%E3%82%8C%E3%81%AA%E3%81%8C%E3%82%89%E6%AD%A3%E5%B8%B8%E4%BD%8D%E3%82%BB%E3%83%83%E3%82%AF%E3%82%B9%E3%82%88%E3%82%8A%E6%8A%9C%E3%81%8D%E3%82%B7%E3%83%BC%E3%83%B3%E2%97%86%E5%8A%B9%E6%9E%9C%E9%9F%B3%E5%85%A5%E3%82%8A.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2021-10-12/RJ343424/%E5%8A%B9%E6%9E%9C%E9%9F%B3%E5%85%A5%E3%82%8A/WAVE/7%E2%97%863%E7%AB%A0%E3%81%8A%E5%B0%BB%E3%80%81%E4%B9%B3%E9%A6%96%E3%80%81%E3%82%AF%E3%83%AA%E3%83%88%E3%83%AA%E3%82%B9%E3%81%AB%E9%9B%BB%E6%92%83%E3%82%88%E3%82%8A%E6%8A%9C%E3%81%8D%E3%82%B7%E3%83%BC%E3%83%B3%E2%97%86%E5%8A%B9%E6%9E%9C%E9%9F%B3%E5%85%A5%E3%82%8A.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2021-10-12/RJ343424/%E5%8A%B9%E6%9E%9C%E9%9F%B3%E5%85%A5%E3%82%8A/WAVE/8%E2%97%864%E7%AB%A0%E3%82%A2%E3%83%8A%E3%83%AB%E3%82%BB%E3%83%83%E3%82%AF%E3%82%B9%E3%80%81%E3%83%87%E3%82%A3%E3%83%AB%E3%83%89%E3%81%A8%E7%94%B7%E6%80%A7%E5%99%A8%E3%81%A7%E4%BA%8C%E7%A9%B4%E8%B2%AC%E3%82%81%E3%82%88%E3%82%8A%E6%8A%9C%E3%81%8D%E3%82%B7%E3%83%BC%E3%83%B3%E2%97%86%E5%8A%B9%E6%9E%9C%E9%9F%B3%E5%85%A5%E3%82%8A.m4a',
-);
+)
 _(
 	111094,
 	'RJ01155123',
@@ -996,7 +996,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/111094-0.jpg?v=1715958093857',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/111094-1.jpg?v=1715958076669',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/111094t1.mp3?v=1715958092429,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/111094adoribu.mp3?v=1715958084411',
-);
+)
 _(
 	115258,
 	'RJ01172868',
@@ -1008,7 +1008,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/115258-0.jpg?v=1715959698712',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/115258-1.jpg?v=1715959696328',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/115258t1.mp3?v=1715959689778,https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/115258adoribu.mp3?v=1715959693936',
-);
+)
 _(
 	114581,
 	'RJ01175735',
@@ -1020,7 +1020,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/114581-0.jpg?v=1715959722731',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/114581-1.jpg?v=1715959720553,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/114581-2.jpg?v=1715959718052',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/114581t1.mp3?v=1715959710988,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/114581omake.mp3?v=1715959715624',
-);
+)
 _(
 	115274,
 	'RJ01178594',
@@ -1032,7 +1032,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/115274-0.jpg?v=1715960862159',
 	'',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/115274t1.mp3?v=1715960874072',
-);
+)
 _(
 	50968,
 	'RJ226817',
@@ -1044,7 +1044,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/50968-0.jpg?v=1715960903984',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/50968-1.jpg?v=1715960905213,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/50968-2.jpg?v=1715960906331',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/50968t1.mp3?v=1715960923057',
-);
+)
 _(
 	50976,
 	'RJ229376',
@@ -1056,7 +1056,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/50976-0.jpg?v=1715960971587',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/50976-1.jpg?v=1715960972770,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/50976-2.jpg?v=1715960973993',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/50976t1.mp3?v=1715960985824',
-);
+)
 _(
 	106616,
 	'RJ01128328',
@@ -1068,7 +1068,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/106616-0.jpg?v=1716002216507',
 	'',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/106616t1.mp3?v=1716002215442',
-);
+)
 _(
 	104189,
 	'RJ01074082',
@@ -1080,7 +1080,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/104189-0.jpg?v=1716002223116',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/104189-1.jpg?v=1716002220934',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/104189t1.mp3?v=1716002219753',
-);
+)
 _(
 	111518,
 	'RJ01109068',
@@ -1092,7 +1092,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/111518-0.jpg?v=1716002210222',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/111518-1.jpg?v=1716002208802',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/111518t1.mp3?v=1716002207655',
-);
+)
 _(
 	113316,
 	'RJ01143945',
@@ -1104,7 +1104,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/113316-0.jpg?v=1716002204122',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/113316-1.jpg?v=1716002202736',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/113316t1.mp3?v=1716002201121',
-);
+)
 _(
 	109691,
 	'RJ01146702',
@@ -1116,7 +1116,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/109691-0.jpg?v=1716002740376',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/109691-1.jpg?v=1716002739179',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/109691t1.mp3?v=1716002764429,https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/109691omake.mp3?v=1716002745252',
-);
+)
 _(
 	114637,
 	'RJ01185089',
@@ -1128,7 +1128,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/114637-0.jpg?v=1716003679994',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/114637-1.jpg?v=1716003681498',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/114637t1.mp3?v=1716003687415',
-);
+)
 _(
 	105362,
 	'RJ01094317',
@@ -1140,7 +1140,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/105362-0.jpg?v=1716003672329',
 	'',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/105362t1.mp3?v=1716003678466',
-);
+)
 _(
 	113943,
 	'RJ01179686',
@@ -1152,7 +1152,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/113943-0.jpg?v=1716004448508',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/113943-1.jpg?v=1716004450263',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/113943t1.mp3?v=1716004463713',
-);
+)
 _(
 	54268,
 	'RJ341160',
@@ -1164,7 +1164,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/54268-0.jpg?v=1716004748148',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/54268-1.jpg?v=1716004749587,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/54268-2.jpg?v=1716004750726',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/54268t1.mp3?v=1716004765758',
-);
+)
 _(
 	40089,
 	'RJ204965',
@@ -1176,7 +1176,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/40089-0.jpg?v=1716005182681',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/40089-1.jpg?v=1716005184056',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/40089t1.mp3?v=1716005191818',
-);
+)
 _(
 	60380,
 	'RJ374510',
@@ -1188,7 +1188,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/60380-0.jpg?v=1716006233349',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/60380-1.jpg?v=1716006234857,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/60380-2.jpg?v=1716006237050',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/60380t1.mp3?v=1716006259716,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/60380freetalk.mp3?v=1716006239970,https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/60380Netori.mp3?v=1716006249949',
-);
+)
 _(
 	53022,
 	'RJ338555',
@@ -1200,7 +1200,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/53022-0.jpg?v=1716006220712',
 	'',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/53022t1.mp3?v=1716006231834',
-);
+)
 _(
 	77455,
 	'RJ01037575',
@@ -1212,7 +1212,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/77455-0.jpg?v=1716006261015',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/77455-1.jpg?v=1716006263265',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/77455t1.mp3?v=1716006274213',
-);
+)
 _(
 	109367,
 	'RJ01138264',
@@ -1224,7 +1224,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/109367-0.jpg?v=1716006275445',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/109367-1.jpg?v=1716006276844,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/109367-2.jpg?v=1716006278306',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/109367t1.mp3?v=1716006293963,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/109367omake.mp3?v=1716006282352',
-);
+)
 _(
 	111552,
 	'RJ01128968',
@@ -1236,7 +1236,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/111552-0.jpg?v=1725075970490',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/111552-1.jpg?v=1725075973218,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/111552-2.jpg?v=1725075975942,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/111552-3.jpg?v=1725075978621,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/111552-4.jpg?v=1725075981046,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/111552-5.jpg?v=1725075983738,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/111552-6.jpg?v=1725075986161,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/111552-7.jpg?v=1725075988865,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/111552-8.jpg?v=1725075991289,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/111552-9.jpg?v=1725075994206,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/111552-10.jpg?v=1725075996663,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/111552-11.jpg?v=1725076000589,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/111552-12.jpg?v=1725076002879,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/111552-13.jpg?v=1725076005234,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/111552-14.jpg?v=1725076008432,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/111552-15.jpg?v=1725076011092,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/111552-16.jpg?v=1725076013333,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/111552-17.jpg?v=1725076015552,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/111552-18.jpg?v=1725076018672,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/111552-19.jpg?v=1725076021328,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/111552-21.jpg?v=1725076026182,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/111552-22.jpg?v=1725076031521,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/111552-23.jpg?v=1725076033991,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/111552-24.jpg?v=1725076036475,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/111552-25.jpg?v=1725076039243,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/111552-26.jpg?v=1725076041481,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/111552-27.jpg?v=1725076043711,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/111552-28.jpg?v=1725076045934,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/111552-29.jpg?v=1725076048271,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/111552-30.jpg?v=1725076050543,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/111552-31.jpg?v=1725076052969,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/111552-32.jpg?v=1725076055442,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/111552-33.jpg?v=1725076058967,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/111552-34.jpg?v=1725076061881,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/111552-35.jpg?v=1725076064471,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/111552-36.jpg?v=1725076066663',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/111552t1.mp3?v=1725075967888',
-);
+)
 _(
 	114507,
 	'RJ01146823',
@@ -1248,7 +1248,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/114507-0.jpg?v=1725116501897',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/114507-1.webp?v=1725116503096,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/114507-2.webp?v=1725116504191',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/114507t1.mp3?v=1725116510368',
-);
+)
 _(
 	109936,
 	'RJ01128805',
@@ -1260,7 +1260,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/109936-0.jpg?v=1725116398219',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/109936-1.webp?v=1725116399603,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/109936-2.webp?v=1725116400736,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/109936-3.webp?v=1725116401855',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/109936t1.mp3?v=1725116405625',
-);
+)
 _(
 	120840,
 	'RJ01198351',
@@ -1272,7 +1272,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/120840-0.jpg?v=1725116780949',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/120840-1.jpg?v=1725116782156',
 	'https://cdn.glitch.me/d0ba9ac8-9843-4269-aa9a-93830f7c36ff/120840t1.mp3?v=1745996227167,https://cdn.glitch.me/d0ba9ac8-9843-4269-aa9a-93830f7c36ff/120840t2.mp3?v=1745996228866,https://cdn.glitch.me/d0ba9ac8-9843-4269-aa9a-93830f7c36ff/120840t3.mp3?v=1745996227516,https://cdn.glitch.me/d0ba9ac8-9843-4269-aa9a-93830f7c36ff/120840t4.mp3?v=1745996226835,https://cdn.glitch.global/d0ba9ac8-9843-4269-aa9a-93830f7c36ff/120840t5.mp3?v=1745996224563,https://cdn.glitch.me/d0ba9ac8-9843-4269-aa9a-93830f7c36ff/120840t6.mp3?v=1745996236678,https://cdn.glitch.me/d0ba9ac8-9843-4269-aa9a-93830f7c36ff/120840t7.mp3?v=1745996233570,https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/120840full.mp3?v=1725116794751',
-);
+)
 _(
 	116908,
 	'RJ01141205',
@@ -1284,7 +1284,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/116908-0.jpg?v=1725116511764',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/116908-1.jpg?v=1725116513121',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/116908t1.mp3?v=1725116526385',
-);
+)
 _(
 	121755,
 	'RJ01243912',
@@ -1296,7 +1296,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/121755-0.jpg?v=1725116808181',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/121755-1.webp?v=1725116809331,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/121755-2.webp?v=1725116810450,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/121755-3.webp?v=1725116811532',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/121755t1.mp3?v=1725116815761',
-);
+)
 _(
 	101546,
 	'RJ01084197',
@@ -1308,7 +1308,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/101546-0.jpg?v=1725116269292',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/101546-1.jpg?v=1725116270573',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/101546t1.mp3?v=1725116278500',
-);
+)
 _(
 	120597,
 	'RJ01233326',
@@ -1320,7 +1320,7 @@ _(
 	'https://api.asmr-200.com/api/cover/1233326.jpg?type=main',
 	'https://raw.kiko-play-niptan.one/media/stream/daily/2025-03-05/RJ01238358/%E6%8F%92%E5%9B%BE/02_%E7%84%A1%E6%A8%99%E9%A1%8C.jpg,https://raw.kiko-play-niptan.one/media/stream/daily/2025-03-05/RJ01238358/10%E6%97%A5%E9%99%90%E5%AE%9A%E7%89%B9%E5%85%B8/01_%E3%82%A2%E3%83%AA%E3%82%B5%E3%81%AE%E3%83%A9%E3%83%96%E3%83%A9%E3%83%96%E7%99%BA%E6%83%85%E8%84%B1%E8%A1%A3%E5%B7%AE%E5%88%86%E2%99%AA.png,https://raw.kiko-play-niptan.one/media/stream/daily/2025-03-05/RJ01238358/10%E6%97%A5%E9%99%90%E5%AE%9A%E7%89%B9%E5%85%B8/02_%E3%82%B9%E3%83%9E%E3%83%9B%E7%94%A8%E5%A3%81%E7%B4%993%E7%A8%AE%E9%A1%9E%E2%99%AA/01_%E3%82%B9%E3%83%9E%E3%83%9B%E7%94%A8%E5%A3%81%E7%B4%99_%E6%B1%8E%E7%94%A8.jpg,https://raw.kiko-play-niptan.one/media/stream/daily/2025-03-05/RJ01238358/%E6%8F%92%E5%9B%BE/03_%E7%AB%8B%E7%B9%AA.png',
 	'https://fast.kiko-play-niptan.one/media/stream/daily/2024-09-18/RJ01233326/01_%E6%9C%AC%E7%B7%A8SE%E3%81%82%E3%82%8A/01_%E3%83%97%E3%83%AD%E3%83%AD%E3%83%BC%E3%82%B0%E3%80%8C%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AE%E5%AE%B6%E3%81%AB%E3%82%84%E3%81%A3%E3%81%A6%E3%81%8D%E3%81%9F%E3%82%AE%E3%83%A3%E3%83%AB%E3%83%A1%E3%82%A4%E3%83%89%E3%83%BB%E3%82%A2%E3%83%AA%E3%82%B5%E3%80%8D.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2024-09-18/RJ01233326/01_%E6%9C%AC%E7%B7%A8SE%E3%81%82%E3%82%8A/02_%E5%8C%85%E8%8C%8E%E3%81%A1%E3%82%93%E3%81%BD%E3%82%92%E7%94%98%E3%82%84%E3%81%8B%E3%81%9B%E8%80%B3%E8%88%90%E3%82%81%E6%89%8B%E3%82%B3%E3%82%AD%E2%99%AA.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2024-09-18/RJ01233326/01_%E6%9C%AC%E7%B7%A8SE%E3%81%82%E3%82%8A/03_%E3%83%81%E3%83%B3%E3%82%AB%E3%82%B9%E6%B1%9A%E3%81%A1%E3%82%93%E3%81%BD%E3%81%AB%E3%83%A9%E3%83%96%E5%AA%9A%E3%81%B3%E3%83%95%E3%82%A7%E3%83%A9%E3%83%81%E3%82%AA%E2%99%AA.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2024-09-18/RJ01233326/01_%E6%9C%AC%E7%B7%A8SE%E3%81%82%E3%82%8A/04_%E5%B9%B8%E3%81%9B%E3%83%A9%E3%83%96%E3%83%A9%E3%83%96%E5%87%A6%E5%A5%B3%E3%82%BB%E3%83%83%E3%82%AF%E3%82%B9%E2%99%AA.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2024-09-18/RJ01233326/01_%E6%9C%AC%E7%B7%A8SE%E3%81%82%E3%82%8A/05_%E6%9C%9D%E5%8B%83%E3%81%A1%E3%81%8A%E3%81%A1%E3%82%93%E3%81%BD%E3%81%AB%E3%83%91%E3%82%A4%E3%82%BA%E3%83%AA%E3%81%94%E5%A5%89%E4%BB%95%E2%99%AA.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2024-09-18/RJ01233326/01_%E6%9C%AC%E7%B7%A8SE%E3%81%82%E3%82%8A/06_%E3%82%A2%E3%83%AA%E3%82%B5%E3%81%8C%E5%BE%8C%E3%82%8D%E3%81%8B%E3%82%89%E8%B6%B3%E3%82%B3%E3%82%AD%EF%BC%86%E4%B9%B3%E9%A6%96%E3%82%B3%E3%83%AA%E3%82%B3%E3%83%AA%E2%99%AA.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2024-09-18/RJ01233326/01_%E6%9C%AC%E7%B7%A8SE%E3%81%82%E3%82%8A/07_%E8%AA%BF%E5%AD%90%E3%81%AB%E4%B9%97%E3%81%A3%E3%81%9F%E3%83%A1%E3%82%A4%E3%83%89%E3%81%AB%E3%81%8A%E4%BB%95%E7%BD%AE%E3%81%8D%E3%82%A2%E3%83%8A%E3%83%AB%E3%82%BB%E3%83%83%E3%82%AF%E3%82%B9%E2%99%AA.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2024-09-18/RJ01233326/01_%E6%9C%AC%E7%B7%A8SE%E3%81%82%E3%82%8A/08_%E3%82%A2%E3%83%AA%E3%82%B5%E3%83%9E%E3%83%9E%E3%81%AE%E7%94%98%E3%82%84%E3%81%8B%E3%81%9B%E6%8E%88%E4%B9%B3%E6%89%8B%E3%82%B3%E3%82%AD%E2%99%AA.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2024-09-18/RJ01233326/01_%E6%9C%AC%E7%B7%A8SE%E3%81%82%E3%82%8A/09_%E4%B8%80%E7%B7%92%E3%81%AE%E3%81%8A%E5%B8%83%E5%9B%A3%E3%81%A7%E5%AF%86%E7%9D%80%E3%81%B9%E3%82%8D%E3%81%A1%E3%82%85%E3%83%BC%E5%A4%AA%E3%82%82%E3%82%82%E3%82%BB%E3%83%83%E3%82%AF%E3%82%B9%E2%99%AA.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2024-09-18/RJ01233326/01_%E6%9C%AC%E7%B7%A8SE%E3%81%82%E3%82%8A/10_%E5%AD%95%E3%81%BE%E3%81%9B%E3%82%BB%E3%83%83%E3%82%AF%E3%82%B9%E5%89%8D%E3%81%AE%E3%82%A4%E3%83%A9%E3%83%9E%E3%83%81%E3%82%AA%E2%99%AA.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2024-09-18/RJ01233326/01_%E6%9C%AC%E7%B7%A8SE%E3%81%82%E3%82%8A/11_%E3%82%A2%E3%83%AA%E3%82%B5%E3%82%92%E5%AD%95%E3%81%BE%E3%81%9B%E9%80%A3%E7%B6%9A%E4%B8%AD%E5%87%BA%E3%81%97%E3%82%BB%E3%83%83%E3%82%AF%E3%82%B9%E2%99%AA.m4a',
-);
+)
 _(
 	118509,
 	'RJ01214598',
@@ -1332,7 +1332,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/118509-0.jpg?v=1725116606048',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/118509-1.jpg?v=1725116607323,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/118509-2.jpg?v=1725116608409',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/118509t1.mp3?v=1725116623289',
-);
+)
 _(
 	115775,
 	'RJ01149801',
@@ -1344,7 +1344,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/115775-0.jpg?v=1725117511550',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/115775-1.png?v=1725117513363,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/115775-2.webp?v=1725117514485',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/115775t1.mp3?v=1725117517513',
-);
+)
 _(
 	123413,
 	'RJ01226007',
@@ -1356,7 +1356,7 @@ _(
 	'https://api.asmr-200.com/api/cover/1226007.jpg?type=main',
 	'https://raw.kiko-play-niptan.one/media/stream/daily/2024-11-08/RJ01226007/%E9%AB%98%E8%A7%A3%E5%83%8F%E5%BA%A6%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88.png,https://raw.kiko-play-niptan.one/media/stream/daily/2024-11-08/RJ01226007/%E6%97%A9%E6%9C%9F%E7%89%B9%E5%85%B8/%E3%82%B9%E3%83%9E%E3%83%9B%E5%A3%81%E7%B4%99/wallpaper.png',
 	'https://raw.kiko-play-niptan.one/media/stream/daily/2024-11-08/RJ01226007/mp3/tr00.mp3,https://raw.kiko-play-niptan.one/media/stream/daily/2024-11-08/RJ01226007/mp3/tr01.mp3,https://raw.kiko-play-niptan.one/media/stream/daily/2024-11-08/RJ01226007/mp3/tr02.mp3,https://raw.kiko-play-niptan.one/media/stream/daily/2024-11-08/RJ01226007/mp3/tr03.mp3,https://raw.kiko-play-niptan.one/media/stream/daily/2024-11-08/RJ01226007/mp3/tr04.mp3,https://raw.kiko-play-niptan.one/media/stream/daily/2024-11-08/RJ01226007/mp3/tr05.mp3,https://raw.kiko-play-niptan.one/media/stream/daily/2024-11-08/RJ01226007/mp3/tr06.mp3,https://raw.kiko-play-niptan.one/media/stream/daily/2024-11-08/RJ01226007/free%20talk/free%20talk.mp3',
-);
+)
 _(
 	123001,
 	'RJ01229286',
@@ -1368,7 +1368,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/123001-0.jpg?v=1726721304506',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/123001-1.jpg?v=1726721305748',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/123001t1.mp3?v=1726721318196',
-);
+)
 _(
 	123565,
 	'RJ01256654',
@@ -1380,7 +1380,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/123565-0.jpg?v=1726721672120',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/123565-1.jpg?v=1726721709230',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/123565t1.mp3?v=1726721747158,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/123565freetalk.mp3?v=1726721722101',
-);
+)
 _(
 	106570,
 	'RJ01123391',
@@ -1392,7 +1392,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/106570-0.jpg?v=1726904502194',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/106570-1.webp?v=1726904753767,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/106570-2.webp?v=1726904422345',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/106570t1.mp3?v=1726904442210,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/106570omake.mp3?v=1726904450722',
-);
+)
 _(
 	30471,
 	'RJ266690',
@@ -1404,7 +1404,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/30471-0.jpg?v=1726906075437',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/30471-1.jpg?v=1726906075979',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/30471t1.mp3?v=1726906088459,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/30471omake.mp3?v=1726906080552',
-);
+)
 _(
 	119614,
 	'RJ01200588',
@@ -1416,7 +1416,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/119614-0.jpg?v=1726906710970',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/119614-1.jpg?v=1726906716332',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/119614t1.mp3?v=1726906721240',
-);
+)
 _(
 	105200,
 	'RJ01058436',
@@ -1428,7 +1428,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/105200-0.jpg?v=1726906710371',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/105200-1.webp?v=1726906713361,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/105200-2.webp?v=1726906716066',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/105200t1.mp3?v=1726906729158,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/105200omake.mp3?v=1726906716607',
-);
+)
 _(
 	97951,
 	'RJ01076083',
@@ -1440,7 +1440,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/97951-0.jpg?v=1726906714024',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/97951-1.webp?v=1726906709705,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/97951-2.webp?v=1726906710645',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/97951t1.mp3?v=1726906722179,https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/97951omake.mp3?v=1726906715694',
-);
+)
 _(
 	109705,
 	'RJ01148085',
@@ -1452,7 +1452,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/109705-0.jpg?v=1726907560376',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/109705-1.webp?v=1726907559843,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/109705-2.webp?v=1726907560667,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/109705-3.webp?v=1726907561314',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/109705t1.mp3?v=1726907580125,https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/109705t2.mp3?v=1726907587022',
-);
+)
 _(
 	123561,
 	'RJ01255909',
@@ -1464,7 +1464,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/123561-0.jpg?v=1726907561041',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/123561-1.jpg?v=1726907561580',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/123561t1.mp3?v=1726907595365',
-);
+)
 _(
 	120605,
 	'RJ01235811',
@@ -1476,7 +1476,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/120605-0.jpg?v=1726915210900',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/120605-1.jpg?v=1726915211256,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/120605-2.jpg?v=1726915214660',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/120605t1.mp3?v=1726915218407',
-);
+)
 _(
 	97365,
 	'RJ01065836',
@@ -1488,7 +1488,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/97365-0.jpg?v=1726914519720',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/97365-1.jpg?v=1726914521165,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/97365-2.jpg?v=1726914522565',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/97365t1.mp3?v=1726914583140,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/97365freetalk.mp3?v=1726914509715',
-);
+)
 _(
 	117362,
 	'RJ01190774',
@@ -1500,7 +1500,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/117362-0.jpg?v=1726914854773',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/117362-1.jpg?v=1726914859565,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/117362-2.jpg?v=1726914879805,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/117362-3.jpg?v=1726915000715,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/117362-4.jpg?v=1726914882455',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/117362t1.mp3?v=1726914918548,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/117362freetalk.mp3?v=1726914849677',
-);
+)
 _(
 	112823,
 	'RJ01166994',
@@ -1512,7 +1512,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/112823-0.jpg?v=1726914524219',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/112823-1.jpg?v=1726914525929,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/112823-2.jpg?v=1726914527214',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/112823t1.mp3?v=1726914593537,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/112823freetalk.mp3?v=1726914511123',
-);
+)
 _(
 	122503,
 	'RJ01239738',
@@ -1524,7 +1524,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/122503-0.jpg?v=1726915221278',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/122503-1.jpg?v=1726915221572,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/122503-2.jpg?v=1726915222281,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/122503-3.jpg?v=1726915217006,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/122503-4.jpg?v=1726915217579',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/122503t1.mp3?v=1726915254577,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/122503freetalk.mp3?v=1726915215743',
-);
+)
 _(
 	122501,
 	'RJ01238814',
@@ -1536,7 +1536,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/122501-0.jpg?v=1726915219654',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/122501-1.jpg?v=1726915216508,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/122501-2.jpg?v=1726915219942,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/122501-3.jpg?v=1726915220695,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/122501-4.jpg?v=1726915220983',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/122501t1.mp3?v=1726915236797,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/122501freetalk.mp3?v=1726915213610',
-);
+)
 _(
 	19978,
 	'RJ277697',
@@ -1548,7 +1548,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/19978-0.jpg?v=1726914369777',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/19978-1.webp?v=1726914369107',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/19978t1.mp3?v=1726914428111',
-);
+)
 _(
 	50252,
 	'RJ328774',
@@ -1560,7 +1560,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/50252-0.jpg?v=1726914369427',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/50252-1.jpg?v=1726914373441',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/50252t1.mp3?v=1726914426997,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/50252omake.mp3?v=1726914372702',
-);
+)
 _(
 	115074,
 	'RJ01148428',
@@ -1572,7 +1572,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/115074-0.jpg?v=1726914847102',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/115074-1.jpg?v=1726914847441,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/115074-2.jpg?v=1726914848226',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/115074t1.mp3?v=1726914920551',
-);
+)
 _(
 	71854,
 	'RJ436572',
@@ -1584,7 +1584,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/71854-0.jpg?v=1726914507896',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/71854-1.jpg?v=1726914510810,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/71854-2.jpg?v=1726914508327,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/71854-3.jpg?v=1726914513817,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/71854-4.jpg?v=1726914516089',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/71854t1.mp3?v=1726914556256',
-);
+)
 _(
 	119315,
 	'RJ01216806',
@@ -1596,7 +1596,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/119315-0.jpg?v=1726915070761',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/119315-1.jpg?v=1726915076569,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/119315-2.jpg?v=1726915082713,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/119315-3.jpg?v=1726915086923,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/119315-4.jpg?v=1726914861122,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/119315-5.jpg?v=1726915091237',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/119315t1.mp3?v=1726914908218,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/119315freetalk.mp3?v=1726914854119',
-);
+)
 _(
 	113849,
 	'RJ01165523',
@@ -1608,7 +1608,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/113849-0.jpg?v=1726914528377',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/113849-1.jpg?v=1726914529502',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/113849t1.mp3?v=1726914565821',
-);
+)
 _(
 	119676,
 	'RJ01210359',
@@ -1620,7 +1620,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/119676-0.jpg?v=1726914862838',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/119676-1.jpg?v=1726914864513,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/119676-2.jpg?v=1726914866214',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/119676t1.mp3?v=1726914898436,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/119676freetalk.mp3?v=1726914855976',
-);
+)
 _(
 	123445,
 	'RJ01237363',
@@ -1632,7 +1632,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/123445-0.jpg?v=1726915218114',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/123445-1.jpg?v=1726915219041,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/123445-2.jpg?v=1726915218746,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/123445-3.jpg?v=1726915219359',
 	'https://cdn.glitch.global/d0ba9ac8-9843-4269-aa9a-93830f7c36ff/123445t1.mp3?v=1745918401375,https://cdn.glitch.me/d0ba9ac8-9843-4269-aa9a-93830f7c36ff/123445t2.mp3?v=1745918418658,https://cdn.glitch.me/d0ba9ac8-9843-4269-aa9a-93830f7c36ff/123445t3.mp3?v=1745918417165,https://cdn.glitch.me/d0ba9ac8-9843-4269-aa9a-93830f7c36ff/123445t4.mp3?v=1745918414053,https://cdn.glitch.me/d0ba9ac8-9843-4269-aa9a-93830f7c36ff/123445t5.mp3?v=1745918403467,https://cdn.glitch.me/d0ba9ac8-9843-4269-aa9a-93830f7c36ff/123445t6.mp3?v=1745918419309,https://cdn.glitch.me/d0ba9ac8-9843-4269-aa9a-93830f7c36ff/123445t7.mp3?v=1745918405092,https://cdn.glitch.global/d0ba9ac8-9843-4269-aa9a-93830f7c36ff/123445t8.mp3?v=1745918400828,https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/123445full.mp3?v=1726915252125,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/123445tokuten.mp3?v=1726915216024',
-);
+)
 _(
 	119760,
 	'RJ01220880',
@@ -1644,7 +1644,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/119760-0.jpg?v=1726914868160',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/119760-1.jpg?v=1726914869953,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/119760-2.jpg?v=1726914872113,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/119760-3.jpg?v=1726914874401,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/119760-4.jpg?v=1726914877057',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/119760t1.mp3?v=1726914916074,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/119760omake.mp3?v=1726914858884',
-);
+)
 _(
 	73692,
 	'RJ01011259',
@@ -1656,7 +1656,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/73692-0.jpg?v=1726914530924',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/73692-1.jpg?v=1726914517981',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/73692t1.mp3?v=1726914603173,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/73692omake.mp3?v=1726914778546',
-);
+)
 _(
 	57620,
 	'RJ338313',
@@ -1668,7 +1668,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/57620-0.jpg?v=1726914375760',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/57620-1.jpg?v=1726914379699',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/57620t1.mp3?v=1726914445528,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/57620omake.mp3?v=1726914373707',
-);
+)
 _(
 	68592,
 	'RJ405934',
@@ -1680,7 +1680,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/68592-0.jpg?v=1726914383581',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/68592-1.webp?v=1726914368775,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/68592-2.webp?v=1726914370540',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/68592t1.mp3?v=1726914391111',
-);
+)
 _(
 	117422,
 	'RJ01202616',
@@ -1692,7 +1692,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/117422-0.jpg?v=1727272931562',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/117422-1.jpg?v=1727272931979,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/117422-2.jpg?v=1727272932632,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/117422-3.jpg?v=1727272932297',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/117422t1.mp3?v=1727272985585,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/117422freetalk.mp3?v=1727272936795',
-);
+)
 _(
 	112781,
 	'RJ01152101',
@@ -1704,7 +1704,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/112781-0.jpg?v=1727273367143',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/112781-1.jpg?v=1727273366523',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/112781t1.mp3?v=1727273384343,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/112781omake.mp3?v=1727273370963,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/112781freetalk.mp3?v=1727273367767',
-);
+)
 _(
 	51772,
 	'RJ332533',
@@ -1716,7 +1716,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/51772-0.jpg?v=1727274693855',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/51772-1.jpg?v=1727274694522,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/51772-2.jpg?v=1727274705034',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/51772t1.mp3?v=1727274725406',
-);
+)
 _(
 	109092,
 	'RJ01131526',
@@ -1728,7 +1728,7 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/109092-0.jpg?v=1727274707608',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/109092-1.jpg?v=1727274710474',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/109092t1.mp3?v=1727274710026',
-);
+)
 _(
 	117388,
 	'RJ01196927',
@@ -1740,4 +1740,4 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/117388-0.jpg?v=1727274711607',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/117388-1.jpg?v=1727274712706,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/117388-2.jpg?v=1727274713657',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/117388t1.mp3?v=1727274732452,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/117388freetalk.mp3?v=1727274705034',
-);
+)

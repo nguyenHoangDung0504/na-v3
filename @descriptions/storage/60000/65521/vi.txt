@@ -1,0 +1,37 @@
+- Content_Des
+	Là một người đàn ông tài giỏi có thể "làm cho elf mang thai",
+
+	Bạn đã được mời đến vùng đất của các tiên tộc.
+
+	Bạn được cưới công chúa Liselotte và nhanh chóng bắt đầu quan hệ tình dục để sinh con...
+
+	Hơn nữa, trong suốt thời kỳ mang thai và sau khi sinh con,
+
+	Cuộc sống vợ chồng mới cưới bắt đầu bằng những cuộc ái ân nồng nàn bất tận, nơi bạn có thể xuất tinh vào âm đạo của nàng công chúa yêu tinh ngực khủng bất cứ lúc nào, bất cứ nơi đâu.
+
+	Quan hệ tình dục hàng ngày với nàng công chúa yêu tinh ngực khủng mới cưới của bạn.
+	
+- Character_Des
+	str:Liselotte
+
+	Công chúa của vương quốc tiên tộc.
+	Cô ấy là một người lịch thiệp, cao thượng, nhã nhặn và tốt bụng với mọi người.
+	Cô ấy sở hữu thân hình xuất sắc với vòng ngực cỡ J 110cm và một cơ thể khơi gợi ham muốn tình dục của đàn ông. Ban đầu, cô ấy coi hôn nhân và sinh con là nghĩa vụ hoàng gia, và nghĩ rằng tình dục chỉ là hành động để sinh ra người thừa kế.
+	Tuy nhiên, vì cô ấy quan hệ tình dục với bạn mỗi ngày, cô ấy trở nên nghiện dương vật trần và bắt đầu thèm khát cơ thể bạn, ngay cả trong thời kỳ mang thai và sau khi sinh con...♥
+	
+- Track_Des
+	str:1. Hãy làm em có con với anh♪ Ngay sau khi kết hôn, quan hệ tình dục trần để thụ thai (22:42)
+	Rất vui được gặp anh♪/Nụ hôn sâu nồng nàn/Cầu xin quan hệ tình dục dù còn trinh/Lần đầu tiên quan hệ tình dục khiến mang thai/Xuất tinh vào âm đạo của nàng công chúa trinh nữ♪
+br:
+	str:2. Bài học phục vụ dương vật bằng tay và miệng của công chúa♪ (17:39)
+	Lần đầu tiên phục vụ dương vật/Massage tinh hoàn/Thủ dâm/Hôn dương vật/Quan hệ bằng miệng/Xuất tinh vào miệng
+br:
+	str:3. Quyến rũ ngoài trời♪ Quan hệ tình dục âu yếm khi tắm (16:07)
+	Quyến rũ bằng lời thì thầm ngoài trời/Tư thế doggystyle đứng và xuất tinh vào âm đạo
+br:
+	str:4. Dù em đang mang thai...♪ Quan hệ tình dục xuất tinh vào âm đạo của người phụ nữ đang mang thai và sắp làm mẹ (15:41)
+	Vợ mang thai và mẹ chơi đùa/Nụ hôn sâu gợi cảm với mẹ/Cầu xin được xuất tinh vào âm đạo khi mang thai/Quan hệ tình dục không dùng bao cao su
+br:
+	str:5. Bên cạnh em bé sơ sinh ♪ Chơi đùa với sữa mẹ và xuất tinh vào âm đạo để thụ thai đứa con thứ hai (16:36)
+	Chơi đùa với sữa mẹ cùng người vợ công chúa sau khi sinh con / Vắt sữa mẹ từ phía sau / Nhiều cực khoái / Xuất tinh không dùng bao cao su để thụ thai đứa con thứ hai ♪
+	
