@@ -1,171 +1,170 @@
-// import { SwipeHandler } from '../../../@src/app.materials.mjs';
-import { convertToWebVTT, isBracketTimestampVTT } from './formatter.js';
-import { sampleAudioURL, sampleImgURL } from './samples.js';
-import { device, fullscreen } from '../../../@src/app.utils.mjs';
+import { convertToWebVTT, isBracketTimestampVTT } from './formatter.js'
+import { sampleAudioURL, sampleImgURL } from './samples.js'
+import { device, fullscreen } from '../../../@src/app.utils.mjs'
 
 window.addEventListener('load', () => {
 	/**
 	 * @type {import('../../../@components/audio_wrapper/component.js').default}
 	 */
-	const audioWrp = document.getElementById('audio');
-	audioWrp.shadowRoot.querySelector('#open')?.remove();
-	const audio = audioWrp.audio;
-	const playBtn = document.getElementById('playBtn');
-	const subtitleOverlay = document.getElementById('subtitleOverlay');
-	const subtitleListOverlay = document.getElementById('subtitleListOverlay');
-	const subtitleList = document.getElementById('subtitleList');
-	const toggleBtn = document.getElementById('toggleBtn');
-	const imageContainer = document.getElementById('imageContainer');
-	const imagePlaceholder = document.getElementById('imagePlaceholder');
-	const imageCounter = document.getElementById('imageCounter');
-	const currentImageIndexEl = document.getElementById('currentImageIndex');
-	const totalImagesEl = document.getElementById('totalImages');
-	const prevImageBtn = document.getElementById('prevImageBtn');
-	const nextImageBtn = document.getElementById('nextImageBtn');
-	const audioControls = document.getElementById('audioControls');
-	const collapseBtn = document.getElementById('collapseBtn');
-	const toCurrentBtn = document.getElementById('to-current');
+	const audioWrp = document.getElementById('audio')
+	audioWrp.shadowRoot.querySelector('#open')?.remove()
+	const audio = audioWrp.audio
+	const playBtn = document.getElementById('playBtn')
+	const subtitleOverlay = document.getElementById('subtitleOverlay')
+	const subtitleListOverlay = document.getElementById('subtitleListOverlay')
+	const subtitleList = document.getElementById('subtitleList')
+	const toggleBtn = document.getElementById('toggleBtn')
+	const imageContainer = document.getElementById('imageContainer')
+	const imagePlaceholder = document.getElementById('imagePlaceholder')
+	const imageCounter = document.getElementById('imageCounter')
+	const currentImageIndexEl = document.getElementById('currentImageIndex')
+	const totalImagesEl = document.getElementById('totalImages')
+	const prevImageBtn = document.getElementById('prevImageBtn')
+	const nextImageBtn = document.getElementById('nextImageBtn')
+	const audioControls = document.getElementById('audioControls')
+	const collapseBtn = document.getElementById('collapseBtn')
+	const toCurrentBtn = document.getElementById('to-current')
 
 	// State
-	let subtitles = [];
-	let currentSubtitle = null;
-	let viewMode = 'overlay';
-	let showSubtitles = true;
-	let images = [];
-	let currentImageIndex = 0;
-	let controlsCollapsed = false;
+	let subtitles = []
+	let currentSubtitle = null
+	let viewMode = 'overlay'
+	let showSubtitles = true
+	let images = []
+	let currentImageIndex = 0
+	let controlsCollapsed = false
 
 	// Parse URL parameters
 	function getUrlParams() {
-		const params = new URLSearchParams(window.location.search);
+		const params = new URLSearchParams(window.location.search)
 		return {
 			// audio: params.get('audio'),
 			audio: getRawQueryParam('audio'),
 			vtt: params.get('vtt') ?? './test.vtt',
 			images: params.get('images') ? params.get('images').split(',') : [sampleImgURL],
-		};
+		}
 	}
 
 	// Parse VTT
 	function parseVTT(vttText) {
-		if (isBracketTimestampVTT(vttText)) vttText = convertToWebVTT(vttText);
+		if (isBracketTimestampVTT(vttText)) vttText = convertToWebVTT(vttText)
 
-		const lines = vttText.split('\n');
-		const subs = [];
-		let i = 0;
+		const lines = vttText.split('\n')
+		const subs = []
+		let i = 0
 
 		while (i < lines.length) {
 			if (lines[i].includes('-->')) {
-				const [start, end] = lines[i].split('-->').map((t) => t.trim());
-				const text = [];
-				i++;
+				const [start, end] = lines[i].split('-->').map((t) => t.trim())
+				const text = []
+				i++
 				while (i < lines.length && lines[i].trim() !== '') {
-					text.push(lines[i]);
-					i++;
+					text.push(lines[i])
+					i++
 				}
 				subs.push({
 					start: timeToSeconds(start),
 					end: timeToSeconds(end),
 					text: text.join('\n'),
-				});
+				})
 			}
-			i++;
+			i++
 		}
-		return subs;
+		return subs
 	}
 
 	function timeToSeconds(timeString) {
-		const parts = timeString.split(':');
-		const seconds = parseFloat(parts[parts.length - 1].replace(',', '.'));
-		const minutes = parseInt(parts[parts.length - 2]) || 0;
-		const hours = parseInt(parts[parts.length - 3]) || 0;
-		return hours * 3600 + minutes * 60 + seconds;
+		const parts = timeString.split(':')
+		const seconds = parseFloat(parts[parts.length - 1].replace(',', '.'))
+		const minutes = parseInt(parts[parts.length - 2]) || 0
+		const hours = parseInt(parts[parts.length - 3]) || 0
+		return hours * 3600 + minutes * 60 + seconds
 	}
 
 	function formatTime(time) {
-		const mins = Math.floor(time / 60);
-		const secs = Math.floor(time % 60);
-		return `${mins}:${secs.toString().padStart(2, '0')}`;
+		const mins = Math.floor(time / 60)
+		const secs = Math.floor(time % 60)
+		return `${mins}:${secs.toString().padStart(2, '0')}`
 	}
 
 	// Load VTT from URL
 	async function loadVTT(url) {
 		try {
-			const response = await fetch(url);
-			const text = await response.text();
-			subtitles = parseVTT(text);
-			renderSubtitleList();
+			const response = await fetch(url)
+			const text = await response.text()
+			subtitles = parseVTT(text)
+			renderSubtitleList()
 		} catch (error) {
-			console.error('Error loading VTT:', error);
+			console.error('Error loading VTT:', error)
 		}
 	}
 
 	// Initialize
 	async function init() {
-		const params = getUrlParams();
+		const params = getUrlParams()
 
 		// Load audio
-		audio.src = params.audio || sampleAudioURL;
+		audio.src = params.audio || sampleAudioURL
 
 		// Load VTT
-		await loadVTT(params.vtt);
+		await loadVTT(params.vtt)
 
 		// Load images
 		if (params.images && params.images.length > 0) {
-			images = params.images;
-			loadImages();
+			images = params.images
+			loadImages()
 			// new SwipeHandler(imageContainer, previousImage, nextImage).registerEvents();
 		}
 	}
 
 	function loadImages() {
 		// Remove placeholder
-		imagePlaceholder.style.display = 'none';
+		imagePlaceholder.style.display = 'none'
 
 		// Create image elements
 		images.forEach((src, index) => {
-			const img = document.createElement('img');
-			img.draggable = false;
-			img.src = src;
-			img.className = 'image-display';
-			if (index === 0) img.classList.add('active');
-			imageContainer.appendChild(img);
-		});
+			const img = document.createElement('img')
+			img.draggable = false
+			img.src = src
+			img.className = 'image-display'
+			if (index === 0) img.classList.add('active')
+			imageContainer.appendChild(img)
+		})
 
 		// Show navigation
 		if (images.length > 1) {
-			prevImageBtn.style.display = 'block';
-			nextImageBtn.style.display = 'block';
-			imageCounter.style.display = 'block';
-			totalImagesEl.textContent = images.length;
-			updateImageCounter();
+			prevImageBtn.style.display = 'block'
+			nextImageBtn.style.display = 'block'
+			imageCounter.style.display = 'block'
+			totalImagesEl.textContent = images.length
+			updateImageCounter()
 		}
 	}
 
 	function updateImageCounter() {
-		currentImageIndexEl.textContent = currentImageIndex + 1;
+		currentImageIndexEl.textContent = currentImageIndex + 1
 	}
 
-	window.previousImage = previousImage;
+	window.previousImage = previousImage
 	function previousImage() {
-		const imageElements = document.querySelectorAll('.image-display');
-		if (imageElements.length === 0) return;
+		const imageElements = document.querySelectorAll('.image-display')
+		if (imageElements.length === 0) return
 
-		imageElements[currentImageIndex].classList.remove('active');
-		currentImageIndex = (currentImageIndex - 1 + images.length) % images.length;
-		imageElements[currentImageIndex].classList.add('active');
-		updateImageCounter();
+		imageElements[currentImageIndex].classList.remove('active')
+		currentImageIndex = (currentImageIndex - 1 + images.length) % images.length
+		imageElements[currentImageIndex].classList.add('active')
+		updateImageCounter()
 	}
 
-	window.nextImage = nextImage;
+	window.nextImage = nextImage
 	function nextImage() {
-		const imageElements = document.querySelectorAll('.image-display');
-		if (imageElements.length === 0) return;
+		const imageElements = document.querySelectorAll('.image-display')
+		if (imageElements.length === 0) return
 
-		imageElements[currentImageIndex].classList.remove('active');
-		currentImageIndex = (currentImageIndex + 1) % images.length;
-		imageElements[currentImageIndex].classList.add('active');
-		updateImageCounter();
+		imageElements[currentImageIndex].classList.remove('active')
+		currentImageIndex = (currentImageIndex + 1) % images.length
+		imageElements[currentImageIndex].classList.add('active')
+		updateImageCounter()
 	}
 
 	function renderSubtitleList() {
@@ -176,168 +175,164 @@ window.addEventListener('load', () => {
                     <div class="subtitle-time">${formatTime(sub.start)} → ${formatTime(sub.end)}</div>
                     <div class="subtitle-text">${sub.text}</div>
                 </div>
-            `
+            `,
 			)
-			.join('');
+			.join('')
 	}
 
 	// Playback controls
 	function togglePlay() {
 		if (audio.paused) {
-			audio.play();
-			playBtn.textContent = '⏸';
+			audio.play()
+			playBtn.textContent = '⏸'
 		} else {
-			audio.pause();
-			playBtn.textContent = '▶';
+			audio.pause()
+			playBtn.textContent = '▶'
 		}
 	}
 
-	window.jumpToTime = jumpToTime;
+	window.jumpToTime = jumpToTime
 	function jumpToTime(time) {
-		audio.currentTime = time;
-		if (audio.paused) audio.play();
+		audio.currentTime = time
+		if (audio.paused) audio.play()
 	}
 
-	window.toggleControlsCollapse = toggleControlsCollapse;
+	window.toggleControlsCollapse = toggleControlsCollapse
 	function toggleControlsCollapse() {
-		controlsCollapsed = !controlsCollapsed;
-		audioControls.classList.toggle('collapsed');
-		subtitleOverlay.classList.toggle('collapsed');
-		collapseBtn.textContent = controlsCollapsed ? '▲' : '▼';
+		controlsCollapsed = !controlsCollapsed
+		audioControls.classList.toggle('collapsed')
+		subtitleOverlay.classList.toggle('collapsed')
+		collapseBtn.textContent = controlsCollapsed ? '▲' : '▼'
 	}
 
-	const tgBtn = document.getElementById('toggle-vtt-view');
+	const tgBtn = document.getElementById('toggle-vtt-view')
 
-	window.toggleViewMode = toggleViewMode;
+	window.toggleViewMode = toggleViewMode
 	function toggleViewMode() {
 		if (subtitleListOverlay.classList.contains('hidden')) {
-			setViewMode('list');
+			setViewMode('list')
 		} else {
-			setViewMode('overlay');
+			setViewMode('overlay')
 		}
 	}
 
-	window.setViewMode = setViewMode;
+	window.setViewMode = setViewMode
 	function setViewMode(mode) {
-		viewMode = mode;
-		document.querySelectorAll('.view-btn').forEach((btn) => btn.classList.remove('active'));
-		event.target.classList.add('active');
+		viewMode = mode
+		document.querySelectorAll('.view-btn').forEach((btn) => btn.classList.remove('active'))
+		event.target.classList.add('active')
 
 		if (mode === 'overlay') {
-			subtitleListOverlay.classList.add('hidden');
-			subtitleOverlay.classList.remove('hidden');
-			toggleBtn.style.display = 'block';
+			subtitleListOverlay.classList.add('hidden')
+			subtitleOverlay.classList.remove('hidden')
+			toggleBtn.style.display = 'block'
 
 			// tgBtn.textContent = 'List phụ đề';
-			tgBtn.textContent = '☰✓';
-			toCurrentBtn.style.display = 'none';
+			tgBtn.textContent = '☰✓'
+			toCurrentBtn.style.display = 'none'
 		} else if (mode === 'list') {
-			subtitleListOverlay.classList.remove('hidden');
-			subtitleOverlay.classList.add('hidden');
-			toggleBtn.style.display = 'none';
+			subtitleListOverlay.classList.remove('hidden')
+			subtitleOverlay.classList.add('hidden')
+			toggleBtn.style.display = 'none'
 
 			// tgBtn.textContent = 'Ẩn list phụ đề';
-			tgBtn.textContent = '☰✕';
-			toCurrentBtn.style.display = null;
+			tgBtn.textContent = '☰✕'
+			toCurrentBtn.style.display = null
 		}
 	}
 
-	window.toggleSubtitles = toggleSubtitles;
+	window.toggleSubtitles = toggleSubtitles
 	function toggleSubtitles() {
-		showSubtitles = !showSubtitles;
+		showSubtitles = !showSubtitles
 		if (viewMode === 'overlay')
 			if (showSubtitles) {
-				subtitleOverlay.classList.remove('hidden');
-				toggleBtn.textContent = '👁✕';
+				subtitleOverlay.classList.remove('hidden')
+				toggleBtn.textContent = '👁✕'
 			} else {
-				subtitleOverlay.classList.add('hidden');
-				toggleBtn.textContent = '👁✓';
+				subtitleOverlay.classList.add('hidden')
+				toggleBtn.textContent = '👁✓'
 			}
 	}
 
 	subtitleListOverlay.addEventListener('click', (ev) => {
-		if (!ev.target.closest('.subtitle-item, .subtitle-list')) setViewMode('overlay');
-	});
+		if (!ev.target.closest('.subtitle-item, .subtitle-list')) setViewMode('overlay')
+	})
 
 	// Audio events
-	let currentActiveItem = null;
-	let scrollDebounceTimer = null;
-	let autoScrollEnabled = true;
+	let currentActiveItem = null
+	let scrollDebounceTimer = null
+	let autoScrollEnabled = true
 	subtitleListOverlay.addEventListener('scroll', () => {
-		autoScrollEnabled = false;
-		clearTimeout(scrollDebounceTimer);
+		autoScrollEnabled = false
+		clearTimeout(scrollDebounceTimer)
 
 		scrollDebounceTimer = setTimeout(() => {
-			autoScrollEnabled = true;
-		}, 2000); // 2 giây
-	});
-	window.toCurrent = () => currentActiveItem?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+			autoScrollEnabled = true
+		}, 2000) // 2 giây
+	})
+	window.toCurrent = () => currentActiveItem?.scrollIntoView({ behavior: 'smooth', block: 'center' })
 	audio.addEventListener('timeupdate', () => {
-		const currentTime = audio.currentTime;
+		const currentTime = audio.currentTime
 
 		// Update current subtitle
-		const newSubtitle = subtitles.find((sub) => currentTime >= sub.start && currentTime < sub.end);
+		const newSubtitle = subtitles.find((sub) => currentTime >= sub.start && currentTime < sub.end)
 
 		if (newSubtitle !== currentSubtitle) {
-			currentSubtitle = newSubtitle;
+			currentSubtitle = newSubtitle
 
 			// Update overlay
-			subtitleOverlay.textContent = currentSubtitle ? currentSubtitle.text : '';
+			subtitleOverlay.textContent = currentSubtitle ? currentSubtitle.text : ''
 
 			// Update list items
 			document.querySelectorAll('.subtitle-item').forEach((item, index) => {
 				if (subtitles[index] === currentSubtitle) {
-					item.classList.add('active');
+					item.classList.add('active')
 					// Auto-scroll
-					autoScrollEnabled && item.scrollIntoView({ behavior: 'smooth', block: 'center' });
-					currentActiveItem = item;
+					autoScrollEnabled && item.scrollIntoView({ behavior: 'smooth', block: 'center' })
+					currentActiveItem = item
 				} else {
-					item.classList.remove('active');
+					item.classList.remove('active')
 				}
-			});
+			})
 		}
-	});
-
-	audio.addEventListener('loadedmetadata', () => {
-		// durationEl.textContent = formatTime(audio.duration);
-	});
+	})
 
 	audio.addEventListener('ended', () => {
-		playBtn.textContent = '▶';
-	});
+		playBtn.textContent = '▶'
+	})
 
 	// Keyboard shortcuts
 	document.addEventListener('keydown', (e) => {
 		if (e.key === ' ' && e.target.tagName !== 'INPUT') {
-			e.preventDefault();
-			togglePlay();
+			e.preventDefault()
+			togglePlay()
 		} else if (e.key === 'ArrowLeft') {
-			audio.currentTime = Math.max(0, audio.currentTime - 5);
+			audio.currentTime = Math.max(0, audio.currentTime - 5)
 		} else if (e.key === 'ArrowRight') {
-			audio.currentTime = Math.min(audio.duration, audio.currentTime + 5);
+			audio.currentTime = Math.min(audio.duration, audio.currentTime + 5)
 		} else if (e.key === 'ArrowUp' && images.length > 1) {
-			e.preventDefault();
-			previousImage();
+			e.preventDefault()
+			previousImage()
 		} else if (e.key === 'ArrowDown' && images.length > 1) {
-			e.preventDefault();
-			nextImage();
+			e.preventDefault()
+			nextImage()
 		}
-	});
+	})
 
 	// Initialize on load
-	init();
-	makeDraggableY(document.querySelector('.subtitle-overlay'));
+	init()
+	makeDraggableY(document.querySelector('.subtitle-overlay'))
 
 	window.toggleFullscreen = () => {
 		if (document.fullscreenElement || document.webkitFullscreenElement || document.msFullscreenElement) {
-			fullscreen.deactivate();
-			screen.orientation.unlock();
+			fullscreen.deactivate()
+			screen.orientation.unlock()
 		} else {
-			fullscreen.activate();
-			if (device.isMobile()) screen.orientation.lock('landscape');
+			fullscreen.activate()
+			if (device.isMobile()) screen.orientation.lock('landscape')
 		}
-	};
-});
+	}
+})
 
 /**
  * Làm cho element có thể kéo để di chuyển Y (mobile + desktop)
@@ -350,56 +345,56 @@ window.addEventListener('load', () => {
  * @returns {() => void} cleanup
  */
 function makeDraggableY(el) {
-	let startY = 0;
-	let baseY = 0;
-	let dragging = false;
+	let startY = 0
+	let baseY = 0
+	let dragging = false
 
-	el.style.touchAction = 'none';
+	el.style.touchAction = 'none'
 
 	function down(e) {
-		dragging = true;
-		startY = e.clientY;
-		baseY = parseFloat(getComputedStyle(el).getPropertyValue('--drag-y')) || 0;
-		el.setPointerCapture(e.pointerId);
-		el.style.transition = 'opacity 0.3s, transform 0s';
+		dragging = true
+		startY = e.clientY
+		baseY = parseFloat(getComputedStyle(el).getPropertyValue('--drag-y')) || 0
+		el.setPointerCapture(e.pointerId)
+		el.style.transition = 'opacity 0.3s, transform 0s'
 	}
 
 	function move(e) {
-		if (!dragging) return;
-		const y = baseY + (e.clientY - startY);
-		el.style.setProperty('--drag-y', `${y}px`);
+		if (!dragging) return
+		const y = baseY + (e.clientY - startY)
+		el.style.setProperty('--drag-y', `${y}px`)
 	}
 
 	function up() {
-		dragging = false;
-		el.style.transition = null;
+		dragging = false
+		el.style.transition = null
 	}
 
-	el.addEventListener('pointerdown', down);
-	el.addEventListener('pointermove', move);
-	el.addEventListener('pointerup', up);
-	el.addEventListener('pointercancel', up);
+	el.addEventListener('pointerdown', down)
+	el.addEventListener('pointermove', move)
+	el.addEventListener('pointerup', up)
+	el.addEventListener('pointercancel', up)
 
 	return () => {
-		el.removeEventListener('pointerdown', down);
-		el.removeEventListener('pointermove', move);
-		el.removeEventListener('pointerup', up);
-		el.removeEventListener('pointercancel', up);
-	};
+		el.removeEventListener('pointerdown', down)
+		el.removeEventListener('pointermove', move)
+		el.removeEventListener('pointerup', up)
+		el.removeEventListener('pointercancel', up)
+	}
 }
 
 function getRawQueryParam(name) {
-	const query = window.location.search.slice(1); // bỏ '?'
-	if (!query) return null;
+	const query = window.location.search.slice(1) // bỏ '?'
+	if (!query) return null
 
 	for (const part of query.split('&')) {
-		const idx = part.indexOf('=');
-		if (idx === -1) continue;
+		const idx = part.indexOf('=')
+		if (idx === -1) continue
 
-		const key = part.slice(0, idx);
+		const key = part.slice(0, idx)
 		if (key === name) {
-			return part.slice(idx + 1); // raw value
+			return part.slice(idx + 1) // raw value
 		}
 	}
-	return null;
+	return null
 }
