@@ -71,7 +71,7 @@ async function initView(db, UIbindings) {
 				const res = await fetch(vttPath);
 				if (res.ok) {
 					window.open(
-						`/watch/player/vtt-player/?audio=${src}&vtt=${vttPath}&images=${realImage.filter(Boolean).join(',')}`,
+						`/watch/player/vtt-player/v2/?audio=${src}&vtt=${vttPath}&images=${realImage.filter(Boolean).join(',')}`,
 						'_blank'
 					);
 				} else {
