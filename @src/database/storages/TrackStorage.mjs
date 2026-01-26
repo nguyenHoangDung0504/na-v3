@@ -56,7 +56,7 @@ export default class TrackStorage {
 			const images = line[8] ? line[8].split('/').map((col) => new Resource(...col.split('->'))) : [];
 			const audios = line[9] ? line[9].split('/').map((col) => new Resource(...col.split('->'))) : [];
 			const additionalURLs = line[10]
-				? line[10].split('/').map((col) => {
+				? line[10].split(',').map((col) => {
 						return new AddtionalURL(...col.split('::'));
 				  })
 				: [];
