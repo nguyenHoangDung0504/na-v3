@@ -2,7 +2,7 @@ import decoratorManager from '../../@libraries/decorators/index.mjs';
 import { SearchSuggestion } from '../app.models.mjs';
 import * as utils from '../app.utils.mjs';
 import CategoryStorage from './storages/CategoryStorage.mjs';
-import PrefixStorage from './storages/PrefixStorage.test.mjs'; // Testing new prefix storage
+import PrefixStorage from './storages/PrefixStorage.mjs';
 import TrackStorage from './storages/TrackStorage.mjs';
 
 class Database {
