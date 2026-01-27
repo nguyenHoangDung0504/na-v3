@@ -1,0 +1,148 @@
+- Content_Des
+	Vài tháng trước,
+
+	Tôi đột nhiên được bổ nhiệm làm một ma pháp thiếu nữ... hay đúng hơn là ma pháp thiếu phụ, bởi hai linh vật tiên nữ bí ẩn Ko-chan và Gan-chan.
+
+	Thật ra, nói nhỏ với bạn nhé, tôi từng có kinh nghiệm làm ma pháp thiếu nữ rồi.
+
+	Lúc đó tôi 12 tuổi, nhẹ cân và năng động hơn bây giờ.
+
+	Thêm nữa, hai linh vật đó cũng không quá độc ác.
+
+	Mặc dù có một số thử thách, tôi vẫn rất thích nhiệm vụ của mình.
+
+	Và thế là, tôi bảo vệ hòa bình của thị trấn. Nhưng rồi, dần dần, tôi lớn lên.
+
+	Tôi đi học đại học, đi làm, kết hôn và sinh con, giống như bao người khác.
+
+	Các con tôi đã lớn, nên tôi đang nghĩ đến việc hòa nhập trở lại xã hội, nhưng...
+
+	Và giờ thì tôi nhận được điều này!
+
+	Những linh vật mà tôi gặp lại sau nhiều năm đã trở nên vô cùng độc ác.
+
+	Kaijin tràn đầy khát vọng trả thù tôi.
+
+	Chúng yêu cầu tôi chiến đấu với tư cách là một chiến binh phép thuật một lần nữa, một chiến binh dày dạn kinh nghiệm.
+
+	Tôi bị ràng buộc mà không có sự đồng ý của mình, và tôi đang tuyệt vọng.
+
+	Làm ơn, làm ơn hãy dừng lại!
+
+	Nhưng giờ tôi có gia đình cần bảo vệ.
+
+	Và thị trấn này là một nơi quý giá mà tôi từng bảo vệ.
+
+	Tôi là Cô gái Phép thuật Sayaka... Không, là Người phụ nữ Phép thuật trưởng thành Sayaka,
+
+	Tôi buộc phải chiến đấu, dù phải làm bất cứ điều gì...!
+
+- Character_Des
+	<div class="char-box">
+		<div class="l">
+			img:https://img.dlsite.jp/modpub/images2/parts/RJ01110000/RJ01109385/9bf1557dedf005bb2de5858a3101570d.jpg
+		</div>
+		<div class="r">
+			str:Inoue Sayuri
+		br:
+			là một người mẹ 36 tuổi có hai con, một bé gái học lớp ba và một bé trai học lớp một, cùng với chồng mình, một nhân viên văn phòng.
+			Các con của cô bắt đầu ổn định cuộc sống, và cô chuẩn bị quay trở lại làm việc thì một sinh vật linh vật kỳ lạ xuất hiện và thách thức cô trở thành một cô gái phép thuật... không! một người phụ nữ có phép thuật, với nhiệm vụ bảo vệ hòa bình của thị trấn.
+		br:
+			Thực tế, cô từng là một cô gái phép thuật khi mới 12 tuổi.
+			Ngay cả khi đó, cô thường xuyên phải chịu sự chi phối của các linh vật và Kaijin, nhưng cô đã vượt qua được nhờ tuổi trẻ của mình.
+			Tuy nhiên, giờ đây, ở tuổi 36, là một người vợ và người mẹ,
+			Sayuri, đang ở độ tuổi U40, nhận thấy nhiệm vụ trở thành một cô gái phép thuật quá khó khăn.
+		</div>
+	</div>
+
+	<div class="char-box">
+		<div class="r">
+			img:https://img.dlsite.jp/modpub/images2/parts/RJ01110000/RJ01109385/7439706a88ff3e68f8089308a1704f9c.jpg
+		</div>
+		<div class="l">
+			str:Kou-chan
+		br:
+			Một trong hai linh vật đã phong Sayuri, khi đó 12 tuổi, làm cô gái phép thuật. Cậu ta màu hồng.
+			Trông cậu ta giống như một nàng tiên bánh bao ba màu, nhưng thực chất lại là một nàng tiên tinh hoàn. Điểm thu hút của cậu ta là mái tóc xoăn.
+			Cậu ta ăn nói thô tục và có tính cách hống hách, là một tên khốn đầu tròn chuyên bắt nạt Sayuri cùng với Kogan-chan.
+		</div>
+	</div>
+
+	<div class="char-box">
+		<div class="l">
+			img:https://img.dlsite.jp/modpub/images2/parts/RJ01110000/RJ01109385/96d32c658fd34479cfa248f97d015207.jpg
+		</div>
+		<div class="r">
+			str:Gan-chan
+		br:
+			Một trong hai linh vật đã phong Sayuri, khi đó 12 tuổi, làm cô gái phép thuật. Cậu ta màu xanh lá cây.
+			Trông cậu ta giống như một nàng tiên bánh bao ba màu, nhưng thực chất lại là một nàng tiên tinh hoàn. Mái tóc xoăn gợn sóng của cậu ta trầm hơn Kou-chan.
+			Cậu ta có vẻ ngoài hiền lành, nhưng thực chất lại là một tên khốn nạn chuyên bắt nạt Sayuri cùng với Kou-chan.
+		</div>
+	</div>
+
+	<div class="char-box">
+		<div class="r">
+			img:https://img.dlsite.jp/modpub/images2/parts/RJ01110000/RJ01109385/716806333c3afb5b0faee26b09b63237.jpg
+		</div>
+		<div class="l">
+			str:Krakraken
+		br:
+			Một con quái vật bí ẩn dường như đang xâm lược Trái Đất từ ​​một hành tinh ngoài Trái Đất.
+			Nó từng bị Sayuri đánh bại khi cô còn nhỏ, nhưng nhiều thập kỷ sau, khi Sayuri 36 tuổi, nó đã quay trở lại để trả thù.
+			Nó có hình dạng giống bạch tuộc và chuyên sử dụng các kỹ thuật xúc tu khiến đối thủ choáng váng.
+		</div>
+	</div>
+	
+- Track_Des
+	=========================================
+	■Track 1_Sayuri là một ma pháp thiếu phụ (08:51)
+	===========================================
+
+	Phép thuật ly kỳ! Sức mạnh lấp lánh!
+
+	Biến hình kỳ diệu!
+
+	ma pháp thiếu phụ Sayuri lại cứu thế giới hôm nay.
+
+	Như mọi khi, cô ấy bận rộn với việc nhà và chăm sóc con cái. Sayuri bận rộn quá! ♪
+
+	Hai linh vật hoàn toàn không biết gì về những khó khăn của Sayuri và đang làm bất cứ điều gì chúng muốn (lol).
+
+	Track này là nơi duy nhất bạn có thể thấy (và nghe) Sayuri biến hình và nói một vài câu thoại ngớ ngẩn!
+br:
+	========================================
+	■Track 2_Những xúc tu của quái vật có vị ngọt (24:55)
+	===========================================
+
+	Tôi... ma pháp thiếu phụ Sayuri
+	sẽ vắt kiệt mọi suy nghĩ đen tối của bạn.
+
+	Vậy hãy đến đây! Hãy xuất tinh vào trong tôi!
+
+	Tôi sẽ thanh tẩy bạn bằng âm đạo của mình!
+
+	ma pháp thiếu phụ Sayuri đang trên đường đánh bại kaibutsu!
+
+	Nhưng kaibutsu này có vẻ khá đáng gờm...!?
+
+	Sayuri bị biến thành một kẻ dâm đãng và phát điên vì những xúc tu dương vật. Chúc bạn vui vẻ ♪
+br:
+	==========================================
+	■Track 3_Chuyện gì xảy ra với Sayuri sau đó (03:42)
+	============================================
+
+	Ôi không, thôi nào.
+
+	Làm ơn đừng gọi tôi là bà già nữa.
+
+	Như tôi đã nói nhiều lần rồi, tôi vẫn còn ngoài 30 mà...
+
+	Sau khi tiêu diệt hết quái vật và trở về nhà, Sayuri đã kiệt sức.
+
+	Chà, cũng không có gì lạ sau những gì cô ấy đã trải qua... (cười gượng)
+	Giỏi lắm, Sayuri!
+br:
+	==========================================
+	■Freetalk (16:04)
+	============================================

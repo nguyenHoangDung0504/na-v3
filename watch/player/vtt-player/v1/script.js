@@ -1,10 +1,10 @@
-import { convertToWebVTT, isBracketTimestampVTT } from './formatter.js'
-import { sampleAudioURL, sampleImgURL } from './samples.js'
-import { device, fullscreen } from '../../../@src/app.utils.mjs'
+import { convertToWebVTT, isBracketTimestampVTT } from '../formatter.js'
+import { sampleAudioURL, sampleImgURL } from '../samples.js'
+import { device, fullscreen } from '../../../../@src/app.utils.mjs'
 
 window.addEventListener('load', () => {
 	/**
-	 * @type {import('../../../@components/audio_wrapper/component.js').default}
+	 * @type {import('../../../../@components/audio_wrapper/component.js').default}
 	 */
 	const audioWrp = document.getElementById('audio')
 	audioWrp.shadowRoot.querySelector('#open')?.remove()
