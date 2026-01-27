@@ -1,0 +1,20 @@
+{
+    "version": 1.1,
+    "tags": [
+        {
+            "name": "html-i",
+            "description": "Include external HTML fragment",
+            "attributes": [
+                {
+                    "name": "src",
+                    "description": "Path to HTML file or component folder",
+                    "required": true
+                },
+                {
+                    "name": "css",
+                    "description": "CSS file name, or 'none' to disable CSS"
+                }
+            ]
+        }
+    ]
+}

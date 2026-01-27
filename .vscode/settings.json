@@ -1,9 +1,10 @@
 {
-    "files.associations": {
-        // "exported-data.js": "plaintext"
-    },
-    "files.autoSave": "onFocusChange",
-    "[plaintext]": {
-        "editor.wordWrap": "on"
-    }
+	"files.associations": {
+		// "exported-data.js": "plaintext"
+	},
+	"files.autoSave": "onFocusChange",
+	"[plaintext]": {
+		"editor.wordWrap": "on"
+	},
+	"html.customData": ["./@components/include_html/manifest.json"]
 }
