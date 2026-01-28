@@ -653,13 +653,13 @@ _(
 	69738,
 	'RJ420879',
 	'Nodoka Nishiura',
-	'ASMR,Buttocks,Fart,Fetish,Foot Job,Maid,Perverted,Rape,Tease',
+	'ASMR,Buttocks,Fart,Foot Job,Oho Voice,Perverted,Reverse Rape,Tease,Maid,Scat,Armpit',
 	'',
-	'Nio is my master',
+	'Ngửi Đi Chủ Nhân',
 	'ニオってご主人様',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/69738-0.jpg?v=1703234854355',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/69738-1.jpg?v=1703234855485,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/69738-2.jpg?v=1703234856511',
-	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/69738t1.mp3?v=1703234865385',
+	'https://api.asmr-200.com/api/cover/420879.jpg?type=main',
+	'https://raw.kiko-play-niptan.one/media/stream/daily/2022-11-18/RJ420879/title.png',
+	'https://fast.kiko-play-niptan.one/media/stream/daily/2022-11-18/RJ420879/1.%E3%81%8A%E8%85%8B%E3%82%92%E3%83%8B%E3%82%AA%E3%81%A3%E3%81%A6%E3%81%94%E4%B8%BB%E4%BA%BA%E6%A7%98.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2022-11-18/RJ420879/2.%E3%81%8A%E3%81%BF%E8%B6%B3%E3%83%8B%E3%82%AA%E3%81%A3%E3%81%A6%E3%81%94%E4%B8%BB%E4%BA%BA%E6%A7%98.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2022-11-18/RJ420879/3.%E3%81%8A%E3%82%AC%E3%82%B9%E3%82%92%E3%83%8B%E3%82%AA%E3%81%A3%E3%81%A6%E3%81%94%E4%B8%BB%E4%BA%BA%E6%A7%98.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2022-11-18/RJ420879/4.%E3%81%8A%E3%82%BB%E3%83%83%E3%82%AF%E3%82%B9%E3%81%97%E3%81%BE%E3%81%97%E3%82%87%E3%81%94%E4%B8%BB%E4%BA%BA%E6%A7%98.m4a',
 )
 _(
 	8504,
