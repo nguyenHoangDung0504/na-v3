@@ -6,5 +6,5 @@
 	"[plaintext]": {
 		"editor.wordWrap": "on"
 	},
-	"html.customData": ["./@components/include_html/manifest.json"]
+	"html.customData": ["./@components/html-include/manifest.json"]
 }
