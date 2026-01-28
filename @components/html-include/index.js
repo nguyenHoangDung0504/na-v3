@@ -1,11 +1,29 @@
 const htmlCache = new Map()
 const cssLinkCache = new Set()
+let includePromises = []
+
+export async function waitIncludeQueueEmpty() {
+	const awaited = await Promise.all(includePromises)
+	console.log(`> [Component.HTMLInclude] Awaited ${awaited.length} components:`, awaited)
+	includePromises = includePromises.filter(Boolean)
+
+	return awaited
+}
 
 export default class HtmlInclude extends HTMLElement {
 	async connectedCallback() {
 		const src = this.getAttribute('src')
 		if (!src) return
 
+		const promise = this._process(src)
+		includePromises.push(promise)
+	}
+
+	/**
+	 * @private
+	 * @param {string} src
+	 */
+	async _process(src) {
 		const cssFile = this.getAttribute('css')
 
 		try {
@@ -35,6 +53,8 @@ export default class HtmlInclude extends HTMLElement {
 			console.error(`Failed to load ${src}:`, err)
 			this.innerHTML = `<!-- Error loading ${src} -->`
 		}
+
+		return src
 	}
 }
 

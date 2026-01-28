@@ -1,8 +1,8 @@
+// Import components
+import { waitIncludeQueueEmpty } from '../@components/html-include/index.js'
+
 import { debugMode as decoratorDebug } from '../@libraries/decorators/index.mjs'
 import { database } from './database/index.mjs'
-
-// Import components
-import '../@components/html-include/index.js'
 
 const path = location.pathname
 if (location.href.includes('127.0.0.1')) localStorage.setItem('dev-mode', 1)
@@ -24,7 +24,7 @@ initApp()
 async function initApp() {
 	const DEBUG_MODE = debugMode(false)
 	activateTimer()
-	await Promise.all([DOMLoaded(), ...Object.values(UIrequests).filter(Boolean)])
+	await Promise.all([DOMLoaded(), waitIncludeQueueEmpty(), ...Object.values(UIrequests).filter(Boolean)])
 
 	if (UIrequests.common) (await UIrequests.common).init(database)
 	if (UIrequests.home) (await UIrequests.home).init(database)
