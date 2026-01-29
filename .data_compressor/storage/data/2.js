@@ -653,7 +653,7 @@ _(
 	69738,
 	'RJ420879',
 	'Nodoka Nishiura',
-	'ASMR,Buttocks,Fart,Foot Job,Oho Voice,Perverted,Reverse Rape,Tease,Maid,Scat,Armpit',
+	'ASMR,Buttocks,Fart,Foot Job,Oho Voice,Perverted,Reverse Rape,Tease,Maid,Armpit',
 	'',
 	'Ngửi Đi Chủ Nhân',
 	'ニオってご主人様',

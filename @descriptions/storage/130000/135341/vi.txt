@@ -1,0 +1,65 @@
+- Content_Des
+	Cô hầu gái cung kính + trách móc ngọt ngào
+	Sử dụng micro KU100, toàn bộ hiệu ứng âm thanh đều thu âm mới (foley sound), giúp bạn đắm chìm hoàn toàn vào cảnh "phục vụ dâm đãng" cùng cô hầu gái tóc vàng ẩn S.
+br:
+	Dành cho bạn nếu thích những tình huống này:
+
+	-Cô hầu gái riêng của bạn phục vụ dâm đãng bằng cách trách móc ngọt ngào.
+	-Sáng sớm, đầu khấc cương cứng được cọ xát nhẹ nhàng, đường gân dưới được ve vuốt.
+	-Tiếng bú liếm ướt át, hút sạch từng giọt không để sót.
+	-Làm tình chậm rãi, âm hộ ấm áp ôm chặt lấy bạn.
+	-Khen ngợi cậu nhỏ + hoàn toàn chấp nhận dục vọng, dẫn đến xuất tinh theo đếm ngược.
+	-Thì thầm dụ dỗ vì muốn được ra lệnh… kèm liếm tai đậm đặc.
+	-Bộ ngực đồ sộ chảy nước dãi, kẹp chặt và cọ xát cậu nhỏ.
+	-Phạt cô hầu gái dâm đãng bằng cách xuất tinh vào trong âm hộ thèm khát.
+	-Tư thế cưỡi ngựa, liên tục rên "thích quá" dẫn đến cả hai cùng lên đỉnh.
+br:
+	Chủ nhân ơi… đã đến giờ phục vụ tình dục rồi đấy ạ.
+
+- Character_Des
+	str:Saeki Mary (さえき・メアリ) – CV: Aisaka Narumi / Minh họa: Tomohiro Kai
+	Số đo ba vòng: B92 - W58 - H85
+	Cách gọi bạn: chủ nhân (gōshujin-sama)
+	Cách gọi dương vật: cậu nhỏ / cặc của anh
+br:
+	Cô hầu gái JK riêng của bạn, thanh lịch và tận tụy.
+	Từ chăm sóc sinh hoạt hàng ngày đến phục vụ tình dục, cô ấy sẵn sàng làm tất cả và cho phép bạn làm tất cả – một cô hầu gái "dâm đãng khiến bạn sa đọa".
+	「Bất cứ lúc nào anh cũng có thể ra lệnh. Em sẽ lập tức dùng cơ thể mình phục vụ anh ngay ạ」
+	Cô ấy yêu bạn đến mức sẵn sàng dâng hiến tất cả.
+	Nhưng vì thấy bạn tan chảy trong "sự phục vụ" quá đáng yêu, nên cô ấy vừa ngọt ngào vuốt ve, vừa trách móc dâm đãng rất nhiều – dần thức tỉnh thành "kiểu S ngọt ngào"…
+	「A… chủ nhân cố gắng kiềm chế trông thật đáng yêu quá」
+	Bú dọn dẹp, trêu chọc dừng lại, kích thích mang thai…
+	Hôm nay, "sự phục vụ ngọt ngào trách móc" của cô hầu gái dâm đãng vẫn không ngừng nghỉ.
+	Tất nhiên, bạn chính là người đầu tiên của cô ấy.
+	
+- Track_Des
+	str:◆ Track 1 Prologue / Lời chào từ cô hầu gái JK sau thời gian dài tái hợp
+	「Em sẽ chăm sóc anh thật chu đáo nhé, chủ nhân」
+br:
+	str:◆ Track 2 Thức dậy với vuốt ve tay ngọt ngào & lần đầu tiên dâng hiến trinh tiết phục vụ
+	「Nào, hãy ra lệnh cho em đi chủ nhân」
+	(Nội dung: vuốt tay, hôn, ngồi đối diện)
+br:
+	str:◆ Track 3 Massage thư giãn kèm trêu chọc & làm tình ôm ấp ngọt ngào
+	「Hôm nay cũng hãy xuất thật nhiều, thật đặc nhé」
+	(Nội dung: massage, bú, tư thế truyền thống)
+br:
+	str:◆ Track 4 Liếm tai + vuốt tay + kẹp ngực – phục vụ ngọt ngào tận tụy từ cô hầu gái
+	「Hãy để em nghe thêm tiếng rên của chủ nhân nữa nhé」
+	(Nội dung: vuốt tay, liếm tai, bú, kẹp ngực)
+br:
+	str:◆ Track 5 Rửa ráy kèm vuốt tay bọt xà phòng, trêu chọc đến gần xuất rồi dừng lại
+	「A… chủ nhân cố gắng kiềm chế trông thật tuyệt vời quá」
+	(Nội dung: rửa ráy trêu chọc)
+br:
+	str:◆ Track 6 Đảo ngược – dùng cậu nhỏ của chủ nhân phạt cô hầu gái hư hỏng
+	「Hãy dùng cậu nhỏ của chủ nhân trừng phạt em đi ạ」
+	(Nội dung: ngồi đối diện)
+br:
+	str:◆ Track 7 Chủ nhân và hầu gái, vượt qua ranh giới vị thế
+	「Ngài muốn làm gì ạ, chủ nhân?」
+br:
+	str:◆ Track 8 Gợi ý kết hôn + kích thích mang thai trong ngày nguy hiểm, làm tình ngọt ngào nguy hiểm
+	「Để hầu gái mang thai hạt giống của anh… thật ra là không được đâu nhé?」
+	(Nội dung: tư thế truyền thống, cưỡi ngựa)
+	
