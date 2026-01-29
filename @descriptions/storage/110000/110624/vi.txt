@@ -1,0 +1,35 @@
+- Content_Des
+	Bạn có một chị gái đã sống luôn trong tủ quần áo ở phòng của bạn.
+	Rồi một ngày nọ, chị gọi bạn vào và bảo có chuyện bí mật muốn nhờ...
+	Thế là bạn bị kéo vào cái tủ quần áo hôi hám, ngập mùi cơ thể khó chịu của chị...
+
+- Character_Des
+	str:Ouchi Komori
+br:
+	-Tuổi: 32 tuổi
+	-Trình độ học vấn cao nhất: Tốt nghiệp trung học cơ sở (chỉ học hết cấp 2)
+	-Thời gian sống khép kín (hikikomori): 10 năm
+	-Tính cách: Kiểu trầm tính, âm u / Rối loạn giao tiếp xã hội
+	-Thói quen vệ sinh: Ít tắm rửa nên cơ thể luôn có mùi mồ hôi nặng, hôi hám
+	-Nơi ở hiện tại: Sống luôn trong tủ quần áo ở phòng của bạn
+br:
+	Bạn sẽ nghe chị ấy – một người chị gái 32 tuổi đã là neet suốt 10 năm, ít giao tiếp, cơ thể ngập mùi mồ hôi vì không tắm thường xuyên – thì thầm, dụ dỗ và dính sát bạn trong cái tủ chật hẹp ấy. Tính cách âm u, ngại ngùng nhưng lại lệ thuộc và dần bộc lộ sự chiếm hữu mạnh mẽ với bạn (em trai cô ấy).
+	
+- Track_Des
+	str:Track 1: Phần mở đầu 【05:55】
+	[Trò chuyện phiếm]
+br:
+	str:Track 2: Bị bọc trong đôi đùi mũm mĩm của chị, dính sát thigh job nồng nhiệt 【22:48】
+	[Thigh job / xoa nắn ngực / hơi thở hôi / kích thích bằng mùi / ôm chặt / dụ dỗ / dính sát / thì thầm / nuốt tinh]
+br:
+	str:Track 3: Paizuri bú cu bằng cặp vú hôi hám của chị 【19:03】
+	[Paizuri / bú cu / kích thích bằng mùi / dụ dỗ / thì thầm / xuất tinh trong miệng / nuốt tinh]
+br:
+	str:Track 4: Chị gái cố gắng thoát khỏi hikikomori, bạn ngăn cản bằng giao phối ép buộc 【16:21】
+	[Ôm chặt tư thế nằm ngửa / tiếng rên oho / mất trinh / ép buộc / ghen tuông / hôn sâu / kích thích bằng mùi / ôm chặt / dụ dỗ / thì thầm / dính sát / quan hệ không bao / xuất tinh trong]
+br:
+	str:Track 5: Trong tủ quần áo ngập mùi cơ thể hôi hám, bạn dính sát chị làm tình nồng nhiệt với tiếng rên oho 【19:05】
+	[Ôm chặt ngồi đối diện / tiếng rên oho / liếm tai / kích thích núm vú / phụ thuộc lẫn nhau / dạng há / hôn sâu / kích thích bằng mùi / ôm chặt / dụ dỗ / thì thầm / dính sát / lặp lại "thích thích" / quan hệ không bao / xuất tinh trong]
+br:
+	str:Track 6: Phần kết 【02:43】
+	[Hôn sâu]
