@@ -402,8 +402,6 @@ Muốn mình uống hả?
 00:14:34,050 --> 00:14:35,110
 Vâng.
 
-WEBVTT
-
 00:14:35,420 --> 00:14:45,769
 Tinh dịch biến thái của bạn giờ toàn bộ nằm trong bụng mình rồi.
 
@@ -633,7 +631,7 @@ Cảm ơn đã xem.
 Aaa... tệ thật...
 
 00:25:31,570 --> 00:25:34,130
-Bị thằng này làm ra ba lần...
+Bị tên này làm ra ba lần...
 
 00:25:34,250 --> 00:25:37,320
 Thế mà...
