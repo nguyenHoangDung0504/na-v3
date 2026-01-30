@@ -120,7 +120,7 @@ const timer = setInterval(() => {
 						const [time, ...rest] = lines
 						return `${time}\n${String(rest)}`
 					}
-					return `${lines[0]}\n${lines[2]}`
+					return `${lines[0]}\n${lines[1]}`
 				})
 				.sort()
 				.join('\n\n')

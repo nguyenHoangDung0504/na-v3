@@ -1,15 +1,46 @@
 Giúp tôi dịch nội dung của tác phẩm ASMR người lớn này theo yêu cầu:
 
 - Đối với mô tả không phải thoại nhân vật + tên track (nếu có mô tả track) xưng hô bạn, kiểu như nói/mô tả với người đọc
+- Lựa chọn từ dịch đúng ngữ cảnh và phù hợp trong tiếng Việt. Ví dụ concept hoặc từ tiếng Nhật liên quan thay vì dịch thành khái niệm (wtf?) thì nên dịch thành ý tưởng chủ đạo mới phù hợp ngữ cảnh
 - Loại bỏ những phần marketing (chẳng hạn như mô tả giảm giá, thưởng khi mua,...) nếu tôi dán vào thừa
 - Cẩn thận đừng chen thuật ngữ tiếng Anh trừ khi không có từ tiếng Việt phù hợp
 - Đôi khi dịch sát nghĩa ra sẽ gây khó hiểu, nhất là tiếng lóng. Được phép biến tấu nội dung sao cho nghĩa không đổi mấy nhưng dễ hiểu hơn.
-- Dịch thoại nhân vật hay xưng hô, hay cách nhân vật nói gọi các bộ phận nhạy cảm, dirtytalk,... dịch sao cho phù hợp với nhân vật và vai vế trong mô tả được đọc và theo sự chuyển biến giữa các track (nếu có sự chuyển biến gì đó) 
+- Dịch thoại nhân vật hay xưng hô, hay cách nhân vật nói gọi các bộ phận nhạy cảm, dirtytalk,... dịch sao cho phù hợp với nhân vật và vai vế trong mô tả được đọc và theo sự chuyển biến giữa các track (nếu có sự chuyển biến gì đó)
+    - Ví dụ cách gọi bộ phận sinh dục (cái này tùy nhân vật mới có) có thể chuyển biến từ nhẹ nhàng rụt rè như cậu nhỏ/cô bé/... thành cặc hay lồn tùy vào sự chuyển biến tình tiết hoặc tính cách nhân vật
+    - Ví dụ cách xưng hô (cái này tùy nhân vật mới có) chẳng hạn ban đầu chán ghét tsun thì anh - tôi, về sau thành anh - em, hoặc từ bạn -> người yêu/vợ/chồng thì cũng đổi xưng hô, ví dụ bạn/mình -> anh/em
+    - ...nhiều quá tôi kể không hết, nếu không thể chắc chắn quyết định, bạn có thể hỏi ý kiến tôi trong các trường hợp cụ thể tôi cung cấp trước khi chốt cách gọi
 - Nếu tôi đưa phụ đề tiếng Trung, sau khi dịch cẩn thận đừng để xót các từ tiếng Trung trong bản dịch.
 - Khi dịch, nếu trong bản gốc phụ đề có từ tượng thanh (phổ biến trong ASMR) thì bỏ đi, chỉ giữ những phụ đề là ngôn ngữ nói 
 
 Tiêu đề:
 Mô tả:
+
+Yêu cầu dịch và format về dạng này (tức phân chia các nội dung mô tả vào dưới gạch đầu dòng phù hợp. Lưu ý cố giữ lại cấu trúc trình bày mô tả họ viết thay vì tự biến tấu) và để tôi có nút copy dễ dàng:
+`
+- Content_Des
+	// Mọi nội dung mô tả liên quan đến tác phẩm (ví dụ ý tưởng chủ đạo, tóm tắt nội dung,...)
+    // Sử dụng một dòng chỉ có br: là xuống thêm 1 dòng, và một dòng chỉ có hr: là một dấu gạch phân cách. Các ký hiệu này có thể dùng trong toàn bộ 3 phần Des
+    // Ví dụ:
+    Nội dung đoạn 1
+br:
+    Nội dung đoạn 2
+hr:
+    Nội dung đoạn 3
+    // Sử dụng br khi nội dung 1 đoạn tương đối ngắn, sử dụng hr: khi đoạn nội dung tương đối dài và trong đó đã dùng br mất
+
+- Character_Des
+	// Mô tả nhân vật
+    // Với tên nhân vật, để ở 1 dòng, bắt đầu bằng str: để in đậm cái này cũng dùng được ở cả 3 phần des, thường dùng thêm để bôi đậm tên track
+	// Ví dụ:
+    str:Charname
+    // Có thể dùng list bằng cách thêm dấu - ngay trước dòng, dùng trong mô tả tính chất/tính cách, ví dụ:
+    - Số đo 3 vòng:...
+    - Cố ấy thích...
+    - ...
+
+- Track_Des
+	// Mô tả các track, ngăn cách bằng br: hoặc hr: tùy độ dài và chứa nhiều mô tả hay không. dùng str: để bôi đậm dòng tên track
+`
 
 Tôi sẽ đưa phụ đề và yêu cầu bạn format bản đã dịch hoặc dịch sau
 

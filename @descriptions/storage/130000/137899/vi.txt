@@ -26,47 +26,47 @@ br:
 - Character_Des
 	str:Hanabatake Kanade (Bé tóc cam)
 	CV: Narumi Aisaka
-	Năm thứ hai, Lớp C. Một nữ sinh nhút nhát và ngây thơ.♪
+	Lớp C năm nhất. Hậu bối ngây thơ, cực kỳ hay xấu hổ♪
 br:
-	Không thể từ chối lời mời tham gia câu lạc bộ đầy nhiệt tình (một phần vì cô ấy không có lý do gì để từ chối...), cô ấy đã tham gia.
-	Cô ấy cảm thấy xấu hổ khi đối mặt với các chàng trai ở khoảng cách gần như vậy, nhưng cô ấy sẽ khiến bạn xuất tinh với kiểu quan hệ thân mật mà bạn mong đợi ở một cặp đôi mới cưới.
-	"Ừm, vậy thì... bây giờ... một nụ hôn... hay gì đó nhé...?"
+	- Vì không thể từ chối lời mời nhiệt tình tham gia câu lạc bộ (cũng có phần vì chẳng có lý do gì để từ chối…), nên đã gia nhập.  
+	- Cảm thấy ngại ngùng khi phải đối mặt gần gũi với con trai.  
+	- Giúp bạn xuất tinh như cặp đôi mới yêu nhau, ngọt ngào hạnh phúc.  
+	「Ừm… cái đó… trước tiên… mình… hôn… hay là… được không…？」
 hr:
 	str:Takanashi Yuuka (Bé tóc vàng)
 	CV: 雲八はち
-	Năm thứ hai, Lớp B. Một cô nàng tsundere thích trêu chọc♪
+	Lớp B năm hai. Gal tsundere chuyên trêu chọc♪  
 br:
-	Cô ấy tình cờ là thành viên của câu lạc bộ và cảm thấy thoải mái khi ở trong đó, nên đây là năm thứ hai của cô ấy.
-	Tuy có giọng điệu trêu chọc khá rõ ràng, nhưng cô ấy dễ bị lay động và nhanh chóng trở nên tình cảm.
-	Cô ấy rất dịu dàng, nên khiến người khác cảm thấy thoải mái khi ở bên.
-	"Ôi, chỉ trong chốc lát mà anh đã cương cứng rồi ♪ Buồn cười quá♡ Đây chỉ là lời chào đón thôi mà~?"
+	- Tham gia tùy hứng, nhưng thực ra thấy thoải mái nên đã ở lại đến năm thứ 2 trong câu lạc bộ.  
+	- Miệng lưỡi thích châm chọc, nhưng bản chất yếu đuối trước sự tấn công, nhanh chóng trở nên ngoan ngoãn.  
+	- Rất dịu dàng nên sẽ giúp bạn xuất tinh thật sướng, thật nhiều.  
+	「Ối trời ơi, cứng ngắc trong tích tắc luôn kìa♪ Thấy buồn cười ghê♡ Đây chỉ là nụ hôn chào đón thôi mà～？」
 hr:
 	str:Natsuno Ayane (Bé tóc nâu)
 	CV: Hanami Takanashi
-	Năm thứ ba, Lớp A. Một đàn chị tốt bụng, kiểu chị cả♪
+	- Lớp A năm ba. Tiền bối tràn đầy tình mẹ♪
 br:
-	Phó trưởng Câu lạc bộ "Tủ đồ lotion"
-	Cô ấy thích nhìn các chàng trai phấn khích trước cơ thể mình và xuất tinh vì sung sướng.
-	Cô ấy rất chiều chuộng và sẽ để bạn xuất tinh trong khi được bao bọc trong tình yêu trẻ của cô ấy. "Làm ơn cứ thoải mái như thế đi♡ Tựa người vào tớ như thể cậu đang được chiều chuộng...♡"
+	- Phó chủ nhiệm Câu lạc bộ "Tủ đồ lotion".
+	- Rất thích nhìn cảnh hậu bối kích thích vì cơ thể mình mà xuất tinh nhanh chóng.
+	- Cực kỳ nuông chiều, ôm ấp bạn trong sự ngọt ngào như đối với em bé để giúp bạn xuất tinh.
+	「Hậu bối cứ thế này, thả lỏng đi nhé♡ Hãy tựa vào chị như đang làm nũng…♡」
 	
 - Track_Des
-	str:01: Tủ đồ của Kanade ~Xấu hổ thật, nhưng em sẽ cố gắng hết sức...♡ (Role play đàn em là bạn gái)~ (33 phút)
+	str:01: Tủ đồ của Kanade ～Xấu hổ lắm… nhưng em sẽ cố gắng…♡～　(33 phút)
 br:
-	"Như một cặp đôi mới bắt đầu hẹn hò...♡ Thực ra thì... em chưa từng hẹn hò với ai trước đây, nên có lẽ không đúng...♡"
-	"A, cái gì cơ... núm vú của em cứng thế sao...? Wow, wow... ừm...♡ Anh đã nhận ra, nhưng anh lại cười thầm...♡ Senpai, anh thật là xấu tính... trời ơi...♡"
+	「Giống như cặp đôi mới yêu nhau… phải không…♡ Thật ra… em… chưa từng hẹn hò bao giờ, nên có khi… cũng không sai đâu…♡」
+	「A… ơ… đầu ti em… cứng thế này từ lúc nào vậy…!? Wa… waa～… ư…♡ Biết rồi mà vẫn im lặng cười mỉm hả…♡ Tiền bối xấu tính quá đi… moou…♡」
 br:
-	(Rất nhiều nụ hôn sâu ngây thơ♡ / Hôn kiểu Pháp chào đón bạn♡ / Thoa kem dưỡng khắp người bạn♡ / Vuốt ve dương vật trên bụng được thoa kem dưỡng♡ / Liếm và mút cái lưỡi mềm mại của Kanade♡ / Xuất tinh vào bụng Kanade trong khi hôn kiểu Pháp♡ / Ngọt ngào♡ quan hệ tình dục trong khi nắm tay♡ / Xuất tinh vào âm đạo trong khi hôn kiểu Pháp♡)
+	(Hôn môi sâu ngây thơ đầy ắp♡ / Hôn môi sâu chào đón♡ / Dùng toàn thân bôi lotion cho bạn♡ / Dùng bụng đầy lotion trơn bóng cọ cậu nhỏ♡ / Mút liếm lưỡi mềm mại của Kanade♡ / Vừa hôn môi sâu vừa xuất tinh ồ ạt lên bụng Kanade♡ / Tay đan nhau kiểu người yêu rồi làm tình ngọt ngào với lồn♡ / Vừa hôn môi sâu vừa xuất tinh trong♡)
 hr:
-	str:02: Tủ đồ của Yuuka ~Không phải là tớ đang làm trò gì đâu...♡~ (35 phút)
+	str:02: Tủ đồ của Yuuka ～Bọn này dễ dãi cái gì chứ…♡～　(35 phút)
+	「Ahaha♡ Cố gắng quá đáng luôn kìa♡ Yếu đuối～ yếu đuối♪ Thèm khoái lạc đến mức nịnh nọt… thảm hại ghê～♡ Ngực lotion bóng nhẫy ép sát vào… cậu nhỏ sướng lên đi♡」
+	「N… này… không xin phép mà dám hôn mình hả…♡ Đồ ngốc…♡ Ư… ưuu…♡ Thôi được rồi… lần này đặc biệt thôi… l-lồn… mình cho bạn dùng cũng được…♡」
 br:
-	"Ahhh♡ Cậu thật vô vọng♡ Zakko, Zakko ♪ Tớ đang chiều chuộng ham muốn khoái lạc của cậu... Thật thảm hại ~♡ Với bộ ngực phủ đầy lotion của tớ ép vào... Cậu nhỏ của cậu sẽ vất vả lắm đây♡"
-	"Ừm... ...Này... Sao cậu dám hôn tớ mà không hỏi ý kiến chứ...♡ Đồ ngốc...♡ Ừ, ừ...♡ T-tớ không thể kiềm chế được... Chỉ lần này thôi, t-tớ sẽ cho cậu dùng c-c-cậu nhỏ của cậu...♡"
-br:
-	(Nụ hôn chào mừng♡ / Bôi lotion khắp người♡ / Thủ dâm bằng lotion♡ / Chọc ghẹo "cậu bé"♡ / Xuất tinh khắp tay Yuuka khi cô ấy hôn bạn♡ / Nuốt tinh dịch bên tai♡ / Khiến cái lồn yếu đuối, mềm mại của Yuuka phun ra hết lần này đến lần khác♡ / Những tiếng rên rỉ dâm đãng♡ / Phun ra thật nhiều khi được xuất tinh vào♡)
+	(Hôn môi sâu chào đón♡ / Dùng toàn thân bôi lotion♡ / Handjob lotion♡ / Trêu chọc kiểu loli ác♡ / Vừa hôn vừa xuất tinh đầy tay Yuuka♡ / Bên tai nuốt ừng ực tinh dịch♡ / Làm lồn Yuuka yếu ớt dâm đãng phun nước nhiều lần♡ / Tiếng rên dâm đãng & tiếng oho♡ / Xuất tinh trong kèm phun nước ồ ạt♡)
 hr:
-	str:03: Tủ đồ của Ayane ~ Chị sẽ chiều chuộng em hết mức có thể♡~ (39 phút)
+	str:03: Tủ đồ của Ayane ～Chị sẽ nuông chiều em hết mức có thể nhé♡～　(39 phút)
+	「Cơ thể lotion bóng nhẫy của con gái… ép sát mút chặt vào người hậu bối…♡ Cậu nhỏ phản ứng là chuyện đương nhiên♡」
+	「Cứ nắm chặt ngực chị bằng cả hai tay cho đến khi cứng lên nhé…♡ Xoa bóp thật nhiều… cứ dùng nó làm "thức ăn" cho cậu nhỏ đi♡」
 br:
-	"Cơ thể được bôi trơn của một cô gái ép chặt vào cậu nhỏ...♡ Tất nhiên, nó sẽ phản ứng rồi♡"
-	"Nắm lấy ngực chị bằng cả hai tay cho đến khi em cương cứng...♡ Xoa bóp thật mạnh... Làm ơn, hãy dùng chúng làm thức ăn cho cậu nhỏ♡"
-br:
-	(Một nụ hôn kiểu Pháp chào đón bạn♡ / Bôi lotion khắp cơ thể bạn♡ / Hôn kiểu Pháp và xoa nắn cặp đùi đầy đặn, căng mọng♡ / Bôi nước bọt lên cơ thể bạn → Những nụ hôn kiểu Pháp ngọt ngào trong khi để bạn uống nước bọt♡ / Xuất tinh trên đùi senpai trong khi được nuông chiều♡ / Xoa bóp bầu ngực được bôi trơn của chị ấy♡ / Được xoa dịu bằng cách được nói chuyện như nói với trẻ con♡ / Xuất tinh vào trong khi nhìn chằm chằm vào mặt chị ấy♡)
+	(Hôn môi sâu chào đón♡ / Dùng toàn thân bôi lotion♡ / Hôn môi sâu + cọ đùi lotion mũm mĩm♡ / Tạo bọt nước bọt → uống nước bọt rồi hôn ngọt ngào♡ / Xuất tinh trong đùi trong khi được cưng chiều♡ / Xoa bóp ngực lotion điên cuồng♡ / Được dỗ dành như em bé♡ / Nhìn chằm chằm mặt nhau rồi xuất tinh trong♡)

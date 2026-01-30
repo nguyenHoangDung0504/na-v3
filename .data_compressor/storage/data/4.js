@@ -1308,7 +1308,7 @@ _(
 	137899,
 	'RJ01450508',
 	'Hanami Takanashi,Narumi Aisaka,雲八はち',
-	'ASMR,Big Breasts,Chubby,Internal Cumshot,Lotion,Oho Voice,School Girl,Spit,Sweet Love,Vulgar Moans,Whispering',
+	'ASMR,Big Breasts,Chubby,Internal Cumshot,Lotion,Oho Voice,School Girl,Spit,Sweet Love,Vulgar Moans,Whispering,Tsundere',
 	'ローションロッカー部シリーズ',
 	'[Tiếp xúc siêu gần gũi x Nữ sinh đầy đặn] Câu lạc bộ "Tủ đồ lotion" phần 2',
 	'【超密着×むちむちJK】ローションロッカー部2【フォーリーサウンド】',
