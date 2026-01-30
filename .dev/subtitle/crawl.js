@@ -120,9 +120,10 @@ const timer = setInterval(() => {
 						const [time, ...rest] = lines
 						return `${time}\n${String(rest)}`
 					}
-					return `${lines[0]}\n${lines[1]}`
+					return `${lines[0]}\n${lines[2]}`
 				})
 				.sort()
+				.map((line, index) => index + 1 + '\n' + line)
 				.join('\n\n')
 
 		textarea.value = output
