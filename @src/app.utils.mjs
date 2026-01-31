@@ -15,8 +15,8 @@ export const url = {
 	 * @param {URL} url
 	 */
 	setParam(key, value, url = new URL(window.location.href)) {
-		url.searchParams.set(key, value);
-		return url.toString();
+		url.searchParams.set(key, value)
+		return url.toString()
 	},
 
 	/**
@@ -24,7 +24,7 @@ export const url = {
 	 * @param {URLSearchParams} searchParams
 	 */
 	getParam(key, searchParams = new URLSearchParams(location.search)) {
-		return searchParams.get(key);
+		return searchParams.get(key)
 	},
 
 	/**
@@ -32,22 +32,22 @@ export const url = {
 	 */
 	getFileNameFromUrl(url) {
 		return decodeURIComponent(
-			url.slice(url.lastIndexOf('/') + 1, url.includes('?') ? url.lastIndexOf('?') : url.length)
-		);
+			url.slice(url.lastIndexOf('/') + 1, url.includes('?') ? url.lastIndexOf('?') : url.length),
+		)
 	},
-};
+}
 
 export const array = {
 	/**
 	 * @param {any[]} array
 	 */
 	shuffle(array) {
-		let currentIndex = array.length;
+		let currentIndex = array.length
 		while (currentIndex > 0) {
-			let randomIndex = Math.floor(Math.random() * currentIndex--);
-			[array[currentIndex], array[randomIndex]] = [array[randomIndex], array[currentIndex]];
+			let randomIndex = Math.floor(Math.random() * currentIndex--)
+			;[array[currentIndex], array[randomIndex]] = [array[randomIndex], array[currentIndex]]
 		}
-		return array;
+		return array
 	},
 
 	/**
@@ -56,40 +56,40 @@ export const array = {
 	 * @param {keyof T} key
 	 */
 	deduplicateObjects(arr, key) {
-		const map = new Map();
+		const map = new Map()
 
 		return arr.filter((obj) => {
-			const keyValue = obj[key];
-			if (map.has(keyValue)) return false;
-			map.set(keyValue, true);
-			return true;
-		});
+			const keyValue = obj[key]
+			if (map.has(keyValue)) return false
+			map.set(keyValue, true)
+			return true
+		})
 	},
-};
+}
 
 export const device = {
 	isMobile() {
-		return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+		return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)
 	},
-};
+}
 
 export const fullscreen = {
 	activate() {
-		const elem = document.documentElement;
-		elem.requestFullscreen?.() || elem.webkitRequestFullscreen?.() || elem.msRequestFullscreen?.();
+		const elem = document.documentElement
+		elem.requestFullscreen?.() || elem.webkitRequestFullscreen?.() || elem.msRequestFullscreen?.()
 	},
 
 	deactivate() {
-		if (!document.fullscreenElement && !document.webkitFullscreenElement && !document.msFullscreenElement) return;
-		document.exitFullscreen?.() || document.webkitExitFullscreen?.() || document.msExitFullscreen?.();
+		if (!document.fullscreenElement && !document.webkitFullscreenElement && !document.msFullscreenElement) return
+		document.exitFullscreen?.() || document.webkitExitFullscreen?.() || document.msExitFullscreen?.()
 	},
 
 	toggle() {
 		document.fullscreenElement || document.webkitFullscreenElement || document.msFullscreenElement
 			? this.deactivate()
-			: this.activate();
+			: this.activate()
 	},
-};
+}
 
 export const sort = {
 	/**
@@ -98,7 +98,7 @@ export const sort = {
 	 * @returns {number}
 	 */
 	byName(a, b) {
-		return a.name.toLowerCase().localeCompare(b.name.toLowerCase());
+		return a.name.toLowerCase().localeCompare(b.name.toLowerCase())
 	},
 
 	/**
@@ -107,7 +107,7 @@ export const sort = {
 	 * @returns {number}
 	 */
 	byQuantity(a, b) {
-		return a.quantity - b.quantity;
+		return a.quantity - b.quantity
 	},
 
 	/**
@@ -116,18 +116,18 @@ export const sort = {
 	 * @returns {number}
 	 */
 	bySuggestionRelevance(a, b) {
-		const typeOrder = ['code', 'RJcode', 'cv', 'tag', 'series', 'eName', 'jName'];
-		const keywordIndexA = a.value.toString().toLowerCase().indexOf(a.keyword);
-		const keywordIndexB = b.value.toString().toLowerCase().indexOf(b.keyword);
+		const typeOrder = ['code', 'RJcode', 'cv', 'tag', 'series', 'eName', 'jName']
+		const keywordIndexA = a.value.toString().toLowerCase().indexOf(a.keyword)
+		const keywordIndexB = b.value.toString().toLowerCase().indexOf(b.keyword)
 
-		if (keywordIndexA !== keywordIndexB) return keywordIndexA - keywordIndexB;
+		if (keywordIndexA !== keywordIndexB) return keywordIndexA - keywordIndexB
 
-		const typeComparison = typeOrder.indexOf(a.type) - typeOrder.indexOf(b.type);
-		if (typeComparison !== 0) return typeComparison;
+		const typeComparison = typeOrder.indexOf(a.type) - typeOrder.indexOf(b.type)
+		if (typeComparison !== 0) return typeComparison
 
-		return a.value.toString().localeCompare(b.value.toString());
+		return a.value.toString().localeCompare(b.value.toString())
 	},
-};
+}
 
 export const highlight = {
 	/**
@@ -135,18 +135,18 @@ export const highlight = {
 	 * @param {string} highlightValue
 	 */
 	apply(text, highlightValue) {
-		let regexp = new RegExp(highlightValue, 'i');
-		return text.toString().replace(regexp, `<span class="highlight">$&</span>`);
+		let regexp = new RegExp(highlightValue, 'i')
+		return text.toString().replace(regexp, `<span class="highlight">$&</span>`)
 	},
 
 	/**
 	 * @param {string} text
 	 */
 	revoke(text) {
-		let regex = /<span class="highlight">([\s\S]*?)<\/span>/gi;
-		return text.toString().replace(regex, '$1');
+		let regex = /<span class="highlight">([\s\S]*?)<\/span>/gi
+		return text.toString().replace(regex, '$1')
 	},
-};
+}
 
 export const pager = {
 	/**
@@ -156,20 +156,20 @@ export const pager = {
 	 */
 	getGroupOfPagination(currentPage, pagePerGroup, limitPage) {
 		// Giới hạn `pagePerGroup` không vượt quá `limitPage`
-		pagePerGroup = Math.min(pagePerGroup, limitPage);
+		pagePerGroup = Math.min(pagePerGroup, limitPage)
 
 		// Tính toán phạm vi startPage - endPage
-		let startPage = Math.max(1, currentPage - Math.floor((pagePerGroup - 1) / 2));
-		let endPage = startPage + pagePerGroup - 1;
+		let startPage = Math.max(1, currentPage - Math.floor((pagePerGroup - 1) / 2))
+		let endPage = startPage + pagePerGroup - 1
 
 		// Điều chỉnh khi `endPage` vượt quá `limitPage`
 		if (endPage > limitPage) {
-			endPage = limitPage;
-			startPage = Math.max(1, endPage - pagePerGroup + 1);
+			endPage = limitPage
+			startPage = Math.max(1, endPage - pagePerGroup + 1)
 		}
 
 		// Trả về mảng số trang
-		return Array.from({ length: endPage - startPage + 1 }, (_, i) => startPage + i);
+		return Array.from({ length: endPage - startPage + 1 }, (_, i) => startPage + i)
 	},
 
 	/**
@@ -178,12 +178,12 @@ export const pager = {
 	 * @param {number[]} IDs
 	 */
 	getTrackIDsForPage(page, recordsPerPage, IDs) {
-		const start = (page - 1) * recordsPerPage;
-		const end = Math.min(start + recordsPerPage - 1, IDs.length);
+		const start = (page - 1) * recordsPerPage
+		const end = Math.min(start + recordsPerPage - 1, IDs.length)
 
-		return IDs.slice(start, end + 1);
+		return IDs.slice(start, end + 1)
 	},
-};
+}
 
 export const string = {
 	/**
@@ -196,6 +196,6 @@ export const string = {
 				.replace(/[‘’‛`´]/g, "'")
 				// double quotes “ and ” -> "
 				.replace(/[“”«»„‟]/g, '"')
-		);
+		)
 	},
-};
+}

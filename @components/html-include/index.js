@@ -13,10 +13,7 @@ export async function waitIncludeQueueEmpty() {
 export default class HtmlInclude extends HTMLElement {
 	async connectedCallback() {
 		const src = this.getAttribute('src')
-		if (!src) return
-
-		const promise = this._process(src)
-		includePromises.push(promise)
+		if (src) includePromises.push(this._process(src))
 	}
 
 	/**

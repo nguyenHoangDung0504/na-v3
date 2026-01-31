@@ -6,10 +6,10 @@ export class Track {
 	 * @param {AddtionalURL[]} additional
 	 */
 	constructor(info, category, resource, additional) {
-		this.info = info;
-		this.category = category;
-		this.resource = resource;
-		this.additional = additional;
+		this.info = info
+		this.category = category
+		this.resource = resource
+		this.additional = additional
 	}
 }
 
@@ -21,10 +21,10 @@ export class TrackInfo {
 	 * @param {string} jName
 	 */
 	constructor(code, RJcode, eName, jName) {
-		this.code = code;
-		this.RJcode = RJcode;
-		this.eName = eName;
-		this.jName = jName;
+		this.code = code
+		this.RJcode = RJcode
+		this.eName = eName
+		this.jName = jName
 	}
 }
 
@@ -39,10 +39,10 @@ export class Category {
 	 * @param {number} quantity
 	 */
 	constructor(id, type, name, quantity) {
-		this.id = id;
-		this.type = type;
-		this.name = name;
-		this.quantity = quantity;
+		this.id = id
+		this.type = type
+		this.name = name
+		this.quantity = quantity
 	}
 }
 
@@ -53,25 +53,25 @@ export class TrackCategories {
 	 * @param {number[]} seriesIDs
 	 */
 	constructor(cvIDs, tagIDs, seriesIDs) {
-		this.cvIDs = cvIDs;
-		this.tagIDs = tagIDs;
-		this.seriesIDs = seriesIDs;
+		this.cvIDs = cvIDs
+		this.tagIDs = tagIDs
+		this.seriesIDs = seriesIDs
 	}
 }
 
 export class Resource {
 	constructor(prefixID, name) {
-		this.prefixID = Number(prefixID);
-		this.rawName = name;
-		this.query = '';
-		this.fullPath = undefined;
+		this.prefixID = Number(prefixID)
+		this.rawName = name
+		this.query = ''
+		this.fullPath = undefined
 	}
 
 	get name() {
 		// return this.rawName;
 
 		// Note: update 17/8/2025, test decodeURIComponent for compress
-		return this.fullPath ? this.fullPath : (this.fullPath = encodeURIComponent(this.rawName) + this.query);
+		return this.fullPath ? this.fullPath : (this.fullPath = encodeURIComponent(this.rawName) + this.query)
 	}
 }
 
@@ -82,10 +82,10 @@ export class TrackResources {
 	 * @param {Resource[]} audios
 	 */
 	constructor(thumbnail, images, audios) {
-		this.thumbnail = thumbnail;
-		this.thumbnail.query = '?type=main';
-		this.images = images;
-		this.audios = audios;
+		this.thumbnail = thumbnail
+		this.thumbnail.query = '?type=main'
+		this.images = images
+		this.audios = audios
 	}
 }
 
@@ -95,8 +95,8 @@ export class AddtionalURL {
 	 * @param {string} url
 	 */
 	constructor(label, url) {
-		this.note = label;
-		this.url = url;
+		this.note = label
+		this.url = url
 	}
 }
 
@@ -112,7 +112,7 @@ export class SearchSuggestion {
 		series: 'Series',
 		eName: 'Name',
 		jName: 'Original Name',
-	};
+	}
 
 	/**
 	 * @param {T} type
@@ -121,10 +121,10 @@ export class SearchSuggestion {
 	 * @param {string | number} id
 	 */
 	constructor(type, value, keyword, id) {
-		this.type = type;
-		this.displayType = SearchSuggestion.typeToDisplay[type];
-		this.value = value;
-		this.keyword = keyword;
-		this.code = id;
+		this.type = type
+		this.displayType = SearchSuggestion.typeToDisplay[type]
+		this.value = value
+		this.keyword = keyword
+		this.code = id
 	}
 }

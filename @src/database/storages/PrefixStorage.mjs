@@ -1,12 +1,12 @@
 export default class PrefixStorage {
 	/** @type {Map<number, string>} */
-	_atoms = new Map();
+	_atoms = new Map()
 
 	/** @type {Map<number, string>} */
-	_prefixExpr = new Map();
+	_prefixExpr = new Map()
 
 	/** @type {Promise<void>} */
-	_pending;
+	_pending
 
 	/**
 	 * @param {string} resourcePath
@@ -14,7 +14,7 @@ export default class PrefixStorage {
 	constructor(resourcePath) {
 		this._pending = fetch(resourcePath + 'prefix.csv')
 			.then((res) => res.text())
-			.then((rawCSV) => this._parseRawCSV(rawCSV));
+			.then((rawCSV) => this._parseRawCSV(rawCSV))
 	}
 
 	/**
@@ -22,19 +22,19 @@ export default class PrefixStorage {
 	 * @param {string} rawCSV
 	 */
 	_parseRawCSV(rawCSV) {
-		const lines = rawCSV.trim().split('\n');
-		lines.shift(); // bỏ dòng header
+		const lines = rawCSV.trim().split('\n')
+		lines.shift() // bỏ dòng header
 
 		for (const line of lines) {
-			const parts = line.split(',');
+			const parts = line.split(',')
 			if (parts[0] === 'A') {
 				// Atom
-				const id = Number(parts[1]);
-				this._atoms.set(id, parts[2]);
+				const id = Number(parts[1])
+				this._atoms.set(id, parts[2])
 			} else {
 				// Prefix
-				const id = Number(parts[0]);
-				this._prefixExpr.set(id, parts[1]);
+				const id = Number(parts[0])
+				this._prefixExpr.set(id, parts[1])
 			}
 		}
 	}
@@ -48,13 +48,13 @@ export default class PrefixStorage {
 		return expr
 			.split('>')
 			.map((token) => {
-				const n = Number(token);
+				const n = Number(token)
 				if (!Number.isNaN(n) && this._atoms.has(n)) {
-					return this._atoms.get(n); // thay bằng atom
+					return this._atoms.get(n) // thay bằng atom
 				}
-				return token; // phần text thô
+				return token // phần text thô
 			})
-			.join('');
+			.join('')
 	}
 
 	/**
@@ -63,14 +63,14 @@ export default class PrefixStorage {
 	 * @returns {Promise<string | undefined>}
 	 */
 	async get(id) {
-		await this._pending;
+		await this._pending
 
 		if (!this._prefixExpr.has(id)) {
-			return undefined;
+			return undefined
 		}
 
-		const expr = this._prefixExpr.get(id);
-		return this._resolveExpression(expr);
+		const expr = this._prefixExpr.get(id)
+		return this._resolveExpression(expr)
 	}
 
 	/**
@@ -79,7 +79,7 @@ export default class PrefixStorage {
 	 * @returns {Promise<(string | undefined)[]>}
 	 */
 	async getAll(IDs) {
-		await this._pending;
-		return Promise.all(IDs.map((id) => this.get(id)));
+		await this._pending
+		return Promise.all(IDs.map((id) => this.get(id)))
 	}
 }

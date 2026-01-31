@@ -550,7 +550,9 @@ function enableHiddenInfoOnHover(db, selector, timeOut = 400) {
 		binding['list-tag'].innerHTML = (await db.tags.getAll(track.category.tagIDs))
 			// .map(({ name, quantity }) => `<span class="tag">#${name} (${quantity})</span>&nbsp;`)
 			.map(({ name, quantity }) =>
-				name.startsWith('*') ? `<span class="series">[${name.substring(1)}]</span>&nbsp;` : `<span class="tag">#${name}</span>&nbsp;`,
+				name.startsWith('*')
+					? `<span class="series">[${name.substring(1)}]</span>&nbsp;`
+					: `<span class="tag">#${name}</span>&nbsp;`,
 			)
 			.join('')
 		binding['list-series'].innerHTML = (await db.series.getAll(track.category.seriesIDs))

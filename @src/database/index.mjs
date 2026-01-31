@@ -1,9 +1,9 @@
-import decoratorManager from '../../@libraries/decorators/index.mjs';
-import { SearchSuggestion } from '../app.models.mjs';
-import * as utils from '../app.utils.mjs';
-import CategoryStorage from './storages/CategoryStorage.mjs';
-import PrefixStorage from './storages/PrefixStorage.mjs';
-import TrackStorage from './storages/TrackStorage.mjs';
+import decoratorManager from '../../@libraries/decorators/index.mjs'
+import { SearchSuggestion } from '../app.models.mjs'
+import * as utils from '../app.utils.mjs'
+import CategoryStorage from './storages/CategoryStorage.mjs'
+import PrefixStorage from './storages/PrefixStorage.mjs'
+import TrackStorage from './storages/TrackStorage.mjs'
 
 class Database {
 	/**
@@ -11,14 +11,14 @@ class Database {
 	 * @param {string} resourcePath
 	 */
 	constructor(resourcePath = '/@resources/databases/s1/') {
-		resourcePath = resourcePath.endsWith('/') ? resourcePath : resourcePath + '/';
+		resourcePath = resourcePath.endsWith('/') ? resourcePath : resourcePath + '/'
 
-		this.CVs = new CategoryStorage('cv', resourcePath);
-		this.tags = new CategoryStorage('tag', resourcePath);
-		this.series = new CategoryStorage('series', resourcePath);
+		this.CVs = new CategoryStorage('cv', resourcePath)
+		this.tags = new CategoryStorage('tag', resourcePath)
+		this.series = new CategoryStorage('series', resourcePath)
 
-		this.prefixies = new PrefixStorage(resourcePath);
-		this.tracks = new TrackStorage(resourcePath);
+		this.prefixies = new PrefixStorage(resourcePath)
+		this.tracks = new TrackStorage(resourcePath)
 	}
 
 	/**
@@ -27,15 +27,15 @@ class Database {
 	 * @param {number[]} IDs
 	 */
 	async searchTracksByCategory(type, searchIDs, IDs = null) {
-		IDs ??= await this.tracks.getIDs();
-		const keyList = [];
+		IDs ??= await this.tracks.getIDs()
+		const keyList = []
 
 		for (let i = 0; i < IDs.length; i++) {
-			const track = await this.tracks.get(IDs[i]);
-			if (searchIDs.every((id) => track.category[`${type}IDs`].includes(id))) keyList.push(IDs[i]);
+			const track = await this.tracks.get(IDs[i])
+			if (searchIDs.every((id) => track.category[`${type}IDs`].includes(id))) keyList.push(IDs[i])
 		}
 
-		return keyList;
+		return keyList
 	}
 
 	/**
@@ -43,31 +43,31 @@ class Database {
 	 * @param {number[]} IDs
 	 */
 	async searchTracks(keyword, IDs = null) {
-		IDs ??= await this.tracks.getIDs();
-		const lowerCaseKeyword = keyword.toString().toLowerCase();
-		const keyResults = new Set();
+		IDs ??= await this.tracks.getIDs()
+		const lowerCaseKeyword = keyword.toString().toLowerCase()
+		const keyResults = new Set()
 
 		// Track kết quả tạm với vị trí index ban đầu
-		const trackPromises = IDs.map((id, index) => this.tracks.get(id).then((track) => ({ id, track, index })));
+		const trackPromises = IDs.map((id, index) => this.tracks.get(id).then((track) => ({ id, track, index })))
 
-		const results = await Promise.all(trackPromises);
+		const results = await Promise.all(trackPromises)
 
 		// Tiến hành lọc kết quả:
 		for (const { id, track, index } of results) {
-			if (!track) continue;
+			if (!track) continue
 
 			let {
 				info: { RJcode, eName, jName },
 				category: { cvIDs, tagIDs, seriesIDs },
-			} = track;
+			} = track
 
 			// Chuẩn hóa dữ liệu
-			[RJcode, eName, jName] = [RJcode, eName, jName].map((str) => str.toLowerCase());
+			;[RJcode, eName, jName] = [RJcode, eName, jName].map((str) => str.toLowerCase())
 
 			// Nếu tìm thấy trong thông tin chính
 			if ([id.toString(), RJcode, eName, jName].some((prop) => prop.includes(lowerCaseKeyword))) {
-				keyResults.add({ id, index });
-				continue;
+				keyResults.add({ id, index })
+				continue
 			}
 
 			// Nếu tìm thấy trong category
@@ -75,7 +75,7 @@ class Database {
 				checkCategory(cvIDs, id, index, this.CVs),
 				checkCategory(tagIDs, id, index, this.tags),
 				checkCategory(seriesIDs, id, index, this.series),
-			]);
+			])
 		}
 
 		/**
@@ -90,20 +90,20 @@ class Database {
 				categoryMap.get(id).then((category) => ({
 					category,
 					id,
-				}))
-			);
+				})),
+			)
 
-			const categories = await Promise.all(categoryPromises);
+			const categories = await Promise.all(categoryPromises)
 			for (const { category } of categories) {
 				if (category && category.name.toLowerCase().includes(lowerCaseKeyword)) {
-					keyResults.add({ id, index });
-					break; // Chỉ cần tìm thấy 1 lần là đủ
+					keyResults.add({ id, index })
+					break // Chỉ cần tìm thấy 1 lần là đủ
 				}
 			}
 		}
 
 		// Sắp xếp theo index gốc
-		return [...keyResults].sort((a, b) => a.index - b.index).map((item) => item.id);
+		return [...keyResults].sort((a, b) => a.index - b.index).map((item) => item.id)
 	}
 
 	/**
@@ -111,44 +111,44 @@ class Database {
 	 * @returns {Promise<SearchSuggestion<'code' | 'RJcode' | 'cv' | 'tag' | 'series' | 'eName' | 'jName'>[]>}
 	 */
 	async getSearchSuggestions(keyword) {
-		const IDs = await this.tracks.getIDs();
-		const lowerCaseKeyword = keyword.toLowerCase();
-		const suggestions = [];
-		const seen = new Set();
+		const IDs = await this.tracks.getIDs()
+		const lowerCaseKeyword = keyword.toLowerCase()
+		const suggestions = []
+		const seen = new Set()
 
 		// Duyệt tất cả IDs và tạo các Promise song song
 		const trackPromises = IDs.map(async (id, index) => {
-			const track = await this.tracks.get(id);
-			if (!track) return null;
+			const track = await this.tracks.get(id)
+			if (!track) return null
 
-			const { RJcode, jName, eName } = track.info;
-			const { cvIDs, tagIDs, seriesIDs } = track.category;
+			const { RJcode, jName, eName } = track.info
+			const { cvIDs, tagIDs, seriesIDs } = track.category
 
 			// Check thông tin chính
-			await checkInfor('code', id.toString(), index, id);
-			await checkInfor('RJcode', RJcode, index, id);
-			await checkInfor('eName', eName, index, id);
-			await checkInfor('jName', jName, index, id);
+			await checkInfor('code', id.toString(), index, id)
+			await checkInfor('RJcode', RJcode, index, id)
+			await checkInfor('eName', eName, index, id)
+			await checkInfor('jName', jName, index, id)
 
 			// Check thông tin category
-			await checkCategory('cv', cvIDs, this.CVs, index);
-			await checkCategory('tag', tagIDs, this.tags, index);
-			await checkCategory('series', seriesIDs, this.series, index);
-		});
+			await checkCategory('cv', cvIDs, this.CVs, index)
+			await checkCategory('tag', tagIDs, this.tags, index)
+			await checkCategory('series', seriesIDs, this.series, index)
+		})
 
 		// Chờ tất cả các Promise hoàn tất
-		await Promise.all(trackPromises);
+		await Promise.all(trackPromises)
 
 		// Sắp xếp lại theo index gốc trước khi sort theo relevance
-		suggestions.sort((a, b) => a.index - b.index);
+		suggestions.sort((a, b) => a.index - b.index)
 		suggestions
 			.map((suggestion) => {
-				delete suggestion.index;
-				return suggestion;
+				delete suggestion.index
+				return suggestion
 			})
-			.sort(utils.sort.bySuggestionRelevance);
+			.sort(utils.sort.bySuggestionRelevance)
 
-		return suggestions;
+		return suggestions
 
 		/**
 		 * @param {keyof typeof track.info} type
@@ -157,12 +157,12 @@ class Database {
 		 * @param {number} id
 		 */
 		async function checkInfor(type, standardizedProp, index, id) {
-			const setKey = `${type}::${standardizedProp}`;
+			const setKey = `${type}::${standardizedProp}`
 			if (!seen.has(setKey) && standardizedProp.toLowerCase().includes(lowerCaseKeyword)) {
-				const suggestion = new SearchSuggestion(type, standardizedProp, keyword, id);
-				suggestion.index = index;
-				suggestions.push(suggestion);
-				seen.add(setKey);
+				const suggestion = new SearchSuggestion(type, standardizedProp, keyword, id)
+				suggestion.index = index
+				suggestions.push(suggestion)
+				seen.add(setKey)
 			}
 		}
 
@@ -175,18 +175,18 @@ class Database {
 		 */
 		async function checkCategory(type, IDs, categoryMap, index) {
 			const categoryPromises = IDs.map(async (id) => {
-				const category = await categoryMap.get(id);
-				if (!category) return;
+				const category = await categoryMap.get(id)
+				if (!category) return
 
-				const setKey = `${category.type}::${id}`;
+				const setKey = `${category.type}::${id}`
 				if (!seen.has(setKey) && category.name.toLowerCase().includes(lowerCaseKeyword)) {
-					const suggestion = new SearchSuggestion(type, category.name, keyword, `${type}-${id}`);
-					suggestion.index = index;
-					suggestions.push(suggestion);
-					seen.add(setKey);
+					const suggestion = new SearchSuggestion(type, category.name, keyword, `${type}-${id}`)
+					suggestion.index = index
+					suggestions.push(suggestion)
+					seen.add(setKey)
 				}
-			});
-			await Promise.all(categoryPromises);
+			})
+			await Promise.all(categoryPromises)
 		}
 	}
 
@@ -195,39 +195,39 @@ class Database {
 	 * @param {number[]} IDs
 	 */
 	async getRandomTracksKey(n, IDs = undefined) {
-		IDs ??= await this.tracks.getIDs();
-		let shuffledIndexes = JSON.parse(localStorage.getItem('shuffledIndexes'));
-		const randomKeyList = [];
+		IDs ??= await this.tracks.getIDs()
+		let shuffledIndexes = JSON.parse(localStorage.getItem('shuffledIndexes'))
+		const randomKeyList = []
 
 		if (!shuffledIndexes || shuffledIndexes.length < n) {
 			const remainingIndexes = Array.from(
-				Array(!shuffledIndexes ? IDs.length : IDs.length - shuffledIndexes.length).keys()
-			);
-			utils.array.shuffle(remainingIndexes);
+				Array(!shuffledIndexes ? IDs.length : IDs.length - shuffledIndexes.length).keys(),
+			)
+			utils.array.shuffle(remainingIndexes)
 			if (!shuffledIndexes) {
-				shuffledIndexes = remainingIndexes;
+				shuffledIndexes = remainingIndexes
 			} else {
-				shuffledIndexes.push(...remainingIndexes);
+				shuffledIndexes.push(...remainingIndexes)
 			}
-			localStorage.setItem('shuffledIndexes', JSON.stringify(shuffledIndexes));
+			localStorage.setItem('shuffledIndexes', JSON.stringify(shuffledIndexes))
 		}
 
 		for (let i = 0; i < n; i++) {
-			randomKeyList.push(IDs[shuffledIndexes[i]]);
+			randomKeyList.push(IDs[shuffledIndexes[i]])
 		}
 
-		shuffledIndexes = shuffledIndexes.slice(n);
-		localStorage.setItem('shuffledIndexes', JSON.stringify(shuffledIndexes));
+		shuffledIndexes = shuffledIndexes.slice(n)
+		localStorage.setItem('shuffledIndexes', JSON.stringify(shuffledIndexes))
 
-		return randomKeyList;
+		return randomKeyList
 	}
 
 	export() {
-		window.database = this;
+		window.database = this
 	}
 }
 
-decoratorManager.applyFor(Database, ['searchTracksByCategory', 'searchTracks', 'getSearchSuggestions'], ['memoize']);
-decoratorManager.applyFor(PrefixStorage, ['get', 'getAll'], ['memoize']);
+decoratorManager.applyFor(Database, ['searchTracksByCategory', 'searchTracks', 'getSearchSuggestions'], ['memoize'])
+decoratorManager.applyFor(PrefixStorage, ['get', 'getAll'], ['memoize'])
 
-export const database = new Database();
+export const database = new Database()

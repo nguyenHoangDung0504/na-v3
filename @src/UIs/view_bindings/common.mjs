@@ -1,4 +1,4 @@
-import { createViewBinding } from '../../../@libraries/view_binding/index.mjs';
+import { createViewBinding } from '../../../@libraries/view_binding/index.mjs'
 
 const { viewBinding: appViewBinding } = createViewBinding({
 	header: '.header',
@@ -6,7 +6,7 @@ const { viewBinding: appViewBinding } = createViewBinding({
 	categoriesModal: '#categories-modal',
 	gachaModal: '#gacha-modal',
 	loader: '#loader',
-});
+})
 
 const { viewBinding: menuViewBinding } = createViewBinding({
 	closeBtn: '#close-menu-btn',
@@ -15,20 +15,20 @@ const { viewBinding: menuViewBinding } = createViewBinding({
 	forwardBtn: '.forward-item',
 	openCatModalBtn: '#open-categories-modal-btn',
 	openGachaModalBtn: '#open-gacha-modal-btn',
-	clearCacheBtn: '#clear-cache'
-});
+	clearCacheBtn: '#clear-cache',
+})
 
 const { viewBinding: headerViewBinding } = createViewBinding({
 	toggleBtn: '#toggle-menu-btn',
 	searchInput: '#main-search-input = input',
 	searchBtn: '#main-search-icon',
 	resultBox: '.result-box',
-});
+})
 
 const { viewBinding: suggestionsViewBinding } = createViewBinding({
 	type: 'strong',
 	value: 'span',
-});
+})
 
 const { viewBinding: categoriesViewBinding } = createViewBinding({
 	rankListCvCtn: '.cv-b',
@@ -40,7 +40,7 @@ const { viewBinding: categoriesViewBinding } = createViewBinding({
 	accordions: '.accordion-header = []',
 	closeBtn: '#close-categories-modal-btn',
 	subRankList: '.sub-rank-list = []',
-});
+})
 
 const { viewBinding: gachaViewBinding } = createViewBinding({
 	gridGachaModal: '.gacha-grid-container',
@@ -48,7 +48,7 @@ const { viewBinding: gachaViewBinding } = createViewBinding({
 	closeBtn: '#close-gacha-modal-btn',
 	gacha1: '#gachaX1',
 	gacha10: '#gachaX10',
-});
+})
 
 const { viewBinding: gachaRsItem } = createViewBinding({
 	img: 'img',
@@ -58,7 +58,7 @@ const { viewBinding: gachaRsItem } = createViewBinding({
 	pEngname: '[p-engname]',
 	cvLabel: '[p-cv-label]',
 	cvList: '[p-cvs]',
-});
+})
 
 const { viewBinding: hiddenItemViewBinding } = createViewBinding({
 	'rj-code': '.rj-code',
@@ -68,7 +68,7 @@ const { viewBinding: hiddenItemViewBinding } = createViewBinding({
 	'list-cv': '.list-cv?',
 	'list-tag': '.list-tag?',
 	img: 'img',
-});
+})
 
 export {
 	appViewBinding,
@@ -79,4 +79,4 @@ export {
 	gachaViewBinding,
 	gachaRsItem,
 	hiddenItemViewBinding,
-};
+}

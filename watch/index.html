@@ -21,17 +21,10 @@
 <body>
     <div class="close-menu"></div>
 
-    <!-- CATEGORIES MODAL -->
-    <html-i src="/@src/UIs/components/modals/categories/index.html" css="none"></html-i>
-
-    <!-- GACHA_MODAL -->
-    <html-i src="/@src/UIs/components/modals/gacha/index.html" css="none"></html-i>
-
-    <!-- HEADER -->
-    <html-i src="/@src/UIs/components/header/index.html" css="none"></html-i>
-
-    <!-- MENU -->
-    <html-i src="/@src/UIs/components/menu/index.html" css="none"></html-i>
+    <html-i src="/@src/UIs/components/modals/categories/" css="none"></html-i><!-- CATEGORIES MODAL -->
+    <html-i src="/@src/UIs/components/modals/gacha/" css="none"></html-i><!-- GACHA_MODAL -->
+    <html-i src="/@src/UIs/components/header/" css="none"></html-i><!-- HEADER -->
+    <html-i src="/@src/UIs/components/menu/" css="none"></html-i><!-- MENU -->
 
     <div class="container">
         <div class="vid_div">
@@ -87,35 +80,19 @@
         <div class="content_div">
             <h2>Random post</h2>
             <div class="post-box" id="random-post">
-                <a data-code="103539" href="../watch?code=103539">
-                    <div class="imgcontainer image-container">
-                        <img loading="lazy" decoding="async" referrerpolicy="no-referrer"
-                            src="https://api.asmr-200.com/api/cover/01110728.jpg?type=main" alt=" - Thumbnail:103539">
-                    </div>
-                    <div class="text-box">
-                        <p class="content-p">
-                            <b><i p-rjcode>RJ01110728</i></b>
-                            <span p-engname> - Job encyclopedia 04 ”The job of a stopper” - This is a job to hold back
-                                ejaculation
-                                ♪</span>
-                        </p>
-                    </div>
-                </a>
+                <html-i src="/@src/UIs/components/body/random-post-item/" css="none"></html-i>
             </div>
         </div>
     </div>
 
-    <!-- FOOTER -->
-    <html-i src="/@src/UIs/components/footer/index.html" css="none"></html-i>
+    <html-i src="/@src/UIs/components/footer/" css="none"></html-i><!-- FOOTER -->
+    <html-i src="/@src/UIs/components/hidden-data-container/" css="none"></html-i><!-- HIDDEN DATA CONTAINER -->
 
     <!-- LOADER -->
     <div id="loader" class="loader-modal show"> <!-- Use class show to display -->
         <div class="loader"></div>
         <div class="displayer" message="Loading..."></div>
     </div>
-
-    <!-- HIDDEN DATA CONTAINER -->
-    <html-i src="/@src/UIs/components/hidden-data-container/index.html" css="none"></html-i>
 </body>
 
 </html>

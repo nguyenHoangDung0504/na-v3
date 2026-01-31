@@ -11,568 +11,548 @@ class SwipeHandler {
 		rightToLeft = () => null,
 		up = () => null,
 		down = () => null,
-		thresholdRatio = 2
+		thresholdRatio = 2,
 	) {
-		Object.assign(this, { element, leftToRight, rightToLeft, up, down, thresholdRatio });
-		this.startX = 0;
-		this.startY = 0;
-		this.endX = 0;
-		this.endY = 0;
-		this.isSelectingText = false;
-		document.addEventListener('selectionchange', this.handleSelectionChange.bind(this));
+		Object.assign(this, { element, leftToRight, rightToLeft, up, down, thresholdRatio })
+		this.startX = 0
+		this.startY = 0
+		this.endX = 0
+		this.endY = 0
+		this.isSelectingText = false
+		document.addEventListener('selectionchange', this.handleSelectionChange.bind(this))
 	}
 
 	registerEvents() {
-		this.element.addEventListener('mousedown', this.handleMouseDown.bind(this));
-		this.element.addEventListener('mouseup', this.handleMouseUp.bind(this));
-		this.element.addEventListener('touchstart', this.handleTouchStart.bind(this));
-		this.element.addEventListener('touchend', this.handleTouchEnd.bind(this));
+		this.element.addEventListener('mousedown', this.handleMouseDown.bind(this))
+		this.element.addEventListener('mouseup', this.handleMouseUp.bind(this))
+		this.element.addEventListener('touchstart', this.handleTouchStart.bind(this))
+		this.element.addEventListener('touchend', this.handleTouchEnd.bind(this))
 	}
 
 	handleMouseDown(event) {
-		if (event.target.tagName === 'IMG') event.preventDefault();
-		this.startX = event.clientX;
-		this.startY = event.clientY;
-		this.isSelectingText = false;
+		if (event.target.tagName === 'IMG') event.preventDefault()
+		this.startX = event.clientX
+		this.startY = event.clientY
+		this.isSelectingText = false
 	}
 
 	handleMouseUp(event) {
-		const targetTagName = event.target.tagName;
+		const targetTagName = event.target.tagName
 
 		// Ignore if event start from select or option
-		if (targetTagName === 'OPTION' || targetTagName === 'SELECT') return;
+		if (targetTagName === 'OPTION' || targetTagName === 'SELECT') return
 
-		this.endX = event.clientX;
-		this.endY = event.clientY;
+		this.endX = event.clientX
+		this.endY = event.clientY
 		if (!this.isSelectingText) {
-			this.handleSwipe();
+			this.handleSwipe()
 		}
 	}
 
 	handleTouchStart(event) {
-		if (event.touches.length > 1) return;
-		this.startX = event.touches[0].clientX;
-		this.startY = event.touches[0].clientY;
-		this.isSelectingText = false;
+		if (event.touches.length > 1) return
+		this.startX = event.touches[0].clientX
+		this.startY = event.touches[0].clientY
+		this.isSelectingText = false
 	}
 
 	handleTouchEnd(event) {
-		if (event.touches.length > 1) return;
-		this.endX = event.changedTouches[0].clientX;
-		this.endY = event.changedTouches[0].clientY;
+		if (event.touches.length > 1) return
+		this.endX = event.changedTouches[0].clientX
+		this.endY = event.changedTouches[0].clientY
 		if (!this.isSelectingText) {
-			this.handleSwipe();
+			this.handleSwipe()
 		}
 	}
 
 	handleSwipe() {
-		const deltaX = this.endX - this.startX;
-		const deltaY = this.endY - this.startY;
-		const absDeltaX = Math.abs(deltaX);
-		const absDeltaY = Math.abs(deltaY);
+		const deltaX = this.endX - this.startX
+		const deltaY = this.endY - this.startY
+		const absDeltaX = Math.abs(deltaX)
+		const absDeltaY = Math.abs(deltaY)
 
 		if (absDeltaX > absDeltaY && absDeltaX / absDeltaY > this.thresholdRatio) {
 			if (deltaX > 0) {
-				this.leftToRight();
-				return;
+				this.leftToRight()
+				return
 			}
-			this.rightToLeft();
+			this.rightToLeft()
 		} else if (absDeltaY > absDeltaX && absDeltaY / absDeltaX > this.thresholdRatio) {
 			if (deltaY > 0) {
-				this.down();
-				return;
+				this.down()
+				return
 			}
-			this.up();
+			this.up()
 		}
 	}
 
 	handleSelectionChange() {
-		this.isSelectingText = !!document.getSelection().toString(); // Cập nhật biến khi bôi đen văn bản
+		this.isSelectingText = !!document.getSelection().toString() // Cập nhật biến khi bôi đen văn bản
 	}
 }
 
 class VideoPlayer {
-	#isDragging = false;
+	#isDragging = false
 
 	constructor(src) {
-		this.touchStartX = 0;
-		this.initialTime = 0; // Thời gian khi bắt đầu touch
-		this.startSeekTime = 0; // Thời gian khi bắt đầu seek (cho delta)
-		this.wasPlayingBeforeDrag = false;
+		this.touchStartX = 0
+		this.initialTime = 0 // Thời gian khi bắt đầu touch
+		this.startSeekTime = 0 // Thời gian khi bắt đầu seek (cho delta)
+		this.wasPlayingBeforeDrag = false
 		// Đơn vị: px/s
-		this.mousePixelsPerSecond = 15; // Tăng độ nhạy mouse (ít pixel hơn = tua nhanh hơn)
-		this.touchPixelsPerSecond = 15; // Tăng độ nhạy touch đáng kể
-		this.timeIndicatorTimeout = null;
+		this.mousePixelsPerSecond = 15 // Tăng độ nhạy mouse (ít pixel hơn = tua nhanh hơn)
+		this.touchPixelsPerSecond = 15 // Tăng độ nhạy touch đáng kể
+		this.timeIndicatorTimeout = null
 
-		this.createElements(src);
-		this.bindEvents();
+		this.createElements(src)
+		this.bindEvents()
 
-		return this.vidContainer;
+		return this.vidContainer
 	}
 
 	createElements(src) {
-		this.vidContainer = document.createElement('zoomable-content');
-		this.vidContainer.classList.add('video-ctn');
+		this.vidContainer = document.createElement('zoomable-content')
+		this.vidContainer.classList.add('video-ctn')
 
 		// Create time indicator
-		this.timeIndicator = document.createElement('div');
-		this.timeIndicator.className = 'time-indicator';
-		this.timeIndicator.style.display = 'none';
+		this.timeIndicator = document.createElement('div')
+		this.timeIndicator.className = 'time-indicator'
+		this.timeIndicator.style.display = 'none'
 
 		// Create video element
-		this.video = document.createElement('video');
-		this.video.innerHTML = `<source src="${src}">`;
-		this.video.dataset.isPause = 'true';
-		this.video.dataset.timeChange = '0';
-		this.video.controls = true;
-		this.video.preload = 'none';
+		this.video = document.createElement('video')
+		this.video.innerHTML = `<source src="${src}">`
+		this.video.dataset.isPause = 'true'
+		this.video.dataset.timeChange = '0'
+		this.video.controls = true
+		this.video.preload = 'none'
 
 		// Append elements
-		this.vidContainer.appendChild(this.timeIndicator);
-		this.vidContainer.appendChild(this.video);
+		this.vidContainer.appendChild(this.timeIndicator)
+		this.vidContainer.appendChild(this.video)
 	}
 
 	bindEvents() {
 		// Video events - disable default behaviors
 		this.video.addEventListener('click', (e) => {
 			if (this.vidContainer.scale !== 1) {
-				e.preventDefault();
-				e.stopPropagation();
+				e.preventDefault()
+				e.stopPropagation()
 			}
-		});
+		})
 
 		this.video.addEventListener('dblclick', (e) => {
-			e.preventDefault();
-			e.stopPropagation();
-		});
+			e.preventDefault()
+			e.stopPropagation()
+		})
 
 		// Disable fullscreen on double click for the entire container
 		this.vidContainer.addEventListener('dblclick', (e) => {
-			e.preventDefault();
-			e.stopPropagation();
-		});
+			e.preventDefault()
+			e.stopPropagation()
+		})
 
 		// Video state events
 		this.video.addEventListener('pause', () => {
-			this.video.dataset.isPause = 'true';
-		});
+			this.video.dataset.isPause = 'true'
+		})
 
 		this.video.addEventListener('play', () => {
-			this.video.dataset.isPause = 'false';
-		});
+			this.video.dataset.isPause = 'false'
+		})
 
 		// Mouse events
-		this.vidContainer.addEventListener('mousedown', this.handleSeekStart.bind(this));
-		this.vidContainer.addEventListener('mouseup', this.handleSeekEnd.bind(this));
-		this.vidContainer.addEventListener('mousemove', this.handleMouseSeek.bind(this));
+		this.vidContainer.addEventListener('mousedown', this.handleSeekStart.bind(this))
+		this.vidContainer.addEventListener('mouseup', this.handleSeekEnd.bind(this))
+		this.vidContainer.addEventListener('mousemove', this.handleMouseSeek.bind(this))
 
 		// Touch events
-		this.vidContainer.addEventListener('touchstart', this.handleTouchStart.bind(this), { passive: false });
-		this.vidContainer.addEventListener('touchend', this.handleTouchEnd.bind(this));
-		this.vidContainer.addEventListener('touchmove', this.handleTouchSeek.bind(this), { passive: false });
+		this.vidContainer.addEventListener('touchstart', this.handleTouchStart.bind(this), { passive: false })
+		this.vidContainer.addEventListener('touchend', this.handleTouchEnd.bind(this))
+		this.vidContainer.addEventListener('touchmove', this.handleTouchSeek.bind(this), { passive: false })
 
 		// Prevent context menu
-		this.vidContainer.addEventListener('contextmenu', (e) => e.preventDefault());
+		this.vidContainer.addEventListener('contextmenu', (e) => e.preventDefault())
 	}
 
 	handleSeekStart() {
-		if (!this.isSeekable) return;
+		if (!this.isSeekable) return
 
-		this.#isDragging = true;
-		this.wasPlayingBeforeDrag = !this.video.paused;
-		this.startSeekTime = this.video.currentTime; // Lưu thời gian bắt đầu seek
-		this.pause();
+		this.#isDragging = true
+		this.wasPlayingBeforeDrag = !this.video.paused
+		this.startSeekTime = this.video.currentTime // Lưu thời gian bắt đầu seek
+		this.pause()
 
 		// Show time indicator after delay
 		this.timeIndicatorTimeout = setTimeout(() => {
 			if (this.#isDragging) {
-				this.showTimeIndicator();
+				this.showTimeIndicator()
 			}
-		}, 100);
+		}, 100)
 	}
 
 	handleSeekEnd() {
-		if (!this.isDragging) return;
+		if (!this.isDragging) return
 
-		this.#isDragging = false;
-		this.clearTimeIndicatorTimeout();
+		this.#isDragging = false
+		this.clearTimeIndicatorTimeout()
 
-		const hasTimeChange = parseFloat(this.video.dataset.timeChange) > 0;
+		const hasTimeChange = parseFloat(this.video.dataset.timeChange) > 0
 
-		this.hideTimeIndicator();
-		this.video.dataset.timeChange = '0';
-		this.startSeekTime = 0; // Reset
+		this.hideTimeIndicator()
+		this.video.dataset.timeChange = '0'
+		this.startSeekTime = 0 // Reset
 
 		// Delay play để tránh interrupt
 		if (hasTimeChange && this.wasPlayingBeforeDrag) {
 			setTimeout(() => {
-				this.play();
-			}, 50);
+				this.play()
+			}, 50)
 		}
 	}
 
 	handleMouseSeek(event) {
-		if (!this.isDragging || !this.video.duration) return;
+		if (!this.isDragging || !this.video.duration) return
 
-		const timeToSeek = event.movementX / this.mousePixelsPerSecond;
-		this.seekVideo(timeToSeek);
-		this.updateTimeIndicator();
+		const timeToSeek = event.movementX / this.mousePixelsPerSecond
+		this.seekVideo(timeToSeek)
+		this.updateTimeIndicator()
 	}
 
 	handleTouchStart(event) {
 		if (!this.isSeekable) {
-			event.preventDefault();
-			return;
+			event.preventDefault()
+			return
 		}
 
-		event.preventDefault();
-		this.#isDragging = true;
-		this.wasPlayingBeforeDrag = !this.video.paused;
-		this.touchStartX = event.touches[0].clientX;
-		this.initialTime = this.video.currentTime; // Lưu thời gian ban đầu
-		this.startSeekTime = this.video.currentTime; // Lưu thời gian bắt đầu seek
-		this.pause();
+		event.preventDefault()
+		this.#isDragging = true
+		this.wasPlayingBeforeDrag = !this.video.paused
+		this.touchStartX = event.touches[0].clientX
+		this.initialTime = this.video.currentTime // Lưu thời gian ban đầu
+		this.startSeekTime = this.video.currentTime // Lưu thời gian bắt đầu seek
+		this.pause()
 
 		// Hiện time indicator ngay lập tức trên mobile
-		this.showTimeIndicator();
+		this.showTimeIndicator()
 	}
 
 	handleTouchEnd() {
-		if (!this.isDragging) return;
+		if (!this.isDragging) return
 
-		this.#isDragging = false;
-		this.touchStartX = 0;
-		this.initialTime = 0;
+		this.#isDragging = false
+		this.touchStartX = 0
+		this.initialTime = 0
 
-		const hasTimeChange = parseFloat(this.video.dataset.timeChange) > 0;
+		const hasTimeChange = parseFloat(this.video.dataset.timeChange) > 0
 
-		this.hideTimeIndicator();
-		this.video.dataset.timeChange = '0';
-		this.startSeekTime = 0; // Reset
+		this.hideTimeIndicator()
+		this.video.dataset.timeChange = '0'
+		this.startSeekTime = 0 // Reset
 
 		// Delay play để tránh interrupt
 		if (hasTimeChange && this.wasPlayingBeforeDrag) {
 			setTimeout(() => {
-				this.play();
-			}, 50);
+				this.play()
+			}, 50)
 		}
 	}
 
 	handleTouchSeek(event) {
-		if (!this.isDragging || !this.video.duration) return;
+		if (!this.isDragging || !this.video.duration) return
 
-		event.preventDefault();
+		event.preventDefault()
 
-		const touchCurrentX = event.touches[0].clientX;
-		const touchDistanceX = touchCurrentX - this.touchStartX;
+		const touchCurrentX = event.touches[0].clientX
+		const touchDistanceX = touchCurrentX - this.touchStartX
 
 		// Sử dụng tổng distance từ lúc bắt đầu để tua mượt hơn
-		const timeToSeek = touchDistanceX / this.touchPixelsPerSecond;
-		const newTime = Math.max(0, Math.min(this.initialTime + timeToSeek, this.video.duration));
-		const timeChange = Math.abs(newTime - this.video.currentTime);
+		const timeToSeek = touchDistanceX / this.touchPixelsPerSecond
+		const newTime = Math.max(0, Math.min(this.initialTime + timeToSeek, this.video.duration))
+		const timeChange = Math.abs(newTime - this.video.currentTime)
 
-		this.video.currentTime = newTime;
-		this.video.dataset.timeChange = timeChange.toString();
-		this.updateTimeIndicator(); // Cập nhật indicator khi tua
+		this.video.currentTime = newTime
+		this.video.dataset.timeChange = timeChange.toString()
+		this.updateTimeIndicator() // Cập nhật indicator khi tua
 	}
 
 	seekVideo(timeToSeek) {
-		const currentTime = this.video.currentTime;
-		const newTime = Math.max(0, Math.min(currentTime + timeToSeek, this.video.duration));
-		const timeChange = Math.abs(newTime - currentTime);
+		const currentTime = this.video.currentTime
+		const newTime = Math.max(0, Math.min(currentTime + timeToSeek, this.video.duration))
+		const timeChange = Math.abs(newTime - currentTime)
 
-		this.video.currentTime = newTime;
-		this.video.dataset.timeChange = timeChange.toString();
+		this.video.currentTime = newTime
+		this.video.dataset.timeChange = timeChange.toString()
 	}
 
 	showTimeIndicator() {
-		this.timeIndicator.style.display = 'block';
-		this.updateTimeIndicator();
+		this.timeIndicator.style.display = 'block'
+		this.updateTimeIndicator()
 	}
 
 	hideTimeIndicator() {
-		this.timeIndicator.style.display = 'none';
+		this.timeIndicator.style.display = 'none'
 	}
 
 	clearTimeIndicatorTimeout() {
 		if (this.timeIndicatorTimeout) {
-			clearTimeout(this.timeIndicatorTimeout);
-			this.timeIndicatorTimeout = null;
+			clearTimeout(this.timeIndicatorTimeout)
+			this.timeIndicatorTimeout = null
 		}
 	}
 
 	updateTimeIndicator() {
-		const currentTime = this.video.currentTime;
-		const totalTime = this.video.duration;
-		const formattedTime = this.formatTime(currentTime);
-		const formattedTotal = this.formatTime(totalTime);
+		const currentTime = this.video.currentTime
+		const totalTime = this.video.duration
+		const formattedTime = this.formatTime(currentTime)
+		const formattedTotal = this.formatTime(totalTime)
 
 		// Tính delta time
-		let deltaText = '';
+		let deltaText = ''
 		if (this.startSeekTime > 0) {
-			const deltaTime = currentTime - this.startSeekTime;
-			const absDelta = Math.abs(deltaTime);
+			const deltaTime = currentTime - this.startSeekTime
+			const absDelta = Math.abs(deltaTime)
 
 			if (absDelta >= 1) {
 				// Chỉ hiện nếu delta >= 1 giây
-				const sign = deltaTime >= 0 ? '+' : '-';
-				deltaText = ` (${sign}${Math.floor(absDelta)}s)`;
+				const sign = deltaTime >= 0 ? '+' : '-'
+				deltaText = ` (${sign}${Math.floor(absDelta)}s)`
 			}
 		}
 
-		this.timeIndicator.textContent = `${formattedTime} / ${formattedTotal}${deltaText}`;
+		this.timeIndicator.textContent = `${formattedTime} / ${formattedTotal}${deltaText}`
 	}
 
 	formatTime(time) {
-		if (!time || isNaN(time)) return '00:00';
+		if (!time || isNaN(time)) return '00:00'
 
-		const hours = Math.floor(time / 3600);
-		const minutes = Math.floor((time % 3600) / 60);
-		const seconds = Math.floor(time % 60);
+		const hours = Math.floor(time / 3600)
+		const minutes = Math.floor((time % 3600) / 60)
+		const seconds = Math.floor(time % 60)
 
 		if (hours > 0) {
-			return `${this.padZero(hours)}:${this.padZero(minutes)}:${this.padZero(seconds)}`;
+			return `${this.padZero(hours)}:${this.padZero(minutes)}:${this.padZero(seconds)}`
 		} else {
-			return `${this.padZero(minutes)}:${this.padZero(seconds)}`;
+			return `${this.padZero(minutes)}:${this.padZero(seconds)}`
 		}
 	}
 
 	padZero(time) {
-		return time < 10 ? '0' + time : time;
+		return time < 10 ? '0' + time : time
 	}
 
 	async play() {
 		try {
 			// Don't play if zoomed
-			if (this.vidContainer.scale !== 1) return;
-			if (this.video.dataset.isPause === 'false') return;
+			if (this.vidContainer.scale !== 1) return
+			if (this.video.dataset.isPause === 'false') return
 
-			this.video.dataset.isPause = 'false';
-			await this.video.play();
+			this.video.dataset.isPause = 'false'
+			await this.video.play()
 		} catch (error) {
-			console.error('Failed to play video:', error);
-			this.video.dataset.isPause = 'true';
+			console.error('Failed to play video:', error)
+			this.video.dataset.isPause = 'true'
 		}
 	}
 
 	pause() {
-		if (this.video.dataset.isPause === 'true') return;
+		if (this.video.dataset.isPause === 'true') return
 
-		this.video.dataset.isPause = 'true';
-		this.video.pause();
+		this.video.dataset.isPause = 'true'
+		this.video.pause()
 	}
 
 	// Getters and setters
 	set isDragging(value) {
-		this.#isDragging = value;
+		this.#isDragging = value
 	}
 
 	get isDragging() {
-		return this.#isDragging && this.vidContainer.scale === 1;
+		return this.#isDragging && this.vidContainer.scale === 1
 	}
 
 	get isSeekable() {
-		return this.vidContainer.scale === 1;
+		return this.vidContainer.scale === 1
 	}
 
 	// Utility methods
 	getCurrentTime() {
-		return this.video.currentTime;
+		return this.video.currentTime
 	}
 
 	getDuration() {
-		return this.video.duration;
+		return this.video.duration
 	}
 
 	setCurrentTime(time) {
-		if (time >= 0 && time <= this.video.duration) {
-			this.video.currentTime = time;
-		}
+		if (time >= 0 && time <= this.video.duration) this.video.currentTime = time
 	}
 
 	// Cleanup method
 	destroy() {
-		this.clearTimeIndicatorTimeout();
-		this.pause();
-		this.vidContainer.remove();
+		this.clearTimeIndicatorTimeout()
+		this.pause()
+		this.vidContainer.remove()
 	}
 }
 
 class ImageDisplayer {
+	/**
+	 * @param {string} src
+	 * @param {EventListener} toggleScreen
+	 */
 	constructor(src, toggleScreen) {
-		const ctn = document.createElement('zoomable-content');
-		ctn.classList.add('img-ctn');
+		const ctn = document.createElement('zoomable-content')
+		ctn.classList.add('img-ctn')
 
-		this.div = document.createElement('div');
-		this.div.classList.add('get-evt');
+		this.div = document.createElement('div')
+		this.div.classList.add('get-evt')
 
-		const img = document.createElement('img');
-		img.decoding = 'async';
-		img.loading = 'lazy';
-		img.referrerPolicy = 'no-referrer';
-		img.classList.add('img');
-		img.src = src;
+		const img = document.createElement('img')
+		img.decoding = 'async'
+		img.loading = 'lazy'
+		img.referrerPolicy = 'no-referrer'
+		img.classList.add('img')
+		img.src = src
 
-		ctn.appendChild(img);
-		this.div.addEventListener('dblclick', toggleScreen);
+		ctn.appendChild(img)
+		this.div.addEventListener('dblclick', toggleScreen)
 
 		new SwipeHandler(
 			this.div,
 			() => ctn.scale === 1 && document.querySelector('#prev-btn').click(),
 			() => ctn.scale === 1 && document.querySelector('#next-btn').click(),
 			() => ctn.scale === 1 && document.body.classList.add('open-menu-mp3'),
-			() => ctn.scale === 1 && document.body.classList.remove('open-menu-mp3')
-		).registerEvents();
+			() => ctn.scale === 1 && document.body.classList.remove('open-menu-mp3'),
+		).registerEvents()
 
-		ctn.appendChild(this.div);
-		return ctn;
+		ctn.appendChild(this.div)
+		return ctn
 	}
 }
 
 class AudioPlayer {
+	/**
+	 * @param {HTMLAudioElement} audioElements
+	 * @param {number} code
+	 * @param {string[]} CVnames
+	 * @param {string[]} seriesNames
+	 * @param {string} thumbnail
+	 */
 	constructor(audioElements, code, CVnames, seriesNames, thumbnail) {
-		this.audioElements = audioElements;
-		this.code = code;
-		this.CVnames = CVnames;
-		this.seriesNames = seriesNames;
-		this.thumbnail = thumbnail;
-		this.currentAudioIndex = 0;
-		this.isPlaying = false;
-		this.setupAutoNext();
+		this.audioElements = audioElements
+		this.code = code
+		this.CVnames = CVnames
+		this.seriesNames = seriesNames
+		this.thumbnail = thumbnail
+		this.currentAudioIndex = 0
+		this.isPlaying = false
+		this.setupAutoNext()
 	}
 
 	setupAutoNext(stopWhenDone = true) {
 		this.audioElements.forEach((audio, index) => {
 			audio.addEventListener('ended', () => {
 				if (index === this.currentAudioIndex) {
-					const isLast = this.currentAudioIndex === this.audioElements.length - 1;
+					const isLast = this.currentAudioIndex === this.audioElements.length - 1
 					if (isLast && stopWhenDone) {
-						this.isPlaying = false;
-						console.log('--> [App.materials.AudioPlayer] All tracks played.');
-					} else {
-						this.playNextTrack();
-					}
+						this.isPlaying = false
+						console.log('--> [App.materials.AudioPlayer] All tracks played.')
+					} else this.playNextTrack()
 				}
-			});
+			})
 
 			// Thêm error handler
 			audio.addEventListener('error', (e) => {
-				console.error('--> [App.materials.AudioPlayer] Audio error:', e);
-				this.isPlaying = false;
-			});
+				console.error('--> [App.materials.AudioPlayer] Audio error:', e)
+				this.isPlaying = false
+			})
 
 			// Thêm loading/waiting handler
-			audio.addEventListener('waiting', () => {
-				console.log('--> [App.materials.AudioPlayer] Audio buffering...');
-			});
-		});
+			audio.addEventListener('waiting', () => console.log('--> [App.materials.AudioPlayer] Audio buffering...'))
+		})
 	}
 
 	async playCurrentTrack() {
-		const currentAudio = this.audioElements[this.currentAudioIndex];
+		const currentAudio = this.audioElements[this.currentAudioIndex]
 
 		try {
 			// Với preload="none", gọi play() sẽ tự động load và play
-			await currentAudio.play();
-			this.isPlaying = true;
+			await currentAudio.play()
+			this.isPlaying = true
 
 			// Cập nhật Media Session state
-			if ('mediaSession' in navigator) {
-				navigator.mediaSession.playbackState = 'playing';
-			}
+			if ('mediaSession' in navigator) navigator.mediaSession.playbackState = 'playing'
 		} catch (error) {
-			console.error('--> [App.materials.AudioPlayer] Failed to play audio:', error);
-			this.isPlaying = false;
+			console.error('--> [App.materials.AudioPlayer] Failed to play audio:', error)
+			this.isPlaying = false
 
-			if ('mediaSession' in navigator) {
-				navigator.mediaSession.playbackState = 'paused';
-			}
+			if ('mediaSession' in navigator) navigator.mediaSession.playbackState = 'paused'
 		}
 	}
 
 	pauseCurrentTrack() {
-		const currentAudio = this.audioElements[this.currentAudioIndex];
-		currentAudio.pause();
-		this.isPlaying = false;
+		const currentAudio = this.audioElements[this.currentAudioIndex]
+		currentAudio.pause()
+		this.isPlaying = false
 
-		if ('mediaSession' in navigator) {
-			navigator.mediaSession.playbackState = 'paused';
-		}
+		if ('mediaSession' in navigator) navigator.mediaSession.playbackState = 'paused'
 	}
 
 	async playNextTrack() {
-		this.pauseCurrentTrack();
-		this.currentAudioIndex++;
-		if (this.currentAudioIndex >= this.audioElements.length) {
-			this.currentAudioIndex = 0;
-		}
-		await this.playCurrentTrack();
+		this.pauseCurrentTrack()
+		this.currentAudioIndex++
+		if (this.currentAudioIndex >= this.audioElements.length) this.currentAudioIndex = 0
+
+		await this.playCurrentTrack()
 	}
 
 	async playPreviousTrack() {
-		this.pauseCurrentTrack();
-		this.currentAudioIndex--;
-		if (this.currentAudioIndex < 0) {
-			this.currentAudioIndex = this.audioElements.length - 1;
-		}
-		await this.playCurrentTrack();
+		this.pauseCurrentTrack()
+		this.currentAudioIndex--
+		if (this.currentAudioIndex < 0) this.currentAudioIndex = this.audioElements.length - 1
+
+		await this.playCurrentTrack()
 	}
 
 	setupMediaSession() {
-		if ('mediaSession' in navigator) {
-			navigator.mediaSession.metadata = new MediaMetadata({
-				title: `~${this.code}`,
-				artist: `${this.CVnames.join(', ')}`,
-				album: `${this.seriesNames.join(', ')}`,
-				artwork: [{ src: this.thumbnail, sizes: '512x512', type: 'image/jpeg' }],
-			});
+		if (!('mediaSession' in navigator)) return
 
-			// Thêm kiểm tra trạng thái trước khi thực hiện action
-			navigator.mediaSession.setActionHandler('play', async () => {
-				if (!this.isPlaying) {
-					await this.playCurrentTrack();
-				}
-			});
+		navigator.mediaSession.metadata = new MediaMetadata({
+			title: `~${this.code}`,
+			artist: `${this.CVnames.join(', ')}`,
+			album: `${this.seriesNames.join(', ')}`,
+			artwork: [{ src: this.thumbnail, sizes: '512x512', type: 'image/jpeg' }],
+		})
 
-			navigator.mediaSession.setActionHandler('pause', () => {
-				if (this.isPlaying) {
-					this.pauseCurrentTrack();
-				}
-			});
+		// Thêm kiểm tra trạng thái trước khi thực hiện action
+		navigator.mediaSession.setActionHandler('play', async () => !this.isPlaying && (await this.playCurrentTrack()))
+		navigator.mediaSession.setActionHandler('pause', () => this.isPlaying && this.pauseCurrentTrack())
+		navigator.mediaSession.setActionHandler('nexttrack', async () => await this.playNextTrack())
+		navigator.mediaSession.setActionHandler('previoustrack', async () => await this.playPreviousTrack())
 
-			navigator.mediaSession.setActionHandler('nexttrack', async () => {
-				await this.playNextTrack();
-			});
+		// Thêm seek handler nếu cần
+		navigator.mediaSession.setActionHandler('seekto', (details) => {
+			const currentAudio = this.audioElements[this.currentAudioIndex]
+			if (details.seekTime && currentAudio.duration) currentAudio.currentTime = details.seekTime
+		})
 
-			navigator.mediaSession.setActionHandler('previoustrack', async () => {
-				await this.playPreviousTrack();
-			});
-
-			// Thêm seek handler nếu cần
-			navigator.mediaSession.setActionHandler('seekto', (details) => {
-				const currentAudio = this.audioElements[this.currentAudioIndex];
-				if (details.seekTime && currentAudio.duration) {
-					currentAudio.currentTime = details.seekTime;
-				}
-			});
-
-			// Set initial state
-			navigator.mediaSession.playbackState = 'none';
-		}
+		// Set initial state
+		navigator.mediaSession.playbackState = 'none'
 	}
 
 	// Phương thức để cleanup
 	destroy() {
-		this.pauseCurrentTrack();
+		this.pauseCurrentTrack()
 
 		if ('mediaSession' in navigator) {
-			navigator.mediaSession.setActionHandler('play', null);
-			navigator.mediaSession.setActionHandler('pause', null);
-			navigator.mediaSession.setActionHandler('nexttrack', null);
-			navigator.mediaSession.setActionHandler('previoustrack', null);
-			navigator.mediaSession.setActionHandler('seekto', null);
+			navigator.mediaSession.setActionHandler('play', null)
+			navigator.mediaSession.setActionHandler('pause', null)
+			navigator.mediaSession.setActionHandler('nexttrack', null)
+			navigator.mediaSession.setActionHandler('previoustrack', null)
+			navigator.mediaSession.setActionHandler('seekto', null)
 		}
 	}
 }
 
-export { AudioPlayer, ImageDisplayer, SwipeHandler, VideoPlayer };
+export { AudioPlayer, ImageDisplayer, SwipeHandler, VideoPlayer }

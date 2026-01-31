@@ -1,4 +1,4 @@
-import { createViewBinding } from '../../../@libraries/view_binding/index.mjs';
+import { createViewBinding } from '../../../@libraries/view_binding/index.mjs'
 
 const { viewBinding: watchViewBinding } = createViewBinding({
 	vidFrame: '#vid_frame',
@@ -14,12 +14,12 @@ const { viewBinding: watchViewBinding } = createViewBinding({
 	descriptionCtn: '#track-description',
 	randomPostCtn: '#random-post',
 	closeMenuLayer: '.close-menu',
-});
+})
 
 const { viewBinding: randomPostViewBinding } = createViewBinding({
 	img: 'img',
 	pRJcode: '[p-rjcode]',
 	pEngname: '[p-engname]',
-});
+})
 
-export { watchViewBinding, randomPostViewBinding };
+export { watchViewBinding, randomPostViewBinding }
