@@ -5,7 +5,7 @@ import { debugMode as decoratorDebug } from '../@libraries/decorators/index.mjs'
 import { database } from './database/index.mjs'
 
 const path = location.pathname
-if (location.href.includes('127.0.0.1')) localStorage.setItem('dev-mode', 1)
+if (location.href.includes('127.0.0.1')) localStorage.setItem('dev-mode', '1')
 
 const isHomePage = () => ['/', '/index.html'].includes(path)
 const isWatchPage = () => ['/watch/index.html', '/watch/'].includes(path)
@@ -19,20 +19,25 @@ let UIrequests = {
 }
 
 database.export()
-initApp()
+initApp().catch((error) => {
+	alert('Something is wrong, try reloading.')
+	throw error
+})
 
 async function initApp() {
 	const DEBUG_MODE = debugMode(false)
+	decoratorDebug(DEBUG_MODE)
 	activateTimer()
-	await Promise.all([DOMLoaded(), waitIncludeQueueEmpty(), ...Object.values(UIrequests).filter(Boolean)])
 
-	if (UIrequests.common) (await UIrequests.common).init(database)
-	if (UIrequests.home) (await UIrequests.home).init(database)
-	if (UIrequests.watch) (await UIrequests.watch).init(database)
-	if (UIrequests.player) (await UIrequests.player).init(database)
+	await Promise.all([DOMLoaded(), waitIncludeQueueEmpty(), ...Object.values(UIrequests).filter(Boolean)])
+	await Promise.all([
+		UIrequests.common && (await UIrequests.common).init(database),
+		UIrequests.home && (await UIrequests.home).init(database),
+		UIrequests.watch && (await UIrequests.watch).init(database),
+		UIrequests.player && (await UIrequests.player).init(database),
+	])
 
 	console.timeEnd('--> [App.timer]: App ready time')
-	decoratorDebug(DEBUG_MODE)
 }
 
 function activateTimer() {

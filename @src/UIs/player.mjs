@@ -1,3 +1,4 @@
+import { simplifyNumber } from '../../@descriptions/utils.js'
 import { AudioPlayer, ImageDisplayer, VideoPlayer } from '../app.materials.mjs'
 import { device, fullscreen, url } from '../app.utils.mjs'
 import { playerViewBinding } from './view_bindings/player.mjs'
@@ -68,7 +69,8 @@ async function initView(db, UIbindings) {
 			audioElements.push(audioPlayer.audio)
 
 			audioPlayer.openBtn.addEventListener('click', async () => {
-				const vttPath = `/@descriptions/vtts/${trackID}/${index}.txt`
+				const group = simplifyNumber(trackID)
+				const vttPath = `/@descriptions/storage/${group}/${trackID}/vtt/${index}.txt`
 				const res = await fetch(vttPath)
 				if (res.ok) {
 					window.open(
@@ -79,6 +81,18 @@ async function initView(db, UIbindings) {
 					audioPlayer.audioControls?.openInNewTab()
 				}
 			})
+			// audioPlayer.openBtn.addEventListener('click', async () => {
+			// 	const vttPath = `/@descriptions/vtts/${trackID}/${index}.txt`
+			// 	const res = await fetch(vttPath)
+			// 	if (res.ok) {
+			// 		window.open(
+			// 			`/watch/player/vtt-player/v2/?audio=${src}&vtt=${vttPath}&images=${realImage.filter(Boolean).join(',')}`,
+			// 			'_blank',
+			// 		)
+			// 	} else {
+			// 		audioPlayer.audioControls?.openInNewTab()
+			// 	}
+			// })
 		})
 		new AudioPlayer(
 			audioElements,

@@ -2,6 +2,7 @@ import { data } from './.data_compressor/storage/index.js'
 import path from 'path'
 import fs from 'fs'
 import { exec } from 'child_process'
+import { simplifyNumber } from './@descriptions/utils.js'
 
 const id = parseInt(process.argv[2], 10)
 if (isNaN(id)) {
@@ -9,7 +10,8 @@ if (isNaN(id)) {
 	process.exit(1)
 }
 
-const rootDir = path.resolve(`./@descriptions/vtts/${id}/`)
+const group = simplifyNumber(id)
+const rootDir = path.resolve(`./@descriptions/storage/${group}/${id}/vtt/`)
 
 const targetInfo = data.find((rec) => String(rec[0]) === String(id))
 if (!targetInfo) {
@@ -31,8 +33,5 @@ for (let i = 0; i < vttCount; i++) {
 
 	// LỚP BẢO HIỂM
 	if (fs.existsSync(filePath)) continue
-	fs.writeFileSync(filePath, '', {
-		encoding: 'utf8',
-		flag: 'wx', // extra safety: fail if file exists
-	})
+	fs.writeFileSync(filePath, '', { encoding: 'utf8' })
 }

@@ -1,4 +1,5 @@
 import { device, url } from '../@src/app.utils.mjs'
+import { simplifyNumber } from './utils.js'
 
 const trackID = url.getParam('code') || url.getParam('rjcode') || ''
 const TAB_CHARS = '    '
@@ -57,7 +58,7 @@ try {
                 </div>
             </div>
         `
-	} else document.querySelector('#loader').remove()
+	} else document.querySelector('#loader')?.remove()
 } catch (error) {
 	console.log(error)
 }
@@ -73,24 +74,6 @@ function splitByMany(str, delimiters) {
 	const escaped = delimiters.map((d) => d.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'))
 	const regex = new RegExp(escaped.join('|'), 'g')
 	return str.split(regex)
-}
-
-/**
- * @param {number} n
- */
-function simplifyNumber(n) {
-	if (n < 10000) return 10000
-
-	const str = String(n)
-	const length = str.length
-	let keep
-	if (length <= 5) keep = 1
-	else if (length === 6) keep = 2
-	else keep = 3
-
-	const head = str.slice(0, keep)
-	const zeros = '0'.repeat(length - keep)
-	return parseInt(head + zeros)
 }
 
 /**
@@ -125,22 +108,23 @@ function replaceTextWithElements(text) {
 	return text
 }
 
-;(function () {
+{
+	const radios = document.querySelectorAll('input[name="tabs"]')
 	window.addEventListener('load', sendHeight)
 
 	// Debounce ResizeObserver
 	let resizeTimeout
 	const observer = new ResizeObserver(() => {
 		clearTimeout(resizeTimeout)
-		resizeTimeout = setTimeout(sendHeight, 16) // ~60fps
+		resizeTimeout = setTimeout(sendHeight, 1000 / 30) // ~30fps
 	})
 
 	const tabs = document.querySelector('.tabs')
 	if (tabs) observer.observe(tabs)
 
-	document.querySelectorAll('input[name="tabs"]').forEach((radio) => {
+	radios.forEach((radio) => {
 		radio.addEventListener('change', () => {
-			document.querySelectorAll('.tab-content').forEach((el) => (el.style.display = 'none'))
+			document.querySelectorAll('.tab-content').forEach((el) => (el['style'].display = 'none'))
 
 			const id = radio.id.replace('tab', 'content')
 			const el = document.getElementById(id)
@@ -151,7 +135,6 @@ function replaceTextWithElements(text) {
 	})
 
 	let lastSentHeight = 0
-
 	function sendHeight() {
 		const tabs = document.querySelector('.tabs')
 		if (!tabs) return
@@ -165,7 +148,7 @@ function replaceTextWithElements(text) {
 			parent.postMessage({ iframeHeight: rounded }, '*')
 		}
 	}
-})()
+}
 
 // ;(function () {
 // 	window.addEventListener('load', sendHeight)

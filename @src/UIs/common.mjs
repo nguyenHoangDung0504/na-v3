@@ -27,6 +27,7 @@ export async function init(database) {
 	const renderers = initRenderers(database, UI)
 	await initViews(database, UI, renderers)
 	await initFeatures(database, UI, renderers)
+
 	UI.appView.loader.remove()
 }
 
@@ -47,14 +48,11 @@ async function initViews(database, UIbindings, renderers) {
 async function initFeatures(database, UIbindings, renderers) {
 	initHeaderFeatures(UIbindings, database, renderers)
 	initMenuFeatures(UIbindings)
-	initCategoriesFeatures(UIbindings, database)
+	initCategoriesFeatures(UIbindings)
 	initGachaFeatures(UIbindings, database, renderers)
 	enableHiddenInfoOnHover(database, 'img')
 }
 
-/**
- * @param {Database} db
- */
 function bindUI() {
 	const appView = appViewBinding.bind(document)
 	const menuView = menuViewBinding.bind(appView.menu)
