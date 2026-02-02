@@ -136,8 +136,13 @@ async function removeIfExpired(cache, request) {
 	return false
 }
 
+// 2/2/2026: Thêm listener
+self.addEventListener('install', () => self.skipWaiting())
+self.addEventListener('activate', (event) => event.waitUntil(self.clients.claim()))
+
 // Khi worker được install, xóa cache có tên hoặc version cũ
-self.addEventListener('install', (event) => {
+// 2/2/2026: Sửa 'install' thành 'activate'
+self.addEventListener('activate', (event) => {
 	event.waitUntil(
 		caches
 			.keys()

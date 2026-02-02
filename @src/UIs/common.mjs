@@ -68,6 +68,7 @@ function bindUI() {
  */
 function initMenuFeatures(UIbindings) {
 	const { menuView, headerView } = UIbindings
+	const isMobile = device.isMobile()
 
 	const menuController = {
 		isOpen: () => document.documentElement.classList.contains('openMenu'),
@@ -88,15 +89,15 @@ function initMenuFeatures(UIbindings) {
 	menuView.forwardBtn.addEventListener('click', () => window.history.forward())
 	menuView.closeBtn.addEventListener('click', menuController.close)
 	menuView.clearCacheBtn.addEventListener('click', () => {
+		isMobile && menuController.close()
 		cacheManager.clearCache()
-		menuController.close()
 	})
 	headerView.toggleBtn.addEventListener('click', menuController.toggle)
 
-	if (device.isMobile())
-		import('../app.materials.mjs').then((module) => {
-			new module.SwipeHandler(document.body, menuController.open, menuController.close).registerEvents()
-		})
+	if (isMobile)
+		import('../app.materials.mjs').then((module) =>
+			new module.SwipeHandler(document.body, menuController.open, menuController.close).registerEvents(),
+		)
 }
 
 /**

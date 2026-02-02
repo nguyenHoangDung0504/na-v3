@@ -4,6 +4,7 @@ const cacheManager = (window.cacheManager = { clearCache, unregisterWorker })
 export default cacheManager
 
 if ('serviceWorker' in navigator && !location.href.includes('127.0.0.1')) {
+	navigator.serviceWorker.addEventListener('controllerchange', () => location.reload())
 	navigator.serviceWorker.getRegistration().then((registration) => {
 		if (registration) {
 			console.log('--> [CacheManager]: Service Worker already registered.')
@@ -28,6 +29,7 @@ async function clearCache() {
 	if (registration.active) {
 		registration.active.postMessage({ type: 'CLEAR_CACHE' })
 		console.log('--> [CacheManager]: Cache clear request sent.')
+		location.reload()
 	} else console.warn('--> [CacheManager]: No active Service Worker to handle cache clearing.')
 }
 

@@ -1,0 +1,20 @@
+{
+    "name": "NHD-A-v3",
+    "short_name": "NA-v3",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#222",
+    "theme_color": "#222",
+    "icons": [
+        {
+            "src": "/@resources/icons/icon.192px.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/@resources/icons/icon.512px.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
