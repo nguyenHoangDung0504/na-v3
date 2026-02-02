@@ -2,7 +2,7 @@
     "name": "NHD-A-v3",
     "short_name": "NA-v3",
     "start_url": "/",
-    "display": "fullscreen",
+    "display": "standalone",
     "background_color": "#222",
     "theme_color": "#222",
     "icons": [

@@ -1,5 +1,10 @@
 - Content_Des
-	
+	Quy tắc Học Viện Hôn Kiểu Pháp
+	(1) Tất cả nữ sinh trong trường phải luôn yêu thương, hôn chụt chụt với học sinh nam đặc cách duy nhất.
+	(2) Khi hứng tình mạnh, cần thực hiện môi sâu đậm, khuyến khích nhỏ nước bọt cho bạn uống.
+	(3) Khi học sinh nam cương cứng mạnh, để không ảnh hưởng việc học, phải ngay lập tức dùng tay, miệng, đùi hoặc các cách khác để làm dịu.
+	(4) Nữ sinh đạt mức yêu thương tối đa thì được phép môi sâu và làm tình.
+
 - Character_Des
 	str:Nhân vật chính - Về bạn
 	Là nam sinh duy nhất và là sinh viên nhận học bổng tại Học viện Nụ hôn Pháp.
@@ -9,14 +14,14 @@ hr:
 	<img src=https://raw.kiko-play-niptan.one/media/stream/daily/2025-11-14/RJ01474192/2%20%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88/%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88C%20%E3%83%88%E3%83%A9%E3%83%83%E3%82%AF%E3%83%AA%E3%82%B9%E3%83%8801-06.jpg style="width:100%">
 
 	str:Lớp trưởng-chan - CV: 星野天 (Track 1, 2, 13)
-	Bạn ấy là lớp trưởng ngọt ngào và chu đáo của lớp.
+	Bạn ấy là lớp trưởng ngọt ngào và chu đáo của bạn.
 
 	"Đó là nhiệm vụ của tớ với tư cách là lớp trưởng", cô ấy nói trước khi trao cho bạn một nụ hôn ngọt ngào và nồng nàn.
 	Cô ấy dường như rất thích nhập vai, chẳng hạn như đóng vai người mẹ và chiều chuộng bạn bằng giọng nói nũng nịu, hoặc đóng vai em gái nhỏ.
-	Cô ấy có thể rất hay chiếm hữu và cư xử như một con quỷ nhỏ.
+	Cô ấy có thể cư xử như một con quỷ nhỏ rất hay chiếm hữu.
 br:
 	str:Du học sinh Mỹ gal-chan - CV: Kanoko (Track 3, 4, 14)
-	Một cô bạn cùng lớp vui vẻ.
+	Một cô bạn gal cùng lớp năng động.
 
 	Tớ nghĩ rằng chúng ta rất hợp về tính cách và ngoại hình.
 	Thay vì tỏ ra tử tế với những người hâm mộ văn hóa otaku, chính cô ấy lại giống một người hâm mộ văn hóa otaku hơn.
@@ -160,8 +165,8 @@ br:
 	Gal-chan Mỹ đề xuất một "Trò Chơi Khủng Hoảng Dương Vật".
 	Họ luân phiên giữa trêu chọc tai và quan hệ bằng miệng, và người nào khiến người kia xuất tinh trong khi trêu chọc tai của đối phương sẽ thắng.
 	Ở vòng thứ tư, Gal-chan Mỹ trêu chọc tai của bạn, và kouhai gal-chan quan hệ bằng miệng, dẫn đến xuất tinh vào miệng.
-	Kouhai-chan không chịu, nói "Chẳng phải người nào khiến anh ta xuất tinh bằng quan hệ bằng miệng sẽ thắng sao?"
-	Họ đổi chỗ, kouhai-chan xoa tai và gal-chan Mỹ thực hiện quan hệ bằng miệng, sau đó bạn xuất tinh vào miệng cô ấy.
+	Kouhai-chan không chịu, nói "Chẳng phải người nào bú khiến anh ấy xuất tinh sẽ thắng sao?"
+	Họ đổi chỗ, kouhai-chan kích thích tai và gal-chan Mỹ bú, sau đó bạn xuất tinh vào miệng cô ấy.
 hr:
 	str:15: Cô giáo + Senpai: Lời mời tham gia hôn kiểu Pháp và cực khoái kèm tiếng rên rỉ (Cực khoái lúc 11:42 / 17:26 / 19:55)
 	(Hôn luân phiên và đồng thời, liếm núm vú, hôn kèm tiếng rên rỉ, thay phiên nhau hôn kiểu Pháp và cực khoái kèm tiếng rên rỉ)
