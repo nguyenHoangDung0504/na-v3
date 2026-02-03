@@ -76,7 +76,7 @@ async function initView(db, UIbindings) {
 					window.open(
 						`/watch/player/vtt-player/v2/?audio=${src}&vtt=${vttPath}&images=${realImage.filter(Boolean).join(',')}`,
 						'_blank',
-						`width=${screen.availWidth},height=${screen.availHeight},left=0,top=0`,
+						`width=${screen.width},height=${screen.availHeight},left=0,top=0`,
 					)
 				} else {
 					audioPlayer.audioControls?.openInNewTab()
