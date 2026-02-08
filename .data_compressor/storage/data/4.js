@@ -1557,3 +1557,15 @@ _(
 	'https://raw.kiko-play-niptan.one/media/stream/daily/2024-09-29/RJ01202599/02%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88/countryside%20old%20sister3_008.jpg',
 	'https://fast.kiko-play-niptan.one/media/stream/daily/2024-09-29/RJ01202599/01%E9%9F%B3%E5%A3%B0%E3%83%87%E3%83%BC%E3%82%BF/01%E9%80%9A%E5%B8%B8%E7%89%88/TR01%E5%B0%8E%E5%85%A5.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2024-09-29/RJ01202599/01%E9%9F%B3%E5%A3%B0%E3%83%87%E3%83%BC%E3%82%BF/01%E9%80%9A%E5%B8%B8%E7%89%88/TR02%E6%89%8B%E3%82%B3%E3%82%AD%EF%BC%86%E3%83%95%E3%82%A7%E3%83%A9.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2024-09-29/RJ01202599/01%E9%9F%B3%E5%A3%B0%E3%83%87%E3%83%BC%E3%82%BF/01%E9%80%9A%E5%B8%B8%E7%89%88/TR03%E9%A8%8E%E4%B9%97%E4%BD%8D.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2024-09-29/RJ01202599/01%E9%9F%B3%E5%A3%B0%E3%83%87%E3%83%BC%E3%82%BF/01%E9%80%9A%E5%B8%B8%E7%89%88/TR04%E3%82%A2%E3%83%8A%E3%83%AB.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2024-09-29/RJ01202599/01%E9%9F%B3%E5%A3%B0%E3%83%87%E3%83%BC%E3%82%BF/01%E9%80%9A%E5%B8%B8%E7%89%88/TR05%E3%83%90%E3%83%83%E3%82%AF.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2024-09-29/RJ01202599/01%E9%9F%B3%E5%A3%B0%E3%83%87%E3%83%BC%E3%82%BF/01%E9%80%9A%E5%B8%B8%E7%89%88/TR06%E3%82%AD%E3%83%A1%E3%82%BB%E3%82%AF.m4a',
 )
+_(
+	140547,
+	'RJ01471957',
+	'Kaede Akino',
+	'Blowjob,Armpit,Burping,Deepthroat,Fart,Fetish,Masturbation,Naughty,Oho Voice,Oral Cumshot,Peeing,Vulgar Moans,Orgy Sex,Tsundere',
+	'',
+	'Tức Giận Vì Con Cặc Hôi Thối Đáng Ghét ~ Tập Về Cô Nàng Gal Hư Hỏng ~',
+	'いらいらちんぽ～不良ギャルの場合～',
+	'https://api.asmr-300.com/api/cover/1477273.jpg?type=main',
+	'https://ik.imagekit.io/j9ynwrn08b/nhda-images/140547/140547.jpg?updatedAt=1770563963820',
+	'https://fast.kiko-play-niptan.one/media/stream/daily/2025-11-27/RJ01477273/%E6%9C%89%E6%95%88%E6%9E%9C%E9%9F%B3/1.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2025-11-27/RJ01477273/%E6%9C%89%E6%95%88%E6%9E%9C%E9%9F%B3/2.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2025-11-27/RJ01477273/%E6%9C%89%E6%95%88%E6%9E%9C%E9%9F%B3/3.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2025-11-27/RJ01477273/%E6%9C%89%E6%95%88%E6%9E%9C%E9%9F%B3/4.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2025-11-27/RJ01477273/%E6%9C%89%E6%95%88%E6%9E%9C%E9%9F%B3/5.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2025-11-27/RJ01477273/%E6%89%93%E5%97%9D%E5%90%88%E9%9B%86/1.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2025-11-27/RJ01477273/%E6%89%93%E5%97%9D%E5%90%88%E9%9B%86/2.m4a',
+)
