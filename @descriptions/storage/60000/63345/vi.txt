@@ -1,0 +1,44 @@
+- Content_Des
+	Những cô gái bán thân cho đàn ông vì nhiều lý do khác nhau -
+	Nữ sinh trung học Aya, bị mẹ vô tâm ép buộc hẹn hò để kiếm tiền,
+	phát hiện thân thể trẻ trung, đầy đặn của mình bị một người lạ xâm hại triệt để...
+br:
+	str:Lối chơi
+	Hiếp dâm
+	Quan hệ tình dục bằng miệng
+	Quan hệ tình dục bằng ngực
+	Máy rung
+	Quan hệ tình dục xuất tinh vào âm đạo
+	Quan hệ tình dục hậu môn
+	Tiểu tiện vào hậu môn
+	Quan hệ tình dục dưới tác dụng của thuốc
+	Liếm tai và thủ dâm
+	Siết cổ
+	Xỏ khuyên
+	Quỳ trần truồng
+	Tiếng khóc nức nở
+
+- Character_Des
+	str:Soma Aya
+	Chiều cao: 158cm
+	Số đo: 95/58/88
+br:
+	Cha cô bỏ đi, mẹ cô thờ ơ và hiếm khi về nhà.
+	Cô chăm sóc em gái thay mẹ, nhưng cô đang kiệt sức cả về tinh thần lẫn tài chính.
+	
+- Track_Des
+	str:01 Hiếp dâm
+	22:05
+br:
+	str:02 Huấn luyện
+	21:05
+br:
+	str:03 Thuốc kích dục
+	44:58
+br:
+	str:04 Thiên thần sa ngã
+	30:42
+br:
+	str:05 Sau đó
+	29:14
+	

@@ -151,7 +151,7 @@ function initRenderers(db, UIbindings) {
 		template.title = (isMask ? '' : '#') + name
 		template.href = `/?tag=${id}`
 		const textCtn = template.querySelector('span')
-		textCtn.textContent = `${isMask ? `[${name.substring(1)}]` : name} (${quantity})`
+		textCtn.textContent = `${name} (${quantity})`
 		isMask && (textCtn.className = 'series')
 	})
 

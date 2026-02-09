@@ -1,0 +1,91 @@
+- Content_Des
+	Tác phẩm này "chủ yếu dành cho người thích khổ dâm, với một chút biến tấu."
+
+	Thần tượng yêu thích của bạn thực chất là một bạn cùng lớp đại học thích mặc đồ nữ (CV: Kaede Akino)!
+
+	Bạn cố gắng trả thù anh tôi vì hành vi xấu, nhưng thay vào đó lại rơi vào bẫy và bị ép mặc đồ nữ.
+
+	Đây là câu chuyện về một cô gái được huấn luyện làm nô lệ và sau đó trở thành một gái điếm thực thụ!
+hr:
+	str:■ Điểm hấp dẫn
+	- Bị ép mặc trang phục thần tượng dễ thương và biến thành người giả gái
+	- Kích thích núm vú, quan hệ hậu môn, thủ dâm bằng dương vật giả, v.v. - Nhiều màn chơi đầy kích thích tình dục
+	- Bao gồm hình minh họa bao bì độ phân giải cao (không có logo)
+	- Được ghi âm bằng micro binaural chất lượng cao nhất, KU-100
+	- Nhiều hiệu ứng âm thanh để tăng cường sự kịch tính của màn chơi
+hr:
+	str:■ Tóm tắt
+	Một ngày nọ, một người bạn cùng lớp đại học nam tâm sự với bạn một bí mật trong khuôn viên trường.
+	Thần tượng "Yurinya", người mà bạn đã tham dự và chi tiền cho các buổi hòa nhạc của cô ấy, thực chất là một người giả gái, một phiên bản đội tóc giả của người bạn cùng lớp đại học của bạn, "Yuri"!
+	Khi bạn phát hiện ra rằng anh tôi cũng đã quan hệ tình dục với các thần tượng khác trong nhóm của bạn và các ban nhạc đối thủ, bạn cảm thấy vỡ mộng, tức giận và quyết tâm trả thù.
+	Sau khi được tặng vé xem concert của cô ấy, bạn chờ bên ngoài địa điểm tổ chức để phản đối Yurinya sau đó.
+	Tuy nhiên, cô ấy nhận ra bạn đang đến và kéo bạn vào phòng chờ của một quán nhạc sống trống rỗng.
+	Cô ấy bắt bạn mặc đồ thần tượng, và quá trình huấn luyện nô lệ của cô ấy bắt đầu.
+	Sau đó, cô ấy đưa bạn đi một chuyến lái xe phô trương trên chiếc xe van của Yurinya...
+	Cô ấy đưa bạn về nhà để quan hệ tình dục qua đường hậu môn...
+	Yurinya đã hoàn toàn khuất phục bạn, nhưng khát vọng trả thù của bạn vẫn chưa biến mất.
+	Bạn trói Yurinya khi cô ấy đang ngủ, gọi cho những người hâm mộ khác và lên kế hoạch cưỡng hiếp trả thù...
+
+- Character_Des
+	Yurinya
+	Tên thật: Kuginuma Yuri
+br:
+	Bạn nam cùng lớp đại học của bạn.
+	Cô ấy bí mật làm thần tượng, mặc đồ nữ.
+	Khi là thần tượng, cô ấy rất ương bướng.
+	Cô ấy là người song tính, và muốn sử dụng những người đàn ông mặc đồ nữ làm đồ chơi của mình.
+	
+- Track_Des
+	str:Tr01 Thần tượng yêu thích của tôi thực chất là người giả gái (13:53)
+	(Một bí mật bị bại lộ trong khuôn viên trường / Bị đột kích khi đang chờ ở quán nhạc sống / Bị lôi vào phòng chờ!?)
+br:
+	"Thực ra, 'Yurinya' này là tôi giả gái. Tiếc quá, tôi là con trai! ♪"
+	"Sau buổi hòa nhạc, người tôi nóng ran, thở hổn hển và cảm thấy cực kỳ ham muốn...
+	Tôi sẽ tận dụng cơ hội này để biến bạn thành đồ chơi tình dục của mình! ♪"
+hr:
+	str:Tr02 Điểm yếu của tôi bị phơi bày... Bị tẩy não hoàn toàn! (23:23)
+	(Hôn/Vòng cổ/Tư thế doggystyle)
+br:
+	"Tôi muốn mặc bộ trang phục biểu diễn siêu dễ thương của thần tượng,
+	và cảm thấy cực kỳ hưng phấn khi được chính mình, một người đàn ông, vuốt ve dương vật,
+	đó là sự biến thái tột cùng, haaaa, thật là quá sức chịu đựng! ♪"
+hr:
+	str:Tr03 Lái xe khỏa thân trong đồ lót & dạo quanh công viên (20:05)
+	(Chơi với núm vú/Khoe khoang/Vòng cổ/Hướng dẫn thủ dâm núm vú/Dùng ngón tay kích thích hậu môn/Cực khoái tuyến tiền liệt)
+br:
+	"Hãy nhớ khoe màn thủ dâm núm vú của bạn cho những người trong xe phía sau xem.
+	Kéo nó vào sâu hơn, từ gốc, xoa, xoa."
+	"Giờ thì đi lại và chơi với núm vú của em đi,
+	Xoa bóp, xoa bóp. Núm vú cương cứng trông thật tuyệt ♪"
+hr:
+	str:Tr04 Huấn luyện nô lệ toàn diện tại nhà Yurinya - Tôi bị biến thành đồ chơi tình dục giả gái (19:26)
+	(Liếm hậu môn/Máy rung bên trong/Chơi với núm vú/Quan hệ tình dục mạnh bạo/Quan hệ tình dục bằng miệng với kem dưỡng/Quan hệ tình dục qua hậu môn/Nữ thống trị)
+br:
+	"Tối nay, tôi sẽ chiều chuộng ngươi hết mực và biến ngươi thành một người phụ nữ thống trị hoàn toàn."
+	"À, cực khoái từ núm vú của một người phụ nữ thống trị giả gái thật tuyệt vời.
+	Tôi luôn muốn có một nô lệ khổ dâm giả gái mà tôi có thể làm bất cứ điều gì tôi muốn."
+hr:
+	str:Tr05 Cưỡng hiếp kỷ luật - Sự kiện bắt tay dương vật của Yurinya (22:21)
+	(Thủ dâm ngược/Quan hệ tình dục bằng miệng ngược/Cưỡng hiếp trừng phạt/Quan hệ tập thể / Quan hệ tình dục bằng miệng / Thủ dâm kép và Quan hệ tình dục qua hậu môn)
+br:
+	"Tôi là người đang xâm phạm, vì vậy tôi hoàn toàn không muốn bị xâm phạm..."
+	"Thân hình nữ tính của tôi đang quằn quại bất lực, ừm, ừm,
+	Vậy nên làm ơn, đừng chạm vào dương vật của tôi bằng tay của các anh, ừm, ừm!"
+hr:
+	str:■Phần thưởng - Dành cho những ai muốn có thêm nhiều niềm vui -
+
+	Một trải nghiệm femboy trọn vẹn
+	Giữa track 1 và 2, tôi sẽ cho anh ấy mặc đồ nữ.
+	Nếu bạn nghe video sau khi anh ấy mặc đồ nữ,
+	Bạn sẽ thích track 2-4 hơn nữa!
+
+	Trang phục: Áo hở hang, nhiều bèo nhún
+	Váy ngắn khoe quần lót
+	Áo ngực và quần lót mỏng nhẹ phù hợp với trang phục
+
+	Phụ kiện: Tóc giả che giấu đường nét khuôn mặt
+	Trang điểm: Kem nền, phấn mắt, mi giả, son môi, v.v.
+	Một loại nước hoa hương cam chanh tươi mát
+
+	*Video này được thiết kế để bạn vẫn có thể thưởng thức mà không cần đến những phụ kiện này.
+	
