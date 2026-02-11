@@ -1,0 +1,18 @@
+- Content_Des
+	Đây là câu chuyện về mẹ và con trai – một mối quan hệ vốn không bao giờ được phép vượt qua giới hạn.
+	Lần này, bạn sẽ nghe câu chuyện về người mẹ dần bị cuốn theo dòng chảy từ chính đứa con trai của mình.
+	Cô ấy đã nhận ra từ lâu rằng con trai đang nhìn mình như một người phụ nữ, chứ không chỉ là mẹ. Nhưng cô ấy tự nhủ rằng cậu bé sẽ không bao giờ đòi hỏi gì đâu.
+	Ban đầu chỉ là những cử chỉ chạm xúc nhẹ nhàng, thế nhưng từng chút một, cô ấy bị cuốn theo, bị cuốn theo… và đến kỳ nghỉ hè thì mọi thứ đã đi quá xa.
+
+- Character_Des
+	str:Nhân vật mẹ
+	Tốt nghiệp cao đẳng ngắn hạn, từng làm văn phòng một thời gian rồi kết hôn, sinh con và trở thành bà nội trợ toàn thời gian.
+	Chồng lớn tuổi hơn, công việc bận rộn suốt ngày, con trai đang tuổi dậy thì, nhưng gia đình vẫn khá hòa thuận.
+	Một gia đình bình thường, chẳng có gì nổi bật.
+	Chỉ là, vì những căng thẳng nhỏ nhặt trong cuộc sống hàng ngày, cô ấy đang tự thỏa mãn bản thân thì bị con trai bắt gặp và bị ép buộc.
+	Dù trong lòng nghĩ “phải từ chối mới được”, nhưng tính cách cô ấy không mạnh mẽ, nên cuối cùng cứ thế bị cuốn theo…
+
+- Track_Des
+	1. Sáng sớm thì không được đâu (17 phút)
+	2. Dùng miệng thì được thôi (20 phút)
+	3. Tối nay lại bị đòi hỏi nữa (18 phút)

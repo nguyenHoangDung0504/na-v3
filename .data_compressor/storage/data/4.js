@@ -1581,3 +1581,39 @@ _(
 	'https://raw.kiko-play-niptan.one/media/stream/daily/2024-09-23/RJ01238208/04_%E7%89%B9%E5%85%B8/%E3%80%90%E7%89%B9%E5%85%B8%E3%80%91%E8%A1%A8%E7%B4%99%E9%AB%98%E7%94%BB%E8%B3%AA%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88_%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88by%E3%82%B3%E3%82%B7%E3%83%A7%E3%82%A6%E3%81%95%E3%82%93.jpg',
 	'https://raw.kiko-play-niptan.one/media/stream/daily/2024-09-23/RJ01238208/02_%E6%9C%AC%E7%B7%A8_MP3%E3%83%87%E3%83%BC%E3%82%BF/01_%E9%80%9A%E5%B8%B8%E7%89%88/%E3%83%88%E3%83%A9%E3%83%83%E3%82%AF%EF%BC%91%EF%BC%9A%E3%83%9E%E3%82%A4%E3%82%AF%E3%83%AD%E3%83%93%E3%82%AD%E3%83%8B%E3%81%A7%E6%B5%B7%E3%83%87%E3%83%BC%E3%83%88.mp3,https://raw.kiko-play-niptan.one/media/stream/daily/2024-09-23/RJ01238208/02_%E6%9C%AC%E7%B7%A8_MP3%E3%83%87%E3%83%BC%E3%82%BF/01_%E9%80%9A%E5%B8%B8%E7%89%88/%E3%83%88%E3%83%A9%E3%83%83%E3%82%AF%EF%BC%92%EF%BC%9A%E3%83%9E%E3%82%A4%E3%82%AF%E3%83%AD%E3%83%93%E3%82%AD%E3%83%8B%E3%82%92%E7%9D%80%E3%81%9F%E3%81%BE%E3%81%BE%E6%8C%BF%E5%85%A5%EF%BC%81%E4%B8%AD%E5%87%BA%E3%81%97%E6%B1%97%E3%81%A0%E3%81%8F%E3%82%BB%E3%83%83%E3%82%AF%E3%82%B9%EF%BC%81.mp3',
 )
+_(
+	39478,
+	'RJ265912',
+	'Katakura Hina',
+	'Blowjob,Hand Job,Incest,Internal Cumshot,Mature Woman,Milf,Mother',
+	'',
+	'Mẹ xử lý ham muốn cho bạn và dần bị cuốn theo',
+	'息子の性欲を処理する母 ―息子に流される母親―',
+	'https://api.asmr-300.com/api/cover/265912.jpg?type=main',
+	'https://raw.kiko-play-niptan.one/media/stream/hvdb/6600-6699/RJ265912/%E3%81%8A%E3%81%BE%E3%81%91%E7%94%BB%E5%83%8F/seihaha11_02.jpg',
+	'https://raw.kiko-play-niptan.one/media/stream/hvdb/6600-6699/RJ265912/seihaha11_01.mp3,https://raw.kiko-play-niptan.one/media/stream/hvdb/6600-6699/RJ265912/seihaha11_02.mp3,https://raw.kiko-play-niptan.one/media/stream/hvdb/6600-6699/RJ265912/seihaha11_03.mp3',
+)
+_(
+	139714,
+	'RJ01375946',
+	'佐々木サキ',
+	'AI一部利用,ASMR,Big Breasts,Femdom,Internal Cumshot,Mature Woman,Milf,Mother,Oho Voice,Succubus,Vulgar Moans,Chubby',
+	'',
+	'Bị Mama Succubus Vắt Kiệt',
+	'【バイノーラル録音】サキュバスママ搾り取る【おほ声/女性優位/膣内射精】',
+	'https://api.asmr-300.com/api/cover/1375946.jpg?type=main',
+	'https://ik.imagekit.io/j9ynwrn08b/nhda-images/139714/139714-1.jpg,https://ik.imagekit.io/j9ynwrn08b/nhda-images/139714/139714-2.jpg',
+	'https://raw.kiko-play-niptan.one/media/stream/daily/2026-01-26/RJ01375946/%E3%82%B5%E3%82%AD%E3%83%A5%E3%83%90%E3%82%B9%E3%83%9E%E3%83%9E.mp3',
+)
+_(
+	138188,
+	'RJ01407117',
+	'Kotori Madono',
+	'AI一部利用,ASMR,Dirty Talk,Netorare,Oneesan,Girlfriend',
+	'',
+	'Cô bạn gái lớn tuổi nghịch ngợm rất thích khuôn mặt khổ sở của bạn trai',
+	'いじわるな年上彼女は彼氏くんの辛そうな顔が大好き',
+	'https://api.asmr-300.com/api/cover/1407117.jpg?type=main',
+	'https://raw.kiko-play-niptan.one/media/stream/daily/2025-10-17/RJ01407117/03_%E7%89%B9%E5%85%B8%E7%94%BB%E5%83%8F/01.png,https://raw.kiko-play-niptan.one/media/stream/daily/2025-10-17/RJ01407117/03_%E7%89%B9%E5%85%B8%E7%94%BB%E5%83%8F/02.png,https://raw.kiko-play-niptan.one/media/stream/daily/2025-10-17/RJ01407117/03_%E7%89%B9%E5%85%B8%E7%94%BB%E5%83%8F/03.png,https://raw.kiko-play-niptan.one/media/stream/daily/2025-10-17/RJ01407117/03_%E7%89%B9%E5%85%B8%E7%94%BB%E5%83%8F/04.png,https://raw.kiko-play-niptan.one/media/stream/daily/2025-10-17/RJ01407117/03_%E7%89%B9%E5%85%B8%E7%94%BB%E5%83%8F/07.png,https://raw.kiko-play-niptan.one/media/stream/daily/2025-10-17/RJ01407117/03_%E7%89%B9%E5%85%B8%E7%94%BB%E5%83%8F/08.png,https://raw.kiko-play-niptan.one/media/stream/daily/2025-10-17/RJ01407117/03_%E7%89%B9%E5%85%B8%E7%94%BB%E5%83%8F/09.png',
+	'https://fast.kiko-play-niptan.one/media/stream/daily/2025-10-17/RJ01407117/01_SE%E3%81%82%E3%82%8A/Track01_SE%E3%81%82%E3%82%8A.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2025-10-17/RJ01407117/01_SE%E3%81%82%E3%82%8A/Track02_SE%E3%81%82%E3%82%8A.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2025-10-17/RJ01407117/01_SE%E3%81%82%E3%82%8A/Track03_SE%E3%81%82%E3%82%8A.m4a',
+)
