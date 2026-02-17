@@ -32,7 +32,7 @@ _(
 	'Narumi Aisaka',
 	'Blowjob,English Words/Phrases,Hand Job,Sweet Love,Whispering,Internal Cumshot,Femdom,Kissing',
 	'',
-	'Pure Love Pussy Therapy ~ A Pussy Therapist Will Relieve That Unfulfilled Feeling ♪~',
+	'Liệu Pháp Chữa Lành Bằng Âm Đạo Với Tình Yêu Thuần Khiết～ Chuyên Gia Chữa Lành Bằng Âm Đạo Sẽ Giúp Bạn Giải Tỏa Cảm Giác Thiếu Thốn Ấy♪～',
 	'純愛おまんこセラピー ～その満たされなさ、おまんこセラピストが解消します♪～',
 	'https://api.asmr-200.com/api/cover/319007.jpg?type=main',
 	'https://raw.kiko-play-niptan.one/media/stream/daily/2021-05-18/RJ319007/%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88(%E5%B7%AE%E5%88%86%E3%81%82%E3%82%8A)/2.%E7%B4%94%E6%84%9B%E3%81%8A%E3%81%BE%E3%82%93%E3%81%93%E3%82%BB%E3%83%A9%E3%83%94%E3%83%BC(%E3%83%AD%E3%82%B4%E3%81%AA%E3%81%97).jpg,https://raw.kiko-play-niptan.one/media/stream/daily/2021-05-18/RJ319007/%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88(%E5%B7%AE%E5%88%86%E3%81%82%E3%82%8A)/3.%E7%B4%94%E6%84%9B%E3%81%8A%E3%81%BE%E3%82%93%E3%81%93%E3%82%BB%E3%83%A9%E3%83%94%E3%83%BC_%E3%83%A9%E3%83%95.jpg,https://raw.kiko-play-niptan.one/media/stream/daily/2021-05-18/RJ319007/%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88(%E5%B7%AE%E5%88%86%E3%81%82%E3%82%8A)/4.%E7%B4%94%E6%84%9B%E3%81%8A%E3%81%BE%E3%82%93%E3%81%93%E3%82%BB%E3%83%A9%E3%83%94%E3%83%BC_%E6%8A%B1%E3%81%8D%E3%81%A4%E3%81%8D%E3%83%A9%E3%83%95.jpg,https://raw.kiko-play-niptan.one/media/stream/daily/2021-05-18/RJ319007/%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88(%E5%B7%AE%E5%88%86%E3%81%82%E3%82%8A)/5.%E7%B4%94%E6%84%9B%E3%81%8A%E3%81%BE%E3%82%93%E3%81%93%E3%82%BB%E3%83%A9%E3%83%94%E3%83%BC_%E3%82%B5%E3%83%A0%E3%83%8D%E3%82%A4%E3%83%AB%E7%94%BB%E5%83%8F.jpg',
