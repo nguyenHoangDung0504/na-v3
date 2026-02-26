@@ -1,57 +1,34 @@
 // ================= CONFIG =================
-const SCROLLER_SELECTOR = '.vue-recycle-scroller'
-const ITEM_SELECTOR = '.vue-recycle-scroller__item-view'
-const INTERVAL = 150
-const IDLE_LIMIT = 25
-
-// ================= SCROLLER =================
-const scroller = document.querySelector(SCROLLER_SELECTOR)
-if (!scroller) throw new Error('Scroller not found')
-
-scroller.style.outline = '3px solid red'
-
-const firstItem = document.querySelector(ITEM_SELECTOR)
-const STEP = firstItem ? Math.floor(firstItem.offsetHeight * 0.8) : 150
-console.log('Auto STEP:', STEP)
-
-const seen = new Set()
-const collected = []
-
-const collect = () => {
-	document.querySelectorAll(ITEM_SELECTOR).forEach((el) => {
-		const text = el.innerText.trim()
-		if (!text) return
-		if (seen.has(text)) return
-		seen.add(text)
-		collected.push(text)
-	})
+const MS_TO_WEBVTT = (ms) => {
+	const h = Math.floor(ms / 3600000)
+	const m = Math.floor((ms % 3600000) / 60000)
+	const s = Math.floor((ms % 60000) / 1000)
+	const ms2 = ms % 1000
+	return `${String(h).padStart(2, '0')}:${String(m).padStart(2, '0')}:${String(s).padStart(2, '0')},${String(ms2).padStart(3, '0')}`
 }
+
+const taskId = new URLSearchParams(location.search).get('task-id')
+if (!taskId) throw new Error('Không tìm thấy task-id trong URL')
 
 // ================= UI =================
 const panel = document.createElement('div')
 panel.style.cssText = `
-	position: fixed;
-	top: 10px;
-	right: 10px;
-	width: 860px;
-	height: 60vh;
-	background: #111;
-	color: #4ab0ff;
-	z-index: 999999;
-	border: 2px solid #4ab0ff;
-	font-family: monospace;
-	display: flex;
-	flex-direction: column;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  width: 860px;
+  height: 60vh;
+  background: #111;
+  color: #4ab0ff;
+  z-index: 999999;
+  border: 2px solid #4ab0ff;
+  font-family: monospace;
+  display: flex;
+  flex-direction: column;
 `
 
 const header = document.createElement('div')
-header.style.cssText = `
-	padding: 6px;
-	background: #000;
-	display: flex;
-	gap: 6px;
-	align-items: center;
-`
+header.style.cssText = `padding: 6px; background: #000; display: flex; gap: 6px; align-items: center;`
 
 const makeBtn = (label) => {
 	const b = document.createElement('button')
@@ -60,41 +37,34 @@ const makeBtn = (label) => {
 	return b
 }
 
-const btnCopy1 = makeBtn('COPY lines[0]+lines[2]')
-const btnCopy2 = makeBtn('COPY lines[0]+lines[1]')
+const btnCopyOrigin = makeBtn('COPY Origin')
+const btnCopyTranslation = makeBtn('COPY Translation')
 const btnClose = makeBtn('CLOSE')
 const statusLabel = document.createElement('span')
 statusLabel.style.cssText = `font-size: 11px; margin-left: 4px; color: #aaa; white-space: nowrap;`
-statusLabel.textContent = 'Scanning...'
+statusLabel.textContent = `Fetching task ${taskId}...`
 
-header.append(btnCopy1, btnCopy2, btnClose, statusLabel)
+header.append(btnCopyOrigin, btnCopyTranslation, btnClose, statusLabel)
 
-// Two-column body
 const body = document.createElement('div')
-body.style.cssText = `
-	flex: 1;
-	display: flex;
-	gap: 0;
-	overflow: hidden;
-`
+body.style.cssText = `flex: 1; display: flex; overflow: hidden;`
 
-const makePane = (color) => {
+const makePane = (color, labelText) => {
 	const wrap = document.createElement('div')
 	wrap.style.cssText = `flex: 1; display: flex; flex-direction: column; border-left: 1px solid #333;`
-	const label = document.createElement('div')
-	label.style.cssText = `font-size: 10px; padding: 2px 6px; background: #000; color: ${color}; border-bottom: 1px solid #333;`
+	const lbl = document.createElement('div')
+	lbl.style.cssText = `font-size: 10px; padding: 2px 6px; background: #000; color: ${color}; border-bottom: 1px solid #333;`
+	lbl.textContent = labelText
 	const ta = document.createElement('textarea')
 	ta.style.cssText = `flex: 1; background: #000; color: ${color}; border: none; outline: none; padding: 8px; resize: none; font-family: monospace; font-size: 12px;`
-	wrap.append(label, ta)
-	return { wrap, label, ta }
+	wrap.append(lbl, ta)
+	return { wrap, ta }
 }
 
-const pane1 = makePane('#4ab0ff')
-pane1.label.textContent = 'lines[0] + lines[2]  (timestamp + text)'
-const pane2 = makePane('#b0ffb0')
-pane2.label.textContent = 'lines[0] + lines[1]  (timestamp + ???)'
+const paneOrigin = makePane('#4ab0ff', 'Origin subtitles')
+const paneTranslation = makePane('#b0ffb0', 'Translation subtitles')
 
-body.append(pane1.wrap, pane2.wrap)
+body.append(paneOrigin.wrap, paneTranslation.wrap)
 panel.append(header, body)
 document.body.append(panel)
 
@@ -107,57 +77,38 @@ const makeCopyHandler = (btn, ta) => () => {
 	setTimeout(() => (btn.textContent = orig), 1500)
 }
 
-btnCopy1.onclick = makeCopyHandler(btnCopy1, pane1.ta)
-btnCopy2.onclick = makeCopyHandler(btnCopy2, pane2.ta)
+btnCopyOrigin.onclick = makeCopyHandler(btnCopyOrigin, paneOrigin.ta)
+btnCopyTranslation.onclick = makeCopyHandler(btnCopyTranslation, paneTranslation.ta)
 btnClose.onclick = () => panel.remove()
 
-// ================= SCROLL LOOP =================
-let lastScrollTop = -1
-let idle = 0
+// ================= FETCH + FORMAT =================
+const toWebVTT = (items) =>
+	'WEBVTT\n\n' +
+	items
+		.map((item, i) => `${i + 1}\n${MS_TO_WEBVTT(item.start)} --> ${MS_TO_WEBVTT(item.end)}\n${item.text.trim()}`)
+		.join('\n\n')
 
-const timer = setInterval(() => {
-	scroller.scrollTop += STEP
-	scroller.dispatchEvent(new WheelEvent('wheel', { deltaY: STEP, bubbles: true, cancelable: true }))
+fetch(`https://gw.aoscdn.com/app/reccloud/v2/open/ai/av/translations/${taskId}`)
+	.then((res) => res.json())
+	.then((data) => {
+		const origin = data?.data?.origin_subtitles || data?.origin_subtitles
+		const translation = data?.data?.translation_subtitles || data?.translation_subtitles
 
-	setTimeout(() => {
-		collect()
-		statusLabel.textContent = `${collected.length} items...`
-	}, 80)
+		if (!origin) {
+			statusLabel.textContent = '❌ Không tìm thấy origin_subtitles'
+			console.error('Response:', data)
+			return
+		}
 
-	if (Math.abs(scroller.scrollTop - lastScrollTop) < 1) idle++
-	else idle = 0
+		paneOrigin.ta.value = toWebVTT(origin)
+		paneTranslation.ta.value = translation ? toWebVTT(translation) : '(Không có translation)'
+		paneOrigin.ta.scrollTop = 0
+		paneTranslation.ta.scrollTop = 0
 
-	lastScrollTop = scroller.scrollTop
-
-	if (idle > IDLE_LIMIT) {
-		clearInterval(timer)
-
-		setTimeout(() => {
-			collect()
-			console.log('DONE, unique items:', collected.length)
-			statusLabel.textContent = `✅ Done: ${collected.length} items`
-
-			const buildOutput = (lineIndexes) =>
-				'WEBVTT\n\n' +
-				collected
-					.map((block) => {
-						block = block.replaceAll('\n-\n', ' --> ')
-						const lines = block.split('\n').filter(Boolean)
-						if (lines.length < Math.max(...lineIndexes) + 1) {
-							console.warn('invalid line format:', lines)
-							const [time, ...rest] = lines
-							return `${time}\n${String(rest)}`
-						}
-						return lineIndexes.map((i) => lines[i]).join('\n')
-					})
-					.sort()
-					.map((line, index) => index + 1 + '\n' + line)
-					.join('\n\n')
-
-			pane1.ta.value = buildOutput([0, 2])
-			pane2.ta.value = buildOutput([0, 1])
-			pane1.ta.scrollTop = 0
-			pane2.ta.scrollTop = 0
-		}, 200)
-	}
-}, INTERVAL)
+		statusLabel.textContent = `✅ Done: ${origin.length} items — task ${taskId}`
+		console.log('Raw data:', data)
+	})
+	.catch((err) => {
+		statusLabel.textContent = `❌ Fetch failed: ${err.message}`
+		console.error(err)
+	})
