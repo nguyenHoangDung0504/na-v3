@@ -202,7 +202,7 @@ _(
 	70249,
 	'RJ418151',
 	'Tsubame Yuzuki',
-	'Big Breasts,Ear Licking,Hand Job,Internal Cumshot,Oho Voice,School Girl,School Uniform,Sweet Love,Whispering',
+	'Big Breasts,Ear Licking,Hand Job,Internal Cumshot,Masturbation Support,Oho Voice,,Submissive Man,School Girl,School Uniform,Sweet Love,Whispering',
 	'',
 	'Dirty stuffy stuffy huge breasted JK’s super close-fitting and snuggly sleep-sharing sex',
 	'【10月21日まで期間限定イラスト付き】ドスケベ蒸れ蒸れ爆乳JKの超密着ぬくぬく寝かしつけ添い寝えっち【超密着×添い寝×低音】',
