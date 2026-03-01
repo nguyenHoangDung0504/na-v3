@@ -1,0 +1,105 @@
+- Content_Des
+	Bạn thi đỗ kỳ thi… rồi nhận ra trường tiến lên lại là trường nữ sinh hệ 6 năm liên thông…  
+	「Ơ… sao mình lại vào trường nữ sinh chứ…」  
+	Mang theo nghi vấn, nhưng khi mặc đồ nữ đến trường…  
+	Ngay lập tức bị phát hiện là nam, vi phạm quy tắc trường và bị giam cầm trong ký túc xá nữ của các tiểu thư…  
+	Sau đó bạn được thông báo “Bạn đã bị bán thân như một nô lệ khổ dâm” là sự thật… và trở thành nô lệ khổ dâm chuyên được nuông chiều của các chị gái hạng cao nhất.
+hr:
+	str:Concept  
+	Tại một trường nữ sinh danh giá, như là “sở thích của quý cô”, có truyền thống huấn luyện nam sinh dùng để xử lý tình dục trong khi nói lời dâm dục thượng lưu… Đây là audio bạn sẽ bị các tiểu thư nhà danh môn vắt kiệt tinh dịch.  
+br:
+	Là nô lệ khổ dâm để thỏa mãn sở thích tình dục thô tục, bạn sẽ được các tiểu thư dâm đãng hết mức đang động dục nuông chiều yêu thương say đắm.  
+	Đây là audio hướng đến kiểu khổ dâm nhẹ nhàng, bị các tiểu thư hơi thích hành hạ nhưng mang tính chị gái nuông chiều.
+hr:
+	str:Về trường nữ sinh danh môn  
+	Trường 6 năm hệ thống.  
+	Các tiểu thư tương lai đã được sắp đặt sẵn, học lên đại học danh giá theo hình thức thang máy, tốt nghiệp là có việc làm ngay tại công ty dòng họ.  
+	Vì vậy nếu không yêu đương hay kết hôn, họ có thể sống cả đời gần như không biết đàn ông… đó là hệ thống của trường.  
+	Tuy nhiên, việc sinh con nối dõi tông đường cũng là sứ mệnh của tiểu thư nhà danh môn, nên việc giáo dục tình dục bằng cơ thể nam giới được ngầm thừa nhận.  
+	“Truyền thống dâm đãng” đương nhiên không công khai, nhưng mục tiêu là thấm nhuần giáo dục tình dục phù hợp để nâng cao giáo dưỡng và phẩm cách của tiểu thư.  
+	Thế nhưng thực tế lại trở thành cơ hội khiến các tiểu thư mất phẩm cách và biến thành dâm đãng.
+br:
+	10 điều tâm niệm của tiểu thư  
+	(1) Rèn luyện sự thanh lịch  
+	(2) Chỉ nghe nhạc cổ điển và jazz  
+	(3) Trà là thức uống để thưởng thức hương thơm  
+	(4) Vì được che chở nên phải học hỏi thế gian  
+	(5) Giữ bình an trong lòng… không vội vàng, không nóng nảy  
+	(6) Không tự cao tự đại, giữ tâm bình thường  
+	(7) Không chê bai người khác, chỉ rèn luyện bản thân  
+	(8) Biết lễ nghĩa, tôn trọng người khác  
+	(9) Ba chất dinh dưỡng + vitamin khoáng chất để luôn có làn da đẹp  
+	(10) Khi quan hệ, hãy chú ý dùng lời dâm dục thượng lưu
+hr:
+	str:Điểm nổi bật  
+	Thiên đường chỉ toàn nữ, cách biệt với xã hội… trường học theo chủ nghĩa nữ quyền, nơi các tiểu thư đang động dục hết mức.  
+	Những tiểu thư dâm lặng thầm chưa từng tiếp xúc nam giới… lại siêu thích nuông chiều theo kiểu chị gái dâm đãng.  
+	Dù đã đến tuổi dậy thì mà vẫn chưa biết đàn ông, các tiểu thư thuần khiết… nhưng lại cực kỳ tò mò và hứng thú với quan hệ tình dục…
+
+- Character_Des
+	Bạn  
+	Người xử lý tình dục của các tiểu thư… nô lệ khổ dâm bị giam cầm trong trường nữ sinh.  
+	Trên giấy tờ học bạ được xử lý như “nữ” (vì lý do nào đó bị đối xử như nam trang).  
+	Tương lai được giáo dục nghiêm khắc để có thể trở thành quản gia của các tiểu thư.
+br:
+	<div class="char-box">
+		<div class="l">
+			img:https://raw.kiko-play-niptan.one/media/stream/daily/2023-10-12/RJ01059618/2.%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88/6.%E8%A5%BF%E5%9C%92%E5%AF%BA%E6%98%8E%E7%BE%8E.jpg
+		</div>
+		<div class="r">
+			str:Saionji Akemi  
+			・Chiều cao: 160cm  
+			・Số đo: B95/W60/H99  
+			・Kiểu tóc: Dài (phong cách thanh khiết)  
+			・Tính cách: Dịu dàng (dâm lặng thầm siêu dâm)  
+		br:
+			Bình thường luôn giữ dáng vẻ thanh lịch, trí thức, nhưng khi ở riêng thì biến thành tiểu thư chị gái dâm đãng, xả hết sở thích thô tục lên bạn (ôm chặt toàn thân hôn sâu ngọt ngào, v.v.).
+		</div>
+	</div>
+
+	<div class="char-box">
+		<div class="l">
+			img:https://raw.kiko-play-niptan.one/media/stream/daily/2023-10-12/RJ01059618/2.%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88/5.%E7%A5%9E%E5%B4%8E%E7%B6%BE%E9%A6%99.jpg
+		</div>
+		<div class="r">
+			Kanzaki Ayaka  
+			・Chiều cao: 158cm  
+			・Số đo: B90/W55/H88  
+			・Kiểu tóc: Ngắn vừa vai  
+			・Tính cách: Kiêu ngạo, nghiêm khắc với quy tắc.  
+		br:
+			Tiểu thư độc miệng lạnh lùng sắc bén, nhưng khi gọi “chị gái” thì lập tức phát tình không ngừng, nói "thích thích" liên tục.
+		</div>
+	</div>
+	
+- Track_Des
+	str:0. Giới thiệu (2:53)
+br:
+	str:1. Các chị gái hạng cao nhất nuông chiều hành hạ nô lệ khổ dâm♪ (15:54)  
+	Tại ký túc xá nữ của các tiểu thư, bạn bị các chị dùng tất chân nhẹ nhàng giẫm lên mặt, cọ xát cậu nhỏ…  
+	Được hai tiểu thư có kiến thức tình dục lệch lạc nuông chiều yêu thương trong khi bị hành hạ nhẹ nhàng♪
+br:
+	str:2. Phần Saionji Akemi: Bản chất của tiểu thư thanh khiết khả ái là… một chị gái siêu dâm đãng♪ (40:50)  
+	Tiểu thư hiền lành, dịu dàng… khi chỉ có hai người thì “sở thích nuông chiều như chị gái” bùng nổ thành chị gái siêu dâm đãng♪ (ôm chặt toàn thân trong khi hôn sâu ngọt ngào, v.v.).
+	■Nội dung:
+	Da chạm da / Ôm eo nâng lên bú liếm nuông chiều sâu họng / Tư thế ngồi đối diện với nụ hôn sâu thô tục / Nghe âm thanh nũng nịu van xin chị gái trong khi bú vú chụp chụp hốc hếch / Ôm đầu piston liên tục lặp lại “thích thích”/
+br:
+	str:3. Phần Kanzaki Ayaka: Việc tiểu thư độc miệng lạnh lùng… lặp lại “thích thích” (18:57)  
+	Tiểu thư độc miệng lạnh lùng với lời nói sắc bén… khi chỉ có hai người lại van xin gọi “chị gái” và biến thành tiểu thư chị gái dâm đãng không ngừng♪  
+	■Nội dung:  
+	Vuốt ve qua quần từ sau / Vuốt ve từ sau / Biến đổi sang chế độ chị gái nuông chiều (nụ hôn sâu & tư thế cưỡi ngựa)/
+br:
+	str:4. Sandwich ngọt ngào ôm chặt: Tư thế ngồi đối diện (19:18)  
+	Hai tiểu thư không thể kiềm chế “bản năng mẹ muốn nuông chiều”.  
+	Họ ôm chặt bạn trước-sau trong tư thế sandwich sát người, thì thầm lời dâm dục ngọt ngào, khiến cậu nhỏ của bạn không thể ngừng hưng phấn♪
+br:
+	str:5. Các chị gái nuông chiều dùng tay thủ dâm khi nằm cạnh (16:26)  
+	Bạn bị các chị gái đêm khuya trèo lên giường, hai bên tai nghe tiếng hôn chụt chụt & lời “thích thích” thì thầm, trong khi đôi tay mềm mại vuốt ve.
+br:
+	str:6. Các tiểu thư đạt cực khoái bằng cách ngửi cặc thô tục (17:17)  
+	Sở thích của hai tiểu thư ngày càng thô tục…  
+	Tiểu thư thanh khiết thì khen ngợi cậu nhỏ không ngừng rồi ngửi cặc đạt cực khoái…  
+	Tiểu thư lạnh lùng thì miễn cưỡng ngửi nhưng vẫn ngất ngây với biểu cảm mê đắm.
+br:
+	str:7. Tư thế cưỡi ngựa squat đôi thô tục (19:12)  
+	Các chị gái dâm đãng… hai tay nhón vạt váy, kéo lệch quần lót, đút vào không bao… như nuốt chửng cặc cương cứng bằng tư thế cưỡi ngựa.

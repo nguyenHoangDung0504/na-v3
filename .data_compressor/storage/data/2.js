@@ -110,18 +110,6 @@ _(
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/57186t1.mp3?v=1700390464701',
 )
 _(
-	40338,
-	'RJ313972',
-	'Megumu Morino',
-	'Big Breasts,Blowjob,Ear Licking,Gal,Licking',
-	'',
-	'Gal’s return',
-	'ギャルの恩返し',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/40338-0.jpg?v=1700390845406',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/40338-1.jpg?v=1700390846655',
-	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/40338t1.mp3?v=1700390860589',
-)
-_(
 	39307,
 	'RJ312207',
 	'Kaede Akino,Tsubame Yuzuki',
@@ -132,18 +120,6 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/39307-0.jpg?v=1700391340839',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/39307-1.jpg?v=1700391341888',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/39307t1.mp3?v=1700391359026',
-)
-_(
-	69030,
-	'RJ383911',
-	'Narumi Aisaka',
-	'Big Breasts,Bitch,Ear Licking,Hand Job,Licking,Paizuri,School,School Girl,School Uniform',
-	'',
-	'Enko Gal JK Neat and Fall ~Mogami-chan wants to be loved~',
-	'円光ギャルJK清楚堕ち～最上ちゃんは愛されたい～',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/69030-0.jpg?v=1700391688409',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/69030-0.jpg?v=1700391688409,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/69030-1.webp?v=1700391690232,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/69030-2.webp?v=1700391691278',
-	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/69030t1.mp3?v=1700391707696',
 )
 _(
 	77965,
@@ -360,18 +336,6 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/100162-0.jpg?v=1700493127098',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/100162-1.jpg?v=1700493128544,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/100162-2.jpg?v=1700493129496,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/100162-3.jpg?v=1700493130554,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/100162-4.jpg?v=1700493131611,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/100162-5.jpg?v=1700493132564,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/100162-6.jpg?v=1700493133615,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/100162-7.jpg?v=1700493134631,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/100162-8.jpg?v=1700493135667,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/100162-9.jpg?v=1700493136651,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/100162-10.jpg?v=1700493137715,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/100162-11.jpg?v=1700493138713,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/100162-12.jpg?v=1700493139689',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/100162t1.mp3?v=1700493164704',
-)
-_(
-	104179,
-	'RJ01053177',
-	'Kotoka',
-	'AI一部利用,Anal,Big Breasts,Foot Job,Hand Job,Harem,Nurse,Oneesan,Rape,Succubus,Tease,Uniform',
-	'',
-	'Little devil nurse ~ shota training ~ intense masochist squeezing',
-	'小悪魔ナース～ショタ調教～濃密マゾ搾り',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/104179-0.jpg?v=1700493800738',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/104179-10.jpg?v=1700493810749,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/104179-1.jpg?v=1700493801748,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/104179-2.jpg?v=1700493802730,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/104179-3.jpg?v=1700493803702,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/104179-4.jpg?v=1700493804728,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/104179-5.jpg?v=1700493805764,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/104179-6.jpg?v=1700493806767,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/104179-7.jpg?v=1700493807780,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/104179-8.jpg?v=1700493808777,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/104179-9.jpg?v=1700493809775,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/104179-11.jpg?v=1700493811723,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/104179-12.jpg?v=1700493813269',
-	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/104179t1.mp3?v=1700493838871,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/104179ng.mp3?v=1700493815628,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/104179freetalk.mp3?v=1700493819553',
 )
 _(
 	104439,
@@ -641,13 +605,13 @@ _(
 	100716,
 	'RJ01059618',
 	'Aino Mimori,Shiki Asagi',
-	'Big Breasts,Ear Licking,Hand Job,Kissing,Licking,Oneesan,School,School Girl',
+	'Big Breasts,Creampie,Ear Licking,Hand Job,Internal Cumshot,Kissing,Oneesan,School Girl,Submissive Man,Sweet Love,Whispering,Harem,Submissive Man',
 	'',
 	'I was imprisoned in a prestigious school for young ladies, and I was a doting masochist slave of the upper caste ladies.',
 	'名門お嬢様学校に監禁されたボクはカースト最上位お姉様たちの溺愛マゾ奴隷',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/100716-0.jpg?v=1701507616672',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/100716-1.jpg?v=1701507615675,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/100716-2.jpg?v=1701507614616,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/100716-3.jpg?v=1701507613578,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/100716-4.jpg?v=1701507612468,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/100716-5.jpg?v=1701507611297,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/100716-6.jpg?v=1701507617707',
-	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/100716t1.mp3?v=1701507609946',
+	'https://api.asmr-300.com/api/cover/1059618.jpg?type=main',
+	'https://raw.kiko-play-niptan.one/media/stream/daily/2023-10-12/RJ01059618/2.%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88/1.%E3%83%AD%E3%82%B4%E3%81%AA%E3%81%97.jpg,https://raw.kiko-play-niptan.one/media/stream/daily/2023-10-12/RJ01059618/2.%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88/3.%E3%81%8A%E5%AC%A2%E6%A7%98%E5%AD%A6%E6%A0%A1%EF%BC%9A%E6%A7%8B%E5%9B%B3%E3%83%A9%E3%83%95.png,https://raw.kiko-play-niptan.one/media/stream/daily/2023-10-12/RJ01059618/2.%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88/4.%E3%81%8A%E5%AC%A2%E6%A7%98%E5%AD%A6%E6%A0%A1%E3%82%AD%E3%83%A3%E3%83%A9%E3%83%87%E3%82%B6.jpg,https://raw.kiko-play-niptan.one/media/stream/daily/2023-10-12/RJ01059618/2.%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88/5.%E7%A5%9E%E5%B4%8E%E7%B6%BE%E9%A6%99.jpg,https://raw.kiko-play-niptan.one/media/stream/daily/2023-10-12/RJ01059618/2.%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88/6.%E8%A5%BF%E5%9C%92%E5%AF%BA%E6%98%8E%E7%BE%8E.jpg',
+	'https://fast.kiko-play-niptan.one/media/stream/daily/2023-10-12/RJ01059618/1.%E6%9C%AC%E7%B7%A8/SE%E3%81%82%E3%82%8A/0.%E3%81%8A%E5%AC%A2%E6%A7%98%E3%81%9F%E3%81%A1%E3%81%AB%E5%A5%B3%E8%A3%85%E3%81%8C%E3%83%90%E3%83%AC%E3%81%9F%E4%BB%B6%E3%80%82.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2023-10-12/RJ01059618/1.%E6%9C%AC%E7%B7%A8/SE%E3%81%82%E3%82%8A/1.%E3%82%AB%E3%83%BC%E3%82%B9%E3%83%88%E6%9C%80%E4%B8%8A%E4%BD%8D%E3%81%8A%E5%A7%89%E6%A7%98%E3%81%9F%E3%81%A1%E3%81%AE%E6%BA%BA%E6%84%9B%E3%83%9E%E3%82%BE%E3%81%84%E3%81%98%E3%82%81%E3%80%82.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2023-10-12/RJ01059618/1.%E6%9C%AC%E7%B7%A8/SE%E3%81%82%E3%82%8A/2.%E8%A5%BF%E5%9C%92%E5%AF%BA%E6%98%8E%E7%BE%8E%E3%83%91%E3%83%BC%E3%83%88%EF%BC%9A%E6%B8%85%E6%A5%9A%E3%81%A7%E5%8F%AF%E6%86%90%E3%81%AA%E3%81%8A%E5%AC%A2%E6%A7%98%E3%81%AE%E6%9C%AC%E6%80%A7%E3%81%AF%E2%80%A6%E3%83%89%E3%82%B9%E3%82%B1%E3%83%99%E6%B7%AB%E4%B9%B1%E3%81%8A%E5%A7%89%E6%A7%98.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2023-10-12/RJ01059618/1.%E6%9C%AC%E7%B7%A8/SE%E3%81%82%E3%82%8A/3.%E7%A5%9E%E5%B4%8E%E7%B6%BE%E9%A6%99%E3%83%91%E3%83%BC%E3%83%88%EF%BC%9A%E6%AF%92%E8%88%8C%E3%82%AF%E3%83%BC%E3%83%AB%E3%81%8A%E5%AC%A2%E6%A7%98%E3%81%8C%E2%80%A6%E3%81%97%E3%82%85%E3%81%8D%E3%81%97%E3%82%85%E3%81%8D%E9%80%A3%E5%91%BC%E3%81%97%E3%81%A6%E3%81%8F%E3%82%8B%E4%BB%B6.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2023-10-12/RJ01059618/1.%E6%9C%AC%E7%B7%A8/SE%E3%81%82%E3%82%8A/4.%E3%81%82%E3%81%BE%E3%81%82%E3%81%BE%E3%82%80%E3%81%8E%E3%82%85%E3%82%80%E3%81%8E%E3%82%85%E3%82%B5%E3%83%B3%E3%83%89%E3%82%A4%E3%83%83%E3%83%81(%E5%AF%BE%E9%9D%A2%E5%BA%A7%E4%BD%8D).m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2023-10-12/RJ01059618/1.%E6%9C%AC%E7%B7%A8/SE%E3%81%82%E3%82%8A/5.%E3%81%8A%E5%A7%89%E6%A7%98%E3%81%9F%E3%81%A1%E3%81%AE%E6%BA%BA%E6%84%9B%E3%83%A9%E3%83%96%E3%83%A9%E3%83%96%E6%B7%BB%E3%81%84%E5%AF%9D%E6%89%8B%E3%82%B3%E3%82%AD.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2023-10-12/RJ01059618/1.%E6%9C%AC%E7%B7%A8/SE%E3%81%82%E3%82%8A/6.%E3%81%8A%E5%AC%A2%E6%A7%98%E3%81%9F%E3%81%A1%E3%81%AE%E3%81%8A%E4%B8%8B%E5%93%81%E3%83%81%E3%83%B3%E5%97%85%E3%81%8E%E3%82%A2%E3%82%AF%E3%83%A1.m4a,https://fast.kiko-play-niptan.one/media/stream/daily/2023-10-12/RJ01059618/1.%E6%9C%AC%E7%B7%A8/SE%E3%81%82%E3%82%8A/7.%E3%81%8A%E4%B8%8B%E5%93%81%E3%83%80%E3%83%96%E3%83%AB%E8%B9%B2%E8%B8%9E%E3%83%9D%E3%83%BC%E3%82%BA%E9%A8%8E%E4%B9%97%E4%BD%8D.m4a',
 )
 _(
 	69738,
@@ -756,18 +720,6 @@ _(
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/66294-0.jpg?v=1703645785526',
 	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/66294-1.jpg?v=1703645787037',
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/66294t1.mp3?v=1703645800384',
-)
-_(
-	53655,
-	'RJ337560',
-	'Kotone Akatsuki',
-	'Hand Job,Nurse,Oneesan,Perverted,Tease',
-	'',
-	'A cool and mean and bewitching nurse’s insistent whispering masochist nipple improvement program',
-	'クールで意地悪な妖艶ナースのしつこい囁きマゾ乳首改善プログラム【KU100】',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/53655-0.jpg?v=1703646364472',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/53655-1.jpg?v=1703646366082',
-	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/53655t1.mp3?v=1703646382995',
 )
 _(
 	40253,

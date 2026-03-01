@@ -1,0 +1,35 @@
+- Content_Des
+	「Series Xin lỗi」tác phẩm mới nhất và cũng là phần cuối cùng! (Có lẽ)
+- Character_Des
+	str:Kanon Kousaka (36 tuổi)
+	Họ cũ: Yamabuki.
+	Chị sở hữu một thể chất đặc biệt.
+	Tuyệt đối không được tiếp cận một cách bất cẩn.
+	Thực ra toàn thân chị ấy đều nhạy cảm như một vùng nhạy cảm lớn, cực kỳ yếu trước sự vuốt ve.
+	Vì vậy chị chỉ muốn cơ thể mình được người mình yêu thương chạm vào mà thôi.
+	
+- Track_Des
+	str:01. Lần đầu tiên là với chị, xin lỗi nhé. (37 phút)
+	Bạn đóng vai: Bạn của con gái
+	Thể loại: Hỗ trợ thủ dâm ngọt ngào
+	【Ngủ chung / Thủ dâm trên giường / Ngửi mùi phụ nữ trưởng thành / Trêu tai / Thở dốc giả / Xuất tinh lần đầu v.v…】
+	「Dù sao thì, em không có lỗi gì cả đâu. Nguyên nhân khiến em như vậy hoàn toàn là do chị.」
+	「Tình trạng đó nghĩa là cậu nhỏ của em đang cảm thấy dễ chịu đấy.」
+	「Em lại đang hứng tình với một bà già như chị thế này cơ à.」
+	「Chị muốn em gọi là… Kanon-san… ♡」
+br:
+	str:02. Xin lỗi vì vứt rác. (24 phút)
+	Bạn đóng vai: Chồng hàng xóm
+	Thể loại: Hỗ trợ thủ dâm khinh bỉ
+	【Mắng chửi / Ngửi mùi nách / Nữ mặc đồ nam khỏa thân / Xuất tinh liên tục / Nghe tiếng hôn / Nhổ nước bọt v.v…】
+	「Thật sự tệ nhất luôn…! Ghê tởm quá…!」
+	「Chỉ ngửi mùi nách thôi mà đã xuất tinh, không ngờ chứ.」
+	「Xin lỗi nhé, đã biến anh thành con người ngu ngốc hỏng não rồi.」
+	「Nhưng mà anh vốn dĩ đã ngu rồi nên cũng chẳng sao đâu nhỉ.」
+br:
+	str:03. Chị yêu anh lắm. Cảm ơn nhé. (18 phút)
+	Bạn đóng vai: Người yêu dấu của chị ♡
+	Thể loại: Hỗ trợ thủ dâm ngọt ngào
+	【????????????????】
+br:
+	str:EX. Buổi nói chuyện tự do của Aisaka Narumi-sama (11 phút)
