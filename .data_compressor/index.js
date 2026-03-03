@@ -17,14 +17,24 @@ const DIST_PATH = (function getDist() {
 
 // Get described ID, has VTT ID
 const { vttIDs, describedIDs } = scanStorage()
-// const [vttIDs, describedIDs] = await Promise.all([
-// 	getDescribedTrackID(join(__dirname, '../@descriptions/vtts/')),
-// 	getDescribedTrackID(join(__dirname, '../@descriptions/storage/')),
-// ]);
+writeFileSync(
+	join(DIST_PATH, '@described-tracks.txt'),
+	`Described:${describedIDs.join(',')}\n\nHas VTT:${vttIDs.join(',')}`,
+)
+writeFileSync(
+	join(__dirname, './storage/data/all.yaml'),
+	data.map(([id, ...info]) => `${id}:\n${info.map((data) => `\t${data.length ? data : '_'}`).join('\n')}`).join('\n\n'),
+)
 // writeFileSync(
-// 	join(DIST_PATH, '@described-tracks.txt'),
-// 	`Described:${describedIDs.join(',')}\n\nHas VTT:${vttIDs.join(',')}`
-// );
+// 	join(__dirname, './storage/data/all.csv'),
+// 	data
+// 		.map((track) =>
+// 			track
+// 				.map((info, index) => (index === 0 ? info : info ? info : '_'))
+// 				.map((info, index) => ([2, 3, 4].includes(index) ? info.replaceAll(',', '/') : info)),
+// 		)
+// 		.join('\n'),
+// )
 
 // Zip main data
 optimizeCSV()
