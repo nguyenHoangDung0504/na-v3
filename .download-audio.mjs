@@ -1,33 +1,81 @@
 import fs from 'fs'
 import path from 'path'
+
 import { fileURLToPath } from 'url'
 import { pipeline } from 'stream/promises'
+
 import { data } from './.data_compressor/storage/index.js'
 import { simplifyNumber } from './@descriptions/utils.js'
-
-// ================= ESM dirname =================
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 
+// ================= HELP =================
+
+function showHelp() {
+	console.log(`
+Usage:
+  node .download-audio.mjs <code> <indexes>
+
+Indexes:
+  all        Download all tracks
+  0,3,4      Specific indexes (comma-separated)
+  1-4        Range (inclusive)
+  0,2,5-8    Mixed
+
+Examples:
+  node .download-audio.mjs 111111 all
+  node .download-audio.mjs 111111 0,3,4
+  node .download-audio.mjs 111111 1-4
+  node .download-audio.mjs 111111 0,2,5-8
+`)
+}
+
 // ================= CLI =================
 
-const inputCode = process.argv[2]
-const indexArg = process.argv[3]
+const args = process.argv.slice(2)
+
+if (!args.length || args.includes('-h')) {
+	showHelp()
+	process.exit(0)
+}
+
+const [inputCode, indexArg] = args
 
 if (!inputCode || !indexArg) {
-	console.error('Ví dụ: node .download-audio.mjs 111111 0,3,4')
+	console.error('Missing arguments. Use -h for help.')
 	process.exit(1)
 }
 
-const selectedIndexes = indexArg
-	.split(',')
-	.map((n) => parseInt(n.trim(), 10))
-	.filter((n) => !isNaN(n))
+/**
+ * Parse index string: supports "all", "0,3,4", "1-4", "0,2,5-8"
+ * "all" returns null (resolve later when we know total count)
+ *
+ * @param {string} raw
+ * @param {number} total
+ * @returns {number[]}
+ */
+function parseIndexes(raw, total) {
+	if (raw.trim() === 'all') {
+		return Array.from({ length: total }, (_, i) => i)
+	}
 
-if (!selectedIndexes.length) {
-	console.error('Index không hợp lệ.')
-	process.exit(1)
+	/** @type {number[]} */
+	const result = []
+
+	for (const part of raw.split(',')) {
+		const range = part.trim().match(/^(\d+)-(\d+)$/)
+		if (range) {
+			const from = parseInt(range[1], 10)
+			const to = parseInt(range[2], 10)
+			for (let i = from; i <= to; i++) result.push(i)
+		} else {
+			const n = parseInt(part.trim(), 10)
+			if (!isNaN(n)) result.push(n)
+		}
+	}
+
+	return [...new Set(result)].sort((a, b) => a - b)
 }
 
 // ================= ROOT PATH =================
@@ -47,7 +95,6 @@ async function main() {
 		process.exit(1)
 	}
 
-	// 👉 Lấy API code từ index 1 và bỏ 2 ký tự đầu
 	const apiCodeRaw = row[1]
 	if (!apiCodeRaw || apiCodeRaw.length <= 2) {
 		console.error('Code API không hợp lệ')
@@ -64,19 +111,20 @@ async function main() {
 
 	const streamUrls = rawUrls.split(',').map((s) => s.trim())
 
-	const targets = selectedIndexes
-		.map((i) => ({
-			index: i,
-			streamUrl: streamUrls[i],
-		}))
-		.filter((x) => x.streamUrl)
-
-	if (!targets.length) {
-		console.error('Không có url hợp lệ theo index')
+	const selectedIndexes = parseIndexes(indexArg, streamUrls.length)
+	if (!selectedIndexes.length) {
+		console.error('Index không hợp lệ. Dùng -h để xem hướng dẫn.')
 		process.exit(1)
 	}
 
-	console.log('Target index:', targets.map((t) => t.index).join(','))
+	const targets = selectedIndexes.map((i) => ({ index: i, streamUrl: streamUrls[i] })).filter((x) => x.streamUrl)
+
+	if (!targets.length) {
+		console.error('Không có url hợp lệ theo index đã chọn.')
+		process.exit(1)
+	}
+
+	console.log('Target indexes:', targets.map((t) => t.index).join(', '))
 
 	const manifest = await getManifestJSON(apiCode)
 	if (!manifest) {
@@ -95,11 +143,7 @@ async function main() {
 	for (const target of targets) {
 		const match = STORAGE.find((item) => [item.mediaStreamUrl, item.streamLowQualityUrl].includes(target.streamUrl))
 		if (!match?.mediaDownloadUrl) continue
-
-		downloadTasks.push({
-			index: target.index,
-			url: match.mediaDownloadUrl,
-		})
+		downloadTasks.push({ index: target.index, url: match.mediaDownloadUrl })
 	}
 
 	if (!downloadTasks.length) {
@@ -117,16 +161,15 @@ async function main() {
 
 async function runPool(tasks, limit) {
 	let cursor = 0
-
-	const workers = Array.from({ length: limit }, async () => {
-		while (true) {
-			const taskIndex = cursor++
-			if (taskIndex >= tasks.length) break
-			await downloadWithRetry(tasks[taskIndex])
-		}
-	})
-
-	await Promise.all(workers)
+	await Promise.all(
+		Array.from({ length: limit }, async () => {
+			while (true) {
+				const taskIndex = cursor++
+				if (taskIndex >= tasks.length) break
+				await downloadWithRetry(tasks[taskIndex])
+			}
+		}),
+	)
 }
 
 // ================= DOWNLOAD =================
@@ -149,25 +192,16 @@ async function downloadStream({ index, url }) {
 	const ext = getExtension(url)
 	const filePath = path.join(dirPath, `${index}${ext}`)
 
-	// Skip nếu tồn tại
 	if (fs.existsSync(filePath)) {
-		console.log(`↷ [${index}] skip (exists)`)
-		console.log('\tAt:', filePath)
+		console.log(`↷ [${index}] skip (exists)\n\tAt: ${filePath}`)
 		return
 	}
 
 	console.log(`↓ [${index}] start`)
-
 	const res = await fetch(url)
-
-	if (!res.ok || !res.body) {
-		throw new Error('Network error')
-	}
-
+	if (!res.ok || !res.body) throw new Error('Network error')
 	await pipeline(res.body, fs.createWriteStream(filePath))
-
-	console.log(`✔ [${index}] done`)
-	console.log('\tAt:', filePath)
+	console.log(`✔ [${index}] done\n\tAt: ${filePath}`)
 }
 
 // ================= HELPERS =================
@@ -182,7 +216,6 @@ function format(children) {
 	delete children.duration
 	delete children.size
 	delete children.workTitle
-
 	return children
 }
 
@@ -200,6 +233,5 @@ async function getManifestJSON(code, version = 2) {
 
 function getExtension(url) {
 	const clean = url.split('?')[0]
-	const ext = path.extname(clean)
-	return ext || '.bin'
+	return path.extname(clean) || '.bin'
 }
