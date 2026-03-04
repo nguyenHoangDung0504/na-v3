@@ -115,7 +115,7 @@ export async function waitForSubtitles(page, taskId, logger, timeout = 30 * 60 *
 					logger.logProgress('Processing', data.progress)
 				}
 
-				return Array.isArray(data?.subtitles)
+				return Array.isArray(data?.subtitles) && data?.progress == 100
 			} catch {
 				return false
 			}

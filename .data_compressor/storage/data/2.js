@@ -446,18 +446,6 @@ _(
 	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/72132.mp3?v=1700552875882,https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/72132omake.mp3?v=1700552879637',
 )
 _(
-	98351,
-	'RJ01067350',
-	'Flan Kulumu',
-	'Anal,Animal Ears,Blowjob,Deepthroat,Hand Job,Harem,Loli,Magical Girl',
-	'',
-	'Cheeky female brat magical girl x 2 Oho voice hypnosis training',
-	'生意気メスガキ魔法少女×2オホ声催眠わからせ調教',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/98351-0.jpg?v=1701337565638',
-	'https://cdn.glitch.global/36049008-0c55-496e-873e-a2f971037d73/98351-1.jpg?v=1701337566918',
-	'https://cdn.glitch.me/36049008-0c55-496e-873e-a2f971037d73/98351t1.mp3?v=1701337589633',
-)
-_(
 	96687,
 	'RJ01066799',
 	'都みみち(三八みみち)',

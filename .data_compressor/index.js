@@ -21,19 +21,9 @@ writeFileSync(
 	join(DIST_PATH, '@described-tracks.txt'),
 	`Described:${describedIDs.join(',')}\n\nHas VTT:${vttIDs.join(',')}`,
 )
-writeFileSync(
-	join(__dirname, './storage/data/all.yaml'),
-	data.map(([id, ...info]) => `${id}:\n${info.map((data) => `\t${data.length ? data : '_'}`).join('\n')}`).join('\n\n'),
-)
 // writeFileSync(
-// 	join(__dirname, './storage/data/all.csv'),
-// 	data
-// 		.map((track) =>
-// 			track
-// 				.map((info, index) => (index === 0 ? info : info ? info : '_'))
-// 				.map((info, index) => ([2, 3, 4].includes(index) ? info.replaceAll(',', '/') : info)),
-// 		)
-// 		.join('\n'),
+// 	join(__dirname, './storage/data/data.csv'),
+// 	data.map(([id, ...info]) => `${id}:\n${info.map((data) => `\t${data.length ? data : '_'}`).join('\n')}`).join('\n\n'),
 // )
 
 // Zip main data
