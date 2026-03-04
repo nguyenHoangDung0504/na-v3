@@ -1,32 +1,29 @@
-main();
-const STREAM_PATH = 'https://raw.kiko-play-niptan.one/media/stream/daily/';
-const DOWNLOAD_PATH = STREAM_PATH.replace('stream', 'download');
-const THUMBNAIL = document.querySelector('.q-img__image.absolute-full img').src;
+main()
+const STREAM_PATH = 'https://raw.kiko-play-niptan.one/media/stream/daily/'
+const DOWNLOAD_PATH = STREAM_PATH.replace('stream', 'download')
+const THUMBNAIL = document.querySelector('.q-img__image.absolute-full img').src
 
 async function main() {
-	const STORAGE = [];
-	const SE = 'あり';
-	const NO_SE = 'なし';
+	const STORAGE = []
+	const SE = 'あり'
+	const NO_SE = 'なし'
 
-	const manifest = await getManifestJSON(2);
-	if (manifest === null) return;
+	const manifest = await getManifestJSON(2)
+	if (manifest === null) return
 
 	manifest.forEach((children) => {
-		children['@folder'] = '@ROOT';
-		if (isFolder(children)) {
-			return traversal(children, STORAGE);
-		}
-
-		STORAGE.push(format(children));
-	});
+		children['@folder'] = '@ROOT'
+		if (isFolder(children)) return traversal(children, STORAGE)
+		STORAGE.push(format(children))
+	})
 
 	STORAGE.sort((a, b) => {
-		a['@folder'] = a['@folder'].replace('@ROOT ', '');
-		b['@folder'] = b['@folder'].replace('@ROOT ', '');
-		return a['@folder'].localeCompare(b['@folder']);
-	});
+		a['@folder'] = a['@folder'].replace('@ROOT ', '')
+		b['@folder'] = b['@folder'].replace('@ROOT ', '')
+		return a['@folder'].localeCompare(b['@folder'])
+	})
 
-	initView(STORAGE);
+	initView(STORAGE)
 }
 
 // @HANDLERS
@@ -34,191 +31,191 @@ async function main() {
 function format(children) {
 	// Update for leak fast audio link
 	if (children.type === 'audio' && children.streamLowQualityUrl.trim()) {
-		children.mediaStreamUrl = children.streamLowQualityUrl;
+		children.mediaStreamUrl = children.streamLowQualityUrl
 	}
 
-	delete children.hash;
-	delete children.work;
-	delete children.mediaDownloadUrl;
-	delete children.duration;
-	delete children.size;
-	delete children.workTitle;
-	delete children.streamLowQualityUrl;
-	return children;
+	delete children.hash
+	delete children.work
+	// delete children.mediaDownloadUrl
+	delete children.duration
+	delete children.size
+	delete children.workTitle
+	// delete children.streamLowQualityUrl
+	return children
 }
 
 function isFolder(json) {
-	return json.type === 'folder' && json.children && json.children.length > 0;
+	return json.type === 'folder' && json.children && json.children.length > 0
 }
 
 async function getManifestJSON(version = 1) {
-	if (!location.href.includes('RJ')) return null;
+	if (!location.href.includes('RJ')) return null
 
-	const codePart = new URL(window.location.href).pathname.split('/').filter(Boolean).pop().slice(2);
-	const manifest = await (await fetch(`https://api.asmr-200.com/api/tracks/${codePart}?v=${version}`)).json();
-	console.log('Debug::Manifest:', manifest);
+	const codePart = new URL(window.location.href).pathname.split('/').filter(Boolean).pop().slice(2)
+	const manifest = await (await fetch(`https://api.asmr-200.com/api/tracks/${codePart}?v=${version}`)).json()
+	console.log('Debug::Manifest:', manifest)
 
-	return manifest;
+	return manifest
 }
 
 function traversal(folder, storage) {
 	if (isFolder(folder)) {
 		folder.children.forEach((children) => {
-			children['@folder'] = `${(folder['@folder'] ??= '')} / ${folder.title}`;
-			if (isFolder(children)) return traversal(children, storage);
-			storage.push(format(children));
-		});
+			children['@folder'] = `${(folder['@folder'] ??= '')} / ${folder.title}`
+			if (isFolder(children)) return traversal(children, storage)
+			storage.push(format(children))
+		})
 	}
 }
 
 // @VIEWS
 
 function initView(storage) {
-	const html = getHTML();
-	const blob = new Blob([html], { type: 'text/html' });
-	const url = URL.createObjectURL(blob);
-	const width = screen.width * 0.9;
-	const height = screen.height * 0.9;
-	const top = screen.width * 0.05;
-	const left = screen.height * 0.05;
+	const html = getHTML()
+	const blob = new Blob([html], { type: 'text/html' })
+	const url = URL.createObjectURL(blob)
+	const width = screen.width * 0.9
+	const height = screen.height * 0.9
+	const top = screen.width * 0.05
+	const left = screen.height * 0.05
 
-	const popup = window.open(url, '_blank', `width=${width},height=${height},top=${top},left=${left}`);
+	const popup = window.open(url, '_blank', `width=${width},height=${height},top=${top},left=${left}`)
 	popup.addEventListener('load', () => {
-		URL.revokeObjectURL(url);
-		initAction(popup.document, storage);
-	});
+		URL.revokeObjectURL(url)
+		initAction(popup.document, storage)
+	})
 	popup.window.copyOutput = (id) => {
-		const textarea = popup.document.getElementById(id);
-		textarea.select();
-		popup.document.execCommand('copy');
-	};
+		const textarea = popup.document.getElementById(id)
+		textarea.select()
+		popup.document.execCommand('copy')
+	}
 }
 
 function initAction(documentContext, data) {
-	const container = documentContext.getElementById('container');
-	const rsOutput = documentContext.getElementById('rsOutput');
-	const imageOutput = documentContext.getElementById('imageOutput');
-	const audioOutput = documentContext.getElementById('audioOutput');
-	const textOutput = documentContext.getElementById('textOutput');
+	const container = documentContext.getElementById('container')
+	const rsOutput = documentContext.getElementById('rsOutput')
+	const imageOutput = documentContext.getElementById('imageOutput')
+	const audioOutput = documentContext.getElementById('audioOutput')
+	const textOutput = documentContext.getElementById('textOutput')
 
 	const selected = {
 		image: new Set(),
 		audio: new Set(),
 		text: new Set(),
-	};
+	}
 
 	function updateOutput() {
-		imageOutput.value = [...selected.image].join(',');
-		audioOutput.value = [...selected.audio].join(',');
-		textOutput.value = [...selected.text].join('\n');
-		rsOutput.value = `"${THUMBNAIL}", "${imageOutput.value}", "${audioOutput.value}"`;
-		autoResize(rsOutput);
-		autoResize(imageOutput);
-		autoResize(audioOutput);
-		autoResize(textOutput);
+		imageOutput.value = [...selected.image].join(',')
+		audioOutput.value = [...selected.audio].join(',')
+		textOutput.value = [...selected.text].join('\n')
+		rsOutput.value = `"${THUMBNAIL}", "${imageOutput.value}", "${audioOutput.value}"`
+		autoResize(rsOutput)
+		autoResize(imageOutput)
+		autoResize(audioOutput)
+		autoResize(textOutput)
 	}
 
 	function autoResize(textarea) {
-		textarea.style.height = 'auto';
-		textarea.style.height = textarea.scrollHeight + 'px';
+		textarea.style.height = 'auto'
+		textarea.style.height = textarea.scrollHeight + 'px'
 	}
 
-	const groups = {};
+	const groups = {}
 	for (const item of data) {
-		const folder = item['@folder'] || 'Uncategorized';
-		if (!groups[folder]) groups[folder] = [];
-		groups[folder].push(item);
+		const folder = item['@folder'] || 'Uncategorized'
+		if (!groups[folder]) groups[folder] = []
+		groups[folder].push(item)
 	}
 
 	for (const [folder, items] of Object.entries(groups)) {
-		const details = documentContext.createElement('details');
-		const summary = documentContext.createElement('summary');
-		summary.textContent = folder;
-		details.appendChild(summary);
+		const details = documentContext.createElement('details')
+		const summary = documentContext.createElement('summary')
+		summary.textContent = folder
+		details.appendChild(summary)
 
 		for (const [index, item] of items.entries()) {
-			const wrapper = documentContext.createElement('div');
-			wrapper.className = 'item';
+			const wrapper = documentContext.createElement('div')
+			wrapper.className = 'item'
 
-			const id = `${folder}-${index}-${item.type}`;
-			const input = documentContext.createElement('input');
-			input.type = 'checkbox';
-			input.id = id;
+			const id = `${folder}-${index}-${item.type}`
+			const input = documentContext.createElement('input')
+			input.type = 'checkbox'
+			input.id = id
 
-			const label = documentContext.createElement('label');
-			label.setAttribute('for', id);
+			const label = documentContext.createElement('label')
+			label.setAttribute('for', id)
 
-			const urlText = documentContext.createElement('div');
-			urlText.textContent = item.title;
-			urlText.style.wordBreak = 'break-word';
-			urlText.style.marginBottom = '10px';
-			label.appendChild(urlText);
+			const urlText = documentContext.createElement('div')
+			urlText.textContent = item.title
+			urlText.style.wordBreak = 'break-word'
+			urlText.style.marginBottom = '10px'
+			label.appendChild(urlText)
 
 			if (item.type === 'audio') {
-				const audio = documentContext.createElement('audio');
-				audio.controls = true;
-				audio.preload = 'none';
-				audio.src = item.mediaStreamUrl;
-				label.appendChild(audio);
+				const audio = documentContext.createElement('audio')
+				audio.controls = true
+				audio.preload = 'none'
+				audio.src = item.mediaStreamUrl
+				label.appendChild(audio)
 
 				input.addEventListener('change', () => {
-					wrapper.classList.toggle('checked', input.checked);
-					if (input.checked) selected.audio.add(item.mediaStreamUrl);
-					else selected.audio.delete(item.mediaStreamUrl);
-					updateOutput();
-				});
+					wrapper.classList.toggle('checked', input.checked)
+					if (input.checked) selected.audio.add(item.mediaStreamUrl)
+					else selected.audio.delete(item.mediaStreamUrl)
+					updateOutput()
+				})
 			} else if (item.type === 'image') {
-				const imgWrapper = documentContext.createElement('div');
-				imgWrapper.style.position = 'relative';
+				const imgWrapper = documentContext.createElement('div')
+				imgWrapper.style.position = 'relative'
 
-				const img = documentContext.createElement('img');
-				img.loading = 'lazy';
-				img.src = item.mediaStreamUrl;
+				const img = documentContext.createElement('img')
+				img.loading = 'lazy'
+				img.src = item.mediaStreamUrl
 
-				const overlay = documentContext.createElement('div');
-				overlay.className = 'url-overlay';
-				overlay.textContent = item.mediaStreamUrl;
+				const overlay = documentContext.createElement('div')
+				overlay.className = 'url-overlay'
+				overlay.textContent = item.mediaStreamUrl
 
-				imgWrapper.appendChild(img);
-				imgWrapper.appendChild(overlay);
-				label.appendChild(imgWrapper);
+				imgWrapper.appendChild(img)
+				imgWrapper.appendChild(overlay)
+				label.appendChild(imgWrapper)
 
 				input.addEventListener('change', () => {
-					wrapper.classList.toggle('checked', input.checked);
-					if (input.checked) selected.image.add(item.mediaStreamUrl);
-					else selected.image.delete(item.mediaStreamUrl);
-					updateOutput();
-				});
+					wrapper.classList.toggle('checked', input.checked)
+					if (input.checked) selected.image.add(item.mediaStreamUrl)
+					else selected.image.delete(item.mediaStreamUrl)
+					updateOutput()
+				})
 			} else if (item.type === 'text') {
 				input.addEventListener('change', () => {
-					wrapper.classList.toggle('checked', input.checked);
-					if (input.checked) selected.text.add(item.mediaStreamUrl);
-					else selected.text.delete(item.mediaStreamUrl);
-					updateOutput();
-				});
+					wrapper.classList.toggle('checked', input.checked)
+					if (input.checked) selected.text.add(item.mediaStreamUrl)
+					else selected.text.delete(item.mediaStreamUrl)
+					updateOutput()
+				})
 			}
 
-			wrapper.appendChild(input);
-			wrapper.appendChild(label);
-			details.appendChild(wrapper);
+			wrapper.appendChild(input)
+			wrapper.appendChild(label)
+			details.appendChild(wrapper)
 		}
 
-		container.appendChild(details);
+		container.appendChild(details)
 	}
 
 	documentContext.querySelectorAll('details > summary').forEach((summary) => {
 		summary.addEventListener('click', function (e) {
-			const currentDetails = this.parentElement;
-			const allDetails = documentContext.querySelectorAll('details');
+			const currentDetails = this.parentElement
+			const allDetails = documentContext.querySelectorAll('details')
 
 			// Nếu đang đóng => chuẩn bị mở => đóng tất cả cái khác
 			if (!currentDetails.open) {
 				allDetails.forEach((d) => {
-					if (d !== currentDetails) d.removeAttribute('open');
-				});
+					if (d !== currentDetails) d.removeAttribute('open')
+				})
 			}
-		});
-	});
+		})
+	})
 }
 
 function getHTML() {
@@ -266,7 +263,7 @@ function getHTML() {
 		</body>
 
 		</html>
-  `;
+  `
 }
 
 function getCSS() {
@@ -427,5 +424,5 @@ function getCSS() {
 			padding: 0.5em;
 			font-family: monospace;
 		}
-  `;
+  `
 }

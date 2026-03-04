@@ -22,8 +22,8 @@ writeFileSync(
 	`Described:${describedIDs.join(',')}\n\nHas VTT:${vttIDs.join(',')}`,
 )
 // writeFileSync(
-// 	join(__dirname, './storage/data/data.csv'),
-// 	data.map(([id, ...info]) => `${id}:\n${info.map((data) => `\t${data.length ? data : '_'}`).join('\n')}`).join('\n\n'),
+// 	join(__dirname, './storage/data.csv'),
+// 	data.map(([id, ...info]) => `${id}:\n${info.map((data) => `\t${data}`).join('\n')}`).join('\n\n') + '\n',
 // )
 
 // Zip main data
