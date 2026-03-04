@@ -5,24 +5,17 @@ import fs from 'fs'
 
 import { processAudio } from './process.mjs'
 
-const targetDir = process.argv[2]
-if (!targetDir) {
+const targetDirs = process.argv.slice(2)
+if (!targetDirs.length) {
 	console.log(`
 Usage:
-  node index.js <relative-path-to-media-folder>
+  node generate.mjs <dir1> [dir2] [dir3] ...
 
 Example:
-  node index.js ./media
+  node generate.mjs ./media ./media2 /absolute/path/media3
 `)
 	process.exit(1)
 }
-
-const MEDIA_DIR = path.isAbsolute(targetDir) ? targetDir : path.resolve(process.cwd(), targetDir)
-if (!fs.existsSync(MEDIA_DIR) || !fs.statSync(MEDIA_DIR).isDirectory()) {
-	console.error(`Invalid directory: ${MEDIA_DIR}`)
-	process.exit(1)
-}
-console.log(`Scanning directory: ${MEDIA_DIR}`)
 
 const CONCURRENCY = 2
 
@@ -45,23 +38,29 @@ const MEDIA_EXTENSIONS = new Set([
 ])
 
 /**
- * Get media files from directory.
  * @param {string} dir
  * @returns {string[]}
  */
 function getMediaFiles(dir) {
+	const resolved = path.isAbsolute(dir) ? dir : path.resolve(process.cwd(), dir)
+	if (!fs.existsSync(resolved) || !fs.statSync(resolved).isDirectory()) {
+		console.error(`Skipping invalid directory: ${resolved}`)
+		return []
+	}
+	console.log(`Scanning: ${resolved}`)
 	return fs
-		.readdirSync(dir)
+		.readdirSync(resolved)
 		.filter((f) => MEDIA_EXTENSIONS.has(path.extname(f).toLowerCase()))
-		.map((f) => path.join(dir, f))
+		.map((f) => path.join(resolved, f))
 }
 
-const mediaFiles = getMediaFiles(MEDIA_DIR)
-if (mediaFiles.length === 0) {
+const mediaFiles = targetDirs.flatMap(getMediaFiles)
+if (!mediaFiles.length) {
 	console.log('No supported media files found.')
 	process.exit(0)
 }
-console.log(`Found ${mediaFiles.length} media files.`)
+console.log(`Found ${mediaFiles.length} media files total.`)
+
 const queue = [...mediaFiles]
 
 await Promise.all(Array.from({ length: CONCURRENCY }, (_, i) => worker(i + 1)))
@@ -69,17 +68,15 @@ console.log('All done.')
 process.exit(0)
 
 /**
- * Worker loop.
  * @param {number} id
- * @returns {Promise<void>}
  */
 async function worker(id) {
 	while (queue.length) {
 		const file = queue.shift()
 		if (!file) break
-
 		console.log(`Worker ${id} processing: ${file}`)
 		await processAudio(file)
 	}
+
 	console.log(`Worker ${id} finished.`)
 }

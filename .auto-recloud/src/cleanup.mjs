@@ -3,10 +3,8 @@
 import fs from 'fs'
 import path from 'path'
 
-const targetDir = process.argv[2]
-if (!targetDir) process.exit(1)
-
-const MEDIA_DIR = path.isAbsolute(targetDir) ? targetDir : path.resolve(process.cwd(), targetDir)
+const targetDirs = process.argv.slice(2)
+if (!targetDirs.length) process.exit(1)
 
 /**
  * Supported extensions
@@ -45,15 +43,12 @@ function cleanup(dir) {
 			continue
 		}
 
-		// Nếu là media file
 		if (MEDIA_EXTENSIONS.has(path.extname(file).toLowerCase())) {
 			const baseName = path.basename(file, path.extname(file))
 			const vttDir = path.join(dir, 'vtt')
-
 			const output1 = path.join(vttDir, `${baseName}.txt`)
 			const output2 = path.join(vttDir, `${baseName}.raw.txt`)
 
-			// Nếu có đủ output -> xóa media
 			if (fs.existsSync(output1) && fs.existsSync(output2)) {
 				fs.unlinkSync(full)
 			}
@@ -61,4 +56,12 @@ function cleanup(dir) {
 	}
 }
 
-cleanup(MEDIA_DIR)
+for (const targetDir of targetDirs) {
+	const resolved = path.isAbsolute(targetDir) ? targetDir : path.resolve(process.cwd(), targetDir)
+	if (!fs.existsSync(resolved) || !fs.statSync(resolved).isDirectory()) {
+		console.error(`Skipping invalid directory: ${resolved}`)
+		continue
+	}
+	console.log(`Cleaning: ${resolved}`)
+	cleanup(resolved)
+}

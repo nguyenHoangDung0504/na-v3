@@ -16,7 +16,7 @@ async function getBrowser() {
 	if (!sharedBrowser || !sharedBrowser.connected) {
 		sharedBrowser = await puppeteer.launch({
 			headless: true,
-			defaultViewport: null,
+			defaultViewport: { width: 0, height: 0 },
 		})
 	}
 
@@ -34,10 +34,7 @@ export async function processAudio(audioFile) {
 	const outDir = path.join(path.dirname(audioFile), 'vtt')
 	const output1 = path.join(outDir, `${baseName}.txt`)
 	const output2 = path.join(outDir, `${baseName}.raw.txt`)
-
-	if (fs.existsSync(output1) && fs.existsSync(output2)) {
-		return
-	}
+	if (fs.existsSync(output1) && fs.existsSync(output2)) return
 
 	const logger = createLogger(audioFile)
 
