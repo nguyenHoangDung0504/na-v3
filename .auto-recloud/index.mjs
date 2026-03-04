@@ -17,7 +17,7 @@ Example:
 	process.exit(1)
 }
 
-const MEDIA_DIR = path.resolve(process.cwd(), targetDir)
+const MEDIA_DIR = path.isAbsolute(targetDir) ? targetDir : path.resolve(process.cwd(), targetDir)
 if (!fs.existsSync(MEDIA_DIR) || !fs.statSync(MEDIA_DIR).isDirectory()) {
 	console.error(`Invalid directory: ${MEDIA_DIR}`)
 	process.exit(1)
