@@ -108,7 +108,8 @@ function initAction(documentContext, data) {
 		imageOutput.value = [...selected.image].join(',')
 		audioOutput.value = [...selected.audio].join(',')
 		textOutput.value = [...selected.text].join('\n')
-		rsOutput.value = `"${THUMBNAIL}", "${imageOutput.value}", "${audioOutput.value}"`
+		// rsOutput.value = `"${THUMBNAIL}", "${imageOutput.value}", "${audioOutput.value}"`
+		rsOutput.value = `\n\t${THUMBNAIL}\n\t${imageOutput.value}\n\t${audioOutput.value}\n`
 		autoResize(rsOutput)
 		autoResize(imageOutput)
 		autoResize(audioOutput)

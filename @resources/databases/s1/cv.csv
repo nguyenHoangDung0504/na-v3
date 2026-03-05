@@ -1,16 +1,16 @@
 #CATEGORY_ID,#CATEGORY_NAME,#QUANTITY
 1,Eikyuu,1
-2,Narumi Aisaka,48
+2,Narumi Aisaka,47
 3,Tsubame Yuzuki,70
 4,Haru Koyama,7
 5,Shio Satou,4
 6,Minase Suzuka,47
 7,Natsuki Nogami,4
 8,Mio Namimi,6
-9,Kaede Akino,37
-10,Kotone Akatsuki,10
+9,Kaede Akino,36
+10,Kotone Akatsuki,8
 11,Ayane,1
-12,Uzuki Lilim,9
+12,Uzuki Lilim,8
 13,Yomogi Ashitaba,2
 14,Hanami Takanashi,12
 15,Igasaki Ayaka,9
@@ -23,21 +23,21 @@
 22,氷上のあ,2
 23,蘭世,1
 24,Amu Mochiri,13
-25,Yuka Hinata,64
+25,Yuka Hinata,62
 26,Haruno Sakaki,2
-27,Kosuzu Momoka,4
+27,Kosuzu Momoka,3
 28,Haruru Akiyama,8
 29,Popura Sawano,3
-30,Kanoko,11
-31,Soramame,8
+30,Kanoko,10
+31,Soramame,7
 32,MOMOKA,17
 33,Yukiko Shinomori,4
 34,不破ふわり,1
 35,Hano Amane,1
 36,Akari Yuzuki,4
 37,Shiki Asagi,15
-38,Chiroru Oyama,20
-39,Shiho Bubaigawara,10
+38,Chiroru Oyama,19
+39,Shiho Bubaigawara,9
 40,Nanami Mizuno,1
 41,鳴先そら,1
 42,Rito Ichinose,1
@@ -47,7 +47,7 @@
 46,Gemiko Yamada,7
 47,Amane Mizuchi,4
 48,Nodoka Nishiura,4
-49,Yui Otokura,8
+49,Yui Otokura,7
 50,Raichi Annin,1
 51,Izumi Mikoshiba,14
 52,床貓,2
@@ -56,14 +56,14 @@
 55,Mei Misonoo,2
 56,Aoi Tokio,1
 57,Mako Ayane,2
-58,Satsuki Sonomiya,3
+58,Satsuki Sonomiya,2
 59,Kotoza,1
 60,乙倉碧,1
 61,Aino Mimori,10
 62,Kannazuki Honoka,1
 63,都みみち(三八みみち),3
 64,早緒きむり,1
-65,しゃふ,2
+65,しゃふ,1
 66,Jumi,1
 67,Mitsu Anzu,1
 68,夢咲みるく,1
@@ -96,59 +96,54 @@
 95,Nanana,1
 96,Musubi Aono,3
 97,朝野宇咲,1
-98,竹早芽衣,2
-99,楓まろん,1
-100,Shiharu Kanaya,1
-101,Shinoka Tenjo,1
-102,Emi Sakura,1
-103,Natsuka Hano,1
-104,Phan Masaki,1
-105,Yuki Akashi,3
-106,Mashiro Kazahana,1
-107,Amamiya Mei,1
-108,Chiyuri Yugi,1
-109,鮎乃さしみ,1
-110,小鳥遊いと,1
-111,いぬです,1
-112,Yukina Izumi,1
-113,Flan Kulumu,2
-114,猫視ねこ,2
-115,Nami Saionji,2
-116,STELLA,2
-117,鳴宮なる,1
-118,Yuzuko Konoe,1
-119,神間みと,1
-120,川乃瀬由羽,1
-121,Yuzuhara Miu,1
-122,Rio Fujimura,1
-123,星月るな,1
-124,Himari,1
-125,Minami Imaya,4
-126,奏星イト,2
-127,雪見だいふく,1
-128,碧棺らむだ,1
-129,具羅津ちえ,1
-130,Riruru Kimino,1
-131,Sarah Ayumi,1
-132,双葉すずね,1
-133,伊倉える,1
-134,都みみち,1
-135,鬼霧茜,1
-136,Hiyori Misaki,2
-137,Ogura Yui,1
-138,Kanase,1
-139,田中,1
-140,China Mugisawa,1
-141,Myua,1
-142,Yuuran,1
-143,匿名milf,2
-144,Sumire Haruno,1
-145,Awayuki,1
-146,鷹見れん,1
-147,千紗,1
-148,雲八はち,1
-149,佐々木サキ,3
-150,Tsukasa Kotobuki,1
-151,Ryoko Tezuka,1
-152,Katakura Hina,1
-153,Kotori Madono,1
+98,竹早芽衣,1
+99,Shiharu Kanaya,1
+100,Shinoka Tenjo,1
+101,Emi Sakura,1
+102,Natsuka Hano,1
+103,Phan Masaki,1
+104,Yuki Akashi,3
+105,Mashiro Kazahana,1
+106,Amamiya Mei,1
+107,Chiyuri Yugi,1
+108,鮎乃さしみ,1
+109,小鳥遊いと,1
+110,Yukina Izumi,1
+111,Nami Saionji,2
+112,STELLA,1
+113,Yuzuko Konoe,1
+114,神間みと,1
+115,川乃瀬由羽,1
+116,Flan Kulumu,1
+117,Yuzuhara Miu,1
+118,Rio Fujimura,1
+119,星月るな,1
+120,Himari,1
+121,Minami Imaya,4
+122,奏星イト,2
+123,碧棺らむだ,1
+124,具羅津ちえ,1
+125,Riruru Kimino,1
+126,Sarah Ayumi,1
+127,双葉すずね,1
+128,伊倉える,1
+129,都みみち,1
+130,鬼霧茜,1
+131,Hiyori Misaki,2
+132,Ogura Yui,1
+133,Kanase,1
+134,田中,1
+135,China Mugisawa,1
+136,Myua,1
+137,Yuuran,1
+138,匿名milf,2
+139,Sumire Haruno,1
+140,Awayuki,1
+141,鷹見れん,1
+142,千紗,1
+143,雲八はち,1
+144,佐々木サキ,3
+145,Tsukasa Kotobuki,1
+146,Ryoko Tezuka,1
+147,Katakura Hina,1
+148,Kotori Madono,1
