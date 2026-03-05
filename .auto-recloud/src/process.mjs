@@ -12,15 +12,49 @@ import { blockTrackingScript } from './net-block.mjs'
 /** @type {import('puppeteer').Browser | null} */
 let sharedBrowser = null
 
+/** @type {Promise<import('puppeteer').Browser> | null} */
+let browserLaunchPromise = null
+
 async function getBrowser() {
-	if (!sharedBrowser || !sharedBrowser.connected) {
-		sharedBrowser = await puppeteer.launch({
+	// Nếu browser đã sống → dùng luôn
+	if (sharedBrowser?.connected) return sharedBrowser
+
+	// Nếu đang launch → chờ promise đó thay vì launch thêm
+	if (browserLaunchPromise) return browserLaunchPromise
+
+	// Chưa ai launch → ta launch, lưu promise để các caller khác chờ chung
+	browserLaunchPromise = puppeteer
+		.launch({
 			headless: true,
 			defaultViewport: { width: 0, height: 0 },
+			args: [
+				'--disable-setuid-sandbox',
+				'--disable-dev-shm-usage',
+				'--disable-extensions',
+				'--disable-background-networking',
+				'--disable-background-timer-throttling',
+				'--disable-renderer-backgrounding',
+				'--disable-gpu',
+			],
 		})
-	}
+		.then((browser) => {
+			sharedBrowser = browser
 
-	return sharedBrowser
+			// Nếu browser crash/đóng → reset để lần sau có thể launch lại
+			browser.on('disconnected', () => {
+				sharedBrowser = null
+				browserLaunchPromise = null
+			})
+
+			return browser
+		})
+		.catch((err) => {
+			// Launch thất bại → reset để cho phép thử lại
+			browserLaunchPromise = null
+			throw err
+		})
+
+	return browserLaunchPromise
 }
 
 /**
@@ -54,13 +88,14 @@ export async function processAudio(audioFile) {
 
 			const [fileChooser] = await Promise.all([
 				page.waitForFileChooser(),
-				page.click('[data-v-f9a0b884].gradient-button-auto-theme'),
+				// @ts-expect-error: Element type too large
+				page.$eval('[data-v-f9a0b884].gradient-button-auto-theme', (el) => el.click()),
 			])
 
 			await fileChooser.accept([audioFile])
 			logger.log('File selected')
 
-			const uploadTaskID = await waitForUploadTaskID(page)
+			const uploadTaskID = await waitForUploadTaskID(page, logger)
 			await waitForUploadDone(page, uploadTaskID, logger)
 
 			await triggerGenerate(page)
