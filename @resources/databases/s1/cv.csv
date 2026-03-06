@@ -1,16 +1,16 @@
 #CATEGORY_ID,#CATEGORY_NAME,#QUANTITY
 1,Eikyuu,1
-2,Narumi Aisaka,47
-3,Tsubame Yuzuki,70
+2,Narumi Aisaka,42
+3,Tsubame Yuzuki,61
 4,Haru Koyama,7
 5,Shio Satou,4
-6,Minase Suzuka,47
+6,Minase Suzuka,45
 7,Natsuki Nogami,4
 8,Mio Namimi,6
-9,Kaede Akino,36
-10,Kotone Akatsuki,8
+9,Kaede Akino,34
+10,Kotone Akatsuki,7
 11,Ayane,1
-12,Uzuki Lilim,8
+12,Uzuki Lilim,6
 13,Yomogi Ashitaba,2
 14,Hanami Takanashi,12
 15,Igasaki Ayaka,9
@@ -23,127 +23,117 @@
 22,氷上のあ,2
 23,蘭世,1
 24,Amu Mochiri,13
-25,Yuka Hinata,62
+25,Yuka Hinata,59
 26,Haruno Sakaki,2
 27,Kosuzu Momoka,3
-28,Haruru Akiyama,8
+28,Haruru Akiyama,6
 29,Popura Sawano,3
 30,Kanoko,10
-31,Soramame,7
+31,Soramame,6
 32,MOMOKA,17
 33,Yukiko Shinomori,4
 34,不破ふわり,1
 35,Hano Amane,1
 36,Akari Yuzuki,4
 37,Shiki Asagi,15
-38,Chiroru Oyama,19
-39,Shiho Bubaigawara,9
+38,Chiroru Oyama,16
+39,Shiho Bubaigawara,7
 40,Nanami Mizuno,1
 41,鳴先そら,1
 42,Rito Ichinose,1
 43,Megumu Morino,1
 44,Tsukushi Haruno,1
 45,Ryou Suzuki,6
-46,Gemiko Yamada,7
+46,Gemiko Yamada,6
 47,Amane Mizuchi,4
 48,Nodoka Nishiura,4
 49,Yui Otokura,7
-50,Raichi Annin,1
-51,Izumi Mikoshiba,14
-52,床貓,2
-53,Kotoka,1
-54,風慈宮ユキ,1
-55,Mei Misonoo,2
-56,Aoi Tokio,1
-57,Mako Ayane,2
-58,Satsuki Sonomiya,2
-59,Kotoza,1
-60,乙倉碧,1
-61,Aino Mimori,10
-62,Kannazuki Honoka,1
-63,都みみち(三八みみち),3
-64,早緒きむり,1
-65,しゃふ,1
-66,Jumi,1
-67,Mitsu Anzu,1
-68,夢咲みるく,1
-69,咲坂栞,2
-70,能登麻美子,1
-71,Karin Inoue,2
-72,Yuki Usagi,1
-73,Run Hanami,3
-74,山田麗奈,1
-75,Mitaka Rin,1
-76,Nachu Aizawa,5
-77,木崎彩音,1
-78,Erena Kaibara,1
-79,未想可みいろ,1
-80,Rima Nemurine,1
-81,Maria Ayana,1
-82,Kumoko Jorouin,1
-83,まあ油るる,1
-84,Ruina Himeki,1
-85,Mikan Yomoyama,2
-86,ユリハラ虧夕,1
-87,Paco Shirakawa,1
-88,Riyuu,1
-89,Hina Ayame,1
-90,白井るか,1
-91,笹木ころん,2
-92,Seika Ayakura,1
-93,Amamiya Suzuka,1
-94,星野天,4
-95,Nanana,1
-96,Musubi Aono,3
-97,朝野宇咲,1
-98,竹早芽衣,1
-99,Shiharu Kanaya,1
-100,Shinoka Tenjo,1
-101,Emi Sakura,1
-102,Natsuka Hano,1
-103,Phan Masaki,1
-104,Yuki Akashi,3
-105,Mashiro Kazahana,1
-106,Amamiya Mei,1
-107,Chiyuri Yugi,1
-108,鮎乃さしみ,1
-109,小鳥遊いと,1
-110,Yukina Izumi,1
-111,Nami Saionji,2
-112,STELLA,1
-113,Yuzuko Konoe,1
-114,神間みと,1
-115,川乃瀬由羽,1
-116,Flan Kulumu,1
-117,Yuzuhara Miu,1
-118,Rio Fujimura,1
-119,星月るな,1
-120,Himari,1
-121,Minami Imaya,4
-122,奏星イト,2
-123,碧棺らむだ,1
-124,具羅津ちえ,1
-125,Riruru Kimino,1
-126,Sarah Ayumi,1
-127,双葉すずね,1
-128,伊倉える,1
-129,都みみち,1
-130,鬼霧茜,1
-131,Hiyori Misaki,2
-132,Ogura Yui,1
-133,Kanase,1
-134,田中,1
-135,China Mugisawa,1
-136,Myua,1
-137,Yuuran,1
-138,匿名milf,2
-139,Sumire Haruno,1
-140,Awayuki,1
-141,鷹見れん,1
-142,千紗,1
-143,雲八はち,1
-144,佐々木サキ,3
-145,Tsukasa Kotobuki,1
-146,Ryoko Tezuka,1
-147,Katakura Hina,1
-148,Kotori Madono,1
+50,Izumi Mikoshiba,13
+51,床貓,2
+52,Kotoka,1
+53,Mei Misonoo,2
+54,Aoi Tokio,1
+55,Mako Ayane,2
+56,Satsuki Sonomiya,2
+57,Kotoza,1
+58,乙倉碧,1
+59,Aino Mimori,10
+60,Kannazuki Honoka,1
+61,早緒きむり,1
+62,Mitsu Anzu,1
+63,都みみち(三八みみち),2
+64,夢咲みるく,1
+65,咲坂栞,2
+66,能登麻美子,1
+67,Karin Inoue,2
+68,Yuki Usagi,1
+69,Run Hanami,3
+70,Mitaka Rin,1
+71,Nachu Aizawa,5
+72,木崎彩音,1
+73,Erena Kaibara,1
+74,未想可みいろ,1
+75,Rima Nemurine,1
+76,Maria Ayana,1
+77,Kumoko Jorouin,1
+78,まあ油るる,1
+79,Ruina Himeki,1
+80,Mikan Yomoyama,2
+81,ユリハラ虧夕,1
+82,Paco Shirakawa,1
+83,Riyuu,1
+84,Hina Ayame,1
+85,白井るか,1
+86,笹木ころん,2
+87,Seika Ayakura,1
+88,Amamiya Suzuka,1
+89,星野天,4
+90,Nanana,1
+91,Musubi Aono,3
+92,Shiharu Kanaya,1
+93,Shinoka Tenjo,1
+94,Natsuka Hano,1
+95,Phan Masaki,1
+96,Yuki Akashi,3
+97,Mashiro Kazahana,1
+98,Amamiya Mei,1
+99,Chiyuri Yugi,1
+100,鮎乃さしみ,1
+101,小鳥遊いと,1
+102,Yukina Izumi,1
+103,Nami Saionji,2
+104,STELLA,1
+105,Yuzuko Konoe,1
+106,神間みと,1
+107,川乃瀬由羽,1
+108,Flan Kulumu,1
+109,Yuzuhara Miu,1
+110,Rio Fujimura,1
+111,星月るな,1
+112,Himari,1
+113,Minami Imaya,4
+114,奏星イト,2
+115,Riruru Kimino,1
+116,Sarah Ayumi,1
+117,双葉すずね,1
+118,伊倉える,1
+119,都みみち,1
+120,鬼霧茜,1
+121,Hiyori Misaki,2
+122,Ogura Yui,1
+123,Kanase,1
+124,田中,1
+125,China Mugisawa,1
+126,Myua,1
+127,Yuuran,1
+128,匿名milf,2
+129,Sumire Haruno,1
+130,Awayuki,1
+131,鷹見れん,1
+132,千紗,1
+133,雲八はち,1
+134,佐々木サキ,3
+135,Tsukasa Kotobuki,1
+136,Ryoko Tezuka,1
+137,Katakura Hina,1
+138,Kotori Madono,1

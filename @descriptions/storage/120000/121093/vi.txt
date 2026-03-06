@@ -1,0 +1,161 @@
+- Content_Des
+	Chào mừng bạn đến với bảo mẫu succubus siêu dâm đãng! Hãy để bị quản lý xuất tinh và biến thành em bé khổ dâm nhé♪
+	--- Bị trói buộc và dạy dỗ bằng lời nói trẻ con, quản lý xuất tinh, hôn sâu, chơi đùa đầy yêu thương♪
+	♪ Hãy để bị dạy dỗ như em bé, bị bắt nạt hoặc nuông chiều để trở nên bùn nhùn nhé♪
+	Keng keng......
+	"Bé con...... Bé con
+	Ngủ ngon giấc chưa hả?"
+	Khi tỉnh dậy, trước mắt bạn là cảnh tượng giống như phòng của nhà trẻ......!
+	"Đây là bảo mẫu chỉ dành cho những kẻ biến thái cực khổ dâm mới được nhập học, nằm trong thế giới giấc mơ đấy"
+	"Nếu lạc vào đây thì
+	Bé con là...... kẻ siêu dâm đãng thích bị bắt nạt lắm đấy nhỉ"
+	Hình như bạn đã nhập học vào một bảo mẫu đặc biệt nằm trong giấc mơ rồi!?
+	"Cô là sinh vật ma quái sống trong giấc mơ của con người... succubus"
+	"Và cô sẽ chăm sóc cho bé con... cô Maria đây♪"
+	Succubus tự giới thiệu như vậy, trên bảng tên ở ngực cô ấy,
+	Giống như cô cô ở bảo mẫu, viết bằng hiragana là 【maria】......
+	"Cô thích bắt nạt đến cùng những kẻ cực khổ dâm và biến thái như bé con lắm♪"
+	Dù lời nói mang tính hành hạ nhưng không khí lại có vẻ dịu dàng, cô ấy khinh miệt bạn một cách nhẹ nhàng
+	"Bé con đang ở trong giấc mơ nên
+	Bản thân biến thái của mình... chẳng cần giấu giếm gì cả đâu
+	... Hãy để tâm hồn mình trần truồng hết thảy nhé♪"
+	Với những lời quyến rũ như vậy, cơ thể bạn phản ứng......?
+	"Muốn bị cô Maria bắt nạt ngay lập tức hả?"
+	Succubus 【Maria】 tiến lại gần bạn♪
+	"Chỉ hơi thở thôi... mà cậu nhỏ đã to lên rồi♪"
+	Nhưng nếu bạn nói muốn sục cậu nhỏ......
+	"Không được đâu"
+	Cô ấy nói lạnh lùng♪
+	Phải nghe lời cô 【Maria】 đàng hoàng nhé♪
+	Nếu nghe lời......
+	"Em bé mà... cậu nhỏ cương cứng thế này là lạ lắm đấy...?
+	Có lẽ... cần phạt một chút nhỉ♪"
+	Cô 【Maria】 sẽ dạy dỗ bạn một cách dịu dàng để trở lại bình thường♪
+	"Để bé con có thể phơi bày hết phần khổ dâm trong lòng mình
+	Cô sẽ dạy dỗ thật nhiều, biến bạn thành em bé khổ dâm xuất sắc♪"
+	Với vai succubus nhìn từ trên xuống do CV: Shio Satou đóng,
+	Bạn vào vai nhân vật chính khổ dâm, ở bảo mẫu succubus siêu dâm đãng bị tra tấn bằng lời nói trẻ con,
+	Trong khi bị quản lý xuất tinh nhé♪♪♪
+
+- Character_Des
+	str:Maria
+
+	Succubus siêu dâm đãng
+	Thích nhất là khổ dâm, mê bắt nạt.
+	Cách gọi bạn: Bé con / bạn
+	Cách gọi cơ quan sinh dục nam: cậu nhỏ
+	Cô ấy dùng lời nói trẻ con để kích thích, bắt nạt bên tai không ngừng,
+	Thúc giục chịu đựng trong khi quản lý xuất tinh siêu dâm đãng.
+	"Cô sẽ dạy dỗ thật nhiều, biến bạn thành em bé khổ dâm xuất sắc♪"
+	"Bé con thật là hư hỏng lắm♪"
+	"Súuuuuper to luôn kìa♪ Bé con cùng với...♪"
+	
+- Track_Des
+	str・Track 1　Nhập học bảo mẫu succubus♪ (06:38)
+	【Thì thầm・Cạo lông】
+br:
+	Cô ấy nói bạn lạc vào giấc mơ, succubus xuất hiện trước mắt
+	"Cô thích bắt nạt đến cùng những kẻ cực khổ dâm và biến thái như bé con lắm♪"
+	Bạn ở nơi giống bảo mẫu, bị bắt nạt bằng trò chơi em bé♪
+	【Maria】 định bắt nạt bạn ngay lập tức
+	"Hà... hà... hà... hà... hà... hà...♪"
+	Thì thầm hơi thở, khiến cậu nhỏ của bạn to lên không kìm được♪
+	"Bé con không chịu đựng nổi hả♪"
+	Rồi cởi tã lót bạn đang mặc......
+	"Thêm nữa... em bé mà... lông mọc rồi♪
+	Lông không được đâu~? Vì là em bé mà♪"
+	Trước hết, lông cậu nhỏ mọc dài bị bôi kem và cạo sạch♪
+	"Aaa♪ Lạnh quá nên run bần bật hả?
+	Giờ cô sẽ làm cho nhẵn bóng nhé♪"
+hr:
+	str・Track 2　Cô Maria dùng tay sục sục phun phun♪ (23:51)
+	【Bắt nạt thì thầm・Nhổ nước bọt・Hôn sâu・Liếm núm vú・Liếm tai sục tay】
+br:
+	"Đây là bảo mẫu succubus chỉ dành cho khổ dâm mới được nhập học♪"
+	Để biến bạn thành em bé khổ dâm xuất sắc, succubus cô 【Maria】 sẽ làm đủ thứ
+	Trước hết là bắt nạt thì thầm♪
+	"Hà~...♪ Hà~...♪ Hà~...♪"
+	"Cậu nhỏ... run run rồi♪"
+	Giữa chừng nhỏ nước bọt♪
+	"Ừm... ừm... ừm...♪ Súuu... ừm... ừm...♪"
+	Bạn muốn nước bọt trực tiếp hơn, nên hôn sâu♪
+	"Súuuu♪ Súuu, hà, súuu♪ Aaa♪"
+	Giữa lúc đó, bạn muốn sục cậu nhỏ♪
+	Nhưng......
+	"Không được đâu"
+	Cô 【Maria】 vốn chăm sóc bằng lời nói trẻ con, giờ chuyển sang thái độ lạnh lùng
+	Nhưng nếu chịu đựng đàng hoàng―――。
+	"Thật hết cách với bé♪
+	Muốn sục sục đến thế hả~?"
+	Buộc tay bạn♪
+	"Bé con... núm vú dễ thương cô sẽ bắt nạt nhé♪"
+	Bắt đầu liếm núm vú, liếm tai sục tay♪
+	"Cô đếm ngược, đến zero thì xuất nhé♪"
+hr:
+	str・Track 3　Huấn luyện đi vệ sinh ở bảo mẫu succubus (19:23)
+	【Ngồi lên mặt・Chơi tiểu tiện・Cưỡi ngựa・Xuất vào trong】
+br:
+	"Về cách đi vệ sinh, cô sẽ dạy cho♪
+	Hãy nhìn kỹ cách cô làm và học theo nhé?"
+	Bạn nằm xuống theo lời cô 【Maria】♪
+	"Ừ, giờ há miệng to ra?"
+	"Bé con là bô của cô mà
+	Phải há miệng to đàng hoàng nhé?"
+	Hóa ra "vệ sinh" mà cô 【Maria】 nói là bạn♪
+	"Ừm ừm...♪ Aaa... Âm hộ cô chạm vào miệng ấm áp của bé con rồi♪"
+	Ngồi lên mặt bạn chơi tiểu tiện♪
+	Rồi, vì chơi bô mặt mà hứng lên, cậu nhỏ phản ứng♪
+	"Cậu nhỏ hư hỏng lắm♪
+	Cậu nhỏ này cần phạt hình như♪"
+	"Phạt là... chịu đựng xuất tinh rỉ rả, âm hộ đóng cọc♪
+	Giờ... cô cho vào ngay nhé♪"
+	"Không được đâu, xuất ngay♪ Phải siết chặt lỗ đít để chịu đựng♪"
+	Giờ thì cưỡi ngựa liếm tai tà~p tà~p để xuất vào trong♪
+hr:
+	str・Track 4　Quản lý xuất tinh của cô Maria (24:13)
+	【Mút chịu đựng xuất tinh ồn ào・Đạp cậu nhỏ・Sục chân・Hông lắc kiểu doggy】
+br:
+	"Cậu nhỏ dơ bẩn vì xuất tinh... cô lau chùi cho♪"
+	Khác với các trò bắt nạt trước, cô 【Maria】 dịu dàng với bạn
+	"Xuất rồi... cậu nhỏ mềm ra... dễ thương♪"
+	Hơn nữa, dù cậu nhỏ phản ứng vì mút lau chùi......
+	"Ara~? Lau chùi thôi mà... đã cương cứng rồi~?
+	Bé con thật hư hỏng♪"
+	Không phạt gì đặc biệt, chỉ làm cho sướng♪
+	"Ơ~? Sắp xuất? Không được đâu♪ Chịu đựng đi♪ Chịu chịu♪"
+	Nhưng xuất tinh phải nghe lời cô 【Maria】♪
+	"Cô nói được mới được, chịu đựng đàng hoàng nhé♪
+	Bắt đầu đếm ngược đây♪♪"
+	Rồi xuất thì......♪
+	"Ực♪ Phù hà♪ Nuốt hết rồi♪"
+	Nuốt sạch♪
+	Vì xuất nhanh quá nên chưa hết đâu......♪
+	"Hà... Xuất nhanh thế♪ Cậu nhỏ yếu xìu♪
+	Đây là hư hỏng rồi, yếu~ yếu~♪
+	Cậu nhỏ, cô đạp đạp nhé♪"
+	Bị đạp cậu nhỏ♪
+	"Cậu nhỏ xuất sớm! Êi! Cậu nhỏ tồi!
+	Bị đạp mà vui hả, cậu nhỏ khổ dâm!"
+	Bắt nạt cậu nhỏ, bi đến khi xuất♪
+	Rồi......
+	"Giờ thì luyện tập cho buổi biểu diễn nhé♪"
+	"Biểu diễn là... trò lắc hông yếu ớt của bé con♪"
+hr:
+	str・Track 5　Cô phân thân! Tra tấn ba chiều kiểu truyền giáo♪ (25:51)
+	【Sục tay cho bú sữa & Phân thân liếm tai đôi kiểu truyền giáo】
+br:
+	"... Giờ là giờ ngủ trưa♪
+	Đặt đầu lên đùi cô♪"
+	Cô 【Maria】 cho bạn gối đùi để ngủ♪
+	Nhưng......
+	"Ừm~? Ngực cô ở trước mặt làm bé con chú ý hả?
+	Bé con dâm đãng♪"
+	"Ừ ừ, vậy thì... bú sữa này
+	Rồi ngủ nhé♪"
+	Cô 【Maria】 sục tay cho bú sữa, nuông chiều bé con♪
+	Rồi, xuất thì......
+	"Cô là succubus nên làm được thế này♪"
+	Cô 【Maria】 phân thân thành hai♪
+	Bạn bị liếm tai đôi bởi phân thân♪
+	Tất nhiên cả chuyện dâm♪
+	Cô 【Maria】 phân thân thành hai dùng kiểu truyền giáo nuông chiều bé con♪♪♪
