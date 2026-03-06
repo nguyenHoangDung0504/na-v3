@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tracks</title>
+
+    <script type="module" src="script.js"></script>
+
+    <style>
+        body {
+            margin: 0;
+            background: #222;
+            font-family: sans-serif;
+        }
+
+        #grid {
+            padding: 20px;
+
+            display: grid;
+
+            grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+
+            gap: 12px;
+        }
+
+        .box {
+
+            background: #333;
+            color: #fff;
+
+            border-radius: 8px;
+
+            padding: 20px 10px;
+
+            text-align: center;
+
+            cursor: pointer;
+
+            transition: .15s;
+        }
+
+        .box:hover {
+            background: #444;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="grid"></div>
+</body>
+
+</html>

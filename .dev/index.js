@@ -28,6 +28,10 @@ const MIME_TYPES = {
 const server = http.createServer(async (req, res) => {
 	try {
 		const decodedUrl = decodeURIComponent(req.url.split('?')[0])
+		if (usePatchAPI(req, res, decodedUrl)) return
+		if (useManifestAPI(req, res, decodedUrl)) return
+
+		// Static host
 		let filePath = path.join(ROOT_DIR, decodedUrl)
 
 		// Bảo vệ không truy cập ra ngoài thư mục gốc
@@ -93,3 +97,119 @@ const server = http.createServer(async (req, res) => {
 })
 
 server.listen(PORT, () => console.log(`Serving at http://127.0.0.1:${PORT}`))
+const DATA_PATH = path.resolve(__dirname, '../.data_compressor/storage/data.csv')
+
+/**
+ * @param {http.IncomingMessage} req
+ * @param {http.ServerResponse} res
+ * @param {string} decodedURL
+ */
+function useManifestAPI(req, res, decodedURL) {
+	if (!decodedURL.startsWith('/api/manifest') || req.method !== 'GET') return false
+
+	const url = new URL(req.url, 'http://localhost')
+	const code = url.searchParams.get('code')
+	const version = url.searchParams.get('v') ?? 2
+
+	if (!code) {
+		res.writeHead(400)
+		res.end('Missing code')
+		return true
+	}
+
+	const apiURL = `https://api.asmr-200.com/api/tracks/${code}?v=${version}`
+
+	console.log('Proxy manifest:', apiURL)
+
+	fetch(apiURL)
+		.then((r) => r.text())
+		.then((data) => {
+			res.writeHead(200, {
+				'Access-Control-Allow-Origin': '*',
+				'Content-Type': 'application/json',
+			})
+			res.end(data)
+		})
+		.catch((err) => {
+			console.error(err)
+			res.writeHead(500)
+			res.end('Proxy failed')
+		})
+
+	return true
+}
+
+/**
+ * @param {http.IncomingMessage} req
+ * @param {http.ServerResponse<http.IncomingMessage> & { req: http.IncomingMessage }} res
+ * @param {string} decodedURL
+ */
+function usePatchAPI(req, res, decodedURL) {
+	if (decodedURL !== '/api/patch' || req.method !== 'POST') return false
+
+	const MAX_BODY = 2 * 1024 * 1024 // 2MB
+	let body = ''
+
+	req.on('data', (chunk) => {
+		body += chunk
+
+		if (body.length > MAX_BODY) {
+			res.writeHead(413, { 'Content-Type': 'text/plain' })
+			res.end('Payload too large')
+			req.destroy()
+		}
+	})
+
+	req.on('end', async () => {
+		console.log('Request:', req.method, req.url, req.headers.origin)
+		try {
+			const { code, thumbnail, images, audios } = JSON.parse(body)
+			patchData({ code, thumbnail, images, audios })
+			console.log('Patched:', code)
+
+			res.writeHead(200, {
+				'Access-Control-Allow-Origin': '*',
+				'Content-Type': 'text/plain',
+			})
+			res.end('OK')
+		} catch (err) {
+			console.error(err)
+			res.writeHead(500)
+			res.end('Patch failed')
+		}
+	})
+
+	return true
+}
+
+/**
+ * @param {{ code: string, thumbnail: string, images: string, audios: string }} param0
+ */
+function patchData({ code, thumbnail, images, audios }) {
+	const data = fs.readFileSync(DATA_PATH, 'utf8')
+	const lines = data.split('\n')
+
+	let start = -1
+
+	for (let i = 0; i < lines.length; i++) {
+		if (lines[i] === code + ':') {
+			start = i
+			break
+		}
+	}
+
+	if (start === -1) {
+		console.warn('Code not found:', code)
+		return
+	}
+
+	const THUMBNAIL_LINE = start + 7
+	const IMAGE_LINE = start + 8
+	const AUDIO_LINE = start + 9
+
+	if (thumbnail) lines[THUMBNAIL_LINE] = '\t' + thumbnail
+	if (images) lines[IMAGE_LINE] = '\t' + images
+	if (audios) lines[AUDIO_LINE] = '\t' + audios
+
+	fs.writeFileSync(DATA_PATH, lines.join('\n'), 'utf8')
+}
