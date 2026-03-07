@@ -25,7 +25,7 @@ async function getBrowser() {
 	// Chưa ai launch → ta launch, lưu promise để các caller khác chờ chung
 	browserLaunchPromise = puppeteer
 		.launch({
-			headless: true,
+			headless: false,
 			defaultViewport: { width: 0, height: 0 },
 			args: [
 				'--disable-setuid-sandbox',
