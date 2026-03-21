@@ -143,7 +143,13 @@ async function main() {
 	for (const target of targets) {
 		const match = STORAGE.find((item) => [item.mediaStreamUrl, item.streamLowQualityUrl].includes(target.streamUrl))
 		if (!match?.mediaDownloadUrl) continue
-		downloadTasks.push({ index: target.index, url: match.mediaDownloadUrl })
+		// downloadTasks.push({ index: target.index, url: match.mediaDownloadUrl })
+
+		// New
+		const mediaDownloadUrl = match.mediaDownloadUrl.endsWith('.wav')
+			? match.streamLowQualityUrl
+			: match.mediaDownloadUrl
+		downloadTasks.push({ index: target.index, url: mediaDownloadUrl })
 	}
 
 	if (!downloadTasks.length) {

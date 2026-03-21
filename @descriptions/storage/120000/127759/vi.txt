@@ -1,0 +1,103 @@
+- Content_Des
+	Bạn đang bất mãn vì cô bạn gái chẳng hề thông cảm với sở thích otaku của mình.
+	Cô ấy tuyên bố rõ: nếu không bỏ sở thích otaku thì đừng hòng được hôn hay làm tình.
+	Sau giờ học, khi bạn đang ngồi một mình buồn bã, bạn cùng lớp – cô nàng gal trầm tính Anzu – xuất hiện và chủ động hỏi han, sẵn sàng làm người lắng nghe.
+	Cô ấy nhanh chóng nhận ra bạn đang gặp vấn đề với bạn gái.
+	Thay vì an ủi suông, Anzu vừa khen ngợi bạn vừa khéo léo quyến rũ, khoe bộ ngực khủng và thân hình gợi cảm của mình, dùng những lời thì thầm đầy dục vọng sở hữu để xảo quyệt chọc vào tim bạn.
+	Bị sức hút dâm đãng của Anzu dẫn dắt, bạn cuối cùng cũng xả hết dục vọng tích tụ bằng cách trở thành “bạn tình” của cô ấy.
+	Hãy đắm mình trong cảm giác tội lỗi ngọt ngào khi có bạn gái mà vẫn được làm tình điên cuồng với cô nàng gal trầm tính ngực khủng, cùng cảm giác ưu việt tột độ khi được Anzu toàn diện khen ngợi, nịnh nọt dâm đãng… và tận hưởng cuộc ngoại tình làm tình thật sự với cô ấy nhé…!
+
+- Character_Des
+	str:■ Anzu
+	Chiều cao 163cm / Vòng ngực 108cm cup J
+	Bạn cùng lớp của bạn.
+	Trầm tính nhưng cực kỳ xảo quyệt tinh quái, nữ sinh.
+	Thân hình đầy đặn, toát ra sức hút tình dục, luôn làm mọi người nghĩ mình có tình ý nên bị đám con trai trong lớp nhắm đến.
+	Thực ra cô ấy chỉ thích mỗi bạn thôi.
+hr:
+	str:■ Yuka
+	Chiều cao 159cm / Vòng ngực 84cm cup C
+	Bạn gái của bạn.
+	Tính cách thẳng thắn, yêu bạn thật lòng, nhưng vì ngại ngùng chuyện dâm đãng và muốn bạn chỉ tập trung vào mình, nên cô ấy cương quyết từ chối hôn hay làm tình nếu bạn chưa chịu bỏ sở thích otaku.
+	
+- Track_Des
+	str:■1. Phần mở đầu – Lời thì thầm quyến rũ ngoại tình (6:41)
+	【Nhận ra tình hình không ổn với bạn gái / thì thầm khẩu dâm / nịnh nọt khích dục】
+br:
+	“Thì ra là bị bạn gái cho nhịn nên… cậu tích tụ nhiều rồi hả…?”
+	“Vậy thì – những gì otaku-kun muốn làm – để tớ làm cho cậu nhé?”
+	“Này, cậu định làm gì nào…?♪”
+hr:
+	str:■2. Quyến rũ ngoại tình bằng liếm tai hỗ trợ thủ dâm (21:27)
+	【Thì thầm khẩu dâm / khích bản năng nam giới trong lúc quyến rũ ngoại tình / liếm tai sâu / vừa xoa vú to vừa thủ dâm cho bạn】
+br:
+	“Có bạn gái dễ thương thế rồi mà…”
+	“vẫn nổi dục vọng sở hữu với con gái khác rồi…♪”
+	“Với con đàn bà dâm đãng ngực to lắc lư dễ dàng…”
+	“dễ bị lay động đến thế luôn được sao…? Khúc khích…♪”
+	“Nếu tớ thành bạn gái cậu thì bộ ngực to này, cái mông kiểu dễ sinh này…”
+	“toàn bộ sẽ là của otaku-kun…♪”
+	“Toàn bộ thân hình mọng mẫm này tớ sẽ dùng hết…”
+	“để làm những chuyện sướng cực đã cho cậu luôn…♪”
+hr:
+	str:■3. Dùng vú khủng bú cặc rồi lắc hông bắn tinh vào lồn vú (19:05)
+	【Vú khủng bú cặc / thì thầm khẩu dâm / lời thoại thô tục kiểu bị khinh thường / lắc hông bắn tinh vào lồn vú khủng】
+br:
+	“Loại này cậu thích chứ…?”
+	“Giọng nịnh nọt giả tạo… kiểu lời thoại thô tục bị coi thường…♪”
+	“Trong khi cặc bị vú xử lý…”
+	“loại tâm trạng nếu bị người khác nghe sẽ ghê tởm luôn ấy…”
+	“mà lại được giọng ngọt ngào chảy thẳng vào tai, hiệu quả lắm đó~♪”
+	“Đây nè… otaku-kun cũng được phép lắc hông mạnh về phía bộ ngực khủng của tớ…♪”
+	“‘Bộ ngực này cậu thích thích…♪ Tuyệt đối không nhường cho ai♪’ vừa nói vừa lắc hông đầy dục vọng sở hữu…”
+	“hãy tận hưởng vú bú cặc thượng hạng của con bitch gal nữ sinh đi…♪”
+hr:
+	str:■4. Lén bú cặc trong lúc gọi điện cho bạn gái – cảm giác phản bội (18:25)
+	【Bú cặc chậm rãi / lén bú cặc trong lúc nói chuyện điện thoại với bạn gái / cảm giác phản bội cực mạnh / hủy hẹn hò để đặt lịch mất trinh / xuất tinh trong miệng / nuốt hết】
+br:
+	“Mất trinh… để tớ giúp cậu nhé♪”
+	“Hủy hẹn hò xem phim đi… rồi thẳng đường đến phòng tớ để làm tình luôn~…♪”
+	“Mất trinh xong rồi… cả đêm cậu muốn làm bao nhiêu cũng được, tha hồ được bú cặc nhé♪”
+	“Này, cậu muốn chứ?♪”
+	“Vậy thì… với bạn gái…”
+	“‘Hôm nay hẹn hò không được’ phải nói đấy… bịa lý do gì cũng được, rồi tạm biệt luôn đi…♪”
+hr:
+	str:■5. Dính sát liếm tai + thủ dâm nịnh nọt (25:25)
+	【Nịnh nọt dụ dỗ / liếm tai dai dẳng / thủ dâm chậm rãi dâm đãng】
+br:
+	“Đã đặt lịch làm tình với con đàn bà sẵn sàng rồi mà…”
+	“vẫn còn giữ trinh cho bạn gái như mua bảo hiểm ấy…♪”
+	“Otaku-kun cũng… có chỗ xấu xa đấy…♪”
+	“Thôi được rồi… em không phiền đâu…”
+	“Vậy thì em sẽ làm thế này… từ phía sau, thật dâm đãng…”
+	“làm anh sướng thật nhiều… để anh hoàn toàn bị em quyến rũ♪”
+	“Haaa… ưm… con gái đã làm anh phát tình thế này…”
+	“chỉ thủ dâm cặc thôi mà… anh thấy đủ sao…?♪”
+	“Cặc căng cứng đến nổi gân… em muốn anh đút vào lồn em…”
+	“bắn đến khi hai quả trứng cạn kiệt, bắn ừng ực…”
+	“bắn tinh vào trong… anh không muốn sao…?♪”
+hr:
+	str:■6. Làm tình yêu đương ngoại tình – mất trinh (21:54)
+	【Thở dồn dập + tiếng rên oho / thì thầm nịnh nọt khích xuất tinh / mất trinh / hôn sâu yêu đương / xuất tinh creampie qua bao】
+br:
+	“Aaa… cái này thật sự nguy hiểm quá…”
+	“Hôn nhau mà làm tình yêu đương thế này sướng nhất luôn…”
+	“Ưm… làm nữa đi, làm mạnh hơn…”
+	“Ưm♪ Ạ… Ư~…♪”
+	“Aaa… a~… cặc hợp nhau quá trời… lồn bị cào đảo mạnh…”
+	“Được anh nói thích thích là sướng nhất… ơ… ư~… o~…♪”
+hr:
+	str:■7. Chia tay bạn gái…♪ Video ngoại tình chia tay + làm tình thật sự (22:02)
+	【Video ngoại tình chia tay với bạn gái / làm tình không bao / tư thế truyền giáo / giữa chừng bỏ máy quay để tập trung làm tình yêu đương / hôn lưỡi dài / thở dồn + rên oho / liên tục nói thích thích / xuất tinh creampie】
+br:
+	“Để otaku-kun chịu bỏ bạn gái… em phải làm tình thật sự yêu đương mới được~…♪”
+	“Như hai con thú va hông mạnh vào nhau… không còn khe hở nào…”
+	“em sẽ cho bạn gái xem cảnh làm tình điên cuồng này…♪”
+	“Video ngoại tình phản bội đầy cảm giác tội lỗi để chia tay bạn gái…”
+	“Cùng nhau cố gắng nhé…♪”
+	“Ồ… oo… oho… oon…♪”
+	“Ưm… tốt quá… bắn hết tinh đặc vào trong đi…”
+	“Làm em thành vợ anh luôn nhé…♪”
+	“Thích♪… Thích♪… Thích…♪”
+	“Ồ… oho… ooo… ~♪”
+	
