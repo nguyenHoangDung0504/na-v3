@@ -1,0 +1,41 @@
+WEBVTT
+
+1
+00:00:32,030 --> 00:00:34,230
+tappyan tappyan, tappyan
+
+2
+00:00:34,230 --> 00:00:35,730
+shuku shuku shuku
+
+3
+00:00:35,730 --> 00:00:39,410
+tappyan tappyan, tappyan
+
+4
+00:00:39,410 --> 00:00:40,670
+pyururu shuku
+
+5
+00:00:40,670 --> 00:00:42,029
+shuku shururu
+
+6
+00:00:43,360 --> 00:00:45,120
+tappu shuku
+
+7
+00:00:45,120 --> 00:00:46,900
+tappu shuku shuku
+
+8
+00:00:46,900 --> 00:00:51,260
+shuku shuku, shuku, shuku, shuku
+
+9
+00:00:51,260 --> 00:00:51,500
+shuku
+
+10
+00:00:51,500 --> 00:00:54,980
+shuku shuku tappyan tappu shuku shuku
