@@ -78,9 +78,7 @@ async function initView(db, UIbindings) {
 						'_blank',
 						`width=${screen.width},height=${screen.availHeight},left=0,top=0`,
 					)
-				} else {
-					audioPlayer.audioControls?.openInNewTab()
-				}
+				} else audioPlayer.audioControls?.openInNewTab()
 			})
 			// audioPlayer.openBtn.addEventListener('click', async () => {
 			// 	const vttPath = `/@descriptions/vtts/${trackID}/${index}.txt`

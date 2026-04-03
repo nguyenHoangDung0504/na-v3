@@ -1,0 +1,27 @@
+- Content_Des
+	Đây là một tiệm mát-xa nam giới nằm ở một nơi nào đó trong nội thành Tokyo.
+	Một nữ nhà trị liệu xinh đẹp sẽ dùng bàn tay massage cùng những thứ khoái cảm tuyệt vời để chữa lành cho bạn – kiểu “có happy ending” quen thuộc.
+	Bạn may mắn đặt được lịch với nhà trị liệu đang gây sốt của tiệm.
+	Cô ấy không chỉ massage bình thường, mà còn khéo léo dùng lời nói mê hoặc cùng lớp lotion đặc biệt, khiến người nằm xuống trở nên đam mê và hỏng hoàn toàn vì khoái lạc. Một khi đã nếm thử, rất nhiều người sẽ nghiện không dứt ra nổi…
+	Tiếng BGM êm dịu, tiếng nước vòi sen, giọng nói ngọt ngào của nhà trị liệu, cùng những âm thanh ướt át của lotion quấn quýt. Chỉ cần bước vào phòng, rời xa ồn ào bên ngoài, mọi âm thanh sẽ từ từ kéo bạn vào thế giới khoái lạc sâu thẳm.
+	Hãy đắm mình trong nhịp độ riêng biệt của cô ấy và để bản thân bị kéo xuống, chìm sâu mãi không ngừng.
+- Character_Des
+	str:Maya (26 tuổi) – Nhà trị liệu sở hữu ngoại hình mê hoặc và giọng nói ma quái.
+	-Từ nhà trị liệu
+	Rất vui được gặp anh.
+	Em sẽ cố gắng hết sức để xoa dịu và chữa lành hết mệt mỏi hàng ngày cho anh.
+	Hãy đến gặp Maya nhé♪
+	-Nhận xét
+	Vẻ đáng yêu của cô ấy đúng là thiên thần chữa lành.
+	Trong sự ngọt ngào dễ thương ấy thỉnh thoảng lại lóe lên nét quyến rũ trưởng thành, khiến bất kỳ người đàn ông nào cũng phải si mê.
+	Dù tính cách dịu dàng, những động tác massage xuất phát từ thân hình hoàn hảo lại cực kỳ táo bạo.
+	Hơn nữa, cô ấy còn rất thích vừa massage vừa thì thầm kể cho bạn nghe đang xoa bóp ở đâu, làm như thế nào nữa đấy…
+	Giọng nói ngọt ngào cùng kỹ thuật điêu luyện của Maya sẽ đưa bạn vào thế giới chữa lành như trong mơ.
+
+- Track_Des
+	1　Mát-xa của Maya để bạn được chữa lành nhé♪ (Phần dẫn dắt thôi miên)
+	00:30:23
+	2　Em sẽ làm anh tan chảy luôn nhé♪ (Phần người lớn)
+	00:38:26
+	3　Vui lắm phải không♪ (Phần giải thôi miên)
+	00:07:36
