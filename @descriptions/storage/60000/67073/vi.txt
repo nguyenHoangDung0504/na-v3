@@ -1,0 +1,132 @@
+- Content_Des
+	str:Giới thiệu
+	Tác phẩm này và phiên bản dành cho mọi lứa tuổi, "Tập thể dục tại nhà ~Phiên bản em gái Tsundere~", có nội dung trùng lặp từ Tr1 đến Tr8.
+br:
+	str:Ý tưởng
+	Dạo này bạn không tập thể dục. Bạn lo lắng cho sức khỏe và vóc dáng của mình.
+	Bạn nghĩ ai cũng từng trải qua cảm giác thử tập luyện tăng cường sức mạnh hoặc ăn kiêng với suy nghĩ đó, rồi cuối cùng lại bỏ cuộc. Vậy điều quan trọng nhất để tiếp tục là gì? Ý chí mạnh mẽ? Không. Đó là sự động viên từ những người phụ nữ khác (một ý kiến ​​hơi thiên vị).
+	Dự án này ra đời từ ý tưởng đó.
+
+	Các bạn đã phỏng vấn một huấn luyện viên cá nhân thực thụ và nhờ họ lập ra một thực đơn mà bạn có thể dễ dàng thực hiện trong khoảng 10 phút mỗi ngày.
+	Hãy cùng nhau bắt đầu tập thể dục tại nhà nào!
+
+- Character_Des
+	str:Riko
+	là em gái bạn, và lời nói của em ấy thường khá thẳng thắn.
+	Em ấy đang rất chăm chỉ tập luyện để có được vóc dáng lý tưởng.
+	Riko hay trêu chọc bạn một chút, nhưng em ấy cũng luôn yêu thương và ủng hộ bạn.
+	
+- Track_Des
+	◆Bài 1 Em gái...Em muốn tập thể dục (5:10)
+
+	Cuối cùng thì mình cũng quyết định bắt đầu tập thể dục.
+
+	Đầu tiên, mình đến phòng em gái để xin lời khuyên, vì em ấy tập thể dục mỗi ngày.
+
+	Em ấy trêu chọc mình không thương tiếc, nói rằng "Em sẽ không kiên trì được đâu," nhưng cuối cùng mình cũng thuyết phục được em ấy đồng ý.
+
+	Từ ngày mai, chúng ta sẽ cùng nhau tập thể dục ở nhà.
+
+	Mình phải cố gắng hết sức, vì nếu mình bỏ cuộc giữa chừng, em ấy sẽ ghét mình lắm...
+hr:
+	◆Bài tập 2 [Ngày 1] "Cơ bụng và lõi - Ngày 1" (11:42)
+	*Tham khảo "Sơ đồ tập luyện" đính kèm
+
+	・Plank (30 giây x 2 hiệp)
+
+	・Plank một chân (30 giây trên một chân)
+
+	・Bài tập con bọ chết (30 giây x 2 hiệp)
+
+	・Bài tập chạm đầu gối (30 giây x 2 hiệp)
+hr:
+	◆Bài tập 3 [Ngày 2] "Phần thân trên - Ngày 1" (11:34)
+	*Tham khảo "Sơ đồ tập luyện" đính kèm.
+
+	• Khởi động A
+	• 3 kiểu chống đẩy (10 lần mỗi kiểu)
+	• Nâng hông sang bên (20 lần x 2 hiệp)
+hr:
+	◆Bài tập 4 [Ngày 3] "Bài tập phần thân dưới" (12:48)
+	*Tham khảo "Sơ đồ tập luyện" riêng
+
+	• Khởi động B
+	• Ngồi xổm rộng (10 lần x 2 hiệp)
+
+	• Ngồi xổm kiểu Bulgaria (5 lần mỗi chân x 2 hiệp)
+
+	• Khép chân bắt chéo (10 lần mỗi chân)
+hr:
+	◆Bài tập 5 [Ngày 4] "Cơ bụng và cơ lõi" Ngày 2 (11:16)
+	*Tham khảo "Sơ đồ tập luyện" đính kèm
+
+	• Plank nghiêng (30 giây mỗi bên)
+
+	• Nâng hông (30 giây x 2) (các hiệp)
+
+	• Nâng chân (30 giây x 2 hiệp)
+
+	• Gập bụng xoay người (30 giây x 2 hiệp)
+hr:
+	◆Tr6【Ngày 5】"Bài tập thân trên Ngày 2" (10:44)
+	*Tham khảo "Sơ đồ tập luyện" đính kèm
+
+	• Khởi động A
+
+	• Duỗi lưng (10 lần x 2 hiệp)
+
+	• Kéo xà đơn (10 lần x 2 hiệp)
+
+	• Chống đẩy khuỷu tay ngược (10 lần x 2 hiệp)
+hr:
+	◆Tr7 [Ngày 6] "Bài tập tim mạch" (10:42)
+	*Tham khảo "Sơ đồ tập luyện" riêng
+
+	• Khởi động B
+
+	• Đá xoay người (30 giây x 2)
+
+	• Ngồi xổm bật nhảy (30 giây x 2)
+
+	• Động tác Fly Jacks (30 giây x 2)
+hr:
+	◆Tr8 [Ngày 7] "Ngày ngủ với em gái" (4:24)
+
+	Hôm nay là ngày nghỉ tập luyện duy nhất trong tuần của tôi.
+
+	Em gái tôi, người dạy tôi mỗi ngày, đã tự ý quyết định rằng hôm nay là ngày tôi sẽ đãi em ấy bánh ngọt như một phần thưởng.
+
+	Với quá nhiều yêu cầu, tôi lo lắng cho ví tiền hơn là sức khỏe,
+
+	nhưng tôi đoán là ổn thôi vì em gái tôi trông hạnh phúc hơn bao giờ hết. Tôi sẽ cố gắng hết sức vào ngày mai.
+hr:
+	*Phần tiếp theo của câu chuyện diễn ra sau vài ngày tập luyện.
+	Hãy nghe sau khi bạn đã tập luyện chăm chỉ. Tuy nhiên, nếu bạn đã vượt qua thời gian và không gian, bạn có thể nghe ngay lập tức.
+hr:
+	◆Tr9【Phần thưởng 1】"Ngày liếm tai và thủ dâm" (20:20)
+	(Quan hệ bằng miệng, Thủ dâm, Liếm tai) (Liếm)
+
+	Hôm nay, tôi được nhận phần thưởng vì đã kiên trì suốt một tháng.
+
+	Tôi đã cố gắng suốt một tháng, nhưng tôi đã đến giới hạn của mình. Tôi không thể kiềm chế được sự phấn khích khi nhìn thấy em gái mình trong chiếc quần legging.
+
+	Tôi đã cố gắng lái cuộc trò chuyện sang hướng gợi cảm trong khi khéo léo lồng ghép việc tập thể dục, nhưng tôi đã dễ dàng bị phát hiện. Nhưng tôi sẽ không bỏ cuộc. Ý chí mạnh mẽ của tôi, được rèn luyện qua việc tập luyện thể lực và tập thể dục hàng ngày, sẽ không bị phá vỡ.
+
+	Bị choáng ngợp bởi sự mãnh liệt, em gái tôi, một cách bất đắc dĩ, dần dần khuất phục trước những ham muốn của tôi—tay…miệng…và vân vân.
+
+	Cuối cùng, tôi kết thúc bằng màn thủ dâm, cảm nhận những lời thì thầm của em ấy bên tai. Yeah!!
+hr:
+	◆Tr10【Phần thưởng 2】"Ngày xuất tinh ở tư thế cưỡi ngựa" (15:04)
+
+	(Tư thế cưỡi ngựa, xuất tinh)
+
+	Không hiểu sao em gái tôi lại cho phép tôi làm những điều hư hỏng như một phần thưởng mỗi tháng một lần.
+
+	Hôm nay, em ấy có vẻ đang rất vui và đồng ý. Tư thế cưỡi ngựa với điều kiện tôi nhắm mắt lại.
+
+	Cô ấy xoa vùng kín lên xuống như đang ngồi xổm, dần dần tăng khoái cảm và độ ẩm.
+
+	"Đủ rồi..." cô ấy nói, và ngay sau đó, cô ấy cảm thấy vùng kín của mình siết chặt dương vật tôi, và giọng cô ấy càng lúc càng to hơn.
+
+	Từ đó, cả hai chúng tôi đều hành động như những con vật, mất hết lý trí, hét lên "Yeah!" và cuối cùng tôi xuất tinh vào trong cô ấy!!
+	
