@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Altplayer</title>
+    <link rel="icon" type="image/x-icon" href="/@resources/icons/icon-edited.webp" />
+
+    <link rel="preload" href="/@resources/databases/s1/tracks.csv" type="text/csv" as="fetch" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="/@src/cache.mgr.mjs"></script>
+</head>
+
+<body>
+
+    <div id="shell">
+        <div id="stage">
+
+            <!-- Background layers (crossfade) -->
+            <div id="bg-a"></div>
+            <div id="bg-b"></div>
+
+            <!-- Gradients -->
+            <div class="grad-top"></div>
+            <div class="grad-bot"></div>
+
+            <!-- Image navigation -->
+            <div class="img-nav" id="img-prev" title="Ảnh trước">&#8249;</div>
+            <div class="img-nav" id="img-next" title="Ảnh sau">&#8250;</div>
+            <div id="img-dots"></div>
+
+            <!-- Top bar -->
+            <div id="top-bar">
+                <div id="btn-playlist" class="pill" title="Playlist">
+                    <svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor">
+                        <rect x="1" y="2.5" width="9" height="1.5" rx=".75" />
+                        <rect x="1" y="6.5" width="7" height="1.5" rx=".75" />
+                        <rect x="1" y="10.5" width="8" height="1.5" rx=".75" />
+                        <polygon points="12,5 15.5,7.5 12,10" />
+                    </svg>
+                    Playlist
+                </div>
+                <div style="display:flex;gap:6px">
+                    <div id="btn-float-sub" class="pill on" title="Phụ đề nổi">
+                        <svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor">
+                            <rect x="2" y="9.5" width="12" height="1.5" rx=".75" opacity=".55" />
+                            <rect x="2" y="12.5" width="9" height="1.5" rx=".75" opacity=".55" />
+                            <rect x="2.5" y="2.5" width="11" height="5.5" rx="1.2" />
+                        </svg>
+                        Phụ đề nổi
+                    </div>
+                    <div id="btn-sub-list" class="pill" title="Danh sách phụ đề">
+                        <svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor">
+                            <rect x="1" y="3" width="14" height="1.5" rx=".75" />
+                            <rect x="1" y="7" width="14" height="1.5" rx=".75" />
+                            <rect x="1" y="11" width="10" height="1.5" rx=".75" />
+                        </svg>
+                        Danh sách
+                    </div>
+                </div>
+            </div>
+
+            <!-- Floating subtitle -->
+            <div id="float-sub">
+                <div id="float-sub-text"></div>
+            </div>
+
+            <!-- Bottom controls -->
+            <div id="controls">
+                <div class="track-info">
+                    <div id="track-title">—</div>
+                    <div id="track-index">0 / 0</div>
+                </div>
+                <div class="progress-row">
+                    <span class="time" id="time-cur">0:00</span>
+                    <div id="progress-wrap">
+                        <div id="progress-track">
+                            <div id="progress-fill">
+                                <div id="progress-thumb"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <span class="time" id="time-end">0:00</span>
+                </div>
+                <div class="ctrl-row">
+                    <div class="ctrl-center">
+                        <div class="cbtn sm" id="btn-back5" title="Lùi 5 giây">
+                            <svg width="15" height="15" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M10 3a7 7 0 1 0 7 7h-2a5 5 0 1 1-5-5V3z" />
+                                <path d="M9 1.5 5.5 4 9 6.5V1.5z" />
+                                <text x="7.5" y="14" font-size="5.5" text-anchor="middle" font-family="inherit"
+                                    fill="currentColor">5</text>
+                            </svg>
+                        </div>
+                        <div class="cbtn" id="btn-prev" title="Bài trước">
+                            <svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor">
+                                <polygon points="2,8 8,2.5 8,13.5" />
+                                <polygon points="8,8 14,2.5 14,13.5" />
+                            </svg>
+                        </div>
+                        <div class="cbtn play" id="btn-play" title="Phát / Dừng">
+                            <svg id="play-icon" width="17" height="17" viewBox="0 0 16 16" fill="currentColor">
+                                <polygon points="4,2 14,8 4,14" />
+                            </svg>
+                        </div>
+                        <div class="cbtn" id="btn-next" title="Bài tiếp">
+                            <svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor">
+                                <polygon points="2,2.5 8,8 2,13.5" />
+                                <polygon points="8,2.5 14,8 8,13.5" />
+                            </svg>
+                        </div>
+                        <div class="cbtn sm" id="btn-fwd5" title="Tiến 5 giây">
+                            <svg width="15" height="15" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M10 3a7 7 0 1 1-7 7h2a5 5 0 1 0 5-5V3z" />
+                                <path d="M11 1.5l3.5 2.5L11 6.5V1.5z" />
+                                <text x="12.5" y="14" font-size="5.5" text-anchor="middle" font-family="inherit"
+                                    fill="currentColor">5</text>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="ctrl-right">
+                        <div class="cbtn sm" id="btn-reload" title="Phát lại từ đầu">
+                            <svg width="13" height="13" viewBox="0 0 16 16" fill="currentColor">
+                                <path d="M14 8A6 6 0 1 1 8 2V0L12 3 8 6V4a4 4 0 1 0 4 4h2z" />
+                            </svg>
+                        </div>
+                        <div class="cbtn sm" id="btn-fullscreen" title="Toggle Fullscreen">
+                            <svg width="13" height="13" viewBox="0 0 16 16" fill="currentColor">
+                                <path
+                                    d="M1 6V1h5v2H3v3H1zm10-5h5v5h-2V3h-3V1zM1 10h2v3h3v2H1v-5zm12 3v-3h2v5h-5v-2h3z" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Playlist panel -->
+            <div class="side-panel" id="playlist-panel">
+                <div class="panel-hdr">
+                    <span class="panel-title" id="pl-title">Playlist</span>
+                    <button class="close-x" id="btn-close-pl">&#215;</button>
+                </div>
+                <div id="playlist-list"></div>
+            </div>
+
+            <!-- Subtitle panel -->
+            <div class="side-panel" id="sub-panel">
+                <div class="panel-hdr">
+                    <span class="panel-title">Phụ đề</span>
+                    <button class="close-x" id="btn-close-sub">&#215;</button>
+                </div>
+                <div id="sub-list-wrap">
+                    <div id="sub-list-inner"></div>
+                    <div id="no-sub">Không có phụ đề</div>
+                </div>
+                <div class="sub-toggle-row">
+                    <span class="sub-toggle-label">Phụ đề nổi</span>
+                    <div class="sw on" id="float-sw">
+                        <div class="sw-knob"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dim -->
+            <div id="dim"></div>
+
+        </div><!-- #stage -->
+    </div><!-- #shell -->
+
+    <audio id="audio" preload="auto"></audio>
+
+    <script type="module" src="app.js"></script>
+</body>
+
+</html>

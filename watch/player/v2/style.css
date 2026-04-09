@@ -1,0 +1,710 @@
+/* ── RESET & BASE ─────────────────────────────────────────── */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: #000;
+    font-family: 'DM Sans', system-ui, sans-serif;
+    color: #fff;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+}
+
+/* ── SHELL ────────────────────────────────────────────────── */
+#shell {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+/* Stage: màn hình ngang → full height, dọc → full width.
+   Không ép tỷ lệ 4:3 nữa — ảnh tự co theo aspect gốc.     */
+#stage {
+    position: relative;
+    overflow: hidden;
+
+    /* Landscape: chiếm toàn bộ viewport */
+    width: 100vw;
+    height: 100vh;
+
+    display: grid;
+}
+
+/* ── ẢNH NỀN — dùng <img> để giữ aspect ratio gốc ───────── */
+/* Xóa style cũ của bg-a / bg-b (background-image),
+   thay bằng lớp img tuyệt đối phủ toàn stage.              */
+#bg-a,
+#bg-b {
+    position: absolute;
+    inset: 0;
+    /* Không dùng background-image nữa — JS sẽ set src của <img> bên trong */
+    background-color: #000000;
+    transition: opacity 0.45s ease;
+}
+
+#bg-b {
+    opacity: 0;
+}
+
+/* Thẻ img bên trong mỗi layer bg */
+#bg-a img,
+#bg-b img {
+    position: absolute;
+    inset: 0;
+    width: auto;
+    height: 100%;
+    object-fit: cover;
+    /* cover toàn vùng, crop tối thiểu */
+    object-position: center;
+    display: block;
+    place-self: center;
+}
+
+/* Portrait: chiếm toàn width, height tự nhiên (không bị crop) */
+@media (orientation: portrait) {
+
+    #bg-a img,
+    #bg-b img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* ── GRADIENTS ──────────────────────────────────────────── */
+.grad-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 28%;
+    /* background: linear-gradient(to bottom, rgba(0, 0, 0, 0.72), transparent); */
+    pointer-events: none;
+    z-index: 2;
+}
+
+#top-bar:not(.hidden) {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), transparent);
+}
+
+#controls:not(.hidden) {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.3) 50%, transparent 100%);
+}
+
+.grad-bot {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 60%;
+    /* background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.5) 50%, transparent 100%); */
+    pointer-events: none;
+    z-index: 2;
+}
+
+/* ── ẢNH NAV (prev/next ảnh) ────────────────────────────── */
+.img-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.13);
+    border: 1px solid rgba(255, 255, 255, 0.22);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background 0.15s;
+    font-size: 18px;
+    line-height: 1;
+}
+
+.img-nav:hover {
+    background: rgba(255, 255, 255, 0.28);
+}
+
+#img-prev {
+    left: 10px;
+}
+
+#img-next {
+    right: 10px;
+}
+
+#img-dots {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 5px;
+    z-index: 10;
+}
+
+.dot {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.32);
+    transition: background 0.2s, transform 0.2s;
+}
+
+.dot.active {
+    background: #fff;
+    transform: scale(1.3);
+}
+
+/* ── TOP BAR ─────────────────────────────────────────────── */
+#top-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 12px;
+    z-index: 20;
+    gap: 8px;
+}
+
+.pill {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background: rgba(255, 255, 255, 0.11);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 20px;
+    padding: 5px 11px;
+    font-size: 12px;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: background 0.15s;
+}
+
+.pill:hover {
+    background: rgba(255, 255, 255, 0.22);
+}
+
+.pill.on {
+    background: rgba(255, 255, 255, 0.24);
+    border-color: rgba(255, 255, 255, 0.4);
+}
+
+.pill svg {
+    flex-shrink: 0;
+}
+
+/* ── FLOATING SUBTITLE ───────────────────────────────────── */
+#float-sub {
+    position: absolute;
+    bottom: 110px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 20;
+    width: calc(100% - 56px);
+    max-width: 640px;
+    text-align: center;
+    pointer-events: none;
+    transition: opacity 0.3s;
+}
+
+#float-sub-text {
+    display: inline-block;
+    background: rgba(0, 0, 0, 0.62);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 6px;
+    padding: 5px 14px;
+    font-size: 14px;
+    line-height: 1.55;
+    max-width: 100%;
+}
+
+@media (max-width: 500px) {
+    #float-sub {
+        bottom: 148px;
+    }
+
+    #float-sub-text {
+        font-size: 13px;
+    }
+}
+
+/* ── BOTTOM CONTROLS ─────────────────────────────────────── */
+#controls {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 20;
+    padding: 8px 12px 14px;
+    transition: opacity 0.4s, transform 0.4s;
+}
+
+#controls.hidden {
+    opacity: 0;
+    transform: translateY(8px);
+    pointer-events: none;
+}
+
+.track-info {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    gap: 8px;
+}
+
+#track-title {
+    font-size: 13px;
+    font-weight: 500;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    flex: 1;
+}
+
+#track-index {
+    font-size: 11px;
+    color: rgba(255, 255, 255, 0.45);
+    white-space: nowrap;
+}
+
+.progress-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 7px;
+}
+
+.time {
+    font-size: 11px;
+    color: rgba(255, 255, 255, 0.55);
+    min-width: 34px;
+}
+
+#time-end {
+    text-align: right;
+}
+
+#progress-wrap {
+    flex: 1;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+}
+
+#progress-track {
+    width: 100%;
+    height: 3px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 2px;
+    overflow: visible;
+    position: relative;
+}
+
+#progress-fill {
+    height: 100%;
+    width: 0;
+    background: #fff;
+    border-radius: 2px;
+    position: relative;
+    transition: width 0.25s linear;
+    pointer-events: none;
+}
+
+#progress-thumb {
+    position: absolute;
+    right: -5px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background: #fff;
+}
+
+.ctrl-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ctrl-center {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.ctrl-right {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.cbtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    cursor: pointer;
+    transition: background 0.15s, transform 0.1s;
+    width: 34px;
+    height: 34px;
+    flex-shrink: 0;
+}
+
+.cbtn:hover {
+    background: rgba(255, 255, 255, 0.22);
+}
+
+.cbtn:active {
+    transform: scale(0.93);
+}
+
+.cbtn.sm {
+    width: 28px;
+    height: 28px;
+}
+
+.cbtn.play {
+    width: 42px;
+    height: 42px;
+    background: rgba(255, 255, 255, 0.93);
+    color: #111;
+}
+
+.cbtn.play:hover {
+    background: #fff;
+}
+
+/* ── SIDE PANELS ─────────────────────────────────────────── */
+.side-panel {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 30;
+    width: 60%;
+    background: rgba(0, 0, 0, 0.65);
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.22s ease;
+}
+
+/* Mobile portrait: cao 90%, rộng 75% */
+@media (max-width: 600px) and (orientation: portrait) {
+    .side-panel {
+        width: 90% !important;
+        /* Căn giữa dọc: top + bottom margin tự động */
+        top: 5%;
+        bottom: 5%;
+        border-radius: 14px;
+        /* shadow để nổi trên nền */
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.55);
+    }
+
+    #playlist-panel {
+        left: 0;
+        border-right: none;
+        border-radius: 0 14px 14px 0;
+    }
+
+    #sub-panel {
+        right: 0;
+        border-left: none;
+        border-radius: 14px 0 0 14px;
+    }
+}
+
+/* Mobile landscape: cao 100%, rộng 75% */
+@media (max-width: 900px) and (orientation: landscape) {
+    .side-panel {
+        width: 75% !important;
+        top: 0;
+        bottom: 0;
+    }
+}
+
+#playlist-panel {
+    left: 0;
+    border-right: 1px solid rgba(255, 255, 255, 0.08);
+    transform: translateX(-100%);
+}
+
+#playlist-panel.open {
+    transform: translateX(0);
+}
+
+#sub-panel {
+    right: 0;
+    border-left: 1px solid rgba(255, 255, 255, 0.08);
+    transform: translateX(100%);
+}
+
+#sub-panel.open {
+    transform: translateX(0);
+}
+
+.panel-hdr {
+    padding: 11px 13px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+}
+
+.panel-title {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.close-x {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    line-height: 1;
+    transition: background 0.15s;
+}
+
+.close-x:hover {
+    background: rgba(255, 255, 255, 0.22);
+}
+
+/* ── PLAYLIST LIST ───────────────────────────────────────── */
+#playlist-list {
+    overflow-y: auto;
+    flex: 1;
+    scroll-behavior: smooth;
+    padding: 4px 0;
+}
+
+#playlist-list::-webkit-scrollbar {
+    width: 3px;
+}
+
+#playlist-list::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 2px;
+}
+
+.pl-item {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    padding: 10px 13px;
+    /* tăng padding dọc cho dễ tap */
+    cursor: pointer;
+    transition: background 0.12s;
+}
+
+.pl-item:hover {
+    background: rgba(255, 255, 255, 0.07);
+}
+
+.pl-item.active {
+    background: rgba(255, 255, 255, 0.12);
+}
+
+.pl-num {
+    font-size: 11px;
+    color: rgba(255, 255, 255, 0.32);
+    min-width: 18px;
+    text-align: right;
+    flex-shrink: 0;
+}
+
+.pl-name {
+    font-size: 13px;
+    /* tăng nhẹ font size */
+    line-height: 1.45;
+    /* Cho phép wrap, không cắt ngang */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    flex: 1;
+}
+
+/* ── SUBTITLE LIST — flow layout (bỏ virtualize) ─────────── */
+/* Sub list wrap: scrollable container                        */
+#sub-list-wrap {
+    overflow-y: auto;
+    flex: 1;
+    position: relative;
+    scroll-behavior: smooth;
+}
+
+#sub-list-wrap::-webkit-scrollbar {
+    width: 3px;
+}
+
+#sub-list-wrap::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 2px;
+}
+
+/* inner không cần height cố định nữa — flow tự nhiên */
+#sub-list-inner {
+    position: relative;
+    /* JS vẫn set height, nhưng items giờ dùng flow */
+}
+
+/* Sub item: KHÔNG dùng position:absolute nữa → bỏ top, thay bằng flow */
+.sub-item {
+    display: flex;
+    gap: 8px;
+    align-items: flex-start;
+    padding: 8px 13px;
+    /* padding đều, thoáng hơn */
+    cursor: pointer;
+    transition: background 0.12s;
+    /* XÓA position:absolute, left, right — để flow tự nhiên */
+}
+
+.sub-item:hover {
+    background: rgba(255, 255, 255, 0.06);
+}
+
+.sub-item.active {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.sub-ts {
+    font-size: 11px;
+    /* tăng nhẹ */
+    color: rgba(255, 255, 255, 0.75);
+    min-width: 36px;
+    padding-top: 2px;
+    flex-shrink: 0;
+    line-height: 1.5;
+}
+
+.sub-txt {
+    font-size: 13px;
+    /* tăng nhẹ cho dễ đọc */
+    color: rgba(255, 255, 255, 0.85);
+    line-height: 1.55;
+    /* Cho phép text wrap nhiều dòng */
+    white-space: normal;
+    word-break: break-word;
+    flex: 1;
+}
+
+.sub-item.active .sub-txt {
+    color: #fff;
+}
+
+.sub-toggle-row {
+    padding: 9px 13px;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+}
+
+.sub-toggle-label {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.55);
+}
+
+.sw {
+    width: 36px;
+    height: 20px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.18);
+    position: relative;
+    cursor: pointer;
+    transition: background 0.18s;
+    flex-shrink: 0;
+}
+
+.sw.on {
+    background: rgba(255, 255, 255, 0.85);
+}
+
+.sw-knob {
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: #111;
+    transition: transform 0.18s;
+}
+
+.sw.on .sw-knob {
+    transform: translateX(16px);
+}
+
+/* No subtitle notice */
+#no-sub {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.3);
+    padding: 24px;
+    text-align: center;
+}
+
+/* Dim overlay */
+#dim {
+    display: none;
+    position: absolute;
+    inset: 0;
+    /* background: rgba(0, 0, 0, 0.46); */
+    z-index: 25;
+}
+
+#dim.show {
+    display: block;
+}
+
+/* ── TOP BAR / CONTROLS auto-hide ────────────────────────── */
+#top-bar.hidden {
+    opacity: 0;
+    transform: translateY(-8px);
+    pointer-events: none;
+    transition: opacity 0.4s, transform 0.4s;
+}
+
+#top-bar {
+    transition: opacity 0.4s, transform 0.4s;
+}
+
+.img-nav.hidden,
+#img-dots.hidden {
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.4s;
+}

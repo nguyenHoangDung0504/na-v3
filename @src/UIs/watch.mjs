@@ -72,7 +72,8 @@ async function initWatchView(db, UIbindings, renderers) {
 		additional,
 	} = track
 
-	watchView.vidFrame.src = `/watch/player/?code=${code}`
+	const v = +url.getParam('v')
+	watchView.vidFrame.src = `/watch/player${v ? `/v${v}` : ''}/?code=${code}` // Update 9/4/2026
 	watchView.downloadLink.href = `/watch/download/?code=${code}`
 	watchView.pCVlabel.textContent = 'CV' + (cvIDs.length > 1 ? 's' : '')
 	watchView.pTagLabel.textContent = 'Tag' + (tagIDs.length > 1 ? 's' : '')
