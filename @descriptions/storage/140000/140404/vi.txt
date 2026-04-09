@@ -1,0 +1,82 @@
+- Content_Des
+    str:【Hỗ Trợ Thủ Dâm Chị Em Shota】Y Tá Xấu Tính Hỗ Trợ Thủ Dâm Phòng Ngừa Khổ Dâm ～Chịu Đựng Đừng Để Sa Đáy Khổ Dâm♡～
+br:
+    str:Khái niệm♪
+br:
+    Hỗ trợ thủ dâm “kiềm chế” theo kiểu khổ dâm♡
+    Đây là chương trình huấn luyện đặc biệt dành cho những chàng trai dễ bị kích thích và có nguy cơ sa vào sở thích khổ dâm.
+    Luật chơi rất đơn giản:
+    1. Giữ chặt cặc và cố gắng kiềm chế không xuất tinh♡
+    2. Bạn có thể không thủ dâm, hoặc thủ dâm nhanh tùy ý♡
+    3. Mỗi ngày nghe theo thứ tự phần “bệnh viện” rồi phần “bài tập về nhà” trong 3 ngày♡
+    4. Nếu không chịu nổi và xuất tinh, hãy mở ngay bản “cầu xin xuất tinh” hoặc “xuất tinh ngay”♡
+br:
+    hr:
+    ～Cốt truyện～
+    Trong tương lai gần, những người có khuynh hướng khổ dâm bị xã hội phân biệt đối xử và gặp bất lợi trong công việc cũng như học hành.
+    Bạn – một chàng trai có nguy cơ cao mắc chứng này – được đưa đến phòng khám chuyên “phòng ngừa khổ dâm” để huấn luyện tăng cường sức bền cho cặc.
+    Thế nhưng hai y tá được giao nhiệm vụ lại là những chị gái siêu hư hỏng, chuyên gia trong việc hành hạ và làm cho các chàng trai sa đà vào khổ dâm…
+    “Cặc của em chắc chưa cương cứng lắm đâu nhỉ?♡”
+    “Em không thể bị kích thích chỉ vì bị liếm và bị cười nhạo đâu chứ♡”
+
+- Character_Des
+    str:Akari (ngực size L♡) - Trái
+    - Y tá vui tính, thoải mái của phòng khám phòng ngừa khổ dâm♡
+    - Thích làm cho các chàng trai phụ thuộc vào mình rồi bỏ rơi họ♡
+    - Đã thao túng rất nhiều người mắc chứng khổ dâm từ thời sinh viên♡
+    - Đặc biệt thích làm cho những chàng trai dễ thương như bạn phát điên lên♡
+    - Kỹ năng: quyến rũ, trêu chọc, khiêu khích cực mạnh♡
+br:
+    str:Mai (ngực size K♡) - Phải
+    - Y tá lạnh lùng của phòng khám phòng ngừa khổ dâm♡
+    - Khinh thường những thằng đàn ông không kiềm chế được “của quý” của mình♡
+    - Đã thao túng rất nhiều người mắc chứng khổ dâm từ thời sinh viên♡
+    - Thích nhìn những chàng trai như bạn sụp đổ♡
+    - Kỹ năng: hỗ trợ thủ dâm chuyên nghiệp bằng giọng trầm trêu chọc♡
+
+- Track_Des
+    str:Track 1　Phỏng vấn y tế　(8:32)
+br:
+    str:Track 2　Giải thích luật chơi　(2:58)
+br:
+    hr:
+    str:～～～～～Ngày 1～～～～～
+    str:Track 3-A　[Phần Bệnh viện] Trò chơi sức chịu đựng tê cặc♡　(14:57)
+    ➡[Chịu đựng cương cứng・Chịu đựng co giật cặc・Lời nói kích thích]
+br:
+    str:Track 3-B　[Phần Bài tập về nhà] Hỗ trợ thủ dâm bằng tiếng cười chế giễu♡　(12:36)
+    ➡[Hỗ trợ thủ dâm・Chế giễu thủ dâm・Kích động mâu thuẫn]
+br:
+    hr:
+    str:～～～～～Ngày 2～～～～～
+    str:Track 4-A　[Phần Bệnh viện] Trò chơi sức chịu đựng nuông chiều và xuất tinh♡　(11:48)
+    ➡[Nói chuyện như trẻ con・Nuông chiều & trêu chọc]
+br:
+    str:Track 4-B　[Phần Bài tập về nhà] Hỗ trợ thủ dâm tưởng tượng của trẻ hư♡　(10:55)
+    ➡[Kích thích tưởng tượng trẻ hư・Rên giả vờ・Chế nhạo]
+br:
+    hr:
+    str:～～～～～Ngày 3～～～～～
+    str:Track 5　[Phần Bệnh viện] Trò chơi chịu đựng ham muốn khổ dâm♡　(12:15)
+    ➡[Lặp lại lời gọi khổ dâm・Trêu chọc・Cám dỗ xuất tinh]
+br:
+    str:Track 6　Kết thúc khóa huấn luyện đặc biệt – Làm tốt lắm♡　(3:10)
+br:
+    hr:
+    str:~~~~~Những track dành cho lúc không kiềm chế nổi~~~~~
+    str:Track Ex-1　[Phần Bệnh viện] Cầu xin xuất tinh　(2:40)
+    ➡[Cười・Đếm ngược]
+br:
+    str:Track Ex-2　[Phần Bệnh viện] Xuất tinh sớm　(4:02)
+    ➡[Lăng mạ・Kéo giãn bao quy đầu]
+br:
+    str:Track Ex-3　[Phần Bài tập về nhà] Xuất tinh sớm　(4:42)
+    ➡[Trêu chọc・Ngửi cặc]
+br:
+    hr:
+    str:~~~~~Phần thưởng sau khi hoàn thành khóa huấn luyện đặc biệt~~~~~
+    str:Track Bonus 01-24　Những lời gọi khổ dâm lặp lại♡　(Mỗi đoạn 1:30)
+    ➡[Akari: Rên giả vờ・Phun trào♡・Xem này thật tuyệt lol / Mai: Aaah lol・Phun trào♡・Khổ dâm lol・Tội nghiệp quá… lol] (8 đoạn solo + 16 đoạn thì thầm hai bên đồng thời)
+br:
+    str:Track Bonus Cấm Xem　Âm thanh có thể làm trầm trọng thêm khuynh hướng khổ dâm　(8:03)
+    ➡[?????]

@@ -1,0 +1,46 @@
+- Content_Des
+    ～Cốt truyện～
+    Nhật Bản tương lai gần khi tỷ lệ sinh giảm mạnh. Chính phủ ban hành “Mama Club Law” để tăng dân số.
+    Bạn là nam sinh đặc cách nhập học trường nữ sinh. Người phụ trách Mama Club vừa là chủ tịch hội học sinh vừa là trưởng bộ môn gia đình – Shirozakura Rina, sẽ cùng bạn thực hiện đủ loại hoạt động của Mama Club.
+    “Từ hôm nay anh phải tham gia hoạt động đặc biệt của câu lạc bộ rồi…”
+br:
+    hr:
+    Toàn bộ ngọt ngào nuông chiều. Cặc cứng hoàn toàn mà không cần chạm tay × Yoshiyoshi dâng hiến cực ngọt khi bắn tinh × Ve vãn cặc ngài + oshitsuke gieo giống.
+    Mama Club có luật riêng:
+    - Hoạt động ưu tiên hơn học tập
+    - Phải mặc đồng phục quy định và trở thành “mama” của nam sinh
+    - Không chạm cặc khi chưa cương cứng hoàn toàn
+    - Khi bắn tinh nhất định phải yoshiyoshi vuốt ve
+
+- Character_Des
+    str:Shirozakura Rina
+    - Chủ tịch hội học sinh kiêm trưởng Mama Club & bộ môn gia đình.
+    - Học lực xuất sắc, tính cách cool downer nhưng rất dịu dàng và được mọi người tin tưởng.
+    - Tóc đen dài, thân hình cực kỳ đầy đặn, ngực dài mềm mại rất hợp mặc reverse bunny.
+    - “Tôi sẽ cố gắng hết mình vì anh nhé…”
+    - “Cặc ngài làm em kết thúc rồi♡♡ Chỉ đơn giản thế này thôi mà♡ Bị cặc ngài làm cho ra hết rồi♡”
+
+- Track_Des
+    str:Track 1　♡Chào mừng đến Mama Club!♡
+    ➡[Đón bạn・Nụ hôn chào để làm cặc cứng]
+br:
+    str:Track 2　♡Kết hợp hôn + vuốt tay yoshiyoshi bắn tinh nhé♡
+    ➡[Hôn khen ngợi nam sinh khi nhìn nhau・Vuốt tay cặc ngài ngoan ngoãn・Cào nhẹ gân dưới bằng móng tay・Hôn lưỡi sâu yoshiyoshi bắn tinh・Bắn lên bụng・Hôn dư âm khen ngợi + nuốt sữa trinh・Vuốt tay bằng ngực dài cho bú・Nằm trong ngực thì thầm thích anh・Bắn tinh chụp chụp vào ngực]
+br:
+    str:Track 3　♡Từ sau ve vãn núm vú bắn tinh não tan chảy♡
+    ➡[Hít sâu ngực mama bunny・Hôn tai + liếm tai + ve núm vú từ sau・Liếm sâu tai não tan chảy bắn tinh・Ve núm vú nhìn nhau hôn sâu・Bắn tinh liên tục lên bụng trong khi hôn lưỡi・Hôn dư âm]
+br:
+    str:Track 4　♡Mama phạt cặc ngài tát mặt♡
+    ➡[Trên cầu thang trường ve vãn cặc ngài + hôn làm cặc cứng hoàn toàn・Ve vãn cặc khoe trước mặt・Cọ cặc ngài lên mặt & đặt nặng cặc ngài lên mặt・Hít sâu cặc ngài・Gọi cặc ngài・Vuốt mặt bằng cặc + tát cặc ngài + hôn xin lỗi cặc・Khoe bú cặc trước mặt học sinh khác・Yoshiyoshi bú miệng + lau sạch bú cặc dư âm]
+br:
+    str:Track 5　♡Chọc cặc ngài chụt chụt để tăng dục vọng trước khi bắn♡
+    ➡[Trong phòng thay đồ nữ ve vãn cặc ngài・Mama nài nỉ + ghen tuông chọc tức・Chào mừng cặc ngài ở cửa lồn・Thì thầm hơi thở tai + ve núm vú・Liếm tai khích dục・Chọc tức ngay trước khi bắn tinh]
+br:
+    str:Track 6　♡Hôn xác nhận tình yêu với cặc ngài♡
+    ➡[Gọi ve vãn cặc ngài trong giờ học・Thay đồ bunny ở hành lang trong khi hôn・Cọ cặc ngài lên bụng đặt chỗ tử cung・Yoshiyoshi chăm sóc cặc ngài・Hôn thật sâu trước khi làm con + nhiều nước bọt・Thâm nhập sống không bao ở hành lang・Piston chào mừng yoshiyoshi + mama bú sữa làm yếu ớt lên đỉnh・Rên oho thô tục của mama yếu ớt・Gieo giống cực mạnh・Hôn dư âm thở hổn hển]
+br:
+    str:Track 7　♡Lên đỉnh liên tục yếu ớt kết thúc cuộc đời – quan hệ mang thai♡
+    ➡[Sau ve vãn cặc liên tục thâm nhập từ sau + phạt tát mông・Xông vào lớp học đang lên lớp với cặc vẫn cắm・Nhận gieo giống công khai ngay tại chỗ ngồi trong giờ học・Lên đỉnh liên tục trước mặt bạn cùng lớp・Tuyên bố thụ tinh trong khi xin lỗi・Piston hôn liên tục + mama dâng tử cung kết thúc cuộc đời lên đỉnh tái sinh・Bắn tinh xác nhận mang thai]
+br:
+    str:Track 8　♡Chào mừng cặc ngài đã làm mama mang thai♡
+    ➡[Quan hệ ngọt ngào hạnh phúc của mama yếu ớt cùng cặc ngài papa và con]

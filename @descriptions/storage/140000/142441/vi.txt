@@ -1,0 +1,51 @@
+- Content_Des
+    str:Khái niệm♪
+br:
+    Bạn gái otaku × Bắt mồi một chiều × Tiếng rên oho thô tục
+    - Cô bạn gái otaku lý tưởng có thể cùng chơi game, cùng đi event.
+    - Vì là otaku nên chỉ thích những trò chơi lệch lạc một chiều.
+    - Giải phóng dục vọng của con ghiền thủ dâm đến giới hạn bằng tiếng rên oho.
+    Lần này dùng âm thanh Foley nhầy nhụa chân thực!
+    Sử dụng micro cao cấp KU100 để bạn cảm giác như nhân vật thật đang ở ngay trước mặt.
+br:
+    hr:
+    ～Cốt truyện～
+    “Này này, bạn thân ơi～ Hôm nay chơi tựa game nào nhỉ～?”
+    Người đang gọi điện cho bạn là Hayase Renka – cô bạn otaku cùng đại học.
+    Hai người quen nhau từ giờ học chung, dần dần thân thiết và gần như ngày nào cũng gọi video cùng xem anime, chơi game.
+    Bạn chưa từng có kinh nghiệm với con gái nên thích Renka nhưng sợ phá hỏng mối quan hệ nên chỉ giữ ở mức bạn bè.
+    Thế rồi một ngày, khi screen share vô tình để lộ danh sách bookmark đầy ắp tranh erotic…
+    Renka nhìn thấy và nói một câu hoàn toàn bất ngờ:
+    “Bạn thân ơi… Ở ngoài đời thật cũng muốn thử những trò giống trong tranh chứ? Có muốn không nào?”
+
+- Character_Des
+    str:Hayase Renka
+    - Sinh nhật: 2/7
+    - Chiều cao: 166cm (khá cao đấy chứ～)
+    - Sinh viên đại học yêu game, anime, manga và văn hóa phụ Nhật Bản.
+    - Dục vọng cực mạnh, hàng ngày thủ dâm dữ dội.
+    - Muốn thử những trò chơi dâm đãng như trong truyện erotic nhưng chưa tìm được đối tác.
+    - Khi biết bạn cũng thích thể loại đó, cô ấy chủ động đề nghị ký hợp đồng bạn tình độc quyền để thỏa mãn mọi dục vọng.
+    - Cách xưng hô: “bạn thân ơi～” “người bạn thân mến của ta～”
+    - Cách gọi cặc: “cặc♡”
+
+- Track_Des
+    str:Prologue　Mạch ngắn mạch　(4:10)
+br:
+    str:Track 1　Qua app gọi video khoe thủ dâm lẫn nhau đến cực khoái liên tục　(11:13)
+    ➡[Khoe thủ dâm lẫn nhau・Hỗ trợ thủ dâm・Thay lời tâm trạng・Cực khoái liên tục・Phun nước・Rên oho]
+br:
+    str:Track 2　Tại nhà bạn: Nữ trên vắt kiệt tinh bằng tư thế dạng háng piston　(8:53)
+    ➡[Hôn・Hôn lưỡi sâu・Nữ trên sống không bao・Liếm mặt・Cực khoái liên tục・Phun nước・Rên oho]
+br:
+    str:Track 3　Trong tàu điện đông đúc: Thì thầm dâm đãng bên tai + vuốt tay không để ai phát hiện　(12:03)
+    ➡[Thì thầm・Hôn tai・Thổi hơi vào tai・Nói dâm khích dục・Thay lời tâm trạng・Vuốt tay・Bắn tinh lên đùi]
+br:
+    str:Track 4　Ngửi và lau sạch cặc bẩn tích tụ 1 tuần bằng bú chân không　(15:09)
+    ➡[Ngửi cặc・Lau cặn bẩn・Ngửi trứng・Liếm trứng・Bú chân không・Nhai cặn bẩn・Xuất tinh trong miệng・Nuốt tinh]
+br:
+    str:Track 5　Dùng cả lồn lẫn đít để giao phối liên tục mồ hôi nhễ nhại　(16:51)
+    ➡[Tư thế truyền giáo sống・Quan hệ hậu môn・Thay lời tâm trạng lặp lại giao phối・Bắn tinh trong・Lau sạch bú cặc sau・Cực khoái liên tục・Phun nước・Rên oho]
+br:
+    str:Epilogue　Cài đặt hoàn tất　(2:48)
+    ➡[Liếm hậu môn]

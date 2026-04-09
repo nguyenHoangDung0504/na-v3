@@ -1,0 +1,44 @@
+- Content_Des
+    str:【4 Đặc Quyền Mua Sớm】Cô Giáo Và Thực Tập Mang Thai Siêu Dâm Đãng ～Toàn Bộ Ngọt Ngào / Mang Thai / Bắn Tinh Tử Cung / Ngọt Ngào Bú Vú Sữa Vuốt Tay / Phục Vụ Siêu Dính Chặt～【KU100】
+br:
+    str:Khái niệm & Cốt truyện♪
+br:
+    ～Cốt truyện～
+    Toàn bộ ngọt ngào. Siêu dính sát thì thầm × H học viện tuổi thanh xuân♪
+    Thì thầm có 2 kiểu: 【thì thầm dính sát không tiếng】 và 【thì thầm siêu dính sát + hơi thở nhiều】♪
+    Track cuối là phần thực tập mama sau khi mang thai♪
+    Hãy tận hưởng red baby play với bú bú ngọt ngào vuốt tay vú sữa nhé♪
+br:
+    hr:
+    Toàn bộ bản chính khoảng 120 phút + freep talk khoảng 1 phút 22 giây.
+
+- Character_Des
+    str:Cô giáo
+    - Hơi downer, cô giáo hiền lành và dịu dàng.
+    - Là giáo viên phụ trách thực tập mang thai, nhưng bản thân là trinh nữ và hoàn toàn mới mẻ với tình yêu.
+    - Vì là đối tác của bạn, cô ấy sẽ ngây thơ nhưng hết mình phục vụ bạn.
+    - Thực ra có mặt siêu dâm đãng với dục vọng rất mạnh.
+    - Trong khi dính sát chặt chẽ, cô ấy sẽ nuông chiều và chiều chuộng bạn hết mức.
+    - “Tôi sẽ cố gắng hết mình vì bạn nhé♪”
+
+- Track_Des
+    str:Track 1　Phần giới thiệu　(7:09)
+    ➡[Khi bạn tỏ tình với cô giáo trở thành đối tác thực tập mang thai…]
+br:
+    str:Track 2　Huấn luyện H lần đầu tiên　(19:23)
+    ➡[Hôn・Vuốt tay・Thì thầm siêu dính sát hơi thở nhiều・Đếm ngược xuất tinh]
+br:
+    str:Track 3　Huấn luyện bú cặc　(26:44)
+    ➡[Bú cặc nuông chiều・Bú cặc kết hợp vuốt tay・Bú cặc bằng ngực・Ngửi cặc・Nuốt tinh bên tai・Lau sạch bú cặc sau]
+br:
+    str:Track 4　Huấn luyện quan hệ lần đầu tiên　(20:36)
+    ➡[Thì thầm dính sát・Hơi thở・Rên thì thầm khi thâm nhập・Ngọt ngào dâng hiến trinh nữ & trao nhau lần đầu・Thì thầm chúc mừng tốt nghiệp童貞・Hôn sâu・Thì thầm dính sát rên rỉ & nói dâm・Ngồi đối diện・Rên nyannya tan chảy giọng・Thì thầm hơi thở cực sâu bên tai]
+br:
+    str:Track 5　Huấn luyện nữ trên　(18:31)
+    ➡[Thì thầm dính sát tai・Hơi thở・Ngọt ngào dâm đãng thì thầm hơi thở nhiều & nói dâm・Nữ trên・Hôn tai・Nữ trên ghim piston chậm・Nữ trên piston mạnh đâm tử cung・Nữ trên tử cung rên nyannya tan chảy giọng・Nói dâm ve vãn xuất tinh → bắn tinh tử cung・Thở sâu quá mức lên đỉnh]
+br:
+    str:Track 6　Mang thai tử cung doggy　(16:19)
+    ➡[Kupaà nhìn dò xét hồi hộp・Thực hành thâm nhập (doggy)・Hít thở sâu・Được khen・Doggy piston theo tiếng hô piston・Ôm siết dính sát doggy piston・Doggy piston nhấp nhô・Tuyên bố dâm đãng ngọt ngào nói dâm・Hứa hẹn kết hôn・Tuyên bố mang thai・Cầu xin tình yêu・Doggy piston điên cuồng全力 đâm tử cung siêu dâm・Phát tình tan chảy giọng・Tử cung vắt kiệt cặc・Xuất tinh liên tục・Lên đỉnh dâm đãng siêu dâm]
+br:
+    str:Track 7　Với cô giáo đã trở thành mama　(11:53)
+    ➡[Tuyên bố mama・Siêu siêu ngọt・Bú bú nuông chiều vú sữa vuốt tay・Thì thầm khen ngợi・Đếm ngược xuất tinh・Tiếng hô xuất tinh・Khen ngợi xuất tinh thành công]
