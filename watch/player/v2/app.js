@@ -1,6 +1,6 @@
 import { simplifyNumber } from '../../../@descriptions/utils.js'
-import { ImageDisplayer } from '../../../@src/app.materials.mjs'
-import { url, fullscreen } from '../../../@src/app.utils.mjs'
+import { ImageDisplayer, SwipeHandler } from '../../../@src/app.materials.mjs'
+import { url, fullscreen, device } from '../../../@src/app.utils.mjs'
 import { database as db } from '../../../@src/database/index.mjs'
 
 const trackID = url.getParam('code') || url.getParam('rjcode') || '75923'
@@ -63,6 +63,19 @@ audios.forEach(({ name }, index) => {
 		vttURL: `/@descriptions/storage/${group}/${trackID}/vtt/${index}.txt`,
 	})
 })
+
+let isPortrait = false
+const toggleFS = () => {
+	if (document.fullscreenElement || document.webkitFullscreenElement || document.msFullscreenElement) {
+		fullscreen.deactivate()
+		screen.orientation.unlock()
+		isPortrait = true
+	} else {
+		fullscreen.activate()
+		if (device.isMobile()) screen.orientation.lock('landscape')
+		isPortrait = false
+	}
+}
 
 /* ═══════════════════════════════════════════════════════
 	MODULE: VTT Parser  (từ code gốc của bạn)
@@ -270,6 +283,9 @@ const Slideshow = (() => {
 	// ImageDisplayer
 	const bgA = document.getElementById('bg-a')
 	const bgB = document.getElementById('bg-b')
+	bgA.addEventListener('dblclick', toggleFS)
+	bgB.addEventListener('dblclick', toggleFS)
+
 	const dotsEl = document.getElementById('img-dots')
 	let current = 0
 	let front = bgA // front layer
@@ -293,6 +309,13 @@ const Slideshow = (() => {
 			dotsEl.appendChild(d)
 		})
 		if (images.length) setImage(0, images)
+		;[bgA, bgB].forEach((ele) =>
+			new SwipeHandler(
+				ele,
+				() => ele.scale === 1 && prev(images),
+				() => ele.scale === 1 && next(images),
+			).registerEvents(),
+		)
 	}
 
 	function setImage(idx, images) {
@@ -302,7 +325,9 @@ const Slideshow = (() => {
 		// Đặt ảnh mới vào back layer qua <img src>
 		getImg(back).src = images[current]
 		back.style.opacity = '1'
+		back.style.pointerEvents = 'all'
 		front.style.opacity = '0'
+		front.style.pointerEvents = 'none'
 
 		// Swap refs
 		;[front, back] = [back, front]
@@ -609,7 +634,7 @@ const Player = (() => {
 			audio.currentTime = 0
 			audio.play()
 		})
-		document.getElementById('btn-fullscreen').addEventListener('click', () => fullscreen.toggle())
+		document.getElementById('btn-fullscreen').addEventListener('click', toggleFS)
 
 		// Progress bar – drag/click
 		progWrap.addEventListener('pointerdown', onSeekStart)
@@ -634,6 +659,47 @@ const Player = (() => {
 		})
 		audio.addEventListener('play', () => setPlayIcon(true))
 		audio.addEventListener('pause', () => setPlayIcon(false))
+
+		// Khởi tạo là 0 vì mới vào chưa hiện
+		floatSub.style.opacity = '0'
+
+		// Draggable floating subtitle
+		const floatEl = document.getElementById('float-sub')
+		let dragging = false,
+			ox = 0,
+			oy = 0
+
+		// Chuyển từ % sang px để drag được
+		function initFloatPos() {
+			const r = floatEl.getBoundingClientRect()
+			const sr = document.getElementById('stage').getBoundingClientRect()
+			floatEl.style.left = r.left - sr.left + 'px'
+			floatEl.style.top = r.top - sr.top + 'px'
+			floatEl.style.bottom = 'unset'
+			floatEl.style.transform = 'none'
+		}
+
+		floatEl.addEventListener('pointerdown', (e) => {
+			e.stopPropagation()
+			if (!dragging) initFloatPos()
+			dragging = true
+			floatEl.setPointerCapture(e.pointerId)
+			ox = e.clientX - floatEl.offsetLeft
+			oy = e.clientY - floatEl.offsetTop
+		})
+
+		floatEl.addEventListener('pointermove', (e) => {
+			if (!dragging) return
+			const stage = document.getElementById('stage')
+			const maxX = stage.clientWidth - floatEl.offsetWidth
+			const maxY = stage.clientHeight - floatEl.offsetHeight
+			floatEl.style.left = Math.max(0, Math.min(maxX, e.clientX - ox)) + 'px'
+			floatEl.style.top = Math.max(0, Math.min(maxY, e.clientY - oy)) + 'px'
+		})
+
+		floatEl.addEventListener('pointerup', () => {
+			dragging = false
+		})
 	}
 
 	// ── LOAD TRACK ─────────────────────────────────────

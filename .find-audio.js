@@ -42,4 +42,6 @@ for (const dir of inputDirs) {
 // ✅ Quan trọng: in ra 1 lần, chứa newline thật
 process.stdout.write(results.map((path) => `"${path}"`).join(' `\r\n'))
 process.stdout.write('\n\n')
-process.stdout.write(results.map((path) => `"${path.split('\\').slice(0, -1).join('\\')}"`).join(' `\r\n'))
+process.stdout.write(
+	[...new Set(results.map((path) => `"${path.split('\\').slice(0, -1).join('\\')}"`))].join(' `\r\n'),
+)

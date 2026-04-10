@@ -7,6 +7,10 @@
     padding: 0;
 }
 
+img {
+    -webkit-user-drag: none;
+}
+
 html,
 body {
     width: 100%;
@@ -213,15 +217,20 @@ body {
 /* ── FLOATING SUBTITLE ───────────────────────────────────── */
 #float-sub {
     position: absolute;
-    bottom: 110px;
+    bottom: 10px;
     left: 50%;
     transform: translateX(-50%);
-    z-index: 20;
+    z-index: 520;
     width: calc(100% - 56px);
     max-width: 640px;
     text-align: center;
-    pointer-events: none;
     transition: opacity 0.3s;
+
+    cursor: grab;
+    pointer-events: auto;
+    /* bỏ cái none hiện tại */
+    touch-action: none;
+    /* để pointermove hoạt động trên mobile */
 }
 
 #float-sub-text {
@@ -230,7 +239,7 @@ body {
     border: 1px solid rgba(255, 255, 255, 0.08);
     border-radius: 6px;
     padding: 5px 14px;
-    font-size: 14px;
+    font-size: 1em;
     line-height: 1.55;
     max-width: 100%;
 }
@@ -271,7 +280,7 @@ body {
 }
 
 #track-title {
-    font-size: 13px;
+    font-size: 1em;
     font-weight: 500;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -542,7 +551,7 @@ body {
 }
 
 .pl-name {
-    font-size: 13px;
+    font-size: 1em;
     /* tăng nhẹ font size */
     line-height: 1.45;
     /* Cho phép wrap, không cắt ngang */
@@ -585,6 +594,7 @@ body {
     /* padding đều, thoáng hơn */
     cursor: pointer;
     transition: background 0.12s;
+    align-items: center;
     /* XÓA position:absolute, left, right — để flow tự nhiên */
 }
 
@@ -593,21 +603,20 @@ body {
 }
 
 .sub-item.active {
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.3);
 }
 
 .sub-ts {
-    font-size: 11px;
+    font-size: .8em;
     /* tăng nhẹ */
     color: rgba(255, 255, 255, 0.75);
     min-width: 36px;
-    padding-top: 2px;
     flex-shrink: 0;
     line-height: 1.5;
 }
 
 .sub-txt {
-    font-size: 13px;
+    font-size: 1em;
     /* tăng nhẹ cho dễ đọc */
     color: rgba(255, 255, 255, 0.85);
     line-height: 1.55;
