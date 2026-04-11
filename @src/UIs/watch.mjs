@@ -1,6 +1,6 @@
 import ListView from '../../@libraries/list_view/index.mjs'
 import { AddtionalURL, Category, Track } from '../app.models.mjs'
-import { url } from '../app.utils.mjs'
+import { constants, url } from '../app.utils.mjs'
 import { randomPostViewBinding, watchViewBinding } from './view_bindings/watch.mjs'
 
 /**
@@ -169,7 +169,7 @@ function initRenderers(db, UIbindings) {
 			resource: { thumbnail },
 		} = data
 		binding._root.dataset.code = code
-		binding._root.href = `/watch/?code=${code}`
+		binding._root.href = constants.WATCH_PATH(code)
 		binding.img.alt = ` - Thumbnail:${code}`
 		binding.pRJcode.textContent = RJcode
 		binding.pEngname.textContent = eName

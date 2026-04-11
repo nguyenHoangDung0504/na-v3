@@ -1,0 +1,37 @@
+- Content_Des
+    ～Cốt truyện～
+    Đây là câu chuyện về sự “nghiện lẫn nhau” qua liếm hậu môn.
+    Aoi – nữ gravure idol sắp nghỉ hưu – đang quay DVD cuối cùng. 
+    Chủ tịch công ty đến thăm phim trường thì phát hiện lông hậu môn của Aoi bị hở ra khỏi T-back, khiến toàn bộ cảnh quay có nguy cơ bị cắt bỏ. 
+    Vì không còn ai khác đáng tin cậy, chủ tịch tự tay xử lý lông cho cô. 
+    Từ đó, ông nhận ra rằng việc vuốt ve và liếm hậu môn sẽ khiến Aoi lộ ra những biểu cảm và cử chỉ siêu dâm đãng. 
+    Dưới danh nghĩa “vì phim”, ông bắt đầu liếm liếm khoét khoét hậu môn cô trong mọi giờ nghỉ. 
+    Dần dần cả hai đều sa đà và trở nên không thể thiếu nhau…
+
+- Character_Des
+    str:Aoi
+    - Gravure idol sắp nghỉ hưu, sở hữu cặp mông đẹp hoàn hảo.
+    - Ban đầu cố tỏ ra mạnh mẽ và vui vẻ, nhưng dần dần nghiện cảm giác liếm khoét hậu môn và trở nên dâm đãng không thể kiềm chế.
+br:
+    str:Chủ tịch
+    - Chủ tịch công ty quản lý Aoi.
+    - Ban đầu chỉ muốn giúp đỡ, nhưng càng ngày càng bị mê hoặc bởi hậu môn của Aoi và cuối cùng cũng sa đà vào trò chơi liếm hậu môn lẫn nhau.
+
+- Track_Des
+    str:Track 01　Trong lúc quay DVD cuối cùng – Phát hiện vấn đề　(18:51)
+    ➡[Phát hiện lông hậu môn hở / Cạo lông bằng dao điện / Cạo lông bằng dao thủ công / Thổi hơi vào hậu môn / Lau lông bằng khăn giấy]
+br:
+    str:Track 02　Trong lúc quay DVD cuối cùng – Kiểm tra trang phục　(10:06)
+    ➡[Kiểm tra nếp nhăn hậu môn / Kiểm tra mùi hậu môn / Kiểm tra mùi hậu môn bằng hít thở sâu]
+br:
+    str:Track 03　Sau khi quay cảnh bơi lội　(10:48)
+    ➡[Ngửi mùi mông dính kem và sữa đặc / Liếm mút mông dính kem và sữa đặc / Liếm khoét hậu môn dính kem và sữa đặc / Kiềm chế lên đỉnh hậu môn]
+br:
+    str:Track 04　Trang phục cuối cùng trong lúc quay DVD　(14:05)
+    ➡[Hôn nhẹ lên môi / Ép môi hôn / Hôn dính dấp / Hôn trong lúc vuốt ve lông mông / Khoét hậu môn bằng tay trong lúc hôn sâu / Kiềm chế lên đỉnh hậu môn]
+br:
+    str:Track 05　Sau khi phát hành DVD cuối cùng – Sau khi Aoi nghỉ hưu　(37:39)
+    ➡[Hôn thề nguyện lên môi / Búi lộ hậu môn lông / Hôn thề nguyện lên hậu môn / Hôn chụt chụt hậu môn / Kéo lông hậu môn bằng môi / Hút hậu môn lên đỉnh / Aoi vuốt ve mông chủ tịch / Aoi hôn chụt chụt mông chủ tịch / Aoi liếm khoét hậu môn chủ tịch + vuốt tay / Liếm trứng vuốt tay / Quan hệ lồn + tuyên bố liếm hậu môn / Bắn tinh trong / Quan hệ hậu môn lặp lại “hạnh phúc” / Ngồi đối diện hôn + lặp lại “hạnh phúc” / Thì thầm “hạnh phúc” bên tai / Nữ trên dạng háng lên đỉnh hậu môn hạnh phúc / Hôn tạm biệt lên hậu môn]
+br:
+    str:EX Track　Sau ○○ – Liếm hậu môn lẫn nhau　(9:35)
+    ➡[Ép mông lên mặt / Nhổ lông hậu môn bằng tay / Liếm hậu môn lẫn nhau / Lên đỉnh hậu môn hạnh phúc / Hút tinh dịch / Súc miệng tinh dịch]

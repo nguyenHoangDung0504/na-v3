@@ -1,0 +1,43 @@
+- Content_Des
+    ～Cốt truyện～
+    Bạn đang có cuộc sống suôn sẻ: sắp cưới bạn gái từ thời đại học, sắp vào làm công ty lớn.
+    Nhưng bạn có một bí mật không thể để ai biết: bạn là masochist nặng.
+    Mỗi đêm bạn đều lén thủ dâm với Vtuber chuyên bully maso “Momose Meru” – người có tới 10.000 follower maso trên Ci-en.
+    Một ngày nọ, bạn tham gia buổi họp mặt câu lạc bộ đại học thì bất ngờ gặp lại “Momose Mei” – cô hậu bối mà ngày xưa bạn từng rất mến.
+    Và hóa ra… Momose Mei chính là Momose Meru – Vtuber bạn vẫn hay gửi comment maso “Tôi thua rồi~” mỗi đêm!
+    Cô nàng lập tức nhận ra bạn và bắt đầu reverse NTR ngọt ngào + bully cực mạnh.
+    “Anh mà cương lên là không được đâu nha~♡ Bạn gái anh sắp dọn về chung nhà rồi mà…♡”
+
+- Character_Des
+    str:Momose Mei (Vtuber: Momose Meru)
+    - Hậu bối đại học của bạn, bề ngoài dễ thương nhưng thực chất là tiểu ác ma dâm đãng.
+    - Là Vtuber chuyên “Maso ijime” (bully masochist) với hơn 10.000 follower.
+    - Giọng nói ngọt ngào, nũng nịu, hay dùng kiểu nói “nya~”, “dechu~” rất đáng yêu nhưng cực kỳ khiêu dâm và thao túng.
+    - Biết rõ bí mật maso của bạn và quyết tâm quyến rũ, reverse NTR bạn khỏi bạn gái.
+
+- Track_Des
+    str:Track 01　Prologue　(Thời lượng chưa công bố)
+br:
+    str:Track 02　Liếm tai vuốt tay　(Thời lượng chưa công bố)
+br:
+    str:Track 03　Hỗ trợ thủ dâm　(Thời lượng chưa công bố)
+br:
+    str:Track 04　Hôn lưỡi vuốt tay　(Thời lượng chưa công bố)
+br:
+    str:Track 05　Khoảng nghỉ giữa　(Thời lượng chưa công bố)
+br:
+    str:Track 06　Vuốt onahole　(Thời lượng chưa công bố)
+br:
+    str:Bonus 1　Nũng nịu kiểu mèo vuốt onahole　(Thời lượng chưa công bố)
+br:
+    str:Bonus 2　Lặp lại âm thanh dâm đãng khích dục　(Thời lượng chưa công bố)
+br:
+    str:Bonus 3　Thích anh thích anh hôn　(Thời lượng chưa công bố)
+br:
+    str:Bonus 4　Liếm tai rên rỉ khích dục bên tai　(Thời lượng chưa công bố)
+br:
+    str:Bonus 5　Ngửi mùi + pheromone dâm đãng hỗ trợ thủ dâm　(Thời lượng chưa công bố)
+br:
+    str:Bonus 6　Ve núm vú hỗ trợ thủ dâm　(Thời lượng chưa công bố)
+br:
+    str:Bonus 7　Hơi thở + liếm tai　(Thời lượng chưa công bố)

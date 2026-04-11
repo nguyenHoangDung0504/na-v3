@@ -290,6 +290,7 @@ const Slideshow = (() => {
 	let current = 0
 	let front = bgA // front layer
 	let back = bgB
+	let setImageVersion = 0
 
 	// Lấy hoặc tạo <img> bên trong một layer
 	function getImg(layer) {
@@ -322,19 +323,25 @@ const Slideshow = (() => {
 		if (!images.length) return
 		current = ((idx % images.length) + images.length) % images.length
 
-		// Đặt ảnh mới vào back layer qua <img src>
-		getImg(back).src = images[current]
-		back.style.opacity = '1'
-		back.style.pointerEvents = 'all'
-		front.style.opacity = '0'
-		front.style.pointerEvents = 'none'
+		const targetVersion = ++setImageVersion // ← thêm
 
-		// Swap refs
-		;[front, back] = [back, front]
+		const img = getImg(back)
 
-		// Update dots
-		const dots = dotsEl.querySelectorAll('.dot')
-		dots.forEach((d, i) => d.classList.toggle('active', i === current))
+		// ← bọc toàn bộ phần swap vào callback load
+		img.onload = img.onerror = () => {
+			if (targetVersion !== setImageVersion) return
+
+			back.style.opacity = '1'
+			back.style.pointerEvents = 'all'
+			front.style.opacity = '0'
+			front.style.pointerEvents = 'none'
+			;[front, back] = [back, front]
+
+			const dots = dotsEl.querySelectorAll('.dot')
+			dots.forEach((d, i) => d.classList.toggle('active', i === current))
+		}
+
+		img.src = images[current] // ← gán src ở cuối
 	}
 
 	function prev(images) {
@@ -633,6 +640,19 @@ const Player = (() => {
 		document.getElementById('btn-reload').addEventListener('click', () => {
 			audio.currentTime = 0
 			audio.play()
+		})
+		document.getElementById('btn-rotate').addEventListener('click', () => {
+			if (document.fullscreenElement) {
+				if (isPortrait) {
+					screen.orientation.unlock()
+					screen.orientation.lock('landscape')
+					isPortrait = false
+					return
+				}
+				screen.orientation.unlock()
+				screen.orientation.lock('portrait')
+				isPortrait = true
+			}
 		})
 		document.getElementById('btn-fullscreen').addEventListener('click', toggleFS)
 

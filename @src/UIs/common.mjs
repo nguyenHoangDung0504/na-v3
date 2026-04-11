@@ -1,5 +1,5 @@
 import ListView from '../../@libraries/list_view/index.mjs'
-import { array, device, highlight, sort } from '../app.utils.mjs'
+import { array, constants, device, highlight, sort } from '../app.utils.mjs'
 import { debounce } from '../../@libraries/decorators/index.mjs'
 import {
 	appViewBinding,
@@ -473,7 +473,7 @@ function initRenderers(db, UIbindings) {
 		const binding = suggestionsViewBinding.bind(template)
 		binding._root.href = ['cv', 'tag', 'series'].includes(data.type)
 			? `/?${data.type}=${data.code.split('-').pop()}`
-			: `/watch/?code=${data.code}`
+			: constants.WATCH_PATH(code)
 		binding.type.textContent = data.displayType
 		binding.value.innerHTML = highlight.apply(data.value, data.keyword)
 	})
@@ -485,7 +485,7 @@ function initRenderers(db, UIbindings) {
 			resource: { thumbnail },
 			category: { cvIDs },
 		} = data
-		const watchPath = `/watch/?code=${code}`
+		const watchPath = constants.WATCH_PATH(code)
 
 		binding._root.dataset.code = code
 		binding._root.dataset.id = `link-to:${code}`

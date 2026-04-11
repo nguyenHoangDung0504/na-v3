@@ -1,6 +1,6 @@
 import ListView from '../../@libraries/list_view/index.mjs'
 import { Category, Track } from '../app.models.mjs'
-import { device, pager, url } from '../app.utils.mjs'
+import { constants, device, pager, url } from '../app.utils.mjs'
 import { gachaRsItem } from './view_bindings/common.mjs'
 import { homeViewBinding } from './view_bindings/home.mjs'
 
@@ -204,7 +204,7 @@ function initRenderers(db, UIbindings) {
 			resource: { thumbnail },
 			category: { cvIDs },
 		} = data
-		const watchPath = `/watch/?code=${code}`
+		const watchPath = constants.WATCH_PATH(code)
 
 		binding._root.dataset.code = code
 		binding._root.dataset.id = `link-to:${RJcode}`

@@ -39,7 +39,6 @@ for (const dir of inputDirs) {
 	await scan(resolved, results)
 }
 
-// ✅ Quan trọng: in ra 1 lần, chứa newline thật
 process.stdout.write(results.map((path) => `"${path}"`).join(' `\r\n'))
 process.stdout.write('\n\n')
 process.stdout.write(

@@ -199,3 +199,11 @@ export const string = {
 		)
 	},
 }
+
+export const constants = {
+	/**
+	 * @param {string | number} code
+	 * @param {number?} v
+	 */
+	WATCH_PATH: (code, v = 2) => `/watch/?code=${code}${v ? `&v=${v}` : ''}`,
+}
