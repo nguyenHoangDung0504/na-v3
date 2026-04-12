@@ -329,7 +329,8 @@ function extractPathPatterns(prefixes) {
 			const pathSegments = url.pathname.split('/').filter(Boolean)
 
 			// Check các path prefix chung
-			for (let i = 1; i <= Math.min(pathSegments.length, 3); i++) {
+			// for (let i = 1; i <= Math.min(pathSegments.length, 3); i++) {
+			for (let i = 1; i <= Math.min(pathSegments.length, 5); i++) {
 				const pathPrefix = '/' + pathSegments.slice(0, i).join('/') + '/'
 				pathCounts.set(pathPrefix, (pathCounts.get(pathPrefix) || 0) + 1)
 			}
@@ -339,7 +340,7 @@ function extractPathPatterns(prefixes) {
 	})
 
 	return Array.from(pathCounts.entries())
-		.filter(([path, count]) => count >= 3 && path.length >= 5)
+		.filter(([path, count]) => count >= 5 && path.length >= 5)
 		.map(([path, count]) => ({
 			text: path,
 			frequency: count,
