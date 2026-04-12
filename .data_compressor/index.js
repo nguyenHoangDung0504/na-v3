@@ -101,16 +101,22 @@ function formatCategoryLine(categoryString) {
 function processCategories(data, columnIndex, fileName) {
 	const categoryMap = new Map()
 
-	data.forEach((line) => {
-		const categories = line[columnIndex].split(',')
-		categories.forEach((category) => {
-			category = category.trim()
-			if (!category || category.trim().toLowerCase() === 'described') return
-			if (!categoryMap.has(category)) {
-				categoryMap.set(category, { count: 0, index: categoryMap.size + 1 })
-			}
-			categoryMap.get(category).count += 1
-		})
+	data.forEach((line, index) => {
+		try {
+			const categories = line[columnIndex].split(',')
+			categories.forEach((category) => {
+				category = category.trim()
+				if (!category || category.trim().toLowerCase() === 'described') return
+				if (!categoryMap.has(category)) {
+					categoryMap.set(category, { count: 0, index: categoryMap.size + 1 })
+				}
+				categoryMap.get(category).count += 1
+			})
+		} catch (error) {
+			console.log('Error at index:', index)
+			console.log('Line before:', data[index - 1])
+			console.log(line)
+		}
 	})
 
 	const categoryEntries = Array.from(categoryMap.entries())

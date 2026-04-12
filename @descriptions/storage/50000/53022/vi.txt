@@ -1,0 +1,34 @@
+- Content_Des
+    ～Cốt truyện～
+    Dù con trai đã lớn và trở thành người trưởng thành, mẹ vẫn không thể ngừng chiều chuộng con. 
+    Thậm chí càng ngày càng chiều hơn. 
+    Mơ ước lớn nhất của mẹ là được con nói rằng: 
+    “Có mẹ ở bên, con cả đời không cần bạn gái cũng được!”
+
+- Character_Des
+    str:Mẹ (Mama)
+    - Mẹ dịu dàng, yêu thương và cực kỳ chiều con trai.
+    - Dù con đã lớn vẫn muốn chăm sóc con từ A đến Z, từ việc nhà đến “cặc con”.
+    - Luôn dùng giọng nói ngọt ngào, đầy tình yêu để chiều chuộng và nuông chiều con trai hết mức.
+
+- Track_Des
+    str:Track 1　Thổi kèn chào mừng con về nhà　(17:37)
+    ➡[Thổi kèn ngay tại cửa・Thổi kèn vuốt ve bằng lưỡi・Thổi kèn chụt chụt mạnh・Nuốt sâu họng・Xuất tinh trong miệng・Nuốt tinh・Lau sạch sau khi thổi kèn]
+br:
+    str:Track 2　Phần thưởng tai sau khi con cố gắng　(20:28)
+    ➡[Massage tai bằng bọt・Lau tai bằng tăm bông・Ngoáy tai・Hoàn thiện bằng bông mềm・Thổi hơi vào tai]
+br:
+    str:Track 3　Massage vai và cổ bằng dầu thơm nóng chảy　(8:56)
+    ➡[Chườm khăn nóng・Massage vai và cổ bằng dầu thơm]
+br:
+    str:Track 4　Massage núm vú chậm rãi dịu dàng　(7:32)
+    ➡[Massage núm vú kiểu cọ nhẹ・Chọc chọc・Cù cù・Xoay xoay・Nhẹ nhàng ve vuốt]
+br:
+    str:Track 5　Massage vuốt ve cặc bằng tay mẹ　(6:56)
+    ➡[Thì thầm bên tai・Massage vuốt ve cặc bằng tay thấm dầu]
+br:
+    str:Track 6　Ôm chặt cặc bằng lồn yêu thương♡　(13:21)
+    ➡[Thâm nhập không bao・Hôn・Ôm chặt lồn yêu thương・Bắn tinh trong]
+br:
+    str:Track 7　Liếm tai yêu con cho đến khi tinh trùng làm cho mang thai　(13:52)
+    ➡[Liếm tai thì thầm “yêu con”・Nài nỉ bắn tinh・Cầu xin tinh trùng bắn sâu vào trong]

@@ -1,0 +1,74 @@
+- Content_Des
+	～Cốt truyện～
+    Ủy Ban Ve Núm Vú chính thức hoạt động trở lại! 
+    Bạn sẽ nhận được “hướng dẫn ve núm vú” từ 4 cô nàng thành viên: 
+    - Hội trưởng (năm 3) nghiêm khắc nhưng đôi khi ngọt ngào,
+    - Phó hội trưởng (năm 2) dịu dàng yêu thương,
+    - Thư ký (năm 1) chiếm hữu mạnh mẽ,
+    - Tân binh (năm 1) ban đầu mạnh bạo, sau dần trở nên ngọt ngào.
+    Từ nghiêm khắc trách móc, ngọt ngào dỗ dành, cho đến các tình huống hài hước (chơi tân hôn, chơi em bé…) – đủ mọi kiểu ve núm vú để bạn được “detox” triệt để.
+br:
+    hr:
+    Tổng thời lượng bản chính: **4 giờ 36 phút**
+
+- Character_Des
+    str:Kaichou (Hội trưởng) - Kanoko
+    - Học sinh năm 3, hội trưởng ủy ban.
+    - Yêu bạn như em trai ruột.
+    - Thường dùng thì thầm tai + trách móc nghiêm khắc để tăng độ nhạy, đôi khi xen lẫn ngọt ngào kiểu mèo cưng.
+    - Sau khi xuất tinh nhất định sẽ nuốt tinh dịch để kiểm tra sức khỏe cho bạn.
+br:
+    str:Fukukaichou (Phó hội trưởng) - Hinata Asuka (Yuka Hinata)
+    - Học sinh năm 2, phó hội trưởng.
+    - Chuyên hướng dẫn ve núm vú ngọt ngào, âu yếm.
+    - Tin rằng xoa trứng + bú trứng có tác dụng thải độc.
+    - Rất thích các tình huống chơi (chơi tân hôn, chơi em bé…).
+br:
+    str:Shoki (Thư ký) - Asaki Shiki
+    - Học sinh năm 1, thư ký.
+    - Muốn chiếm hữu bạn một mình, rất dễ ghen.
+    - Thường xuyên dùng núm vú của bạn để thủ dâm hàng ngày.
+    - Dùng giọng trách móc ngọt ngào + thở dốc đồng cảm để kích thích.
+br:
+    str:Shinjin (Tân binh) - Ooyama Chirol
+    - Học sinh năm 1, thành viên mới.
+    - Ban đầu ve núm vú rất mạnh bạo và nghiêm khắc.
+    - Dần dần trở nên ngọt ngào hơn khi quen thuộc.
+    - Giọng trầm xen lẫn ngọt để làm bạn lên đỉnh.
+
+- Track_Des
+    str:Track 00　Prologue　(4:37)
+    ➡[Cả 4 người trò chuyện vui vẻ・Tân binh chính thức gia nhập・Giải thích quy trình hướng dẫn]
+br:
+    str:Track 01　Tân binh solo: Hướng dẫn ve núm vú mạnh bạo + chỉ dẫn thủ dâm　(25:39)
+    ➡[Trách móc maso・Ve núm vú tốc độ cao・Chỉ dẫn thủ dâm・Giọng nghiêm khắc xen ngọt・Thở dốc oho bên tai]
+br:
+    str:Track 02　Hội trưởng + Tân binh: Ve núm vú hai tai + oho khích dục　(21:33)
+    ➡[Thở dốc tai・Teasing ngực・Ve núm vú chậm rãi・Vuốt tay・Oho hai tai khích dục・Hội trưởng lau sạch]
+br:
+    str:Track 03　Hội trưởng solo: Ve núm vú nghiêm khắc trói buộc + chỉ dẫn thủ dâm　(26:57)
+    ➡[Đạo đức giả trách móc・Trói tay chân・Teasing chậm・Cho uống nước bọt・Chỉ dẫn thủ dâm・Lau sạch]
+br:
+    str:Track 04　Phó hội trưởng + Tân binh: Hướng dẫn hôn chụt chụt ngọt ngào　(26:27)
+    ➡[Hôn tai・Liếm núm vú・Xoa trứng・Phó hội trưởng bú cặc示范・Tân binh oho khích dục bên tai]
+br:
+    str:Track 05　Thư ký + Tân binh: Thi đua double fella ngọt ngào　(22:45)
+    ➡[Hôn・Liếm tai ve núm vú・Oho bên tai・Double fella・Tân binh bú thân + Thư ký bú trứng]
+br:
+    str:Track 06　Phó hội trưởng solo: Chơi tân hôn qua quần lót・kẹp đùi　(24:18)
+    ➡[Hôn・Ve núm vú trên đùi・Kẹp đùi qua quần・Oho khích dục bên tai]
+br:
+    str:Track 07　Thư ký solo: Hỗ trợ thủ dâm ngọt ngào oho　(29:57)
+    ➡[Hôn・Cho uống nước bọt・Hôn lưỡi・Ve núm vú・Hỗ trợ thủ dâm・Oho khích dục bên tai]
+br:
+    str:Track 08　Phó hội trưởng + Thư ký: Chơi em bé + hôn tai vuốt tay　(26:56)
+    ➡[Cù lét・Nói giọng em bé・Liếm tai・Ve núm vú vuốt tay・Xoa trứng・Hôn hai tai khích dục]
+br:
+    str:Track 09　Hội trưởng + Thư ký: Hướng dẫn vuốt tay kiềm chế xuất tinh　(25:57)
+    ➡[Teasing・Hôn・Vuốt tay・Kiềm chế xuất tinh・Khích dục ngọt ngào・Lau sạch]
+br:
+    str:Track 10　Hội trưởng + Phó hội trưởng: Kẹp đùi oho + fella phó hội trưởng　(18:13)
+    ➡[Liếm tai ve núm vú・Kẹp đùi thay phiên・Kẹp đùi hội trưởng + fella phó hội trưởng・Lau sạch]
+br:
+    str:Track 11　Harem play　(22:36)
+    ➡[Liếm núm vú・Liếm tai・Hôn・Cho uống nước bọt・Hôn lưỡi・Fella・Oho khích dục hai tai・Harem đầy đủ 4 người]

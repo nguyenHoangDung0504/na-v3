@@ -1,81 +1,7 @@
 import { simplifyNumber } from '../../../@descriptions/utils.js'
-import { ImageDisplayer, SwipeHandler } from '../../../@src/app.materials.mjs'
+import { SwipeHandler } from '../../../@src/app.materials.mjs'
 import { url, fullscreen, device } from '../../../@src/app.utils.mjs'
 import { database as db } from '../../../@src/database/index.mjs'
-
-const trackID = url.getParam('code') || url.getParam('rjcode') || '75923'
-const track = await db.tracks.get(trackID.toLowerCase().includes('rj') ? trackID : +trackID)
-
-if (!track) {
-	alert('Code not found!')
-}
-
-document.title = 'Alt Player:' + track.info.code
-
-/* ═══════════════════════════════════════════════════════
-TODO
-1. IMAGES – mảng URL ảnh minh họa (dùng chung cho tất cả bài)
-2. TRACKS – mảng { audioURL, vttURL } theo thứ tự playlist
-══════════════════════════════════════════════════════ */
-
-const IMAGES = [
-	// TODO: thêm link ảnh vào đây
-	// Ví dụ:
-	// 'https://example.com/img1.jpg',
-	// 'https://example.com/img2.jpg',
-]
-
-const TRACKS = [
-	// TODO: thêm các track vào đây
-	// Ví dụ:
-	// { audioURL: 'https://example.com/audio1.mp3', vttURL: 'https://example.com/audio1.vtt' },
-	// { audioURL: 'https://example.com/audio2.mp3', vttURL: null },
-]
-
-// TODO (tuỳ chọn): tên hiển thị cho từng track – nếu để rỗng sẽ dùng tên file
-const TRACK_NAMES = [
-	// 'Bài 1 · Chào hỏi',
-	// 'Bài 2 · Số đếm',
-]
-
-const images = [track.resource.thumbnail, ...track.resource.images]
-let seen = ''
-const imgPrefixes = await db.prefixies.getAll(images.map((img) => img.prefixID))
-IMAGES.push(
-	...images
-		.map((iov, index) => {
-			iov = `${imgPrefixes[index]}${iov.name}`
-			if (seen.includes(iov)) return
-			seen += iov
-			return iov.includes('.mp4') ? undefined : iov
-		})
-		.filter(Boolean),
-)
-
-const audios = track.resource.audios
-const audPrefixes = await db.prefixies.getAll(audios.map((aud) => aud.prefixID))
-audios.forEach(({ name }, index) => {
-	const audioURL = `${audPrefixes[index]}${name}`
-	const group = simplifyNumber(trackID)
-	TRACK_NAMES.push(url.getFileNameFromUrl(audioURL))
-	TRACKS.push({
-		audioURL,
-		vttURL: `/@descriptions/storage/${group}/${trackID}/vtt/${index}.txt`,
-	})
-})
-
-let isPortrait = false
-const toggleFS = () => {
-	if (document.fullscreenElement || document.webkitFullscreenElement || document.msFullscreenElement) {
-		fullscreen.deactivate()
-		screen.orientation.unlock()
-		isPortrait = true
-	} else {
-		fullscreen.activate()
-		if (device.isMobile()) screen.orientation.lock('landscape')
-		isPortrait = false
-	}
-}
 
 /* ═══════════════════════════════════════════════════════
 	MODULE: VTT Parser  (từ code gốc của bạn)
@@ -323,26 +249,61 @@ const Slideshow = (() => {
 		if (!images.length) return
 		current = ((idx % images.length) + images.length) % images.length
 
-		const targetVersion = ++setImageVersion // ← thêm
+		const targetVersion = ++setImageVersion
 
-		const img = getImg(back)
+		// Tạo img mới đặt lên trên cùng
+		const img = document.createElement('img')
+		img.className = 'slide-img loading' // loading = opacity thấp / spinner
+		img.style.cssText =
+			'position:absolute;inset:0;width:100%;height:100%;object-fit:contain;opacity:0.3;transition:opacity 0.3s'
 
-		// ← bọc toàn bộ phần swap vào callback load
-		img.onload = img.onerror = () => {
-			if (targetVersion !== setImageVersion) return
+		const container = bgA.parentElement // wrapper chứa cả bgA, bgB
 
-			back.style.opacity = '1'
-			back.style.pointerEvents = 'all'
-			front.style.opacity = '0'
-			front.style.pointerEvents = 'none'
-			;[front, back] = [back, front]
-
-			const dots = dotsEl.querySelectorAll('.dot')
-			dots.forEach((d, i) => d.classList.toggle('active', i === current))
+		img.onload = () => {
+			if (targetVersion !== setImageVersion) {
+				img.remove() // bị vượt qua → dọn luôn
+				return
+			}
+			img.style.opacity = '1' // hiện rõ khi load xong
+			// Xóa các img cũ bên dưới
+			container.querySelectorAll('.slide-img:not(:last-child)').forEach((e) => e.remove())
 		}
 
-		img.src = images[current] // ← gán src ở cuối
+		img.onerror = () => img.remove()
+		img.src = images[current]
+		img.alt = ''
+
+		container.appendChild(img)
+
+		// Update dots ngay lập tức
+		const dots = dotsEl.querySelectorAll('.dot')
+		dots.forEach((d, i) => d.classList.toggle('active', i === current))
 	}
+
+	// function setImage(idx, images) {
+	// 	if (!images.length) return
+	// 	current = ((idx % images.length) + images.length) % images.length
+
+	// 	const targetVersion = ++setImageVersion // ← thêm
+
+	// 	const img = getImg(back)
+
+	// 	// ← bọc toàn bộ phần swap vào callback load
+	// 	img.onload = img.onerror = () => {
+	// 		if (targetVersion !== setImageVersion) return
+
+	// 		back.style.opacity = '1'
+	// 		back.style.pointerEvents = 'all'
+	// 		front.style.opacity = '0'
+	// 		front.style.pointerEvents = 'none'
+	// 		;[front, back] = [back, front]
+
+	// 		const dots = dotsEl.querySelectorAll('.dot')
+	// 		dots.forEach((d, i) => d.classList.toggle('active', i === current))
+	// 	}
+
+	// 	img.src = images[current] // ← gán src ở cuối
+	// }
 
 	function prev(images) {
 		setImage(current - 1, images)
@@ -745,7 +706,6 @@ const Player = (() => {
 		// Load audio
 		audio.src = track.audioURL
 		audio.load()
-		audio.play().catch(() => {})
 
 		// Load VTT
 		if (track.vttURL) {
@@ -857,6 +817,7 @@ const Player = (() => {
 		} else {
 			subOpen = !subOpen
 			plOpen = false
+			if (subOpen) SubtitlePanel.scrollToActive(false)
 		}
 		applyPanels()
 	}
@@ -906,6 +867,80 @@ const Player = (() => {
 
 	return { init }
 })()
+
+const trackID = url.getParam('code') || url.getParam('rjcode') || '75923'
+const track = await db.tracks.get(trackID.toLowerCase().includes('rj') ? trackID : +trackID)
+
+if (!track) {
+	alert('Code not found!')
+}
+
+document.title = 'Alt Player:' + track.info.code
+
+/* ═══════════════════════════════════════════════════════
+TODO
+1. IMAGES – mảng URL ảnh minh họa (dùng chung cho tất cả bài)
+2. TRACKS – mảng { audioURL, vttURL } theo thứ tự playlist
+══════════════════════════════════════════════════════ */
+
+const IMAGES = [
+	// TODO: thêm link ảnh vào đây
+	// Ví dụ:
+	// 'https://example.com/img1.jpg',
+	// 'https://example.com/img2.jpg',
+]
+
+const TRACKS = [
+	// TODO: thêm các track vào đây
+	// Ví dụ:
+	// { audioURL: 'https://example.com/audio1.mp3', vttURL: 'https://example.com/audio1.vtt' },
+	// { audioURL: 'https://example.com/audio2.mp3', vttURL: null },
+]
+
+// TODO (tuỳ chọn): tên hiển thị cho từng track – nếu để rỗng sẽ dùng tên file
+const TRACK_NAMES = [
+	// 'Bài 1 · Chào hỏi',
+	// 'Bài 2 · Số đếm',
+]
+
+const images = [track.resource.thumbnail, ...track.resource.images]
+let seen = ''
+const imgPrefixes = await db.prefixies.getAll(images.map((img) => img.prefixID))
+IMAGES.push(
+	...images
+		.map((iov, index) => {
+			iov = `${imgPrefixes[index]}${iov.name}`
+			if (seen.includes(iov)) return
+			seen += iov
+			return iov.includes('.mp4') ? undefined : iov
+		})
+		.filter(Boolean),
+)
+
+const audios = track.resource.audios
+const audPrefixes = await db.prefixies.getAll(audios.map((aud) => aud.prefixID))
+audios.forEach(({ name }, index) => {
+	const audioURL = `${audPrefixes[index]}${name}`
+	const group = simplifyNumber(trackID)
+	TRACK_NAMES.push(url.getFileNameFromUrl(audioURL))
+	TRACKS.push({
+		audioURL,
+		vttURL: `/@descriptions/storage/${group}/${trackID}/vtt/${index}.txt`,
+	})
+})
+
+let isPortrait = false
+function toggleFS() {
+	if (document.fullscreenElement || document.webkitFullscreenElement || document.msFullscreenElement) {
+		fullscreen.deactivate()
+		screen.orientation.unlock()
+		isPortrait = true
+	} else {
+		fullscreen.activate()
+		if (device.isMobile()) screen.orientation.lock('landscape')
+		isPortrait = false
+	}
+}
 
 /* ═══════════════════════════════════════════════════════
 	BOOT
