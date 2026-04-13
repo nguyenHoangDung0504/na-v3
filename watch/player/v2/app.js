@@ -248,38 +248,21 @@ const Slideshow = (() => {
 	function setImage(idx, images) {
 		if (!images.length) return
 		current = ((idx % images.length) + images.length) % images.length
+		++setImageVersion
 
-		const targetVersion = ++setImageVersion
+		const img = getImg(back)
+		img.src = images[current] // bắt đầu tải, không chờ
 
-		// Tạo img mới đặt lên trên cùng
-		const img = document.createElement('img')
-		img.className = 'slide-img loading' // loading = opacity thấp / spinner
-		img.style.cssText =
-			'position:absolute;inset:0;width:100%;height:100%;object-fit:contain;opacity:0.3;transition:opacity 0.3s'
+		// Swap layer ngay lập tức
+		back.style.opacity = '1'
+		back.style.pointerEvents = 'all'
+		front.style.opacity = '0'
+		front.style.pointerEvents = 'none'
+		;[front, back] = [back, front]
 
-		const container = bgA.parentElement // wrapper chứa cả bgA, bgB
-
-		img.onload = () => {
-			if (targetVersion !== setImageVersion) {
-				img.remove() // bị vượt qua → dọn luôn
-				return
-			}
-			img.style.opacity = '1' // hiện rõ khi load xong
-			// Xóa các img cũ bên dưới
-			container.querySelectorAll('.slide-img:not(:last-child)').forEach((e) => e.remove())
-		}
-
-		img.onerror = () => img.remove()
-		img.src = images[current]
-		img.alt = ''
-
-		container.appendChild(img)
-
-		// Update dots ngay lập tức
 		const dots = dotsEl.querySelectorAll('.dot')
 		dots.forEach((d, i) => d.classList.toggle('active', i === current))
 	}
-
 	// function setImage(idx, images) {
 	// 	if (!images.length) return
 	// 	current = ((idx % images.length) + images.length) % images.length
@@ -288,7 +271,7 @@ const Slideshow = (() => {
 
 	// 	const img = getImg(back)
 
-	// 	// ← bọc toàn bộ phần swap vào callback load
+	// 	// Bọc toàn bộ phần swap vào callback load
 	// 	img.onload = img.onerror = () => {
 	// 		if (targetVersion !== setImageVersion) return
 
@@ -556,7 +539,6 @@ const Player = (() => {
 	const progWrap = document.getElementById('progress-wrap')
 	const floatSub = document.getElementById('float-sub')
 	const floatSubText = document.getElementById('float-sub-text')
-	const floatSw = document.getElementById('float-sw')
 	const plPanel = document.getElementById('playlist-panel')
 	const subPanel = document.getElementById('sub-panel')
 	const dim = document.getElementById('dim')
@@ -627,7 +609,6 @@ const Player = (() => {
 		document.getElementById('btn-close-pl').addEventListener('click', () => closeAllPanels())
 		document.getElementById('btn-close-sub').addEventListener('click', () => closeAllPanels())
 		dim.addEventListener('click', closeAllPanels)
-		floatSw.addEventListener('click', toggleFloatSub)
 
 		// Audio events
 		audio.addEventListener('timeupdate', onTimeUpdate)
@@ -647,35 +628,31 @@ const Player = (() => {
 		// Draggable floating subtitle
 		const floatEl = document.getElementById('float-sub')
 		let dragging = false,
-			ox = 0,
 			oy = 0
 
-		// Chuyển từ % sang px để drag được
-		function initFloatPos() {
-			const r = floatEl.getBoundingClientRect()
-			const sr = document.getElementById('stage').getBoundingClientRect()
-			floatEl.style.left = r.left - sr.left + 'px'
-			floatEl.style.top = r.top - sr.top + 'px'
-			floatEl.style.bottom = 'unset'
-			floatEl.style.transform = 'none'
-		}
-
+		// Chỉ drag theo trục Y, X luôn giữ center
 		floatEl.addEventListener('pointerdown', (e) => {
 			e.stopPropagation()
-			if (!dragging) initFloatPos()
 			dragging = true
 			floatEl.setPointerCapture(e.pointerId)
-			ox = e.clientX - floatEl.offsetLeft
-			oy = e.clientY - floatEl.offsetTop
+			// Tính offset Y từ vị trí hiện tại
+			const rect = floatEl.getBoundingClientRect()
+			oy = e.clientY - rect.top
+			// Ghi lại top hiện tại để drag tính từ đó
+			const stageRect = document.getElementById('stage').getBoundingClientRect()
+			floatEl.style.bottom = 'unset'
+			floatEl.style.top = rect.top - stageRect.top + 'px'
+			floatEl.style.transform = 'translateX(-50%)' // giữ X căn giữa
 		})
 
 		floatEl.addEventListener('pointermove', (e) => {
 			if (!dragging) return
 			const stage = document.getElementById('stage')
-			const maxX = stage.clientWidth - floatEl.offsetWidth
-			const maxY = stage.clientHeight - floatEl.offsetHeight
-			floatEl.style.left = Math.max(0, Math.min(maxX, e.clientX - ox)) + 'px'
-			floatEl.style.top = Math.max(0, Math.min(maxY, e.clientY - oy)) + 'px'
+			const stageRect = stage.getBoundingClientRect()
+			const maxY = stageRect.height - floatEl.offsetHeight
+			const newTop = Math.max(0, Math.min(maxY, e.clientY - stageRect.top - oy))
+			floatEl.style.top = newTop + 'px'
+			// KHÔNG động vào left / transform → X vẫn căn giữa
 		})
 
 		floatEl.addEventListener('pointerup', () => {
@@ -840,10 +817,13 @@ const Player = (() => {
 	// ── FLOAT SUBTITLE toggle ──────────────────────────
 	function toggleFloatSub() {
 		floatSubOn = !floatSubOn
-		floatSw.classList.toggle('on', floatSubOn)
 		document.getElementById('btn-float-sub').classList.toggle('on', floatSubOn)
 		if (!floatSubOn) {
 			floatSub.style.opacity = '0'
+		} else {
+			// Bật lại → cập nhật ngay theo cue hiện tại
+			const text = floatSubText.textContent
+			floatSub.style.opacity = text ? '1' : '0'
 		}
 	}
 

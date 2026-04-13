@@ -1,0 +1,35 @@
+- Content_Des
+    ～Cốt truyện～
+    “Lỗ đít của mẹ thì không lo mang thai đâu… nên con muốn bắn bao nhiêu cũng được, bắn hết vào trong đi…”
+    Mẹ Minagawa Shoko là một người mẹ đơn thân dịu dàng, ngọt ngào và luôn chiều con trai hết mực.
+    Mẹ cho phép con trai làm “chuyện đó” với lỗ đít mỗi ngày, vì “lồn thật thì không được, nhưng lỗ đít thì mẹ cho con thoải mái”.
+    Từ buổi sáng thức dậy, tắm chung, ngủ chung, cho đến trước khi đi học… hàng ngày đều là những cuộc quan hệ hậu môn ngọt ngào và dâm đãng.
+    Mẹ ngày càng nghiện cảm giác hậu môn bị con trai “xử” mạnh, nên càng ngày càng chủ động đòi hỏi và rên oho không ngừng.
+
+- Character_Des
+    str:Minagawa Shoko (皆川硝子)
+    CV: Koisuzu Momoka
+    - Tuổi: Bí mật
+    - Chiều cao: 156cm
+    - Số đo: 96(H-cup)-62-94
+    - Mẹ đơn thân xinh đẹp, ngực khủng, tính cách dịu dàng nhưng rất chiều con trai.
+    - Luôn gọi con là “boku-chan” và cưng chiều con vô điều kiện.
+    - Là mẹ nhưng lại cực kỳ dâm đãng với lỗ đít, mê mùi cặc bẩn có cặn và tinh dịch.
+    - Một khi đã hứng tình thì không thể dừng lại, trở thành “máy bắn tinh” hậu môn nghiện ngập.
+
+- Track_Des
+    str:Track 01　Prologue　Chào buổi sáng boku-chan　(11:16)
+br:
+    str:Track 02　Tắm chung + thì thầm vuốt ve + fella mê mẩn cặc bẩn có cặn　(17:47)
+br:
+    str:Track 03　Ngủ chung + quan hệ hậu môn ngọt ngào　(16:03)
+br:
+    str:Track 04　Mẹ không nhịn được tự thủ dâm hậu môn　(15:02)
+br:
+    str:Track 05　Quan hệ hậu môn rên oho điên cuồng cùng mẹ　(15:21)
+br:
+    str:Track 06　Mẹ chủ động đòi quan hệ hậu môn kiểu cow girl　(18:56)
+br:
+    str:Track 07　Trước khi đi học: Phục vụ ngọt ngào + quan hệ hậu môn tạm biệt　(15:27)
+br:
+    str:Track 08　Epilogue　Ngủ chung với mẹ ~ Cùng nhau trong mơ ～　(10:43)

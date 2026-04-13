@@ -1,0 +1,31 @@
+- Content_Des
+    ～Cốt truyện～
+    “Mặc đồng phục của con gái, tuyên bố làm onahole cho con, rồi bảo con là đứa hư hỏng đi~♡”
+    Momoka – mẹ gal của bạn gái bạn – mặc nguyên bộ đồng phục con gái để quyến rũ bạn triệt để.
+    Từ hôn, liếm tai, ve núm vú,寸止め vuốt tay… đến cuối cùng buộc bạn phải chấp nhận “ngoại tình”.
+    Bạn không thể chống cự nổi khoái lạc và cảm giác phản bội, dần dần bị mẹ bạn gái thống trị hoàn toàn và không thể thoát ra được.
+
+- Character_Des
+    str:Momoka
+    - Tuổi: 33
+    - Nguyên AV actress, số đo: H-cup
+    - Mẹ gal dâm đãng, kinh nghiệm tình dục hơn 1.000 người.
+    - Tính cách cực kỳ dâm đãng, thích trêu chọc, khiêu khích và thao túng.
+    - Dù đã sinh con nhưng vẫn hay đi chơi bời với đàn ông.
+    - Đặc biệt giỏi dùng đồng phục con gái + kiểu tiểu ác ma để dồn đối phương vào thế bí.
+
+- Track_Des
+    str:Track 01　Mẹ mặc đồng phục khiêu dâm + cưỡng bức thủ dâm　(28:40)
+    ➡[Đồng phục cosplay・Hôn・Liếm tai・Ve núm vú・Cưỡng bức thủ dâm・Dừng trước khi lên đỉnh]
+br:
+    str:Track 02　Huấn luyện vuốt tay cấp AV của mẹ dâm đãng　(11:21)
+    ➡[Vuốt tay siêu dâm・Vuốt tay xoắn ốc・Dừng trước khi lên đỉnh・Khiêu khích ngoại tình・Ép kiềm chế xuất tinh]
+br:
+    str:Track 03　Quan hệ ngoại tình có bao cao su dẫn đến bại trận hoàn toàn　(12:48)
+    ➡[Ngồi trên cưỡi・Quan hệ có bao・Khiêu khích bắn tinh trong・Cảm giác phản bội・Nói dối uống thuốc tránh thai]
+br:
+    str:Track 04　Mẹ mặc đồng phục kẹp đùi + cưỡng ép xuất tinh ngay lập tức　(14:16)
+    ➡[Kẹp đùi・Đồng phục cosplay・Dừng trước khi lên đỉnh・Ve núm vú・Ép xuất tinh]
+br:
+    str:Track 05　Ngoại tình không bao + bắn tinh trong mang thai　(9:18)
+    ➡[Quan hệ không bao・Bắn tinh trong・Khiêu khích mang thai・Cảm giác phản bội・Nói dối không uống thuốc]
