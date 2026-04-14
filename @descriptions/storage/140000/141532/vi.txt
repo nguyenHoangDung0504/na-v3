@@ -1,0 +1,38 @@
+- Content_Des
+    ～Cốt truyện～
+    Bạn là học sinh của một trường danh tiếng, học hành căng thẳng nên tích tụ rất nhiều stress.
+    Một ngày nọ, thầy cô giới thiệu bạn đến “Ủy Ban Ngủ Chung” – tổ chức cho học sinh ngủ chung với các chị lớp trên để giảm stress.
+    Khi đến nơi, bạn bất ngờ thấy một chị senpai xinh đẹp mặc bikini cực kỳ hở hang đang chờ sẵn…
+    Chị sẽ dính sát vào bạn trong chăn, thì thầm bên tai, ve vuốt dịu dàng, chấp nhận hoàn toàn sở thích khổ dâm ngọt ngào của bạn và chiều chuộng bạn bằng đủ kiểu âu yếm dâm đãng.
+    Từ ve núm vú, vuốt tay, liếm tai, cho đến quan hệ dính sát… tất cả đều là sự chiều chuộng ngọt ngào nhưng đầy tàn nhẫn lẫn dịu dàng.
+
+- Character_Des
+    str:Chị Lớp Trên (Senpai)
+    - Chị lớp trên dịu dàng, nói năng nhẹ nhàng, luôn dùng kính ngữ với mọi người.
+    - Là thành viên của Ủy Ban Ngủ Chung và lần này được giao phụ trách bạn.
+    - Ban đầu rất dịu dàng, nhưng khi phát hiện ra sở thích khổ dâm ngọt ngào của bạn thì “công tắc” bị bật, bắt đầu chiều chuộng bạn một cách ngọt ngào nhưng tàn nhẫn.
+    - Thích ve vuốt chậm rãi, thì thầm bên tai, và chấp nhận mọi sở thích của bạn mà không hề phán xét.
+
+- Track_Des
+    str:Track 01　Chào mừng đến Ủy Ban Ngủ Chung♪ (Prologue)　(3:43)
+br:
+    str:Track 02　Phát hiện sở thích khổ dâm + ve núm vú + quan sát thủ dâm　(22:30)
+    ➡[Ngủ chung・Ôm・Dính sát・Thì thầm・Chiều chuộng・Phát hiện maso・Ve núm vú (vuốt ve・cọ・cào)・Thủ dâm・Xuất tinh]
+br:
+    str:Track 03　Ve núm vú + vuốt tay + liếm tai　(25:02)
+    ➡[Dính sát・Thì thầm・Thổi hơi tai・Hôn tai・Liếm tai・Ve núm vú (xoay・chọc・cào・xoáy)・Kéo núm vú・Vuốt tay・Cực khoái寸止め・Xuất tinh]
+br:
+    str:Track 04　Fella chậm rãi teo + fella piston dâm đãng　(22:59)
+    ➡[Dính sát・Ngửi mùi・Ngửi cặc・Liếm trứng・Liếm gân dưới・Fella・Fella chậm teo・Fella đầu khấc・Fella piston・Xuất tinh trong miệng・Nuốt tinh (thì thầm bên tai)]
+br:
+    str:Track 05　Quan hệ dính sát có bao + hôn khi quan hệ　(18:15)
+    ➡[Dính sát・Thì thầm・Quan hệ có bao・Nữ trên・Thì thầm rên rỉ bên tai・Hôn・Hôn lưỡi sâu・Xuất tinh]
+br:
+    str:Track 06　Ve núm vú nữ trên + quan hệ không bao mồ hôi đầm đìa　(26:24)
+    ➡[Dính sát・Hôn・Hôn lưỡi sâu・Ve núm vú (xoay・cào・xoáy)・Liếm núm vú・Teasing・Liếm tai・Quan hệ không bao・Nữ trên・Lên đỉnh trong・Phun nước・Bắn tinh trong・Ôm・Chiều chuộng]
+br:
+    str:Track 07　Epilogue　(3:38)
+br:
+    str:Phụ Bản 1　Ngủ chung dính sát (Bên phải)　(20:10)
+br:
+    str:Phụ Bản 2　Ngủ chung dính sát (Bên trái)　(20:10)

@@ -1,0 +1,17 @@
+- Content_Des
+    ～Cốt truyện～
+    Bạn vẫn còn là “cặc trẻ con” chưa lột da, chưa biết nhiều về khoái cảm. 
+    Hôm nay, chị gái dịu dàng và siêu chiều sẽ đích thân hướng dẫn bạn từng bước một.
+    Chị sẽ nhẹ nhàng lột da, khen ngợi liên tục, vuốt ve bằng lưỡi và tay, thì thầm bên tai bằng giọng ngọt ngào để bạn dần trở thành “cặc người lớn” thật sự.
+    Toàn bộ là sự chiều chuộng cực kỳ dịu dàng, khen ngợi không ngừng, không trách móc hay ép buộc.
+
+- Character_Des
+    str:Chị Gái (Onee-san)
+    - Chị gái siêu ngọt, siêu chiều, luôn dùng lời khen ngợi và khẳng định tích cực.
+    - Yêu thương và kiên nhẫn hướng dẫn bạn từng chút một.
+    - Thích khen bạn rất nhiều (“giỏi lắm”, “đáng yêu quá”, “làm tốt rồi”…).
+    - Giọng nói êm ái, âu yếm, mang tính chị gái chăm sóc đầy mẹ hiền.
+
+- Track_Des
+    str:Track 01　Chị Gái Siêu Chiều Biến Cặc Trẻ Con Thành Cặc Người Lớn　(17:26)
+    ➡[Thì thầm khen ngợi・Lột da cặc bằng miệng・Liếm ve vuốt・Vuốt tay dịu dàng・Toàn bộ khen ngợi・Hướng dẫn khoái cảm・Khen ngợi liên tục]

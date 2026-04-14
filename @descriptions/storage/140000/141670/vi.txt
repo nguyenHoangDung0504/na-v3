@@ -1,0 +1,31 @@
+- Content_Des
+    ～Cốt truyện～
+	Trong lớp học, bạn bất ngờ bị Riona Ikuno, một nữ sinh, tiếp cận.
+	"Này, anh chàng hướng nội, bạn đã quan sát mình khá lâu rồi phải không?"
+	Cô ấy là một cô gái vui vẻ và hào nhoáng đến từ một thế giới khác, một người mà bạn chưa từng nói chuyện trước đây.
+	Riona nói rằng cô ấy cảm nhận được ánh mắt của bạn đang nhìn vào nách và mông của mình.
+	Rồi cô ấy thì thầm vào tai bạn, "Bạn muốn làm gì? ♡ Chúng ta đến một khách sạn tình yêu như thế này nhé? ♡" và cuối cùng hai người đến một khách sạn tình yêu.
+	Tại khách sạn tình yêu, Riona cởi áo, và mùi hương của phụ nữ tràn ngập không khí từ nách đầy mồ hôi của cô ấy.
+	"Bạn có thể ngửi bao nhiêu tùy thích? ♡" Riona nói, và bạn vùi mặt vào nách đầy mồ hôi của cô ấy. Cô ấy
+	vuốt ve bạn rất nhiều, cho bạn ngửi hậu môn của cô ấy, và thậm chí cả tiếng ợ hơi của cô ấy, và bạn hoàn toàn đắm chìm trong cơ thể và mùi hương của Riona Ikuno.
+	Và Riona dần dần trở thành nạn nhân của sự hành hạ của bạn, rên rỉ và cảm nhận khoái cảm mãnh liệt.
+
+- Character_Des
+    str:Riona
+    - Gal JK năng động, nổi bật, nói năng theo kiểu gal (thường xưng “a-shi”).
+    - Tính cách chủ động, dâm đãng, thích trêu chọc và chiều chuộng.
+    - Có mùi nách và hậu môn rất mạnh, đặc biệt khi mồ hôi.
+    - Rất thích nhìn phản ứng của bạn và dần bị cuốn theo khoái cảm của chính mình.
+
+- Track_Des
+    str:Track 01　Ngửi nách + vuốt tay　(6:42)
+    ➡[Dính sát tai・Trêu chọc dâm đãng・Ngửi nách・Vuốt tay]
+br:
+    str:Track 02　Fella (có tiếng ợ)　(4:23)
+    ➡[Fella・Tiếng ợ・Ngửi mùi]
+br:
+    str:Track 03　Liếm hậu môn hôi + quan hệ hậu môn　(7:47)
+    ➡[Liếm hậu môn・Ngửi hậu môn・Quan hệ hậu môn・Rên oho]
+br:
+    str:Track 04　Quan hệ chính có bao　(6:17)
+    ➡[Quan hệ có bao・Rên oho・Chiều chuộng]

@@ -1,0 +1,27 @@
+- Content_Des
+    ～Cốt truyện～
+    10 năm trước, bạn đã hứa hôn với cô bạn thời thơ ấu tên Natsunohana Himawari.
+    Cô bé ngày ấy hay e thẹn, nhưng luôn nói sẽ trở thành “cô gái sáng sủa mà bạn thích”.
+    10 năm sau, Himawari trở lại với hình dáng một cô gal xinh đẹp, năng động, siêu thân thiện với otaku.
+    Cô ấy là bạn gái chỉ dành riêng cho bạn, luôn chăm sóc bạn từ sáng đến tối, cùng chơi game, cùng đi học, và chỉ với bạn thôi mới lộ ra mặt dâm đãng ngọt ngào cực độ.
+    Từ thì thầm bên tai, ve vuốt, cho đến quan hệ dính sát… tất cả đều là sự ngọt ngào và dâm đãng chỉ dành riêng cho bạn.
+
+- Character_Des
+    str:Natsunohana Himawari (夏乃花ひまわり)
+    CV: Suika Nishizuma
+    - Chiều cao: 165cm
+    - Số đo: B99 (H-cup) / W58 / H91
+    - Bạn thời thơ ấu kiêm gal siêu thân thiện với otaku.
+    - Tính cách năng động, sáng sủa, luôn nói năng vui vẻ và dịu dàng với bạn.
+    - Chỉ với bạn thôi mới trở nên cực kỳ dâm đãng, ngọt ngào và chủ động.
+    - Yêu bạn từ 10 năm trước và vẫn giữ lời hứa hôn ngày ấy.
+
+- Track_Des
+    Track 01　Prologue　Lời hứa từ 10 năm trước　(8:07)
+    Track 02　Bạn thời thơ ấu kiêm vị hôn thê Himawari đánh thức bạn bằng fella　(12:45)
+    Track 03　Trong giờ học: Cùng Himawari lén lút quan hệ và kiềm chế tiếng rên　(19:04)
+    Track 04　Sau giờ học: Hai người trong kho thể dục kín đáo – Quan hệ rên oho điên cuồng　(37:54)
+    Track 05　Buổi tối ở nhà: Ăn tối chung, chơi game rồi ngủ chung dính sát ngọt ngào　(51:06)
+    Track 06　Sáng hôm sau: Quan hệ dâm đãng không tắm với mùi hương nồng nàn　(19:10)
+    EX Track　Một ngày nọ: Himawari gal siêu chiều và huấn luyện hậu môn　(28:45)
+	

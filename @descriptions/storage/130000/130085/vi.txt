@@ -1,0 +1,33 @@
+- Content_Des
+    ～Cốt truyện～
+    Bạn vừa nghỉ việc và trở thành NEET. 
+    Thế là chị gái – một “dame neet” lười biếng – đột nhiên trở nên cực kỳ dịu dàng và nói sẽ dạy bạn “cách tận hưởng cuộc sống NEET”.
+    Từ đó, cuộc sống NEET ngọt ngào và dâm đãng cùng chị gái bắt đầu.
+    Chị gái mập mạp, mềm mại, toàn thân toát ra mùi mồ hôi nồng nặc, sẽ dùng cái thân thể “chăn thịt” của mình để ôm chặt bạn, thì thầm, hôn lưỡi, và quan hệ siêu dính sát, dâm đãng.
+
+- Character_Des
+    str:Chị Gái (Onee-chan)
+    - Chị gái lười biếng, sống kiểu dame neet.
+    - Thân hình mập mạp, mềm mại, ngực và mông đầy đặn.
+    - Toàn thân thường xuyên có mùi mồ hôi nồng nặc nhưng rất gợi tình.
+    - Tính cách ngọt ngào, chiều chuộng em trai, cực kỳ dâm đãng khi ở riêng với bạn.
+    - Thích ôm chặt, dính sát và quan hệ chậm rãi, nặng nề.
+
+- Track_Des
+    str:Track 01　Prologue　(2:25)
+    ➡[Trò chuyện]
+br:
+    str:Track 02　Hôn lưỡi say rượu + liếm tai + vuốt tay　(28:25)
+    ➡[Vuốt tay・Liếm tai・Hôn lưỡi sâu・Ôm・Dính sát・Thì thầm・Khiêu khích・Nuốt tinh]
+br:
+    str:Track 03　Vuốt bụng bằng cái bụng mềm mại và mồ hôi　(24:35)
+    ➡[Vuốt bụng・Mồ hôi làm lotion・Ngửi mùi・Ôm・Dính sát・Thì thầm・Khiêu khích]
+br:
+    str:Track 04　Siêu dính sát quan hệ dâm đãng khi ôm chặt vào chăn thịt mập mạp và mồ hôi hôi　(22:28)
+    ➡[Tư thế truyền thống ôm chặt・Rên oho・Mất trinh・Kupaà・Hôn lưỡi sâu・Ngửi mùi・Ôm・Dính sát・Thì thầm・Khiêu khích・Lặp lại “thích”・Quan hệ không bao・Bắn tinh trong]
+br:
+    str:Track 05　Siêu dính sát quan hệ dâm đãng khi bị ôm chặt bởi chăn thịt nặng nề　(21:00)
+    ➡[Tư thế nữ trên ôm chặt・Rên oho・Liếm tai・Hôn lưỡi sâu・Ôm・Dính sát・Thì thầm・Khiêu khích・Lặp lại “thích”・Quan hệ không bao・Bắn tinh trong]
+br:
+    str:Track 06　Epilogue　(2:48)
+    ➡[Hôn lưỡi sâu]
