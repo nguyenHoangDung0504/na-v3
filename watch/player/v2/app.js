@@ -223,6 +223,7 @@ const Slideshow = (() => {
 		let img = layer.querySelector('img')
 		if (!img) {
 			img = document.createElement('img')
+			img.referrerPolicy = 'no-referrer'
 			layer.appendChild(img)
 		}
 		return img
@@ -512,9 +513,9 @@ const PlaylistUI = (() => {
 		try {
 			const parts = new URL(url).pathname.split('/')
 			const file = parts[parts.length - 1]
-			return decodeURIComponent(file.replace(/\.[^.]+$/, '')) || `Bài ${fallbackIdx + 1}`
+			return decodeURIComponent(file.replace(/\.[^.]+$/, '')) || `Track ${fallbackIdx + 1}`
 		} catch {
-			return `Bài ${fallbackIdx + 1}`
+			return `Track ${fallbackIdx + 1}`
 		}
 	}
 
@@ -683,6 +684,7 @@ const Player = (() => {
 		// Load audio
 		audio.src = track.audioURL
 		audio.load()
+		audio.play().catch(() => {})
 
 		// Load VTT
 		if (track.vttURL) {

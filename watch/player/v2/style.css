@@ -223,8 +223,8 @@ body {
     transform: translateX(-50%);
     /* < side-panel (30) và controls (20) */
     z-index: 25;
-    width: fit-content;
-    max-width: 80vw;
+    width: max-content;
+    max-width: 60vw;
     text-align: center;
     transition: opacity 0.3s;
     cursor: ns-resize;
@@ -235,7 +235,7 @@ body {
 
 #float-sub-text {
     display: inline-block;
-    background: rgba(0, 0, 0, 0.62);
+    background: rgba(0, 0, 0, 0.5);
     border: 1px solid rgba(255, 255, 255, 0.08);
     border-radius: 6px;
     padding: 5px 14px;
