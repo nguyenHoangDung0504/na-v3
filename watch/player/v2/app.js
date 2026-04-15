@@ -23,7 +23,7 @@ const VTT = (() => {
 		return `00:${mm.padStart(2, '0')}:${ss.padStart(2, '0')}.${ms.padEnd(3, '0')}`
 	}
 
-	// 🔥 FIXED: hỗ trợ dòng rỗng làm end
+	// hỗ trợ dòng rỗng làm end
 	function toWebVTT(text, lastDuration = 2) {
 		const lines = text.split(/\r?\n/).filter((l) => l.trim())
 
@@ -50,7 +50,7 @@ const VTT = (() => {
 
 			let j = i + 1
 
-			// 🔥 ưu tiên dòng rỗng làm end
+			// ưu tiên dòng rỗng làm end
 			while (j < cuesRaw.length) {
 				const next = cuesRaw[j]
 
@@ -115,7 +115,7 @@ const VTT = (() => {
 		return h * 3600 + min * 60 + s + ms / 1000
 	}
 
-	// 🔥 ROBUST PARSER
+	// ROBUST PARSER
 	function parseCues(vttText) {
 		vttText = vttText
 			.replace(/^\uFEFF/, '')
@@ -491,9 +491,10 @@ const PlaylistUI = (() => {
 			item.className = 'pl-item'
 			item.dataset.idx = i
 			const name = names[i] || nameFromURL(tracks[i].audioURL, i)
+			const escapedName = escHtml(name)
 			item.innerHTML = `
         <span class="pl-num">${i + 1}</span>
-        <span class="pl-name">${escHtml(name)}</span>
+        <span class="pl-name" title="${escapedName}">${escapedName}</span>
       `
 			item.addEventListener('click', () => onSelect && onSelect(i))
 			list.appendChild(item)
@@ -565,7 +566,7 @@ const Player = (() => {
 		PlaylistUI.init(tracks, trackNames, loadTrack)
 
 		if (!tracks.length) return
-		loadTrack(0)
+		loadTrack(0, false)
 
 		// Image nav
 		document.getElementById('img-prev').addEventListener('click', () => Slideshow.prev(images))
@@ -662,7 +663,7 @@ const Player = (() => {
 	}
 
 	// ── LOAD TRACK ─────────────────────────────────────
-	async function loadTrack(idx) {
+	async function loadTrack(idx, immatePlay = true) {
 		if (!tracks.length) return
 		idx = ((idx % tracks.length) + tracks.length) % tracks.length
 		currentIdx = idx
@@ -680,11 +681,12 @@ const Player = (() => {
 		cues = []
 		activeCueIdx = -1
 		SubtitlePanel.setCues([], null)
+		immatePlay && togglePanel('pl')
 
 		// Load audio
 		audio.src = track.audioURL
 		audio.load()
-		audio.play().catch(() => {})
+		immatePlay && audio.play().catch(() => {})
 
 		// Load VTT
 		if (track.vttURL) {
@@ -847,7 +849,7 @@ const Player = (() => {
 		}
 	}
 
-	return { init }
+	return { init, togglePanel }
 })()
 
 const trackID = url.getParam('code') || url.getParam('rjcode') || '75923'
