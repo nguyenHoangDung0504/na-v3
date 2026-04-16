@@ -239,7 +239,7 @@ body {
     border: 1px solid rgba(255, 255, 255, 0.08);
     border-radius: 6px;
     padding: 5px 14px;
-    font-size: 1.25em;
+    font-size: 1.05em;
     line-height: 1.55;
     width: 100%;
     max-width: 100%;
@@ -775,4 +775,8 @@ body {
 
 html {
     user-select: none;
+}
+
+.VIpgJd-ZVi9od-aZ2wEe-wOHMyf {
+    display: none !important;
 }

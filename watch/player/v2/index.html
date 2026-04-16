@@ -34,7 +34,7 @@
             <div id="img-dots"></div>
 
             <!-- Top bar -->
-            <div id="top-bar">
+            <div id="top-bar" translate="no">
                 <div id="btn-playlist" class="pill" title="Playlist">
                     <svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor">
                         <rect x="1" y="2.5" width="9" height="1.5" rx=".75" />
@@ -184,7 +184,7 @@
     <audio id="audio" preload="auto" crossorigin="anonymous" referrerpolicy="no-referrer"></audio>
     <script type="module" src="app.js"></script>
     <script>
-        document.cookie = "googtrans=;path=/;expires=Thu, 01 Jan 1970 00:00:00 UTC;"
+        // document.cookie = "googtrans=;path=/;expires=Thu, 01 Jan 1970 00:00:00 UTC;"
         function initTranslate() {
             new google.translate.TranslateElement({
                 pageLanguage: 'auto',
