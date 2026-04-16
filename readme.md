@@ -12,6 +12,24 @@ _Với `code` là code của track_, chạy:
 node .\.edit-description.js code
 ```
 
+## Khởi tạo/mở file VTT đầu tiên của track:
+
+```bash
+node .\.gen-vtt.js code
+```
+
+## Quét audio chưa xóa:
+
+```bash
+node .\.find-audio.js ...<folder-path>
+```
+
+## Download audio:
+
+```bash
+node .\.download-audio.mjs -h # Để xem chi tiết cách dùng
+```
+
 ## Chạy dev-server
 
 ```bash
