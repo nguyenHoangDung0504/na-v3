@@ -566,7 +566,7 @@ const Player = (() => {
 		PlaylistUI.init(tracks, trackNames, loadTrack)
 
 		if (!tracks.length) return
-		loadTrack(0, false)
+		loadTrack(0, false, false)
 
 		// Image nav
 		document.getElementById('img-prev').addEventListener('click', () => Slideshow.prev(images))
@@ -574,8 +574,8 @@ const Player = (() => {
 
 		// Controls
 		document.getElementById('btn-play').addEventListener('click', togglePlay)
-		document.getElementById('btn-prev').addEventListener('click', () => loadTrack(currentIdx - 1))
-		document.getElementById('btn-next').addEventListener('click', () => loadTrack(currentIdx + 1))
+		document.getElementById('btn-prev').addEventListener('click', () => loadTrack(currentIdx - 1, undefined, false))
+		document.getElementById('btn-next').addEventListener('click', () => loadTrack(currentIdx + 1, undefined, false))
 		document.getElementById('btn-back5').addEventListener('click', () => {
 			audio.currentTime = Math.max(0, audio.currentTime - 5)
 		})
@@ -618,7 +618,7 @@ const Player = (() => {
 			timeEnd.textContent = fmtTime(audio.duration)
 		})
 		audio.addEventListener('ended', () => {
-			if (currentIdx < tracks.length - 1) loadTrack(currentIdx + 1)
+			if (currentIdx < tracks.length - 1) loadTrack(currentIdx + 1, undefined, false)
 			else setPlayIcon(false)
 		})
 		audio.addEventListener('play', () => setPlayIcon(true))
@@ -663,7 +663,7 @@ const Player = (() => {
 	}
 
 	// ── LOAD TRACK ─────────────────────────────────────
-	async function loadTrack(idx, immatePlay = true) {
+	async function loadTrack(idx, immatePlay = true, togglePanel = true) {
 		if (!tracks.length) return
 		idx = ((idx % tracks.length) + tracks.length) % tracks.length
 		currentIdx = idx
@@ -681,7 +681,7 @@ const Player = (() => {
 		cues = []
 		activeCueIdx = -1
 		SubtitlePanel.setCues([], null)
-		immatePlay && togglePanel('pl')
+		togglePanel && togglePanel('pl')
 
 		// Load audio
 		audio.src = track.audioURL
