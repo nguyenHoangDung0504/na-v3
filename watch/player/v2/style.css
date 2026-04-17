@@ -780,3 +780,11 @@ html {
 .VIpgJd-ZVi9od-aZ2wEe-wOHMyf {
     display: none !important;
 }
+
+#bg-a video,
+#bg-b video {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+}

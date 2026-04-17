@@ -217,44 +217,73 @@ const Slideshow = (() => {
 	let front = bgA // front layer
 	let back = bgB
 	let setImageVersion = 0
+	let images = []
+	let swipeInited = false
+	let currentIsVideo = false
 
 	// Lấy hoặc tạo <img> bên trong một layer
-	function getImg(layer) {
-		let img = layer.querySelector('img')
-		if (!img) {
-			img = document.createElement('img')
-			img.referrerPolicy = 'no-referrer'
-			layer.appendChild(img)
+	function createMedia(layer, item) {
+		layer.innerHTML = ''
+
+		if (item.type === 'video') {
+			const v = document.createElement('video')
+			v.src = item.src
+			v.loop = true
+			v.playsInline = true
+			v.controls = true
+			layer.appendChild(v)
+			return v
 		}
+
+		const img = document.createElement('img')
+		img.src = item.src
+		img.referrerPolicy = 'no-referrer'
+		layer.appendChild(img)
 		return img
 	}
 
-	function init(images) {
+	function init(newImages) {
+		images = newImages
+
 		dotsEl.innerHTML = ''
 		images.forEach((_, i) => {
 			const d = document.createElement('div')
 			d.className = 'dot' + (i === 0 ? ' active' : '')
 			dotsEl.appendChild(d)
 		})
-		if (images.length) setImage(0, images)
+
+		if (images.length) setImage(0)
+	}
+
+	function initSwipe() {
+		if (swipeInited) return
+		swipeInited = true
 		;[bgA, bgB].forEach((ele) =>
 			new SwipeHandler(
 				ele,
-				() => ele.scale === 1 && prev(images),
-				() => ele.scale === 1 && next(images),
+				() => ele.scale === 1 && prev(),
+				() => ele.scale === 1 && next(),
 			).registerEvents(),
 		)
 	}
 
-	function setImage(idx, images) {
+	function prev() {
+		setImage(current - 1)
+	}
+
+	function next() {
+		setImage(current + 1)
+	}
+
+	function setImage(idx) {
 		if (!images.length) return
 		current = ((idx % images.length) + images.length) % images.length
-		++setImageVersion
 
-		const img = getImg(back)
-		img.src = images[current] // bắt đầu tải, không chờ
+		const item = images[current]
+		currentIsVideo = item.type === 'video'
 
-		// Swap layer ngay lập tức
+		createMedia(back, item)
+
 		back.style.opacity = '1'
 		back.style.pointerEvents = 'all'
 		front.style.opacity = '0'
@@ -264,42 +293,12 @@ const Slideshow = (() => {
 		const dots = dotsEl.querySelectorAll('.dot')
 		dots.forEach((d, i) => d.classList.toggle('active', i === current))
 	}
-	// function setImage(idx, images) {
-	// 	if (!images.length) return
-	// 	current = ((idx % images.length) + images.length) % images.length
 
-	// 	const targetVersion = ++setImageVersion // ← thêm
-
-	// 	const img = getImg(back)
-
-	// 	// Bọc toàn bộ phần swap vào callback load
-	// 	img.onload = img.onerror = () => {
-	// 		if (targetVersion !== setImageVersion) return
-
-	// 		back.style.opacity = '1'
-	// 		back.style.pointerEvents = 'all'
-	// 		front.style.opacity = '0'
-	// 		front.style.pointerEvents = 'none'
-	// 		;[front, back] = [back, front]
-
-	// 		const dots = dotsEl.querySelectorAll('.dot')
-	// 		dots.forEach((d, i) => d.classList.toggle('active', i === current))
-	// 	}
-
-	// 	img.src = images[current] // ← gán src ở cuối
-	// }
-
-	function prev(images) {
-		setImage(current - 1, images)
-	}
-	function next(images) {
-		setImage(current + 1, images)
-	}
 	function getCurrent() {
 		return current
 	}
 
-	return { init, prev, next, getCurrent, setImage }
+	return { init, prev, next, getCurrent, setImage, initSwipe, isVideo: () => currentIsVideo }
 })()
 
 /* ═══════════════════════════════════════════════════════
@@ -413,6 +412,13 @@ const AutoHide = (() => {
 	let panelOpen = false
 	let touchStartY = 0
 
+	let downTime = 0
+	let downX = 0
+	let downY = 0
+
+	const TAP_TIME = 150
+	const TAP_MOVE = 10
+
 	const allUi = [el, topBar, imgPrev, imgNext, imgDots]
 
 	function show() {
@@ -443,12 +449,40 @@ const AutoHide = (() => {
 
 	// Mouse move / touch → show
 	const stage = document.getElementById('stage')
-	stage.addEventListener('pointermove', () => {
-		if (hidden) show()
-		else scheduleHide()
+
+	// Detect tap
+	stage.addEventListener('pointerdown', (e) => {
+		downTime = Date.now()
+		downX = e.clientX
+		downY = e.clientY
 	})
-	stage.addEventListener('pointerdown', () => {
+
+	stage.addEventListener('pointerup', (e) => {
+		const dt = Date.now() - downTime
+		const dx = Math.abs(e.clientX - downX)
+		const dy = Math.abs(e.clientY - downY)
+
+		const isTap = dt < TAP_TIME && dx < TAP_MOVE && dy < TAP_MOVE
+
+		if (!isTap) return
+
+		// ❗ Nếu bấm vào UI → không toggle
+		if (e.target.closest('#controls, #top-bar, .img-nav, #img-dots')) {
+			return
+		}
+
+		// ❗ Nếu bấm vào video → không toggle
+		if (e.target.closest('video')) {
+			return
+		}
+
+		// Toggle giống YouTube
 		if (hidden) show()
+		else hide()
+	})
+
+	stage.addEventListener('pointermove', () => {
+		if (!hidden) scheduleHide()
 	})
 
 	// Vuốt xuống → ẩn
@@ -572,14 +606,15 @@ const Player = (() => {
 		trackNames = names
 
 		Slideshow.init(images)
+		Slideshow.initSwipe()
 		PlaylistUI.init(tracks, trackNames, loadTrack)
 
 		if (!tracks.length) return
 		loadTrack(0, false, false)
 
 		// Image nav
-		document.getElementById('img-prev').addEventListener('click', () => Slideshow.prev(images))
-		document.getElementById('img-next').addEventListener('click', () => Slideshow.next(images))
+		document.getElementById('img-prev').addEventListener('click', () => Slideshow.prev())
+		document.getElementById('img-next').addEventListener('click', () => Slideshow.next())
 
 		// Controls
 		document.getElementById('btn-play').addEventListener('click', togglePlay)
@@ -591,10 +626,10 @@ const Player = (() => {
 		document.getElementById('btn-fwd5').addEventListener('click', () => {
 			audio.currentTime = Math.min(audio.duration || 0, audio.currentTime + 5)
 		})
-		document.getElementById('btn-reload').addEventListener('click', () => {
-			audio.currentTime = 0
-			audio.play()
-		})
+		// document.getElementById('btn-reload').addEventListener('click', () => {
+		// 	audio.currentTime = 0
+		// 	audio.play()
+		// })
 		document.getElementById('btn-rotate').addEventListener('click', () => {
 			if (document.fullscreenElement) {
 				if (isPortrait) {
@@ -905,7 +940,8 @@ IMAGES.push(
 			iov = `${imgPrefixes[index]}${iov.name}`
 			if (seen.includes(iov)) return
 			seen += iov
-			return iov.includes('.mp4') ? undefined : iov
+
+			return iov.includes('.mp4') ? { type: 'video', src: iov } : { type: 'img', src: iov }
 		})
 		.filter(Boolean),
 )
@@ -934,6 +970,28 @@ function toggleFS() {
 		isPortrait = false
 	}
 }
+
+const fileInput = document.getElementById('file-input')
+const btnUpload = document.getElementById('btn-upload')
+
+btnUpload.addEventListener('click', () => fileInput.click())
+
+fileInput.addEventListener('change', () => {
+	const files = [...fileInput.files]
+
+	files.forEach((file) => {
+		const url = URL.createObjectURL(file)
+
+		if (file.type.startsWith('video')) {
+			IMAGES.push({ type: 'video', src: url })
+		} else {
+			IMAGES.push({ type: 'img', src: url })
+		}
+	})
+
+	// ⚠️ re-init slideshow (giữ index cũ nếu muốn thì nâng cấp sau)
+	Slideshow.init(IMAGES)
+})
 
 /* ═══════════════════════════════════════════════════════
 	BOOT
