@@ -663,7 +663,7 @@ const Player = (() => {
 	}
 
 	// ── LOAD TRACK ─────────────────────────────────────
-	async function loadTrack(idx, immatePlay = true, togglePanel = true) {
+	async function loadTrack(idx, immatePlay = true, _togglePanel = true) {
 		if (!tracks.length) return
 		idx = ((idx % tracks.length) + tracks.length) % tracks.length
 		currentIdx = idx
@@ -681,7 +681,7 @@ const Player = (() => {
 		cues = []
 		activeCueIdx = -1
 		SubtitlePanel.setCues([], null)
-		togglePanel && togglePanel('pl')
+		_togglePanel && togglePanel('pl')
 
 		// Load audio
 		audio.src = track.audioURL

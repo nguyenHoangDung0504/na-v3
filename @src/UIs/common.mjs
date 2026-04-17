@@ -473,7 +473,7 @@ function initRenderers(db, UIbindings) {
 		const binding = suggestionsViewBinding.bind(template)
 		binding._root.href = ['cv', 'tag', 'series'].includes(data.type)
 			? `/?${data.type}=${data.code.split('-').pop()}`
-			: constants.WATCH_PATH(code)
+			: constants.WATCH_PATH(data.code)
 		binding.type.textContent = data.displayType
 		binding.value.innerHTML = highlight.apply(data.value, data.keyword)
 	})
