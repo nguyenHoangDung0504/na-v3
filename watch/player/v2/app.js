@@ -485,7 +485,14 @@ const PlaylistUI = (() => {
 	function init(tracks, names, cb) {
 		onSelect = cb
 		title.textContent = `Playlist · ${tracks.length} bài`
-		list.innerHTML = ''
+
+		// Google translate widget
+		let widget = null
+		if (list.childElementCount === 1) {
+			widget = list.childNodes[0]
+			list.removeChild(widget)
+		}
+		// list.innerHTML = ''
 		tracks.forEach((_, i) => {
 			const item = document.createElement('div')
 			item.className = 'pl-item'
@@ -499,6 +506,8 @@ const PlaylistUI = (() => {
 			item.addEventListener('click', () => onSelect && onSelect(i))
 			list.appendChild(item)
 		})
+
+		widget && list.appendChild(widget)
 	}
 
 	function setActive(idx) {
