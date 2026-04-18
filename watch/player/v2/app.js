@@ -434,8 +434,8 @@ const AutoHide = (() => {
 	}
 
 	function scheduleHide() {
-		clearTimeout(timer)
-		timer = setTimeout(hide, DELAY)
+		// clearTimeout(timer)
+		// timer = setTimeout(hide, DELAY)
 	}
 
 	function setPanelOpen(open) {
