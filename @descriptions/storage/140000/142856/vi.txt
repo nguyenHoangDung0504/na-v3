@@ -1,0 +1,38 @@
+- Content_Des
+    ～Cốt truyện～
+    Chị gái ruột của bạn – Renna – là một cô nàng gal da trắng ngọt ngào, vô tư lãng mạn và cực kỳ brocon (yêu em trai đến mức chiếm hữu).
+    Chị phát hiện ra bạn đang nghe ASMR nên ghen tị và quyết định tự mình “thay thế” luôn.
+    Từ nay, chị sẽ dùng chính giọng thật, hơi thở thật, và thân thể thật để chiều chuộng bạn theo kiểu chiếm hữu cực mạnh.
+    Chị sẽ dính sát, thì thầm, hôn, ve vuốt và dùng đủ cách để bạn không thể thoát khỏi tình yêu chìm đắm của chị.
+    Đây là câu chuyện ASMR ngọt ngào nhưng cực kỳ chiếm hữu và nghịch ngợm của chị gal da trắng siêu brocon.
+br:
+    hr:
+    Tổng thời lượng bản chính: Khoảng 2 giờ 30 phút (có cả lộ trình Renna)
+
+- Character_Des
+    str:Renna (れな)
+    - Chị gái ruột của bạn, gal da trắng ngọt ngào, vô tư lãng mạn.
+    - Siêu brocon, cực kỳ chiếm hữu và yêu em trai đến mức điên cuồng.
+    - Bình thường thì sáng sủa, vui vẻ, nhưng khi ở riêng với bạn thì trở nên dính dấp, ngọt ngào và chiếm hữu mạnh mẽ.
+    - Thích dùng hơi thở, tiếng thì thầm, hôn và tiếp xúc da thịt để “khẳng định” bạn là của chị.
+
+- Track_Des
+    str:Track 01　Chị Thì Thầm Bên Tai Cho Em Nghe Thử Xem Có Khoái Không～～～？？？♡　(13:21)
+br:
+    str:Track 02　Gal Trắng × Gal Đen: Sandwich Hơi Thở Ngọt Ngào♡　(9:50)
+br:
+    str:Track 03　Gal Đen Lạnh Lùng Trêu Chọc Ngoáy Tai♡　(19:34)
+br:
+    str:Track 04　Gal Trắng × Gal Đen: Tiếng Tim Dính Sát Ngủ Chung♡　(12:15)
+br:
+    str:Track 05　Gal Trắng: Ve Vuốt Quá Mức♡　(19:03)
+br:
+    str:Track 06　ASMR Của Chị Gái Thì Khoái Quá Đi Mất…！　(59:00)
+br:
+    str:Track 07　Âm Thanh Yêu Thương Chìm Đắm♡　(11:56)
+br:
+    str:Track 08　Kết Thúc Là Chị Đánh Răng Cho Em♡　(7:09)
+br:
+    str:Track 09　Hôn Liên Tục Lên Mặt + Đồng Bộ Hô Hấp Để Ru Ngủ　(13:06)
+br:
+    str:Track 10　Truyện Tranh Bị Thu Giữ! Hãy Quan Tâm Đến Chị Thật Nhiều Đi…♡　(14:04)
