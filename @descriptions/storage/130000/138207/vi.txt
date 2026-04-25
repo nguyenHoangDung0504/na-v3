@@ -1,0 +1,36 @@
+- Content_Des
+    ～Cốt truyện～
+    Bạn là chàng trai trẻ sống một mình. Bên cạnh là chị hàng xóm – Izumi Wakana, một người phụ nữ 38 tuổi đã có chồng.
+    Chồng chị ấy ít khi ở nhà, khiến chị luôn trong trạng thái khao khát tình dục. 
+    Bạn thường xuyên nhờ chị giúp đỡ việc nhà, và dần dần chị nhận ra ánh mắt thèm thuồng cùng “cục u” to lớn ở chỗ bạn.
+    Ban đầu chị cố gắng kiềm chế, nhưng cuối cùng không chịu nổi sự cám dỗ và bắt đầu chủ động ve vãn, mặc những bộ đồ bó chật và hở hang để quan hệ dâm đãng với bạn.
+    Chị dần sa vào khoái lạc và trở nên nghiện quan hệ với “cặc trẻ” của bạn.
+
+- Character_Des
+    str:Izumi Wakana
+    - Tuổi: 38
+    - Người vợ hàng xóm, ngực I-cup.
+    - Tính cách dịu dàng, dễ bị ép buộc, hiện đang rất khao khát tình dục vì chồng ít ở nhà.
+    - Ban đầu cố gắng giữ tư cách người vợ, nhưng một khi đã bị kích thích thì sẽ trở nên dâm đãng, ve vãn mạnh và cầu xin.
+
+- Track_Des
+    str:Track 01　Vuốt tay bằng đồng phục siêu chật　(21:00)
+    ➡[Ve vãn cặc・Vuốt tay]
+br:
+    str:Track 02　Quan hệ bằng bodysuit bó sát dưới lớp đồng phục　(18:06)
+    ➡[Khiêu dâm bằng bodysuit・Quan hệ có bao・Rên oho dâm đãng]
+br:
+    str:Track 03　Chơi kiểu con trai cưng với tạp dề không mặc gì bên trong　(16:00)
+    ➡[Tạp dề khỏa thân・Nói giọng con nít・Chơi bú sữa]
+br:
+    str:Track 04　Quan hệ ve vãn cặc bằng reverse bunny ở love hotel　(18:13)
+    ➡[Reverse bunny・Giọng ve vãn cực mạnh・Để lại dấu son môi lên cặc]
+br:
+    str:Track 05　Quan hệ ngoài trời ở hốc đá bãi biển　(15:40)
+    ➡[Mặc bikini dâm đãng khoe thân・Role play người yêu・Quan hệ hôn lưỡi]
+br:
+    str:Track 06　Quan hệ không bao hoàn toàn sa đọa trong phòng ngủ vợ chồng　(18:03)
+    ➡[Quan hệ không bao・Sa đọa hoàn toàn・Cầu xin mang thai]
+br:
+    str:Track 07　Ngoại truyện　Nếu người vợ hàng xóm là futanari thì sao…　(11:35)
+    ➡[Futanari・Vuốt tay lẫn nhau・Rên oho dâm đãng thô tục]
