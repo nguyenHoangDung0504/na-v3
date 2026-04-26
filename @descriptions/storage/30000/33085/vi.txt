@@ -3,7 +3,7 @@
 br:
     str:～～～～～～～～～～～～～～～～～～～～～～～～
 br:
-    str:～ Phiên bản寸止め vuốt tay ～　(khoảng 27 phút)
+    str:～ Phiên bản寸止め handjob ～　(khoảng 27 phút)
     Một bên thì khích dục xuất tinh, một bên thì thì thầm “phải kiềm chế đấy” và liên tục dừng đúng lúc không cho ra.
 br:
     str:～ Phiên bản hôn lưỡi quyến rũ ～　(khoảng 19 phút)
@@ -21,7 +21,7 @@ br:
     str:～ Phiên bản giả vờ cô gái xấu vuốt onahole ～　(khoảng 16 phút)
     Đánh cược một tháng lương part-time để chơi trò kiềm chế xuất tinh.
 br:
-    str:～ Phiên bản ngoại truyện nói baby talk vuốt tay ～　(khoảng 2 phút)
+    str:～ Phiên bản ngoại truyện nói baby talk handjob ～　(khoảng 2 phút)
 br:
     str:～ Phiên bản ngoại truyện thì thầm liếm tai ～　(khoảng 3 phút)
 br:
@@ -40,7 +40,7 @@ br:
     - Thích làm bạn nghiện hai chị em đến mức không thể thỏa mãn với người khác.
 
 - Track_Des
-    str:寸止め手コキ編　Kiềm chế xuất tinh bằng vuốt tay　(27 phút)
+    str:寸止め手コキ編　Kiềm chế xuất tinh bằng handjob　(27 phút)
     ➡[Một bên khích dục xuất tinh・Một bên bắt kiềm chế・Dừng đúng lúc nhiều lần]
 br:
     str:誘惑ベロチュー編　Hôn lưỡi quyến rũ　(19 phút)
@@ -58,7 +58,7 @@ br:
     str:悪い女ごっこオナホコキ編　Giả vờ cô gái xấu vuốt onahole　(16 phút)
     ➡[Đánh cược lương part-time・Dùng kỹ thuật dâm đãng chuyên dụng・Pheromone dâm đãng]
 br:
-    str:番外編　でちゅまちゅオナてつ編　Ngoại truyện nói baby talk vuốt tay　(2 phút)
+    str:番外編　でちゅまちゅオナてつ編　Ngoại truyện nói baby talk handjob　(2 phút)
     ➡[Nói giọng baby・Nuông chiều bạn trai khổ dâm]
 br:
     str:番外編　耳舐め囁き編　Ngoại truyện thì thầm liếm tai　(3 phút)

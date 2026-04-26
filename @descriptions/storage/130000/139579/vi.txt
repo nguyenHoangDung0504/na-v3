@@ -1,0 +1,47 @@
+- Content_Des
+    ～Cốt truyện～
+    Sau cuộc chiến khốc liệt, Trái Đất đã rơi vào tay Đại Đế Za-Mendel… lẽ ra là như vậy.
+    Nhưng năm người vợ (Human Wife Sentai Shikorenja) đã xuất hiện và ngăn cản kế hoạch của hắn.
+    Để bảo vệ các cô gái, Mendel đã sử dụng toàn bộ ma lực, dẫn đến kiệt sức và thoái hóa thành trẻ con.
+    Để khôi phục ma lực cho Mendel, hai nữ quái đã biến đổi – **Forbidden Peach** (từ Sacred Peach) và **Abyss Flare** (từ Luna Flare) – sẽ dùng thân thể dâm đãng để phục vụ và “nạp năng lượng” cho anh.
+    Đây là câu chuyện về sự chiều chuộng ngọt ngào, dâm đãng và sa đọa của hai mẹ con (mẹ con Elf đã biến đổi) dành cho “Papa” của họ.
+
+- Character_Des
+    str:Forbidden Peach (Bên trái)
+    CV: Suzuka Minase
+    - Tên thật trước khi biến đổi: Seijiri Momoha
+    - Chiều cao: 155cm, số đo: 90+α / 59 / 96
+    - Thuộc tính ánh sáng ban đầu, nay bị biến đổi thành “Nữ Thần Phân Tiện”.
+    - Thân hình mũm mĩm, mông trắng tròn như đào, cực kỳ dâm đãng.
+    - Vì Mendel mà sẵn sàng hiến dâng cả lồn lẫn lỗ đít.
+br:
+    str:Abyss Flare (Bên phải)
+    CV: Mochizuki Amu
+    - Tên thật trước khi biến đổi: Hong Yuelin
+    - Chiều cao: 157cm, số đo: 94+α / 59 / 85
+    - Thuộc tính mặt trăng ban đầu, nay bị biến đổi thành “Bình Tiện Tinh”.
+    - Ngực to và da thịt mịn màng, đặc biệt là vùng nách rất gợi cảm.
+    - Vì Mendel mà sẵn sàng hiến dâng cả lồn lẫn lỗ đít.
+
+- Track_Des
+    str:Track 01　Phòng ngọt ngào của mẹ Forbidden Peach và mẹ Abyss Flare♪　(11:34)
+    ➡[Phù phép làm ngực to hơn・Phun sữa・Ôm ngực dính sát・Vuốt ve cơ thể・Hôn tai・Liếm tai・Thì thầm khiêu khích của hai mẹ]
+br:
+    str:Track 02　Bị mẹ dâm đãng bú cặc và xuất tinh trong miệng♪　(25:04)
+    ➡[Hôn nhiều từ hai mẹ・Ngực kẹp chặt・Thì thầm khiêu khích・Vuốt cặc bằng đùi mũm mĩm・Liếm tai・Trách móc dâm đãng・Ngửi cặc・Hôn đầu khấc kiểu người yêu・Cào nhẹ núm vú・Fella・Xuất tinh trong miệng mẹ・Lau sạch・Phóng tiểu vào miệng mẹ và nuốt]
+br:
+    str:Track 03　Bay lên thiên đường nhờ ngực nhầy nhụa dâm đãng của hai mẹ♪　(20:30)
+    ➡[Phun sữa・Uống sữa mẹ từ bình・Uống sữa trực tiếp từ núm vú・Ngửi cặc・Vuốt tay ngọt ngào・Double paizuri tắm sữa・Bắn tinh lên mặt・Hai mẹ liếm sạch tinh dịch]
+br:
+    str:Track 04　Double tai kẹp lồn mẹ + onahole slime nhầy nhụa♪　(19:55)
+    ➡[Double tai kẹp lồn không lông・Lồn mẹ liên tục lên đỉnh phun nước・Onahole slime vuốt cặc nhầy nhụa・Double liếm tai trách móc dâm・Xuất tinh vào onahole slime・Hai mẹ nhai nuốt tinh dịch]
+br:
+    str:Track 05　Zubohame bắn tinh trong vào lồn dâm đãng của hai mẹ♪　(20:16)
+    ➡[Lồn mẹ dạng rộng ra・Quan hệ không bao ngọt oho với mẹ・Lồn mẹ thủ dâm ngọt oho・Hôn sâu・Phun sữa・Liếm tai ngọt oho khích dục・Bắn tinh trong lồn mẹ・Lên đỉnh phun nước・Mẹ tiểu nước dâm đãng・Double lau sạch]
+br:
+    str:Track 06　Quan hệ hậu môn bắn tinh trong khi bú núm vú mẹ♪　(24:28)
+    ➡[Hôn lưỡi sâu・Trình diễn hai lỗ đít mẹ・Rút anal slime khỏi lỗ đít・Lên đỉnh oho phun nước・Quan hệ hậu môn oho・Chơi bú sữa・Phun sữa・Bắn tinh trong lỗ đít mẹ・Tiểu trong lỗ đít mẹ・Mẹ liếm lỗ đít・Phun tinh + tiểu từ lỗ đít đã bắn tinh・Vuốt ve đầu]
+br:
+    str:Track 07　Freep talk – Suzuka Minase (vai Forbidden Peach)　(3:31)
+br:
+    str:Track 08　Freep talk – Mochizuki Amu (vai Abyss Flare)　(3:16)

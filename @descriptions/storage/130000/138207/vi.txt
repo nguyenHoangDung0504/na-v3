@@ -14,8 +14,8 @@
     - Ban đầu cố gắng giữ tư cách người vợ, nhưng một khi đã bị kích thích thì sẽ trở nên dâm đãng, ve vãn mạnh và cầu xin.
 
 - Track_Des
-    str:Track 01　Vuốt tay bằng đồng phục siêu chật　(21:00)
-    ➡[Ve vãn cặc・Vuốt tay]
+    str:Track 01　Handjob bằng đồng phục siêu chật　(21:00)
+    ➡[Ve vãn cặc・Handjob]
 br:
     str:Track 02　Quan hệ bằng bodysuit bó sát dưới lớp đồng phục　(18:06)
     ➡[Khiêu dâm bằng bodysuit・Quan hệ có bao・Rên oho dâm đãng]
@@ -33,4 +33,4 @@ br:
     ➡[Quan hệ không bao・Sa đọa hoàn toàn・Cầu xin mang thai]
 br:
     str:Track 07　Ngoại truyện　Nếu người vợ hàng xóm là futanari thì sao…　(11:35)
-    ➡[Futanari・Vuốt tay lẫn nhau・Rên oho dâm đãng thô tục]
+    ➡[Futanari・Handjob lẫn nhau・Rên oho dâm đãng thô tục]

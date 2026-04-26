@@ -1,0 +1,42 @@
+- Content_Des
+    ～Cốt truyện～
+    Đây là một căn phòng rất nhỏ và kín đáo.
+    Bạn bị ba cô gái vây quanh, thân thể dính sát, hơi thở ngọt ngào lan tỏa khắp người.
+    Ba cô gái thì thầm bên tai, liếm tai, ve vuốt bạn từ mọi hướng.
+    Điều đặc biệt là dù ba cô nói những câu khác nhau, nhưng lời nói của họ lại đồng bộ một cách kỳ lạ, tạo ra nhịp điệu khiến não bạn dần bị “bug”, rơi vào trạng thái xuất thần.
+    Khoái cảm được nhân lên gấp bội, và mỗi lần bạn sắp xuất tinh, ba cô lại cùng lúc trêu chọc để kéo dài khoái cảm.
+    Cuối cùng, bạn sẽ bị đẩy đến cực khoái cao độ, bắn tinh không ngừng trong cơn mê man.
+
+- Character_Des
+    str:Ba cô gái trong phòng
+    - Ba cô gái xinh đẹp, dâm đãng, có tính cách và giọng nói khác nhau.
+    - Họ đều muốn “ở riêng hai người” với bạn, tạo cảm giác (chiếm hữu) mạnh mẽ.
+    - Khi kích thích, họ sẽ thì thầm, liếm tai, ve vuốt và đồng bộ để đưa bạn đến khoái cảm cực đại.
+hr:
+	str:Mamiru (Bên trên)
+    - Chiều cao: 155cm, ngực B-cup.
+    - Cô gái có vẻ ngoài trưởng thành, giọng nói chững chạc nhưng tính cách khá hoạt bát và hay nói nhiều.
+    - Trong ba người, cô ấy là người có mái tóc mái trước cắt thẳng và là kiểu biến thái nhất.
+br:
+    str:Mirei (Bên trái)
+    - Chiều cao: 168cm, ngực H-cup.
+    - Chị gái một mái tóc dài, giọng trầm sexy, mang khí chất trưởng thành và dễ gần.
+    - Tính cách dịu dàng, dễ chịu, có phần sương sương.
+br:
+    str:Meiri (Bên phải)
+    - Chiều cao: 158cm, ngực F-cup.
+    - Cô gái tóc ngắn bob, trông vui vẻ, năng động nhưng thực ra là kiểu ngại ngùng, xấu hổ.
+    - Tính cách trái ngược với vẻ ngoài: bên trong rất nhút nhát và dễ xấu hổ.
+
+- Track_Des
+    str:Track 01　Chào mừng đến Phòng Harem Lên Đỉnh (Phần mở đầu, thôi miên & liếm tai)　(10:56)
+    ➡[Ba cô gái xuất hiện・Thì thầm・Liếm tai・Tạo cảm giác mê hoặc]
+br:
+    str:Track 02　Harem handjob nhầy nhụa vô tận làm não bị hỏng (Phần mở đầu, thôi miên & liếm tai, handjob)　(17:36)
+    ➡[Liếm tai sâu・Handjob・Teasing・Khoái cảm tích tụ]
+br:
+    str:Track 03　Triple fella nhầy nhụa đậm đặc (Triple fella, liếm tai)　(17:41)
+    ➡[Fella ba người・Liếm tai・Teasing・Xuất tinh trong miệng]
+br:
+    str:Track 04　Quan hệ 4P lồn nhầy nhụa lên đỉnh thiên đường (Triple fella, liếm tai)　(12:50)
+    ➡[Quan hệ 4P・Lồn nhầy nhụa・Lên đỉnh liên tục・Khoái cảm cực đại]

@@ -1,0 +1,34 @@
+- Content_Des
+    ～Cốt truyện～
+    “Shikoriding” là một môn thể thao giả tưởng được tạo ra để nam nữ cùng nhau rèn luyện kỹ năng thủ dâm và kiểm soát xuất tinh.
+    Mục tiêu là nam sinh phải cố gắng kiềm chế không xuất tinh trong thời gian quy định, trong khi nữ sinh sẽ dùng tay, miệng, cơ thể để kích thích và cổ vũ.
+    Nếu xuất tinh đúng lúc kết thúc thì được tính là “Try” (thành công). Nếu xuất tinh sớm thì là “Foul” (phạm lỗi).
+    Bạn là nam sinh hiếm hoi trong trường nữ sinh, và hôm nay bạn được hai cô nàng JK xinh đẹp trong câu lạc bộ – Karen (tiền bối) và Haru (bạn cùng lớp) – huấn luyện đặc biệt.
+    Hai chị em sẽ dùng đủ cách ngọt ngào, dâm đãng và trêu chọc để đưa bạn đến giới hạn khoái cảm.
+
+- Character_Des
+    str:Karen (カレン)
+    CV: Akino Kaede
+    - Tiền bối thể thao, cao ráo, thân hình gợi cảm, ngực H-cup.
+    - Tính cách nghiêm khắc nhưng cũng rất dịu dàng, dùng cơ thể để dạy bạn “Shikoriding là gì”.
+br:
+    str:Haru (ハル)
+    CV: Suzuka Minase
+    - Bạn cùng lớp, thân hình nhỏ nhắn nhưng ngực G-cup (transistor glamor).
+    - Tính cách hơi ngây thơ, vui vẻ, nhiệt tình và chăm chỉ.
+
+- Track_Des
+    str:Track 01　Chào mừng đến Câu Lạc Bộ Shikoriding!　(12:40)
+    ➡[Giới thiệu・Handjob thông thường]
+br:
+    str:Track 02　Trong mùi hương chua ngọt của con gái, cố gắng kiềm chế xuất tinh!　(24:50)
+    ➡[Handjob dính sát bằng lotion・Ngửi mùi・Ôm・Dính sát・Thì thầm・Khiêu khích]
+br:
+    str:Track 03　Huấn luyện tăng cường sức chịu đựng! Thiên đường liếm tai hai bên!　(26:10)
+    ➡[Liếm tai hai bên・Trách móc dâm đãng・Handjob]
+br:
+    str:Track 04　Hướng tới quốc gia! Buổi huấn luyện “Double” cực kỳ khó khăn!　(27:14)
+    ➡[Liếm tai hai bên・Handjob dính sát bằng lotion・Dính sát toàn thân]
+br:
+    str:Track 05　Buổi luyện tập bí mật bằng “thật sự”　(20:08)
+    ➡[Bonus Track]

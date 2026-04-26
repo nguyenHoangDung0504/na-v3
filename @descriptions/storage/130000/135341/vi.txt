@@ -38,17 +38,17 @@ br:
 br:
 	str:◆ Track 2 Thức dậy với vuốt ve tay ngọt ngào & lần đầu tiên dâng hiến trinh tiết phục vụ
 	「Nào, hãy ra lệnh cho em đi chủ nhân」
-	(Nội dung: vuốt tay, hôn, ngồi đối diện)
+	(Nội dung: handjob, hôn, ngồi đối diện)
 br:
 	str:◆ Track 3 Massage thư giãn kèm trêu chọc & làm tình ôm ấp ngọt ngào
 	「Hôm nay cũng hãy xuất thật nhiều, thật đặc nhé」
 	(Nội dung: massage, bú, tư thế truyền thống)
 br:
-	str:◆ Track 4 Liếm tai + vuốt tay + kẹp ngực – phục vụ ngọt ngào tận tụy từ cô hầu gái
+	str:◆ Track 4 Liếm tai + handjob + kẹp ngực – phục vụ ngọt ngào tận tụy từ cô hầu gái
 	「Hãy để em nghe thêm tiếng rên của chủ nhân nữa nhé」
-	(Nội dung: vuốt tay, liếm tai, bú, kẹp ngực)
+	(Nội dung: handjob, liếm tai, bú, kẹp ngực)
 br:
-	str:◆ Track 5 Rửa ráy kèm vuốt tay bọt xà phòng, trêu chọc đến gần xuất rồi dừng lại
+	str:◆ Track 5 Rửa ráy kèm handjob bọt xà phòng, trêu chọc đến gần xuất rồi dừng lại
 	「A… chủ nhân cố gắng kiềm chế trông thật tuyệt vời quá」
 	(Nội dung: rửa ráy trêu chọc)
 br:

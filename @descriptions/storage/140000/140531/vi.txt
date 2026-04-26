@@ -1,8 +1,8 @@
 - Content_Des
     ～Cốt truyện～
     Bên ngoài, cô ấy là bạn gái kiểu hoàng tử – lạnh lùng, kiêu sa, khí chất cao quý.
-    Nhưng bạn sẽ dần dần huấn luyện cô ấy trở thành một con maso dâm đãng, mê quan hệ rên oho không ngừng, chỉ biết ve vãn và cầu xin bạn.
-    Từ lớp học vắng, khách sạn, cho đến mat play… bạn sẽ dùng đủ cách để biến cô ấy từ một “hoàng tử” thành “siêu maso” chỉ biết rên rỉ và chiều theo bạn hoàn toàn.
+    Nhưng bạn sẽ dần dần huấn luyện cô ấy trở thành một con khổ dâm dâm đãng, mê quan hệ rên oho không ngừng, chỉ biết ve vãn và cầu xin bạn.
+    Từ lớp học vắng, khách sạn, cho đến mat play… bạn sẽ dùng đủ cách để biến cô ấy từ một “hoàng tử” thành “siêu khổ dâm” chỉ biết rên rỉ và chiều theo bạn hoàn toàn.
 br:
     hr:
     Tổng thời lượng: **khoảng 1 giờ 30 phút**
@@ -11,7 +11,7 @@ br:
     str:Bạn gái
     CV: Shinomori Yukiko
     - Ngoại hình và tính cách ban đầu giống như một “hoàng tử”: lạnh lùng, kiêu hãnh, khí chất cao quý.
-    - Thực ra rất dễ bị huấn luyện, dần dần lộ ra bản chất maso dâm đãng.
+    - Thực ra rất dễ bị huấn luyện, dần dần lộ ra bản chất khổ dâm dâm đãng.
     - Khi đã bị kích thích sẽ rên oho rất to, ve vãn mạnh và cầu xin quan hệ.
 
 - Track_Des

@@ -1,0 +1,39 @@
+- Content_Des
+    ～Cốt truyện～
+    Bạn bị thú dữ tấn công và ngất đi. Khi tỉnh dậy, bạn nằm trên giường trong một căn nhà lạ.
+    Trước mắt là hai mẹ con Elf có bộ ngực siêu khổng lồ, gần như khỏa thân.
+    Họ là người đã cứu bạn. Để báo ơn, bạn định giúp đỡ con gái – Lina, nhưng không kiềm chế nổi sức hút dâm đãng của cô ấy và đã "xâm phạm" cô.
+    Từ đó, cuộc sống của bạn hoàn toàn thay đổi. Hai mẹ con Elf thuần khiết bên ngoài nhưng bên trong lại cực kỳ dâm đãng, dần dần ép bạn trở thành "Papa" của họ và quan hệ không ngừng nghỉ.
+    Một khi đã quan hệ với Elf, con người sẽ không thể trở về cuộc sống cũ nữa…
+
+- Character_Des
+    str:Annamaaya
+    - Mẹ Elf, 402 tuổi (Là người mẹ đã sinh con nhưng vẫn còn rất trẻ và xinh đẹp).
+    - Ngực O-cup, thân hình gợi cảm.
+    - Tính cách dịu dàng, nhưng đã 300 năm không quan hệ, nên cực kỳ khao khát.
+    - Yêu con gái rất nhiều, nhưng cũng khao khát tình dục mạnh mẽ.
+br:
+    str:Annalina
+    - Con gái Elf, 313 tuổi.
+    - Ngực M-cup, thân hình nhỏ nhắn nhưng vô cùng gợi cảm.
+    - Thuần khiết, ngây thơ, chưa từng biết đàn ông.
+    - Rất ngưỡng mộ "Papa", nên khi gặp bạn đã coi bạn là cha ruột và cầu xin bạn "làm Papa" theo mọi nghĩa.
+
+- Track_Des
+    str:Track 01　Gặp gỡ lần đầu với mẹ con Elf (Prologue)
+    ➡[Bạn tỉnh dậy trên giường・Gặp mẹ con Elf gần như khỏa thân・Lina chăm sóc bạn]
+br:
+    str:Track 02　Ngực của Lina là M-cup, ngực của mẹ là O-cup (Ve vuốt ngực)
+    ➡[Ve vuốt ngực Lina・Bạn mất kiểm soát・Dẫn Lina đến cực khoái lần đầu]
+br:
+    str:Track 03　Quan hệ lần đầu của cô bé ngây thơ nhưng siêu dâm (Ngồi đối diện, bắn tinh trong)
+    ➡[Lina phát tình・Quan hệ ngồi đối diện・Bắn tinh trong・Cô ấy rên rỉ]
+br:
+    str:Track 04　Bản chất dâm đãng thức tỉnh – Mẹ Elf cưỡi ngựa dâm đãng (Nói dâm, nữ trên ngược lại)
+    ➡[Mẹ về nhà・Thay phiên Lina・Mẹ lộ bản chất dâm đãng・Quan hệ cực mạnh]
+br:
+    str:Track 05　Mẹ con Elf dâm đãng ép buộc phát tình – Quan hệ không bao giờ kết thúc (Hôn, fella, thuốc kích dục, bắn tinh liên tục)
+    ➡[Uống thuốc kích dục・Quan hệ mạnh bạo・Bắn tinh liên tục・Sa đọa hoàn toàn]
+br:
+    str:Track 06　Mãi mãi hạnh phúc (Hôn, liếm tai, thì thầm, rên rỉ, double handjob)
+    ➡[Liếm tai hai bên・Handjob hai người・Xuất tinh liên tục・Kết thúc hạnh phúc vĩnh cửu]

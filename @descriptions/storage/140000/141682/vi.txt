@@ -1,0 +1,31 @@
+- Content_Des
+    ～Cốt truyện～
+    Bạn là một chàng trai sống trong một ngôi nhà lớn với người quản gia nghiêm khắc. 
+    Một ngày nọ, hai cô hầu gái xinh đẹp và cực kỳ dâm đãng – Reina và Yuna – được giao nhiệm vụ “giáo dục tình dục” cho bạn trong suốt 7 ngày.
+    Với tư cách là “chuyên gia giáo dục tình dục”, hai cô sẽ dùng đủ cách ngọt ngào nhưng tàn nhẫn để huấn luyện bạn thành một con maso hoàn chỉnh: từ hỗ trợ thủ dâm, teasing, ve vuốt, cho đến quan hệ thật sự.
+    Mỗi ngày là một bài học khác nhau, dần dần khiến bạn không thể sống thiếu sự chiều chuộng và kiểm soát của hai cô.
+
+- Character_Des
+    str:Reina (Bên trái)
+    CV: Kosuzu Momoka
+    - Cô hầu gái thân hình cao lớn, ngực khủng (B115 / W63 / H110), chiều cao 180cm.
+    - Tính cách lịch sự, nói năng nhẹ nhàng, nhưng nội dung hỗ trợ thủ dâm thì cực kỳ tàn nhẫn và dâm đãng.
+    - Thích nhìn biểu cảm khổ sở của đàn ông khi bị ve vuốt và teasing.
+    - Giọng nói dịu dàng nhưng đầy chiếm hữu.
+br:
+    str:Yuna (Bên phải)
+    CV: Narumi Aisaka
+    - Cô hầu gái chiều cao 179cm, ngực khủng (B120 / W62 / H111).
+    - Tính cách dâm đãng, chủ động, hay dùng lời lẽ khiêu khích.
+    - Thích làm cho bạn mất kiểm soát và cầu xin.
+
+- Track_Des
+    Track 01　Từ hôm nay chúng tôi sẽ là người giáo dục tình dục của cậu♡　(6:09)
+    Track 02　Hướng dẫn thủ dâm thực tế♡　(20:28)
+    Track 03　Phòng học ve núm vú♡　(24:56)
+    Track 04　Địa ngục kiềm chế xuất tinh trong bộ đồ bơi♡　(21:08)
+    Track 05　Huấn luyện kiểu con nít và quan hệ lần đầu♡　(21:01)
+    Track 06　Yuna ve vuốt núm vú lẫn nhau♡　(15:42)
+    Track 07　Xác nhận sa đọa maso + Địa ngục kiềm chế xuất tinh♡　(20:34)
+br:
+	<img src="https://img.dlsite.jp/modpub/images2/parts/RJ01531000/RJ01530720/3a693bb129b97dd375549efaf78589d7.jpg" style="width:100%">
