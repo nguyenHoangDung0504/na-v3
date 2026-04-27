@@ -1,6 +1,6 @@
 const CACHE_NAME = 'na-v3.cache'
 const CACHE_VERSION = 6
-const CACHE_EXPIRATION = time({ minutes: 10 })
+const CACHE_EXPIRATION = time({ hours: 24 * 30 })
 const LOG = true
 
 const cacheTargets = buildCacheTargets`
@@ -57,7 +57,7 @@ function time({ hours = 0, minutes = 0, seconds = 0 } = {}) {
 	hours ??= 0
 	minutes ??= 0
 	seconds ??= 0
-	return 1000 * (hours * 60 ** 2 + minutes * 60 + seconds)
+	return 1000 * (hours * 3600 + minutes * 60 + seconds)
 }
 
 /**
@@ -234,8 +234,6 @@ function getCacheRequest(request, ignoreParam = false) {
 		referrer: request.referrer,
 		referrerPolicy: request.referrerPolicy,
 		integrity: request.integrity,
-		// KHÔNG được set mode nếu là 'navigate'
-		// mode: request.mode, ← bỏ dòng này!
 	}
 
 	return new Request(cacheKey, safeInit)
