@@ -207,7 +207,8 @@ self.addEventListener('fetch', (event) => {
 				await saveCacheMetadata(cache, cacheRequest)
 				return networkResponse
 			} catch (error) {
-				LOG && console.error(`--> [CacheManager.worker]: Fetch failed and no cache available: ${event.request.url}`)
+				LOG &&
+					console.error(`--> [CacheManager.worker]: Fetch failed and no cache available: ${event.request.url}`, error)
 				return new Response('--> [CacheManager.worker]: Network error and no cache available', {
 					status: 503,
 					statusText: 'Service Unavailable',

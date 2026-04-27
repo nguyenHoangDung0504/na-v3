@@ -936,18 +936,11 @@ let _hasAllVtt = false
 let _allCues = null
 
 if (_vttBase) {
-	try {
-		const res = await fetch(`${_vttBase}/all.txt`, { method: 'HEAD' })
-		_hasAllVtt = res.ok
-	} catch (_) {
-		_hasAllVtt = false
-	}
+	_allCues = await VTT.load(`${_vttBase}/all.txt`)
+	_hasAllVtt = _allCues.length > 0
 }
 
-if (_hasAllVtt) {
-	// Load và parse toàn bộ all.txt một lần duy nhất
-	_allCues = await VTT.load(`${_vttBase}/all.txt`)
-} else {
+if (!_hasAllVtt) {
 	// Fallback: gán vttURL riêng từng track như cơ chế cũ
 	TRACKS.forEach((t) => {
 		t.vttURL = `${t._vttBase}/${t._idx}.txt`
