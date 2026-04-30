@@ -61,7 +61,10 @@ export class TrackCategories {
 
 export class Resource {
 	constructor(prefixID, name) {
-		this.prefixID = Number(prefixID)
+		// this.prefixID = Number(prefixID)
+		// Update 30/4/2026
+		this.prefixID = prefixID
+
 		this.rawName = name
 		this.query = ''
 		this.fullPath = undefined

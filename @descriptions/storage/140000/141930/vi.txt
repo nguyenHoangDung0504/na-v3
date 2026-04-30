@@ -1,0 +1,75 @@
+- Content_Des
+	★Giới thiệu
+	Ở trường bạn có một câu lạc bộ trong mơ, nơi bạn có thể quấy rối tình dục các nữ sinh trung học thỏa thích, để bạn không lớn lên thành một người lớn xấu xa chuyên quấy rối tình dục người khác trong tương lai — "Câu lạc bộ Quấy rối Tình dục Trên Chiếc Đệm Trần Trần"♪ Khi bạn lẻn vào phòng câu lạc bộ, những nữ sinh trung học khỏa thân sẽ chào đón bạn...♪ Các nữ sinh trung học sẽ giả vờ như bạn không được phép chạm vào họ và nói "Không đời nào♡," nhưng đó chỉ là giả vờ...♡ Họ sẽ cho phép bạn quấy rối tình dục họ cho đến khi bạn thỏa mãn♡
+br:
+	★Concept
+	Những lời thì thầm khe khẽ × những nữ sinh trung học mũm mĩm, trần truồng × quấy rối và quyến rũ tình dục ở cự ly cực gần, thân mật ♡
+	Họ cho bạn thấy lưỡi của họ và quyến rũ bạn bằng một nụ hôn kiểu Pháp...♪
+	Họ khoe thân hình đầy đặn của mình ngay bên tai bạn...♪
+	Bạn cảm thấy rùng mình và hơi thở nóng bỏng từ họ ở cự ly cực gần...♪
+	Sau khi trêu chọc "cậu nhỏ" của bạn một cách triệt để...
+	đã đến lúc cơn cuồng dâm quấy rối tình dục bùng phát để giải phóng ham muốn của bạn ♡
+
+- Character_Des
+	str:Riko (Phải)
+	CV: Takanashi Hanami
+br:
+	"Ôi trời ơi♪ Thật hư hỏng khi hôn một cô gái không muốn hôn~♡"
+	Một thành viên của Câu lạc bộ Quấy rối Tình dục Nệm Trần truồng, cô ấy chỉ tham gia vì điểm số.
+	Cô ấy là một cô gái dễ thương và ranh mãnh, rất nổi tiếng ở trường, được các nam sinh tỏ tình ít nhất một lần một tuần♪
+	Cô ấy biết rõ mình dễ thương và có thân hình mà các chàng trai không thể cưỡng lại, và cô ấy
+	sẽ cố gắng quyến rũ bạn một cách tinh ranh♡
+hr:
+	str:Mizuki (Trái)
+	CV: Yuzuki Tsubame
+br:
+	"Tôi đã bảo cậu đừng làm thế rồi mà... Cậu đúng là một tên biến thái vô vọng"
+	Chủ tịch của Câu lạc bộ Quấy rối Tình dục Nệm Trần truồng.
+	Là chủ tịch, cô ấy mắng mỏ những chàng trai không thể kiểm soát hành vi quấy rối tình dục của mình, nhưng
+	cô ấy không biết rằng điều này chỉ khiến dương vật của họ ngứa ngáy♪ Cô ấy có vẻ lạnh lùng, nhưng cô ấy sẽ đảm bảo cho dương vật của bạn một màn thủ dâm tuyệt vời
+	để bạn có thể giải tỏa ham muốn quấy rối tình dục của mình một cách đúng đắn ♡
+	
+- Track_Des
+	str:01: Chiếc đệm của Mizuki ~Liếm tai và Mát xa đùi căng tròn~ (33 phút)
+
+	Khi bạn lẻn vào chiếc đệm trong phòng sinh hoạt câu lạc bộ, một Mizuki khỏa thân sẽ chào đón bạn...♡
+
+	"Bạn định làm nhiều điều hư hỏng phải không♡"
+	"Bạn muốn quấy rối tình dục tôi nhiều phải không...♡"
+
+	(Những lời thì thầm quyến rũ thân mật♡/Nhiều hơi thở nóng bỏng♡/Tiếng rên giả vờ♡/Liếm tai dính nhớp♡/Sờ khắp cơ thể Mizuki♡/Những nụ hôn má quyến rũ♡/Những nụ hôn kiểu Pháp trêu chọc♡/Những nụ hôn lưỡi nồng nàn khơi gợi ham muốn♡/Ngọt ngào và dịu dàng♡/Mát xa đùi căng tròn♡/Tiếng kêu xuất tinh♡)
+hr:
+	str:02: Chiếc đệm của Riko ~Hôn lưỡi và Mát xa đùi căng tròn~ (26 phút)
+
+	Khi bạn lẻn vào chiếc đệm trong phòng sinh hoạt câu lạc bộ, một Riko khỏa thân sẽ Chào bạn...♡
+
+	"Chuyện gì đang xảy ra vậy? Có chuyện gì thế?" 03: Đệm của Mizuki & Riko ~ Tớ không hề áp ngực vào cậu đâu nhé~ ♪"
+	"Ôi trời ơi~?" "Hôm nay cậu có thực sự cưỡng lại được sự quấy rối tình dục không~?"
+
+	(Những lời thì thầm quyến rũ trần trụi ♡ / Nhiều hơi thở nóng bỏng ♡ / Cố tình áp ngực vào người cậu ♡ / Một nụ hôn kiểu Pháp quá dễ thương ♡ / Khoe lưỡi và quyến rũ cậu bằng một nụ hôn kiểu Pháp ♡ / Một nụ hôn kiểu Pháp nồng cháy giải phóng mọi ham muốn ♡ / Mát-xa bộ ngực khủng của cô ấy một cách điên cuồng ♡ / Thủ dâm cho cô ấy trên đôi đùi đầy đặn ♡ / Lên đỉnh trong khi được hôn kiểu Pháp ♡)
+hr:
+	str:03: Chiếc đệm của Mizuki & Riko ~ Yêu thật lòng và quan hệ tình dục thật sự với Mizuki ~ (25 phút)
+
+	Khi cậu lẻn vào chiếc đệm trong phòng câu lạc bộ, Mizuki & Riko sẽ ở đó để chào đón cậu, hoàn toàn khỏa thân... ♡
+
+	"Tớ nhận được tin nhắn từ cậu, nên Riko và tớ đang ở đây cùng nhau... đúng như cậu muốn, khỏa thân trên chiếc đệm... để chào đón cậu ♡"
+	"Cậu đúng là đồ biến thái ♡ 04: Mizuki & Giường của Riko ~Riko và tôi không thể chịu đựng được sự quấy rối tình dục, nhưng giờ tôi đang chấp nhận cám dỗ của hậu cung này...♡"
+
+	(Trần truồng và áp sát vào nhau, những lời thì thầm quyến rũ♡/Những hơi thở nóng bỏng♡/Đôi chân mịn màng quấn quanh tôi, không thể che giấu dương vật cương cứng của tôi♡/Ngực bị ép chặt đến nỗi tay tôi chìm vào♡/Liếm tai kiểu hậu cung♡/Hông tôi bị trêu chọc đến mức tối đa♡/Thay phiên nhau gọi tôi là "kẻ biến thái♪"♡/Cảm thấy như một vị vua, tôi nắm lấy cả hai vòng mông to của họ♡/Giao phối âm đạo tình yêu đích thực♡/Những lời tuyên bố tình yêu lặp đi lặp lại♡/Hôn kiểu Pháp trong khi tôi xuất tinh vào bên trong họ♡)
+hr:
+	str:04: Giường của Mizuki & Riko ~Riko và Tình dục Ngọt ngào Yêu thương~ (29 phút)
+
+	Phần tiếp theo của track 3♪
+
+	"Em đang áp sát vào bụng chúng tôi, nói rằng em muốn giao phối, em muốn giao phối...♡" Không đời nào ♡ Chúng tôi chưa cho phép bạn đâu ♡"
+	"Thôi nào... ♡ Nắm lấy mông to của tôi đi... ♡ Đây không phải là tín hiệu để bắt đầu quấy rối tình dục đâu, bạn biết chứ?"
+
+	(Những lời thì thầm quyến rũ trần trụi ♡ / Nhiều hơi thở nóng bỏng ♡ / Nhiều nụ hôn kiểu Pháp ♡ / Hôn lưỡi kiểu hậu cung và quyến rũ quấy rối tình dục ♡ / Mát xa ngọt ngào trong khi hôn lưỡi ♡ / Nhìn chằm chằm vào khuôn mặt đáng yêu, thực sự xấu hổ của Riko ♡ / Liếm khắp miệng Riko và hôn cô ấy một cách nồng nhiệt ♡ / Giao hợp âm đạo bằng tình yêu đích thực / Xuất tinh bên trong trong khi hôn lưỡi)
+hr:
+	str:05: Mizuki & Riko trên giường ~ Những lời thì thầm yêu thương và màn thủ dâm ngọt ngào ~ (3 phút)
+	*Đây là một bản nhạc bổ sung sẽ giúp bạn lên đỉnh nhanh chóng!
+
+	Khi bạn lẻn vào chiếc futon trong phòng câu lạc bộ, bạn sẽ thấy Mizuki và Riko, hoàn toàn khỏa thân và hoàn toàn yêu bạn, đang chào đón bạn... ♡
+
+	(Rất nhiều lời ngọt ngào/Tiếng thì thầm ♡/Mát xa kiểu Harem ♡)
+	

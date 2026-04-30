@@ -1,4 +1,5 @@
 import { Category } from '../../app.models.mjs'
+import { fromB64 } from './utils.mjs'
 
 /**
  * @template {'cv' | 'tag' | 'series'} T
@@ -48,14 +49,11 @@ export default class CategoryStorage {
 		lines.shift()
 
 		lines.forEach((line) => {
-			const [id, name, quantity] = line.split(',')
-			this._registry.set(
-				Number(id),
-				new Category(+id, this._type, (name === 'Described' ? '*' : '') + name, Number(quantity)),
-			)
+			const [idStr, name, quantity] = line.split(',')
+			const id = fromB64(idStr)
+			this._registry.set(id, new Category(id, this._type, (name === 'Described' ? '*' : '') + name, Number(quantity)))
 		})
 
-		// Lấy danh sách ID để tối ưu việc sắp xếp
 		this._IDs = [...this._registry.keys()]
 	}
 

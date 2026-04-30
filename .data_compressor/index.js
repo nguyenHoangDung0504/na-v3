@@ -15,16 +15,34 @@ const DIST_PATH = (function getDist() {
 	return DIST_PATH
 })()
 
+// ─── Base64 ID helpers ────────────────────────────────────────────────────────
+// Bảng 64 ký tự: 0-9 A-Z a-z _ ~  (an toàn cho CSV và URL)
+const B64_CHARS = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz_~'
+
+/**
+ * Encode một số nguyên dương (1-based) thành chuỗi base64 tùy chỉnh.
+ * ID 1–63  → 1 ký tự   (tiết kiệm so với "1"–"63")
+ * ID 64–4095 → 2 ký tự (tiết kiệm so với "64"–"4095")
+ * @param {number} n
+ * @returns {string}
+ */
+function toB64(n) {
+	if (n <= 0) throw new RangeError('toB64: n must be >= 1')
+	let result = ''
+	do {
+		result = B64_CHARS[n % 64] + result
+		n = Math.floor(n / 64)
+	} while (n > 0)
+	return result
+}
+// ─────────────────────────────────────────────────────────────────────────────
+
 // Get described ID, has VTT ID
 const { vttIDs, describedIDs } = scanStorage()
 writeFileSync(
 	join(DIST_PATH, '@described-tracks.txt'),
 	`Described:${describedIDs.join(',')}\n\nHas VTT:${vttIDs.join(',')}`,
 )
-// writeFileSync(
-// 	join(__dirname, './storage/data.csv'),
-// 	data.map(([id, ...info]) => `${id}:\n${info.map((data) => `\t${data}`).join('\n')}`).join('\n\n') + '\n',
-// )
 
 // Zip main data
 optimizeCSV()
@@ -42,9 +60,7 @@ function optimizeCSV() {
 		})
 		.map((row) =>
 			row.map((col, index) =>
-				[5, 6].includes(index) && typeof col === 'string' && col.length // Chỉ convertQuotes trên col engname, japname
-					? convertQuotes(col.trim())
-					: col,
+				[5, 6].includes(index) && typeof col === 'string' && col.length ? convertQuotes(col.trim()) : col,
 			),
 		)
 
@@ -97,6 +113,7 @@ function formatCategoryLine(categoryString) {
 
 /**
  * Tách category và lưu file tối ưu hóa
+ * IDs được encode bằng base64 tùy chỉnh để tiết kiệm dung lượng
  */
 function processCategories(data, columnIndex, fileName) {
 	const categoryMap = new Map()
@@ -120,13 +137,14 @@ function processCategories(data, columnIndex, fileName) {
 	})
 
 	const categoryEntries = Array.from(categoryMap.entries())
-	const optimizedData = categoryEntries.map(([category, { index, count }]) => `${index},${category},${count}`)
+	const optimizedData = categoryEntries.map(([category, { index, count }]) => `${toB64(index)},${category},${count}`)
 	writeFileSync(
 		join(DIST_PATH, fileName),
 		'#category_id,#category_name,#quantity\n'.toUpperCase() + optimizedData.join('\n'),
 	)
 
-	const categoryIndexMap = new Map(categoryEntries.map(([category, { index }]) => [category, index]))
+	// Map tên category → base64 ID (dùng trong tracks.csv)
+	const categoryIndexMap = new Map(categoryEntries.map(([category, { index }]) => [category, toB64(index)]))
 	return categoryIndexMap
 }
 
@@ -143,7 +161,6 @@ function processURLs(data, columnIndexList, fileName) {
 function processURLsHierarchical(data, columnIndexList, fileName) {
 	console.log('\n> [DataCompressor] Hierarchical Prefix Compression')
 
-	// Bước 1: Thu thập URLs và tạo prefix level 1 (như cũ)
 	const urlFrequency = new Map()
 	data.forEach((line) => {
 		columnIndexList.forEach((columnIndex) => {
@@ -160,29 +177,21 @@ function processURLsHierarchical(data, columnIndexList, fileName) {
 	const urls = Array.from(urlFrequency.keys())
 	console.log(`\t- Số URL unique: ${urls.length}`)
 
-	// Bước 2: Tạo level 1 prefixes (tách tại / cuối)
 	const level1Prefixes = createLevel1Prefixes(urls, urlFrequency)
 	console.log(`\t- Level 1 prefixes: ${level1Prefixes.length}`)
 
-	// Bước 3: Phân tích và tạo hierarchical compression
 	const hierarchicalResult = createHierarchicalPrefixes(level1Prefixes)
 	console.log(`\t- Atoms (level 2+): ${hierarchicalResult.atoms.length}`)
 
-	// Bước 4: Áp dụng compression vào data
 	const prefixMap = applyHierarchicalCompression(data, columnIndexList, urls, level1Prefixes, hierarchicalResult)
 
-	// Bước 5: Lưu file với format hierarchical
 	saveHierarchicalPrefixFile(fileName, hierarchicalResult)
 
-	// Bước 6: Phân tích kết quả
 	analyzeHierarchicalCompression(urls, urlFrequency, level1Prefixes, hierarchicalResult)
 
 	return prefixMap
 }
 
-/**
- * Tạo level 1 prefixes (như thuật toán cũ)
- */
 function createLevel1Prefixes(urls, urlFrequency) {
 	const prefixCounts = new Map()
 
@@ -196,24 +205,19 @@ function createLevel1Prefixes(urls, urlFrequency) {
 	})
 
 	return Array.from(prefixCounts.entries())
-		.sort((a, b) => b[1] - a[1]) // Sort theo frequency
+		.sort((a, b) => b[1] - a[1])
 		.map(([prefix, count]) => ({ prefix, count, id: 0 }))
 }
 
-/**
- * Tạo hierarchical compression
- */
 function createHierarchicalPrefixes(level1Prefixes) {
-	const atoms = new Map() // Atomic pieces
-	const compositions = new Map() // Cách compose từ atoms
+	const atoms = new Map()
+	const compositions = new Map()
 	let atomId = 1
 
 	console.log('\t- Phân tích patterns:')
 
-	// Phân tích các pattern chung
 	const patterns = analyzeCommonPatterns(level1Prefixes.map((p) => p.prefix))
 
-	// Tạo atoms từ patterns
 	patterns.forEach((pattern) => {
 		if (!atoms.has(pattern.text)) {
 			atoms.set(pattern.text, {
@@ -226,7 +230,6 @@ function createHierarchicalPrefixes(level1Prefixes) {
 		}
 	})
 
-	// Tạo compositions cho mỗi level1 prefix
 	level1Prefixes.forEach((prefixInfo, index) => {
 		const composition = decomposePrefix(prefixInfo.prefix, atoms)
 		compositions.set(index + 1, {
@@ -244,48 +247,33 @@ function createHierarchicalPrefixes(level1Prefixes) {
 	}
 }
 
-/**
- * Phân tích patterns chung trong prefixes
- */
 function analyzeCommonPatterns(prefixes) {
 	const patterns = new Map()
 
-	// Pattern 1: Protocol
 	const protocols = ['https://', 'http://', 'ftp://']
 	protocols.forEach((protocol) => {
 		const count = prefixes.filter((p) => p.startsWith(protocol)).length
 		if (count >= 2) {
-			const savings = count * protocol.length - protocol.length - 10
-			patterns.set(protocol, {
-				text: protocol,
-				frequency: count,
-				savings,
-				type: 'protocol',
-			})
+			const savings = count * protocol.length - (protocol.length + 4) - count * 2
+			patterns.set(protocol, { text: protocol, frequency: count, savings, type: 'protocol' })
 		}
 	})
 
-	// Pattern 2: Common domains/subdomains
 	const domainPatterns = extractDomainPatterns(prefixes)
 	domainPatterns.forEach((pattern) => {
 		patterns.set(pattern.text, pattern)
 	})
 
-	// Pattern 3: Common paths
 	const pathPatterns = extractPathPatterns(prefixes)
 	pathPatterns.forEach((pattern) => {
 		patterns.set(pattern.text, pattern)
 	})
 
-	// Chỉ giữ patterns có lợi ích > 0
 	return Array.from(patterns.values())
-		.filter((p) => p.savings > 0)
+		.filter((p) => p.savings > 50)
 		.sort((a, b) => b.savings - a.savings)
 }
 
-/**
- * Extract domain patterns
- */
 function extractDomainPatterns(prefixes) {
 	const domainCounts = new Map()
 
@@ -293,24 +281,17 @@ function extractDomainPatterns(prefixes) {
 		try {
 			const url = new URL(prefix)
 			const hostname = url.hostname
-
-			// Extract subdomain patterns
 			const parts = hostname.split('.')
 			if (parts.length >= 2) {
-				// Check cho patterns như cdn1, cdn2, api1, api2
-				const basePattern = parts[0].replace(/\d+$/, '') // Remove numbers
+				const basePattern = parts[0].replace(/\d+$/, '')
 				if (basePattern !== parts[0] && basePattern.length >= 2) {
 					const domainSuffix = '.' + parts.slice(1).join('.')
 					const fullPattern = basePattern + '*' + domainSuffix
 					domainCounts.set(fullPattern, (domainCounts.get(fullPattern) || 0) + 1)
 				}
-
-				// Check cho exact domain matches
 				domainCounts.set(hostname, (domainCounts.get(hostname) || 0) + 1)
 			}
-		} catch (e) {
-			// Skip invalid URLs
-		}
+		} catch (e) {}
 	})
 
 	return Array.from(domainCounts.entries())
@@ -318,14 +299,11 @@ function extractDomainPatterns(prefixes) {
 		.map(([pattern, count]) => ({
 			text: pattern,
 			frequency: count,
-			savings: count * pattern.length - pattern.length - 10,
+			savings: count * pattern.length - (pattern.length + 4) - count * 2, // overhead: def row + ref "id>"
 			type: 'domain',
 		}))
 }
 
-/**
- * Extract path patterns
- */
 function extractPathPatterns(prefixes) {
 	const pathCounts = new Map()
 
@@ -333,31 +311,23 @@ function extractPathPatterns(prefixes) {
 		try {
 			const url = new URL(prefix)
 			const pathSegments = url.pathname.split('/').filter(Boolean)
-
-			// Check các path prefix chung
-			// for (let i = 1; i <= Math.min(pathSegments.length, 3); i++) {
-			for (let i = 1; i <= Math.min(pathSegments.length, 5); i++) {
+			for (let i = 1; i <= Math.min(pathSegments.length, 7); i++) {
 				const pathPrefix = '/' + pathSegments.slice(0, i).join('/') + '/'
 				pathCounts.set(pathPrefix, (pathCounts.get(pathPrefix) || 0) + 1)
 			}
-		} catch (e) {
-			// Skip invalid URLs
-		}
+		} catch (e) {}
 	})
 
 	return Array.from(pathCounts.entries())
-		.filter(([path, count]) => count >= 5 && path.length >= 5)
+		.filter(([path, count]) => count >= 2 && path.length >= 8)
 		.map(([path, count]) => ({
 			text: path,
 			frequency: count,
-			savings: count * path.length - path.length - 10,
+			savings: count * path.length - (path.length + 4) - count * 2, // overhead: def row + ref "id>"
 			type: 'path',
 		}))
 }
 
-/**
- * Decompose một prefix thành atoms
- */
 function decomposePrefix(prefix, atoms) {
 	const atomsList = Array.from(atoms.values()).sort((a, b) => b.text.length - a.text.length)
 	const composition = []
@@ -366,7 +336,6 @@ function decomposePrefix(prefix, atoms) {
 	while (remaining.length > 0) {
 		let matched = false
 
-		// Tìm atom dài nhất match với phần đầu của remaining
 		for (const atom of atomsList) {
 			if (remaining.startsWith(atom.text)) {
 				composition.push({ type: 'atom', id: atom.id, text: atom.text })
@@ -377,16 +346,13 @@ function decomposePrefix(prefix, atoms) {
 		}
 
 		if (!matched) {
-			// Không match được atom nào, lấy ký tự tiếp theo
 			const nextChar = remaining[0]
 			const lastPart = composition[composition.length - 1]
-
 			if (lastPart && lastPart.type === 'literal') {
 				lastPart.text += nextChar
 			} else {
 				composition.push({ type: 'literal', text: nextChar })
 			}
-
 			remaining = remaining.substring(1)
 		}
 	}
@@ -395,16 +361,15 @@ function decomposePrefix(prefix, atoms) {
 }
 
 /**
- * Áp dụng hierarchical compression vào data
+ * Áp dụng hierarchical compression (ghi base64 ID vào CSV data)
  */
 function applyHierarchicalCompression(data, columnIndexList, urls, level1Prefixes, hierarchicalResult) {
-	// Tạo mapping từ original prefix → level1 ID
+	// Map original prefix string → base64 ID string
 	const prefixToIdMap = new Map()
 	level1Prefixes.forEach((p) => {
-		prefixToIdMap.set(p.prefix, p.id)
+		prefixToIdMap.set(p.prefix, toB64(p.id))
 	})
 
-	// Áp dụng compression
 	data.forEach((line) => {
 		columnIndexList.forEach((columnIndex) => {
 			const urls = line[columnIndex].replace(/"/g, '').split(',')
@@ -418,7 +383,6 @@ function applyHierarchicalCompression(data, columnIndexList, urls, level1Prefixe
 					let name = cleanURL.substring(lastSlashIndex + 1)
 					const prefixId = prefixToIdMap.get(prefix)
 
-					// Note: update 17/8/2025, test decodeURIComponent for compress
 					name = decodeURIComponent(name)
 
 					if (prefixId) {
@@ -437,29 +401,24 @@ function applyHierarchicalCompression(data, columnIndexList, urls, level1Prefixe
 }
 
 /**
- * Lưu file prefix với format hierarchical
+ * Lưu file prefix với format hierarchical, dùng base64 IDs
  */
 function saveHierarchicalPrefixFile(fileName, hierarchicalResult) {
 	const lines = ['#TYPE:(A: Atom)(none: Prefix),#ID,#CONTENT']
 
-	// Lưu atoms trước
+	// Atoms: "A,<b64id>,<text>"
 	hierarchicalResult.atoms.forEach((atom) => {
-		lines.push(`A,${atom.id},${atom.text}`)
+		lines.push(`A,${toB64(atom.id)},${atom.text}`)
 	})
 
-	// Lưu compositions
+	// Compositions: "<b64id>,<expression>"
+	// Trong expression, atom ref dùng base64: "1>" → "<b64>>"
 	hierarchicalResult.compositions.forEach((comp, index) => {
 		const compositionStr = comp.composition
-			.map((part) => {
-				if (part.type === 'atom') {
-					return `${part.id}>`
-				} else {
-					return part.text
-				}
-			})
+			.map((part) => (part.type === 'atom' ? `${toB64(part.id)}>` : part.text))
 			.join('')
 
-		lines.push(`${index + 1},${compositionStr}`)
+		lines.push(`${toB64(index + 1)},${compositionStr}`)
 	})
 
 	writeFileSync(join(DIST_PATH, fileName), lines.join('\n'))
@@ -469,17 +428,9 @@ function saveHierarchicalPrefixFile(fileName, hierarchicalResult) {
 	console.log(`\t- Prefixes: ${hierarchicalResult.compositions.length}`)
 }
 
-/**
- * Phân tích hiệu quả hierarchical compression
- */
 function analyzeHierarchicalCompression(urls, urlFrequency, level1Prefixes, hierarchicalResult) {
-	// Tính kích thước gốc (URLs nguyên bản)
 	const originalSize = calculateOriginalSize(urls, urlFrequency)
-
-	// Tính kích thước với level 1 compression
 	const level1Result = calculateLevel1CompressionSize(urls, urlFrequency, level1Prefixes)
-
-	// Tính kích thước với hierarchical compression
 	const hierarchicalResult_size = calculateHierarchicalCompressionSize(
 		urls,
 		urlFrequency,
@@ -518,9 +469,6 @@ function analyzeHierarchicalCompression(urls, urlFrequency, level1Prefixes, hier
 	)
 }
 
-/**
- * Tính kích thước URLs gốc
- */
 function calculateOriginalSize(urls, urlFrequency) {
 	return urls.reduce((sum, url) => {
 		const frequency = urlFrequency.get(url) || 1
@@ -528,28 +476,21 @@ function calculateOriginalSize(urls, urlFrequency) {
 	}, 0)
 }
 
-/**
- * Tính kích thước với Level 1 compression - FIXED
- */
 function calculateLevel1CompressionSize(urls, urlFrequency, level1Prefixes) {
-	// 1. Kích thước bảng prefix
-	// Format: #TYPE:(none: Prefix),#ID,#CONTENT
 	const headerSize = '#TYPE:(none: Prefix),#ID,#CONTENT\n'.length
 
 	let prefixTableSize = headerSize
 	level1Prefixes.forEach((p, index) => {
-		// Format: "ID,PREFIX_CONTENT\n"
-		const line = `${index + 1},${p.prefix}\n`
+		// ID giờ là base64
+		const line = `${toB64(index + 1)},${p.prefix}\n`
 		prefixTableSize += line.length
 	})
 
-	// 2. Tạo map từ prefix -> ID để tính compressed data
 	const prefixToIdMap = new Map()
 	level1Prefixes.forEach((p, index) => {
-		prefixToIdMap.set(p.prefix, index + 1)
+		prefixToIdMap.set(p.prefix, toB64(index + 1))
 	})
 
-	// 3. Kích thước data sau nén
 	let compressedDataSize = 0
 	urls.forEach((url) => {
 		const frequency = urlFrequency.get(url) || 1
@@ -561,70 +502,43 @@ function calculateLevel1CompressionSize(urls, urlFrequency, level1Prefixes) {
 			const prefixId = prefixToIdMap.get(prefix)
 
 			if (prefixId) {
-				// Format: "ID->name" (đã decode name)
 				const decodedName = decodeURIComponent(name)
 				const compressedUrl = `${prefixId}->${decodedName}`
 				compressedDataSize += compressedUrl.length * frequency
 			} else {
-				// Không nén được, giữ nguyên
 				compressedDataSize += url.length * frequency
 			}
 		} else {
-			// Không có slash, giữ nguyên
 			compressedDataSize += url.length * frequency
 		}
 	})
 
-	const totalSize = prefixTableSize + compressedDataSize
-
-	return {
-		prefixTableSize,
-		compressedDataSize,
-		totalSize,
-	}
+	return { prefixTableSize, compressedDataSize, totalSize: prefixTableSize + compressedDataSize }
 }
 
-/**
- * Tính kích thước với Hierarchical compression - FIXED
- */
 function calculateHierarchicalCompressionSize(urls, urlFrequency, level1Prefixes, hierarchicalResult) {
-	// 1. Kích thước bảng atoms
-	// Header: #TYPE:(A: Atom)(none: Prefix),#ID,#CONTENT
 	const headerSize = '#TYPE:(A: Atom)(none: Prefix),#ID,#CONTENT\n'.length
 
 	let atomTableSize = headerSize
 	hierarchicalResult.atoms.forEach((atom) => {
-		// Format: "A,ID,CONTENT\n"
-		const line = `A,${atom.id},${atom.text}\n`
+		const line = `A,${toB64(atom.id)},${atom.text}\n`
 		atomTableSize += line.length
 	})
 
-	// 2. Kích thước bảng compositions
 	let compositionTableSize = 0
 	hierarchicalResult.compositions.forEach((comp, index) => {
-		// Tạo composition string theo format mới
 		const compositionStr = comp.composition
-			.map((part) => {
-				if (part.type === 'atom') {
-					return `${part.id}>` // Format: "ID>"
-				} else {
-					return part.text // Literal text
-				}
-			})
+			.map((part) => (part.type === 'atom' ? `${toB64(part.id)}>` : part.text))
 			.join('')
-
-		// Format: "ID,COMPOSITION_STRING\n"
-		const line = `${index + 1},${compositionStr}\n`
+		const line = `${toB64(index + 1)},${compositionStr}\n`
 		compositionTableSize += line.length
 	})
 
-	// 3. Tạo map từ prefix -> ID để tính compressed data
 	const prefixToIdMap = new Map()
 	level1Prefixes.forEach((p) => {
-		prefixToIdMap.set(p.prefix, p.id)
+		prefixToIdMap.set(p.prefix, toB64(p.id))
 	})
 
-	// 4. Kích thước data sau nén (giống như Level 1)
 	let compressedDataSize = 0
 	urls.forEach((url) => {
 		const frequency = urlFrequency.get(url) || 1
@@ -636,26 +550,17 @@ function calculateHierarchicalCompressionSize(urls, urlFrequency, level1Prefixes
 			const prefixId = prefixToIdMap.get(prefix)
 
 			if (prefixId) {
-				// Format: "ID->name" (đã decode name)
 				const decodedName = decodeURIComponent(name)
 				const compressedUrl = `${prefixId}->${decodedName}`
 				compressedDataSize += compressedUrl.length * frequency
 			} else {
-				// Không nén được, giữ nguyên
 				compressedDataSize += url.length * frequency
 			}
 		} else {
-			// Không có slash, giữ nguyên
 			compressedDataSize += url.length * frequency
 		}
 	})
 
 	const totalSize = atomTableSize + compositionTableSize + compressedDataSize
-
-	return {
-		atomTableSize,
-		compositionTableSize,
-		compressedDataSize,
-		totalSize,
-	}
+	return { atomTableSize, compositionTableSize, compressedDataSize, totalSize }
 }

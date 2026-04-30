@@ -1,5 +1,6 @@
 import { AddtionalURL, Resource, Track, TrackCategories, TrackInfo, TrackResources } from '../../app.models.mjs'
 import { string } from '../../app.utils.mjs'
+import { fromB64 } from './utils.mjs'
 
 export default class TrackStorage {
 	/**
@@ -47,12 +48,11 @@ export default class TrackStorage {
 			line = parseTrackLine(line)
 
 			const code = Number(line[0])
-			const cvIDs = line[2] ? line[2].split('-').map((id) => Number(id)) : []
-			const tagIDs = line[3] ? line[3].split('-').map((id) => Number(id)) : []
-			const seriesIDs = line[4] ? line[4].split('-').map((id) => Number(id)) : []
+			const cvIDs = line[2] ? line[2].split('-').map(fromB64) : []
+			const tagIDs = line[3] ? line[3].split('-').map(fromB64) : []
+			const seriesIDs = line[4] ? line[4].split('-').map(fromB64) : []
 			const thumbnail = new Resource(...line[7].split('->'))
 
-			// Note: update 17/8/2025, test decodeURIComponent for compress, replace "," with "/" splitor
 			const images = line[8] ? line[8].split('/').map((col) => new Resource(...col.split('->'))) : []
 			const audios = line[9] ? line[9].split('/').map((col) => new Resource(...col.split('->'))) : []
 			const additionalURLs = line[10] ? line[10].split(',').map((col) => new AddtionalURL(...col.split('::'))) : []
@@ -73,7 +73,6 @@ export default class TrackStorage {
 			)
 		})
 
-		// Lấy danh sách ID để tối ưu việc sắp xếp
 		this._IDs = [...this._registry.keys()].reverse()
 		console.log(`--> [Database.TrackStorage]: Added ${this._IDs.length} tracks`, this._registry)
 	}
@@ -148,7 +147,6 @@ function parseTrackLine(line) {
 		}
 	}
 
-	// Thêm phần cuối cùng vào mảng
 	current.trim().length !== 0 && values.push(current.trim())
 
 	return values
