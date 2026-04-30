@@ -904,6 +904,7 @@ IMAGES.push(
 
 const audios = track.resource.audios
 const audPrefixes = await db.prefixies.getAll(audios.map((aud) => aud.prefixID))
+console.log(audPrefixes)
 
 audios.forEach(({ name }, index) => {
 	const audioURL = `${audPrefixes[index]}${name}`

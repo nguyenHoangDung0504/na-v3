@@ -408,7 +408,7 @@ function saveHierarchicalPrefixFile(fileName, hierarchicalResult) {
 
 	// Atoms: "A,<b64id>,<text>"
 	hierarchicalResult.atoms.forEach((atom) => {
-		lines.push(`A,${toB64(atom.id)},${atom.text}`)
+		lines.push(`@,${toB64(atom.id)},${atom.text}`)
 	})
 
 	// Compositions: "<b64id>,<expression>"

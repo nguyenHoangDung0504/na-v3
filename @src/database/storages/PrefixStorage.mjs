@@ -29,8 +29,8 @@ export default class PrefixStorage {
 
 		for (const line of lines) {
 			const parts = line.split(',')
-			if (parts[0] === 'A') {
-				// Atom: "A,<b64id>,<text>"
+			if (parts[0] === '@') {
+				// Atom: "@,<b64id>,<text>"
 				const id = fromB64(parts[1])
 				this._atoms.set(id, parts[2])
 			} else {
@@ -76,6 +76,7 @@ export default class PrefixStorage {
 		const numericId = typeof id === 'string' ? fromB64(id) : id
 
 		if (!this._prefixExpr.has(numericId)) {
+			console.log('Not found:', numericId)
 			return undefined
 		}
 
