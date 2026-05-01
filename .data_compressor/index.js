@@ -404,9 +404,9 @@ function applyHierarchicalCompression(data, columnIndexList, urls, level1Prefixe
  * Lưu file prefix với format hierarchical, dùng base64 IDs
  */
 function saveHierarchicalPrefixFile(fileName, hierarchicalResult) {
-	const lines = ['#TYPE:(A: Atom)(none: Prefix),#ID,#CONTENT']
+	const lines = ['#TYPE:(@: Atom)(none: Prefix),#ID,#CONTENT']
 
-	// Atoms: "A,<b64id>,<text>"
+	// Atoms: "@,<b64id>,<text>"
 	hierarchicalResult.atoms.forEach((atom) => {
 		lines.push(`@,${toB64(atom.id)},${atom.text}`)
 	})
